@@ -26,5 +26,3 @@ This is my personal portfolio website built using HTML5 UP template and customiz
 - Responsive design
 
 ---
-
-⭐ If you like it, feel free to star or share!
