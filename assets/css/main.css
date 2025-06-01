@@ -4620,7 +4620,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
@@ -4687,3 +4686,27 @@ input, select, textarea {
 		}
 
 	}
+
+/* Your other styles... */
+
+.resume-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.profile-pic {
+  width: 260px;
+  height: 318px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
