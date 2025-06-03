@@ -8,6 +8,13 @@
 		<link rel="icon" type="image/png" href="images/hand.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta name="description" content="Portfolio of Rasel Mia, MSc in Business Intelligence, showcasing analytics, automation, and impactful data solutions.">
+		<meta name="keywords" content="Rasel Mia, Data Analyst, Business Intelligence, Python, R, SQL, Docker, Portfolio">
+		<meta property="og:title" content="Rasel Mia | Data Analyst Portfolio">
+		<meta property="og:description" content="Showcasing analytics, automation, and impactful data solutions.">
+		<meta property="og:image" content="images/portfolio_preview.jpeg">
+		<meta property="og:url" content="https://mraselm.github.io">
+		<meta property="og:type" content="website">
 	</head>
 	<body class="is-preload">
 
@@ -170,15 +177,15 @@
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="email" name="email" id="email" required />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<textarea name="message" id="message" rows="3" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
@@ -205,7 +212,7 @@
 								<ul class="icons alt">
 									<li>
     									<a href="https://www.linkedin.com/in/mrmia/" class="icon brands fa-linkedin" target="_blank">
-      										<span class="label">Twitter</span>
+      										<span class="label">LinkedIn</span>
     									</a>
   									</li>
   									<li>
@@ -229,7 +236,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; MD Rasel Mia 2025</li><li>All Right Reserve</a></li></ul>
+						<ul><li>&copy; MD Rasel Mia 2025</li><li>All Rights Reserved</a></li></ul>
 					</div>
 
 			</div>
@@ -275,5 +282,14 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
     alert("Oops! There was a problem submitting your form.");
   });
 });
+</script>
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function (e) {
+    const email = document.getElementById("email").value;
+    if (!email.includes("@")) {
+      alert("Please enter a valid email address.");
+      e.preventDefault();
+    }
+  });
 </script>
 </html>
