@@ -255,4 +255,23 @@
 
 		}
 
+		document.addEventListener("DOMContentLoaded", () => {
+			const scrollyLinks = document.querySelectorAll(".scrolly");
+
+			scrollyLinks.forEach(link => {
+				link.addEventListener("click", (e) => {
+					e.preventDefault(); // Prevent default anchor behavior
+					const targetId = link.getAttribute("href"); // Get the target section ID
+					const targetElement = document.querySelector(targetId);
+
+					if (targetElement) {
+						targetElement.scrollIntoView({
+							behavior: "smooth",
+							block: "nearest" // Scroll to the nearest visible portion of the target section
+						});
+					}
+				});
+			});
+		});
+
 })(jQuery);
