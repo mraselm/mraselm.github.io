@@ -4711,18 +4711,3 @@ input, select, textarea {
   justify-content: center;
 }
 
-.box-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 30px;
-}
-
-.box-grid .item {
-  background-color: #f4f4f4;
-  padding: 10px 15px;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: 500;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
