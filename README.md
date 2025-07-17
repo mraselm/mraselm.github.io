@@ -15,7 +15,7 @@ This is my personal portfolio website built using HTML5 UP template and customiz
 ## 📂 Pages
 
 - Home (`index.html`)
-- Resume (`elements.html`)
+- Resume (`resume.html`)
 - Blog / Data Story (`generic.html`)
 - Thank You Page
 
