@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-optional-front-matter
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: /:basename/
