@@ -108,17 +108,22 @@
       <div class="container inner">
         <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
         <nav class="nav-links">
-          <a href="#projects">Projects</a>
-          <a href="#skills">Toolbox</a>
-          <a href="#contact">Contact</a>
-          <a href="/blog.html">Data Story</a>
-          <a href="/resume/">Resume</a>
+          <a href="#projects" data-i18n="nav_projects">Projects</a>
+          <a href="#skills" data-i18n="nav_skills">Toolbox</a>
+          <a href="#contact" data-i18n="nav_contact">Contact</a>
+          <a href="/datastory/" data-i18n="nav_datastory">Data Story</a>
+          <a href="/resume/" data-i18n="nav_resume">Resume</a>
         </nav>
         <div class="header-actions">
           <div class="socials">
             <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
             <a href="https://github.com/mraselm" class="icon fab fa-github" aria-label="GitHub" target="_blank"></a>
             <a href="https://instagram.com/mrasel_mrm" class="icon fab fa-instagram" aria-label="Instagram" target="_blank"></a>
+          </div>
+          <div class="lang-switch">
+            <button id="lang-toggle" class="lang-toggle" type="button" aria-pressed="false" aria-label="Switch language">
+              <span class="lang-flag" id="lang-flag" aria-hidden="true">🇬🇧</span>
+            </button>
           </div>
           <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
             <span class="theme-track">
@@ -136,38 +141,38 @@
       <section class="hero" id="top">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">Business Data Science</p>
-            <h1>Building smarter, faster, data-driven decisions</h1>
-            <p>
+            <p class="eyebrow" data-i18n="hero_eyebrow">Business Data Science</p>
+            <h1 data-i18n="hero_title">Building smarter, faster, data-driven decisions</h1>
+            <p data-i18n="hero_body">
               I design machine learning models, interactive dashboards, and automated pipelines that turn complex data into smart,
               scalable solutions—from predicting customer behavior to uncovering deep market insights.
             </p>
             <div class="badge-row">
-              <span class="badge"><i class="fas fa-graduation-cap"></i>MSc Business Intelligence</span>
-              <span class="badge"><i class="fas fa-chart-line"></i>Analytics &amp; Automation</span>
-              <span class="badge"><i class="fas fa-database"></i>Power BI · Python · SQL · ML</span>
+              <span class="badge" data-i18n="badge_edu"><i class="fas fa-graduation-cap"></i>MSc Business Intelligence</span>
+              <span class="badge" data-i18n="badge_analytics"><i class="fas fa-chart-line"></i>Analytics &amp; Automation</span>
+              <span class="badge" data-i18n="badge_stack"><i class="fas fa-database"></i>Power BI · Python · SQL · ML</span>
             </div>
             <div class="cta-row">
-              <a class="btn primary" href="#projects">View Projects</a>
-              <a class="btn ghost" href="/resume/">Open Resume</a>
-              <a class="btn ghost" href="https://calendar.app.google/7v4thxh13mTU1ibZ6" target="_blank" rel="noopener" data-ga-event="cta_book_intro" data-ga-label="hero">Book a 30-min intro</a>
+              <a class="btn primary" href="#projects" data-i18n="cta_projects">View Projects</a>
+              <a class="btn ghost" href="/resume/" data-i18n="cta_resume">Open Resume</a>
+              <a class="btn ghost" href="https://calendar.app.google/7v4thxh13mTU1ibZ6" target="_blank" rel="noopener" data-ga-event="cta_book_intro" data-ga-label="hero" data-i18n="cta_book">Book a 30-min intro</a>
             </div>
           </div>
 
           <div class="hero-visual">
             <div class="hero-card">
               <img src="/images/businessanalyst.jpg" alt="Business analytics dashboard" />
-              <div class="note"><i class="fas fa-bolt"></i> Fast experiments, measurable impact.</div>
-              <p>
+              <div class="note" data-i18n="hero_note"><i class="fas fa-bolt"></i> Fast experiments, measurable impact.</div>
+              <p data-i18n="hero_para">
                 From churn prediction and explainable ML to streamlined BI reporting, I connect data, tools, and teams so decisions are
                 clear, defensible, and quick to act on.
               </p>
             </div>
             <div class="meta-grid">
-              <div class="meta-item"><span>Current</span><strong>MSc in Business Intelligence, Aarhus University</strong></div>
-              <div class="meta-item"><span>Focus</span><strong>Data Strategy · Forecasting · Customer Analytics</strong></div>
-              <div class="meta-item"><span>Strengths</span><strong>Storytelling Dashboards · Rapid Experiments · SHAP-Driven Insight</strong></div>
-              <div class="meta-item"><span>Available for</span><strong>BI Analyst · Data Analyst · ML Enthusiast</strong></div>
+              <div class="meta-item"><span data-i18n="meta_current_label">Current</span><strong data-i18n="meta_current">MSc in Business Intelligence, Aarhus University</strong></div>
+              <div class="meta-item"><span data-i18n="meta_focus_label">Focus</span><strong data-i18n="meta_focus">Data Strategy · Forecasting · Customer Analytics</strong></div>
+              <div class="meta-item"><span data-i18n="meta_strengths_label">Strengths</span><strong data-i18n="meta_strengths">Storytelling Dashboards · Rapid Experiments · SHAP-Driven Insight</strong></div>
+              <div class="meta-item"><span data-i18n="meta_available_label">Available for</span><strong data-i18n="meta_available">BI Analyst · Data Analyst · ML Enthusiast</strong></div>
             </div>
           </div>
         </div>
@@ -176,17 +181,17 @@
       <section id="projects">
         <div class="container">
           <div class="section-header">
-            <p class="eyebrow">Selected Work</p>
-            <h2 class="section-title">Turning data into decisions</h2>
-            <p>Same work, sharper presentation—here are the projects I rely on to demonstrate analytics, BI, and ML in motion.</p>
+            <p class="eyebrow" data-i18n="projects_eyebrow">Selected Work</p>
+            <h2 class="section-title" data-i18n="projects_title">Turning data into decisions</h2>
+            <p data-i18n="projects_desc">Same work, sharper presentation—here are the projects I rely on to demonstrate analytics, BI, and ML in motion.</p>
           </div>
 
           <div class="projects-grid">
             <article class="project-card">
               <div class="date">Nov 20, 2025</div>
               <img class="project-thumb" src="/images/customerchurn.jpg" alt="Customer churn dashboard preview" />
-              <h3>AI-Powered Customer Churn Prediction &amp; Retention Dashboard</h3>
-              <p>
+              <h3 data-i18n="proj1_title">AI-Powered Customer Churn Prediction &amp; Retention Dashboard</h3>
+              <p data-i18n="proj1_desc">
                 Streamlit + PyCaret AutoML with SHAP explainability and OpenAI recommendations. Upload customer data, train models,
                 inspect churn drivers, and trigger retention strategies—all in one workflow.
               </p>
@@ -196,16 +201,16 @@
                 <span class="tag">Streamlit</span>
               </div>
               <div class="actions">
-                <a class="btn ghost" href="https://github.com/mraselm/customer-churn-dashboard.git" target="_blank">View project</a>
-                <a class="btn primary" href="https://app.raselmia.live/" target="_blank">Try it</a>
+                <a class="btn ghost" href="https://github.com/mraselm/customer-churn-dashboard.git" target="_blank" data-i18n="cta_view_project">View project</a>
+                <a class="btn primary" href="https://app.raselmia.live/" target="_blank" data-i18n="cta_try">Try it</a>
               </div>
             </article>
 
             <article class="project-card">
               <div class="date">May 31, 2025</div>
               <img class="project-thumb" src="/images/portfolio_preview.jpeg" alt="Portfolio preview" />
-              <h3>Personal Portfolio — Hosted on GitHub Pages</h3>
-              <p>
+              <h3 data-i18n="proj2_title">Personal Portfolio — Hosted on GitHub Pages</h3>
+              <p data-i18n="proj2_desc">
                 A responsive personal portfolio designed to present academic background, skills, and data projects. Built with HTML/CSS
                 and powered by GitHub Pages + Formspree for direct contact.
               </p>
@@ -215,15 +220,15 @@
                 <span class="tag">GitHub Pages</span>
               </div>
               <div class="actions">
-                <a class="btn ghost" href="https://github.com/mraselm/mraselm.github.io.git" target="_blank">View project</a>
+                <a class="btn ghost" href="https://github.com/mraselm/mraselm.github.io.git" target="_blank" data-i18n="cta_view_project">View project</a>
               </div>
             </article>
 
             <article class="project-card">
               <div class="date">May 10, 2025</div>
               <img class="project-thumb" src="/images/parking.png" alt="Parking availability dashboard" />
-              <h3>Parking Prediction &amp; Optimization in Aarhus</h3>
-              <p>
+              <h3 data-i18n="proj3_title">Parking Prediction &amp; Optimization in Aarhus</h3>
+              <p data-i18n="proj3_desc">
                 Combines real-time parking API data, weather, and congestion to forecast availability. ML models (Random Forest,
                 XGBoost) feed interactive dashboards to cut search time and city congestion.
               </p>
@@ -233,15 +238,15 @@
                 <span class="tag">Forecasting</span>
               </div>
               <div class="actions">
-                <a class="btn ghost" href="https://github.com/mraselm/parking-availability-prediction-aarhus.git" target="_blank">View project</a>
+                <a class="btn ghost" href="https://github.com/mraselm/parking-availability-prediction-aarhus.git" target="_blank" data-i18n="cta_view_project">View project</a>
               </div>
             </article>
 
             <article class="project-card">
               <div class="date">May 1, 2025</div>
               <img class="project-thumb" src="/images/mobilecase.jpg" alt="Mobile price prediction model" />
-              <h3>Estimating Mobile Phone Price Ranges with ML</h3>
-              <p>
+              <h3 data-i18n="proj4_title">Estimating Mobile Phone Price Ranges with ML</h3>
+              <p data-i18n="proj4_desc">
                 Built classification models on 2,000 phones with 21 features to predict price tiers. Highlights feature importance so
                 teams can shape market positioning and product strategy.
               </p>
@@ -251,15 +256,15 @@
                 <span class="tag">Feature Insight</span>
               </div>
               <div class="actions">
-                <a class="btn ghost" href="https://github.com/mraselm/case-study-estimate-mobile-price.git" target="_blank">View project</a>
+                <a class="btn ghost" href="https://github.com/mraselm/case-study-estimate-mobile-price.git" target="_blank" data-i18n="cta_view_project">View project</a>
               </div>
             </article>
 
             <article class="project-card">
               <div class="date">June 19, 2025</div>
               <img class="project-thumb" src="/images/candlestick.jpg" alt="Candlestick chart deep learning" />
-              <h3>Predicting Stock Moves from Candlestick Images</h3>
-              <p>
+              <h3 data-i18n="proj5_title">Predicting Stock Moves from Candlestick Images</h3>
+              <p data-i18n="proj5_desc">
                 A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning
                 rates deliver stronger accuracy and faster convergence.
               </p>
@@ -269,7 +274,7 @@
                 <span class="tag">Python</span>
               </div>
               <div class="actions">
-                <a class="btn ghost" href="https://github.com/mraselm/stock-chart-image-classifier.git" target="_blank">View project</a>
+                <a class="btn ghost" href="https://github.com/mraselm/stock-chart-image-classifier.git" target="_blank" data-i18n="cta_view_project">View project</a>
               </div>
             </article>
           </div>
@@ -279,13 +284,13 @@
       <section id="skills">
         <div class="container">
           <div class="section-header">
-            <p class="eyebrow">Capabilities</p>
-            <h2 class="section-title">Tools, stacks, and strengths</h2>
-            <p>What I use most days to move from data collection to decisions.</p>
+            <p class="eyebrow" data-i18n="skills_eyebrow">Capabilities</p>
+            <h2 class="section-title" data-i18n="skills_title">Tools, stacks, and strengths</h2>
+            <p data-i18n="skills_desc">What I use most days to move from data collection to decisions.</p>
           </div>
           <div class="skills-grid">
             <div class="skill-card">
-              <h3>Analytics &amp; Modeling</h3>
+              <h3 data-i18n="skills_analytics">Analytics &amp; Modeling</h3>
               <div class="chips">
                 <span class="chip">Power BI</span>
                 <span class="chip">Python</span>
@@ -297,7 +302,7 @@
               </div>
             </div>
             <div class="skill-card">
-              <h3>Platforms &amp; Workflow</h3>
+              <h3 data-i18n="skills_platforms">Platforms &amp; Workflow</h3>
               <div class="chips">
                 <span class="chip">Streamlit</span>
                 <span class="chip">Docker</span>
@@ -309,7 +314,7 @@
               </div>
             </div>
             <div class="skill-card">
-              <h3>Collaboration</h3>
+              <h3 data-i18n="skills_collab">Collaboration</h3>
               <div class="chips">
                 <span class="chip">Stakeholder storytelling</span>
                 <span class="chip">Experiment design</span>
@@ -324,17 +329,17 @@
       <section id="contact">
         <div class="container">
           <div class="section-header">
-            <p class="eyebrow">Contact</p>
-            <h2 class="section-title">Let’s build something meaningful</h2>
-            <p>Reach out for data analysis, BI, or ML collaborations. Replies within 24h CET.</p>
+            <p class="eyebrow" data-i18n="contact_eyebrow">Contact</p>
+            <h2 class="section-title" data-i18n="contact_title">Let’s build something meaningful</h2>
+            <p data-i18n="contact_desc">Reach out for data analysis, BI, or ML collaborations. Replies within 24h CET.</p>
           </div>
           <div class="contact-section">
             <div class="contact-card">
-              <h3>Details</h3>
+              <h3 data-i18n="contact_details">Details</h3>
               <ul>
-                <li><strong>Location:</strong> <a href="https://www.google.com/maps?q=Snogebæksvej,+Aarhus+V,+8210" target="_blank">Snogebæksvej, Aarhus V, 8210</a></li>
-                <li><strong>Phone:</strong> <a href="tel:+4550657452">(+45) 50 65 74 52</a></li>
-                <li><strong>Email:</strong> <a href="mailto:mraselmia.bi@gmail.com">mraselmia.bi@gmail.com</a></li>
+                <li><strong data-i18n="contact_location_label">Location:</strong> <a href="https://www.google.com/maps?q=Snogebæksvej,+Aarhus+V,+8210" target="_blank">Snogebæksvej, Aarhus V, 8210</a></li>
+                <li><strong data-i18n="contact_phone_label">Phone:</strong> <a href="tel:+4550657452">(+45) 50 65 74 52</a></li>
+                <li><strong data-i18n="contact_email_label">Email:</strong> <a href="mailto:mraselmia.bi@gmail.com">mraselmia.bi@gmail.com</a></li>
               </ul>
               <div class="socials" style="margin-top: 1rem;">
                 <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
@@ -346,19 +351,19 @@
 
             <form class="contact-form" id="contact-form" method="post" action="https://formspree.io/f/meokjvop">
               <div class="field">
-                <label for="name">Name</label>
+                <label for="name" data-i18n="form_name">Name</label>
                 <input type="text" name="name" id="name" required />
               </div>
               <div class="field">
-                <label for="email">Email</label>
+                <label for="email" data-i18n="form_email">Email</label>
                 <input type="email" name="email" id="email" required />
               </div>
               <div class="field">
-                <label for="message">Message</label>
+                <label for="message" data-i18n="form_message">Message</label>
                 <textarea name="message" id="message" rows="4" required></textarea>
               </div>
               <div class="actions">
-                <button type="submit" class="btn primary">Send message</button>
+                <button type="submit" class="btn primary" data-i18n="form_send">Send message</button>
               </div>
             </form>
           </div>
@@ -370,7 +375,7 @@
       <div class="container meta">
         <div>
           <div>&copy; MD Rasel Mia 2025 · All Rights Reserved</div>
-          <div>Open to BI/Data roles</div>
+          <div data-i18n="footer_open">Open to BI/Data roles</div>
         </div>
         <div class="socials">
           <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
@@ -383,5 +388,175 @@
     <div class="form-toast"><i class="fas fa-check-circle"></i>Thank you! Your message has been sent.</div>
 
     <script src="/assets/js/main.js"></script>
+    <script>
+      (function () {
+        const translations = {
+          en: {
+            nav_projects: "Projects",
+            nav_skills: "Toolbox",
+            nav_contact: "Contact",
+            nav_datastory: "Data Story",
+            nav_resume: "Resume",
+            hero_eyebrow: "Business Data Science",
+            hero_title: "Building smarter, faster, data-driven decisions",
+            hero_body:
+              "I design machine learning models, interactive dashboards, and automated pipelines that turn complex data into smart, scalable solutions—from predicting customer behavior to uncovering deep market insights.",
+            badge_edu: "MSc Business Intelligence",
+            badge_analytics: "Analytics & Automation",
+            badge_stack: "Power BI · Python · SQL · ML",
+            cta_projects: "View Projects",
+            cta_resume: "Open Resume",
+            cta_book: "Book a 30-min intro",
+            hero_note: "Fast experiments, measurable impact.",
+            hero_para:
+              "From churn prediction and explainable ML to streamlined BI reporting, I connect data, tools, and teams so decisions are clear, defensible, and quick to act on.",
+            meta_current_label: "Current",
+            meta_current: "MSc in Business Intelligence, Aarhus University",
+            meta_focus_label: "Focus",
+            meta_focus: "Data Strategy · Forecasting · Customer Analytics",
+            meta_strengths_label: "Strengths",
+            meta_strengths: "Storytelling Dashboards · Rapid Experiments · SHAP-Driven Insight",
+            meta_available_label: "Available for",
+            meta_available: "BI Analyst · Data Analyst · ML Enthusiast",
+            projects_eyebrow: "Selected Work",
+            projects_title: "Turning data into decisions",
+            projects_desc:
+              "Same work, sharper presentation—here are the projects I rely on to demonstrate analytics, BI, and ML in motion.",
+            proj1_title: "AI-Powered Customer Churn Prediction & Retention Dashboard",
+            proj1_desc:
+              "Streamlit + PyCaret AutoML with SHAP explainability and OpenAI recommendations. Upload customer data, train models, inspect churn drivers, and trigger retention strategies—all in one workflow.",
+            proj2_title: "Personal Portfolio — Hosted on GitHub Pages",
+            proj2_desc:
+              "A responsive personal portfolio designed to present academic background, skills, and data projects. Built with HTML/CSS and powered by GitHub Pages + Formspree for direct contact.",
+            proj3_title: "Parking Prediction & Optimization in Aarhus",
+            proj3_desc:
+              "Combines real-time parking API data, weather, and congestion to forecast availability. ML models (Random Forest, XGBoost) feed interactive dashboards to cut search time and city congestion.",
+            proj4_title: "Estimating Mobile Phone Price Ranges with ML",
+            proj4_desc:
+              "Built classification models on 2,000 phones with 21 features to predict price tiers. Highlights feature importance so teams can shape market positioning and product strategy.",
+            proj5_title: "Predicting Stock Moves from Candlestick Images",
+            proj5_desc:
+              "A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning rates deliver stronger accuracy and faster convergence.",
+            cta_view_project: "View project",
+            cta_try: "Try it",
+            skills_eyebrow: "Capabilities",
+            skills_title: "Tools, stacks, and strengths",
+            skills_desc: "What I use most days to move from data collection to decisions.",
+            skills_analytics: "Analytics & Modeling",
+            skills_platforms: "Platforms & Workflow",
+            skills_collab: "Collaboration",
+            contact_eyebrow: "Contact",
+            contact_title: "Let’s build something meaningful",
+            contact_desc: "Reach out for data analysis, BI, or ML collaborations. Replies within 24h CET.",
+            contact_details: "Details",
+            contact_location_label: "Location:",
+            contact_phone_label: "Phone:",
+            contact_email_label: "Email:",
+            form_name: "Name",
+            form_email: "Email",
+            form_message: "Message",
+            form_send: "Send message",
+            footer_open: "Open to BI/Data roles"
+          },
+          da: {
+            nav_projects: "Projekter",
+            nav_skills: "Værktøjskasse",
+            nav_contact: "Kontakt",
+            nav_datastory: "Datafortælling",
+            nav_resume: "CV",
+            hero_eyebrow: "Business Data Science",
+            hero_title: "Skaber hurtigere og klogere datadrevne beslutninger",
+            hero_body:
+              "Jeg bygger ML-modeller, interaktive dashboards og automatiske pipelines, der gør komplekse data til klare, skalerbare beslutninger—fra kundeindsigt til markedsanalyse.",
+            badge_edu: "Cand.merc. Business Intelligence",
+            badge_analytics: "Analyse & Automatisering",
+            badge_stack: "Power BI · Python · SQL · ML",
+            cta_projects: "Se projekter",
+            cta_resume: "Åbn CV",
+            cta_book: "Book et 30-min intro",
+            hero_note: "Hurtige eksperimenter, målbar effekt.",
+            hero_para:
+              "Fra churn-prediktion og forklarlig ML til strømlinet BI rapportering forbinder jeg data, værktøjer og teams, så beslutninger bliver tydelige, forsvarlige og hurtige at handle på.",
+            meta_current_label: "Nuværende",
+            meta_current: "Cand.merc. i Business Intelligence, Aarhus Universitet",
+            meta_focus_label: "Fokus",
+            meta_focus: "Datastrategi · Forecasting · Kundeanalyse",
+            meta_strengths_label: "Styrker",
+            meta_strengths: "Storytelling-dashboards · Hurtige eksperimenter · SHAP-drevet indsigt",
+            meta_available_label: "Tilgængelig til",
+            meta_available: "BI-analytiker · Dataanalytiker · ML-entusiast",
+            projects_eyebrow: "Udvalgt arbejde",
+            projects_title: "Omsætter data til beslutninger",
+            projects_desc:
+              "Samme arbejde, skarpere præsentation—projekterne jeg bruger til at vise analytics, BI og ML i praksis.",
+            proj1_title: "AI-baseret kunde-churn forudsigelse og retention-dashboard",
+            proj1_desc:
+              "Streamlit + PyCaret AutoML med SHAP-forklaringer og OpenAI anbefalinger. Upload kundedata, træn modeller, se churn-drivere og sæt retention tiltag i gang—alt i én løsning.",
+            proj2_title: "Personligt portfolio — hostet på GitHub Pages",
+            proj2_desc:
+              "Responsivt portfolio, der viser uddannelse, kompetencer og dataprojekter. Bygget i HTML/CSS og drevet af GitHub Pages + Formspree til kontakt.",
+            proj3_title: "Parkeringsprognoser og optimering i Aarhus",
+            proj3_desc:
+              "Kombinerer live parkerings-API, vejr og trængsel for at forudsige ledige pladser. ML-modeller (Random Forest, XGBoost) driver dashboards, der reducerer søgetid og trængsel.",
+            proj4_title: "Prisniveauer for mobiltelefoner med ML",
+            proj4_desc:
+              "Klassifikationsmodeller på 2.000 telefoner med 21 features for at forudsige prisklasser. Viser feature-importance så teams kan styre markedsposition og produktstrategi.",
+            proj5_title: "Forudsig aktiebevægelse fra lysestagebilleder",
+            proj5_desc:
+              "En CNN trænet fra bunden til at klassificere lysestagediagrammer og forudsige næste dags retning. Tunede learning rates giver bedre nøjagtighed og hurtigere konvergens.",
+            cta_view_project: "Se projekt",
+            cta_try: "Prøv det",
+            skills_eyebrow: "Kompetencer",
+            skills_title: "Værktøjer, stacks og styrker",
+            skills_desc: "Det jeg bruger til dagligt for at gå fra data til beslutninger.",
+            skills_analytics: "Analyse & Modellering",
+            skills_platforms: "Platforme & Workflow",
+            skills_collab: "Samarbejde",
+            contact_eyebrow: "Kontakt",
+            contact_title: "Lad os bygge noget meningsfuldt",
+            contact_desc: "Skriv om dataanalyse, BI eller ML-samarbejder. Svarer inden for 24 timer CET.",
+            contact_details: "Detaljer",
+            contact_location_label: "Lokation:",
+            contact_phone_label: "Telefon:",
+            contact_email_label: "Email:",
+            form_name: "Navn",
+            form_email: "Email",
+            form_message: "Besked",
+            form_send: "Send besked",
+            footer_open: "Åben for BI/Data-roller"
+          }
+        };
+
+        const elements = document.querySelectorAll('[data-i18n]');
+        const toggle = document.getElementById('lang-toggle');
+        const langFlag = document.getElementById('lang-flag');
+        const preferred = localStorage.getItem('lang') || 'en';
+        const flagMap = { en: '🇬🇧', da: '🇩🇰' };
+        const labelMap = { en: 'English', da: 'Dansk' };
+
+        function applyLang(lang) {
+          const dict = translations[lang] || translations.en;
+          elements.forEach((el) => {
+            const key = el.dataset.i18n;
+            if (dict[key]) {
+              el.textContent = dict[key];
+            }
+          });
+          document.documentElement.lang = lang;
+          localStorage.setItem('lang', lang);
+          if (langFlag) langFlag.textContent = flagMap[lang] || flagMap.en;
+        }
+
+        if (toggle) {
+          toggle.addEventListener('click', () => {
+            const next = (localStorage.getItem('lang') || 'en') === 'en' ? 'da' : 'en';
+            toggle.setAttribute('aria-pressed', next === 'da');
+            applyLang(next);
+          });
+        }
+
+        applyLang(preferred);
+      })();
+    </script>
   </body>
 </html>
