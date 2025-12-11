@@ -3,6 +3,38 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelector('.nav-links');
   const contactForms = document.querySelectorAll('form.contact-form');
   const toast = document.querySelector('.form-toast');
+  const themeToggle = document.querySelector('.theme-toggle');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+  const body = document.body;
+
+  const setTheme = (mode, persist = true) => {
+    const isDark = mode === 'dark';
+    body.classList.toggle('theme-dark', isDark);
+    if (themeToggle) {
+      themeToggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+    }
+    if (persist) localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  };
+
+  const storedTheme = localStorage.getItem('theme');
+  if (storedTheme === 'dark' || storedTheme === 'light') {
+    setTheme(storedTheme, false);
+  } else {
+    setTheme(prefersDark.matches ? 'dark' : 'light', false);
+  }
+
+  prefersDark.addEventListener('change', event => {
+    if (!localStorage.getItem('theme')) {
+      setTheme(event.matches ? 'dark' : 'light', false);
+    }
+  });
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const next = body.classList.contains('theme-dark') ? 'light' : 'dark';
+      setTheme(next);
+    });
+  }
 
   if (navToggle && navLinks) {
     navToggle.addEventListener('click', () => {
@@ -66,6 +98,20 @@ document.addEventListener('DOMContentLoaded', () => {
       full.style.display = isHidden ? 'block' : 'none';
       short.style.display = isHidden ? 'none' : 'block';
       button.textContent = isHidden ? 'Show Less' : 'Read More';
+    });
+  });
+
+  // Track GA events for CTAs if gtag is available
+  document.querySelectorAll('[data-ga-event]')?.forEach(link => {
+    link.addEventListener('click', () => {
+      const eventName = link.getAttribute('data-ga-event');
+      const label = link.getAttribute('data-ga-label') || link.textContent.trim();
+      if (typeof window.gtag === 'function' && eventName) {
+        window.gtag('event', eventName, {
+          event_category: 'CTA',
+          event_label: label
+        });
+      }
     });
   });
 });
