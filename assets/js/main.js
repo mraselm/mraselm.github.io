@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (navToggle && navLinks) {
     navToggle.addEventListener('click', () => {
       navLinks.classList.toggle('open');
+      navToggle.classList.toggle('active');
       // Prevent body scroll when nav is open on mobile
       document.body.style.overflow = navLinks.classList.contains('open') ? 'hidden' : '';
     });
@@ -46,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('open');
+        navToggle.classList.remove('active');
         document.body.style.overflow = '';
       });
     });
@@ -56,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
           !navLinks.contains(e.target) && 
           !navToggle.contains(e.target)) {
         navLinks.classList.remove('open');
+        navToggle.classList.remove('active');
         document.body.style.overflow = '';
       }
     });
@@ -64,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && navLinks.classList.contains('open')) {
         navLinks.classList.remove('open');
+        navToggle.classList.remove('active');
         document.body.style.overflow = '';
         navToggle.focus();
       }

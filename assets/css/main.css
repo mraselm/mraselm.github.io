@@ -36,12 +36,14 @@ html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   font-family: 'Manrope', system-ui, -apple-system, sans-serif;
   overscroll-behavior-y: contain;
+  overflow-x: hidden;
   color: var(--ink);
   background: var(--body-bg);
   min-height: 100vh;
@@ -362,12 +364,54 @@ h3 {
   border: 1px solid var(--border);
   background: #fff;
   border-radius: 12px;
-  padding: 0.55rem 0.85rem;
-  font-weight: 600;
+  padding: 0.75rem;
   cursor: pointer;
   min-width: 44px;
   min-height: 44px;
   transition: background var(--transition), border-color var(--transition);
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-toggle .hamburger {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--ink);
+  position: relative;
+  transition: background 0.2s ease;
+}
+
+.nav-toggle .hamburger::before,
+.nav-toggle .hamburger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: var(--ink);
+  transition: transform 0.2s ease;
+}
+
+.nav-toggle .hamburger::before {
+  top: -6px;
+}
+
+.nav-toggle .hamburger::after {
+  top: 6px;
+}
+
+/* Hamburger to X animation when nav is open */
+.nav-toggle.active .hamburger {
+  background: transparent;
+}
+
+.nav-toggle.active .hamburger::before {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+
+.nav-toggle.active .hamburger::after {
+  transform: rotate(-45deg) translate(4px, -4px);
 }
 
 .nav-toggle:active {
@@ -727,7 +771,7 @@ section:not(:first-of-type)::before {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 1.6rem;
 }
 
@@ -743,6 +787,7 @@ section:not(:first-of-type)::before {
   transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow var(--transition);
   transform-style: preserve-3d;
   perspective: 1000px;
+  overflow: hidden;
 }
 
 .project-card:hover {
@@ -761,6 +806,9 @@ section:not(:first-of-type)::before {
 .project-card .date {
   font-size: 0.9rem;
   color: var(--muted);
+  order: -1;
+  position: relative;
+  z-index: 2;
 }
 
 .project-thumb {
@@ -1463,6 +1511,11 @@ button.btn.ghost.share-btn {
 }
 
 @media (max-width: 640px) {
+  /* Prevent horizontal overflow */
+  * {
+    max-width: 100%;
+  }
+
   section {
     padding: 2.5rem 0;
   }
@@ -1485,7 +1538,9 @@ button.btn.ghost.share-btn {
   }
 
   .container {
-    padding: 0 1.1rem;
+    padding: 0 1rem;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   .btn {
@@ -1499,6 +1554,20 @@ button.btn.ghost.share-btn {
   .projects-grid {
     grid-template-columns: 1fr;
     gap: 1.6rem;
+  }
+
+  /* Fix project card on mobile */
+  .project-card {
+    padding: 1rem;
+  }
+
+  .project-card .date {
+    margin-bottom: 0.25rem;
+  }
+
+  .project-thumb {
+    margin: 0;
+    border-radius: 12px;
   }
 
   .blog-grid, .resume-grid {
