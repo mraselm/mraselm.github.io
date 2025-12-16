@@ -1328,22 +1328,24 @@ button.btn.ghost.share-btn {
 .back-to-top {
   position: fixed;
   bottom: 2rem;
-  right: 2rem;
-  width: 48px;
-  height: 48px;
+  left: 50%;
+  transform: translateX(-50%) translateY(16px);
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  background: var(--accent);
-  color: #fff;
-  border: none;
+  background: rgba(14, 165, 233, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--accent);
+  border: 1px solid rgba(14, 165, 233, 0.25);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
-  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.35);
+  font-size: 1rem;
+  box-shadow: 0 4px 16px rgba(14, 165, 233, 0.15);
   opacity: 0;
   visibility: hidden;
-  transform: translateY(16px);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, background 0.2s ease;
   z-index: 50;
 }
@@ -1351,16 +1353,23 @@ button.btn.ghost.share-btn {
 .back-to-top.visible {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateX(-50%) translateY(0);
 }
 
 .back-to-top:hover {
-  background: var(--accent-strong);
-  transform: translateY(-2px);
+  background: rgba(14, 165, 233, 0.25);
+  transform: translateX(-50%) translateY(-2px);
 }
 
 .theme-dark .back-to-top {
-  box-shadow: 0 8px 24px rgba(56, 189, 248, 0.3);
+  background: rgba(56, 189, 248, 0.15);
+  border-color: rgba(56, 189, 248, 0.3);
+  color: var(--accent);
+  box-shadow: 0 4px 16px rgba(56, 189, 248, 0.2);
+}
+
+.theme-dark .back-to-top:hover {
+  background: rgba(56, 189, 248, 0.25);
 }
 
 .form-toast.show {
@@ -1727,13 +1736,12 @@ button.btn.ghost.share-btn {
     transform: translateY(0);
   }
 
-  /* Back to top smaller on mobile */
+  /* Back to top on mobile - centered */
   .back-to-top {
-    width: 44px;
-    height: 44px;
-    right: 1rem;
+    width: 40px;
+    height: 40px;
     bottom: 1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   /* Toast notification mobile */
@@ -1879,7 +1887,6 @@ button.btn.ghost.share-btn {
   }
 
   .back-to-top {
-    right: max(1rem, env(safe-area-inset-right));
     bottom: max(1rem, env(safe-area-inset-bottom));
   }
 }
