@@ -11,7 +11,11 @@
     </script>
     <title>Rasel Mia Portfolio | Business Data Analyst</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
     <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
     <link rel="apple-touch-icon" href="/images/rmlogo.jpg" />
@@ -88,6 +92,9 @@
   </head>
 
   <body class="page-shell">
+    <!-- Skip to main content for accessibility -->
+    <a href="#top" class="skip-link">Skip to main content</a>
+
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
       var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -103,6 +110,9 @@
     </script>
     <!--End of Tawk.to Script-->
     <div class="surface-glow"></div>
+
+    <!-- Scroll progress indicator -->
+    <div class="scroll-progress" aria-hidden="true"></div>
 
     <header class="site-header">
       <div class="container inner">
@@ -141,27 +151,27 @@
       <section class="hero" id="top">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow" data-i18n="hero_eyebrow">Business Data Science</p>
-            <h1 data-i18n="hero_title">Building smarter, faster, data-driven decisions</h1>
-            <p data-i18n="hero_body">
+            <p class="eyebrow animate-fade-up delay-1" data-i18n="hero_eyebrow">Business Data Science</p>
+            <h1 class="animate-fade-up delay-2" data-i18n="hero_title">Building smarter, faster, data-driven decisions</h1>
+            <p class="animate-fade-up delay-3" data-i18n="hero_body">
               I design machine learning models, interactive dashboards, and automated pipelines that turn complex data into smart,
               scalable solutions—from predicting customer behavior to uncovering deep market insights.
             </p>
-            <div class="badge-row">
+            <div class="badge-row animate-fade-up delay-4">
               <span class="badge" data-i18n="badge_edu"><i class="fas fa-graduation-cap"></i>MSc Business Intelligence</span>
               <span class="badge" data-i18n="badge_analytics"><i class="fas fa-chart-line"></i>Analytics &amp; Automation</span>
               <span class="badge" data-i18n="badge_stack"><i class="fas fa-database"></i>Power BI · Python · SQL · ML</span>
             </div>
-            <div class="cta-row">
+            <div class="cta-row animate-fade-up delay-5">
               <a class="btn primary" href="#projects" data-i18n="cta_projects">View Projects</a>
               <a class="btn ghost" href="/resume/" data-i18n="cta_resume">Open Resume</a>
               <a class="btn ghost" href="https://calendar.app.google/7v4thxh13mTU1ibZ6" target="_blank" rel="noopener" data-ga-event="cta_book_intro" data-ga-label="hero" data-i18n="cta_book">Book a 30-min intro</a>
             </div>
           </div>
 
-          <div class="hero-visual">
+          <div class="hero-visual animate-fade delay-3">
             <div class="hero-card">
-              <img src="/images/businessanalyst.jpg" alt="Business analytics dashboard" />
+              <img src="/images/businessanalyst.jpg" alt="Business analytics dashboard" loading="lazy" />
               <div class="note" data-i18n="hero_note"><i class="fas fa-bolt"></i> Fast experiments, measurable impact.</div>
               <p data-i18n="hero_para">
                 From churn prediction and explainable ML to streamlined BI reporting, I connect data, tools, and teams so decisions are
@@ -169,10 +179,10 @@
               </p>
             </div>
             <div class="meta-grid">
-              <div class="meta-item"><span data-i18n="meta_current_label">Current</span><strong data-i18n="meta_current">MSc in Business Intelligence, Aarhus University</strong></div>
-              <div class="meta-item"><span data-i18n="meta_focus_label">Focus</span><strong data-i18n="meta_focus">Data Strategy · Forecasting · Customer Analytics</strong></div>
-              <div class="meta-item"><span data-i18n="meta_strengths_label">Strengths</span><strong data-i18n="meta_strengths">Storytelling Dashboards · Rapid Experiments · SHAP-Driven Insight</strong></div>
-              <div class="meta-item"><span data-i18n="meta_available_label">Available for</span><strong data-i18n="meta_available">BI Analyst · Data Analyst · ML Enthusiast</strong></div>
+              <div class="meta-item animate-fade-up delay-4"><span data-i18n="meta_current_label">Current</span><strong data-i18n="meta_current">MSc in Business Intelligence, Aarhus University</strong></div>
+              <div class="meta-item animate-fade-up delay-5"><span data-i18n="meta_focus_label">Focus</span><strong data-i18n="meta_focus">Data Strategy · Forecasting · Customer Analytics</strong></div>
+              <div class="meta-item animate-fade-up delay-6"><span data-i18n="meta_strengths_label">Strengths</span><strong data-i18n="meta_strengths">Storytelling Dashboards · Rapid Experiments · SHAP-Driven Insight</strong></div>
+              <div class="meta-item animate-fade-up delay-6"><span data-i18n="meta_available_label">Available for</span><strong data-i18n="meta_available">BI Analyst · Data Analyst · ML Enthusiast</strong></div>
             </div>
           </div>
         </div>
@@ -189,7 +199,7 @@
           <div class="projects-grid">
             <article class="project-card">
               <div class="date">Nov 20, 2025</div>
-              <img class="project-thumb" src="/images/customerchurn.jpg" alt="Customer churn dashboard preview" />
+              <img class="project-thumb" src="/images/customerchurn.jpg" alt="Customer churn dashboard preview" loading="lazy" />
               <h3 data-i18n="proj1_title">AI-Powered Customer Churn Prediction &amp; Retention Dashboard</h3>
               <p data-i18n="proj1_desc">
                 Streamlit + PyCaret AutoML with SHAP explainability and OpenAI recommendations. Upload customer data, train models,
@@ -208,7 +218,7 @@
 
             <article class="project-card">
               <div class="date">May 31, 2025</div>
-              <img class="project-thumb" src="/images/portfolio_preview.jpeg" alt="Portfolio preview" />
+              <img class="project-thumb" src="/images/portfolio_preview.jpeg" alt="Portfolio preview" loading="lazy" />
               <h3 data-i18n="proj2_title">Personal Portfolio — Hosted on GitHub Pages</h3>
               <p data-i18n="proj2_desc">
                 A responsive personal portfolio designed to present academic background, skills, and data projects. Built with HTML/CSS
@@ -226,7 +236,7 @@
 
             <article class="project-card">
               <div class="date">May 10, 2025</div>
-              <img class="project-thumb" src="/images/parking.png" alt="Parking availability dashboard" />
+              <img class="project-thumb" src="/images/parking.png" alt="Parking availability dashboard" loading="lazy" />
               <h3 data-i18n="proj3_title">Parking Prediction &amp; Optimization in Aarhus</h3>
               <p data-i18n="proj3_desc">
                 Combines real-time parking API data, weather, and congestion to forecast availability. ML models (Random Forest,
@@ -244,7 +254,7 @@
 
             <article class="project-card">
               <div class="date">May 1, 2025</div>
-              <img class="project-thumb" src="/images/mobilecase.jpg" alt="Mobile price prediction model" />
+              <img class="project-thumb" src="/images/mobilecase.jpg" alt="Mobile price prediction model" loading="lazy" />
               <h3 data-i18n="proj4_title">Estimating Mobile Phone Price Ranges with ML</h3>
               <p data-i18n="proj4_desc">
                 Built classification models on 2,000 phones with 21 features to predict price tiers. Highlights feature importance so
@@ -262,7 +272,7 @@
 
             <article class="project-card">
               <div class="date">June 19, 2025</div>
-              <img class="project-thumb" src="/images/candlestick.jpg" alt="Candlestick chart deep learning" />
+              <img class="project-thumb" src="/images/candlestick.jpg" alt="Candlestick chart deep learning" loading="lazy" />
               <h3 data-i18n="proj5_title">Predicting Stock Moves from Candlestick Images</h3>
               <p data-i18n="proj5_desc">
                 A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning
@@ -277,6 +287,36 @@
                 <a class="btn ghost" href="https://github.com/mraselm/stock-chart-image-classifier.git" target="_blank" data-i18n="cta_view_project">View project</a>
               </div>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="for-you" class="for-you-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="foryou_eyebrow">How Can I Help?</p>
+            <h2 class="section-title" data-i18n="foryou_title">What I can do for you</h2>
+            <p data-i18n="foryou_desc">Whether you're hiring, recruiting, or looking to collaborate—I've got you covered.</p>
+          </div>
+          <div class="persona-grid">
+            <div class="persona-card">
+              <div class="persona-icon"><i class="fas fa-user-tie"></i></div>
+              <h3 data-i18n="persona_hiring_title">Hiring Manager?</h3>
+              <p data-i18n="persona_hiring_desc">See my qualifications, experience, and how I can add value to your data team.</p>
+              <a class="btn primary" href="/resume/" data-ga-event="persona_hiring" data-ga-label="See my resume" data-i18n="persona_hiring_cta">See my resume →</a>
+            </div>
+            <div class="persona-card">
+              <div class="persona-icon"><i class="fas fa-search"></i></div>
+              <h3 data-i18n="persona_recruiter_title">Recruiter?</h3>
+              <p data-i18n="persona_recruiter_desc">Grab my CV for your talent pipeline. ATS-friendly format, ready to share.</p>
+              <a class="btn primary" href="https://drive.google.com/uc?export=download&id=1Fj2vEBOiiAwQutO_jdFlmDhX9JClxkHE" data-ga-event="persona_recruiter" data-ga-label="Download CV" data-i18n="persona_recruiter_cta">Download CV →</a>
+            </div>
+            <div class="persona-card">
+              <div class="persona-icon"><i class="fas fa-handshake"></i></div>
+              <h3 data-i18n="persona_collab_title">Collaborator?</h3>
+              <p data-i18n="persona_collab_desc">Have a data project or research idea? Let's explore how we can work together.</p>
+              <a class="btn primary" href="#contact" data-ga-event="persona_collab" data-ga-label="Let's talk" data-i18n="persona_collab_cta">Let's talk →</a>
+            </div>
           </div>
         </div>
       </section>
@@ -375,7 +415,7 @@
       <div class="container meta">
         <div>
           <div>&copy; MD Rasel Mia 2025 · All Rights Reserved</div>
-          <div data-i18n="footer_open">Open to BI/Data roles</div>
+          <div class="visitor-stat"><i class="fas fa-eye"></i> <span id="visitor-count">—</span> <span data-i18n="footer_visitors">visitors</span></div>
         </div>
         <div class="socials">
           <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
@@ -384,6 +424,9 @@
         </div>
       </div>
     </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
 
     <div class="form-toast"><i class="fas fa-check-circle"></i>Thank you! Your message has been sent.</div>
 
@@ -456,7 +499,20 @@
             form_email: "Email",
             form_message: "Message",
             form_send: "Send message",
-            footer_open: "Open to BI/Data roles"
+            status_open: "Open to BI/Data Roles",
+            footer_visitors: "visitors",
+            foryou_eyebrow: "How Can I Help?",
+            foryou_title: "What I can do for you",
+            foryou_desc: "Whether you're hiring, recruiting, or looking to collaborate—I've got you covered.",
+            persona_hiring_title: "Hiring Manager?",
+            persona_hiring_desc: "See my qualifications, experience, and how I can add value to your data team.",
+            persona_hiring_cta: "See my resume →",
+            persona_recruiter_title: "Recruiter?",
+            persona_recruiter_desc: "Grab my CV for your talent pipeline. ATS-friendly format, ready to share.",
+            persona_recruiter_cta: "Download CV →",
+            persona_collab_title: "Collaborator?",
+            persona_collab_desc: "Have a data project or research idea? Let's explore how we can work together.",
+            persona_collab_cta: "Let's talk →"
           },
           da: {
             nav_projects: "Projekter",
@@ -523,7 +579,20 @@
             form_email: "Email",
             form_message: "Besked",
             form_send: "Send besked",
-            footer_open: "Åben for BI/Data-roller"
+            footer_open: "Åben for BI/Data-roller",
+            footer_visitors: "besøgende",
+            foryou_eyebrow: "Hvordan kan jeg hjælpe?",
+            foryou_title: "Hvad jeg kan gøre for dig",
+            foryou_desc: "Uanset om du ansætter, rekrutterer eller leder efter samarbejde—jeg er klar.",
+            persona_hiring_title: "Ansættende leder?",
+            persona_hiring_desc: "Se mine kvalifikationer, erfaring og hvordan jeg kan tilføre værdi til dit datateam.",
+            persona_hiring_cta: "Se mit CV →",
+            persona_recruiter_title: "Rekrutterer?",
+            persona_recruiter_desc: "Hent mit CV til din talentpipeline. ATS-venligt format, klar til at dele.",
+            persona_recruiter_cta: "Download CV →",
+            persona_collab_title: "Samarbejdspartner?",
+            persona_collab_desc: "Har du et dataprojekt eller forskningsidé? Lad os udforske et samarbejde.",
+            persona_collab_cta: "Lad os tale →"
           }
         };
 
