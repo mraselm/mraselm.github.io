@@ -1,0 +1,606 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S86VJ0K0L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-1S86VJ0K0L');
+    </script>
+    <title>Predicting Stock Moves from Candlestick Images | Rasel Mia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Building a CNN to classify candlestick chart images and predict stock price movements using deep learning and TensorFlow." />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <style>
+      .story-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      .story-header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .story-header .eyebrow {
+        color: var(--accent);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+      }
+      .story-header h1 {
+        font-size: clamp(1.8rem, 5vw, 2.8rem);
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+      .story-meta {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+      }
+      .story-meta span {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .story-cover {
+        width: 100%;
+        border-radius: 16px;
+        margin-bottom: 2.5rem;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+      }
+      .story-body h2 {
+        font-size: 1.5rem;
+        margin: 2.5rem 0 1rem;
+        color: var(--ink);
+      }
+      .story-body h3 {
+        font-size: 1.2rem;
+        margin: 2rem 0 0.75rem;
+        color: var(--ink);
+      }
+      .story-body p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--muted);
+        margin-bottom: 1.25rem;
+      }
+      .story-body ul, .story-body ol {
+        margin: 1rem 0 1.5rem 1.5rem;
+        color: var(--muted);
+      }
+      .story-body li {
+        margin-bottom: 0.5rem;
+        line-height: 1.7;
+      }
+      .highlight-box {
+        background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(56, 189, 248, 0.08));
+        border-left: 4px solid var(--accent);
+        padding: 1.25rem 1.5rem;
+        border-radius: 0 12px 12px 0;
+        margin: 2rem 0;
+      }
+      .highlight-box p {
+        margin: 0;
+        font-size: 1rem;
+      }
+      .highlight-box.warning {
+        background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(251, 191, 36, 0.08));
+        border-left-color: #f59e0b;
+      }
+      .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin: 1.5rem 0;
+      }
+      .tech-tag {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--ink);
+      }
+      .results-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1.25rem;
+        margin: 2rem 0;
+      }
+      .result-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        text-align: center;
+      }
+      .result-card .number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--accent);
+        display: block;
+      }
+      .result-card .label {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: 0.25rem;
+      }
+      .code-block {
+        background: #1e293b;
+        border-radius: 12px;
+        padding: 1.25rem;
+        overflow-x: auto;
+        margin: 1.5rem 0;
+      }
+      .code-block code {
+        color: #e2e8f0;
+        font-family: 'Fira Code', 'Monaco', monospace;
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+      .story-cta {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border);
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+        transition: color 0.2s;
+      }
+      .back-link:hover {
+        color: var(--accent);
+      }
+      .image-caption {
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: -1.5rem;
+        margin-bottom: 2rem;
+      }
+      .quote-block {
+        font-size: 1.3rem;
+        font-style: italic;
+        text-align: center;
+        color: var(--ink);
+        padding: 2rem;
+        margin: 2.5rem 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      .architecture-diagram {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        font-family: 'Fira Code', monospace;
+        font-size: 0.85rem;
+        overflow-x: auto;
+      }
+      .architecture-diagram .layer {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem 0;
+        border-bottom: 1px dashed var(--border);
+      }
+      .architecture-diagram .layer:last-child {
+        border-bottom: none;
+      }
+      .architecture-diagram .layer-name {
+        font-weight: 600;
+        min-width: 120px;
+        color: var(--ink);
+      }
+      .architecture-diagram .layer-detail {
+        color: var(--muted);
+      }
+      .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        font-size: 0.95rem;
+      }
+      .comparison-table th, .comparison-table td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+      .comparison-table th {
+        background: var(--card-bg);
+        font-weight: 600;
+        color: var(--ink);
+      }
+      .comparison-table td {
+        color: var(--muted);
+      }
+      .comparison-table tr:last-child td {
+        border-bottom: none;
+      }
+      .comparison-table .highlight-row {
+        background: rgba(14, 165, 233, 0.08);
+      }
+      .comparison-table .highlight-row td {
+        color: var(--ink);
+        font-weight: 500;
+      }
+      @media (max-width: 600px) {
+        .story-container {
+          padding: 1rem 1rem 3rem;
+        }
+        .story-body p {
+          font-size: 1rem;
+        }
+        .result-card .number {
+          font-size: 1.5rem;
+        }
+        .comparison-table {
+          font-size: 0.85rem;
+        }
+        .comparison-table th, .comparison-table td {
+          padding: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="page-shell">
+    <div class="surface-glow"></div>
+
+    <header class="site-header">
+      <div class="container inner">
+        <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+        <nav class="nav-links">
+          <a href="/home/#projects">Projects</a>
+          <a href="/home/#skills">Toolbox</a>
+          <a href="/home/#contact">Contact</a>
+          <a href="/datastory/">Data Story</a>
+          <a href="/resume/">Resume</a>
+        </nav>
+        <div class="header-actions">
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+            <a href="https://github.com/mraselm" class="icon fab fa-github" aria-label="GitHub" target="_blank"></a>
+          </div>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-track">
+              <span class="theme-icon sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+              <span class="theme-icon moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+              <span class="theme-knob"></span>
+            </span>
+          </button>
+          <button class="nav-toggle" type="button" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <article class="story-container">
+        <a href="/datastory/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Data Stories</a>
+        
+        <header class="story-header">
+          <p class="eyebrow">Deep Learning Experiment</p>
+          <h1>Can a Neural Network Read Candlestick Charts Like a Trader?</h1>
+          <div class="story-meta">
+            <span><i class="fas fa-calendar"></i> December 2024</span>
+            <span><i class="fas fa-clock"></i> 7 min read</span>
+            <span><i class="fas fa-tag"></i> Computer Vision</span>
+          </div>
+        </header>
+
+        <img src="/images/stockprediction.jpg" alt="Candlestick Chart CNN Classification" class="story-cover" />
+        <p class="image-caption">CNN classifying candlestick patterns to predict stock movement direction</p>
+
+        <div class="story-body">
+          <h2>The Hypothesis: Charts as Images</h2>
+          <p>
+            Technical traders spend years learning to read candlestick patterns—doji, hammers, engulfing patterns, 
+            morning stars. These visual patterns allegedly signal future price movements. But here's an intriguing 
+            question: <em>Can a convolutional neural network learn to "see" these patterns too?</em>
+          </p>
+          <p>
+            Instead of engineering features from OHLC data (open, high, low, close), what if we just showed the 
+            model the actual chart image—the same thing a human trader sees—and let it learn directly from pixels?
+          </p>
+
+          <div class="highlight-box">
+            <p><strong>💡 The Idea:</strong> Treat stock prediction as an image classification problem. Feed candlestick chart images to a CNN and let it predict: will the price go UP or DOWN?</p>
+          </div>
+
+          <h2>The Dataset</h2>
+          <p>
+            I created a dataset of RGB candlestick chart images, each labeled based on whether the subsequent 
+            price movement was upward or downward. The dataset was split into training, validation, and test sets 
+            to ensure proper model evaluation.
+          </p>
+
+          <div class="results-grid">
+            <div class="result-card">
+              <span class="number">2</span>
+              <span class="label">Classes (Up/Down)</span>
+            </div>
+            <div class="result-card">
+              <span class="number">RGB</span>
+              <span class="label">Image Format</span>
+            </div>
+            <div class="result-card">
+              <span class="number">3</span>
+              <span class="label">Data Splits</span>
+            </div>
+            <div class="result-card">
+              <span class="number">CNN</span>
+              <span class="label">Model Type</span>
+            </div>
+          </div>
+
+          <div class="code-block">
+            <code>
+candlestick_dataset/<br>
+├── train/<br>
+│   ├── up/      # Upward movement images<br>
+│   └── down/    # Downward movement images<br>
+├── validation/<br>
+│   ├── up/<br>
+│   └── down/<br>
+└── test/<br>
+    ├── up/<br>
+    └── down/
+            </code>
+          </div>
+
+          <h2>Model Architecture Evolution</h2>
+          <p>
+            I experimented with multiple CNN architectures to find the best balance between model complexity 
+            and generalization ability. Here's how the journey unfolded:
+          </p>
+
+          <h3>Stage 1: 3-Layer CNN from Scratch</h3>
+          <p>
+            Started with a simple architecture: three convolutional layers with max pooling, followed by 
+            a flatten layer and dense layers for classification.
+          </p>
+
+          <div class="architecture-diagram">
+            <div class="layer">
+              <span class="layer-name">Input</span>
+              <span class="layer-detail">RGB Image (height × width × 3)</span>
+            </div>
+            <div class="layer">
+              <span class="layer-name">Conv2D + Pool</span>
+              <span class="layer-detail">32 filters, 3×3 kernel, ReLU, MaxPool 2×2</span>
+            </div>
+            <div class="layer">
+              <span class="layer-name">Conv2D + Pool</span>
+              <span class="layer-detail">64 filters, 3×3 kernel, ReLU, MaxPool 2×2</span>
+            </div>
+            <div class="layer">
+              <span class="layer-name">Conv2D + Pool</span>
+              <span class="layer-detail">128 filters, 3×3 kernel, ReLU, MaxPool 2×2</span>
+            </div>
+            <div class="layer">
+              <span class="layer-name">Flatten</span>
+              <span class="layer-detail">→ 1D vector</span>
+            </div>
+            <div class="layer">
+              <span class="layer-name">Dense</span>
+              <span class="layer-detail">128 units, ReLU</span>
+            </div>
+            <div class="layer">
+              <span class="layer-name">Output</span>
+              <span class="layer-detail">2 units, Softmax (Up/Down)</span>
+            </div>
+          </div>
+
+          <p>
+            <strong>Result:</strong> Test accuracy of <strong>46.4%</strong>—barely better than random guessing 
+            for a binary classification task.
+          </p>
+
+          <h3>Stage 2: Simplified 2-Layer CNN</h3>
+          <p>
+            Hypothesis: Maybe the model was overfitting? I reduced the architecture to just two convolutional 
+            layers to see if a simpler model would generalize better.
+          </p>
+          <p>
+            <strong>Result:</strong> Faster training, but similar accuracy. The problem wasn't just model complexity.
+          </p>
+
+          <h3>Stage 3: Learning Rate Tuning</h3>
+          <p>
+            The key breakthrough came from systematic hyperparameter tuning. I tested multiple learning rates 
+            to find the optimal training dynamics:
+          </p>
+
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Learning Rate</th>
+                <th>Train Accuracy</th>
+                <th>Val Accuracy</th>
+                <th>Test Accuracy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0.01</td>
+                <td>48.2%</td>
+                <td>45.1%</td>
+                <td>44.8%</td>
+              </tr>
+              <tr>
+                <td>0.005</td>
+                <td>51.3%</td>
+                <td>48.7%</td>
+                <td>49.2%</td>
+              </tr>
+              <tr class="highlight-row">
+                <td>0.001 ✓</td>
+                <td>55.8%</td>
+                <td>53.2%</td>
+                <td>52.1%</td>
+              </tr>
+              <tr>
+                <td>0.0005</td>
+                <td>52.1%</td>
+                <td>50.4%</td>
+                <td>50.8%</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            The optimal learning rate of <strong>0.001</strong> achieved the best test accuracy of <strong>52.1%</strong>.
+          </p>
+
+          <div class="code-block">
+            <code>
+# Final model training with optimal learning rate<br>
+from tensorflow import keras<br>
+from tensorflow.keras import layers<br><br>
+model = keras.Sequential([<br>
+&nbsp;&nbsp;layers.Conv2D(32, (3, 3), activation='relu', input_shape=input_shape),<br>
+&nbsp;&nbsp;layers.MaxPooling2D((2, 2)),<br>
+&nbsp;&nbsp;layers.Conv2D(64, (3, 3), activation='relu'),<br>
+&nbsp;&nbsp;layers.MaxPooling2D((2, 2)),<br>
+&nbsp;&nbsp;layers.Conv2D(128, (3, 3), activation='relu'),<br>
+&nbsp;&nbsp;layers.MaxPooling2D((2, 2)),<br>
+&nbsp;&nbsp;layers.Flatten(),<br>
+&nbsp;&nbsp;layers.Dense(128, activation='relu'),<br>
+&nbsp;&nbsp;layers.Dense(2, activation='softmax')<br>
+])<br><br>
+model.compile(<br>
+&nbsp;&nbsp;optimizer=keras.optimizers.Adam(learning_rate=0.001),<br>
+&nbsp;&nbsp;loss='categorical_crossentropy',<br>
+&nbsp;&nbsp;metrics=['accuracy']<br>
+)
+            </code>
+          </div>
+
+          <h2>Technology Stack</h2>
+          <div class="tech-stack">
+            <span class="tech-tag">Python 3.8+</span>
+            <span class="tech-tag">TensorFlow 2.13+</span>
+            <span class="tech-tag">Keras</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Matplotlib</span>
+            <span class="tech-tag">scikit-learn</span>
+            <span class="tech-tag">Jupyter Notebook</span>
+          </div>
+
+          <h2>Results & Analysis</h2>
+
+          <div class="results-grid">
+            <div class="result-card">
+              <span class="number">52.1%</span>
+              <span class="label">Test Accuracy</span>
+            </div>
+            <div class="result-card">
+              <span class="number">0.001</span>
+              <span class="label">Best Learning Rate</span>
+            </div>
+            <div class="result-card">
+              <span class="number">3</span>
+              <span class="label">Conv Layers</span>
+            </div>
+            <div class="result-card">
+              <span class="number">~2%</span>
+              <span class="label">Above Random</span>
+            </div>
+          </div>
+
+          <div class="quote-block">
+            "The market is a device for transferring money from the impatient to the patient."<br>
+            <small>— Warren Buffett</small>
+          </div>
+
+          <h2>Honest Assessment: Why 52%?</h2>
+          <p>
+            Let's be real: 52.1% accuracy on a binary classification task is only marginally better than a coin flip. 
+            But this result is actually quite informative:
+          </p>
+
+          <div class="highlight-box warning">
+            <p><strong>⚠️ Key Insight:</strong> The modest accuracy suggests that either (a) candlestick patterns alone don't contain strong predictive signal, (b) the patterns are too noisy for a basic CNN, or (c) markets are inherently hard to predict—which efficient market hypothesis proponents would argue.</p>
+          </div>
+
+          <h3>Why This Matters</h3>
+          <ol>
+            <li><strong>Baseline Established:</strong> We now know what a simple CNN can achieve on this task—future models can be benchmarked against this.</li>
+            <li><strong>The Hard Truth:</strong> If stock prediction were easy, everyone would be rich. A 52% edge, compounded over many trades, can still be profitable—but transaction costs and slippage eat into thin margins.</li>
+            <li><strong>Learning Opportunity:</strong> The project demonstrates end-to-end deep learning workflow: data prep, model building, hyperparameter tuning, and evaluation.</li>
+          </ol>
+
+          <h2>What I Learned</h2>
+          <ol>
+            <li><strong>Image-based finance is viable.</strong> CNNs can process financial charts, opening doors for more sophisticated approaches.</li>
+            <li><strong>Hyperparameter tuning matters.</strong> The jump from 46% to 52% came purely from finding the right learning rate.</li>
+            <li><strong>Simple models have limits.</strong> A vanilla CNN may not capture the temporal dynamics that drive price movements.</li>
+            <li><strong>Markets are efficient (mostly).</strong> If a simple model could beat the market, arbitrageurs would have exploited it away.</li>
+          </ol>
+
+          <h2>Future Improvements</h2>
+          <p>
+            To push beyond 52%, potential next steps include:
+          </p>
+          <ul>
+            <li><strong>Transfer Learning:</strong> Use pre-trained models (VGG, ResNet) fine-tuned on candlestick data</li>
+            <li><strong>Hybrid Models:</strong> Combine CNN with LSTM to capture both visual patterns and temporal sequences</li>
+            <li><strong>Data Augmentation:</strong> Increase dataset size with synthetic chart variations</li>
+            <li><strong>Multi-class Prediction:</strong> Predict magnitude of movement, not just direction</li>
+            <li><strong>Ensemble Methods:</strong> Combine multiple models for more robust predictions</li>
+            <li><strong>Feature Fusion:</strong> Blend image features with numerical indicators (RSI, MACD, volume)</li>
+          </ul>
+
+          <div class="story-cta">
+            <a class="btn primary" href="https://github.com/mraselm/candlestick-cnn-classifier" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <a class="btn ghost" href="/home/#contact">
+              <i class="fas fa-envelope"></i> Discuss This Project
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container meta">
+        <div>
+          <div>&copy; MD Rasel Mia 2025 · All Rights Reserved</div>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
+          <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
