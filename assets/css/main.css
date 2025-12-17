@@ -1470,6 +1470,7 @@ button.btn.ghost.share-btn {
 
 .theme-dark .btn.ghost {
   border-color: var(--border);
+  color: #fff;
 }
 
 .theme-dark input[type="text"],
