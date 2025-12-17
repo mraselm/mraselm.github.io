@@ -1,0 +1,661 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S86VJ0K0L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-1S86VJ0K0L');
+    </script>
+    <title>Mobile Phone Price Prediction | Rasel Mia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Building ML models in R to classify mobile phones into price ranges based on technical specifications using SVM and Decision Trees." />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <style>
+      .story-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      .story-header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .story-header .eyebrow {
+        color: var(--accent);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+      }
+      .story-header h1 {
+        font-size: clamp(1.8rem, 5vw, 2.8rem);
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+      .story-meta {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+      }
+      .story-meta span {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .story-cover {
+        width: 100%;
+        border-radius: 16px;
+        margin-bottom: 2.5rem;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+      }
+      .story-body h2 {
+        font-size: 1.5rem;
+        margin: 2.5rem 0 1rem;
+        color: var(--ink);
+      }
+      .story-body h3 {
+        font-size: 1.2rem;
+        margin: 2rem 0 0.75rem;
+        color: var(--ink);
+      }
+      .story-body p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--muted);
+        margin-bottom: 1.25rem;
+      }
+      .story-body ul, .story-body ol {
+        margin: 1rem 0 1.5rem 1.5rem;
+        color: var(--muted);
+      }
+      .story-body li {
+        margin-bottom: 0.5rem;
+        line-height: 1.7;
+      }
+      .highlight-box {
+        background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(56, 189, 248, 0.08));
+        border-left: 4px solid var(--accent);
+        padding: 1.25rem 1.5rem;
+        border-radius: 0 12px 12px 0;
+        margin: 2rem 0;
+      }
+      .highlight-box p {
+        margin: 0;
+        font-size: 1rem;
+      }
+      .highlight-box.success {
+        background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(74, 222, 128, 0.08));
+        border-left-color: #22c55e;
+      }
+      .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin: 1.5rem 0;
+      }
+      .tech-tag {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--ink);
+      }
+      .results-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1.25rem;
+        margin: 2rem 0;
+      }
+      .result-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        text-align: center;
+      }
+      .result-card .number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--accent);
+        display: block;
+      }
+      .result-card .label {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: 0.25rem;
+      }
+      .code-block {
+        background: #1e293b;
+        border-radius: 12px;
+        padding: 1.25rem;
+        overflow-x: auto;
+        margin: 1.5rem 0;
+      }
+      .code-block code {
+        color: #e2e8f0;
+        font-family: 'Fira Code', 'Monaco', monospace;
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+      .code-block .comment {
+        color: #64748b;
+      }
+      .code-block .keyword {
+        color: #f472b6;
+      }
+      .code-block .string {
+        color: #a5f3fc;
+      }
+      .story-cta {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border);
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+        transition: color 0.2s;
+      }
+      .back-link:hover {
+        color: var(--accent);
+      }
+      .image-caption {
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: -1.5rem;
+        margin-bottom: 2rem;
+      }
+      .quote-block {
+        font-size: 1.3rem;
+        font-style: italic;
+        text-align: center;
+        color: var(--ink);
+        padding: 2rem;
+        margin: 2.5rem 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        font-size: 0.95rem;
+      }
+      .comparison-table th, .comparison-table td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+      .comparison-table th {
+        background: var(--card-bg);
+        font-weight: 600;
+        color: var(--ink);
+      }
+      .comparison-table td {
+        color: var(--muted);
+      }
+      .comparison-table tr:last-child td {
+        border-bottom: none;
+      }
+      .comparison-table .highlight-row {
+        background: rgba(34, 197, 94, 0.08);
+      }
+      .comparison-table .highlight-row td {
+        color: var(--ink);
+        font-weight: 500;
+      }
+      .feature-importance {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+      }
+      .feature-bar {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.75rem;
+      }
+      .feature-bar:last-child {
+        margin-bottom: 0;
+      }
+      .feature-name {
+        min-width: 120px;
+        font-size: 0.9rem;
+        color: var(--ink);
+        font-weight: 500;
+      }
+      .feature-bar-container {
+        flex: 1;
+        height: 24px;
+        background: rgba(14, 165, 233, 0.1);
+        border-radius: 4px;
+        overflow: hidden;
+        margin: 0 1rem;
+      }
+      .feature-bar-fill {
+        height: 100%;
+        background: linear-gradient(90deg, var(--accent), #38bdf8);
+        border-radius: 4px;
+        transition: width 0.5s ease;
+      }
+      .feature-value {
+        min-width: 50px;
+        text-align: right;
+        font-size: 0.85rem;
+        color: var(--muted);
+        font-weight: 600;
+      }
+      .variable-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 0.75rem;
+        margin: 1.5rem 0;
+      }
+      .variable-item {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        font-size: 0.85rem;
+      }
+      .variable-item strong {
+        color: var(--ink);
+      }
+      .variable-item span {
+        color: var(--muted);
+        display: block;
+        font-size: 0.8rem;
+        margin-top: 0.25rem;
+      }
+      @media (max-width: 600px) {
+        .story-container {
+          padding: 1rem 1rem 3rem;
+        }
+        .story-body p {
+          font-size: 1rem;
+        }
+        .result-card .number {
+          font-size: 1.5rem;
+        }
+        .comparison-table {
+          font-size: 0.85rem;
+        }
+        .comparison-table th, .comparison-table td {
+          padding: 0.5rem;
+        }
+        .feature-name {
+          min-width: 80px;
+          font-size: 0.8rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="page-shell">
+    <div class="surface-glow"></div>
+
+    <header class="site-header">
+      <div class="container inner">
+        <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+        <nav class="nav-links">
+          <a href="/home/#projects">Projects</a>
+          <a href="/home/#skills">Toolbox</a>
+          <a href="/home/#contact">Contact</a>
+          <a href="/datastory/">Data Story</a>
+          <a href="/resume/">Resume</a>
+        </nav>
+        <div class="header-actions">
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+            <a href="https://github.com/mraselm" class="icon fab fa-github" aria-label="GitHub" target="_blank"></a>
+          </div>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-track">
+              <span class="theme-icon sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+              <span class="theme-icon moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+              <span class="theme-knob"></span>
+            </span>
+          </button>
+          <button class="nav-toggle" type="button" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <article class="story-container">
+        <a href="/datastory/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Data Stories</a>
+        
+        <header class="story-header">
+          <p class="eyebrow">Machine Learning Case Study</p>
+          <h1>Helping Bob Price His Phones: A Classification Journey in R</h1>
+          <div class="story-meta">
+            <span><i class="fas fa-calendar"></i> December 2024</span>
+            <span><i class="fas fa-clock"></i> 6 min read</span>
+            <span><i class="fas fa-tag"></i> Classification</span>
+          </div>
+        </header>
+
+        <img src="/images/mobilecase.jpg" alt="Mobile Phone Price Classification" class="story-cover" />
+        <p class="image-caption">Classifying mobile phones into price ranges using machine learning</p>
+
+        <div class="story-body">
+          <h2>The Business Problem</h2>
+          <p>
+            Meet Bob—a young entrepreneur who just launched his mobile phone company. He's competing against 
+            giants like Apple, Samsung, and Xiaomi. Bob knows that <strong>accurate pricing is critical</strong> 
+            for market entry and customer appeal.
+          </p>
+          <p>
+            Bob has collected detailed specifications of 2,000 mobile phones from various manufacturers, 
+            along with their price categories. His goal isn't to predict exact prices, but to classify 
+            each phone into one of four price ranges: <strong>Low, Medium, High, or Very High</strong>.
+          </p>
+          <p>
+            The catch? Bob lacks the data science skills to build the model himself. That's where I come in.
+          </p>
+
+          <div class="highlight-box">
+            <p><strong>🎯 Objective:</strong> Build a classification model that predicts price range from technical specs, and identify which features most influence pricing decisions.</p>
+          </div>
+
+          <h2>Understanding the Data</h2>
+          <p>
+            The dataset contains 21 variables capturing everything from battery capacity to screen dimensions. 
+            Let's break down what we're working with:
+          </p>
+
+          <div class="results-grid">
+            <div class="result-card">
+              <span class="number">2,000</span>
+              <span class="label">Observations</span>
+            </div>
+            <div class="result-card">
+              <span class="number">21</span>
+              <span class="label">Features</span>
+            </div>
+            <div class="result-card">
+              <span class="number">4</span>
+              <span class="label">Price Classes</span>
+            </div>
+            <div class="result-card">
+              <span class="number">0</span>
+              <span class="label">Missing Values</span>
+            </div>
+          </div>
+
+          <h3>Key Features</h3>
+          <div class="variable-grid">
+            <div class="variable-item">
+              <strong>ram</strong>
+              <span>RAM in MB</span>
+            </div>
+            <div class="variable-item">
+              <strong>battery_power</strong>
+              <span>Battery capacity (mAh)</span>
+            </div>
+            <div class="variable-item">
+              <strong>px_height / px_width</strong>
+              <span>Screen resolution</span>
+            </div>
+            <div class="variable-item">
+              <strong>int_memory</strong>
+              <span>Internal storage (GB)</span>
+            </div>
+            <div class="variable-item">
+              <strong>mobile_wt</strong>
+              <span>Weight in grams</span>
+            </div>
+            <div class="variable-item">
+              <strong>four_g / three_g</strong>
+              <span>Network support (binary)</span>
+            </div>
+            <div class="variable-item">
+              <strong>pc / fc</strong>
+              <span>Primary/Front camera (MP)</span>
+            </div>
+            <div class="variable-item">
+              <strong>n_cores</strong>
+              <span>Processor cores</span>
+            </div>
+          </div>
+
+          <p>
+            Good news: the dataset is <strong>perfectly balanced</strong>—exactly 500 phones in each price 
+            category. This means we won't need to worry about class imbalance techniques.
+          </p>
+
+          <h2>Exploratory Data Analysis</h2>
+          <p>
+            Before diving into modeling, I explored the relationships between features and price ranges. 
+            Two variables stood out immediately:
+          </p>
+
+          <div class="code-block">
+            <code>
+<span class="comment"># RAM shows clear separation between price ranges</span><br>
+ggplot(data, aes(x = price_range, y = ram, fill = price_range)) +<br>
+&nbsp;&nbsp;geom_boxplot() +<br>
+&nbsp;&nbsp;labs(title = "RAM by Price Range")<br><br>
+<span class="comment"># Battery power also correlates with price</span><br>
+ggplot(data, aes(x = price_range, y = battery_power, fill = price_range)) +<br>
+&nbsp;&nbsp;geom_boxplot() +<br>
+&nbsp;&nbsp;labs(title = "Battery Power by Price Range")
+            </code>
+          </div>
+
+          <p>
+            The boxplots revealed that <strong>RAM</strong> has the clearest relationship with price—higher 
+            RAM phones consistently fall into higher price categories. Battery power shows a similar but 
+            weaker pattern.
+          </p>
+
+          <h2>Model Building: Two Approaches</h2>
+          
+          <h3>Approach 1: Decision Tree</h3>
+          <p>
+            I started with a Decision Tree classifier—intuitive, interpretable, and great for understanding 
+            feature importance. Using 5-fold cross-validation, I tuned the complexity parameter (cp) to 
+            avoid overfitting.
+          </p>
+
+          <div class="code-block">
+            <code>
+<span class="comment"># 5-fold cross-validation for hyperparameter tuning</span><br>
+ctrl <- trainControl(method = <span class="string">"cv"</span>, number = 5)<br><br>
+<span class="comment"># Tune cp from 0.001 to 0.05</span><br>
+tuned_tree <- train(price_range ~ ., data = train_data,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;method = <span class="string">"rpart"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trControl = ctrl,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;tuneGrid = expand.grid(cp = seq(0.001, 0.05, 0.005)))
+            </code>
+          </div>
+
+          <h3>Approach 2: Support Vector Machine (SVM)</h3>
+          <p>
+            SVMs are powerful for multi-class classification, especially when features have complex 
+            relationships. I used a radial basis function (RBF) kernel and tuned the cost and sigma 
+            parameters through cross-validation.
+          </p>
+
+          <div class="code-block">
+            <code>
+<span class="comment"># SVM with radial kernel + automatic tuning</span><br>
+svm_tuned <- train(price_range ~ ., data = train_data,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;method = <span class="string">"svmRadial"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trControl = trainControl(method = <span class="string">"cv"</span>, number = 5),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;tuneLength = 5)
+            </code>
+          </div>
+
+          <h2>Model Comparison</h2>
+          <p>
+            After training both models on 80% of the data and testing on the held-out 20%, here's how 
+            they performed:
+          </p>
+
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Accuracy</th>
+                <th>Kappa</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Decision Tree (tuned)</td>
+                <td>82.5%</td>
+                <td>0.77</td>
+                <td>Interpretable, fast</td>
+              </tr>
+              <tr class="highlight-row">
+                <td>SVM Radial (tuned) ✓</td>
+                <td>96.8%</td>
+                <td>0.96</td>
+                <td>Best performer</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="highlight-box success">
+            <p><strong>🏆 Winner: Tuned SVM</strong> with 96.8% accuracy! The radial kernel effectively captured non-linear relationships between features and price categories.</p>
+          </div>
+
+          <h2>What Drives Phone Pricing?</h2>
+          <p>
+            The most actionable insight for Bob: which features should he prioritize? Variable importance 
+            analysis from both models pointed to a clear hierarchy:
+          </p>
+
+          <div class="feature-importance">
+            <div class="feature-bar">
+              <span class="feature-name">RAM</span>
+              <div class="feature-bar-container">
+                <div class="feature-bar-fill" style="width: 100%;"></div>
+              </div>
+              <span class="feature-value">100%</span>
+            </div>
+            <div class="feature-bar">
+              <span class="feature-name">Battery Power</span>
+              <div class="feature-bar-container">
+                <div class="feature-bar-fill" style="width: 78%;"></div>
+              </div>
+              <span class="feature-value">78%</span>
+            </div>
+            <div class="feature-bar">
+              <span class="feature-name">Pixel Height</span>
+              <div class="feature-bar-container">
+                <div class="feature-bar-fill" style="width: 65%;"></div>
+              </div>
+              <span class="feature-value">65%</span>
+            </div>
+            <div class="feature-bar">
+              <span class="feature-name">Pixel Width</span>
+              <div class="feature-bar-container">
+                <div class="feature-bar-fill" style="width: 58%;"></div>
+              </div>
+              <span class="feature-value">58%</span>
+            </div>
+            <div class="feature-bar">
+              <span class="feature-name">Mobile Weight</span>
+              <div class="feature-bar-container">
+                <div class="feature-bar-fill" style="width: 42%;"></div>
+              </div>
+              <span class="feature-value">42%</span>
+            </div>
+          </div>
+
+          <div class="quote-block">
+            "RAM is the single most important predictor of mobile phone price range. If Bob wants to position a phone as premium, RAM should be his first consideration."
+          </div>
+
+          <h2>Technology Stack</h2>
+          <div class="tech-stack">
+            <span class="tech-tag">R</span>
+            <span class="tech-tag">caret</span>
+            <span class="tech-tag">e1071 (SVM)</span>
+            <span class="tech-tag">rpart (Decision Tree)</span>
+            <span class="tech-tag">ggplot2</span>
+            <span class="tech-tag">dplyr</span>
+          </div>
+
+          <h2>Business Recommendations for Bob</h2>
+          <ol>
+            <li><strong>RAM First:</strong> When positioning a phone in a higher price tier, prioritize RAM above all else. It's the clearest signal of premium pricing.</li>
+            <li><strong>Battery Matters:</strong> A strong battery (3000+ mAh) is expected in mid-to-high tier phones. Don't skimp here.</li>
+            <li><strong>Screen Resolution:</strong> Higher pixel density justifies premium pricing. Invest in display quality for high-end models.</li>
+            <li><strong>Use the Model:</strong> Before launching a new phone, run its specs through the SVM model to predict its natural price category. Pricing outside this range may confuse customers.</li>
+          </ol>
+
+          <h2>Key Learnings</h2>
+          <ol>
+            <li><strong>SVM excels at multi-class problems.</strong> The radial kernel captured complex feature interactions that the decision tree missed.</li>
+            <li><strong>Cross-validation prevents overfitting.</strong> 5-fold CV ensured our 96.8% accuracy would generalize to new data.</li>
+            <li><strong>Domain knowledge confirms models.</strong> RAM and battery being top predictors aligns with real-world consumer behavior.</li>
+            <li><strong>Balanced datasets are a gift.</strong> No need for SMOTE or class weighting when classes are already equal.</li>
+          </ol>
+
+          <h2>Files & Reproducibility</h2>
+          <ul>
+            <li><code>train.csv</code> — Training dataset (2,000 phones)</li>
+            <li><code>test.csv</code> — Holdout test set for final predictions</li>
+            <li><code>Mobile_Case.R</code> — Complete R script with all code</li>
+            <li><code>svm_tuned_model.rds</code> — Saved model for production use</li>
+          </ul>
+
+          <div class="story-cta">
+            <a class="btn primary" href="https://github.com/mraselm/mobile-price-classification" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <a class="btn ghost" href="/home/#contact">
+              <i class="fas fa-envelope"></i> Discuss This Project
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container meta">
+        <div>
+          <div>&copy; MD Rasel Mia 2025 · All Rights Reserved</div>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
+          <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
