@@ -1,0 +1,1076 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S86VJ0K0L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-1S86VJ0K0L');
+    </script>
+    <title>How to Pick the Right Chart Type | Rasel Mia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="A visual guide to choosing the perfect chart for your data. Learn when to use bar charts, line graphs, pie charts, scatter plots, and more." />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <style>
+      .story-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      .story-header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .story-header .eyebrow {
+        color: var(--accent);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+      }
+      .story-header h1 {
+        font-size: clamp(1.8rem, 5vw, 2.8rem);
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+      .story-meta {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+      }
+      .story-meta span {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .story-body h2 {
+        font-size: 1.5rem;
+        margin: 2.5rem 0 1rem;
+        color: var(--ink);
+      }
+      .story-body h3 {
+        font-size: 1.2rem;
+        margin: 2rem 0 0.75rem;
+        color: var(--ink);
+      }
+      .story-body p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--muted);
+        margin-bottom: 1.25rem;
+      }
+      .story-body ul, .story-body ol {
+        margin: 1rem 0 1.5rem 1.5rem;
+        color: var(--muted);
+      }
+      .story-body li {
+        margin-bottom: 0.5rem;
+        line-height: 1.7;
+      }
+      .highlight-box {
+        background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(56, 189, 248, 0.08));
+        border-left: 4px solid var(--accent);
+        padding: 1.25rem 1.5rem;
+        border-radius: 0 12px 12px 0;
+        margin: 2rem 0;
+      }
+      .highlight-box p {
+        margin: 0;
+        font-size: 1rem;
+      }
+      .story-cta {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border);
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+        transition: color 0.2s;
+      }
+      .back-link:hover {
+        color: var(--accent);
+      }
+      .quote-block {
+        font-size: 1.3rem;
+        font-style: italic;
+        text-align: center;
+        color: var(--ink);
+        padding: 2rem;
+        margin: 2.5rem 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      
+      /* Chart Section Styles */
+      .chart-section {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        margin: 2rem 0;
+      }
+      .chart-section h3 {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+      .chart-section h3 .chart-icon {
+        font-size: 1.5rem;
+      }
+      .chart-container {
+        position: relative;
+        height: 300px;
+        margin: 1.5rem 0;
+      }
+      .chart-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border);
+      }
+      .chart-info-item h4 {
+        font-size: 0.85rem;
+        color: var(--accent);
+        margin: 0 0 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .chart-info-item ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        font-size: 0.9rem;
+      }
+      .chart-info-item li {
+        margin-bottom: 0.3rem;
+      }
+      
+      /* Decision Flowchart */
+      .decision-tree {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 2rem;
+        margin: 2rem 0;
+      }
+      .decision-node {
+        background: linear-gradient(135deg, rgba(14, 165, 233, 0.15), rgba(56, 189, 248, 0.1));
+        border: 2px solid var(--accent);
+        border-radius: 12px;
+        padding: 1rem 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        color: var(--ink);
+        margin: 1rem auto;
+        max-width: 400px;
+      }
+      .decision-branches {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+      .decision-branch {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 1rem;
+        text-align: center;
+      }
+      .decision-branch .branch-label {
+        font-size: 0.75rem;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.5rem;
+      }
+      .decision-branch .branch-result {
+        font-weight: 600;
+        color: var(--ink);
+        font-size: 1rem;
+      }
+      .decision-branch .branch-icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      /* Chart Type Cards */
+      .chart-type-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.25rem;
+        margin: 2rem 0;
+      }
+      .chart-type-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.25rem;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .chart-type-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+      }
+      .chart-type-card .card-icon {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+      }
+      .chart-type-card h4 {
+        margin: 0 0 0.5rem;
+        color: var(--ink);
+        font-size: 1.1rem;
+      }
+      .chart-type-card p {
+        font-size: 0.9rem;
+        margin: 0;
+        color: var(--muted);
+      }
+      .chart-type-card .use-tag {
+        display: inline-block;
+        background: rgba(14, 165, 233, 0.1);
+        color: var(--accent);
+        font-size: 0.75rem;
+        padding: 0.25rem 0.6rem;
+        border-radius: 12px;
+        margin-top: 0.75rem;
+        font-weight: 500;
+      }
+      
+      /* Comparison Table */
+      .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        font-size: 0.9rem;
+      }
+      .comparison-table th, .comparison-table td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+      .comparison-table th {
+        background: var(--card-bg);
+        font-weight: 600;
+        color: var(--ink);
+      }
+      .comparison-table td {
+        color: var(--muted);
+      }
+      .comparison-table tr:last-child td {
+        border-bottom: none;
+      }
+      .comparison-table .check {
+        color: #22c55e;
+      }
+      .comparison-table .cross {
+        color: #ef4444;
+      }
+      
+      /* Do's and Don'ts */
+      .dos-donts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin: 2rem 0;
+      }
+      .dos, .donts {
+        background: var(--card-bg);
+        border-radius: 12px;
+        padding: 1.25rem;
+      }
+      .dos {
+        border: 1px solid #22c55e;
+      }
+      .donts {
+        border: 1px solid #ef4444;
+      }
+      .dos h4, .donts h4 {
+        margin: 0 0 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .dos h4 {
+        color: #22c55e;
+      }
+      .donts h4 {
+        color: #ef4444;
+      }
+      .dos ul, .donts ul {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+      .dos li, .donts li {
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+      }
+      
+      @media (max-width: 600px) {
+        .story-container {
+          padding: 1rem 1rem 3rem;
+        }
+        .story-body p {
+          font-size: 1rem;
+        }
+        .chart-info {
+          grid-template-columns: 1fr;
+        }
+        .dos-donts {
+          grid-template-columns: 1fr;
+        }
+        .chart-container {
+          height: 250px;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="page-shell">
+    <div class="surface-glow"></div>
+
+    <header class="site-header">
+      <div class="container inner">
+        <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+        <nav class="nav-links">
+          <a href="/home/#projects">Projects</a>
+          <a href="/home/#skills">Toolbox</a>
+          <a href="/home/#contact">Contact</a>
+          <a href="/datastory/">Data Story</a>
+          <a href="/resume/">Resume</a>
+        </nav>
+        <div class="header-actions">
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+            <a href="https://github.com/mraselm" class="icon fab fa-github" aria-label="GitHub" target="_blank"></a>
+          </div>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-track">
+              <span class="theme-icon sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+              <span class="theme-icon moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+              <span class="theme-knob"></span>
+            </span>
+          </button>
+          <button class="nav-toggle" type="button" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <article class="story-container">
+        <a href="/datastory/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Data Stories</a>
+        
+        <header class="story-header">
+          <p class="eyebrow">Data Visualization Guide</p>
+          <h1>How to Pick the Right Chart Type</h1>
+          <div class="story-meta">
+            <span><i class="fas fa-calendar"></i> December 2024</span>
+            <span><i class="fas fa-clock"></i> 10 min read</span>
+            <span><i class="fas fa-tag"></i> Visualization</span>
+          </div>
+        </header>
+
+        <div class="story-body">
+          <p>
+            You've crunched the numbers, cleaned the data, and uncovered insights. Now comes the crucial part: 
+            <strong>communicating those insights visually</strong>. But with dozens of chart types available, 
+            how do you choose the right one?
+          </p>
+          <p>
+            The wrong chart can confuse your audience, hide patterns, or worse—mislead entirely. The right chart 
+            makes your data sing. This guide will help you match your data story to the perfect visualization.
+          </p>
+
+          <div class="quote-block">
+            "The greatest value of a picture is when it forces us to notice what we never expected to see."<br>
+            <small>— John Tukey, Statistician</small>
+          </div>
+
+          <h2>🎯 Start with Your Goal</h2>
+          <p>
+            Before picking a chart, ask yourself: <strong>What question am I trying to answer?</strong> 
+            Your visualization goal typically falls into one of these four categories:
+          </p>
+
+          <div class="chart-type-grid">
+            <div class="chart-type-card">
+              <div class="card-icon">📊</div>
+              <h4>Comparison</h4>
+              <p>How do values differ across categories or time periods?</p>
+              <span class="use-tag">Bar, Column, Radar</span>
+            </div>
+            <div class="chart-type-card">
+              <div class="card-icon">📈</div>
+              <h4>Trend</h4>
+              <p>How does a value change over time?</p>
+              <span class="use-tag">Line, Area, Sparkline</span>
+            </div>
+            <div class="chart-type-card">
+              <div class="card-icon">🥧</div>
+              <h4>Composition</h4>
+              <p>What are the parts of a whole?</p>
+              <span class="use-tag">Pie, Stacked Bar, Treemap</span>
+            </div>
+            <div class="chart-type-card">
+              <div class="card-icon">🔵</div>
+              <h4>Relationship</h4>
+              <p>Is there a correlation between variables?</p>
+              <span class="use-tag">Scatter, Bubble, Heatmap</span>
+            </div>
+          </div>
+
+          <!-- COMPARISON CHARTS -->
+          <h2>📊 Comparison Charts</h2>
+          <p>
+            Use comparison charts when you want to show how different categories stack up against each other. 
+            These are the workhorses of business reporting.
+          </p>
+
+          <div class="chart-section">
+            <h3><span class="chart-icon">📊</span> Bar Chart</h3>
+            <p>The classic choice for comparing discrete categories. Horizontal bars work great when you have long category names.</p>
+            <div class="chart-container">
+              <canvas id="barChart"></canvas>
+            </div>
+            <div class="chart-info">
+              <div class="chart-info-item">
+                <h4>✅ Best For</h4>
+                <ul>
+                  <li>Comparing values across categories</li>
+                  <li>Ranking items (sorted bars)</li>
+                  <li>Long category labels (horizontal)</li>
+                </ul>
+              </div>
+              <div class="chart-info-item">
+                <h4>⚠️ Avoid When</h4>
+                <ul>
+                  <li>You have too many categories (>12)</li>
+                  <li>Showing trends over time</li>
+                  <li>Values are very similar</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-section">
+            <h3><span class="chart-icon">📉</span> Column Chart</h3>
+            <p>Vertical bars are intuitive for time-based comparisons where time flows left to right.</p>
+            <div class="chart-container">
+              <canvas id="columnChart"></canvas>
+            </div>
+            <div class="chart-info">
+              <div class="chart-info-item">
+                <h4>✅ Best For</h4>
+                <ul>
+                  <li>Time-based comparisons</li>
+                  <li>Fewer categories (≤7)</li>
+                  <li>When order matters</li>
+                </ul>
+              </div>
+              <div class="chart-info-item">
+                <h4>⚠️ Avoid When</h4>
+                <ul>
+                  <li>Long category labels</li>
+                  <li>Continuous time series (use line)</li>
+                  <li>Too many data points</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- TREND CHARTS -->
+          <h2>📈 Trend Charts</h2>
+          <p>
+            Time is the star here. Trend charts reveal patterns, seasonality, and change over time—essential 
+            for forecasting and understanding historical performance.
+          </p>
+
+          <div class="chart-section">
+            <h3><span class="chart-icon">📈</span> Line Chart</h3>
+            <p>The go-to for showing continuous data over time. Multiple lines can compare different series.</p>
+            <div class="chart-container">
+              <canvas id="lineChart"></canvas>
+            </div>
+            <div class="chart-info">
+              <div class="chart-info-item">
+                <h4>✅ Best For</h4>
+                <ul>
+                  <li>Continuous time series</li>
+                  <li>Showing trends and patterns</li>
+                  <li>Comparing multiple series</li>
+                </ul>
+              </div>
+              <div class="chart-info-item">
+                <h4>⚠️ Avoid When</h4>
+                <ul>
+                  <li>Discrete, unordered categories</li>
+                  <li>Only a few data points</li>
+                  <li>Too many overlapping lines (>5)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-section">
+            <h3><span class="chart-icon">🌊</span> Area Chart</h3>
+            <p>Like a line chart, but filled. Great for emphasizing magnitude or showing cumulative values.</p>
+            <div class="chart-container">
+              <canvas id="areaChart"></canvas>
+            </div>
+            <div class="chart-info">
+              <div class="chart-info-item">
+                <h4>✅ Best For</h4>
+                <ul>
+                  <li>Emphasizing volume/magnitude</li>
+                  <li>Stacked compositions over time</li>
+                  <li>Cumulative totals</li>
+                </ul>
+              </div>
+              <div class="chart-info-item">
+                <h4>⚠️ Avoid When</h4>
+                <ul>
+                  <li>Multiple overlapping series (use stacked)</li>
+                  <li>Precise value reading is needed</li>
+                  <li>Negative values present</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPOSITION CHARTS -->
+          <h2>🥧 Composition Charts</h2>
+          <p>
+            When your story is about parts of a whole—market share, budget allocation, demographic breakdown—composition 
+            charts make proportions instantly clear.
+          </p>
+
+          <div class="chart-section">
+            <h3><span class="chart-icon">🥧</span> Pie Chart</h3>
+            <p>Controversial but effective for simple part-to-whole relationships with few categories.</p>
+            <div class="chart-container" style="max-width: 350px; margin: 1.5rem auto;">
+              <canvas id="pieChart"></canvas>
+            </div>
+            <div class="chart-info">
+              <div class="chart-info-item">
+                <h4>✅ Best For</h4>
+                <ul>
+                  <li>Simple part-to-whole (2-5 slices)</li>
+                  <li>When one slice dominates</li>
+                  <li>High-level executive summaries</li>
+                </ul>
+              </div>
+              <div class="chart-info-item">
+                <h4>⚠️ Avoid When</h4>
+                <ul>
+                  <li>More than 5-6 categories</li>
+                  <li>Slices are similar sizes</li>
+                  <li>Comparing multiple pies</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-section">
+            <h3><span class="chart-icon">📚</span> Stacked Bar Chart</h3>
+            <p>Show composition AND comparison. Each bar shows a total, with segments showing the breakdown.</p>
+            <div class="chart-container">
+              <canvas id="stackedBarChart"></canvas>
+            </div>
+            <div class="chart-info">
+              <div class="chart-info-item">
+                <h4>✅ Best For</h4>
+                <ul>
+                  <li>Composition across categories</li>
+                  <li>Comparing totals AND parts</li>
+                  <li>Time-based composition changes</li>
+                </ul>
+              </div>
+              <div class="chart-info-item">
+                <h4>⚠️ Avoid When</h4>
+                <ul>
+                  <li>Too many segments (>5)</li>
+                  <li>Comparing middle segments</li>
+                  <li>Absolute values matter more than %</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- RELATIONSHIP CHARTS -->
+          <h2>🔵 Relationship Charts</h2>
+          <p>
+            Correlation, distribution, clustering—relationship charts reveal hidden connections between variables 
+            that tables and other charts can't show.
+          </p>
+
+          <div class="chart-section">
+            <h3><span class="chart-icon">⚪</span> Scatter Plot</h3>
+            <p>Each point represents an observation plotted on two axes. The pattern reveals the relationship.</p>
+            <div class="chart-container">
+              <canvas id="scatterChart"></canvas>
+            </div>
+            <div class="chart-info">
+              <div class="chart-info-item">
+                <h4>✅ Best For</h4>
+                <ul>
+                  <li>Showing correlation (or lack of)</li>
+                  <li>Identifying outliers</li>
+                  <li>Spotting clusters</li>
+                </ul>
+              </div>
+              <div class="chart-info-item">
+                <h4>⚠️ Avoid When</h4>
+                <ul>
+                  <li>Too few data points (<10)</li>
+                  <li>Categories, not continuous data</li>
+                  <li>Audience unfamiliar with concept</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-section">
+            <h3><span class="chart-icon">🫧</span> Bubble Chart</h3>
+            <p>A scatter plot with a third dimension: bubble size represents another variable.</p>
+            <div class="chart-container">
+              <canvas id="bubbleChart"></canvas>
+            </div>
+            <div class="chart-info">
+              <div class="chart-info-item">
+                <h4>✅ Best For</h4>
+                <ul>
+                  <li>Three-variable relationships</li>
+                  <li>Comparing entities on multiple dimensions</li>
+                  <li>Portfolio or market analysis</li>
+                </ul>
+              </div>
+              <div class="chart-info-item">
+                <h4>⚠️ Avoid When</h4>
+                <ul>
+                  <li>Precise size comparison needed</li>
+                  <li>Bubbles overlap heavily</li>
+                  <li>More than 20-30 bubbles</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- DECISION FRAMEWORK -->
+          <h2>🧭 Quick Decision Framework</h2>
+          <p>Still not sure? Use this simple flowchart:</p>
+
+          <div class="decision-tree">
+            <div class="decision-node">What do you want to show?</div>
+            <div class="decision-branches">
+              <div class="decision-branch">
+                <div class="branch-icon">📊</div>
+                <div class="branch-label">Comparing values?</div>
+                <div class="branch-result">Bar / Column</div>
+              </div>
+              <div class="decision-branch">
+                <div class="branch-icon">📈</div>
+                <div class="branch-label">Change over time?</div>
+                <div class="branch-result">Line / Area</div>
+              </div>
+              <div class="decision-branch">
+                <div class="branch-icon">🥧</div>
+                <div class="branch-label">Parts of a whole?</div>
+                <div class="branch-result">Pie / Stacked Bar</div>
+              </div>
+              <div class="decision-branch">
+                <div class="branch-icon">🔵</div>
+                <div class="branch-label">Correlation?</div>
+                <div class="branch-result">Scatter / Bubble</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPARISON TABLE -->
+          <h2>📋 Chart Type Comparison</h2>
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Chart Type</th>
+                <th>Categories</th>
+                <th>Time Series</th>
+                <th>Composition</th>
+                <th>Correlation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Bar/Column</strong></td>
+                <td class="check">✓</td>
+                <td>○</td>
+                <td>○</td>
+                <td class="cross">✗</td>
+              </tr>
+              <tr>
+                <td><strong>Line</strong></td>
+                <td class="cross">✗</td>
+                <td class="check">✓</td>
+                <td class="cross">✗</td>
+                <td>○</td>
+              </tr>
+              <tr>
+                <td><strong>Area</strong></td>
+                <td class="cross">✗</td>
+                <td class="check">✓</td>
+                <td class="check">✓</td>
+                <td class="cross">✗</td>
+              </tr>
+              <tr>
+                <td><strong>Pie</strong></td>
+                <td>○</td>
+                <td class="cross">✗</td>
+                <td class="check">✓</td>
+                <td class="cross">✗</td>
+              </tr>
+              <tr>
+                <td><strong>Scatter</strong></td>
+                <td class="cross">✗</td>
+                <td>○</td>
+                <td class="cross">✗</td>
+                <td class="check">✓</td>
+              </tr>
+              <tr>
+                <td><strong>Heatmap</strong></td>
+                <td class="check">✓</td>
+                <td class="check">✓</td>
+                <td>○</td>
+                <td class="check">✓</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="font-size: 0.85rem; color: var(--muted);">✓ = Excellent | ○ = Possible | ✗ = Not recommended</p>
+
+          <!-- DO'S AND DON'TS -->
+          <h2>✅ Visualization Best Practices</h2>
+          
+          <div class="dos-donts">
+            <div class="dos">
+              <h4><i class="fas fa-check-circle"></i> Do</h4>
+              <ul>
+                <li>Start bar charts at zero</li>
+                <li>Use consistent colors for same categories</li>
+                <li>Label axes clearly</li>
+                <li>Include a descriptive title</li>
+                <li>Remove chart junk (3D effects, gridlines)</li>
+                <li>Consider colorblind-safe palettes</li>
+              </ul>
+            </div>
+            <div class="donts">
+              <h4><i class="fas fa-times-circle"></i> Don't</h4>
+              <ul>
+                <li>Use pie charts for >5 categories</li>
+                <li>Truncate axes to exaggerate differences</li>
+                <li>Use 3D charts (distorts perception)</li>
+                <li>Overload with too many data series</li>
+                <li>Use dual axes without clear reason</li>
+                <li>Rely on color alone for meaning</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="highlight-box">
+            <p><strong>💡 Pro Tip:</strong> When in doubt, start with a simple bar chart. It's universally understood, hard to misinterpret, and works for most business scenarios. You can always iterate to something more sophisticated.</p>
+          </div>
+
+          <h2>🎨 Final Thoughts</h2>
+          <p>
+            The best visualization is the one your audience understands instantly. Before finalizing, ask:
+          </p>
+          <ol>
+            <li><strong>Can someone grasp the main point in 5 seconds?</strong></li>
+            <li><strong>Does the chart answer the question I started with?</strong></li>
+            <li><strong>Is it honest?</strong> (No manipulated axes or cherry-picked data)</li>
+          </ol>
+          <p>
+            Data visualization is both art and science. Master the fundamentals, and you'll tell data stories 
+            that inform, persuade, and inspire action.
+          </p>
+
+          <div class="story-cta">
+            <a class="btn primary" href="/home/#contact">
+              <i class="fas fa-envelope"></i> Let's Discuss Visualization
+            </a>
+            <a class="btn ghost" href="/datastory/">
+              <i class="fas fa-book"></i> More Data Stories
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container meta">
+        <div>
+          <div>&copy; MD Rasel Mia 2025 · All Rights Reserved</div>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
+          <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script>
+      // Chart.js configurations
+      const isDark = document.body.classList.contains('theme-dark') || 
+                     localStorage.getItem('theme') === 'dark';
+      
+      const chartColors = {
+        primary: '#0ea5e9',
+        secondary: '#38bdf8',
+        tertiary: '#7dd3fc',
+        quaternary: '#bae6fd',
+        accent: '#f472b6',
+        success: '#22c55e',
+        warning: '#f59e0b',
+        text: isDark ? '#e2e8f0' : '#334155',
+        grid: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
+      };
+
+      Chart.defaults.color = chartColors.text;
+      Chart.defaults.borderColor = chartColors.grid;
+
+      // Bar Chart
+      new Chart(document.getElementById('barChart'), {
+        type: 'bar',
+        data: {
+          labels: ['Marketing', 'Sales', 'Engineering', 'HR', 'Finance', 'Operations'],
+          datasets: [{
+            label: 'Budget Allocation ($K)',
+            data: [120, 190, 300, 80, 150, 95],
+            backgroundColor: [chartColors.primary, chartColors.secondary, chartColors.tertiary, 
+                             chartColors.quaternary, chartColors.accent, chartColors.success],
+            borderRadius: 6
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } }
+        }
+      });
+
+      // Column Chart
+      new Chart(document.getElementById('columnChart'), {
+        type: 'bar',
+        data: {
+          labels: ['Q1', 'Q2', 'Q3', 'Q4'],
+          datasets: [{
+            label: '2023',
+            data: [65, 78, 90, 81],
+            backgroundColor: chartColors.secondary,
+            borderRadius: 6
+          }, {
+            label: '2024',
+            data: [75, 88, 95, 102],
+            backgroundColor: chartColors.primary,
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top' } }
+        }
+      });
+
+      // Line Chart
+      new Chart(document.getElementById('lineChart'), {
+        type: 'line',
+        data: {
+          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+          datasets: [{
+            label: 'Revenue',
+            data: [30, 35, 40, 38, 45, 52, 48, 55, 62, 58, 68, 75],
+            borderColor: chartColors.primary,
+            backgroundColor: 'transparent',
+            tension: 0.3,
+            pointRadius: 4
+          }, {
+            label: 'Expenses',
+            data: [25, 28, 32, 30, 35, 38, 36, 40, 42, 45, 48, 52],
+            borderColor: chartColors.accent,
+            backgroundColor: 'transparent',
+            tension: 0.3,
+            pointRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top' } }
+        }
+      });
+
+      // Area Chart
+      new Chart(document.getElementById('areaChart'), {
+        type: 'line',
+        data: {
+          labels: ['2019', '2020', '2021', '2022', '2023', '2024'],
+          datasets: [{
+            label: 'Active Users (M)',
+            data: [2.5, 3.8, 5.2, 7.1, 9.5, 12.3],
+            borderColor: chartColors.primary,
+            backgroundColor: 'rgba(14, 165, 233, 0.2)',
+            fill: true,
+            tension: 0.4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top' } }
+        }
+      });
+
+      // Pie Chart
+      new Chart(document.getElementById('pieChart'), {
+        type: 'doughnut',
+        data: {
+          labels: ['Mobile', 'Desktop', 'Tablet', 'Other'],
+          datasets: [{
+            data: [58, 30, 10, 2],
+            backgroundColor: [chartColors.primary, chartColors.secondary, chartColors.tertiary, chartColors.quaternary],
+            borderWidth: 0
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { 
+            legend: { position: 'bottom' }
+          }
+        }
+      });
+
+      // Stacked Bar Chart
+      new Chart(document.getElementById('stackedBarChart'), {
+        type: 'bar',
+        data: {
+          labels: ['North', 'South', 'East', 'West'],
+          datasets: [{
+            label: 'Product A',
+            data: [45, 38, 52, 41],
+            backgroundColor: chartColors.primary
+          }, {
+            label: 'Product B',
+            data: [32, 45, 28, 35],
+            backgroundColor: chartColors.secondary
+          }, {
+            label: 'Product C',
+            data: [23, 17, 20, 24],
+            backgroundColor: chartColors.tertiary
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { x: { stacked: true }, y: { stacked: true } },
+          plugins: { legend: { position: 'top' } }
+        }
+      });
+
+      // Scatter Chart
+      new Chart(document.getElementById('scatterChart'), {
+        type: 'scatter',
+        data: {
+          datasets: [{
+            label: 'Ad Spend vs Sales',
+            data: [
+              {x: 10, y: 25}, {x: 15, y: 35}, {x: 20, y: 42}, {x: 25, y: 48},
+              {x: 30, y: 55}, {x: 35, y: 60}, {x: 40, y: 68}, {x: 45, y: 72},
+              {x: 50, y: 78}, {x: 55, y: 82}, {x: 60, y: 88}, {x: 65, y: 92},
+              {x: 22, y: 38}, {x: 28, y: 52}, {x: 38, y: 65}, {x: 48, y: 75}
+            ],
+            backgroundColor: chartColors.primary,
+            pointRadius: 8
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: { title: { display: true, text: 'Ad Spend ($K)' } },
+            y: { title: { display: true, text: 'Sales ($K)' } }
+          },
+          plugins: { legend: { display: false } }
+        }
+      });
+
+      // Bubble Chart
+      new Chart(document.getElementById('bubbleChart'), {
+        type: 'bubble',
+        data: {
+          datasets: [{
+            label: 'Products',
+            data: [
+              {x: 20, y: 30, r: 15},
+              {x: 40, y: 10, r: 10},
+              {x: 25, y: 50, r: 25},
+              {x: 60, y: 35, r: 20},
+              {x: 45, y: 55, r: 12},
+              {x: 70, y: 20, r: 18}
+            ],
+            backgroundColor: [
+              'rgba(14, 165, 233, 0.6)',
+              'rgba(56, 189, 248, 0.6)',
+              'rgba(244, 114, 182, 0.6)',
+              'rgba(34, 197, 94, 0.6)',
+              'rgba(245, 158, 11, 0.6)',
+              'rgba(125, 211, 252, 0.6)'
+            ]
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: { title: { display: true, text: 'Price ($)' } },
+            y: { title: { display: true, text: 'Profit Margin (%)' } }
+          },
+          plugins: { 
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (ctx) => `Price: $${ctx.raw.x}, Margin: ${ctx.raw.y}%, Volume: ${ctx.raw.r * 10}`
+              }
+            }
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
