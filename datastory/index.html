@@ -18,6 +18,95 @@
     <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
     <link rel="stylesheet" href="/assets/css/main.css" />
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <style>
+      /* Filter Bar Styles */
+      .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+        padding: 1rem 0;
+      }
+      .filter-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.6rem 1.25rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        border: 2px solid var(--border);
+        border-radius: 50px;
+        background: var(--card-bg);
+        color: var(--muted);
+        cursor: pointer;
+        transition: all 0.25s ease;
+      }
+      .filter-btn:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+      .filter-btn.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+      .filter-btn i {
+        font-size: 0.85rem;
+      }
+      .filter-count {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 1.4rem;
+        height: 1.4rem;
+        padding: 0 0.4rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        background: rgba(0,0,0,0.15);
+        border-radius: 50px;
+        margin-left: 0.25rem;
+      }
+      .filter-btn.active .filter-count {
+        background: rgba(255,255,255,0.25);
+      }
+      /* Card animation for filtering */
+      .post-card {
+        transition: opacity 0.3s ease, transform 0.3s ease;
+      }
+      .post-card.hidden {
+        display: none !important;
+      }
+      .post-card.fade-out {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      /* No results message */
+      .no-results {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 3rem 1rem;
+        color: var(--muted);
+      }
+      .no-results i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        opacity: 0.5;
+      }
+      .no-results h3 {
+        margin-bottom: 0.5rem;
+        color: var(--ink);
+      }
+      @media (max-width: 600px) {
+        .filter-bar {
+          gap: 0.5rem;
+        }
+        .filter-btn {
+          padding: 0.5rem 1rem;
+          font-size: 0.85rem;
+        }
+      }
+    </style>
   </head>
 
   <body class="page-shell">
@@ -81,9 +170,34 @@
       </section>
 
       <section>
+        <div class="container">
+          <!-- Filter Bar -->
+          <div class="filter-bar" role="group" aria-label="Filter stories by category">
+            <button class="filter-btn active" data-filter="all">
+              <i class="fas fa-th-large"></i>
+              <span data-i18n="filter_all">All</span>
+              <span class="filter-count">4</span>
+            </button>
+            <button class="filter-btn" data-filter="ml">
+              <i class="fas fa-brain"></i>
+              <span data-i18n="filter_ml">Machine Learning</span>
+              <span class="filter-count">2</span>
+            </button>
+            <button class="filter-btn" data-filter="dl">
+              <i class="fas fa-network-wired"></i>
+              <span data-i18n="filter_dl">Deep Learning</span>
+              <span class="filter-count">1</span>
+            </button>
+            <button class="filter-btn" data-filter="viz">
+              <i class="fas fa-chart-pie"></i>
+              <span data-i18n="filter_viz">Visualization</span>
+              <span class="filter-count">1</span>
+            </button>
+          </div>
+        </div>
         <div class="container blog-grid">
           <!-- Featured Story -->
-          <article class="post-card featured" id="post-churn">
+          <article class="post-card featured" id="post-churn" data-category="ml">
             <span class="post-badge">Featured Case Study</span>
             <h3 data-i18n="post_churn_title">Predicting Customer Churn Before It Happens</h3>
             <img class="post-thumb" src="/images/customerchurn.jpg" alt="Customer Churn Prediction Dashboard" />
@@ -96,7 +210,7 @@
           </article>
 
           <!-- Stock Prediction Story -->
-          <article class="post-card featured" id="post-stock">
+          <article class="post-card featured" id="post-stock" data-category="dl">
             <span class="post-badge">Deep Learning Experiment</span>
             <h3 data-i18n="post_stock_title">Can AI Read Candlestick Charts Like a Trader?</h3>
             <img class="post-thumb" src="/images/candlestick.jpg" alt="Candlestick CNN Classification" />
@@ -109,7 +223,7 @@
           </article>
 
           <!-- Mobile Pricing Story -->
-          <article class="post-card featured" id="post-mobile">
+          <article class="post-card featured" id="post-mobile" data-category="ml">
             <span class="post-badge">ML Case Study</span>
             <h3 data-i18n="post_mobile_title">Helping Bob Price His Phones: A Classification Journey in R</h3>
             <img class="post-thumb" src="/images/mobilecase.jpg" alt="Mobile Phone Price Classification" />
@@ -122,7 +236,7 @@
           </article>
 
           <!-- Chart Guide Story -->
-          <article class="post-card featured" id="post-chart">
+          <article class="post-card featured" id="post-chart" data-category="viz">
             <span class="post-badge">Visual Guide</span>
             <h3 data-i18n="post_chart_title">How to Pick the Right Chart Type</h3>
             <img class="post-thumb" src="/images/chartguide.svg" alt="Data Visualization Chart Types Guide" />
@@ -166,6 +280,10 @@
             post_churn_title: "Predicting Customer Churn Before It Happens",
             post_churn_short: "How I built an AI-powered dashboard using PyCaret AutoML, XGBoost, SHAP explainability, and OpenAI to predict at-risk customers and generate retention strategies...",
             btn_read_story: "Read Full Story",
+            filter_all: "All",
+            filter_ml: "Machine Learning",
+            filter_dl: "Deep Learning",
+            filter_viz: "Visualization",
             post_stock_title: "Can AI Read Candlestick Charts Like a Trader?",
             post_stock_short: "Building a CNN with TensorFlow to classify candlestick chart images and predict stock price movements—an experiment in visual finance...",
             post_mobile_title: "Helping Bob Price His Phones: A Classification Journey in R",
@@ -199,6 +317,10 @@
             post_churn_title: "Forudsig kundefrafald før det sker",
             post_churn_short: "Hvordan jeg byggede et AI-drevet dashboard med PyCaret AutoML, XGBoost, SHAP og OpenAI til at forudsige risikokunder og skabe fastholdelsesstrategier...",
             btn_read_story: "Læs hele historien",
+            filter_all: "Alle",
+            filter_ml: "Maskinlæring",
+            filter_dl: "Dyb læring",
+            filter_viz: "Visualisering",
             post_stock_title: "Kan AI læse lysestage-diagrammer som en trader?",
             post_stock_short: "Opbygning af et CNN med TensorFlow til at klassificere lysestage-diagrammer og forudsige aktiebevægelser—et eksperiment i visuel finans...",
             post_mobile_title: "Hjælp Bob med at prissætte sine telefoner: En klassificeringsrejse i R",
@@ -250,6 +372,38 @@
         }
 
         applyLang(preferred);
+      })();
+
+      // Filter functionality
+      (function() {
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const cards = document.querySelectorAll('.post-card[data-category]');
+        const blogGrid = document.querySelector('.blog-grid');
+
+        filterBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const filter = btn.dataset.filter;
+            
+            // Update active state
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Filter cards with animation
+            cards.forEach(card => {
+              const category = card.dataset.category;
+              const shouldShow = filter === 'all' || category === filter;
+              
+              if (shouldShow) {
+                card.classList.remove('hidden', 'fade-out');
+              } else {
+                card.classList.add('fade-out');
+                setTimeout(() => {
+                  card.classList.add('hidden');
+                }, 300);
+              }
+            });
+          });
+        });
       })();
     </script>
   </body>
