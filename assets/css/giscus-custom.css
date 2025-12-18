@@ -2,69 +2,84 @@
  * Custom Giscus theme to match raselmia.live
  */
 
-
-
-/* Hardcoded light mode colors for Giscus */
-.giscus, .gsc-main, .gsc-header, .gsc-comment-box, .gsc-comment, .gsc-login-prompt, .gsc-reply-box {
-  background: #fff !important;
-  color: #1e293b !important;
-  border-color: #cbd5e1 !important;
+:root {
+  color-scheme: light;
+  --color-canvas-default: #ffffff;
+  --color-canvas-subtle: #f7f9fc;
+  --color-fg-default: #0f172a;
+  --color-fg-muted: #475569;
+  --color-accent-fg: #0ea5e9;
+  --color-accent-emphasis: #0ea5e9;
+  --color-border-default: #d7dce4;
+  --color-border-muted: #e2e8f0;
 }
 
-.gsc-header, .gsc-header *,
-.gsc-comment-box, .gsc-comment-box *,
-.gsc-comment, .gsc-comment *,
-.gsc-login-prompt, .gsc-login-prompt *,
-.gsc-reply-box, .gsc-reply-box * {
-  color: #1e293b !important;
-  border-color: #cbd5e1 !important;
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-canvas-default: #0f172a;
+    --color-canvas-subtle: #111827;
+    --color-fg-default: #f8fafc;
+    --color-fg-muted: #cbd5e1;
+    --color-accent-fg: #38bdf8;
+    --color-accent-emphasis: #38bdf8;
+    --color-border-default: #475569;
+    --color-border-muted: #334155;
+  }
 }
 
-.gsc-header a, .gsc-comment-content a {
-  color: #0ea5e9 !important;
-}
-
-.gsc-comment-box-buttons button,
-.btn-primary {
-  background: #0ea5e9 !important;
-  color: #fff !important;
-  border-color: #0ea5e9 !important;
-}
-.gsc-comment-box-buttons button:hover,
-.btn-primary:hover {
-  background: #0284c7 !important;
-  border-color: #0284c7 !important;
-}
-
-/* Explicit background and text color for Giscus root */
-.giscus, .gsc-main, .gsc-comment, .gsc-comment-box, .gsc-header, .gsc-login-prompt {
+/* Base surfaces */
+.giscus,
+.gsc-main,
+.gsc-header,
+.gsc-comment-box,
+.gsc-comment,
+.gsc-login-prompt,
+.gsc-reply-box {
   background: var(--color-canvas-default, #fff) !important;
-  color: var(--color-fg-default, #1e293b) !important;
-}
-
-/* Make all text inside Giscus readable in light mode */
-.giscus *, .gsc-main *, .gsc-comment *, .gsc-comment-box *, .gsc-header *, .gsc-login-prompt * {
   color: var(--color-fg-default, #1e293b) !important;
   border-color: var(--color-border-default, #cbd5e1) !important;
 }
 
-/* Make links and buttons stand out */
-.gsc-comment-box-buttons button,
-.btn-primary,
+.gsc-header,
+.gsc-header *,
+.gsc-comment-box,
+.gsc-comment-box *,
+.gsc-comment,
+.gsc-comment *,
+.gsc-login-prompt,
+.gsc-login-prompt *,
+.gsc-reply-box,
+.gsc-reply-box * {
+  color: var(--color-fg-default, #1e293b) !important;
+  border-color: var(--color-border-default, #cbd5e1) !important;
+}
+
 .gsc-header a,
 .gsc-comment-content a {
-  color: #fff !important;
-  background: var(--color-accent-emphasis, #0ea5e9) !important;
-  border-color: var(--color-accent-emphasis, #0ea5e9) !important;
+  color: var(--color-accent-fg, #0ea5e9) !important;
 }
+
+/* Buttons */
+.gsc-comment-box-buttons button,
+.btn-primary {
+  background: var(--color-accent-emphasis, #0ea5e9) !important;
+  color: #fff !important;
+  border-color: var(--color-accent-emphasis, #0ea5e9) !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+}
+
 .gsc-comment-box-buttons button:hover,
 .btn-primary:hover {
   background: #0284c7 !important;
   border-color: #0284c7 !important;
 }
 
-/* Make sure borders are visible in light mode */
-.gsc-comment-box, .gsc-comment, .gsc-reply-box {
+/* Borders */
+.gsc-comment-box,
+.gsc-comment,
+.gsc-reply-box {
   border-color: var(--color-border-default, #e2e8f0) !important;
 }
 
@@ -76,12 +91,12 @@
 /* Comment box */
 .gsc-comment-box {
   border-radius: 12px !important;
-  border-color: var(--color-border-default) !important;
+  border-color: var(--color-border-default, #cbd5e1) !important;
 }
 
 .gsc-comment-box-tabs {
   border-radius: 12px 12px 0 0 !important;
-  background: var(--color-canvas-subtle) !important;
+  background: var(--color-canvas-subtle, #f7f9fc) !important;
 }
 
 .gsc-comment-box-textarea {
@@ -91,26 +106,11 @@
 /* Comments */
 .gsc-comment {
   border-radius: 12px !important;
-  background: var(--color-canvas-default) !important;
+  background: var(--color-canvas-default, #fff) !important;
 }
 
 .gsc-comment-content {
   border-radius: 8px !important;
-}
-
-/* Buttons */
-.gsc-comment-box-buttons button,
-.btn-primary {
-  background: var(--color-accent-emphasis) !important;
-  border-color: var(--color-accent-emphasis) !important;
-  border-radius: 8px !important;
-  font-weight: 500 !important;
-}
-
-.gsc-comment-box-buttons button:hover,
-.btn-primary:hover {
-  background: #0284c7 !important;
-  border-color: #0284c7 !important;
 }
 
 /* Reactions */
@@ -129,7 +129,7 @@
 
 /* Links */
 a {
-  color: var(--color-accent-fg) !important;
+  color: var(--color-accent-fg, #0ea5e9) !important;
 }
 
 /* Avatar */
@@ -139,7 +139,7 @@ a {
 
 /* Timeline connector */
 .gsc-timeline {
-  border-color: var(--color-border-muted) !important;
+  border-color: var(--color-border-muted, #e2e8f0) !important;
 }
 
 /* Reply box */
@@ -150,36 +150,5 @@ a {
 /* Logged out prompt */
 .gsc-login-prompt {
   border-radius: 12px !important;
-  background: var(--color-canvas-subtle) !important;
-}
-
-/* Dark theme overrides - applied when parent has theme-dark class */
-@media (prefers-color-scheme: dark) {
-  .giscus, .gsc-main, .gsc-header, .gsc-comment-box, .gsc-comment, .gsc-login-prompt, .gsc-reply-box {
-    background: #1e293b !important;
-    color: #f1f5f9 !important;
-    border-color: #475569 !important;
-  }
-  .gsc-header, .gsc-header *,
-  .gsc-comment-box, .gsc-comment-box *,
-  .gsc-comment, .gsc-comment *,
-  .gsc-login-prompt, .gsc-login-prompt *,
-  .gsc-reply-box, .gsc-reply-box * {
-    color: #f1f5f9 !important;
-    border-color: #475569 !important;
-  }
-  .gsc-header a, .gsc-comment-content a {
-    color: #38bdf8 !important;
-  }
-  .gsc-comment-box-buttons button,
-  .btn-primary {
-    background: #38bdf8 !important;
-    color: #0f172a !important;
-    border-color: #38bdf8 !important;
-  }
-  .gsc-comment-box-buttons button:hover,
-  .btn-primary:hover {
-    background: #0ea5e9 !important;
-    border-color: #0ea5e9 !important;
-  }
+  background: var(--color-canvas-subtle, #f7f9fc) !important;
 }
