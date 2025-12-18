@@ -333,12 +333,12 @@
             <button class="filter-btn active" data-filter="all">
               <i class="fas fa-th-large"></i>
               <span data-i18n="filter_all">All</span>
-              <span class="filter-count">5</span>
+              <span class="filter-count">6</span>
             </button>
             <button class="filter-btn" data-filter="ml">
               <i class="fas fa-brain"></i>
               <span data-i18n="filter_ml">Machine Learning</span>
-              <span class="filter-count">2</span>
+              <span class="filter-count">3</span>
             </button>
             <button class="filter-btn" data-filter="dl">
               <i class="fas fa-network-wired"></i>
@@ -375,6 +375,25 @@
               </div>
               <div class="card-footer">
                 <a href="/datastory/churn-prediction/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
+              </div>
+            </article>
+
+            <!-- Parking Prediction Story -->
+            <article class="story-card" id="post-parking" data-category="ml">
+              <div class="card-image">
+                <img src="/images/parking.png" alt="Parking availability prediction dashboard" />
+                <span class="card-badge">Case Study</span>
+              </div>
+              <div class="card-content">
+                <h3><a href="/datastory/parking-prediction/" data-i18n="post_parking_title">Forecasting Parking Availability in Aarhus</a></h3>
+                <p class="card-excerpt" data-i18n="post_parking_short">Blending live parking feeds, weather, Prophet, and XGBoost to predict where the next free spots will open in the city...</p>
+                <div class="card-meta">
+                  <span><i class="fas fa-clock"></i> 7 min</span>
+                  <span><i class="fas fa-tag"></i> Time Series</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="/datastory/parking-prediction/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
               </div>
             </article>
 
@@ -487,6 +506,8 @@
             stories_intro: "Each story here is a deep-dive into real data problems I've tackled—from machine learning models that predict customer behavior to visualizations that turn chaos into clarity. Pick a category or explore them all.",
             post_churn_title: "Predicting Customer Churn Before It Happens",
             post_churn_short: "How I built an AI-powered dashboard using PyCaret AutoML, XGBoost, SHAP explainability, and OpenAI to predict at-risk customers and generate retention strategies...",
+            post_parking_title: "Forecasting Parking Availability in Aarhus",
+            post_parking_short: "Blending live parking feeds, weather, Prophet, and XGBoost to predict where the next free spots will open in the city...",
             btn_read_story: "Read Full Story",
             filter_all: "All",
             filter_ml: "Machine Learning",
@@ -528,6 +549,8 @@
             stories_intro: "Hver historie her er et dybt dyk ned i virkelige dataproblemer, jeg har tacklet—fra maskinlæringsmodeller der forudsiger kundeadfærd til visualiseringer der gør kaos til klarhed. Vælg en kategori eller udforsk dem alle.",
             post_churn_title: "Forudsig kundefrafald før det sker",
             post_churn_short: "Hvordan jeg byggede et AI-drevet dashboard med PyCaret AutoML, XGBoost, SHAP og OpenAI til at forudsige risikokunder og skabe fastholdelsesstrategier...",
+            post_parking_title: "Forudsig ledige parkeringspladser i Aarhus",
+            post_parking_short: "Kombinerer live parkeringsdata, vejr, Prophet og XGBoost for at forudsige, hvor de næste ledige pladser dukker op i byen...",
             btn_read_story: "Læs hele historien",
             filter_all: "Alle",
             filter_ml: "Maskinlæring",

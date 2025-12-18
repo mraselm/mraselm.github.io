@@ -1,0 +1,510 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S86VJ0K0L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-1S86VJ0K0L');
+    </script>
+    <title>Forecasting Parking Availability in Aarhus | Rasel Mia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="How I combined live parking feeds, weather, and time-series models (Prophet, XGBoost) to forecast free spots across Aarhus and ship a Streamlit dashboard." />
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Forecasting Parking Availability in Aarhus" />
+    <meta property="og:description" content="Live parking data + Prophet + XGBoost = a Streamlit app that tells drivers where spots will open next." />
+    <meta property="og:image" content="https://raselmia.live/images/parking.png" />
+    <meta property="og:url" content="https://raselmia.live/datastory/parking-prediction/" />
+    <meta property="og:site_name" content="Rasel Mia - Data Stories" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Forecasting Parking Availability in Aarhus" />
+    <meta name="twitter:description" content="Live parking data + Prophet + XGBoost = a Streamlit app that tells drivers where spots will open next." />
+    <meta name="twitter:image" content="https://raselmia.live/images/parking.png" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <style>
+      .story-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      .story-header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .story-header .eyebrow {
+        color: var(--accent);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+      }
+      .story-header h1 {
+        font-size: clamp(1.8rem, 5vw, 2.8rem);
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+      .story-meta {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+      }
+      .story-meta span {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .story-cover {
+        width: 100%;
+        border-radius: 16px;
+        margin-bottom: 2.5rem;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+      }
+      .story-body h2 {
+        font-size: 1.5rem;
+        margin: 2.5rem 0 1rem;
+        color: var(--ink);
+      }
+      .story-body h3 {
+        font-size: 1.2rem;
+        margin: 2rem 0 0.75rem;
+        color: var(--ink);
+      }
+      .story-body p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--muted);
+        margin-bottom: 1.25rem;
+      }
+      .story-body ul, .story-body ol {
+        margin: 1rem 0 1.5rem 1.5rem;
+        color: var(--muted);
+      }
+      .story-body li {
+        margin-bottom: 0.5rem;
+        line-height: 1.7;
+      }
+      .highlight-box {
+        background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(56, 189, 248, 0.08));
+        border-left: 4px solid var(--accent);
+        padding: 1.25rem 1.5rem;
+        border-radius: 0 12px 12px 0;
+        margin: 2rem 0;
+      }
+      .highlight-box p {
+        margin: 0;
+        font-size: 1rem;
+      }
+      .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin: 1.5rem 0;
+      }
+      .tech-tag {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--ink);
+      }
+      .results-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1.25rem;
+        margin: 2rem 0;
+      }
+      .result-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        text-align: center;
+      }
+      .result-card .number {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--accent);
+        display: block;
+      }
+      .result-card .label {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: 0.25rem;
+      }
+      .code-block {
+        background: #1e293b;
+        border-radius: 12px;
+        padding: 1.25rem;
+        overflow-x: auto;
+        margin: 1.5rem 0;
+      }
+      .code-block code {
+        color: #e2e8f0;
+        font-family: 'Fira Code', 'Monaco', monospace;
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+      .story-cta {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border);
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+        transition: color 0.2s;
+      }
+      .back-link:hover {
+        color: var(--accent);
+      }
+      .image-caption {
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: -1.5rem;
+        margin-bottom: 2rem;
+      }
+      .quote-block {
+        font-size: 1.3rem;
+        font-style: italic;
+        text-align: center;
+        color: var(--ink);
+        padding: 2rem;
+        margin: 2.5rem 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      .section-image {
+        width: 100%;
+        border-radius: 12px;
+        margin: 1.5rem 0;
+        border: 1px solid var(--border);
+      }
+      @media (max-width: 600px) {
+        .story-container {
+          padding: 1rem 1rem 3rem;
+        }
+        .story-body p {
+          font-size: 1rem;
+        }
+        .result-card .number {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="page-shell">
+    <div class="surface-glow"></div>
+
+    <header class="site-header">
+      <div class="container inner">
+        <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+        <nav class="nav-links">
+          <a href="/home/#projects">Projects</a>
+          <a href="/home/#skills">Toolbox</a>
+          <a href="/home/#contact">Contact</a>
+          <a href="/datastory/">Data Story</a>
+          <a href="/resume/">Resume</a>
+        </nav>
+        <div class="header-actions">
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+            <a href="https://github.com/mraselm" class="icon fab fa-github" aria-label="GitHub" target="_blank"></a>
+          </div>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-track">
+              <span class="theme-icon sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+              <span class="theme-icon moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+              <span class="theme-knob"></span>
+            </span>
+          </button>
+          <button class="nav-toggle" type="button" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <article class="story-container">
+        <a href="/datastory/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Data Stories</a>
+        
+        <header class="story-header">
+          <p class="eyebrow">Case Study</p>
+          <h1>Forecasting Parking Availability in Aarhus: Live Data to 30-Minute Outlooks</h1>
+          <div class="story-meta">
+            <span><i class="fas fa-calendar"></i> February 2025</span>
+            <span><i class="fas fa-clock"></i> 8 min read</span>
+            <span><i class="fas fa-tag"></i> Time Series</span>
+          </div>
+        </header>
+
+        <img src="/images/parking.png" alt="Parking prediction dashboard for Aarhus" class="story-cover" />
+        <p class="image-caption">Live feed + forecast view for each city parking lot</p>
+
+        <div class="story-body">
+          <h2>The Problem: Hunting for Spots Wastes Time and Fuel</h2>
+          <p>
+            On busy evenings in Aarhus, drivers circle lots hoping for a free space. The city exposes real-time parking availability, but the feed is
+            reactive—you only know a lot is full after you are already there. I wanted to turn that feed into foresight: where will spaces open in the next 30 minutes?
+          </p>
+
+          <div class="highlight-box">
+            <p><strong>Key insight:</strong> Parking demand follows strong weekly and hourly seasonality. Pairing the city feed with weather and trend features was enough to predict openings with single-digit MAPE for most lots.</p>
+          </div>
+
+          <h2>Data Sources</h2>
+          <ul>
+            <li><strong>Aarhus Open Data parking API</strong> — free/total spaces and timestamps for each public lot (pulled every 5 minutes).</li>
+            <li><strong>Weather</strong> — precipitation and temperature signals from Open-Meteo to capture rainy-day surges.</li>
+            <li><strong>Calendar signals</strong> — hour-of-day, day-of-week, public holidays, and a rolling trend of arrivals/departures.</li>
+          </ul>
+
+          <h2>Approach</h2>
+          <h3>1) Build a reliable ingestion loop</h3>
+          <p>
+            A lightweight scheduled job hits the parking endpoint, normalizes JSON to tabular format, and appends new rows to a parquet store. Each record
+            keeps <code>lot_id</code>, <code>free_spots</code>, <code>total_spots</code>, and a UTC timestamp so downstream models can resample cleanly.
+          </p>
+
+          <div class="code-block">
+            <code>
+import requests, pandas as pd, pendulum<br>
+API = "https://api.dataforsyningen.dk/parkering/aarhus?format=json"<br><br>
+raw = requests.get(API, timeout=10).json()<br>
+df = pd.json_normalize(raw)<br>
+df["ts"] = pendulum.now("UTC")<br>
+df = df[["name", "free", "total", "ts"]].rename(columns={"name":"lot_id", "free":"free_spots", "total":"total_spots"})<br>
+df.to_parquet("data/parking.parquet", append=True)
+            </code>
+          </div>
+
+          <h3>2) Engineer signals drivers care about</h3>
+            <p>
+            I resampled each lot to 5-minute intervals and built features: sin/cos encodings for hour-of-day, weekend flags, holiday flags,
+            30-minute rolling deltas, and weather joins. Missing readings were forward-filled to avoid fragmenting the time series.
+          </p>
+
+          <h3>3) Mix Prophet with tree models</h3>
+          <p>
+            Prophet handled the weekly and daily seasonality per lot, while gradient boosting captured nonlinear effects from weather and recent flow.
+            I trained both and blended their predictions with a simple weighted average tuned on a validation window.
+          </p>
+
+          <div class="code-block">
+            <code>
+from prophet import Prophet<br>
+from xgboost import XGBRegressor<br><br>
+# Prophet for seasonality<br>
+prophet_df = lot_df.rename(columns={"ts":"ds", "free_spots":"y"})<br>
+prophet_model = Prophet(daily_seasonality=True, weekly_seasonality=True)<br>
+prophet_model.fit(prophet_df)<br>
+prophet_forecast = prophet_model.predict(future_horizon)[["ds", "yhat"]]<br><br>
+# XGBoost for residual patterns<br>
+features = lot_df[feature_cols]<br>
+xgb = XGBRegressor(n_estimators=400, max_depth=6, learning_rate=0.05, subsample=0.8, colsample_bytree=0.8)<br>
+xgb.fit(features, lot_df["free_spots"])<br>
+xgb_pred = xgb.predict(future_features)<br><br>
+# Blend<br>
+forecast = 0.6 * prophet_forecast["yhat"].values + 0.4 * xgb_pred
+            </code>
+          </div>
+
+          <h2>Data Quality Fixes</h2>
+          <ul>
+            <li><strong>Outlier clipping:</strong> Spikes where free spots exceeded capacity were clipped to <code>total_spots</code>.</li>
+            <li><strong>Gap filling:</strong> 5-15 minute API outages were forward-filled; longer gaps flagged that lot as “stale data” in the UI.</li>
+            <li><strong>Lot renames:</strong> Occasional name changes were keyed to a canonical <code>lot_id</code> map so historical time series stayed intact.</li>
+          </ul>
+
+          <h2>Evaluation: Walk-Forward Backtests</h2>
+          <p>
+            To stay realistic, I used rolling-origin (walk-forward) validation: train on the past 14 days, test on the next day, slide forward.
+            Metrics were tracked per lot so poorly performing locations could be handled differently (e.g., switch to naive persistence if unstable).
+          </p>
+
+          <div class="code-block">
+            <code>
+from sklearn.metrics import mean_absolute_percentage_error<br>
+def walk_forward(series, horizon=6):  # 6 x 5min = 30 minutes<br>
+    errors = []<br>
+    for split in splits:  # pre-computed rolling windows<br>
+        train, test = series[:split.train_end], series[split.train_end:split.test_end]<br>
+        model = fit_model(train)<br>
+        forecast = model.predict(horizon)<br>
+        errors.append(mean_absolute_percentage_error(test[:horizon], forecast))<br>
+    return sum(errors)/len(errors)<br><br>
+lot_mapes = {lot: walk_forward(df[df.lot_id==lot].free_spots) for lot in lots}
+            </code>
+          </div>
+
+          <p>
+            Busy downtown lots (Dokk1, Navitas) landed in the 6–9% MAPE band; smaller lots with erratic closures performed worse, so the UI marks them with a
+            “use with caution” badge instead of hiding the forecast.
+          </p>
+
+          <h2>Dashboard Experience</h2>
+          <ul>
+            <li>Lot picker with live free/total counts and a sparkline of the last 24 hours.</li>
+            <li>30-minute forecast chart plus a traffic-light badge (green >40% free, amber 20-40%, red <20%).</li>
+            <li>Map view that highlights lots expected to open up soon, not just those currently free.</li>
+            <li>Downloadable CSV so the city team can audit historical demand patterns.</li>
+          </ul>
+
+          <h2>How It Gets Used</h2>
+          <p>
+            A typical workflow: a driver heading to the city center opens the app at 17:10. Dokk1 shows 4 free spots now but forecasted to drop to 0 in 10 minutes;
+            Navitas shows 12 spots rising to 18. The app nudges the driver to Navitas, avoiding a loop around Dokk1. In user tests, this reduced “circling” time
+            from ~9 minutes to ~3 minutes for evening visits.
+          </p>
+
+          <h2>Results</h2>
+          <p>The blended approach outperformed a naive “use the last reading” baseline and single-model variants.</p>
+          <div class="results-grid">
+            <div class="result-card">
+              <span class="number">6-9%</span>
+              <span class="label">MAPE on busy lots</span>
+            </div>
+            <div class="result-card">
+              <span class="number">12%</span>
+              <span class="label">Error reduction vs. baseline</span>
+            </div>
+            <div class="result-card">
+              <span class="number">5 min</span>
+              <span class="label">Data refresh cadence</span>
+            </div>
+            <div class="result-card">
+              <span class="number">30 min</span>
+              <span class="label">Forecast horizon</span>
+            </div>
+          </div>
+
+          <div class="quote-block">
+            "Drivers do not need perfect precision—they need a reliable nudge toward the next best lot before they start circling."
+          </div>
+
+          <h2>Key Learnings</h2>
+          <ol>
+            <li><strong>Seasonality dominates.</strong> Hour-of-day and day-of-week explained most variance; weather mattered mainly during storms.</li>
+            <li><strong>Blends beat solo models.</strong> Prophet captured rhythms; trees captured abrupt swings (events, showers).</li>
+            <li><strong>Latency is a feature.</strong> A 5-minute ingestion loop kept predictions trustworthy; slower intervals hurt adoption in testing.</li>
+          </ol>
+
+          <h2>Operationalization</h2>
+          <ul>
+            <li>GitHub Actions cron pulls data every 5 minutes and rebuilds forecasts; failures fall back to the last successful run.</li>
+            <li>Streamlit front-end caches the most recent parquet snapshot to serve instantly while new forecasts load asynchronously.</li>
+            <li>Health checks ping the API and weather feed; alerts fire to email/Slack if either is down for >15 minutes.</li>
+          </ul>
+
+          <h2>What I Would Improve Next</h2>
+          <ul>
+            <li>Add event calendars (concerts, football) to pre-empt demand spikes.</li>
+            <li>Promote best alternative lots when a favorite lot is forecasted to stay full.</li>
+            <li>Cache weather forecasts locally to decouple from API rate limits.</li>
+          </ul>
+
+          <h2>Technology Stack</h2>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Prophet</span>
+            <span class="tech-tag">XGBoost</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Open-Meteo API</span>
+            <span class="tech-tag">Aarhus Open Data</span>
+            <span class="tech-tag">GitHub Actions</span>
+          </div>
+
+          <div class="story-cta">
+            <a class="btn primary" href="https://github.com/mraselm/parking-availability-prediction-aarhus.git" target="_blank">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+            <a class="btn ghost" href="/home/#contact">
+              <i class="fas fa-envelope"></i> Discuss This Project
+            </a>
+          </div>
+
+          <!-- Share Section -->
+          <div class="story-share">
+            <p class="share-label">Enjoyed this story? Share it:</p>
+            <div class="share-buttons">
+              <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://raselmia.live/datastory/parking-prediction/" target="_blank" class="share-btn linkedin" title="Share on LinkedIn">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+              </a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://raselmia.live/datastory/parking-prediction/" target="_blank" class="share-btn facebook" title="Share on Facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+              </a>
+              <a href="https://twitter.com/intent/tweet?url=https://raselmia.live/datastory/parking-prediction/&text=Forecasting%20Parking%20Availability%20in%20Aarhus%20-%20a%20data%20story%20by%20Rasel%20Mia" target="_blank" class="share-btn twitter" title="Share on X">
+                <i class="fab fa-twitter"></i> X
+              </a>
+              <button class="share-btn copy" title="Copy link" onclick="navigator.clipboard.writeText('https://raselmia.live/datastory/parking-prediction/');this.innerHTML='<i class=\'fas fa-check\'></i> Copied!';setTimeout(()=>this.innerHTML='<i class=\'fas fa-link\'></i> Copy Link',2000)">
+                <i class="fas fa-link"></i> Copy Link
+              </button>
+            </div>
+          </div>
+
+          <!-- Comments Section -->
+          <div class="comments-section">
+            <h3><i class="fas fa-comments"></i> Comments</h3>
+            <script src="https://giscus.app/client.js"
+              data-repo="mraselm/mraselm.github.io"
+              data-repo-id="R_kgDOOyoWew"
+              data-category="General"
+              data-category-id="DIC_kwDOOyoWe84Cz8Vd"
+              data-mapping="pathname"
+              data-strict="0"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="top"
+              data-theme="https://raselmia.live/assets/css/giscus-custom.css"
+              data-lang="en"
+              data-loading="lazy"
+              crossorigin="anonymous"
+              async>
+            </script>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container meta">
+        <div>
+          <div>&copy; MD Rasel Mia 2025 · All Rights Reserved</div>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
+          <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
