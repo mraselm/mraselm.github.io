@@ -1025,79 +1025,72 @@ textarea {
   flex-wrap: wrap;
 }
 
-/* Newsletter Signup */
-.newsletter-box {
-  background: linear-gradient(135deg, var(--card-bg) 0%, rgba(74, 144, 226, 0.05) 100%);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 2rem;
-  margin: 3rem 0;
+/* Story Share Section */
+.story-share {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
   text-align: center;
 }
-.newsletter-box h3 {
-  font-size: 1.35rem;
-  margin-bottom: 0.5rem;
-  color: var(--ink);
-}
-.newsletter-box p {
+.story-share .share-label {
   font-size: 0.95rem;
   color: var(--muted);
-  margin-bottom: 1.25rem;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 1rem;
 }
-.newsletter-form {
+.story-share .share-buttons {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 0.75rem;
-  max-width: 420px;
-  margin: 0 auto;
 }
-.newsletter-form input[type="email"] {
-  flex: 1;
-  padding: 0.75rem 1rem;
-  font-size: 0.95rem;
-  border: 2px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg);
-  color: var(--ink);
-  transition: border-color 0.2s;
-}
-.newsletter-form input[type="email"]:focus {
-  outline: none;
-  border-color: var(--accent);
-}
-.newsletter-form button {
-  padding: 0.75rem 1.5rem;
-  font-size: 0.95rem;
-  font-weight: 600;
-  background: var(--accent);
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.2s, transform 0.2s;
-  white-space: nowrap;
-}
-.newsletter-form button:hover {
-  background: var(--accent-hover);
-  transform: translateY(-1px);
-}
-.newsletter-success {
-  display: none;
-  color: #10b981;
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  margin-top: 1rem;
+  border: 2px solid var(--border);
+  border-radius: 50px;
+  background: var(--card-bg);
+  color: var(--muted);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-family: inherit;
 }
-.newsletter-success.show {
-  display: block;
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+.share-btn.linkedin:hover {
+  background: #0077b5;
+  border-color: #0077b5;
+  color: #fff;
+}
+.share-btn.facebook:hover {
+  background: #1877f2;
+  border-color: #1877f2;
+  color: #fff;
+}
+.share-btn.twitter:hover {
+  background: #1da1f2;
+  border-color: #1da1f2;
+  color: #fff;
+}
+.share-btn.copy:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 @media (max-width: 480px) {
-  .newsletter-form {
+  .story-share .share-buttons {
     flex-direction: column;
+    align-items: stretch;
   }
-  .newsletter-form button {
-    width: 100%;
+  .share-btn {
+    justify-content: center;
   }
 }
 

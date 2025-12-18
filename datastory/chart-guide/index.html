@@ -837,15 +837,23 @@
             </a>
           </div>
 
-          <!-- Newsletter Signup -->
-          <div class="newsletter-box">
-            <h3>📬 Get More Data Stories</h3>
-            <p>I send occasional deep-dives on ML, analytics, and data storytelling. No spam, just insights.</p>
-            <form class="newsletter-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-              <input type="email" name="email" placeholder="your@email.com" required />
-              <button type="submit">Subscribe</button>
-            </form>
-            <p class="newsletter-success">✓ Thanks! You're on the list.</p>
+          <!-- Share Section -->
+          <div class="story-share">
+            <p class="share-label">Enjoyed this story? Share it:</p>
+            <div class="share-buttons">
+              <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://raselmia.live/datastory/chart-guide/" target="_blank" class="share-btn linkedin" title="Share on LinkedIn">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+              </a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://raselmia.live/datastory/chart-guide/" target="_blank" class="share-btn facebook" title="Share on Facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+              </a>
+              <a href="https://twitter.com/intent/tweet?url=https://raselmia.live/datastory/chart-guide/&text=How%20to%20Pick%20the%20Right%20Chart%20Type%20-%20A%20visual%20guide%20by%20Rasel%20Mia" target="_blank" class="share-btn twitter" title="Share on X">
+                <i class="fab fa-twitter"></i> X
+              </a>
+              <button class="share-btn copy" title="Copy link" onclick="navigator.clipboard.writeText('https://raselmia.live/datastory/chart-guide/');this.innerHTML='<i class=\'fas fa-check\'></i> Copied!';setTimeout(()=>this.innerHTML='<i class=\'fas fa-link\'></i> Copy Link',2000)">
+                <i class="fas fa-link"></i> Copy Link
+              </button>
+            </div>
           </div>
         </div>
       </article>
