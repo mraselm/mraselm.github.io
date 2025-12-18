@@ -1025,21 +1025,6 @@ textarea {
   flex-wrap: wrap;
 }
 
-/* Visitor Stats */
-.visitor-stat {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-top: 0.5rem;
-}
-
-.visitor-stat i {
-  color: var(--accent);
-  font-size: 0.9rem;
-}
-
 /* Share Dropdown */
 .share-dropdown {
   position: relative;
@@ -1849,11 +1834,6 @@ button.btn.ghost.share-btn {
   .status-badge {
     font-size: 0.75rem;
     padding: 0.35rem 0.7rem;
-  }
-
-  /* Visitor stat mobile */
-  .visitor-stat {
-    font-size: 0.85rem;
   }
 
   /* Section headers mobile */
