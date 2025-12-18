@@ -1,0 +1,1497 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S86VJ0K0L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-1S86VJ0K0L');
+    </script>
+    <title>Jordan Toothpaste: A Brand Health Diagnosis | Rasel Mia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="An in-depth brand analysis of Jordan toothpaste in the Danish market using Dirichlet modeling, consumer panel data, and brand tracking surveys." />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <style>
+      .story-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      .story-header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .story-header .eyebrow {
+        color: var(--accent);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+      }
+      .story-header h1 {
+        font-size: clamp(1.8rem, 5vw, 2.8rem);
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+      .story-meta {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+      }
+      .story-meta span {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .story-body h2 {
+        font-size: 1.5rem;
+        margin: 2.5rem 0 1rem;
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .story-body h3 {
+        font-size: 1.2rem;
+        margin: 2rem 0 0.75rem;
+        color: var(--ink);
+      }
+      .story-body p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--muted);
+        margin-bottom: 1.25rem;
+      }
+      .story-body ul, .story-body ol {
+        margin: 1rem 0 1.5rem 1.5rem;
+        color: var(--muted);
+      }
+      .story-body li {
+        margin-bottom: 0.5rem;
+        line-height: 1.7;
+      }
+      .highlight-box {
+        background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(56, 189, 248, 0.08));
+        border-left: 4px solid var(--accent);
+        padding: 1.25rem 1.5rem;
+        border-radius: 0 12px 12px 0;
+        margin: 2rem 0;
+      }
+      .highlight-box p {
+        margin: 0;
+        font-size: 1rem;
+      }
+      .warning-box {
+        background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(248, 113, 113, 0.08));
+        border-left: 4px solid #ef4444;
+        padding: 1.25rem 1.5rem;
+        border-radius: 0 12px 12px 0;
+        margin: 2rem 0;
+      }
+      .warning-box p {
+        margin: 0;
+        font-size: 1rem;
+      }
+      .success-box {
+        background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(74, 222, 128, 0.08));
+        border-left: 4px solid #22c55e;
+        padding: 1.25rem 1.5rem;
+        border-radius: 0 12px 12px 0;
+        margin: 2rem 0;
+      }
+      .success-box p {
+        margin: 0;
+        font-size: 1rem;
+      }
+      .story-cta {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border);
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+        transition: color 0.2s;
+      }
+      .back-link:hover {
+        color: var(--accent);
+      }
+      .quote-block {
+        font-size: 1.3rem;
+        font-style: italic;
+        text-align: center;
+        color: var(--ink);
+        padding: 2rem;
+        margin: 2.5rem 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+      
+      /* Key Metrics Cards */
+      .metrics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.25rem;
+        margin: 2rem 0;
+      }
+      .metric-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        text-align: center;
+      }
+      .metric-card.positive {
+        border-color: #22c55e;
+        background: linear-gradient(135deg, rgba(34, 197, 94, 0.05), transparent);
+      }
+      .metric-card.negative {
+        border-color: #ef4444;
+        background: linear-gradient(135deg, rgba(239, 68, 68, 0.05), transparent);
+      }
+      .metric-card .metric-icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .metric-card .metric-value {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--ink);
+        line-height: 1.2;
+      }
+      .metric-card .metric-label {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: 0.25rem;
+      }
+      .metric-card .metric-compare {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        padding: 0.25rem 0.6rem;
+        border-radius: 20px;
+        display: inline-block;
+      }
+      .metric-card.positive .metric-compare {
+        background: rgba(34, 197, 94, 0.15);
+        color: #22c55e;
+      }
+      .metric-card.negative .metric-compare {
+        background: rgba(239, 68, 68, 0.15);
+        color: #ef4444;
+      }
+      
+      /* Chart Sections */
+      .chart-section {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.5rem;
+        margin: 2rem 0;
+      }
+      .chart-section h4 {
+        margin: 0 0 0.5rem;
+        color: var(--ink);
+        font-size: 1.1rem;
+      }
+      .chart-section .chart-subtitle {
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+      }
+      .chart-container {
+        position: relative;
+        height: 300px;
+        margin: 1rem 0;
+      }
+      .chart-container.tall {
+        height: 400px;
+      }
+      .chart-container.short {
+        height: 250px;
+      }
+      
+      /* Comparison Table */
+      .comparison-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+        font-size: 0.9rem;
+      }
+      .comparison-table th, .comparison-table td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+      .comparison-table th {
+        background: var(--card-bg);
+        font-weight: 600;
+        color: var(--ink);
+      }
+      .comparison-table td {
+        color: var(--muted);
+      }
+      .comparison-table tr:last-child td {
+        border-bottom: none;
+      }
+      .comparison-table .positive {
+        color: #22c55e;
+        font-weight: 600;
+      }
+      .comparison-table .negative {
+        color: #ef4444;
+        font-weight: 600;
+      }
+      .comparison-table .highlight-row {
+        background: rgba(14, 165, 233, 0.08);
+      }
+      .comparison-table .highlight-row td {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      
+      /* Duplication Matrix */
+      .matrix-container {
+        overflow-x: auto;
+        margin: 1.5rem 0;
+      }
+      .duplication-matrix {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.85rem;
+        min-width: 500px;
+      }
+      .duplication-matrix th, .duplication-matrix td {
+        padding: 0.6rem 0.8rem;
+        text-align: center;
+        border: 1px solid var(--border);
+      }
+      .duplication-matrix th {
+        background: var(--card-bg);
+        font-weight: 600;
+        color: var(--ink);
+      }
+      .duplication-matrix .brand-header {
+        text-align: left;
+        font-weight: 600;
+        color: var(--ink);
+        background: var(--card-bg);
+      }
+      .duplication-matrix .high {
+        background: rgba(239, 68, 68, 0.2);
+        color: #ef4444;
+        font-weight: 600;
+      }
+      .duplication-matrix .medium {
+        background: rgba(245, 158, 11, 0.2);
+        color: #f59e0b;
+      }
+      .duplication-matrix .low {
+        background: rgba(34, 197, 94, 0.15);
+        color: #22c55e;
+      }
+      .duplication-matrix .jordan-row {
+        background: rgba(14, 165, 233, 0.1);
+      }
+      
+      /* Recommendation Cards */
+      .recommendation-grid {
+        display: grid;
+        gap: 1.25rem;
+        margin: 2rem 0;
+      }
+      .recommendation-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+        align-items: start;
+      }
+      .recommendation-card .rec-number {
+        width: 40px;
+        height: 40px;
+        background: var(--accent);
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.1rem;
+      }
+      .recommendation-card h4 {
+        margin: 0 0 0.5rem;
+        color: var(--ink);
+        font-size: 1.05rem;
+      }
+      .recommendation-card p {
+        margin: 0;
+        font-size: 0.95rem;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      
+      /* Tech Stack */
+      .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1.5rem 0;
+      }
+      .tech-tag {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        color: var(--muted);
+      }
+      
+      /* Insight Box */
+      .insight-box {
+        background: var(--card-bg);
+        border: 2px dashed var(--accent);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin: 2rem 0;
+      }
+      .insight-box h4 {
+        margin: 0 0 0.75rem;
+        color: var(--accent);
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .insight-box p {
+        margin: 0;
+        font-size: 1rem;
+        color: var(--ink);
+      }
+      
+      /* NPS Gauge */
+      .nps-section {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 2rem;
+        align-items: center;
+        margin: 1.5rem 0;
+      }
+      .nps-gauge {
+        text-align: center;
+      }
+      .nps-value {
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: #ef4444;
+        line-height: 1;
+      }
+      .nps-label {
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin-top: 0.5rem;
+      }
+      .nps-scale {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.75rem;
+        color: var(--muted);
+        margin-top: 0.5rem;
+      }
+      
+      @media (max-width: 600px) {
+        .story-container {
+          padding: 1rem 1rem 3rem;
+        }
+        .story-body p {
+          font-size: 1rem;
+        }
+        .metrics-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .chart-container {
+          height: 250px;
+        }
+        .nps-section {
+          grid-template-columns: 1fr;
+        }
+        .recommendation-card {
+          grid-template-columns: 1fr;
+        }
+        .recommendation-card .rec-number {
+          width: 32px;
+          height: 32px;
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="page-shell">
+    <div class="surface-glow"></div>
+
+    <header class="site-header">
+      <div class="container inner">
+        <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+        <nav class="nav-links">
+          <a href="/home/#projects">Projects</a>
+          <a href="/home/#skills">Toolbox</a>
+          <a href="/home/#contact">Contact</a>
+          <a href="/datastory/">Data Story</a>
+          <a href="/resume/">Resume</a>
+        </nav>
+        <div class="header-actions">
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+            <a href="https://github.com/mraselm" class="icon fab fa-github" aria-label="GitHub" target="_blank"></a>
+          </div>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-track">
+              <span class="theme-icon sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+              <span class="theme-icon moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+              <span class="theme-knob"></span>
+            </span>
+          </button>
+          <button class="nav-toggle" type="button" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <article class="story-container">
+        <a href="/datastory/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Data Stories</a>
+        
+        <header class="story-header">
+          <p class="eyebrow">Brand Analytics Case Study</p>
+          <h1>Jordan Toothpaste: A Brand Health Diagnosis</h1>
+          <div class="story-meta">
+            <span><i class="fas fa-calendar"></i> December 2024</span>
+            <span><i class="fas fa-clock"></i> 12 min read</span>
+            <span><i class="fas fa-tag"></i> Brand Analytics</span>
+          </div>
+        </header>
+
+        <!-- CASE STUDY INTRODUCTION -->
+        <div class="case-study-intro">
+          <div class="case-box">
+            <div class="case-header">
+              <span class="case-icon">📋</span>
+              <h2>The Case Study</h2>
+            </div>
+            <div class="case-content">
+              <div class="case-section">
+                <h3>🎯 The Challenge</h3>
+                <p>You are the Brand Manager for <strong>Jordan Toothpaste</strong> in Denmark. Despite positive customer feedback and strong loyalty metrics, your brand's market share has stagnated. The CMO wants answers:</p>
+                <ul>
+                  <li>Why isn't Jordan growing like competitors?</li>
+                  <li>Should we invest in loyalty programs or customer acquisition?</li>
+                  <li>What's blocking our path to market leadership?</li>
+                </ul>
+              </div>
+              
+              <div class="case-section">
+                <h3>📊 Available Data</h3>
+                <div class="data-sources">
+                  <div class="data-source">
+                    <span class="source-icon">🛒</span>
+                    <div>
+                      <strong>Consumer Panel Data</strong>
+                      <p>12 months of actual household purchase behavior—what people really buy</p>
+                    </div>
+                  </div>
+                  <div class="data-source">
+                    <span class="source-icon">📝</span>
+                    <div>
+                      <strong>Brand Tracking Survey</strong>
+                      <p>Consumer perceptions, awareness, and brand associations across the category</p>
+                    </div>
+                  </div>
+                  <div class="data-source">
+                    <span class="source-icon">📈</span>
+                    <div>
+                      <strong>Dirichlet Model Benchmarks</strong>
+                      <p>Expected performance metrics for a brand of Jordan's market share</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="case-section">
+                <h3>🏪 Market Context</h3>
+                <p>The Danish toothpaste market is a <strong>mature FMCG category</strong> with these characteristics:</p>
+                <div class="market-facts">
+                  <div class="fact">
+                    <span class="fact-number">86%</span>
+                    <span class="fact-label">Category Penetration</span>
+                  </div>
+                  <div class="fact">
+                    <span class="fact-number">5+</span>
+                    <span class="fact-label">Major Competitors</span>
+                  </div>
+                  <div class="fact">
+                    <span class="fact-number">Low</span>
+                    <span class="fact-label">Brand Loyalty</span>
+                  </div>
+                  <div class="fact">
+                    <span class="fact-number">High</span>
+                    <span class="fact-label">Brand Switching</span>
+                  </div>
+                </div>
+                <p style="margin-top: 1rem;">In such categories, growth comes from <strong>reaching more buyers</strong>, not from making existing customers more loyal. Most households buy multiple brands throughout the year.</p>
+              </div>
+              
+              <div class="case-section">
+                <h3>🧠 Analytical Framework</h3>
+                <p>This analysis applies three foundational marketing science concepts:</p>
+                <div class="framework-grid">
+                  <div class="framework-item">
+                    <strong>Dirichlet Model</strong>
+                    <p>Predicts expected penetration, frequency, and loyalty for any brand size</p>
+                  </div>
+                  <div class="framework-item">
+                    <strong>Double Jeopardy Law</strong>
+                    <p>Small brands have fewer buyers AND those buyers are less loyal</p>
+                  </div>
+                  <div class="framework-item">
+                    <strong>Mental Availability</strong>
+                    <p>Brand growth requires being easily recalled in buying situations</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="case-section">
+                <h3>🏆 Competitive Landscape</h3>
+                <table class="competitor-table">
+                  <thead>
+                    <tr>
+                      <th>Brand</th>
+                      <th>Position</th>
+                      <th>Key Strength</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Colgate</strong></td>
+                      <td>Market Leader</td>
+                      <td>Global trust, broad appeal, whitening</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Zendium</strong></td>
+                      <td>Strong #2</td>
+                      <td>Natural/gentle positioning</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Sensodyne</strong></td>
+                      <td>Specialist</td>
+                      <td>Sensitivity relief (functional niche)</td>
+                    </tr>
+                    <tr class="highlight-row">
+                      <td><strong>Jordan</strong></td>
+                      <td>Mid-tier</td>
+                      <td>??? (This is what we need to discover)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+              <div class="case-question">
+                <h3>❓ Key Questions to Answer</h3>
+                <ol>
+                  <li>How is Jordan performing compared to what the Dirichlet model predicts?</li>
+                  <li>What does the customer loyalty and purchase pattern reveal?</li>
+                  <li>How does Jordan's brand image compare to competitors?</li>
+                  <li>What is the root cause of Jordan's growth challenge?</li>
+                  <li>What strategic actions should Jordan take?</li>
+                </ol>
+              </div>
+            </div>
+            <div class="case-footer">
+              <p><strong>📖 Read the analysis below to discover the diagnosis and recommendations.</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <style>
+          .case-study-intro {
+            margin-bottom: 3rem;
+          }
+          .case-box {
+            background: var(--card-bg);
+            border: 2px solid var(--accent);
+            border-radius: 16px;
+            overflow: hidden;
+          }
+          .case-header {
+            background: linear-gradient(135deg, rgba(14, 165, 233, 0.15), rgba(56, 189, 248, 0.1));
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            border-bottom: 1px solid var(--border);
+          }
+          .case-header .case-icon {
+            font-size: 1.5rem;
+          }
+          .case-header h2 {
+            margin: 0;
+            font-size: 1.3rem;
+            color: var(--ink);
+          }
+          .case-content {
+            padding: 1.5rem;
+          }
+          .case-section {
+            margin-bottom: 2rem;
+          }
+          .case-section:last-child {
+            margin-bottom: 0;
+          }
+          .case-section h3 {
+            font-size: 1.1rem;
+            color: var(--ink);
+            margin: 0 0 0.75rem;
+          }
+          .case-section p {
+            font-size: 1rem;
+            color: var(--muted);
+            margin: 0 0 0.75rem;
+            line-height: 1.7;
+          }
+          .case-section ul, .case-section ol {
+            margin: 0.75rem 0 0 1.25rem;
+            color: var(--muted);
+          }
+          .case-section li {
+            margin-bottom: 0.4rem;
+            line-height: 1.6;
+          }
+          .data-sources {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1rem;
+          }
+          .data-source {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+            background: var(--surface);
+            padding: 1rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+          }
+          .data-source .source-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+          }
+          .data-source strong {
+            color: var(--ink);
+            display: block;
+            margin-bottom: 0.25rem;
+          }
+          .data-source p {
+            margin: 0;
+            font-size: 0.9rem;
+          }
+          .market-facts {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+          }
+          .fact {
+            text-align: center;
+            padding: 1rem;
+            background: var(--surface);
+            border-radius: 10px;
+            border: 1px solid var(--border);
+          }
+          .fact-number {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+          }
+          .fact-label {
+            font-size: 0.8rem;
+            color: var(--muted);
+          }
+          .framework-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+          }
+          .framework-item {
+            background: var(--surface);
+            padding: 1rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+          }
+          .framework-item strong {
+            color: var(--accent);
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+          }
+          .framework-item p {
+            margin: 0;
+            font-size: 0.85rem;
+          }
+          .competitor-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+          }
+          .competitor-table th, .competitor-table td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+          }
+          .competitor-table th {
+            background: var(--surface);
+            color: var(--ink);
+            font-weight: 600;
+          }
+          .competitor-table td {
+            color: var(--muted);
+          }
+          .competitor-table .highlight-row {
+            background: rgba(14, 165, 233, 0.1);
+          }
+          .competitor-table .highlight-row td {
+            color: var(--accent);
+          }
+          .case-question {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(251, 191, 36, 0.08));
+            border: 1px solid #f59e0b;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-top: 1.5rem;
+          }
+          .case-question h3 {
+            color: #f59e0b;
+            margin: 0 0 0.75rem;
+          }
+          .case-question ol {
+            margin: 0 0 0 1.25rem;
+            color: var(--muted);
+          }
+          .case-question li {
+            margin-bottom: 0.4rem;
+          }
+          .case-footer {
+            background: var(--surface);
+            padding: 1rem 1.5rem;
+            text-align: center;
+            border-top: 1px solid var(--border);
+          }
+          .case-footer p {
+            margin: 0;
+            color: var(--ink);
+            font-size: 1rem;
+          }
+          @media (max-width: 768px) {
+            .market-facts {
+              grid-template-columns: repeat(2, 1fr);
+            }
+            .framework-grid {
+              grid-template-columns: 1fr;
+            }
+          }
+        </style>
+        <!-- END CASE STUDY INTRODUCTION -->
+
+        <div class="story-body">
+          <h2><i class="fas fa-search"></i> The Analysis Begins</h2>
+          
+          <p>
+            Jordan is a well-known toothpaste brand in Denmark, but is it growing or stagnating? 
+            Using <strong>consumer panel data</strong>, <strong>brand tracking surveys</strong>, and the 
+            <strong>Dirichlet model</strong>, I diagnosed Jordan's market health and discovered a fascinating paradox:
+          </p>
+          
+          <div class="quote-block">
+            "Jordan has incredibly loyal customers—but far too few of them."
+          </div>
+
+          <p>
+            This case study combines behavioral data (what people actually buy) with perceptual data 
+            (what people think and feel) to uncover why Jordan underperforms on reach despite excelling on loyalty.
+          </p>
+
+          <div class="tech-stack">
+            <span class="tech-tag">Consumer Panel Data</span>
+            <span class="tech-tag">Brand Tracking Survey</span>
+            <span class="tech-tag">Dirichlet Model</span>
+            <span class="tech-tag">Double Jeopardy Law</span>
+            <span class="tech-tag">Mental Availability</span>
+            <span class="tech-tag">NPS Analysis</span>
+          </div>
+
+          <h2><i class="fas fa-chart-line"></i> The Paradox: High Loyalty, Low Reach</h2>
+          
+          <p>
+            The Dirichlet model provides expected benchmarks for brands based on their market share. 
+            When we compare Jordan's actual performance to these expectations, a striking pattern emerges:
+          </p>
+
+          <div class="metrics-grid">
+            <div class="metric-card negative">
+              <div class="metric-icon">📉</div>
+              <div class="metric-value">11%</div>
+              <div class="metric-label">Actual Penetration</div>
+              <div class="metric-compare">Expected: 13.1%</div>
+            </div>
+            <div class="metric-card positive">
+              <div class="metric-icon">🔄</div>
+              <div class="metric-value">2.03</div>
+              <div class="metric-label">Purchase Frequency</div>
+              <div class="metric-compare">Expected: 1.27</div>
+            </div>
+            <div class="metric-card positive">
+              <div class="metric-icon">💎</div>
+              <div class="metric-value">45.1%</div>
+              <div class="metric-label">Share of Category (SCR)</div>
+              <div class="metric-compare">Expected: 19.2%</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-icon">🎯</div>
+              <div class="metric-value">~19%</div>
+              <div class="metric-label">Growth Ceiling</div>
+              <div class="metric-compare">Dirichlet Potential</div>
+            </div>
+          </div>
+
+          <div class="insight-box">
+            <h4>💡 Key Insight</h4>
+            <p>Jordan's loyalty metrics (frequency & SCR) are <strong>60-135% above expectations</strong>, but penetration is <strong>16% below</strong>. This is the classic "niche brand trap"—beloved by few, unknown to many.</p>
+          </div>
+
+          <h2><i class="fas fa-balance-scale"></i> Dirichlet Benchmark Comparison</h2>
+          
+          <p>
+            The Dirichlet model predicts how brands should perform based on their size. 
+            Deviations from these benchmarks reveal structural strengths or weaknesses.
+          </p>
+
+          <div class="chart-section">
+            <h4>Jordan vs. Dirichlet Expected Performance</h4>
+            <p class="chart-subtitle">Comparing actual metrics against model predictions for a brand of Jordan's size</p>
+            <div class="chart-container">
+              <canvas id="dirichletChart"></canvas>
+            </div>
+          </div>
+
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>Jordan (Actual)</th>
+                <th>Dirichlet (Expected)</th>
+                <th>Deviation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="highlight-row">
+                <td>Penetration</td>
+                <td>11.0%</td>
+                <td>13.1%</td>
+                <td class="negative">-16%</td>
+              </tr>
+              <tr>
+                <td>Purchase Frequency</td>
+                <td>2.03</td>
+                <td>1.27</td>
+                <td class="positive">+60%</td>
+              </tr>
+              <tr>
+                <td>Share of Category Requirements</td>
+                <td>0.451</td>
+                <td>0.192</td>
+                <td class="positive">+135%</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="warning-box">
+            <p><strong>⚠️ The Problem:</strong> In FMCG categories like toothpaste, brands grow by reaching <em>more</em> households, not by making existing customers more loyal. Jordan's exceptional loyalty cannot compensate for its penetration gap.</p>
+          </div>
+
+          <h2><i class="fas fa-users"></i> Category Context: The Danish Toothpaste Market</h2>
+          
+          <p>
+            Toothpaste is a fully penetrated FMCG category—<strong>86% of Danish households</strong> purchased 
+            during the study period. Growth doesn't come from expanding the market; it comes from 
+            <strong>stealing share from competitors</strong>.
+          </p>
+
+          <div class="chart-section">
+            <h4>Brand Penetration Comparison</h4>
+            <p class="chart-subtitle">Percentage of households purchasing each brand</p>
+            <div class="chart-container">
+              <canvas id="penetrationChart"></canvas>
+            </div>
+          </div>
+
+          <p>
+            Market leaders like <strong>Colgate</strong> and <strong>Zendium</strong> dominate with broad 
+            availability and strong mental presence. Jordan competes in a crowded mid-tier alongside 
+            Sensodyne and Aquafresh, but lacks the distinctive positioning that would set it apart.
+          </p>
+
+          <h2><i class="fas fa-random"></i> Duplication of Purchase: Who Shares Customers?</h2>
+          
+          <p>
+            The duplication matrix reveals how customers flow between brands. A healthy brand should 
+            both <em>send</em> and <em>receive</em> customers from major competitors. Jordan shows a 
+            troubling imbalance:
+          </p>
+
+          <div class="chart-section">
+            <h4>Customer Flow: Jordan's Duplication Problem</h4>
+            <p class="chart-subtitle">Jordan's customers buy other brands, but others rarely buy Jordan</p>
+            <div class="chart-container short">
+              <canvas id="duplicationChart"></canvas>
+            </div>
+          </div>
+
+          <div class="matrix-container">
+            <table class="duplication-matrix">
+              <thead>
+                <tr>
+                  <th>From Brand</th>
+                  <th>→ Colgate</th>
+                  <th>→ Zendium</th>
+                  <th>→ Sensodyne</th>
+                  <th>→ Jordan</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="brand-header">Colgate buyers also buy...</td>
+                  <td>—</td>
+                  <td class="medium">12.5%</td>
+                  <td class="medium">9.8%</td>
+                  <td class="low">1.9%</td>
+                </tr>
+                <tr>
+                  <td class="brand-header">Zendium buyers also buy...</td>
+                  <td class="medium">11.2%</td>
+                  <td>—</td>
+                  <td class="medium">8.7%</td>
+                  <td class="low">1.2%</td>
+                </tr>
+                <tr>
+                  <td class="brand-header">Sensodyne buyers also buy...</td>
+                  <td class="medium">10.5%</td>
+                  <td class="medium">9.1%</td>
+                  <td>—</td>
+                  <td class="low">0.5%</td>
+                </tr>
+                <tr class="jordan-row">
+                  <td class="brand-header">Jordan buyers also buy...</td>
+                  <td class="high">7.7%</td>
+                  <td class="high">8.8%</td>
+                  <td class="high">8.3%</td>
+                  <td>—</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="insight-box">
+            <h4>💡 The Asymmetry Problem</h4>
+            <p>Jordan's customers frequently buy Colgate (7.7%), Zendium (8.8%), and Sensodyne (8.3%). But these brands' customers <strong>rarely buy Jordan</strong> (0.5-1.9%). Jordan is losing the customer exchange battle.</p>
+          </div>
+
+          <h2><i class="fas fa-brain"></i> Mental Availability: The Root Cause</h2>
+          
+          <p>
+            Why does Jordan underperform on penetration? The brand tracking survey reveals the answer: 
+            <strong>Jordan has weak mental availability</strong>. Customers simply don't think of Jordan 
+            when they enter the toothpaste aisle.
+          </p>
+
+          <div class="chart-section">
+            <h4>Brand Awareness Funnel</h4>
+            <p class="chart-subtitle">Jordan's awareness drops significantly at each stage</p>
+            <div class="chart-container">
+              <canvas id="awarenessChart"></canvas>
+            </div>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric-card negative">
+              <div class="metric-icon">🧠</div>
+              <div class="metric-value">~0%</div>
+              <div class="metric-label">Top-of-Mind Awareness</div>
+            </div>
+            <div class="metric-card negative">
+              <div class="metric-icon">📢</div>
+              <div class="metric-value">Low</div>
+              <div class="metric-label">Unaided Recall</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-icon">✋</div>
+              <div class="metric-value">Moderate</div>
+              <div class="metric-label">Aided Awareness</div>
+            </div>
+            <div class="metric-card negative">
+              <div class="metric-icon">⭐</div>
+              <div class="metric-value">2-3%</div>
+              <div class="metric-label">Preferred Brand</div>
+            </div>
+          </div>
+
+          <h2><i class="fas fa-thermometer-half"></i> Net Promoter Score: Passive, Not Passionate</h2>
+          
+          <p>
+            Jordan's NPS reveals a brand that customers find "acceptable but forgettable." The distribution 
+            clusters heavily around score 6 (neutral), with few passionate promoters.
+          </p>
+
+          <div class="chart-section">
+            <h4>NPS Score Distribution</h4>
+            <p class="chart-subtitle">Respondent distribution across the 0-10 NPS scale</p>
+            <div class="chart-container">
+              <canvas id="npsChart"></canvas>
+            </div>
+          </div>
+
+          <div class="nps-section">
+            <div class="nps-gauge">
+              <div class="nps-value">-45</div>
+              <div class="nps-label">Estimated NPS</div>
+              <div class="nps-scale">
+                <span>-100</span>
+                <span>0</span>
+                <span>+100</span>
+              </div>
+            </div>
+            <div>
+              <p style="margin: 0;">
+                <strong>Score Breakdown:</strong><br>
+                • <span style="color: #ef4444;">Detractors (0-6):</span> ~150+ respondents (dominated by 107 at score 6)<br>
+                • <span style="color: #f59e0b;">Passives (7-8):</span> Significant segment<br>
+                • <span style="color: #22c55e;">Promoters (9-10):</span> Only ~68 respondents (45 at 9, 23 at 10)
+              </p>
+            </div>
+          </div>
+
+          <h2><i class="fas fa-chart-radar"></i> Attribute Deviation: Where Jordan Falls Short</h2>
+          
+          <p>
+            The brand tracking survey measured perceptions across key toothpaste attributes. 
+            Jordan underperforms on nearly every functional criterion that drives purchase decisions:
+          </p>
+
+          <div class="chart-section">
+            <h4>Brand Attribute Performance vs. Category Average</h4>
+            <p class="chart-subtitle">Positive = above average, Negative = below average</p>
+            <div class="chart-container tall">
+              <canvas id="deviationChart"></canvas>
+            </div>
+          </div>
+
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Attribute</th>
+                <th>Jordan vs. Category</th>
+                <th>Competitor Leader</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Whitening</td>
+                <td class="negative">Significantly Below</td>
+                <td>Colgate</td>
+              </tr>
+              <tr>
+                <td>Fresh Breath</td>
+                <td class="negative">Below Average</td>
+                <td>Colgate</td>
+              </tr>
+              <tr>
+                <td>Sensitivity Relief</td>
+                <td class="negative">Significantly Below</td>
+                <td>Sensodyne</td>
+              </tr>
+              <tr>
+                <td>Premium Quality</td>
+                <td class="negative">Below Average</td>
+                <td>Zendium</td>
+              </tr>
+              <tr>
+                <td>Cavity Protection</td>
+                <td class="negative">Below Average</td>
+                <td>Colgate</td>
+              </tr>
+              <tr>
+                <td>Easy to Find</td>
+                <td class="positive">Above Average</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td>Sustainable Brand</td>
+                <td class="positive">Slightly Above</td>
+                <td>—</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="warning-box">
+            <p><strong>⚠️ The Positioning Gap:</strong> Jordan's only positive associations are "easy to find" and "sustainable"—neither of which drive toothpaste purchases. The brand owns <strong>no key functional benefit</strong> that matters to consumers.</p>
+          </div>
+
+          <h2><i class="fas fa-lightbulb"></i> Strategic Recommendations</h2>
+          
+          <p>
+            Based on this comprehensive diagnosis, Jordan needs to shift from a loyalty strategy to a 
+            <strong>penetration-first growth strategy</strong>. Here are four actionable recommendations:
+          </p>
+
+          <div class="recommendation-grid">
+            <div class="recommendation-card">
+              <div class="rec-number">1</div>
+              <div>
+                <h4>Build Mental Availability at Key Category Entry Points</h4>
+                <p>Jordan must become associated with the moments when people think "I need toothpaste." Target CEPs like morning routine, sensitivity concerns, and family care through consistent messaging.</p>
+              </div>
+            </div>
+            <div class="recommendation-card">
+              <div class="rec-number">2</div>
+              <div>
+                <h4>Own ONE Functional Benefit</h4>
+                <p>Instead of being average at everything, Jordan should dominate one attribute—perhaps "gentle daily care" or "family-friendly whitening." This gives consumers a reason to recall and choose Jordan.</p>
+              </div>
+            </div>
+            <div class="recommendation-card">
+              <div class="rec-number">3</div>
+              <div>
+                <h4>Develop Distinctive Brand Assets</h4>
+                <p>With TOM near 0%, Jordan's visual identity isn't cutting through. Invest in distinctive colors, packaging, and a memorable tagline that enables instant recognition on the shelf.</p>
+              </div>
+            </div>
+            <div class="recommendation-card">
+              <div class="rec-number">4</div>
+              <div>
+                <h4>Increase Physical Availability for Light Buyers</h4>
+                <p>Light buyers (who make occasional, routine purchases) drive category growth. Jordan needs better shelf placement, wider distribution, and visibility at eye level in high-traffic stores.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="success-box">
+            <p><strong>✅ The Opportunity:</strong> The Dirichlet model suggests Jordan's natural penetration ceiling is ~19%. With the right strategy, Jordan could grow its customer base by <strong>70%</strong> (from 11% to 19%) without fundamental brand repositioning—just better availability and mental presence.</p>
+          </div>
+
+          <h2><i class="fas fa-flag-checkered"></i> Conclusion</h2>
+          
+          <p>
+            Jordan's case illustrates a common brand health problem: <strong>the loyalty trap</strong>. 
+            The brand has successfully retained a small, devoted customer base, but this success has masked 
+            a deeper failure to grow.
+          </p>
+
+          <p>
+            The data is clear:
+          </p>
+          <ul>
+            <li><strong>Panel data</strong> shows Jordan reaches too few households (11% vs. 13.1% expected)</li>
+            <li><strong>Dirichlet analysis</strong> confirms unusual loyalty but structural penetration weakness</li>
+            <li><strong>Brand tracking</strong> reveals poor mental availability and no ownable functional benefit</li>
+            <li><strong>Duplication patterns</strong> show Jordan loses the customer exchange to major brands</li>
+            <li><strong>NPS distribution</strong> indicates passive satisfaction rather than passionate advocacy</li>
+          </ul>
+
+          <p>
+            The path forward is not more loyalty programs or CRM—it's <strong>broadening the brand's appeal</strong> 
+            and making Jordan impossible to ignore in everyday shopping situations. Only then can Jordan 
+            unlock its Dirichlet-implied growth potential.
+          </p>
+
+          <div class="quote-block">
+            "Brand growth comes from increasing penetration, not loyalty. Jordan must reach more buyers—not squeeze more from existing ones."<br>
+            <small>— Adapted from Byron Sharp, "How Brands Grow"</small>
+          </div>
+
+          <div class="story-cta">
+            <a class="btn primary" href="/home/#contact">
+              <i class="fas fa-envelope"></i> Discuss Brand Analytics
+            </a>
+            <a class="btn ghost" href="/datastory/">
+              <i class="fas fa-book"></i> More Data Stories
+            </a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container meta">
+        <div>
+          <div>&copy; MD Rasel Mia 2025 · All Rights Reserved</div>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
+          <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script>
+      // Chart configurations
+      const isDark = document.body.classList.contains('theme-dark') || 
+                     localStorage.getItem('theme') === 'dark';
+      
+      const colors = {
+        jordan: '#0ea5e9',
+        expected: '#64748b',
+        positive: '#22c55e',
+        negative: '#ef4444',
+        warning: '#f59e0b',
+        colgate: '#ef4444',
+        zendium: '#8b5cf6',
+        sensodyne: '#f59e0b',
+        text: isDark ? '#e2e8f0' : '#334155',
+        grid: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'
+      };
+
+      Chart.defaults.color = colors.text;
+      Chart.defaults.borderColor = colors.grid;
+
+      // Dirichlet Comparison Chart
+      new Chart(document.getElementById('dirichletChart'), {
+        type: 'bar',
+        data: {
+          labels: ['Penetration (%)', 'Purchase Frequency', 'Share of Category (SCR)'],
+          datasets: [{
+            label: 'Jordan (Actual)',
+            data: [11, 2.03, 0.451],
+            backgroundColor: colors.jordan,
+            borderRadius: 6
+          }, {
+            label: 'Dirichlet (Expected)',
+            data: [13.1, 1.27, 0.192],
+            backgroundColor: colors.expected,
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { 
+            legend: { position: 'top' }
+          },
+          scales: {
+            y: { beginAtZero: true }
+          }
+        }
+      });
+
+      // Penetration Comparison Chart
+      new Chart(document.getElementById('penetrationChart'), {
+        type: 'bar',
+        data: {
+          labels: ['Colgate', 'Zendium', 'Sensodyne', 'Aquafresh', 'Jordan', 'Oral-B', 'Others'],
+          datasets: [{
+            label: 'Penetration (%)',
+            data: [32, 28, 18, 15, 11, 10, 8],
+            backgroundColor: ['#ef4444', '#8b5cf6', '#f59e0b', '#22c55e', '#0ea5e9', '#ec4899', '#64748b'],
+            borderRadius: 6
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { 
+              beginAtZero: true,
+              title: { display: true, text: 'Household Penetration (%)' }
+            }
+          }
+        }
+      });
+
+      // Duplication Chart
+      new Chart(document.getElementById('duplicationChart'), {
+        type: 'bar',
+        data: {
+          labels: ['Colgate', 'Zendium', 'Sensodyne'],
+          datasets: [{
+            label: 'Jordan buyers → Other brands',
+            data: [7.7, 8.8, 8.3],
+            backgroundColor: colors.jordan,
+            borderRadius: 6
+          }, {
+            label: 'Other brands → Jordan',
+            data: [1.9, 1.2, 0.5],
+            backgroundColor: colors.negative,
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top' } },
+          scales: {
+            y: { 
+              beginAtZero: true,
+              title: { display: true, text: 'Duplication Rate (%)' }
+            }
+          }
+        }
+      });
+
+      // Awareness Funnel Chart
+      new Chart(document.getElementById('awarenessChart'), {
+        type: 'bar',
+        data: {
+          labels: ['Aided Awareness', 'Unaided Recall', 'Top-of-Mind', 'Consideration', 'Preferred Brand'],
+          datasets: [{
+            label: 'Jordan',
+            data: [65, 12, 2, 18, 3],
+            backgroundColor: colors.jordan,
+            borderRadius: 6
+          }, {
+            label: 'Colgate',
+            data: [95, 45, 28, 52, 22],
+            backgroundColor: colors.colgate,
+            borderRadius: 6
+          }, {
+            label: 'Zendium',
+            data: [92, 38, 22, 48, 18],
+            backgroundColor: colors.zendium,
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top' } },
+          scales: {
+            y: { 
+              beginAtZero: true,
+              max: 100,
+              title: { display: true, text: 'Percentage (%)' }
+            }
+          }
+        }
+      });
+
+      // NPS Distribution Chart
+      new Chart(document.getElementById('npsChart'), {
+        type: 'bar',
+        data: {
+          labels: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+          datasets: [{
+            label: 'Respondents',
+            data: [8, 5, 7, 12, 15, 25, 107, 45, 38, 45, 23],
+            backgroundColor: [
+              colors.negative, colors.negative, colors.negative, colors.negative,
+              colors.negative, colors.negative, colors.negative,
+              colors.warning, colors.warning,
+              colors.positive, colors.positive
+            ],
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { 
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                afterLabel: (ctx) => {
+                  const score = parseInt(ctx.label);
+                  if (score <= 6) return 'Detractor';
+                  if (score <= 8) return 'Passive';
+                  return 'Promoter';
+                }
+              }
+            }
+          },
+          scales: {
+            y: { 
+              beginAtZero: true,
+              title: { display: true, text: 'Number of Respondents' }
+            },
+            x: {
+              title: { display: true, text: 'NPS Score (0-10)' }
+            }
+          }
+        }
+      });
+
+      // Deviation Chart
+      new Chart(document.getElementById('deviationChart'), {
+        type: 'bar',
+        data: {
+          labels: [
+            'Whitening',
+            'Fresh Breath', 
+            'Sensitivity Relief',
+            'Cavity Protection',
+            'Premium Quality',
+            'Daily Protection',
+            'Trusted Brand',
+            'Good Value',
+            'Easy to Find',
+            'Sustainable',
+            'Family Friendly'
+          ],
+          datasets: [{
+            label: 'Jordan vs. Category Average',
+            data: [-28, -18, -35, -22, -15, -12, -8, -5, 12, 8, 5],
+            backgroundColor: (ctx) => ctx.raw >= 0 ? colors.positive : colors.negative,
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { 
+            legend: { display: false }
+          },
+          scales: {
+            x: { 
+              title: { display: true, text: 'Deviation from Category Average (%)' }
+            }
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
