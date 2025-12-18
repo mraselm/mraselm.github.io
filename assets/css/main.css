@@ -1094,6 +1094,24 @@ textarea {
   }
 }
 
+/* Comments Section */
+.comments-section {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+.comments-section h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--ink);
+}
+.comments-section h3 i {
+  color: var(--accent);
+}
+
 /* Share Dropdown */
 .share-dropdown {
   position: relative;
