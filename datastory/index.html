@@ -19,13 +19,135 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
     <style>
+      /* Story Grid Layout */
+      .stories-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 1.75rem;
+        margin-top: 1rem;
+      }
+      
+      /* Story Card */
+      .story-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+      }
+      .story-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      }
+      .story-card.hidden {
+        display: none !important;
+      }
+      .story-card.fade-out {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      
+      /* Card Image */
+      .story-card .card-image {
+        position: relative;
+        height: 180px;
+        overflow: hidden;
+      }
+      .story-card .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+      }
+      .story-card:hover .card-image img {
+        transform: scale(1.05);
+      }
+      .story-card .card-badge {
+        position: absolute;
+        top: 0.75rem;
+        left: 0.75rem;
+        background: var(--accent);
+        color: #fff;
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 0.35rem 0.75rem;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+      
+      /* Card Content */
+      .story-card .card-content {
+        padding: 1.25rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .story-card .card-content h3 {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        margin: 0 0 0.75rem;
+        color: var(--ink);
+      }
+      .story-card .card-content h3 a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      .story-card .card-content h3 a:hover {
+        color: var(--accent);
+      }
+      .story-card .card-excerpt {
+        font-size: 0.9rem;
+        color: var(--muted);
+        line-height: 1.6;
+        margin-bottom: 1rem;
+        flex: 1;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      
+      /* Card Meta */
+      .story-card .card-meta {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.8rem;
+        color: var(--muted);
+        padding-top: 0.75rem;
+        border-top: 1px solid var(--border);
+      }
+      .story-card .card-meta span {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+      }
+      .story-card .card-meta i {
+        color: var(--accent);
+        font-size: 0.75rem;
+      }
+      
+      /* Card Footer with Button */
+      .story-card .card-footer {
+        padding: 0 1.25rem 1.25rem;
+      }
+      .story-card .card-footer .btn {
+        width: 100%;
+        justify-content: center;
+        padding: 0.7rem 1rem;
+        font-size: 0.85rem;
+      }
+      
       /* Filter Bar Styles */
       .filter-bar {
         display: flex;
         flex-wrap: wrap;
         gap: 0.75rem;
         justify-content: center;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
         padding: 1rem 0;
       }
       .filter-btn {
@@ -70,17 +192,7 @@
       .filter-btn.active .filter-count {
         background: rgba(255,255,255,0.25);
       }
-      /* Card animation for filtering */
-      .post-card {
-        transition: opacity 0.3s ease, transform 0.3s ease;
-      }
-      .post-card.hidden {
-        display: none !important;
-      }
-      .post-card.fade-out {
-        opacity: 0;
-        transform: scale(0.95);
-      }
+      
       /* No results message */
       .no-results {
         grid-column: 1 / -1;
@@ -96,6 +208,15 @@
       .no-results h3 {
         margin-bottom: 0.5rem;
         color: var(--ink);
+      }
+      
+      @media (max-width: 768px) {
+        .stories-grid {
+          grid-template-columns: 1fr;
+        }
+        .story-card .card-image {
+          height: 160px;
+        }
       }
       @media (max-width: 600px) {
         .filter-bar {
@@ -200,72 +321,104 @@
             </button>
           </div>
         </div>
-        <div class="container blog-grid">
-          <!-- Featured Story -->
-          <article class="post-card featured" id="post-churn" data-category="ml">
-            <span class="post-badge">Featured Case Study</span>
-            <h3 data-i18n="post_churn_title">Predicting Customer Churn Before It Happens</h3>
-            <img class="post-thumb" src="/images/customerchurn.jpg" alt="Customer Churn Prediction Dashboard" />
-            <p class="short-content" data-i18n="post_churn_short">How I built an AI-powered dashboard using XGBoost, SHAP explainability, and OpenAI to predict at-risk customers and generate personalized retention strategies...</p>
-            <div class="post-meta">
-              <span><i class="fas fa-clock"></i> 8 min read</span>
-              <span><i class="fas fa-tag"></i> Machine Learning</span>
-            </div>
-            <a href="/datastory/churn-prediction/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
-          </article>
+        <div class="container">
+          <div class="stories-grid">
+            <!-- Customer Churn Story -->
+            <article class="story-card" id="post-churn" data-category="ml">
+              <div class="card-image">
+                <img src="/images/customerchurn.jpg" alt="Customer Churn Prediction Dashboard" />
+                <span class="card-badge">Case Study</span>
+              </div>
+              <div class="card-content">
+                <h3><a href="/datastory/churn-prediction/" data-i18n="post_churn_title">Predicting Customer Churn Before It Happens</a></h3>
+                <p class="card-excerpt" data-i18n="post_churn_short">How I built an AI-powered dashboard using XGBoost, SHAP explainability, and OpenAI to predict at-risk customers and generate personalized retention strategies...</p>
+                <div class="card-meta">
+                  <span><i class="fas fa-clock"></i> 8 min</span>
+                  <span><i class="fas fa-tag"></i> Machine Learning</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="/datastory/churn-prediction/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
+              </div>
+            </article>
 
-          <!-- Stock Prediction Story -->
-          <article class="post-card featured" id="post-stock" data-category="dl">
-            <span class="post-badge">Deep Learning Experiment</span>
-            <h3 data-i18n="post_stock_title">Can AI Read Candlestick Charts Like a Trader?</h3>
-            <img class="post-thumb" src="/images/candlestick.jpg" alt="Candlestick CNN Classification" />
-            <p class="short-content" data-i18n="post_stock_short">Building a CNN with TensorFlow to classify candlestick chart images and predict stock price movements—an experiment in visual finance...</p>
-            <div class="post-meta">
-              <span><i class="fas fa-clock"></i> 7 min read</span>
-              <span><i class="fas fa-tag"></i> Deep Learning</span>
-            </div>
-            <a href="/datastory/stock-prediction/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
-          </article>
+            <!-- Stock Prediction Story -->
+            <article class="story-card" id="post-stock" data-category="dl">
+              <div class="card-image">
+                <img src="/images/candlestick.jpg" alt="Candlestick CNN Classification" />
+                <span class="card-badge">Experiment</span>
+              </div>
+              <div class="card-content">
+                <h3><a href="/datastory/stock-prediction/" data-i18n="post_stock_title">Can AI Read Candlestick Charts Like a Trader?</a></h3>
+                <p class="card-excerpt" data-i18n="post_stock_short">Building a CNN with TensorFlow to classify candlestick chart images and predict stock price movements—an experiment in visual finance...</p>
+                <div class="card-meta">
+                  <span><i class="fas fa-clock"></i> 7 min</span>
+                  <span><i class="fas fa-tag"></i> Deep Learning</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="/datastory/stock-prediction/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
+              </div>
+            </article>
 
-          <!-- Mobile Pricing Story -->
-          <article class="post-card featured" id="post-mobile" data-category="ml">
-            <span class="post-badge">ML Case Study</span>
-            <h3 data-i18n="post_mobile_title">Helping Bob Price His Phones: A Classification Journey in R</h3>
-            <img class="post-thumb" src="/images/mobilecase.jpg" alt="Mobile Phone Price Classification" />
-            <p class="short-content" data-i18n="post_mobile_short">Building SVM and Decision Tree models in R to classify mobile phones into price ranges based on 21 technical specifications—with 96.8% accuracy...</p>
-            <div class="post-meta">
-              <span><i class="fas fa-clock"></i> 6 min read</span>
-              <span><i class="fas fa-tag"></i> Classification</span>
-            </div>
-            <a href="/datastory/mobile-pricing/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
-          </article>
+            <!-- Mobile Pricing Story -->
+            <article class="story-card" id="post-mobile" data-category="ml">
+              <div class="card-image">
+                <img src="/images/mobilecase.jpg" alt="Mobile Phone Price Classification" />
+                <span class="card-badge">ML Case Study</span>
+              </div>
+              <div class="card-content">
+                <h3><a href="/datastory/mobile-pricing/" data-i18n="post_mobile_title">Helping Bob Price His Phones: A Classification Journey in R</a></h3>
+                <p class="card-excerpt" data-i18n="post_mobile_short">Building SVM and Decision Tree models in R to classify mobile phones into price ranges based on 21 technical specifications—with 96.8% accuracy...</p>
+                <div class="card-meta">
+                  <span><i class="fas fa-clock"></i> 6 min</span>
+                  <span><i class="fas fa-tag"></i> Classification</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="/datastory/mobile-pricing/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
+              </div>
+            </article>
 
-          <!-- Chart Guide Story -->
-          <article class="post-card featured" id="post-chart" data-category="viz">
-            <span class="post-badge">Visual Guide</span>
-            <h3 data-i18n="post_chart_title">How to Pick the Right Chart Type</h3>
-            <img class="post-thumb" src="/images/chartguide.svg" alt="Data Visualization Chart Types Guide" />
-            <p class="short-content" data-i18n="post_chart_short">A visual guide with interactive charts to help you choose the perfect visualization for your data—bar, line, pie, scatter, and more...</p>
-            <div class="post-meta">
-              <span><i class="fas fa-clock"></i> 10 min read</span>
-              <span><i class="fas fa-tag"></i> Visualization</span>
-            </div>
-            <a href="/datastory/chart-guide/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
-          </article>
+            <!-- Chart Guide Story -->
+            <article class="story-card" id="post-chart" data-category="viz">
+              <div class="card-image">
+                <img src="/images/chartguide.svg" alt="Data Visualization Chart Types Guide" />
+                <span class="card-badge">Visual Guide</span>
+              </div>
+              <div class="card-content">
+                <h3><a href="/datastory/chart-guide/" data-i18n="post_chart_title">How to Pick the Right Chart Type</a></h3>
+                <p class="card-excerpt" data-i18n="post_chart_short">A visual guide with interactive charts to help you choose the perfect visualization for your data—bar, line, pie, scatter, and more...</p>
+                <div class="card-meta">
+                  <span><i class="fas fa-clock"></i> 10 min</span>
+                  <span><i class="fas fa-tag"></i> Visualization</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="/datastory/chart-guide/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
+              </div>
+            </article>
 
-          <!-- Jordan Brand Analysis Story -->
-          <article class="post-card featured" id="post-jordan" data-category="brand">
-            <span class="post-badge">Brand Analytics</span>
-            <h3 data-i18n="post_jordan_title">Jordan Toothpaste: A Brand Health Diagnosis</h3>
-            <img class="post-thumb" src="/images/jordan-brand.svg" alt="Jordan Brand Analysis Dashboard" />
-            <p class="short-content" data-i18n="post_jordan_short">Using Dirichlet modeling, consumer panel data, and brand tracking surveys to diagnose why Jordan has high loyalty but low market reach...</p>
-            <div class="post-meta">
-              <span><i class="fas fa-clock"></i> 12 min read</span>
-              <span><i class="fas fa-tag"></i> Brand Analytics</span>
-            </div>
-            <a href="/datastory/jordan-brand-analysis/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
-          </article>
+            <!-- Jordan Brand Analysis Story -->
+            <article class="story-card" id="post-jordan" data-category="brand">
+              <div class="card-image">
+                <img src="/images/jordan-brand.svg" alt="Jordan Brand Analysis Dashboard" />
+                <span class="card-badge">Brand Analytics</span>
+              </div>
+              <div class="card-content">
+                <h3><a href="/datastory/jordan-brand-analysis/" data-i18n="post_jordan_title">Jordan Toothpaste: A Brand Health Diagnosis</a></h3>
+                <p class="card-excerpt" data-i18n="post_jordan_short">Using Dirichlet modeling, consumer panel data, and brand tracking surveys to diagnose why Jordan has high loyalty but low market reach...</p>
+                <div class="card-meta">
+                  <span><i class="fas fa-clock"></i> 12 min</span>
+                  <span><i class="fas fa-tag"></i> Brand Analytics</span>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a href="/datastory/jordan-brand-analysis/" class="btn primary" data-i18n="btn_read_story">Read Full Story</a>
+              </div>
+            </article>
 
+          </div>
         </div>
       </section>
     </main>
@@ -401,8 +554,8 @@
       // Filter functionality
       (function() {
         const filterBtns = document.querySelectorAll('.filter-btn');
-        const cards = document.querySelectorAll('.post-card[data-category]');
-        const blogGrid = document.querySelector('.blog-grid');
+        const cards = document.querySelectorAll('.story-card[data-category]');
+        const storiesGrid = document.querySelector('.stories-grid');
 
         filterBtns.forEach(btn => {
           btn.addEventListener('click', () => {
