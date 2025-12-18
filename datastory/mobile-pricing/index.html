@@ -13,6 +13,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content="Building ML models in R to classify mobile phones into price ranges based on technical specifications using SVM and Decision Trees." />
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Helping Bob Price His Phones: A Classification Journey in R" />
+    <meta property="og:description" content="Building ML models in R to classify mobile phones into price ranges using SVM and Decision Trees with 96.8% accuracy." />
+    <meta property="og:image" content="https://raselmia.live/images/mobilecase.jpg" />
+    <meta property="og:url" content="https://raselmia.live/datastory/mobile-pricing/" />
+    <meta property="og:site_name" content="Rasel Mia - Data Stories" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Helping Bob Price His Phones: ML Classification in R" />
+    <meta name="twitter:description" content="SVM and Decision Tree models for mobile phone price classification with 96.8% accuracy." />
+    <meta name="twitter:image" content="https://raselmia.live/images/mobilecase.jpg" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -639,6 +650,17 @@ svm_tuned <- train(price_range ~ ., data = train_data,<br>
             <a class="btn ghost" href="/home/#contact">
               <i class="fas fa-envelope"></i> Discuss This Project
             </a>
+          </div>
+
+          <!-- Newsletter Signup -->
+          <div class="newsletter-box">
+            <h3>📬 Get More Data Stories</h3>
+            <p>I send occasional deep-dives on ML, analytics, and data storytelling. No spam, just insights.</p>
+            <form class="newsletter-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <input type="email" name="email" placeholder="your@email.com" required />
+              <button type="submit">Subscribe</button>
+            </form>
+            <p class="newsletter-success">✓ Thanks! You're on the list.</p>
           </div>
         </div>
       </article>

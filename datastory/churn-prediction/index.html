@@ -13,6 +13,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content="How I built an AI-powered customer churn prediction dashboard using Python, XGBoost, SHAP, and OpenAI to help businesses retain customers." />
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Predicting Customer Churn Before It Happens" />
+    <meta property="og:description" content="How I built an AI-powered customer churn prediction dashboard using Python, XGBoost, SHAP, and OpenAI to help businesses retain customers." />
+    <meta property="og:image" content="https://raselmia.live/images/customerchurn.jpg" />
+    <meta property="og:url" content="https://raselmia.live/datastory/churn-prediction/" />
+    <meta property="og:site_name" content="Rasel Mia - Data Stories" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Predicting Customer Churn Before It Happens" />
+    <meta name="twitter:description" content="AI-powered churn prediction with XGBoost, SHAP explainability, and OpenAI." />
+    <meta name="twitter:image" content="https://raselmia.live/images/customerchurn.jpg" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -451,6 +462,17 @@ tuned_model = tune_model(best_model, optimize='AUC')
             <a class="btn ghost" href="/home/#contact">
               <i class="fas fa-envelope"></i> Discuss This Project
             </a>
+          </div>
+
+          <!-- Newsletter Signup -->
+          <div class="newsletter-box">
+            <h3>📬 Get More Data Stories</h3>
+            <p>I send occasional deep-dives on ML, analytics, and data storytelling. No spam, just insights.</p>
+            <form class="newsletter-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <input type="email" name="email" placeholder="your@email.com" required />
+              <button type="submit">Subscribe</button>
+            </form>
+            <p class="newsletter-success">✓ Thanks! You're on the list.</p>
           </div>
         </div>
       </article>

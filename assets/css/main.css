@@ -1025,6 +1025,82 @@ textarea {
   flex-wrap: wrap;
 }
 
+/* Newsletter Signup */
+.newsletter-box {
+  background: linear-gradient(135deg, var(--card-bg) 0%, rgba(74, 144, 226, 0.05) 100%);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+.newsletter-box h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+}
+.newsletter-box p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletter-form {
+  display: flex;
+  gap: 0.75rem;
+  max-width: 420px;
+  margin: 0 auto;
+}
+.newsletter-form input[type="email"] {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--ink);
+  transition: border-color 0.2s;
+}
+.newsletter-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.newsletter-form button {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  white-space: nowrap;
+}
+.newsletter-form button:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+.newsletter-success {
+  display: none;
+  color: #10b981;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.newsletter-success.show {
+  display: block;
+}
+@media (max-width: 480px) {
+  .newsletter-form {
+    flex-direction: column;
+  }
+  .newsletter-form button {
+    width: 100%;
+  }
+}
+
 /* Share Dropdown */
 .share-dropdown {
   position: relative;

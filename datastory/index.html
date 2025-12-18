@@ -35,7 +35,9 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+                    box-shadow 0.3s ease, 
+                    opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
       }
       .story-card:hover {
         transform: translateY(-6px);
@@ -46,7 +48,21 @@
       }
       .story-card.fade-out {
         opacity: 0;
-        transform: scale(0.95);
+        transform: scale(0.92) translateY(10px);
+        pointer-events: none;
+      }
+      .story-card.fade-in {
+        animation: cardFadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      }
+      @keyframes cardFadeIn {
+        from {
+          opacity: 0;
+          transform: scale(0.92) translateY(15px);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1) translateY(0);
+        }
       }
       
       /* Card Image */
@@ -151,6 +167,20 @@
         margin-bottom: 2rem;
         padding: 1rem 0;
       }
+      
+      /* Stories Intro */
+      .stories-intro {
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto 1.5rem;
+      }
+      .stories-intro p {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: var(--muted);
+        margin: 0;
+      }
+      
       .filter-btn {
         display: inline-flex;
         align-items: center;
@@ -293,6 +323,11 @@
 
       <section>
         <div class="container">
+          <!-- Intro Text -->
+          <div class="stories-intro">
+            <p data-i18n="stories_intro">Each story here is a deep-dive into real data problems I've tackled—from machine learning models that predict customer behavior to visualizations that turn chaos into clarity. Pick a category or explore them all.</p>
+          </div>
+          
           <!-- Filter Bar -->
           <div class="filter-bar" role="group" aria-label="Filter stories by category">
             <button class="filter-btn active" data-filter="all">
@@ -449,6 +484,7 @@
             hero_eyebrow: "Data Story",
             hero_title: "Stories behind the dashboards",
             hero_sub: "Short takes on how I translate messy data into narratives and actions.",
+            stories_intro: "Each story here is a deep-dive into real data problems I've tackled—from machine learning models that predict customer behavior to visualizations that turn chaos into clarity. Pick a category or explore them all.",
             post_churn_title: "Predicting Customer Churn Before It Happens",
             post_churn_short: "How I built an AI-powered dashboard using PyCaret AutoML, XGBoost, SHAP explainability, and OpenAI to predict at-risk customers and generate retention strategies...",
             btn_read_story: "Read Full Story",
@@ -489,6 +525,7 @@
             hero_eyebrow: "Datafortælling",
             hero_title: "Historierne bag dashboards",
             hero_sub: "Korte nedslag i, hvordan jeg omsætter rodede data til fortællinger og handling.",
+            stories_intro: "Hver historie her er et dybt dyk ned i virkelige dataproblemer, jeg har tacklet—fra maskinlæringsmodeller der forudsiger kundeadfærd til visualiseringer der gør kaos til klarhed. Vælg en kategori eller udforsk dem alle.",
             post_churn_title: "Forudsig kundefrafald før det sker",
             post_churn_short: "Hvordan jeg byggede et AI-drevet dashboard med PyCaret AutoML, XGBoost, SHAP og OpenAI til at forudsige risikokunder og skabe fastholdelsesstrategier...",
             btn_read_story: "Læs hele historien",
@@ -566,18 +603,27 @@
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
-            // Filter cards with animation
+            // Filter cards with staggered animation
+            let showIndex = 0;
             cards.forEach(card => {
               const category = card.dataset.category;
               const shouldShow = filter === 'all' || category === filter;
               
+              // Remove fade-in class first
+              card.classList.remove('fade-in');
+              
               if (shouldShow) {
                 card.classList.remove('hidden', 'fade-out');
+                // Staggered fade-in animation
+                setTimeout(() => {
+                  card.classList.add('fade-in');
+                }, showIndex * 80);
+                showIndex++;
               } else {
                 card.classList.add('fade-out');
                 setTimeout(() => {
                   card.classList.add('hidden');
-                }, 300);
+                }, 350);
               }
             });
           });
