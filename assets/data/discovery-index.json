@@ -1,0 +1,101 @@
+[
+  {
+    "id": "project-churn",
+    "type": "project",
+    "title": "AI-Powered Customer Churn Prediction & Retention Dashboard",
+    "description": "Streamlit + PyCaret AutoML with SHAP explainability and OpenAI recommendations. Upload customer data, train models, inspect churn drivers, and trigger retention strategies.",
+    "url": "/home/#project-churn",
+    "storyUrl": "/datastory/churn-prediction/",
+    "tags": ["Machine Learning", "Churn", "AutoML", "SHAP", "Streamlit"]
+  },
+  {
+    "id": "project-portfolio",
+    "type": "project",
+    "title": "Personal Portfolio - Hosted on GitHub Pages",
+    "description": "A responsive personal portfolio designed to present academic background, skills, and data projects. Built with HTML/CSS and powered by GitHub Pages + Formspree for direct contact.",
+    "url": "/home/#project-portfolio",
+    "storyUrl": "/datastory/",
+    "tags": ["Portfolio", "HTML", "CSS", "GitHub Pages"]
+  },
+  {
+    "id": "project-parking",
+    "type": "project",
+    "title": "Parking Prediction & Optimization in Aarhus",
+    "description": "Combines real-time parking API data, weather, and congestion to forecast availability. ML models feed interactive dashboards to cut search time and city congestion.",
+    "url": "/home/#project-parking",
+    "storyUrl": "/datastory/parking-prediction/",
+    "tags": ["Time Series", "Forecasting", "Python", "XGBoost", "Smart City"]
+  },
+  {
+    "id": "project-mobile",
+    "type": "project",
+    "title": "Estimating Mobile Phone Price Ranges with ML",
+    "description": "Built classification models on 2,000 phones with 21 features to predict price tiers. Highlights feature importance for market positioning and product strategy.",
+    "url": "/home/#project-mobile",
+    "storyUrl": "/datastory/mobile-pricing/",
+    "tags": ["Classification", "R", "Decision Trees", "Feature Insight"]
+  },
+  {
+    "id": "project-stock",
+    "type": "project",
+    "title": "Predicting Stock Moves from Candlestick Images",
+    "description": "A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning rates deliver stronger accuracy.",
+    "url": "/home/#project-stock",
+    "storyUrl": "/datastory/stock-prediction/",
+    "tags": ["Deep Learning", "Computer Vision", "Python", "CNN"]
+  },
+  {
+    "id": "story-churn",
+    "type": "story",
+    "title": "Predicting Customer Churn Before It Happens",
+    "description": "How I built an AI-powered dashboard using PyCaret AutoML, XGBoost, SHAP explainability, and OpenAI to predict at-risk customers.",
+    "url": "/datastory/churn-prediction/",
+    "projectUrl": "/home/#project-churn",
+    "tags": ["Machine Learning", "Churn", "Case Study", "SHAP"]
+  },
+  {
+    "id": "story-parking",
+    "type": "story",
+    "title": "Forecasting Parking Availability in Aarhus",
+    "description": "Blending live parking feeds, weather, Prophet, and XGBoost to predict where free spots will open in the city.",
+    "url": "/datastory/parking-prediction/",
+    "projectUrl": "/home/#project-parking",
+    "tags": ["Time Series", "Forecasting", "Case Study"]
+  },
+  {
+    "id": "story-stock",
+    "type": "story",
+    "title": "Can AI Read Candlestick Charts Like a Trader?",
+    "description": "Building a CNN with TensorFlow to classify candlestick chart images and predict stock price movements.",
+    "url": "/datastory/stock-prediction/",
+    "projectUrl": "/home/#project-stock",
+    "tags": ["Deep Learning", "Computer Vision", "Finance"]
+  },
+  {
+    "id": "story-mobile",
+    "type": "story",
+    "title": "Helping Bob Price His Phones: A Classification Journey in R",
+    "description": "Building SVM and Decision Tree models in R to classify mobile phones into price ranges with 96.8% accuracy.",
+    "url": "/datastory/mobile-pricing/",
+    "projectUrl": "/home/#project-mobile",
+    "tags": ["Classification", "R", "Case Study"]
+  },
+  {
+    "id": "story-chart-guide",
+    "type": "story",
+    "title": "How to Pick the Right Chart Type",
+    "description": "A visual guide with interactive charts to help you choose the perfect visualization for your data.",
+    "url": "/datastory/chart-guide/",
+    "projectUrl": "/home/#projects",
+    "tags": ["Visualization", "Guide", "Charts"]
+  },
+  {
+    "id": "story-jordan-brand",
+    "type": "story",
+    "title": "Jordan Toothpaste: A Brand Health Diagnosis",
+    "description": "Using Dirichlet modeling, consumer panel data, and brand tracking surveys to diagnose loyalty and market reach.",
+    "url": "/datastory/jordan-brand-analysis/",
+    "projectUrl": "/home/#projects",
+    "tags": ["Brand Analytics", "Marketing", "Case Study"]
+  }
+]

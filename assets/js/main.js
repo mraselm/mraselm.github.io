@@ -424,4 +424,217 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   }
+
+  // Unified discovery search (projects + data stories)
+  const discoveryRoots = document.querySelectorAll('[data-discovery-root]');
+  if (discoveryRoots.length) {
+    const indexGroups = new Map();
+    discoveryRoots.forEach(root => {
+      const indexUrl = root.getAttribute('data-discovery-index') || '/assets/data/discovery-index.json';
+      if (!indexGroups.has(indexUrl)) {
+        indexGroups.set(indexUrl, []);
+      }
+      indexGroups.get(indexUrl).push(root);
+    });
+
+    const normalize = (value) => value.toLowerCase().trim();
+    const typeLabels = { project: 'Project', story: 'Data Story' };
+
+    const buildTagList = (items) => {
+      const tagMap = new Map();
+      items.forEach(item => {
+        (item.tags || []).forEach(tag => {
+          const key = normalize(tag);
+          if (!tagMap.has(key)) {
+            tagMap.set(key, tag);
+          }
+        });
+      });
+      return Array.from(tagMap.entries())
+        .map(([key, label]) => ({ key, label }))
+        .sort((a, b) => a.label.localeCompare(b.label));
+    };
+
+    const renderDiscovery = (root, items, tags) => {
+      const input = root.querySelector('[data-discovery-query]');
+      const tagContainer = root.querySelector('[data-discovery-tags]');
+      const results = root.querySelector('[data-discovery-results]');
+      const empty = root.querySelector('[data-discovery-empty]');
+
+      if (!input || !tagContainer || !results) return;
+
+      const state = { query: '', tags: new Set() };
+      const emptyDefault = empty?.dataset.emptyDefault || 'Start typing or pick a tag to see results.';
+      const emptyNoResults = empty?.dataset.emptyNoResults || 'No matches found.';
+
+      const allButton = document.createElement('button');
+      allButton.type = 'button';
+      allButton.className = 'discovery-tag-btn active';
+      allButton.dataset.tag = 'all';
+      allButton.setAttribute('aria-pressed', 'true');
+      allButton.textContent = 'All';
+      tagContainer.appendChild(allButton);
+
+      tags.forEach(tag => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'discovery-tag-btn';
+        button.dataset.tag = tag.key;
+        button.setAttribute('aria-pressed', 'false');
+        button.textContent = tag.label;
+        tagContainer.appendChild(button);
+      });
+
+      const updateTagButtons = () => {
+        const buttons = tagContainer.querySelectorAll('.discovery-tag-btn');
+        buttons.forEach(button => {
+          const tag = button.dataset.tag;
+          const isActive = tag === 'all' ? state.tags.size === 0 : state.tags.has(tag);
+          button.classList.toggle('active', isActive);
+          button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+      };
+
+      const renderResults = () => {
+        const query = normalize(state.query);
+        const activeTags = Array.from(state.tags);
+        const hasFilter = query.length > 0 || activeTags.length > 0;
+
+        results.innerHTML = '';
+
+        if (!hasFilter) {
+          if (empty) {
+            empty.textContent = emptyDefault;
+            empty.hidden = false;
+          }
+          return;
+        }
+
+        const filtered = items.filter(item => {
+          const text = [
+            item.title,
+            item.description,
+            (item.tags || []).join(' '),
+            item.type
+          ].join(' ').toLowerCase();
+
+          const matchesQuery = !query || text.includes(query);
+          const matchesTags = activeTags.length === 0
+            || (item.tags || []).some(tag => activeTags.includes(normalize(tag)));
+          return matchesQuery && matchesTags;
+        });
+
+        if (!filtered.length) {
+          if (empty) {
+            empty.textContent = emptyNoResults;
+            empty.hidden = false;
+          }
+          return;
+        }
+
+        if (empty) empty.hidden = true;
+
+        filtered.forEach(item => {
+          const card = document.createElement('article');
+          card.className = 'discovery-card';
+
+          const meta = document.createElement('div');
+          meta.className = 'discovery-meta';
+          const type = document.createElement('span');
+          type.className = 'discovery-type';
+          type.textContent = typeLabels[item.type] || 'Item';
+          meta.appendChild(type);
+
+          const title = document.createElement('h3');
+          const titleLink = document.createElement('a');
+          titleLink.href = item.url;
+          titleLink.textContent = item.title;
+          title.appendChild(titleLink);
+
+          const desc = document.createElement('p');
+          desc.textContent = item.description || '';
+
+          const tagList = document.createElement('div');
+          tagList.className = 'discovery-tags';
+          (item.tags || []).slice(0, 4).forEach(tag => {
+            const chip = document.createElement('span');
+            chip.className = 'discovery-tag';
+            chip.textContent = tag;
+            tagList.appendChild(chip);
+          });
+
+          const actions = document.createElement('div');
+          actions.className = 'discovery-actions';
+          const primary = document.createElement('a');
+          primary.className = 'btn ghost';
+          primary.href = item.url;
+          primary.textContent = item.type === 'project' ? 'View project' : 'Read story';
+          actions.appendChild(primary);
+
+          if (item.type === 'project' && item.storyUrl) {
+            const secondary = document.createElement('a');
+            secondary.className = 'btn primary';
+            secondary.href = item.storyUrl;
+            secondary.textContent = 'Read case study';
+            actions.appendChild(secondary);
+          }
+
+          if (item.type === 'story' && item.projectUrl) {
+            const secondary = document.createElement('a');
+            secondary.className = 'btn ghost';
+            secondary.href = item.projectUrl;
+            secondary.textContent = 'View in portfolio';
+            actions.appendChild(secondary);
+          }
+
+          card.append(meta, title, desc, tagList, actions);
+          results.appendChild(card);
+        });
+      };
+
+      tagContainer.addEventListener('click', (event) => {
+        const button = event.target.closest('.discovery-tag-btn');
+        if (!button) return;
+        const tag = button.dataset.tag;
+        if (tag === 'all') {
+          state.tags.clear();
+        } else {
+          if (state.tags.has(tag)) {
+            state.tags.delete(tag);
+          } else {
+            state.tags.add(tag);
+          }
+        }
+        updateTagButtons();
+        renderResults();
+      });
+
+      input.addEventListener('input', (event) => {
+        state.query = event.target.value || '';
+        renderResults();
+      });
+
+      updateTagButtons();
+      renderResults();
+    };
+
+    indexGroups.forEach((roots, indexUrl) => {
+      fetch(indexUrl)
+        .then(response => response.json())
+        .then(items => {
+          if (!Array.isArray(items)) return;
+          const tagList = buildTagList(items);
+          roots.forEach(root => renderDiscovery(root, items, tagList));
+        })
+        .catch(() => {
+          roots.forEach(root => {
+            const empty = root.querySelector('[data-discovery-empty]');
+            if (empty) {
+              empty.textContent = 'Discovery data is unavailable right now.';
+              empty.hidden = false;
+            }
+          });
+        });
+    });
+  }
 });

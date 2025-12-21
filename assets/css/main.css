@@ -773,6 +773,156 @@ section:not(:first-of-type)::before {
   font-size: clamp(2rem, 4vw, 2.6rem);
 }
 
+.discovery-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.discovery-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.discovery-search {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--input-bg);
+}
+
+.discovery-search i {
+  color: var(--muted);
+}
+
+.discovery-search input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 0.95rem;
+  color: var(--ink);
+  outline: none;
+}
+
+.discovery-search input::placeholder {
+  color: var(--muted);
+}
+
+.discovery-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.discovery-tag-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+}
+
+.discovery-tag-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.discovery-tag-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.discovery-results {
+  margin-top: 1.5rem;
+}
+
+.discovery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.discovery-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.discovery-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.discovery-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.discovery-type {
+  font-weight: 700;
+}
+
+.discovery-card h3 {
+  font-size: 1.1rem;
+}
+
+.discovery-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+.discovery-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(14, 165, 233, 0.12);
+  color: var(--accent-strong);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.discovery-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: auto;
+}
+
+.discovery-actions .btn {
+  padding: 0.6rem 1rem;
+}
+
+.discovery-empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 1.5rem 0 0.5rem;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
@@ -849,11 +999,23 @@ section:not(:first-of-type)::before {
 
 .project-card .actions {
   margin-top: auto;
+  flex-wrap: wrap;
 }
 
 .project-card .actions .btn {
   width: fit-content;
   padding: 0.75rem 1.1rem;
+}
+
+.project-card .actions.compact,
+.project-card .actions:has(.btn:nth-child(3)) {
+  gap: 0.5rem;
+}
+
+.project-card .actions.compact .btn,
+.project-card .actions:has(.btn:nth-child(3)) .btn {
+  padding: 0.55rem 0.85rem;
+  font-size: 0.85rem;
 }
 
 /* What I Can Do For You Section */

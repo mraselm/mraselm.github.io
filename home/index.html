@@ -210,8 +210,22 @@
             <p data-i18n="projects_desc">Same work, sharper presentation—here are the projects I rely on to demonstrate analytics, BI, and ML in motion.</p>
           </div>
 
+          <div class="discovery-panel" data-discovery-root data-discovery-index="/assets/data/discovery-index.json">
+            <div class="discovery-controls">
+              <div class="discovery-search">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input type="search" placeholder="Search projects and data stories" aria-label="Search projects and data stories" data-discovery-query />
+              </div>
+              <div class="discovery-tags" data-discovery-tags></div>
+            </div>
+            <div class="discovery-results">
+              <div class="discovery-grid" data-discovery-results></div>
+              <p class="discovery-empty" data-discovery-empty data-empty-default="Start typing or pick a tag to see results." data-empty-no-results="No matches found.">Start typing or pick a tag to see results.</p>
+            </div>
+          </div>
+
           <div class="projects-grid">
-            <article class="project-card">
+            <article class="project-card" id="project-churn">
               <div class="date">Nov 20, 2025</div>
               <img class="project-thumb" src="/images/customerchurn.jpg" alt="Customer churn dashboard preview" loading="lazy" />
               <h3 data-i18n="proj1_title">AI-Powered Customer Churn Prediction &amp; Retention Dashboard</h3>
@@ -224,13 +238,14 @@
                 <span class="tag">SHAP</span>
                 <span class="tag">Streamlit</span>
               </div>
-              <div class="actions">
+              <div class="actions compact">
                 <a class="btn ghost" href="https://github.com/mraselm/customer-churn-dashboard.git" target="_blank" data-i18n="cta_view_project">View project</a>
+                <a class="btn ghost" href="/datastory/churn-prediction/" data-i18n="cta_case_study">Read case study</a>
                 <a class="btn primary" href="https://app.raselmia.live/" target="_blank" data-i18n="cta_try">Try it</a>
               </div>
             </article>
 
-            <article class="project-card">
+            <article class="project-card" id="project-portfolio">
               <div class="date">May 31, 2025</div>
               <img class="project-thumb" src="/images/portfolio_preview.jpeg" alt="Portfolio preview" loading="lazy" />
               <h3 data-i18n="proj2_title">Personal Portfolio — Hosted on GitHub Pages</h3>
@@ -245,10 +260,11 @@
               </div>
               <div class="actions">
                 <a class="btn ghost" href="https://github.com/mraselm/mraselm.github.io.git" target="_blank" data-i18n="cta_view_project">View project</a>
+                <a class="btn primary" href="/datastory/" data-i18n="cta_case_study">Read case study</a>
               </div>
             </article>
 
-            <article class="project-card">
+            <article class="project-card" id="project-parking">
               <div class="date">May 10, 2025</div>
               <img class="project-thumb" src="/images/parking.png" alt="Parking availability dashboard" loading="lazy" />
               <h3 data-i18n="proj3_title">Parking Prediction &amp; Optimization in Aarhus</h3>
@@ -263,10 +279,11 @@
               </div>
               <div class="actions">
                 <a class="btn ghost" href="https://github.com/mraselm/parking-availability-prediction-aarhus.git" target="_blank" data-i18n="cta_view_project">View project</a>
+                <a class="btn primary" href="/datastory/parking-prediction/" data-i18n="cta_case_study">Read case study</a>
               </div>
             </article>
 
-            <article class="project-card">
+            <article class="project-card" id="project-mobile">
               <div class="date">May 1, 2025</div>
               <img class="project-thumb" src="/images/mobilecase.jpg" alt="Mobile price prediction model" loading="lazy" />
               <h3 data-i18n="proj4_title">Estimating Mobile Phone Price Ranges with ML</h3>
@@ -281,10 +298,11 @@
               </div>
               <div class="actions">
                 <a class="btn ghost" href="https://github.com/mraselm/case-study-estimate-mobile-price.git" target="_blank" data-i18n="cta_view_project">View project</a>
+                <a class="btn primary" href="/datastory/mobile-pricing/" data-i18n="cta_case_study">Read case study</a>
               </div>
             </article>
 
-            <article class="project-card">
+            <article class="project-card" id="project-stock">
               <div class="date">June 19, 2025</div>
               <img class="project-thumb" src="/images/candlestick.jpg" alt="Candlestick chart deep learning" loading="lazy" />
               <h3 data-i18n="proj5_title">Predicting Stock Moves from Candlestick Images</h3>
@@ -299,6 +317,7 @@
               </div>
               <div class="actions">
                 <a class="btn ghost" href="https://github.com/mraselm/stock-chart-image-classifier.git" target="_blank" data-i18n="cta_view_project">View project</a>
+                <a class="btn primary" href="/datastory/stock-prediction/" data-i18n="cta_case_study">Read case study</a>
               </div>
             </article>
           </div>
@@ -494,6 +513,7 @@
             proj5_desc:
               "A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning rates deliver stronger accuracy and faster convergence.",
             cta_view_project: "View project",
+            cta_case_study: "Read case study",
             cta_try: "Try it",
             skills_eyebrow: "Capabilities",
             skills_title: "Tools, stacks, and strengths",
@@ -573,6 +593,7 @@
             proj5_desc:
               "En CNN trænet fra bunden til at klassificere lysestagediagrammer og forudsige næste dags retning. Tunede learning rates giver bedre nøjagtighed og hurtigere konvergens.",
             cta_view_project: "Se projekt",
+            cta_case_study: "Læs casestudie",
             cta_try: "Prøv det",
             skills_eyebrow: "Kompetencer",
             skills_title: "Værktøjer, stacks og styrker",

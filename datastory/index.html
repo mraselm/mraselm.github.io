@@ -327,6 +327,20 @@
           <div class="stories-intro">
             <p data-i18n="stories_intro">Each story here is a deep-dive into real data problems I've tackled—from machine learning models that predict customer behavior to visualizations that turn chaos into clarity. Pick a category or explore them all.</p>
           </div>
+
+          <div class="discovery-panel" data-discovery-root data-discovery-index="/assets/data/discovery-index.json">
+            <div class="discovery-controls">
+              <div class="discovery-search">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input type="search" placeholder="Search projects and data stories" aria-label="Search projects and data stories" data-discovery-query />
+              </div>
+              <div class="discovery-tags" data-discovery-tags></div>
+            </div>
+            <div class="discovery-results">
+              <div class="discovery-grid" data-discovery-results></div>
+              <p class="discovery-empty" data-discovery-empty data-empty-default="Start typing or pick a tag to see results." data-empty-no-results="No matches found.">Start typing or pick a tag to see results.</p>
+            </div>
+          </div>
           
           <!-- Filter Bar -->
           <div class="filter-bar" role="group" aria-label="Filter stories by category">
