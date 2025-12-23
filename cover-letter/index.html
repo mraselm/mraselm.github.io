@@ -32,6 +32,9 @@
         max-width: 920px;
         margin: 0 auto;
         padding: 2.5rem 1.5rem 4rem;
+        --panel-shadow-soft: 0 12px 28px rgba(14, 23, 42, 0.08);
+        --panel-shadow-bold: 0 22px 60px rgba(14, 23, 42, 0.16);
+        --panel-glow: 0 0 0 1px rgba(14, 165, 233, 0.18);
       }
       .cover-letter-hero {
         text-align: center;
@@ -59,11 +62,11 @@
         gap: 1.5rem;
       }
       .chat-card {
-        background: var(--card-bg);
+        background: linear-gradient(180deg, var(--card-bg), var(--input-bg));
         border: 1px solid var(--border);
         border-radius: 18px;
         padding: 1.5rem;
-        box-shadow: var(--shadow);
+        box-shadow: var(--panel-shadow-soft);
       }
       .chat-card.user-card {
         border-left: 4px solid var(--accent);
@@ -176,12 +179,126 @@
         font-size: 0.85rem;
         color: var(--muted);
       }
+      .file-upload {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 0.85rem;
+        align-items: center;
+        position: relative;
+        border-radius: 14px;
+        border: 1px dashed var(--border);
+        padding: 0.85rem 1rem;
+        background: linear-gradient(135deg, var(--card-bg), var(--input-bg));
+        cursor: pointer;
+        box-shadow: var(--panel-shadow-soft);
+        transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      }
+      .file-upload:hover {
+        transform: translateY(-2px);
+        border-color: var(--accent);
+        box-shadow: var(--panel-shadow-bold), var(--panel-glow);
+      }
+      .file-upload:focus-within {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.18);
+      }
+      .file-upload.is-dragover {
+        border-style: solid;
+        border-color: var(--accent);
+        background: linear-gradient(135deg, var(--input-bg), var(--card-bg));
+        box-shadow: var(--panel-shadow-bold), var(--panel-glow);
+      }
+      .file-upload-icon {
+        width: 38px;
+        height: 38px;
+        border-radius: 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      }
+      .file-upload-icon svg {
+        width: 18px;
+        height: 18px;
+      }
+      .file-upload-text {
+        display: grid;
+        gap: 0.2rem;
+      }
+      .file-upload-title {
+        font-weight: 600;
+        color: var(--ink);
+        font-size: 0.95rem;
+      }
+      .file-upload-name {
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+      .file-upload-cta {
+        font-size: 0.78rem;
+        font-weight: 600;
+        color: var(--accent);
+        padding: 0.4rem 0.75rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: rgba(14, 165, 233, 0.12);
+        white-space: nowrap;
+        transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+      }
+      .file-upload:hover .file-upload-cta,
+      .file-upload.is-dragover .file-upload-cta {
+        color: #fff;
+        border-color: transparent;
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      }
+      .file-input {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .field-note {
+        margin-top: 0.5rem;
+        font-size: 0.82rem;
+        color: var(--muted);
+      }
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        margin-top: 0.6rem;
+        padding: 0.35rem 0.65rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        border: 1px solid rgba(16, 185, 129, 0.35);
+        color: var(--ink);
+        background: rgba(16, 185, 129, 0.12);
+      }
+      .status-pill.error {
+        border-color: rgba(239, 68, 68, 0.4);
+        background: rgba(239, 68, 68, 0.12);
+      }
+      .status-pill .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 999px;
+        background: #10b981;
+      }
+      .status-pill.error .dot {
+        background: #ef4444;
+      }
       .options-toggle {
         margin-top: 1.25rem;
         border-radius: 12px;
         border: 1px dashed var(--border);
         padding: 0.9rem 1rem;
-        background: rgba(255, 255, 255, 0.4);
+        background: var(--card-bg);
       }
       .options-toggle summary {
         cursor: pointer;
@@ -243,7 +360,7 @@
       .output-body {
         border-radius: 14px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.5);
+        background: var(--input-bg);
         padding: 1.2rem;
       }
       .output-text {
@@ -280,7 +397,7 @@
       .history-item {
         border-radius: 12px;
         border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.5);
+        background: var(--input-bg);
         padding: 0.85rem 1rem;
         text-align: left;
         cursor: pointer;
@@ -292,7 +409,7 @@
       .history-item:hover {
         transform: translateY(-2px);
         border-color: var(--accent);
-        box-shadow: 0 12px 28px rgba(14, 165, 233, 0.12);
+        box-shadow: var(--panel-shadow-bold), var(--panel-glow);
       }
       .history-item.active {
         border-color: var(--accent);
@@ -319,9 +436,25 @@
         font-size: 0.85rem;
         margin-top: 1.5rem;
       }
+      .theme-dark .cover-letter-shell {
+        --panel-shadow-soft: 0 12px 32px rgba(0, 0, 0, 0.35);
+        --panel-shadow-bold: 0 24px 64px rgba(0, 0, 0, 0.55);
+        --panel-glow: 0 0 0 1px rgba(56, 189, 248, 0.22);
+      }
       @media (max-width: 640px) {
         .cover-letter-shell {
           padding: 2rem 1rem 3rem;
+        }
+        .file-upload {
+          grid-template-columns: 1fr;
+          align-items: flex-start;
+        }
+        .file-upload-icon {
+          width: 34px;
+          height: 34px;
+        }
+        .file-upload-cta {
+          justify-self: flex-start;
         }
         .action-row .btn {
           width: 100%;
@@ -400,8 +533,36 @@
                 </div>
               </div>
               <div class="form-footer">
-                <span>Minimum 80 characters. The more detail, the better.</span>
+                <span id="jobPostStatus" aria-live="polite">Minimum 80 characters. The more detail, the better.</span>
                 <span><span id="charCount">0</span> / 8000</span>
+              </div>
+
+              <div class="field-block" id="resumeBlock">
+                <label class="file-upload">
+                  <span class="file-upload-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+                      <path fill="currentColor" d="M12 3l4 4h-3v6h-2V7H8l4-4zm-6 8h2v6h8v-6h2v8H6v-8z"/>
+                    </svg>
+                  </span>
+                  <span class="file-upload-text">
+                    <span class="file-upload-title">Upload resume (PDF, optional)</span>
+                    <span class="file-upload-name" id="resumeFileName">No file selected</span>
+                  </span>
+                  <span class="file-upload-cta">Upload PDF</span>
+                  <input
+                    id="resumeFile"
+                    name="resumeFile"
+                    type="file"
+                    accept="application/pdf"
+                    class="file-input"
+                    aria-describedby="resumeFileName resumeStatusText"
+                  />
+                </label>
+                <div class="status-pill is-hidden" id="resumeStatus" role="status" aria-live="polite">
+                  <span class="dot" aria-hidden="true"></span>
+                  <span id="resumeStatusText">Resume loaded and will be used for personalization</span>
+                </div>
+                <p class="field-note">Resume text is processed locally and never stored.</p>
               </div>
 
               <details class="options-toggle" id="optionalDetails">
@@ -451,6 +612,8 @@
             </div>
             <div class="action-row output-actions">
               <button class="btn ghost" type="button" id="copyBtn">Copy to clipboard</button>
+              <button class="btn ghost" type="button" id="shorterBtn">Make it shorter</button>
+              <button class="btn ghost" type="button" id="confidentBtn">Make it more confident</button>
               <button class="btn ghost" type="button" id="regenerateBtn">Regenerate</button>
               <button class="btn ghost" type="button" id="downloadPdfBtn">Download PDF</button>
               <button class="btn ghost" type="button" id="downloadDocxBtn">Download DOCX</button>
@@ -466,7 +629,7 @@
           </div>
         </div>
 
-        <p class="disclaimer">No data is stored. Your input is only used to generate the cover letter.</p>
+        <p class="disclaimer">Privacy-first. No data is stored. Input is only used to generate the letter.</p>
       </section>
     </main>
 
@@ -483,6 +646,7 @@
     </footer>
 
     <script src="/assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" referrerpolicy="no-referrer"></script>
     <script>
       const API_ENDPOINT = "https://mraselm.raselmia-uiu.workers.dev";
       const MIN_CHARS = 80;
@@ -493,16 +657,23 @@
       const jobPostBlock = document.getElementById("jobPostBlock");
       const jobPostTip = document.getElementById("jobPostTip");
       const jobPostTipText = document.getElementById("jobPostTipText");
+      const jobPostStatus = document.getElementById("jobPostStatus");
       const companyEl = document.getElementById("company");
       const roleEl = document.getElementById("role");
       const toneEl = document.getElementById("tone");
       const wordLimitEl = document.getElementById("wordLimit");
       const charCountEl = document.getElementById("charCount");
+      const resumeFileEl = document.getElementById("resumeFile");
+      const resumeStatus = document.getElementById("resumeStatus");
+      const resumeStatusText = document.getElementById("resumeStatusText");
+      const resumeFileName = document.getElementById("resumeFileName");
       const errorEl = document.getElementById("formError");
       const generateBtn = document.getElementById("generateBtn");
       const outputCard = document.getElementById("outputCard");
       const outputText = document.getElementById("outputText");
       const copyBtn = document.getElementById("copyBtn");
+      const shorterBtn = document.getElementById("shorterBtn");
+      const confidentBtn = document.getElementById("confidentBtn");
       const regenerateBtn = document.getElementById("regenerateBtn");
       const downloadPdfBtn = document.getElementById("downloadPdfBtn");
       const downloadDocxBtn = document.getElementById("downloadDocxBtn");
@@ -515,6 +686,15 @@
       let activeHistoryId = null;
       let loadingTimer = null;
       const loadingStages = ["Analyzing job requirements...", "Writing cover letter..."];
+      let resumeText = "";
+      const PDF_WORKER_SRC = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+      const resumeDropZone = resumeFileEl ? resumeFileEl.closest(".file-upload") : null;
+      let dragDepth = 0;
+      let resumeNameBeforeDrag = resumeFileName ? resumeFileName.textContent : "No file selected";
+
+      if (window.pdfjsLib && window.pdfjsLib.GlobalWorkerOptions) {
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = PDF_WORKER_SRC;
+      }
 
       const sanitize = (value) => value.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 
@@ -526,6 +706,112 @@
       const clearError = () => {
         errorEl.textContent = "";
         errorEl.classList.add("is-hidden");
+      };
+
+      const setResumeFileName = (name) => {
+        if (!resumeFileName) return;
+        resumeFileName.textContent = name || "No file selected";
+        resumeNameBeforeDrag = resumeFileName.textContent;
+      };
+
+      const setResumeStatus = (message, state = "success") => {
+        if (!resumeStatus || !resumeStatusText) return;
+        resumeStatusText.textContent = message;
+        resumeStatus.classList.remove("is-hidden");
+        resumeStatus.classList.toggle("error", state === "error");
+      };
+
+      const clearResumeStatus = () => {
+        if (!resumeStatus || !resumeStatusText) return;
+        resumeStatusText.textContent = "";
+        resumeStatus.classList.add("is-hidden");
+        resumeStatus.classList.remove("error");
+      };
+
+      const normalizeResumeText = (text) => text.replace(/\s+/g, " ").trim();
+
+      const setDropZoneActive = (active) => {
+        if (!resumeDropZone) return;
+        resumeDropZone.classList.toggle("is-dragover", active);
+      };
+
+      const setDropZoneHint = (active) => {
+        if (!resumeFileName) return;
+        if (active) {
+          resumeNameBeforeDrag = resumeFileName.textContent;
+          resumeFileName.textContent = "Drop PDF to upload";
+          return;
+        }
+        if (resumeFileName.textContent === "Drop PDF to upload") {
+          resumeFileName.textContent = resumeNameBeforeDrag || "No file selected";
+        }
+      };
+
+      const syncResumeToPayload = () => {
+        if (!lastPayload) return;
+        if (resumeText) {
+          lastPayload = { ...lastPayload, resumeText };
+          return;
+        }
+        if ("resumeText" in lastPayload) {
+          const { resumeText: _unused, ...rest } = lastPayload;
+          lastPayload = rest;
+        }
+      };
+
+      const extractPdfText = async (file) => {
+        if (!window.pdfjsLib || !window.pdfjsLib.getDocument) {
+          throw new Error("PDF reader failed to load. Please refresh and try again.");
+        }
+        const arrayBuffer = await file.arrayBuffer();
+        const pdf = await window.pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+        const pages = [];
+        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum += 1) {
+          const page = await pdf.getPage(pageNum);
+          const textContent = await page.getTextContent();
+          const pageText = textContent.items.map((item) => item.str).join(" ");
+          const cleaned = normalizeResumeText(pageText);
+          if (cleaned) pages.push(cleaned);
+        }
+        return pages.join("\n\n").trim();
+      };
+
+      const handleResumeFile = async (file) => {
+        resumeText = "";
+        syncResumeToPayload();
+
+        if (!file) {
+          clearResumeStatus();
+          setResumeFileName("No file selected");
+          return;
+        }
+
+        setResumeFileName(file.name);
+        const isPdf = file.type === "application/pdf" || file.name.toLowerCase().endsWith(".pdf");
+        if (!isPdf) {
+          resumeFileEl.value = "";
+          setResumeFileName("No file selected");
+          setResumeStatus("Please upload a PDF file.", "error");
+          return;
+        }
+
+        setResumeStatus("Reading resume...");
+        try {
+          const extractedText = await extractPdfText(file);
+          if (!extractedText) {
+            resumeText = "";
+            setResumeStatus("No readable text found in this PDF.", "error");
+            syncResumeToPayload();
+            return;
+          }
+          resumeText = extractedText;
+          setResumeStatus("Resume loaded and will be used for personalization");
+          syncResumeToPayload();
+        } catch (error) {
+          resumeText = "";
+          setResumeStatus(error.message || "Unable to read the PDF. Please try another file.", "error");
+          syncResumeToPayload();
+        }
       };
 
       const showFieldTip = (message) => {
@@ -563,6 +849,8 @@
       const updateOutputActions = () => {
         const hasOutput = outputText.textContent.trim().length > 0;
         copyBtn.disabled = !hasOutput;
+        shorterBtn.disabled = !hasOutput;
+        confidentBtn.disabled = !hasOutput;
         regenerateBtn.disabled = !hasOutput;
         downloadPdfBtn.disabled = !hasOutput;
         downloadDocxBtn.disabled = !hasOutput;
@@ -571,16 +859,34 @@
       const updateCharCount = () => {
         const count = jobPostEl.value.trim().length;
         charCountEl.textContent = count.toString();
+        if (!jobPostStatus) return;
+        if (!count) {
+          jobPostStatus.textContent = "Minimum 80 characters. The more detail, the better.";
+          return;
+        }
+        if (count < MIN_CHARS) {
+          jobPostStatus.textContent = `Add ${MIN_CHARS - count} more characters to generate a letter.`;
+          return;
+        }
+        if (count > MAX_CHARS) {
+          jobPostStatus.textContent = `Over the limit by ${count - MAX_CHARS} characters. Please shorten it.`;
+          return;
+        }
+        jobPostStatus.textContent = "Looks good. Keep it specific to the role.";
       };
 
-      const buildPayload = () => {
-        return {
+      const buildPayload = (overrides = {}) => {
+        const payload = {
           jobPost: sanitize(jobPostEl.value),
           company: companyEl.value.trim(),
           role: roleEl.value.trim(),
           tone: toneEl.value,
           wordLimit: Number(wordLimitEl.value) || 220
         };
+        if (resumeText) {
+          payload.resumeText = resumeText;
+        }
+        return { ...payload, ...overrides };
       };
 
       const formatTime = (date) => {
@@ -935,6 +1241,8 @@
       const generateCoverLetter = async (payload, shouldScroll) => {
         setLoading(true);
         copyBtn.disabled = true;
+        shorterBtn.disabled = true;
+        confidentBtn.disabled = true;
         regenerateBtn.disabled = true;
         downloadPdfBtn.disabled = true;
         downloadDocxBtn.disabled = true;
@@ -974,6 +1282,64 @@
         }
       };
 
+      const requestVariant = (overrides = {}, shouldScroll = false) => {
+        if (!lastPayload) {
+          setError("Generate a letter first, then adjust it.");
+          return;
+        }
+        const nextPayload = { ...lastPayload, ...overrides };
+        if (resumeText) {
+          nextPayload.resumeText = resumeText;
+        } else if ("resumeText" in nextPayload) {
+          delete nextPayload.resumeText;
+        }
+        lastPayload = nextPayload;
+        generateCoverLetter(nextPayload, shouldScroll);
+      };
+
+      if (resumeFileEl) {
+        resumeFileEl.addEventListener("change", (event) => {
+          const file = event.target.files && event.target.files[0];
+          handleResumeFile(file);
+        });
+      }
+
+      if (resumeDropZone) {
+        resumeDropZone.addEventListener("dragenter", (event) => {
+          event.preventDefault();
+          dragDepth += 1;
+          if (dragDepth === 1) {
+            setDropZoneActive(true);
+            setDropZoneHint(true);
+          }
+        });
+
+        resumeDropZone.addEventListener("dragover", (event) => {
+          event.preventDefault();
+          event.dataTransfer.dropEffect = "copy";
+        });
+
+        resumeDropZone.addEventListener("dragleave", (event) => {
+          event.preventDefault();
+          dragDepth = Math.max(0, dragDepth - 1);
+          if (dragDepth === 0) {
+            setDropZoneActive(false);
+            setDropZoneHint(false);
+          }
+        });
+
+        resumeDropZone.addEventListener("drop", (event) => {
+          event.preventDefault();
+          dragDepth = 0;
+          setDropZoneActive(false);
+          setDropZoneHint(false);
+          const file = event.dataTransfer.files && event.dataTransfer.files[0];
+          if (file) {
+            handleResumeFile(file);
+          }
+        });
+      }
+
       form.addEventListener("submit", (event) => {
         event.preventDefault();
         clearError();
@@ -1005,11 +1371,28 @@
       });
 
       regenerateBtn.addEventListener("click", () => {
+        requestVariant();
+      });
+
+      shorterBtn.addEventListener("click", () => {
         if (!lastPayload) {
-          setError("Generate a letter first, then regenerate.");
+          setError("Generate a letter first, then adjust it.");
           return;
         }
-        generateCoverLetter(lastPayload, false);
+        const currentLimit = Number(lastPayload.wordLimit) || 220;
+        const nextLimit = Math.max(160, Math.round((currentLimit - 40) / 10) * 10);
+        wordLimitEl.value = nextLimit;
+        requestVariant({ wordLimit: nextLimit });
+      });
+
+      confidentBtn.addEventListener("click", () => {
+        if (!lastPayload) {
+          setError("Generate a letter first, then adjust it.");
+          return;
+        }
+        const confidentTone = "confident, concise, human";
+        toneEl.value = confidentTone;
+        requestVariant({ tone: confidentTone });
       });
 
       copyBtn.addEventListener("click", async () => {
