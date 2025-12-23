@@ -1,0 +1,1078 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S86VJ0K0L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-1S86VJ0K0L');
+    </script>
+    <title>Cover Letter AI | Rasel Mia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Generate a tailored cover letter from any job description. Fast, focused, and built for busy hiring cycles." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://raselmia.live/cover-letter/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cover Letter AI | Rasel Mia" />
+    <meta property="og:description" content="Paste a job description and generate a tailored cover letter in seconds." />
+    <meta property="og:url" content="https://raselmia.live/cover-letter/" />
+    <meta property="og:image" content="https://raselmia.live/images/portfolio_preview.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cover Letter AI | Rasel Mia" />
+    <meta name="twitter:description" content="Paste a job description and generate a tailored cover letter in seconds." />
+    <meta name="twitter:image" content="https://raselmia.live/images/portfolio_preview.jpeg" />
+    <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <style>
+      .cover-letter-shell {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 2.5rem 1.5rem 4rem;
+      }
+      .cover-letter-hero {
+        text-align: center;
+        margin-bottom: 2.5rem;
+      }
+      .cover-letter-hero .eyebrow {
+        color: var(--accent);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 0.8rem;
+        margin-bottom: 0.75rem;
+      }
+      .cover-letter-hero h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        margin-bottom: 0.75rem;
+      }
+      .cover-letter-hero p {
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.7;
+      }
+      .chat-panel {
+        display: grid;
+        gap: 1.5rem;
+      }
+      .chat-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 1.5rem;
+        box-shadow: var(--shadow);
+      }
+      .chat-card.user-card {
+        border-left: 4px solid var(--accent);
+      }
+      .chat-card.assistant-card {
+        border-left: 4px solid var(--accent-2);
+      }
+      .chat-meta {
+        display: flex;
+        gap: 0.9rem;
+        align-items: center;
+        margin-bottom: 1.2rem;
+      }
+      .chat-avatar {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 0.9rem;
+        color: #fff;
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      }
+      .chat-avatar.assistant {
+        background: linear-gradient(135deg, var(--accent-2), var(--accent-strong));
+      }
+      .chat-meta h2 {
+        font-size: 1.1rem;
+        margin: 0;
+      }
+      .chat-tag {
+        margin: 0.2rem 0 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      .cover-letter-form label {
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--ink);
+      }
+      .cover-letter-form textarea,
+      .cover-letter-form input,
+      .cover-letter-form select {
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 0.8rem 0.9rem;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: var(--input-bg);
+        color: var(--ink);
+        font-size: 0.95rem;
+        font-family: inherit;
+      }
+      .cover-letter-form textarea {
+        min-height: 220px;
+        resize: vertical;
+      }
+      .cover-letter-form textarea.is-invalid {
+        border-color: rgba(239, 68, 68, 0.7);
+        box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.12);
+      }
+      .field-block {
+        position: relative;
+      }
+      .field-block.show-tooltip {
+        padding-bottom: 2.6rem;
+      }
+      .field-tooltip {
+        position: absolute;
+        left: 1rem;
+        bottom: 0.5rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.45rem 0.75rem;
+        border-radius: 12px;
+        background: var(--card-bg);
+        border: 1px solid rgba(239, 68, 68, 0.35);
+        color: var(--ink);
+        font-size: 0.85rem;
+        box-shadow: 0 12px 28px rgba(14, 23, 42, 0.12);
+        z-index: 2;
+      }
+      .field-tooltip::after {
+        content: "";
+        position: absolute;
+        top: -6px;
+        left: 18px;
+        width: 10px;
+        height: 10px;
+        background: var(--card-bg);
+        border-left: 1px solid rgba(239, 68, 68, 0.35);
+        border-top: 1px solid rgba(239, 68, 68, 0.35);
+        transform: rotate(45deg);
+      }
+      .field-tooltip .tip-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: #ef4444;
+        box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15);
+      }
+      .form-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .options-toggle {
+        margin-top: 1.25rem;
+        border-radius: 12px;
+        border: 1px dashed var(--border);
+        padding: 0.9rem 1rem;
+        background: rgba(255, 255, 255, 0.4);
+      }
+      .options-toggle summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--ink);
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+      .options-toggle summary::-webkit-details-marker {
+        display: none;
+      }
+      .options-toggle summary::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-right: 2px solid var(--muted);
+        border-bottom: 2px solid var(--muted);
+        transform: rotate(45deg);
+        transition: transform 0.2s ease, border-color 0.2s ease;
+      }
+      .options-toggle[open] summary::after {
+        transform: rotate(-135deg);
+      }
+      .options-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .form-error {
+        margin-top: 1rem;
+        padding: 0.85rem 1rem;
+        border-radius: 12px;
+        border: 1px solid #ef4444;
+        color: #ef4444;
+        background: rgba(239, 68, 68, 0.08);
+        font-size: 0.9rem;
+      }
+      .action-row {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 1.25rem;
+      }
+      .action-row .btn {
+        min-width: 190px;
+      }
+      .action-row.output-actions .btn {
+        min-width: 160px;
+      }
+      .action-row .btn[disabled] {
+        opacity: 0.65;
+        cursor: not-allowed;
+      }
+      .output-body {
+        border-radius: 14px;
+        border: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.5);
+        padding: 1.2rem;
+      }
+      .output-text {
+        white-space: pre-wrap;
+        color: var(--ink);
+        font-size: 1rem;
+        line-height: 1.7;
+      }
+      .history-panel {
+        margin-top: 1.5rem;
+        border-top: 1px solid var(--border);
+        padding-top: 1.25rem;
+      }
+      .history-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0.85rem;
+      }
+      .history-header h3 {
+        margin: 0;
+        font-size: 1rem;
+        color: var(--ink);
+      }
+      .history-hint {
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .history-list {
+        display: grid;
+        gap: 0.75rem;
+      }
+      .history-item {
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.5);
+        padding: 0.85rem 1rem;
+        text-align: left;
+        cursor: pointer;
+        width: 100%;
+        font-family: inherit;
+        appearance: none;
+        transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+      .history-item:hover {
+        transform: translateY(-2px);
+        border-color: var(--accent);
+        box-shadow: 0 12px 28px rgba(14, 165, 233, 0.12);
+      }
+      .history-item.active {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 1px var(--accent);
+      }
+      .history-title {
+        font-size: 0.8rem;
+        color: var(--muted);
+        margin-bottom: 0.4rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      .history-snippet {
+        font-size: 0.95rem;
+        color: var(--ink);
+        line-height: 1.6;
+      }
+      .is-hidden {
+        display: none;
+      }
+      .disclaimer {
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.85rem;
+        margin-top: 1.5rem;
+      }
+      @media (max-width: 640px) {
+        .cover-letter-shell {
+          padding: 2rem 1rem 3rem;
+        }
+        .action-row .btn {
+          width: 100%;
+        }
+        .form-footer {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.35rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="page-shell">
+    <div class="surface-glow"></div>
+
+    <header class="site-header">
+      <div class="container inner">
+        <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+        <nav class="nav-links">
+          <a href="/home/#projects">Projects</a>
+          <a href="/home/#skills">Toolbox</a>
+          <a href="/home/#contact">Contact</a>
+          <a href="/datastory/">Data Story</a>
+          <a href="/cover-letter/">Cover Letter AI</a>
+          <a href="/resume/">Resume</a>
+        </nav>
+        <div class="header-actions">
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+            <a href="https://github.com/mraselm" class="icon fab fa-github" aria-label="GitHub" target="_blank"></a>
+          </div>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-track">
+              <span class="theme-icon sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+              <span class="theme-icon moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+              <span class="theme-knob"></span>
+            </span>
+          </button>
+          <button class="nav-toggle" type="button" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="cover-letter-shell">
+        <header class="cover-letter-hero">
+          <p class="eyebrow">AI Toolkit</p>
+          <h1>Cover Letter AI</h1>
+          <p>Paste a full job description and generate a tailored cover letter in seconds. Clear, specific, and ready to send.</p>
+        </header>
+
+        <div class="chat-panel">
+          <div class="chat-card user-card">
+            <div class="chat-meta">
+              <span class="chat-avatar">You</span>
+              <div>
+                <h2>Job description</h2>
+                <p class="chat-tag">Paste the full job posting so the letter stays specific.</p>
+              </div>
+            </div>
+
+            <form id="cover-letter-form" class="cover-letter-form" novalidate>
+              <div class="field-block" id="jobPostBlock">
+                <label for="jobPost">Job description</label>
+                <textarea
+                  id="jobPost"
+                  name="jobPost"
+                  placeholder="Paste the entire job description here. Include responsibilities, requirements, and company info if available."
+                ></textarea>
+                <div class="field-tooltip is-hidden" id="jobPostTip" role="alert">
+                  <span class="tip-dot" aria-hidden="true"></span>
+                  <span id="jobPostTipText">Please fill out this field.</span>
+                </div>
+              </div>
+              <div class="form-footer">
+                <span>Minimum 80 characters. The more detail, the better.</span>
+                <span><span id="charCount">0</span> / 8000</span>
+              </div>
+
+              <details class="options-toggle" id="optionalDetails">
+                <summary>Optional details</summary>
+                <div class="options-grid">
+                  <div class="field">
+                    <label for="company">Company name (optional)</label>
+                    <input id="company" name="company" type="text" placeholder="e.g., Novo Nordisk" />
+                  </div>
+                  <div class="field">
+                    <label for="role">Role title (optional)</label>
+                    <input id="role" name="role" type="text" placeholder="e.g., Data Analyst" />
+                  </div>
+                  <div class="field">
+                    <label for="tone">Tone</label>
+                    <select id="tone" name="tone">
+                      <option value="professional, clear, human" selected>Professional</option>
+                      <option value="confident, concise, human">Confident</option>
+                      <option value="friendly, warm, human">Friendly</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="wordLimit">Word limit</label>
+                    <input id="wordLimit" name="wordLimit" type="number" min="160" max="350" step="10" value="220" />
+                  </div>
+                </div>
+              </details>
+
+              <div id="formError" class="form-error is-hidden" role="alert"></div>
+
+              <div class="action-row">
+                <button class="btn primary" type="submit" id="generateBtn">Generate Cover Letter</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="chat-card assistant-card is-hidden" id="outputCard">
+            <div class="chat-meta">
+              <span class="chat-avatar assistant">AI</span>
+              <div>
+                <h2>Generated cover letter</h2>
+                <p class="chat-tag">Tailored to the job description you provided.</p>
+              </div>
+            </div>
+            <div class="output-body">
+              <div id="outputText" class="output-text" aria-live="polite"></div>
+            </div>
+            <div class="action-row output-actions">
+              <button class="btn ghost" type="button" id="copyBtn">Copy to clipboard</button>
+              <button class="btn ghost" type="button" id="regenerateBtn">Regenerate</button>
+              <button class="btn ghost" type="button" id="downloadPdfBtn">Download PDF</button>
+              <button class="btn ghost" type="button" id="downloadDocxBtn">Download DOCX</button>
+            </div>
+
+            <div class="history-panel is-hidden" id="historyPanel">
+              <div class="history-header">
+                <h3>Version history</h3>
+                <p class="history-hint">Last 3 generations</p>
+              </div>
+              <div class="history-list" id="historyList"></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="disclaimer">No data is stored. Your input is only used to generate the cover letter.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container meta">
+        <div>
+          <div>&copy; MD Rasel Mia 2025 - All Rights Reserved</div>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank"></a>
+          <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script>
+      const API_ENDPOINT = "https://mraselm.raselmia-uiu.workers.dev";
+      const MIN_CHARS = 80;
+      const MAX_CHARS = 8000;
+
+      const form = document.getElementById("cover-letter-form");
+      const jobPostEl = document.getElementById("jobPost");
+      const jobPostBlock = document.getElementById("jobPostBlock");
+      const jobPostTip = document.getElementById("jobPostTip");
+      const jobPostTipText = document.getElementById("jobPostTipText");
+      const companyEl = document.getElementById("company");
+      const roleEl = document.getElementById("role");
+      const toneEl = document.getElementById("tone");
+      const wordLimitEl = document.getElementById("wordLimit");
+      const charCountEl = document.getElementById("charCount");
+      const errorEl = document.getElementById("formError");
+      const generateBtn = document.getElementById("generateBtn");
+      const outputCard = document.getElementById("outputCard");
+      const outputText = document.getElementById("outputText");
+      const copyBtn = document.getElementById("copyBtn");
+      const regenerateBtn = document.getElementById("regenerateBtn");
+      const downloadPdfBtn = document.getElementById("downloadPdfBtn");
+      const downloadDocxBtn = document.getElementById("downloadDocxBtn");
+      const historyPanel = document.getElementById("historyPanel");
+      const historyList = document.getElementById("historyList");
+
+      let lastPayload = null;
+      const defaultBtnText = generateBtn.textContent;
+      let history = [];
+      let activeHistoryId = null;
+      let loadingTimer = null;
+      const loadingStages = ["Analyzing job requirements...", "Writing cover letter..."];
+
+      const sanitize = (value) => value.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+
+      const setError = (message) => {
+        errorEl.textContent = message;
+        errorEl.classList.remove("is-hidden");
+      };
+
+      const clearError = () => {
+        errorEl.textContent = "";
+        errorEl.classList.add("is-hidden");
+      };
+
+      const showFieldTip = (message) => {
+        if (!jobPostTip || !jobPostTipText || !jobPostBlock) return;
+        jobPostTipText.textContent = message;
+        jobPostTip.classList.remove("is-hidden");
+        jobPostBlock.classList.add("show-tooltip");
+        jobPostEl.classList.add("is-invalid");
+        jobPostEl.setAttribute("aria-invalid", "true");
+        jobPostEl.setAttribute("aria-describedby", "jobPostTipText");
+      };
+
+      const clearFieldTip = () => {
+        if (!jobPostTip || !jobPostBlock) return;
+        jobPostTip.classList.add("is-hidden");
+        jobPostBlock.classList.remove("show-tooltip");
+        jobPostEl.classList.remove("is-invalid");
+        jobPostEl.removeAttribute("aria-invalid");
+        jobPostEl.removeAttribute("aria-describedby");
+      };
+
+      const setLoading = (loading) => {
+        clearTimeout(loadingTimer);
+        generateBtn.disabled = loading;
+        if (!loading) {
+          generateBtn.textContent = defaultBtnText;
+          return;
+        }
+        generateBtn.textContent = loadingStages[0];
+        loadingTimer = setTimeout(() => {
+          generateBtn.textContent = loadingStages[1];
+        }, 900);
+      };
+
+      const updateOutputActions = () => {
+        const hasOutput = outputText.textContent.trim().length > 0;
+        copyBtn.disabled = !hasOutput;
+        regenerateBtn.disabled = !hasOutput;
+        downloadPdfBtn.disabled = !hasOutput;
+        downloadDocxBtn.disabled = !hasOutput;
+      };
+
+      const updateCharCount = () => {
+        const count = jobPostEl.value.trim().length;
+        charCountEl.textContent = count.toString();
+      };
+
+      const buildPayload = () => {
+        return {
+          jobPost: sanitize(jobPostEl.value),
+          company: companyEl.value.trim(),
+          role: roleEl.value.trim(),
+          tone: toneEl.value,
+          wordLimit: Number(wordLimitEl.value) || 220
+        };
+      };
+
+      const formatTime = (date) => {
+        return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+      };
+
+      const toSnippet = (text) => {
+        const cleaned = text.replace(/\s+/g, " ").trim();
+        if (cleaned.length <= 160) return cleaned;
+        return `${cleaned.slice(0, 160)}...`;
+      };
+
+      const renderHistory = () => {
+        if (!history.length) {
+          historyPanel.classList.add("is-hidden");
+          historyList.innerHTML = "";
+          return;
+        }
+        historyPanel.classList.remove("is-hidden");
+        historyList.innerHTML = "";
+
+        history.forEach((entry, index) => {
+          const item = document.createElement("button");
+          item.type = "button";
+          item.className = "history-item";
+          if (entry.id === activeHistoryId) item.classList.add("active");
+          item.setAttribute("aria-pressed", entry.id === activeHistoryId ? "true" : "false");
+
+          const title = document.createElement("div");
+          title.className = "history-title";
+          title.textContent = `Version ${index + 1} - ${formatTime(entry.createdAt)}`;
+
+          const snippet = document.createElement("div");
+          snippet.className = "history-snippet";
+          snippet.textContent = toSnippet(entry.text);
+
+          item.append(title, snippet);
+          item.addEventListener("click", () => {
+            outputText.textContent = entry.text;
+            activeHistoryId = entry.id;
+            updateOutputActions();
+            renderHistory();
+          });
+
+          historyList.appendChild(item);
+        });
+      };
+
+      const addToHistory = (text) => {
+        const cleaned = text.trim();
+        if (!cleaned) return;
+        if (history.length && history[0].text === cleaned) {
+          activeHistoryId = history[0].id;
+          renderHistory();
+          return;
+        }
+        const entry = {
+          id: Date.now(),
+          text: cleaned,
+          createdAt: new Date()
+        };
+        history = [entry, ...history].slice(0, 3);
+        activeHistoryId = entry.id;
+        renderHistory();
+      };
+
+      const downloadFile = (blob, filename) => {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        URL.revokeObjectURL(url);
+      };
+
+      const wrapLine = (line, maxChars) => {
+        const words = line.split(/\s+/).filter(Boolean);
+        const wrapped = [];
+        let current = "";
+        words.forEach((word) => {
+          if (!current.length) {
+            current = word;
+            return;
+          }
+          if ((current + " " + word).length > maxChars) {
+            wrapped.push(current);
+            current = word;
+          } else {
+            current = `${current} ${word}`;
+          }
+        });
+        if (current.length) wrapped.push(current);
+        if (!wrapped.length) wrapped.push("");
+        return wrapped;
+      };
+
+      const wrapText = (text, maxChars) => {
+        return text
+          .split(/\r?\n/)
+          .flatMap((line) => (line.trim() ? wrapLine(line, maxChars) : [""]));
+      };
+
+      const escapePdfText = (text) => {
+        return text
+          .replace(/\\/g, "\\\\")
+          .replace(/\(/g, "\\(")
+          .replace(/\)/g, "\\)")
+          .replace(/[^\x20-\x7E]/g, "?");
+      };
+
+      const createPdfBlob = (text) => {
+        const maxChars = 90;
+        const lineHeight = 16;
+        const pageHeight = 792;
+        const marginTop = 72;
+        const marginBottom = 72;
+        const linesPerPage = Math.floor((pageHeight - marginTop - marginBottom) / lineHeight);
+        const lines = wrapText(text, maxChars);
+        const pages = [];
+
+        for (let i = 0; i < lines.length; i += linesPerPage) {
+          pages.push(lines.slice(i, i + linesPerPage));
+        }
+
+        const pageCount = pages.length || 1;
+        const catalogNum = 1;
+        const pagesNum = 2;
+        const firstPageNum = 3;
+        const firstContentNum = firstPageNum + pageCount;
+        const fontNum = firstContentNum + pageCount;
+
+        const objects = [];
+        objects.push(`${catalogNum} 0 obj << /Type /Catalog /Pages ${pagesNum} 0 R >> endobj`);
+        const pageRefs = Array.from({ length: pageCount }, (_, i) => `${firstPageNum + i} 0 R`).join(" ");
+        objects.push(`${pagesNum} 0 obj << /Type /Pages /Kids [${pageRefs}] /Count ${pageCount} >> endobj`);
+
+        pages.forEach((pageLines, idx) => {
+          const pageNum = firstPageNum + idx;
+          const contentNum = firstContentNum + idx;
+          objects.push(
+            `${pageNum} 0 obj << /Type /Page /Parent ${pagesNum} 0 R /MediaBox [0 0 612 792] /Contents ${contentNum} 0 R /Resources << /Font << /F1 ${fontNum} 0 R >> >> >> endobj`
+          );
+
+          const content = [];
+          content.push("BT");
+          content.push("/F1 12 Tf");
+          content.push(`72 ${pageHeight - marginTop} Td`);
+          pageLines.forEach((line) => {
+            content.push(`(${escapePdfText(line)}) Tj`);
+            content.push(`0 -${lineHeight} Td`);
+          });
+          content.push("ET");
+          const contentStream = content.join("\n");
+          objects.push(`${contentNum} 0 obj << /Length ${contentStream.length} >> stream\n${contentStream}\nendstream endobj`);
+        });
+
+        objects.push(`${fontNum} 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj`);
+
+        let pdf = "%PDF-1.4\n";
+        const offsets = [0];
+        objects.forEach((obj) => {
+          offsets.push(pdf.length);
+          pdf += `${obj}\n`;
+        });
+
+        const xrefOffset = pdf.length;
+        pdf += `xref\n0 ${offsets.length}\n`;
+        pdf += "0000000000 65535 f \n";
+        offsets.slice(1).forEach((offset) => {
+          pdf += `${String(offset).padStart(10, "0")} 00000 n \n`;
+        });
+        pdf += `trailer << /Size ${offsets.length} /Root ${catalogNum} 0 R >>\nstartxref\n${xrefOffset}\n%%EOF`;
+
+        return new Blob([pdf], { type: "application/pdf" });
+      };
+
+      const escapeXml = (value) => {
+        return value
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&apos;");
+      };
+
+      const buildDocxXml = (text) => {
+        const lines = text.split(/\r?\n/);
+        const paragraphs = lines
+          .map((line) => {
+            if (!line.trim()) return "<w:p/>";
+            return `<w:p><w:r><w:t xml:space="preserve">${escapeXml(line)}</w:t></w:r></w:p>`;
+          })
+          .join("");
+
+        return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n` +
+          `<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">` +
+          `<w:body>${paragraphs}` +
+          `<w:sectPr><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440"/></w:sectPr>` +
+          `</w:body></w:document>`;
+      };
+
+      const createZip = (files) => {
+        const encoder = new TextEncoder();
+        const crcTable = (() => {
+          const table = new Uint32Array(256);
+          for (let i = 0; i < 256; i += 1) {
+            let c = i;
+            for (let k = 0; k < 8; k += 1) {
+              c = (c & 1) ? (0xedb88320 ^ (c >>> 1)) : (c >>> 1);
+            }
+            table[i] = c >>> 0;
+          }
+          return table;
+        })();
+
+        const crc32 = (data) => {
+          let crc = 0xffffffff;
+          data.forEach((byte) => {
+            crc = crcTable[(crc ^ byte) & 0xff] ^ (crc >>> 8);
+          });
+          return (crc ^ 0xffffffff) >>> 0;
+        };
+
+        const getDosTimeDate = () => {
+          const now = new Date();
+          const time =
+            (now.getHours() << 11) |
+            (now.getMinutes() << 5) |
+            Math.floor(now.getSeconds() / 2);
+          const date =
+            ((now.getFullYear() - 1980) << 9) |
+            ((now.getMonth() + 1) << 5) |
+            now.getDate();
+          return { time, date };
+        };
+
+        const { time, date } = getDosTimeDate();
+        const chunks = [];
+        const centralDirectory = [];
+        let offset = 0;
+
+        files.forEach((file) => {
+          const nameBytes = encoder.encode(file.name);
+          const data = file.data;
+          const crc = crc32(data);
+          const localHeader = new Uint8Array(30 + nameBytes.length);
+          const view = new DataView(localHeader.buffer);
+
+          view.setUint32(0, 0x04034b50, true);
+          view.setUint16(4, 20, true);
+          view.setUint16(6, 0, true);
+          view.setUint16(8, 0, true);
+          view.setUint16(10, time, true);
+          view.setUint16(12, date, true);
+          view.setUint32(14, crc, true);
+          view.setUint32(18, data.length, true);
+          view.setUint32(22, data.length, true);
+          view.setUint16(26, nameBytes.length, true);
+          view.setUint16(28, 0, true);
+          localHeader.set(nameBytes, 30);
+
+          chunks.push(localHeader, data);
+
+          const centralHeader = new Uint8Array(46 + nameBytes.length);
+          const cview = new DataView(centralHeader.buffer);
+          cview.setUint32(0, 0x02014b50, true);
+          cview.setUint16(4, 20, true);
+          cview.setUint16(6, 20, true);
+          cview.setUint16(8, 0, true);
+          cview.setUint16(10, 0, true);
+          cview.setUint16(12, time, true);
+          cview.setUint16(14, date, true);
+          cview.setUint32(16, crc, true);
+          cview.setUint32(20, data.length, true);
+          cview.setUint32(24, data.length, true);
+          cview.setUint16(28, nameBytes.length, true);
+          cview.setUint16(30, 0, true);
+          cview.setUint16(32, 0, true);
+          cview.setUint16(34, 0, true);
+          cview.setUint16(36, 0, true);
+          cview.setUint32(38, 0, true);
+          cview.setUint32(42, offset, true);
+          centralHeader.set(nameBytes, 46);
+          centralDirectory.push(centralHeader);
+
+          offset += localHeader.length + data.length;
+        });
+
+        const centralDirectorySize = centralDirectory.reduce((sum, part) => sum + part.length, 0);
+        const centralDirectoryOffset = offset;
+        chunks.push(...centralDirectory);
+
+        const endRecord = new Uint8Array(22);
+        const endView = new DataView(endRecord.buffer);
+        endView.setUint32(0, 0x06054b50, true);
+        endView.setUint16(4, 0, true);
+        endView.setUint16(6, 0, true);
+        endView.setUint16(8, files.length, true);
+        endView.setUint16(10, files.length, true);
+        endView.setUint32(12, centralDirectorySize, true);
+        endView.setUint32(16, centralDirectoryOffset, true);
+        endView.setUint16(20, 0, true);
+        chunks.push(endRecord);
+
+        return new Blob(chunks, { type: "application/zip" });
+      };
+
+      const createDocxBlob = (text) => {
+        const encoder = new TextEncoder();
+        const documentXml = buildDocxXml(text);
+        const files = [
+          {
+            name: "[Content_Types].xml",
+            data: encoder.encode(
+              `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>` +
+                `<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">` +
+                `<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>` +
+                `<Default Extension="xml" ContentType="application/xml"/>` +
+                `<Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>` +
+                `</Types>`
+            )
+          },
+          {
+            name: "_rels/.rels",
+            data: encoder.encode(
+              `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>` +
+                `<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">` +
+                `<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>` +
+                `</Relationships>`
+            )
+          },
+          {
+            name: "word/document.xml",
+            data: encoder.encode(documentXml)
+          },
+          {
+            name: "word/_rels/document.xml.rels",
+            data: encoder.encode(
+              `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>` +
+                `<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"></Relationships>`
+            )
+          }
+        ];
+
+        const zipBlob = createZip(files);
+        return new Blob([zipBlob], {
+          type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        });
+      };
+      const generateCoverLetter = async (payload, shouldScroll) => {
+        setLoading(true);
+        copyBtn.disabled = true;
+        regenerateBtn.disabled = true;
+        downloadPdfBtn.disabled = true;
+        downloadDocxBtn.disabled = true;
+        clearError();
+        clearFieldTip();
+
+        try {
+          const response = await fetch(API_ENDPOINT, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+          });
+
+          const data = await response.json().catch(() => ({}));
+
+          if (!response.ok) {
+            throw new Error(data.error || "Unable to generate a cover letter right now.");
+          }
+
+          if (!data.coverLetter) {
+            throw new Error("No cover letter was returned. Please try again.");
+          }
+
+          outputText.textContent = data.coverLetter;
+          outputCard.classList.remove("is-hidden");
+          addToHistory(data.coverLetter);
+          updateOutputActions();
+
+          if (shouldScroll) {
+            outputCard.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        } catch (error) {
+          setError(error.message || "Something went wrong. Please try again.");
+          updateOutputActions();
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        clearError();
+        clearFieldTip();
+
+        const jobPost = sanitize(jobPostEl.value);
+
+        if (!jobPost.length) {
+          showFieldTip("Please fill out this field.");
+          jobPostEl.focus();
+          return;
+        }
+
+        if (jobPost.length < MIN_CHARS) {
+          showFieldTip("Please paste a longer job description (at least 80 characters).");
+          jobPostEl.focus();
+          return;
+        }
+
+        if (jobPost.length > MAX_CHARS) {
+          showFieldTip("Job description is too long. Please shorten it.");
+          jobPostEl.focus();
+          return;
+        }
+
+        const payload = buildPayload();
+        lastPayload = payload;
+        generateCoverLetter(payload, true);
+      });
+
+      regenerateBtn.addEventListener("click", () => {
+        if (!lastPayload) {
+          setError("Generate a letter first, then regenerate.");
+          return;
+        }
+        generateCoverLetter(lastPayload, false);
+      });
+
+      copyBtn.addEventListener("click", async () => {
+        if (!outputText.textContent) return;
+        const previous = copyBtn.textContent;
+        try {
+          await navigator.clipboard.writeText(outputText.textContent);
+          copyBtn.textContent = "Copied!";
+          setTimeout(() => {
+            copyBtn.textContent = previous;
+          }, 2000);
+        } catch {
+          setError("Copy failed. Please select the text and copy manually.");
+        }
+      });
+
+      downloadPdfBtn.addEventListener("click", () => {
+        const text = outputText.textContent.trim();
+        if (!text) return;
+        const blob = createPdfBlob(text);
+        downloadFile(blob, "cover-letter.pdf");
+      });
+
+      downloadDocxBtn.addEventListener("click", () => {
+        const text = outputText.textContent.trim();
+        if (!text) return;
+        const blob = createDocxBlob(text);
+        downloadFile(blob, "cover-letter.docx");
+      });
+
+      jobPostEl.addEventListener("input", () => {
+        updateCharCount();
+        if (jobPostEl.classList.contains("is-invalid")) {
+          clearFieldTip();
+        }
+      });
+      jobPostEl.addEventListener("keydown", (event) => {
+        if ((event.ctrlKey || event.metaKey) && event.key === "Enter") {
+          form.requestSubmit();
+        }
+      });
+
+      updateCharCount();
+      outputCard.classList.add("is-hidden");
+      updateOutputActions();
+      renderHistory();
+
+      const optionalDetails = document.getElementById("optionalDetails");
+      const header = document.querySelector(".site-header");
+
+      if (optionalDetails) {
+        optionalDetails.addEventListener("toggle", () => {
+          if (!optionalDetails.open) return;
+          const scrollToDetails = () => {
+            const headerOffset = header ? header.offsetHeight + 16 : 0;
+            const targetTop = optionalDetails.getBoundingClientRect().top + window.scrollY - headerOffset;
+            window.scrollTo({ top: targetTop, behavior: "smooth" });
+          };
+          requestAnimationFrame(() => {
+            setTimeout(scrollToDetails, 60);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
