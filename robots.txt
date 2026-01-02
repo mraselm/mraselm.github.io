@@ -1,0 +1,28 @@
+# Robots.txt for raselmia.live
+# Author: Rasel Mia
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://raselmia.live/sitemap.xml
+
+# Crawl-delay for politeness (optional)
+Crawl-delay: 1
+
+# Block access to internal/dev files
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /*.json$
+Disallow: /assets/data/
+
+# Block redirect-only pages (they have noindex anyway)
+Disallow: /index.html
+Disallow: /blog.html
+Disallow: /resume.html
+
+# Allow all important pages
+Allow: /home/
+Allow: /resume/
+Allow: /datastory/
+Allow: /cover-letter/

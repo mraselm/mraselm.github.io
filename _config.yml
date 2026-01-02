@@ -1,0 +1,56 @@
+# Site settings for raselmia.live
+# GitHub Pages / Jekyll configuration
+
+# Basic site info
+title: "Rasel Mia – Business Data Analyst"
+description: "Rasel Mia is a Business Data Analyst based in Denmark specializing in Python, R, SQL, Power BI, and Machine Learning. Explore portfolio, resume, and data projects."
+author: "Rasel Mia"
+url: "https://raselmia.live"
+baseurl: ""
+
+# SEO and social
+twitter_username: mrasel_mrm
+github_username: mraselm
+linkedin_username: mrmia
+
+# Logo and branding
+logo: /images/rmlogo.jpg
+image: /images/portfolio_preview.jpeg
+
+# Locale
+lang: en
+timezone: Europe/Copenhagen
+
+# Social links for SEO
+social:
+  name: Rasel Mia
+  links:
+    - https://www.linkedin.com/in/mrmia/
+    - https://github.com/mraselm
+    - https://facebook.com/mraselmrm
+    - https://instagram.com/mrasel_mrm
+
+# Google Analytics
+google_analytics: G-1S86VJ0K0L
+
+# Default SEO settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/portfolio_preview.jpeg
+      author: Rasel Mia
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - .git
+  - .vscode
+  - node_modules
+  - README.md
+  - LICENSE.txt
+  - "*.json"
