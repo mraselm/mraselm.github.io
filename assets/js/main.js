@@ -7,6 +7,53 @@ document.addEventListener('DOMContentLoaded', () => {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
   const body = document.body;
 
+  const GISCUS_THEME_LIGHT = 'light';
+  const GISCUS_THEME_DARK = 'dark';
+  let giscusObserver;
+
+  const updateGiscusTheme = (isDark) => {
+    const theme = isDark ? GISCUS_THEME_DARK : GISCUS_THEME_LIGHT;
+    const giscusScript = document.querySelector('script[src="https://giscus.app/client.js"]');
+    const existingFrame = document.querySelector('iframe.giscus-frame');
+    if (!giscusScript && !existingFrame) {
+      return;
+    }
+
+    if (giscusScript) {
+      giscusScript.setAttribute('data-theme', theme);
+    }
+
+    const applyTheme = () => {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe || !iframe.contentWindow) {
+        return false;
+      }
+      iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { theme } } },
+        'https://giscus.app'
+      );
+      return true;
+    };
+
+    if (applyTheme()) {
+      if (giscusObserver) {
+        giscusObserver.disconnect();
+        giscusObserver = null;
+      }
+      return;
+    }
+
+    if (!giscusObserver) {
+      giscusObserver = new MutationObserver(() => {
+        if (applyTheme()) {
+          giscusObserver.disconnect();
+          giscusObserver = null;
+        }
+      });
+      giscusObserver.observe(document.body, { childList: true, subtree: true });
+    }
+  };
+
   const setTheme = (mode, persist = true) => {
     const isDark = mode === 'dark';
     body.classList.toggle('theme-dark', isDark);
@@ -14,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
       themeToggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
     }
     if (persist) localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    updateGiscusTheme(isDark);
   };
 
   const storedTheme = localStorage.getItem('theme');
