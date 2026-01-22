@@ -8,6 +8,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const body = document.body;
   const root = document.documentElement;
 
+  // ═══════════════════════════════════════════════════════════
+  // TYPING ANIMATION
+  // ═══════════════════════════════════════════════════════════
+  const typingElement = document.querySelector('.typing-text');
+  const typingCursor = document.querySelector('.typing-cursor');
+  
+  if (typingElement) {
+    const texts = [
+      'Building smarter, faster, data-driven decisions',
+      'Turning complex data into actionable insights',
+      'Creating ML models that drive real business value'
+    ];
+    let textIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let isPaused = false;
+    
+    const typeSpeed = 50;      // Speed of typing
+    const deleteSpeed = 30;    // Speed of deleting
+    const pauseTime = 2000;    // Pause at end of text
+    const pauseBetween = 500;  // Pause before typing new text
+    
+    function type() {
+      const currentText = texts[textIndex];
+      
+      if (isPaused) {
+        return;
+      }
+      
+      if (!isDeleting) {
+        // Typing
+        typingElement.textContent = currentText.substring(0, charIndex + 1);
+        charIndex++;
+        
+        if (charIndex === currentText.length) {
+          // Finished typing, pause then delete
+          isPaused = true;
+          setTimeout(() => {
+            isPaused = false;
+            isDeleting = true;
+            type();
+          }, pauseTime);
+          return;
+        }
+      } else {
+        // Deleting
+        typingElement.textContent = currentText.substring(0, charIndex - 1);
+        charIndex--;
+        
+        if (charIndex === 0) {
+          // Finished deleting, move to next text
+          isDeleting = false;
+          textIndex = (textIndex + 1) % texts.length;
+          isPaused = true;
+          setTimeout(() => {
+            isPaused = false;
+            type();
+          }, pauseBetween);
+          return;
+        }
+      }
+      
+      setTimeout(type, isDeleting ? deleteSpeed : typeSpeed);
+    }
+    
+    // Start typing after a short delay
+    setTimeout(type, 800);
+  }
+
   // Simple scroll lock - only used when mobile nav is open
   const setScrollLock = (locked) => {
     if (locked) {

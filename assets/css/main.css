@@ -108,6 +108,28 @@ h3 {
   100% { background-position: 200% 0; }
 }
 
+/* Typing animation */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.typing-text {
+  display: inline;
+}
+
+.typing-cursor {
+  display: inline-block;
+  color: var(--accent);
+  font-weight: 400;
+  animation: blink 0.8s infinite;
+  margin-left: 2px;
+}
+
+.typing-cursor.done {
+  display: none;
+}
+
 .animate-fade-up {
   opacity: 0;
   animation: fadeInUp 0.5s ease forwards;
