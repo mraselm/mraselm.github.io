@@ -6,6 +6,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.querySelector('.theme-toggle');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
   const body = document.body;
+  const root = document.documentElement;
+
+  const setScrollLock = (locked) => {
+    const value = locked ? 'hidden' : '';
+    body.style.overflow = value;
+    root.style.overflow = value;
+  };
+
+  const resetNavState = () => {
+    if (navLinks) navLinks.classList.remove('open');
+    if (navToggle) navToggle.classList.remove('active');
+    setScrollLock(false);
+  };
 
   const GISCUS_THEME_LIGHT = 'light';
   const GISCUS_THEME_DARK = 'dark';
@@ -89,14 +102,14 @@ document.addEventListener('DOMContentLoaded', () => {
       navLinks.classList.toggle('open');
       navToggle.classList.toggle('active');
       // Prevent body scroll when nav is open on mobile
-      document.body.style.overflow = navLinks.classList.contains('open') ? 'hidden' : '';
+      setScrollLock(navLinks.classList.contains('open'));
     });
 
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('open');
         navToggle.classList.remove('active');
-        document.body.style.overflow = '';
+        setScrollLock(false);
       });
     });
 
@@ -107,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
           !navToggle.contains(e.target)) {
         navLinks.classList.remove('open');
         navToggle.classList.remove('active');
-        document.body.style.overflow = '';
+        setScrollLock(false);
       }
     });
 
@@ -116,11 +129,13 @@ document.addEventListener('DOMContentLoaded', () => {
       if (e.key === 'Escape' && navLinks.classList.contains('open')) {
         navLinks.classList.remove('open');
         navToggle.classList.remove('active');
-        document.body.style.overflow = '';
+        setScrollLock(false);
         navToggle.focus();
       }
     });
   }
+
+  window.addEventListener('pageshow', resetNavState);
 
   // Hide header on scroll down, show on scroll up (mobile only)
   let lastScroll = 0;
