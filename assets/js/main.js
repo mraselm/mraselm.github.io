@@ -9,9 +9,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const root = document.documentElement;
 
   const setScrollLock = (locked) => {
-    const value = locked ? 'hidden' : '';
-    body.style.overflow = value;
-    root.style.overflow = value;
+    if (locked) {
+      body.style.overflow = 'hidden';
+      body.style.position = 'fixed';
+      body.style.width = '100%';
+      body.style.top = `-${window.scrollY}px`;
+    } else {
+      const scrollY = body.style.top;
+      body.style.overflow = '';
+      body.style.position = '';
+      body.style.width = '';
+      body.style.top = '';
+      window.scrollTo(0, parseInt(scrollY || '0') * -1);
+    }
   };
 
   const resetNavState = () => {
@@ -136,29 +146,38 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   window.addEventListener('pageshow', resetNavState);
+  
+  // Also reset scroll lock on page load/reload
+  window.addEventListener('load', () => {
+    setScrollLock(false);
+  });
 
   // Hide header on scroll down, show on scroll up (mobile only)
   let lastScroll = 0;
   const header = document.querySelector('.site-header');
+  let ticking = false;
   
   if (header && window.innerWidth <= 768) {
     window.addEventListener('scroll', () => {
-      const currentScroll = window.scrollY;
-      
-      if (currentScroll <= 50) {
-        header.style.transform = 'translateY(0)';
-        return;
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const currentScroll = window.scrollY;
+          
+          if (currentScroll <= 50) {
+            header.style.transform = 'translateY(0)';
+          } else if (currentScroll > lastScroll && currentScroll > 150) {
+            // Scrolling down - hide header
+            header.style.transform = 'translateY(-100%)';
+          } else {
+            // Scrolling up - show header
+            header.style.transform = 'translateY(0)';
+          }
+          
+          lastScroll = currentScroll;
+          ticking = false;
+        });
+        ticking = true;
       }
-      
-      if (currentScroll > lastScroll && currentScroll > 150) {
-        // Scrolling down - hide header
-        header.style.transform = 'translateY(-100%)';
-      } else {
-        // Scrolling up - show header
-        header.style.transform = 'translateY(0)';
-      }
-      
-      lastScroll = currentScroll;
     }, { passive: true });
   }
 
