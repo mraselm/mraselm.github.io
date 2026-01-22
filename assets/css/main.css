@@ -190,22 +190,6 @@ h3 {
   top: 1rem;
 }
 
-/* Particle background */
-#particles-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.6;
-}
-
-.theme-dark #particles-canvas {
-  opacity: 0.4;
-}
-
 /* Scroll progress indicator */
 .scroll-progress {
   position: fixed;
