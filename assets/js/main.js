@@ -77,43 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(type, 800);
   }
 
-  // ═══════════════════════════════════════════════════════════
-  // 3D TILT EFFECT ON PROJECT CARDS
-  // ═══════════════════════════════════════════════════════════
-  const projectCards = document.querySelectorAll('.project-card');
-  
-  projectCards.forEach(card => {
-    // Add shine overlay element
-    const shine = document.createElement('div');
-    shine.className = 'card-shine';
-    card.appendChild(shine);
-    
-    card.addEventListener('mousemove', (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
-      
-      // Calculate rotation (max 10 degrees)
-      const rotateX = ((y - centerY) / centerY) * -8;
-      const rotateY = ((x - centerX) / centerX) * 8;
-      
-      // Apply transform
-      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
-      
-      // Update shine position
-      const mouseX = (x / rect.width) * 100;
-      const mouseY = (y / rect.height) * 100;
-      card.style.setProperty('--mouse-x', `${mouseX}%`);
-      card.style.setProperty('--mouse-y', `${mouseY}%`);
-    });
-    
-    card.addEventListener('mouseleave', () => {
-      card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale3d(1, 1, 1)';
-    });
-  });
-
   // Simple scroll lock - only used when mobile nav is open
   const setScrollLock = (locked) => {
     if (locked) {

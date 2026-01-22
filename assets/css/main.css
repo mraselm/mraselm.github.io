@@ -961,35 +961,15 @@ section:not(:first-of-type)::before {
   flex-direction: column;
   gap: 0.9rem;
   box-shadow: var(--shadow);
-  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow var(--transition);
   transform-style: preserve-3d;
-  will-change: transform;
+  perspective: 1000px;
   overflow: hidden;
 }
 
-.project-card .card-inner {
-  transform: translateZ(20px);
-}
-
 .project-card:hover {
-  box-shadow: 0 30px 60px rgba(14, 23, 42, 0.18);
-}
-
-.project-card .card-shine {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.15) 0%, transparent 60%);
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: 18px;
-}
-
-.project-card:hover .card-shine {
-  opacity: 1;
+  transform: translateY(-6px) rotateX(2deg);
+  box-shadow: 0 24px 56px rgba(14, 23, 42, 0.14);
 }
 
 .project-card .project-thumb {
