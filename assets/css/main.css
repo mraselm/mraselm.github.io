@@ -36,23 +36,20 @@ html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 body {
   margin: 0;
   font-family: 'Manrope', system-ui, -apple-system, sans-serif;
-  overscroll-behavior-y: none;
-  overflow-x: hidden;
-  overflow-y: auto;
   color: var(--ink);
   background: var(--body-bg);
   min-height: 100vh;
-  min-height: 100dvh;
   -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
-  touch-action: pan-y;
+}
+
+/* Only lock scroll when nav is open */
+body.nav-open {
+  overflow: hidden;
 }
 
 a {
@@ -152,9 +149,6 @@ h3 {
 
 .page-shell {
   position: relative;
-  overflow-x: hidden;
-  overflow-y: visible;
-  touch-action: pan-y;
 }
 
 .skip-link {
@@ -1845,20 +1839,6 @@ button.btn.ghost.share-btn {
 }
 
 @media (max-width: 640px) {
-  /* Mobile scroll fix - ensure smooth scrolling */
-  html, body {
-    overflow-x: hidden;
-    overflow-y: auto !important;
-    -webkit-overflow-scrolling: touch;
-    touch-action: pan-y;
-    overscroll-behavior: none;
-  }
-
-  /* Prevent horizontal overflow */
-  * {
-    max-width: 100%;
-  }
-
   section {
     padding: 2.5rem 0;
   }
@@ -1889,13 +1869,6 @@ button.btn.ghost.share-btn {
 
   .container {
     padding: 0 1rem;
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-  
-  /* Ensure main content is scrollable */
-  .page {
-    touch-action: pan-y;
   }
 
   .btn {
