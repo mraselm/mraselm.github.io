@@ -16,12 +16,12 @@ Disallow: /.vscode/
 Disallow: /*.json$
 Disallow: /assets/data/
 
-# Block redirect-only pages (they have noindex anyway)
-Disallow: /index.html
+# Block old standalone pages
 Disallow: /blog.html
 Disallow: /resume.html
 
 # Allow all important pages
+Allow: /
 Allow: /home/
 Allow: /resume/
 Allow: /datastory/
