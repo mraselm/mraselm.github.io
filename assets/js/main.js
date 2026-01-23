@@ -9,29 +9,44 @@ document.addEventListener('DOMContentLoaded', () => {
   const root = document.documentElement;
 
   // ═══════════════════════════════════════════════════════════
-  // TYPING ANIMATION
+  // TYPING ANIMATION (with i18n support)
   // ═══════════════════════════════════════════════════════════
   const typingElement = document.querySelector('.typing-text');
   const typingCursor = document.querySelector('.typing-cursor');
   
   if (typingElement) {
-    const texts = [
-      'Building smarter, faster, data-driven decisions',
-      'Turning complex data into actionable insights',
-      'Creating ML models that drive real business value'
-    ];
+    const typingTexts = {
+      en: [
+        'Building smarter, faster, data-driven decisions',
+        'Turning complex data into actionable insights',
+        'Creating ML models that drive real business value'
+      ],
+      da: [
+        'Skaber hurtigere og klogere datadrevne beslutninger',
+        'Omsætter komplekse data til handlingsbar indsigt',
+        'Bygger ML-modeller der skaber reel forretningsværdi'
+      ]
+    };
+    
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
     let isPaused = false;
+    let typingTimeout = null;
     
     const typeSpeed = 50;      // Speed of typing
     const deleteSpeed = 30;    // Speed of deleting
     const pauseTime = 2000;    // Pause at end of text
     const pauseBetween = 500;  // Pause before typing new text
     
+    function getTexts() {
+      const lang = localStorage.getItem('lang') || 'en';
+      return typingTexts[lang] || typingTexts.en;
+    }
+    
     function type() {
-      const currentText = texts[textIndex];
+      const texts = getTexts();
+      const currentText = texts[textIndex % texts.length];
       
       if (isPaused) {
         return;
@@ -45,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (charIndex === currentText.length) {
           // Finished typing, pause then delete
           isPaused = true;
-          setTimeout(() => {
+          typingTimeout = setTimeout(() => {
             isPaused = false;
             isDeleting = true;
             type();
@@ -62,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
           isDeleting = false;
           textIndex = (textIndex + 1) % texts.length;
           isPaused = true;
-          setTimeout(() => {
+          typingTimeout = setTimeout(() => {
             isPaused = false;
             type();
           }, pauseBetween);
@@ -70,8 +85,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
       
-      setTimeout(type, isDeleting ? deleteSpeed : typeSpeed);
+      typingTimeout = setTimeout(type, isDeleting ? deleteSpeed : typeSpeed);
     }
+    
+    // Reset typing animation when language changes
+    window.resetTypingAnimation = function() {
+      if (typingTimeout) clearTimeout(typingTimeout);
+      textIndex = 0;
+      charIndex = 0;
+      isDeleting = false;
+      isPaused = false;
+      typingElement.textContent = '';
+      setTimeout(type, 300);
+    };
     
     // Start typing after a short delay
     setTimeout(type, 800);

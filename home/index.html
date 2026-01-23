@@ -671,6 +671,10 @@
             const next = (localStorage.getItem('lang') || 'en') === 'en' ? 'da' : 'en';
             toggle.setAttribute('aria-pressed', next === 'da');
             applyLang(next);
+            // Reset typing animation with new language
+            if (typeof window.resetTypingAnimation === 'function') {
+              window.resetTypingAnimation();
+            }
           });
         }
 
