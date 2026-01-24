@@ -1,28 +1,49 @@
-# 💼 Personal Portfolio Website
+# Personal Portfolio Website
 
-This is my personal portfolio website built using HTML5 UP template and customized with my own resume, projects, and contact form. It is fully responsive and hosted via GitHub Pages.
+This repository contains my personal portfolio website. It is a static site built with HTML, CSS, and JavaScript, hosted on GitHub Pages with a custom domain.
 
-🔗 Live site: [https://raselmia.live](https://raselmia.live)
+Live site: https://raselmia.live
 
-## 🛠️ Built With
+## Highlights
 
-- HTML5 & CSS3
-- JavaScript
-- HTML5 UP (Massively Template)
-- GitHub Pages (Hosting) | Later moved it to custom domain
-- Formspree (for contact form)
-- tawk.to for live chat
+- Responsive layout with light/dark theme toggle
+- English/Danish language toggle
+- Project discovery search with tags
+- Contact forms powered by Formspree
+- Live chat via Tawk.to
+- Resume download and share options
 
-## 📂 Pages
+## Built With
 
-- Home (`index.html`)
-- Resume (`resume.html`)
-- Blog / Data Story (`generic.html`)
+- HTML5, CSS3, JavaScript
+- Font Awesome icons
+- Google Fonts (Manrope, Space Grotesk)
+- GitHub Pages + custom domain
+- Formspree, Tawk.to
 
-## 📧 Features
+## Pages
 
-- Contact form with popup confirmation
-- Downloadable resume
-- Responsive design
+- / (redirects to /home/)
+- /home/ (portfolio landing page)
+- /datastory/ (case studies and data stories)
+- /cover-letter/ (AI Toolkit)
+- /resume/ (resume page)
 
----
+## Project Structure
+
+- home/ (main portfolio page)
+- datastory/ (index + case study pages)
+- cover-letter/ (AI Toolkit)
+- resume/ (resume page)
+- assets/ (CSS, JS, data)
+- images/ (site imagery)
+
+## Local Development
+
+This is a static site. You can open the pages directly or run a simple static server, for example:
+
+```sh
+python -m http.server
+```
+
+Then visit `http://localhost:8000/home/`.

@@ -1,0 +1,27 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Local tooling
+.vscode/
+.idea/
+
+# Node artifacts (if added later)
+node_modules/
