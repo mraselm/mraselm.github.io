@@ -2,10 +2,6 @@
 # Author: Rasel Mia
 
 User-agent: *
-Allow: /
-
-# Sitemap location
-Sitemap: https://raselmia.live/sitemap.xml
 
 # Crawl-delay for politeness (optional)
 Crawl-delay: 1
@@ -13,16 +9,7 @@ Crawl-delay: 1
 # Block access to internal/dev files
 Disallow: /.git/
 Disallow: /.vscode/
-Disallow: /*.json$
 Disallow: /assets/data/
 
-# Block old standalone pages
-Disallow: /blog.html
-Disallow: /resume.html
-
-# Allow all important pages
-Allow: /
-Allow: /home/
-Allow: /resume/
-Allow: /datastory/
-Allow: /cover-letter/
+# Sitemap location
+Sitemap: https://raselmia.live/sitemap.xml
