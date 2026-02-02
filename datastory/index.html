@@ -256,6 +256,106 @@
         color: var(--ink);
       }
       
+      /* Featured ML System Highlight */
+      .featured-highlight {
+        background: linear-gradient(135deg, rgba(98, 126, 234, 0.08) 0%, rgba(168, 85, 247, 0.08) 100%);
+        border: 2px solid rgba(98, 126, 234, 0.2);
+        border-radius: 20px;
+        padding: 2.5rem;
+        margin: 2.5rem 0;
+        position: relative;
+        overflow: hidden;
+      }
+      .featured-highlight::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #627eea 0%, #a855f7 100%);
+      }
+      .featured-highlight .featured-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        background: rgba(98, 126, 234, 0.15);
+        border-radius: 50px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #627eea;
+        margin-bottom: 1rem;
+      }
+      .featured-highlight .featured-badge i {
+        font-size: 0.9rem;
+      }
+      .featured-highlight h2 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: var(--ink);
+        margin-bottom: 1.25rem;
+        line-height: 1.3;
+      }
+      .featured-highlight .featured-description {
+        font-size: 1.05rem;
+        color: var(--muted);
+        margin-bottom: 1.75rem;
+        line-height: 1.6;
+      }
+      .featured-highlight .featured-metrics {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+      .featured-metric {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .featured-metric:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+      .featured-metric i {
+        font-size: 1.25rem;
+        color: #627eea;
+        margin-top: 0.15rem;
+        flex-shrink: 0;
+      }
+      .featured-metric-content {
+        flex: 1;
+      }
+      .featured-metric strong {
+        display: block;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--ink);
+        margin-bottom: 0.25rem;
+      }
+      .featured-metric span {
+        font-size: 0.9rem;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+      @media (max-width: 768px) {
+        .featured-highlight {
+          padding: 1.75rem 1.25rem;
+          margin: 1.5rem 0;
+        }
+        .featured-highlight h2 {
+          font-size: 1.4rem;
+        }
+        .featured-highlight .featured-metrics {
+          grid-template-columns: 1fr;
+        }
+      }
+      
       @media (max-width: 768px) {
         .stories-grid {
           grid-template-columns: 1fr;
@@ -342,6 +442,53 @@
           <!-- Intro Text -->
           <div class="stories-intro">
             <p data-i18n="stories_intro">Each story here is a deep-dive into real data problems I've tackled—from machine learning models that predict customer behavior to visualizations that turn chaos into clarity. Pick a category or explore them all.</p>
+          </div>
+
+          <!-- Featured: Autonomous ML System -->
+          <div class="featured-highlight">
+            <div class="featured-badge">
+              <i class="fas fa-star"></i>
+              <span>Featured Achievement</span>
+            </div>
+            <h2>Built Autonomous ML System</h2>
+            <p class="featured-description">Engineered a self-optimizing machine learning pipeline that eliminates manual intervention while delivering production-grade models.</p>
+            <div class="featured-metrics">
+              <div class="featured-metric">
+                <i class="fas fa-chart-line"></i>
+                <div class="featured-metric-content">
+                  <strong>Achieves 80%+ AUC</strong>
+                  <span>on any dataset</span>
+                </div>
+              </div>
+              <div class="featured-metric">
+                <i class="fas fa-clock"></i>
+                <div class="featured-metric-content">
+                  <strong>Reduces development time by 80%</strong>
+                  <span>from weeks to hours</span>
+                </div>
+              </div>
+              <div class="featured-metric">
+                <i class="fas fa-shield-alt"></i>
+                <div class="featured-metric-content">
+                  <strong>Handles 14+ error types</strong>
+                  <span>automatically</span>
+                </div>
+              </div>
+              <div class="featured-metric">
+                <i class="fas fa-tags"></i>
+                <div class="featured-metric-content">
+                  <strong>Works with unlabeled data</strong>
+                  <span>60-75% accuracy</span>
+                </div>
+              </div>
+              <div class="featured-metric">
+                <i class="fas fa-lightbulb"></i>
+                <div class="featured-metric-content">
+                  <strong>Provides GPT-powered insights</strong>
+                  <span>business recommendations</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="discovery-panel" data-discovery-root data-discovery-index="/assets/data/discovery-index.json">
