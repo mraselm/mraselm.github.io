@@ -545,6 +545,8 @@ section:not(:first-of-type)::before {
 
 .hero h1 {
   font-size: clamp(2.6rem, 5vw, 3.6rem);
+  line-height: 1.1;
+  min-height: 2.4em;
   margin-bottom: 1.2rem;
 }
 
@@ -2005,6 +2007,10 @@ button.btn.ghost.share-btn i {
 
   .hero {
     padding: 3rem 0 1.75rem;
+  }
+
+  .hero h1 {
+    min-height: 3.2em;
   }
 
   .hero-card {
