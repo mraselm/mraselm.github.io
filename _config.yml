@@ -53,4 +53,3 @@ exclude:
   - node_modules
   - README.md
   - LICENSE.txt
-  - "*.json"

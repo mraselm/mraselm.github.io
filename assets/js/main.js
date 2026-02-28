@@ -587,12 +587,49 @@ document.addEventListener('DOMContentLoaded', () => {
   const discoveryRoots = document.querySelectorAll('[data-discovery-root]');
   if (discoveryRoots.length) {
     const indexGroups = new Map();
+
+    const resolveDiscoveryCandidates = (configuredUrl) => {
+      const candidates = [];
+      const pushUnique = (url) => {
+        if (url && !candidates.includes(url)) {
+          candidates.push(url);
+        }
+      };
+
+      const basePath = window.location.pathname.replace(/[^/]*$/, '');
+      const normalizedConfigured = configuredUrl && configuredUrl.trim() ? configuredUrl.trim() : '/assets/data/discovery-index.json';
+
+      pushUnique(normalizedConfigured);
+      pushUnique(new URL(normalizedConfigured, window.location.origin + basePath).pathname);
+      pushUnique('/assets/data/discovery-index.json');
+      pushUnique('assets/data/discovery-index.json');
+      pushUnique('../assets/data/discovery-index.json');
+
+      return candidates;
+    };
+
+    const fetchDiscoveryIndex = async (candidates) => {
+      for (const url of candidates) {
+        try {
+          const response = await fetch(url, { cache: 'no-store' });
+          if (!response.ok) continue;
+          const payload = await response.json();
+          if (Array.isArray(payload)) return payload;
+        } catch (_) {
+          // Try the next candidate URL.
+        }
+      }
+      throw new Error('Discovery index unavailable');
+    };
+
     discoveryRoots.forEach(root => {
       const indexUrl = root.getAttribute('data-discovery-index') || '/assets/data/discovery-index.json';
-      if (!indexGroups.has(indexUrl)) {
-        indexGroups.set(indexUrl, []);
+      const candidates = resolveDiscoveryCandidates(indexUrl);
+      const indexKey = JSON.stringify(candidates);
+      if (!indexGroups.has(indexKey)) {
+        indexGroups.set(indexKey, { roots: [], candidates });
       }
-      indexGroups.get(indexUrl).push(root);
+      indexGroups.get(indexKey).roots.push(root);
     });
 
     const normalize = (value) => value.toLowerCase().trim();
@@ -776,11 +813,9 @@ document.addEventListener('DOMContentLoaded', () => {
       renderResults();
     };
 
-    indexGroups.forEach((roots, indexUrl) => {
-      fetch(indexUrl)
-        .then(response => response.json())
+    indexGroups.forEach(({ roots, candidates }) => {
+      fetchDiscoveryIndex(candidates)
         .then(items => {
-          if (!Array.isArray(items)) return;
           const tagList = buildTagList(items);
           roots.forEach(root => renderDiscovery(root, items, tagList));
         })
