@@ -448,6 +448,16 @@
                 <input type="email" name="email" id="email" required />
               </div>
               <div class="field">
+                <label for="topic" data-i18n="form_topic">Topic</label>
+                <select name="_subject" id="topic" required>
+                  <option value="" disabled selected data-i18n="form_topic_default">Select a topic…</option>
+                  <option value="Job Opportunity" data-i18n="form_topic_job">Job Opportunity</option>
+                  <option value="Collaboration" data-i18n="form_topic_collab">Collaboration</option>
+                  <option value="General Inquiry" data-i18n="form_topic_general">General Inquiry</option>
+                  <option value="Other" data-i18n="form_topic_other">Other</option>
+                </select>
+              </div>
+              <div class="field">
                 <label for="message" data-i18n="form_message">Message</label>
                 <textarea name="message" id="message" rows="4" required></textarea>
               </div>
@@ -547,6 +557,12 @@
             contact_email_label: "Email:",
             form_name: "Name",
             form_email: "Email",
+            form_topic: "Topic",
+            form_topic_default: "Select a topic…",
+            form_topic_job: "Job Opportunity",
+            form_topic_collab: "Collaboration",
+            form_topic_general: "General Inquiry",
+            form_topic_other: "Other",
             form_message: "Message",
             form_send: "Send message",
             status_open: "Open to BI/Data Roles",
@@ -628,6 +644,12 @@
             contact_email_label: "Email:",
             form_name: "Navn",
             form_email: "Email",
+            form_topic: "Emne",
+            form_topic_default: "Vælg et emne…",
+            form_topic_job: "Jobmulighed",
+            form_topic_collab: "Samarbejde",
+            form_topic_general: "Generel henvendelse",
+            form_topic_other: "Andet",
             form_message: "Besked",
             form_send: "Send besked",
             footer_open: "Åben for BI/Data-roller",

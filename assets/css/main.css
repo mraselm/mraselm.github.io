@@ -1261,6 +1261,7 @@ label {
 
 input[type="text"],
 input[type="email"],
+select,
 textarea {
   width: 100%;
   padding: 0.85rem 1rem;
@@ -1269,6 +1270,16 @@ textarea {
   background: #fdfdfd;
   font-family: inherit;
   font-size: 1rem;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%234b5563' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.85rem center;
+  padding-right: 2.5rem;
+  cursor: pointer;
 }
 
 textarea {
@@ -1951,10 +1962,17 @@ button.btn.ghost.share-btn i {
 
 .theme-dark input[type="text"],
 .theme-dark input[type="email"],
+.theme-dark select,
 .theme-dark textarea {
   background: var(--input-bg);
   color: var(--ink);
   border-color: var(--border);
+}
+
+.theme-dark select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.85rem center;
 }
 
 .theme-dark .footer .meta div:first-child div {
