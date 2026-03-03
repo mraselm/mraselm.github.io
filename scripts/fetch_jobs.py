@@ -25,8 +25,8 @@ import requests
 # Configuration
 # ---------------------------------------------------------------------------
 
-MAX_PER_TYPE     = 10    # jobs to KEEP per job-type per category after filter & dedup
-FETCH_PER_QUERY  = 30    # jobs to FETCH from Jobindex per individual query
+MAX_PER_TYPE     = 25    # jobs to KEEP per job-type per category after filter & dedup
+FETCH_PER_QUERY  = 50    # jobs to FETCH from Jobindex per individual query
 
 # Job types to fetch — keys become the 'job_type' field written to jobs.json.
 # Values are the Jobindex 'arbejdstid[]' URL-parameter values.
