@@ -263,6 +263,28 @@
         font-weight: 600;
         white-space: nowrap;
       }
+      #jobs-refresh {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: none;
+        background: transparent;
+        color: var(--muted, #64748b);
+        cursor: pointer;
+        font-size: 0.82rem;
+        transition: background 0.15s, color 0.15s, transform 0.2s;
+        padding: 0;
+      }
+      #jobs-refresh:hover {
+        background: rgba(99,102,241,0.08);
+        color: var(--accent, #6366f1);
+      }
+      #jobs-refresh:active {
+        transform: rotate(45deg);
+      }
 
       /*  Job grid  */
       .jobs-grid {
@@ -722,8 +744,8 @@
 
               <div class="filter-controls">
                 <span class="jobs-count" id="jobs-count" aria-live="polite"></span>
-                <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
-                  <i class="fas fa-sync-alt" aria-hidden="true"></i>
+                <button id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
+                  <i class="fas fa-redo-alt" aria-hidden="true"></i>
                 </button>
               </div>
             </div>
