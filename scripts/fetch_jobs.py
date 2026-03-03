@@ -28,6 +28,13 @@ import requests
 MAX_PER_TYPE     = 25    # jobs to KEEP per job-type per category after filter & dedup
 FETCH_PER_QUERY  = 50    # jobs to FETCH from Jobindex per individual query
 
+# Title words that unambiguously mark a job as a student position.
+# If these appear in a title during the full-time/part-time fetch phase, skip it.
+STUDENT_TITLE_INDICATORS = [
+    "studentermedhjælper", "studentermedhjælper",
+    "studiejob", "student assistant", "studentjob", "studentermedhjælper",
+]
+
 # Job types to fetch — keys become the 'job_type' field written to jobs.json.
 # Values are the Jobindex 'arbejdstid[]' URL-parameter values.
 # NOTE: Jobindex RSS honours these for regular job-type filtering.
@@ -469,6 +476,13 @@ def fetch_category(label: str, queries: list[str],
         raw = len(type_jobs)
         if kws:
             type_jobs = [j for j in type_jobs if title_matches(j["title"], kws)]
+        # Drop any job whose title marks it as a student position — Jobindex
+        # often ignores the arbejdstid[] filter and returns student posts in
+        # full-time/part-time result sets.
+        type_jobs = [
+            j for j in type_jobs
+            if not any(ind in j["title"].lower() for ind in STUDENT_TITLE_INDICATORS)
+        ]
         kept = type_jobs[:MAX_PER_TYPE]
         ft_result.extend(kept)
         print(f"  [{type_label:10}]  raw={raw:2}  after_filter={len(type_jobs):2}  kept={len(kept):2}")
