@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T06:42:25Z",
+  "updated": "2026-03-03T15:48:47Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -54,16 +54,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "TV 2 Data & Insight søger Advanced Data Analyst",
-        "company": "TV 2 Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13635624",
-        "posted": "2026-02-19",
-        "snippet": "TV 2 Data & Insight søger Advanced Data Analyst Er du også vild med data?",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Bliv dataanalytiker i Customer data i en foreningsejet Nykredit-koncern",
         "company": "Nykredit",
         "location": "Copenhagen",
@@ -94,17 +84,37 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælper - Data Engineering",
-        "company": "Finansforbundet",
+        "title": "Senior Data Scientist",
+        "company": "Københavns Lufthavne A/S",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643047",
-        "posted": "2026-02-27",
-        "snippet": "Er du nysgerrig på data engineering, og motiveres du af at omsætte data til forretningsmæssige indsigter?Så har du mulighed for at blive en del af Team Data & Analyse i Finansforbundet, hvor vi søger en nysgerrig, initiativrig og",
+        "url": "https://www.jobindex.dk/vis-job/h1644002",
+        "posted": "2026-03-03",
+        "snippet": "I Københavns Lufthavn (CPH) arbejder vi hver dag for at skabe den bedst mulige oplevelse for vores passagerer og her spiller data en stadig mere og mere afgørende rolle.Som vores nye Senior Data Scientist bliver du en del af et te",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Dataanalytiker til Efterretnings- og Analysecentret",
+        "company": "Politi",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1643750",
+        "posted": "2026-03-03",
+        "snippet": "Vil du være med til at identificere og bekæmpe den mest komplekse kriminalitet i samfundet?Vi bliver i stigende grad udfordret af de kriminelles brug af teknologi og digital kommunikation. Som dataanalytiker er du med til at tegne",
         "source": "jobindex",
         "job_type": "student"
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst",
+        "company": "ZF Danmark ApS",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1642972",
+        "posted": "2026-02-27",
+        "snippet": "Er du skarp til data, forretningsforståelse og procesoptimering – og trives du i rollen som bindeleddet mellem forretning og regnskab?Hos ZF Danmark søger vi en engageret Business Analyst, der vil være med til at styrke vores fina",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst til Finans",
         "company": "Tryg Forsikring A/S",
@@ -194,26 +204,6 @@
         "snippet": "I Center for Kommunikation og Udvikling søger vi lige nu en erfaren forretningsanalytiker, som vil være med til at sikre god datakvalitet på tværs af organisationen samt styrke og udvikle den datadrevne ledelse.Vi søger dig, der s",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "ZF Danmark ApS",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1642972",
-        "posted": "2026-02-27",
-        "snippet": "Er du skarp til data, forretningsforståelse og procesoptimering – og trives du i rollen som bindeleddet mellem forretning og regnskab?Hos ZF Danmark søger vi en engageret Business Analyst, der vil være med til at styrke vores fina",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Senior FP&A Analyst",
-        "company": "OK a.m.b.a.",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1642952",
-        "posted": "2026-02-27",
-        "snippet": "Vil du være med til at løfte FP&A og spille en central rolle i vores nye planning setup og cost allokeringsmodel? Brænder du for at arbejde i krydsfeltet mellem finans, data og forretning?Du bliver en del af teamet, der har ansvar",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "business intelligence": [
@@ -278,12 +268,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior FP&A Analyst",
-        "company": "OK a.m.b.a.",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1642952",
-        "posted": "2026-02-27",
-        "snippet": "Vil du være med til at løfte FP&A og spille en central rolle i vores nye planning setup og cost allokeringsmodel? Brænder du for at arbejde i krydsfeltet mellem finans, data og forretning?Du bliver en del af teamet, der har ansvar",
+        "title": "Senior Business Intelligence Developer",
+        "company": "DUOS A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643960",
+        "posted": "2026-03-03",
+        "snippet": "Vi er i en spændende fase, hvor vi bygger nyt, skalerer og migrerer til en større dataplatform for at centralisere BI-funktionen på tværs af selskaber i DUOS-koncernen.Du bliver en central teknisk profil i BI-teamet og får ansvar",
         "source": "jobindex",
         "job_type": "student"
       },
@@ -296,9 +286,29 @@
         "snippet": "Har du lyst til at arbejde med researchopgaver, databehandling, visualisering af viden og data samt kommunikation deraf?Som studentermedarbejder bliver du en del af et team af tværgående studentermedarbejdere og får ansvar for opg",
         "source": "jobindex",
         "job_type": "student"
+      },
+      {
+        "title": "Administrativ koordinator med fokus på kvalitet, data og compliance",
+        "company": "BKI foods a/s",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1626466",
+        "posted": "2026-03-03",
+        "snippet": "Trives du med struktur, præcision og ansvar – og motiveres du af at sikre, at data, dokumentation og lovkrav er i orden ned til mindste detalje?Du bliver omdrejningspunktet for korrekt varestamdata, dokumentation og efterlevelse a",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "bi specialist": [
+      {
+        "title": "Data solution architect til Business Intelligence",
+        "company": "Aarhus Universitet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13658510",
+        "posted": "2026-03-03",
+        "snippet": "Til DataHorizon-projektet søger vi en Data Solution Architect med stærk teknisk profil og erfaring inden for data engineering og softwareudvikling.",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Lead Generation, AI & Business Intelligence Specialist",
         "company": "Contentway A/S",
@@ -320,12 +330,154 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior FP&A Analyst",
-        "company": "OK a.m.b.a.",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1642952",
+        "title": "Senior Business Intelligence Developer",
+        "company": "DUOS A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643960",
+        "posted": "2026-03-03",
+        "snippet": "Vi er i en spændende fase, hvor vi bygger nyt, skalerer og migrerer til en større dataplatform for at centralisere BI-funktionen på tværs af selskaber i DUOS-koncernen.Du bliver en central teknisk profil i BI-teamet og får ansvar",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
+    "data scientist": [
+      {
+        "title": "Data Scientist for Medical Device Development",
+        "company": "RSP Systems A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1642662",
         "posted": "2026-02-27",
-        "snippet": "Vil du være med til at løfte FP&A og spille en central rolle i vores nye planning setup og cost allokeringsmodel? Brænder du for at arbejde i krydsfeltet mellem finans, data og forretning?Du bliver en del af teamet, der har ansvar",
+        "snippet": "Join our dedicated team and become part of a company developing the next-generation glucose monitors to improve the lives of millions of people with impaired glucose control.The work will include research within regression modelli",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "DLG",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1642854",
+        "posted": "2026-02-27",
+        "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Data Scientists",
+        "company": "Telenor",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1640050",
+        "posted": "2026-02-18",
+        "snippet": "Do you want to help develop and bring advanced AI into the core of Telenor’s daily operations?You will work directly with modern AI tools and develop the models and solutions that make our network smarter and more efficient. Here,",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist",
+        "company": "DANISH CROWN A/S",
+        "location": "Randers",
+        "url": "https://www.jobindex.dk/vis-job/h1639120",
+        "posted": "2026-02-13",
+        "snippet": "Do you believe there’s a connection between bacon and data — and are you ready to drive this connection to the next level?You will play an active role in shaping and influencing data-driven decision-making, partnering with operati",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist/Development Engineer",
+        "company": "AVK Holding A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1638053",
+        "posted": "2026-02-11",
+        "snippet": "We are looking for a colleague with strong interest in algorithms, Machine Learning & AIYou will join a newly established international project team with participants in Denmark and three other European countries.In this role, you",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Afdelingslæge søges til Data Science og AI i Sundhed",
+        "company": "Statens Serum Institut",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13655387",
+        "posted": "2026-03-02",
+        "snippet": "Er du uddannet læge med speciallægeanerkendelse?",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Start Your Career with GenAI Tribe, Data Science Chapter in Copenhagen, Denmark",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13635359",
+        "posted": "2026-02-19",
+        "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Experienced Data Scientist - IRB Modelling",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13619141",
+        "posted": "2026-02-11",
+        "snippet": "",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Quantum Machine Learning Engineer",
+        "company": "Temp-Team A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1640483",
+        "posted": "2026-02-19",
+        "snippet": "",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Dampskibsselskabet NORDEN A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/h1640316",
+        "posted": "2026-02-19",
+        "snippet": "To uphold high-quality digital solutions provided to our commercial teams, we are looking for an AI Engineer to join our Chartering Analytics team in Copenhagen.Our tech stack consists of Python and its modern ecosystem (uv, FastA",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Start Your AI Engineer Career with the GenAI Tribe, Denmark",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13635361",
+        "posted": "2026-02-19",
+        "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Neurons Inc.",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/r13633104",
+        "posted": "2026-02-18",
+        "snippet": "At Neurons, we help the world’s leading brands predict how people will perceive, feel, and react to creative; before it goes live.",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data scientist med stærk data-, proces- og systemforståelse til Center for It og Data",
+        "company": "Familieretshuset",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643589",
+        "posted": "2026-03-03",
+        "snippet": "Kan du omsætte data til værdifulde indsigter, der kan optimere processer og understøtte strategiske beslutninger? Har du erfaring med at formidle og oversætte data til praktiske løsninger?Du vil samarbejde tæt med forretningen for",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Senior Data Scientist",
+        "company": "Københavns Lufthavne A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1644002",
+        "posted": "2026-03-03",
+        "snippet": "I Københavns Lufthavn (CPH) arbejder vi hver dag for at skabe den bedst mulige oplevelse for vores passagerer og her spiller data en stadig mere og mere afgørende rolle.Som vores nye Senior Data Scientist bliver du en del af et te",
         "source": "jobindex",
         "job_type": "student"
       }

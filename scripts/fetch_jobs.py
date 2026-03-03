@@ -67,6 +67,11 @@ STUDENT_QUERIES: dict[str, list[str]] = {
         "studentermedhj%C3%A6lper+%22business+intelligence%22",
         "studiejob+%22Power+BI%22",
     ],
+    "data scientist": [
+        "studentermedhj%C3%A6lper+%22data+scientist%22",
+        "studiejob+%22data+scientist%22",
+        "studentermedhj%C3%A6lper+%22machine+learning%22",
+    ],
 }
 
 # Relevance filter for student jobs: the job TITLE must contain at least one keyword.
@@ -89,6 +94,10 @@ STUDENT_TITLE_KEYWORDS: dict[str, list[str]] = {
     "bi specialist": [
         "bi ", " bi", "business intelligence", "power bi",
         "data analyst", "analytiker", "analyst",
+    ],
+    "data scientist": [
+        "data scientist", "data science", "machine learning",
+        "ml engineer", "ai engineer", "analytiker",
     ],
 }
 
@@ -124,6 +133,15 @@ CATEGORIES: dict[str, list[str]] = {
         "%22Power+BI+developer%22",
         "%22BI+manager%22",
         "%22business+intelligence+specialist%22",
+    ],
+    "data scientist": [
+        "%22data+scientist%22",
+        "%22senior+data+scientist%22",
+        "%22junior+data+scientist%22",
+        "%22machine+learning+engineer%22",
+        "%22ml+engineer%22",
+        "%22AI+engineer%22",
+        "data+science",
     ],
 }
 
@@ -164,6 +182,14 @@ TITLE_KEYWORDS: dict[str, list[str]] = {
         "bi engineer",
         "business intelligence",
         "power bi",
+    ],
+    "data scientist": [
+        "data scientist",
+        "data science",
+        "machine learning engineer",
+        "ml engineer",
+        "ai engineer",
+        "deep learning",
     ],
 }
 

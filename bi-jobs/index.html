@@ -654,6 +654,13 @@
                   BI Specialist
                   <span class="tab-count" id="tc-bis">0</span>
                 </button>
+                <button class="jobs-tab"
+                  data-query="data scientist" data-color="#10b981" style="--tab-color:#10b981"
+                  role="tab" aria-selected="false" aria-controls="jobs-grid">
+                  <i class="fas fa-flask" aria-hidden="true"></i>
+                  Data Scientist
+                  <span class="tab-count" id="tc-ds">0</span>
+                </button>
               </div>
 
               <div class="filter-controls">
@@ -848,10 +855,11 @@
         };
 
         var TAB_COUNT_IDS = {
-          'data analyst':        'tc-da',
-          'business analyst':    'tc-ba',
+          'data analyst':         'tc-da',
+          'business analyst':     'tc-ba',
           'business intelligence':'tc-bi',
-          'bi specialist':       'tc-bis'
+          'bi specialist':        'tc-bis',
+          'data scientist':       'tc-ds'
         };
 
         /*  Helpers  */
@@ -942,7 +950,7 @@
           if (cat === 'all') {
             var _dedup = {};
             allJobs = [];
-            ['data analyst', 'business analyst', 'business intelligence', 'bi specialist'].forEach(function (k) {
+            ['data analyst', 'business analyst', 'business intelligence', 'bi specialist', 'data scientist'].forEach(function (k) {
               ((JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[k]) || []).forEach(function (j) {
                 if (!_dedup[j.url]) { _dedup[j.url] = true; allJobs.push(j); }
               });
