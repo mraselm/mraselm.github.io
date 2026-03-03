@@ -192,17 +192,24 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 0.75rem;
         padding-bottom: 0.7rem;
         border-bottom: 1px solid var(--border);
         margin-bottom: 0.65rem;
       }
       .jobs-tabs {
+        flex: 1;
+        min-width: 0;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 0.45rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
       }
+      .jobs-tabs::-webkit-scrollbar { display: none; }
       .jobs-tab {
         display: inline-flex;
         align-items: center;
@@ -661,12 +668,6 @@
                  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt" aria-hidden="true"></i> Browse Jobindex
               </a>
-              <div style="display:flex;align-items:center;gap:0.5rem;justify-content:flex-end;">
-                <span class="jobs-count" id="jobs-count" aria-live="polite" style="font-size:0.8rem;"></span>
-                <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings" title="Refresh" style="padding:0.3rem 0.55rem;">
-                  <i class="fas fa-sync-alt" aria-hidden="true"></i>
-                </button>
-              </div>
               <span class="last-updated" id="jobs-updated-hero" aria-live="polite"></span>
             </div>
           </div>
@@ -726,6 +727,12 @@
                 </button>
               </div>
 
+              <div class="filter-controls">
+                <span class="jobs-count" id="jobs-count" aria-live="polite"></span>
+                <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
+                  <i class="fas fa-sync-alt" aria-hidden="true"></i>
+                </button>
+              </div>
             </div>
 
             <!-- Combined city + type filter bar -->
