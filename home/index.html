@@ -107,6 +107,135 @@
     <script type="application/ld+json">
       { "@context": "https://schema.org", "@type": "Organization", "name": "Rasel Mia", "url": "https://raselmia.live", "logo": "https://raselmia.live/images/rmlogo.jpg" }
     </script>
+    <style>
+      /* ===== Jobs Section ===== */
+      .jobs-filter-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .jobs-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .jobs-tab {
+        background: transparent;
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 2rem;
+        padding: 0.4rem 1.1rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+        cursor: pointer;
+        color: var(--text-muted, #64748b);
+        transition: background 0.2s, color 0.2s, border-color 0.2s;
+      }
+      .jobs-tab:hover,
+      .jobs-tab.active {
+        background: var(--accent, #6366f1);
+        color: #fff;
+        border-color: var(--accent, #6366f1);
+      }
+      .jobs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.25rem;
+      }
+      .job-card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.65rem;
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 1rem;
+        padding: 1.25rem 1.5rem;
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+      }
+      .job-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(0,0,0,.1);
+        border-color: var(--accent, #6366f1);
+      }
+      .job-card-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+      .job-title {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.4;
+        margin: 0;
+      }
+      .job-badge {
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 0.2rem 0.6rem;
+        border-radius: 2rem;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .job-badge.fulltime { background: #dcfce7; color: #16a34a; }
+      .job-company,
+      .job-location {
+        font-size: 0.875rem;
+        color: var(--text-muted, #64748b);
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .job-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: auto;
+        padding-top: 0.75rem;
+        border-top: 1px solid var(--border, #e2e8f0);
+        font-size: 0.8rem;
+        color: var(--text-muted, #64748b);
+      }
+      .job-cta { color: var(--accent, #6366f1); font-weight: 600; font-size: 0.8rem; }
+      .job-deadline { font-size: 0.78rem; color: #e67e22; font-weight: 500; }
+      .jobs-loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        padding: 3rem;
+        color: var(--text-muted, #64748b);
+        font-size: 1rem;
+      }
+      .jobs-error {
+        text-align: center;
+        padding: 2rem;
+        color: var(--text-muted, #64748b);
+        font-size: 0.95rem;
+      }
+      .jobs-error a { color: var(--accent, #6366f1); text-decoration: underline; }
+      .jobs-source {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        color: var(--text-muted, #64748b);
+      }
+      .jobs-source a { color: var(--accent, #6366f1); }
+      .jobs-count {
+        font-size: 0.85rem;
+        color: var(--text-muted, #64748b);
+        margin-bottom: 1rem;
+        min-height: 1.25rem;
+      }
+      @media (max-width: 600px) {
+        .jobs-filter-bar { flex-direction: column; align-items: flex-start; }
+        .jobs-grid { grid-template-columns: 1fr; }
+      }
+    </style>
   </head>
 
   <body class="page-shell">
@@ -146,6 +275,7 @@
         <nav class="nav-links">
           <a href="#projects" data-i18n="nav_projects">Projects</a>
           <a href="#skills" data-i18n="nav_skills">Toolbox</a>
+          <a href="#jobs" data-i18n="nav_jobs">Jobs</a>
           <a href="#contact" data-i18n="nav_contact">Contact</a>
           <a href="/datastory/" data-i18n="nav_datastory">Data Story</a>
           <a href="/cover-letter/" data-i18n="nav_cover">AI Toolkit</a>
@@ -340,6 +470,38 @@
         </div>
       </section>
 
+      <section id="jobs">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="jobs_eyebrow">Open Roles &middot; Denmark</p>
+            <h2 class="section-title" data-i18n="jobs_title">Latest Data &amp; BI Jobs</h2>
+            <p data-i18n="jobs_desc">Live full-time positions in Denmark across Data Analyst, Business Analyst, Business Intelligence, and BI Specialist roles &mdash; sourced from Jobindex.dk.</p>
+          </div>
+          <div class="jobs-filter-bar">
+            <div class="jobs-tabs" id="jobs-tabs" role="tablist" aria-label="Job category filter">
+              <button class="jobs-tab active" data-query="data analyst" role="tab" aria-selected="true">Data Analyst</button>
+              <button class="jobs-tab" data-query="business analyst" role="tab" aria-selected="false">Business Analyst</button>
+              <button class="jobs-tab" data-query="business intelligence" role="tab" aria-selected="false">Business Intelligence</button>
+              <button class="jobs-tab" data-query="bi specialist" role="tab" aria-selected="false">BI Specialist</button>
+            </div>
+            <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings">
+              <i class="fas fa-sync-alt" aria-hidden="true"></i> Refresh
+            </button>
+          </div>
+          <p class="jobs-count" id="jobs-count" aria-live="polite"></p>
+          <div id="jobs-loading" class="jobs-loading" aria-live="polite">
+            <i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>
+            <span data-i18n="jobs_loading">Loading jobs&hellip;</span>
+          </div>
+          <div id="jobs-grid" class="jobs-grid" role="list"></div>
+          <div id="jobs-error" class="jobs-error" style="display:none;" role="alert"></div>
+          <p class="jobs-source">Powered by <a href="https://www.jobindex.dk/" target="_blank" rel="noopener noreferrer">Jobindex.dk</a> &mdash; updated daily &middot;
+            <a id="jobs-see-all" href="https://www.jobindex.dk/jobsoegning?q=data+analyst&arbejdstid%5B%5D=Fuldtid" target="_blank" rel="noopener noreferrer">See all on Jobindex &#8599;</a>
+            <span id="jobs-updated" style="margin-left:.75rem;"></span>
+          </p>
+        </div>
+      </section>
+
       <section id="for-you" class="for-you-section">
         <div class="container">
           <div class="section-header">
@@ -489,6 +651,7 @@
             <ul>
               <li><a href="/home/#projects">Projects</a></li>
               <li><a href="/home/#skills">Toolbox</a></li>
+              <li><a href="/home/#jobs">Jobs in Denmark</a></li>
               <li><a href="/datastory/">Data Story</a></li>
               <li><a href="/cover-letter/">AI Toolkit</a></li>
             </ul>
@@ -517,6 +680,278 @@
 
     <div class="form-toast"><i class="fas fa-check-circle"></i>Thank you! Your message has been sent.</div>
 
+    <!-- jobs section CSS is in <head> -->
+    <!--
+      /* ===== Jobs Section ===== */
+      .jobs-filter-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .jobs-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .jobs-tab {
+        background: transparent;
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 2rem;
+        padding: 0.4rem 1.1rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+        cursor: pointer;
+        color: var(--text-muted, #64748b);
+        transition: background 0.2s, color 0.2s, border-color 0.2s;
+      }
+      .jobs-tab:hover,
+      .jobs-tab.active {
+        background: var(--accent, #6366f1);
+        color: #fff;
+        border-color: var(--accent, #6366f1);
+      }
+      .jobs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.25rem;
+      }
+      .job-card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.65rem;
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 1rem;
+        padding: 1.25rem 1.5rem;
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+      }
+      .job-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(0,0,0,.1);
+        border-color: var(--accent, #6366f1);
+      }
+      .job-card-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+      .job-title {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.4;
+        margin: 0;
+      }
+      .job-badge {
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 0.2rem 0.6rem;
+        border-radius: 2rem;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .job-badge.fulltime { background: #dcfce7; color: #16a34a; }
+      .job-company,
+      .job-location {
+        font-size: 0.875rem;
+        color: var(--text-muted, #64748b);
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .job-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: auto;
+        padding-top: 0.75rem;
+        border-top: 1px solid var(--border, #e2e8f0);
+        font-size: 0.8rem;
+        color: var(--text-muted, #64748b);
+      }
+      .job-cta { color: var(--accent, #6366f1); font-weight: 600; font-size: 0.8rem; }
+      .job-deadline { font-size: 0.78rem; color: #e67e22; font-weight: 500; }
+      .jobs-loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        padding: 3rem;
+        color: var(--text-muted, #64748b);
+        font-size: 1rem;
+      }
+      .jobs-error {
+        text-align: center;
+        padding: 2rem;
+        color: var(--text-muted, #64748b);
+        font-size: 0.95rem;
+      }
+      .jobs-error a { color: var(--accent, #6366f1); text-decoration: underline; }
+      .jobs-source {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        color: var(--text-muted, #64748b);
+      }
+      .jobs-source a { color: var(--accent, #6366f1); }
+      .jobs-count {
+        font-size: 0.85rem;
+        color: var(--text-muted, #64748b);
+        margin-bottom: 1rem;
+        min-height: 1.25rem;
+      }
+      @media (max-width: 600px) {
+        .jobs-filter-bar { flex-direction: column; align-items: flex-start; }
+        .jobs-grid { grid-template-columns: 1fr; }
+      }
+    -->
+    <script>
+      // === Jobs — Jobindex.dk static JSON (updated daily via GitHub Actions) ===
+      (function () {
+        var JOBS_DATA = null;      // cached after first fetch
+        var currentCategory = 'data analyst';
+
+        var JOBINDEX_SEARCH = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
+
+        function formatDate(iso) {
+          if (!iso) return '';
+          try {
+            return new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+          } catch (e) { return iso; }
+        }
+
+        function esc(str) {
+          return String(str || '')
+            .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        function renderCategory(cat) {
+          var grid    = document.getElementById('jobs-grid');
+          var loading = document.getElementById('jobs-loading');
+          var error   = document.getElementById('jobs-error');
+          var count   = document.getElementById('jobs-count');
+          var seeAll  = document.getElementById('jobs-see-all');
+
+          loading.style.display = 'none';
+          error.style.display   = 'none';
+          grid.innerHTML        = '';
+          if (count) count.textContent = '';
+
+          if (seeAll) {
+            seeAll.href = JOBINDEX_SEARCH.replace('{q}', encodeURIComponent(cat));
+          }
+
+          var jobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
+
+          if (!jobs.length) {
+            error.style.display = 'block';
+            error.innerHTML =
+              'No full-time positions found for this category yet &mdash; jobs refresh daily. ' +
+              '<a href="' + JOBINDEX_SEARCH.replace('{q}', encodeURIComponent(cat)) +
+              '" target="_blank" rel="noopener noreferrer">Search live on Jobindex.dk \u2192</a>';
+            return;
+          }
+
+          if (count) count.textContent = jobs.length + ' full-time position' + (jobs.length === 1 ? '' : 's');
+
+          grid.innerHTML = jobs.map(function (job) {
+            var title   = esc(job.title   || 'Position');
+            var company = esc(job.company || '');
+            var loc     = esc(job.location || 'Denmark');
+            var posted  = formatDate(job.posted);
+            var url     = esc(job.url || '#');
+            var snippet = esc((job.snippet || '').substring(0, 120));
+            return '<a class="job-card" href="' + url + '" target="_blank" rel="noopener noreferrer" role="listitem">' +
+              '<div class="job-card-header">' +
+                '<h3 class="job-title">' + title + '</h3>' +
+                '<span class="job-badge fulltime">Full-time</span>' +
+              '</div>' +
+              (company ? '<div class="job-company"><i class="fas fa-building" aria-hidden="true"></i> ' + company + '</div>' : '') +
+              '<div class="job-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> ' + loc + '</div>' +
+              (snippet ? '<p style="font-size:.8rem;color:var(--text-muted,#64748b);margin:0;line-height:1.4;">' + snippet + '\u2026</p>' : '') +
+              '<div class="job-footer">' +
+                (posted ? '<span class="job-date"><i class="fas fa-clock" aria-hidden="true"></i> ' + posted + '</span>' : '<span></span>') +
+                '<span class="job-cta">View &amp; Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></span>' +
+              '</div>' +
+            '</a>';
+          }).join('');
+        }
+
+        function showLoading() {
+          var loading = document.getElementById('jobs-loading');
+          var error   = document.getElementById('jobs-error');
+          var grid    = document.getElementById('jobs-grid');
+          var count   = document.getElementById('jobs-count');
+          if (loading) loading.style.display = 'flex';
+          if (error)   error.style.display   = 'none';
+          if (grid)    grid.innerHTML         = '';
+          if (count)   count.textContent      = '';
+        }
+
+        function showError(msg) {
+          var loading = document.getElementById('jobs-loading');
+          var error   = document.getElementById('jobs-error');
+          if (loading) loading.style.display = 'none';
+          if (error)  { error.style.display = 'block'; error.innerHTML = msg; }
+        }
+
+        function loadData() {
+          showLoading();
+          fetch('/assets/data/jobs.json?v=' + Date.now())
+            .then(function (res) {
+              if (!res.ok) throw new Error('HTTP ' + res.status);
+              return res.json();
+            })
+            .then(function (data) {
+              JOBS_DATA = data;
+              // Show last-updated timestamp
+              var ts = document.getElementById('jobs-updated');
+              if (ts && data.updated) {
+                ts.textContent = 'Last updated: ' + formatDate(data.updated);
+              }
+              renderCategory(currentCategory);
+            })
+            .catch(function (err) {
+              showError(
+                'Could not load jobs data. <a href="https://www.jobindex.dk/jobsoegning?q=' +
+                encodeURIComponent(currentCategory) +
+                '&arbejdstid%5B%5D=Fuldtid" target="_blank" rel="noopener noreferrer">Search on Jobindex.dk \u2192</a>'
+              );
+            });
+        }
+
+        document.querySelectorAll('.jobs-tab').forEach(function (tab) {
+          tab.addEventListener('click', function () {
+            document.querySelectorAll('.jobs-tab').forEach(function (t) {
+              t.classList.remove('active');
+              t.setAttribute('aria-selected', 'false');
+            });
+            this.classList.add('active');
+            this.setAttribute('aria-selected', 'true');
+            currentCategory = this.dataset.query;
+            if (JOBS_DATA) {
+              renderCategory(currentCategory);  // data already cached
+            } else {
+              loadData();
+            }
+          });
+        });
+
+        var refreshBtn = document.getElementById('jobs-refresh');
+        if (refreshBtn) refreshBtn.addEventListener('click', function () {
+          JOBS_DATA = null;
+          loadData();
+        });
+
+        loadData();
+      })();
+    </script>
     <script src="/assets/js/main.js"></script>
     <script>
       (function () {
@@ -606,7 +1041,12 @@
             persona_recruiter_cta: "Download CV →",
             persona_collab_title: "Collaborator?",
             persona_collab_desc: "Have a data project or research idea? Let's explore how we can work together.",
-            persona_collab_cta: "Let's talk →"
+            persona_collab_cta: "Let's talk →",
+            jobs_eyebrow: "Open Roles \u00b7 Denmark",
+            jobs_title: "Latest Data & BI Jobs",
+            jobs_desc: "Live full-time positions in Denmark across Data Analyst, Business Analyst, Business Intelligence, and BI Specialist roles \u2014 sourced from Jobindex.dk.",
+            jobs_loading: "Loading jobs\u2026",
+            nav_jobs: "Jobs"
           },
           da: {
             nav_projects: "Projekter",
@@ -693,7 +1133,12 @@
             persona_recruiter_cta: "Download CV →",
             persona_collab_title: "Samarbejdspartner?",
             persona_collab_desc: "Har du et dataprojekt eller forskningsidé? Lad os udforske et samarbejde.",
-            persona_collab_cta: "Lad os tale →"
+            persona_collab_cta: "Lad os tale →",
+            jobs_eyebrow: "Åbne stillinger \u00b7 Danmark",
+            jobs_title: "Seneste Data & BI stillinger",
+            jobs_desc: "Aktuelle fuldtidsstillinger i Danmark inden for Data Analyst, Business Analyst, Business Intelligence og BI Specialist \u2014 hentet fra Jobindex.dk.",
+            jobs_loading: "Indlæser stillinger\u2026",
+            nav_jobs: "Stillinger"
           }
         };
 
