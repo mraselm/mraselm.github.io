@@ -332,6 +332,13 @@
         justify-content: space-between;
         gap: 0.5rem;
       }
+      .job-badges {
+        display: flex;
+        gap: 0.35rem;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
       .job-title {
         font-size: 1rem;
         font-weight: 700;
@@ -360,6 +367,16 @@
         background: rgba(245,158,11,0.1);
         color: #b45309;
         border: 1px solid rgba(245,158,11,0.22);
+      }
+      .job-badge.new-badge {
+        background: rgba(239,68,68,0.1);
+        color: #dc2626;
+        border: 1px solid rgba(239,68,68,0.25);
+        animation: pulse-new 2s ease-in-out infinite;
+      }
+      @keyframes pulse-new {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.3); }
+        50%       { box-shadow: 0 0 0 4px rgba(239,68,68,0); }
       }
       .job-company, .job-location {
         font-size: .875rem;
@@ -1060,13 +1077,17 @@
             }
             var badgeCls = jt === 'part-time' ? 'parttime' : (jt === 'student' ? 'student' : 'fulltime');
             var badgeLbl = jt === 'part-time' ? 'Part-time' : (jt === 'student' ? 'Student' : 'Full-time');
+            var isNew    = job.posted && (Date.now() - new Date(job.posted).getTime()) < 48 * 60 * 60 * 1000;
 
             return (
               '<a class="job-card" href="' + url + '" target="_blank" rel="noopener noreferrer"' +
               ' role="listitem" style="--cat-color:' + c + '">' +
               '<div class="job-card-header">' +
               '<h3 class="job-title">' + title + '</h3>' +
+              '<div class="job-badges">' +
+              (isNew ? '<span class="job-badge new-badge">&#x2605; New</span>' : '') +
               '<span class="job-badge ' + badgeCls + '">' + badgeLbl + '</span>' +
+              '</div>' +
               '</div>' +
               (company ? '<div class="job-company"><i class="fas fa-building" aria-hidden="true"></i> ' + company + '</div>' : '') +
               '<div class="job-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> ' + loc + '</div>' +
