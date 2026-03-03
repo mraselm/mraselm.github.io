@@ -135,17 +135,23 @@
       /*  Sticky filter bar  */
       .jobs-filter-bar {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        padding: 1rem 0 0.75rem;
+        flex-direction: column;
+        gap: 0;
+        padding: 0.85rem 0 0;
         position: sticky;
         top: 68px;
         background: var(--body-bg, #f8fafc);
         z-index: 10;
         border-bottom: 1px solid var(--border);
         margin-bottom: 1.5rem;
+      }
+      .filter-top-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        padding-bottom: 0.65rem;
       }
       .jobs-tabs {
         display: flex;
@@ -158,7 +164,7 @@
         gap: 0.45rem;
         background: transparent;
         border: 1px solid var(--border, #e2e8f0);
-        border-radius: 2rem;
+        border-radius: 10px;
         padding: 0.45rem 1.1rem;
         font-size: 0.85rem;
         font-weight: 600;
@@ -357,6 +363,53 @@
         display: inline-block;
       }
 
+      /* ── City filter row ── */
+      .city-filter-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        padding: 0.6rem 0 0.5rem;
+        border-top: 1px solid var(--border);
+      }
+      .city-filter-label {
+        font-size: 0.73rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted);
+        margin-right: 0.25rem;
+        white-space: nowrap;
+      }
+      .city-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        background: transparent;
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 8px;
+        padding: 0.28rem 0.75rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        cursor: pointer;
+        color: var(--muted, #64748b);
+        font-family: inherit;
+        transition: background 0.18s, color 0.18s, border-color 0.18s;
+        white-space: nowrap;
+      }
+      .city-btn:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+        background: rgba(99,102,241,0.05);
+      }
+      .city-btn.active {
+        background: rgba(99,102,241,0.1);
+        border-color: var(--accent);
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .city-btn i { font-size: 0.72rem; opacity: 0.7; }
+
       @keyframes spin {
         from { transform: rotate(0deg); }
         to   { transform: rotate(360deg); }
@@ -365,8 +418,9 @@
       @media (max-width: 640px) {
         .jobs-hero-inner  { grid-template-columns: 1fr; }
         .jobs-hero-cta    { align-items: flex-start; }
-        .jobs-filter-bar  { top: 60px; }
+        .jobs-filter-bar  { top: 58px; }
         .jobs-grid        { grid-template-columns: 1fr; }
+        .filter-top-row   { gap: 0.5rem; }
       }
     </style>
   </head>
@@ -446,10 +500,6 @@
                   <span class="hero-stat-num">4</span>
                   <span class="hero-stat-label">Categories</span>
                 </div>
-                <div class="hero-stat">
-                  <span class="hero-stat-num">Daily</span>
-                  <span class="hero-stat-label">Refresh Rate</span>
-                </div>
               </div>
             </div>
             <div class="jobs-hero-cta">
@@ -469,48 +519,61 @@
         <div class="container">
           <h2 id="jobs-section-heading" class="sr-only">Job listings</h2>
 
-          <!-- Sticky filter / tab bar -->
-          <div class="jobs-filter-bar" role="toolbar" aria-label="Filter by category">
-            <div class="jobs-tabs" id="jobs-tabs" role="tablist" aria-label="Job categories">
-              <button class="jobs-tab active"
-                data-query="data analyst" data-color="#6366f1" style="--tab-color:#6366f1"
-                role="tab" aria-selected="true" aria-controls="jobs-grid">
-                <i class="fas fa-chart-bar" aria-hidden="true"></i>
-                Data Analyst
-                <span class="tab-count" id="tc-da">0</span>
-              </button>
-              <button class="jobs-tab"
-                data-query="business analyst" data-color="#0ea5e9" style="--tab-color:#0ea5e9"
-                role="tab" aria-selected="false" aria-controls="jobs-grid">
-                <i class="fas fa-briefcase" aria-hidden="true"></i>
-                Business Analyst
-                <span class="tab-count" id="tc-ba">0</span>
-              </button>
-              <button class="jobs-tab"
-                data-query="business intelligence" data-color="#8b5cf6" style="--tab-color:#8b5cf6"
-                role="tab" aria-selected="false" aria-controls="jobs-grid">
-                <i class="fas fa-brain" aria-hidden="true"></i>
-                Business Intelligence
-                <span class="tab-count" id="tc-bi">0</span>
-              </button>
-              <button class="jobs-tab"
-                data-query="bi specialist" data-color="#f59e0b" style="--tab-color:#f59e0b"
-                role="tab" aria-selected="false" aria-controls="jobs-grid">
-                <i class="fas fa-database" aria-hidden="true"></i>
-                BI Specialist
-                <span class="tab-count" id="tc-bis">0</span>
-              </button>
+          <!-- Sticky filter bar (category tabs + city filter) -->
+          <div class="jobs-filter-bar" role="toolbar" aria-label="Filter jobs">
+            <div class="filter-top-row">
+              <div class="jobs-tabs" id="jobs-tabs" role="tablist" aria-label="Job categories">
+                <button class="jobs-tab active"
+                  data-query="data analyst" data-color="#6366f1" style="--tab-color:#6366f1"
+                  role="tab" aria-selected="true" aria-controls="jobs-grid">
+                  <i class="fas fa-chart-bar" aria-hidden="true"></i>
+                  Data Analyst
+                  <span class="tab-count" id="tc-da">0</span>
+                </button>
+                <button class="jobs-tab"
+                  data-query="business analyst" data-color="#0ea5e9" style="--tab-color:#0ea5e9"
+                  role="tab" aria-selected="false" aria-controls="jobs-grid">
+                  <i class="fas fa-briefcase" aria-hidden="true"></i>
+                  Business Analyst
+                  <span class="tab-count" id="tc-ba">0</span>
+                </button>
+                <button class="jobs-tab"
+                  data-query="business intelligence" data-color="#8b5cf6" style="--tab-color:#8b5cf6"
+                  role="tab" aria-selected="false" aria-controls="jobs-grid">
+                  <i class="fas fa-brain" aria-hidden="true"></i>
+                  Business Intelligence
+                  <span class="tab-count" id="tc-bi">0</span>
+                </button>
+                <button class="jobs-tab"
+                  data-query="bi specialist" data-color="#f59e0b" style="--tab-color:#f59e0b"
+                  role="tab" aria-selected="false" aria-controls="jobs-grid">
+                  <i class="fas fa-database" aria-hidden="true"></i>
+                  BI Specialist
+                  <span class="tab-count" id="tc-bis">0</span>
+                </button>
+              </div>
+
+              <div class="filter-controls">
+                <span class="jobs-count" id="jobs-count" aria-live="polite"></span>
+                <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
+                  <i class="fas fa-sync-alt" aria-hidden="true"></i>
+                </button>
+              </div>
             </div>
 
-            <div class="filter-controls">
-              <span class="jobs-count" id="jobs-count" aria-live="polite"></span>
-              <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
-                <i class="fas fa-sync-alt" aria-hidden="true"></i>
-              </button>
+            <!-- City filter row (lives inside the sticky bar) -->
+            <div class="city-filter-row" id="city-filter-row" role="group" aria-label="Filter by city">
+              <span class="city-filter-label"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> City</span>
+              <button class="city-btn active" data-city="all">All Denmark</button>
+              <button class="city-btn" data-city="copenhagen"><i class="fas fa-city" aria-hidden="true"></i>Copenhagen</button>
+              <button class="city-btn" data-city="aarhus"><i class="fas fa-city" aria-hidden="true"></i>Aarhus</button>
+              <button class="city-btn" data-city="odense"><i class="fas fa-city" aria-hidden="true"></i>Odense</button>
+              <button class="city-btn" data-city="aalborg"><i class="fas fa-city" aria-hidden="true"></i>Aalborg</button>
+              <button class="city-btn" data-city="esbjerg"><i class="fas fa-city" aria-hidden="true"></i>Esbjerg</button>
+              <button class="city-btn" data-city="vejle"><i class="fas fa-city" aria-hidden="true"></i>Vejle</button>
+              <button class="city-btn" data-city="remote"><i class="fas fa-laptop-house" aria-hidden="true"></i>Remote</button>
             </div>
           </div>
-
-          <!-- Job grid -->
           <div id="jobs-grid" class="jobs-grid"
                role="list" aria-live="polite" aria-label="Job listings"></div>
 
@@ -609,7 +672,35 @@
         var JOBS_DATA        = null;
         var currentCategory  = 'data analyst';
         var currentColor     = '#6366f1';
+        var currentCity      = 'all';
         var JOBINDEX_SEARCH  = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
+
+        /* City keyword match map */
+        var CITY_KEYWORDS = {
+          'copenhagen': ['copenhagen', 'k\u00f8benhavn', 'kbh', 'cph', 'frederiksberg', 'gentofte', 'lyngby', 'gladsaxe', 'hvidovre', 'br\u00f8ndby'],
+          'aarhus':     ['aarhus', '\u00e5rhus'],
+          'odense':     ['odense'],
+          'aalborg':    ['aalborg', '\u00e5lborg'],
+          'esbjerg':    ['esbjerg'],
+          'vejle':      ['vejle'],
+          'remote':     ['remote', 'hjemmearbejde', 'hybrid', 'anywhere']
+        };
+
+        function matchesCity(job, city) {
+          if (city === 'all') return true;
+          var haystack = ((job.location || '') + ' ' + (job.title || '') + ' ' + (job.snippet || '')).toLowerCase();
+          var keywords = CITY_KEYWORDS[city] || [city];
+          return keywords.some(function (kw) { return haystack.indexOf(kw) !== -1; });
+        }
+
+        /* Global helper so inline error button can call it */
+        window._jobsShowAllCities = function () {
+          document.querySelectorAll('.city-btn').forEach(function (b) { b.classList.remove('active'); });
+          var allBtn = document.querySelector('.city-btn[data-city="all"]');
+          if (allBtn) allBtn.classList.add('active');
+          currentCity = 'all';
+          renderCategory(currentCategory, currentColor);
+        };
 
         var TAB_COUNT_IDS = {
           'data analyst':        'tc-da',
@@ -687,7 +778,7 @@
           });
         }
 
-        /*  Render jobs for a category  */
+        /*  Render jobs for a category (with optional city filter)  */
         function renderCategory(cat, color) {
           var grid   = document.getElementById('jobs-grid');
           var error  = document.getElementById('jobs-error');
@@ -696,9 +787,14 @@
 
           if (seeAll) seeAll.href = JOBINDEX_SEARCH.replace('{q}', encodeURIComponent(cat));
 
-          var jobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
+          var allJobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
 
-          if (!jobs.length) {
+          /* Apply city filter */
+          var jobs = currentCity === 'all'
+            ? allJobs
+            : allJobs.filter(function (j) { return matchesCity(j, currentCity); });
+
+          if (!allJobs.length) {
             if (grid)  grid.innerHTML = '';
             if (count) count.textContent = '';
             if (error) {
@@ -712,8 +808,23 @@
             return;
           }
 
+          if (!jobs.length) {
+            if (grid)  grid.innerHTML = '';
+            if (count) count.textContent = '';
+            if (error) {
+              error.style.display = 'block';
+              var cityLabel = document.querySelector('.city-btn.active');
+              var cityName  = cityLabel ? cityLabel.textContent.trim() : currentCity;
+              error.innerHTML =
+                '<div class="jobs-empty-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>' +
+                '<p>No listings found in <strong>' + esc(cityName) + '</strong> for this category.</p>' +
+                '<button class="btn ghost" onclick="_jobsShowAllCities()" style="margin:0 auto;">Show all cities</button>';
+            }
+            return;
+          }
+
           if (error) error.style.display = 'none';
-          if (count) count.textContent = jobs.length + ' position' + (jobs.length === 1 ? '' : 's');
+          if (count) count.textContent = jobs.length + ' position' + (jobs.length === 1 ? '' : 's') + (currentCity !== 'all' ? ' in ' + (document.querySelector('.city-btn.active') ? document.querySelector('.city-btn.active').textContent.trim() : '') : '');
 
           var c = esc(color || currentColor);
           grid.innerHTML = jobs.map(function (job) {
@@ -799,6 +910,16 @@
             loadData();
           });
         }
+
+        /*  City button click handler  */
+        document.querySelectorAll('.city-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            document.querySelectorAll('.city-btn').forEach(function (b) { b.classList.remove('active'); });
+            this.classList.add('active');
+            currentCity = this.dataset.city;
+            if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
+          });
+        });
 
         loadData();
       })();
