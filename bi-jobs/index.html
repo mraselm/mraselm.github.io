@@ -14,7 +14,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="format-detection" content="telephone=no" />
-    <meta name="description" content="Live full-time Data Analyst, Business Analyst, Business Intelligence, and BI Specialist jobs in Denmark  sourced daily from Jobindex.dk." />
+    <meta name="description" content="Live full-time, part-time, and student Data Analyst, Business Analyst, Business Intelligence, and BI Specialist jobs in Denmark sourced daily from Jobindex.dk." />
     <meta name="keywords" content="Data Analyst jobs Denmark, Business Analyst Denmark, BI Specialist jobs, Business Intelligence Denmark, Jobindex, full-time data jobs" />
     <meta name="author" content="Rasel Mia" />
     <meta name="robots" content="index, follow" />
@@ -303,6 +303,16 @@
         color: #16a34a;
         border: 1px solid rgba(22,163,74,0.22);
       }
+      .job-badge.parttime {
+        background: rgba(14,165,233,0.1);
+        color: #0369a1;
+        border: 1px solid rgba(14,165,233,0.22);
+      }
+      .job-badge.student {
+        background: rgba(245,158,11,0.1);
+        color: #b45309;
+        border: 1px solid rgba(245,158,11,0.22);
+      }
       .job-company, .job-location {
         font-size: .875rem;
         color: var(--muted, #64748b);
@@ -410,6 +420,42 @@
       }
       .city-btn i { font-size: 0.72rem; opacity: 0.7; }
 
+      /* ── Job type filter row ── */
+      .type-filter-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        padding: 0.5rem 0 0.6rem;
+        border-top: 1px solid var(--border);
+      }
+      .type-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        background: transparent;
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 8px;
+        padding: 0.28rem 0.75rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        cursor: pointer;
+        color: var(--muted, #64748b);
+        font-family: inherit;
+        transition: background 0.18s, color 0.18s, border-color 0.18s;
+        white-space: nowrap;
+      }
+      .type-btn:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+        background: rgba(99,102,241,0.05);
+      }
+      .type-btn.active                              { background:rgba(99,102,241,0.10); border-color:var(--accent); color:var(--accent); font-weight:700; }
+      .type-btn[data-type="full-time"].active       { background:rgba(22,163,74,0.10);  border-color:#16a34a; color:#16a34a; }
+      .type-btn[data-type="part-time"].active       { background:rgba(14,165,233,0.10); border-color:#0ea5e9; color:#0369a1; }
+      .type-btn[data-type="student"].active         { background:rgba(245,158,11,0.10); border-color:#f59e0b; color:#b45309; }
+      .type-btn i { font-size: 0.72rem; opacity: 0.7; }
+
       @keyframes spin {
         from { transform: rotate(0deg); }
         to   { transform: rotate(360deg); }
@@ -488,8 +534,8 @@
             <div>
               <h1 id="jobs-heading">Data &amp; BI Jobs</h1>
               <p class="lead">
-                Curated full-time positions in Denmark across Data Analyst, Business Analyst,
-                Business Intelligence, and BI Specialist roles &mdash; sourced daily from Jobindex.dk.
+                Curated full-time, part-time and student positions in Denmark across Data Analyst,
+                Business Analyst, Business Intelligence, and BI Specialist roles &mdash; sourced daily from Jobindex.dk.
               </p>
               <div class="hero-stat-row" aria-live="polite" aria-label="Job listing statistics">
                 <div class="hero-stat">
@@ -572,6 +618,15 @@
               <button class="city-btn" data-city="esbjerg"><i class="fas fa-city" aria-hidden="true"></i>Esbjerg</button>
               <button class="city-btn" data-city="vejle"><i class="fas fa-city" aria-hidden="true"></i>Vejle</button>
               <button class="city-btn" data-city="remote"><i class="fas fa-laptop-house" aria-hidden="true"></i>Remote</button>
+            </div>
+
+            <!-- Job type filter row -->
+            <div class="type-filter-row" id="type-filter-row" role="group" aria-label="Filter by job type">
+              <span class="city-filter-label"><i class="fas fa-clock" aria-hidden="true"></i> Type</span>
+              <button class="type-btn active" data-type="all">All Types</button>
+              <button class="type-btn" data-type="full-time"><i class="fas fa-briefcase" aria-hidden="true"></i>Full Time</button>
+              <button class="type-btn" data-type="part-time"><i class="fas fa-clock" aria-hidden="true"></i>Part Time</button>
+              <button class="type-btn" data-type="student"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Student Job</button>
             </div>
           </div>
           <div id="jobs-grid" class="jobs-grid"
@@ -673,6 +728,7 @@
         var currentCategory  = 'data analyst';
         var currentColor     = '#6366f1';
         var currentCity      = 'all';
+        var currentType      = 'all';
         var JOBINDEX_SEARCH  = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
 
         /* City keyword match map */
@@ -699,6 +755,14 @@
           var allBtn = document.querySelector('.city-btn[data-city="all"]');
           if (allBtn) allBtn.classList.add('active');
           currentCity = 'all';
+          renderCategory(currentCategory, currentColor);
+        };
+
+        window._jobsShowAllTypes = function () {
+          document.querySelectorAll('.type-btn').forEach(function (b) { b.classList.remove('active'); });
+          var allBtn = document.querySelector('.type-btn[data-type="all"]');
+          if (allBtn) allBtn.classList.add('active');
+          currentType = 'all';
           renderCategory(currentCategory, currentColor);
         };
 
@@ -789,10 +853,12 @@
 
           var allJobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
 
-          /* Apply city filter */
-          var jobs = currentCity === 'all'
-            ? allJobs
-            : allJobs.filter(function (j) { return matchesCity(j, currentCity); });
+          /* Apply city + type filters */
+          var jobs = allJobs.filter(function (j) {
+            var cityOk = currentCity === 'all' || matchesCity(j, currentCity);
+            var typeOk = currentType === 'all' || (j.job_type || 'full-time') === currentType;
+            return cityOk && typeOk;
+          });
 
           if (!allJobs.length) {
             if (grid)  grid.innerHTML = '';
@@ -813,34 +879,47 @@
             if (count) count.textContent = '';
             if (error) {
               error.style.display = 'block';
-              var cityLabel = document.querySelector('.city-btn.active');
-              var cityName  = cityLabel ? cityLabel.textContent.trim() : currentCity;
+              var _acb = document.querySelector('.city-btn.active');
+              var _atb = document.querySelector('.type-btn.active');
+              var _fd  = [];
+              if (currentCity !== 'all') _fd.push(_acb ? _acb.textContent.trim() : currentCity);
+              if (currentType !== 'all') _fd.push(_atb ? _atb.textContent.trim() : currentType);
               error.innerHTML =
-                '<div class="jobs-empty-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>' +
-                '<p>No listings found in <strong>' + esc(cityName) + '</strong> for this category.</p>' +
-                '<button class="btn ghost" onclick="_jobsShowAllCities()" style="margin:0 auto;">Show all cities</button>';
+                '<div class="jobs-empty-icon"><i class="fas fa-filter" aria-hidden="true"></i></div>' +
+                '<p>No listings match <strong>' + esc(_fd.join(' + ')) + '</strong> for this category.</p>' +
+                '<span style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;">' +
+                (currentCity !== 'all' ? '<button class="btn ghost" onclick="_jobsShowAllCities()">All cities</button>' : '') +
+                (currentType !== 'all' ? '<button class="btn ghost" onclick="_jobsShowAllTypes()">All types</button>' : '') +
+                '</span>';
             }
             return;
           }
 
           if (error) error.style.display = 'none';
-          if (count) count.textContent = jobs.length + ' position' + (jobs.length === 1 ? '' : 's') + (currentCity !== 'all' ? ' in ' + (document.querySelector('.city-btn.active') ? document.querySelector('.city-btn.active').textContent.trim() : '') : '');
+          var _activeCity = document.querySelector('.city-btn.active');
+          var _activeType = document.querySelector('.type-btn.active');
+          var _suffix = (currentType !== 'all' ? ' \u00b7 ' + (_activeType ? _activeType.textContent.trim() : '') : '')
+                      + (currentCity !== 'all' ? ' in ' + (_activeCity ? _activeCity.textContent.trim() : '') : '');
+          if (count) count.textContent = jobs.length + ' position' + (jobs.length === 1 ? '' : 's') + _suffix;
 
           var c = esc(color || currentColor);
           grid.innerHTML = jobs.map(function (job) {
-            var title   = esc(job.title    || 'Position');
-            var company = esc(job.company  || '');
-            var loc     = esc(job.location || 'Denmark');
-            var posted  = formatDate(job.posted);
-            var url     = esc(job.url      || '#');
-            var snippet = esc((job.snippet || '').substring(0, 130));
+            var title    = esc(job.title    || 'Position');
+            var company  = esc(job.company  || '');
+            var loc      = esc(job.location || 'Denmark');
+            var posted   = formatDate(job.posted);
+            var url      = esc(job.url      || '#');
+            var snippet  = esc((job.snippet || '').substring(0, 130));
+            var jt       = job.job_type || 'full-time';
+            var badgeCls = jt === 'part-time' ? 'parttime' : (jt === 'student' ? 'student' : 'fulltime');
+            var badgeLbl = jt === 'part-time' ? 'Part-time' : (jt === 'student' ? 'Student' : 'Full-time');
 
             return (
               '<a class="job-card" href="' + url + '" target="_blank" rel="noopener noreferrer"' +
               ' role="listitem" style="--cat-color:' + c + '">' +
               '<div class="job-card-header">' +
               '<h3 class="job-title">' + title + '</h3>' +
-              '<span class="job-badge fulltime">Full-time</span>' +
+              '<span class="job-badge ' + badgeCls + '">' + badgeLbl + '</span>' +
               '</div>' +
               (company ? '<div class="job-company"><i class="fas fa-building" aria-hidden="true"></i> ' + company + '</div>' : '') +
               '<div class="job-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> ' + loc + '</div>' +
@@ -917,6 +996,16 @@
             document.querySelectorAll('.city-btn').forEach(function (b) { b.classList.remove('active'); });
             this.classList.add('active');
             currentCity = this.dataset.city;
+            if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
+          });
+        });
+
+        /*  Job type button click handler  */
+        document.querySelectorAll('.type-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            document.querySelectorAll('.type-btn').forEach(function (b) { b.classList.remove('active'); });
+            this.classList.add('active');
+            currentType = this.dataset.type;
             if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
           });
         });

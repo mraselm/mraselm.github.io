@@ -25,8 +25,42 @@ import requests
 # Configuration
 # ---------------------------------------------------------------------------
 
-MAX_PER_CATEGORY = 20    # jobs to KEEP per category after filter & dedup
+MAX_PER_TYPE     = 10    # jobs to KEEP per job-type per category after filter & dedup
 FETCH_PER_QUERY  = 30    # jobs to FETCH from Jobindex per individual query
+
+# Job types to fetch — keys become the 'job_type' field written to jobs.json.
+# Values are the Jobindex 'arbejdstid[]' URL-parameter values.
+# NOTE: Jobindex RSS honours these for regular job-type filtering.
+JOB_TYPES_PARAM: dict[str, str] = {
+    "full-time": "Fuldtid",
+    "part-time": "Deltid",
+}
+
+# Extra queries run WITHOUT an arbejdstid filter to surface
+# student-assistant (studentermedhjælper / studiejob) positions per category.
+STUDENT_QUERIES: dict[str, list[str]] = {
+    "data analyst": [
+        "studentermedhj%C3%A6lper+%22data+analyst%22",
+        "studiejob+%22data+analyst%22",
+        "studentermedhj%C3%A6lper+dataanalytiker",
+    ],
+    "business analyst": [
+        "studentermedhj%C3%A6lper+%22business+analyst%22",
+        "studiejob+%22business+analyst%22",
+        "studentermedhj%C3%A6lper+forretningsanalytiker",
+    ],
+    "business intelligence": [
+        "studentermedhj%C3%A6lper+%22business+intelligence%22",
+        "studiejob+%22business+intelligence%22",
+        "studentermedhj%C3%A6lper+%22Power+BI%22",
+        "studentermedhj%C3%A6lper+%22BI+analyst%22",
+    ],
+    "bi specialist": [
+        "studentermedhj%C3%A6lper+%22BI+specialist%22",
+        "studentermedhj%C3%A6lper+%22business+intelligence%22",
+        "studiejob+%22Power+BI%22",
+    ],
+}
 
 # Each category maps to a list of quoted-phrase queries.
 # %22…%22 = URL-encoded double-quotes, forces Jobindex phrase search.
@@ -104,9 +138,15 @@ TITLE_KEYWORDS: dict[str, list[str]] = {
 }
 
 # Jobindex XML RSS endpoint — jobsoegning.xml works; /rss returns 404
+# {query}, {maxcount}, and {jobtype} are filled at runtime.
 RSS_URL = (
     "https://www.jobindex.dk/jobsoegning.xml"
-    f"?q={{query}}&maxcount={FETCH_PER_QUERY}&arbejdstid%5B%5D=Fuldtid"
+    "?q={query}&maxcount={maxcount}&arbejdstid%5B%5D={jobtype}"
+)
+# Used for student queries — no arbejdstid filter applied.
+RSS_URL_NOTYPE = (
+    "https://www.jobindex.dk/jobsoegning.xml"
+    "?q={query}&maxcount={maxcount}"
 )
 
 HEADERS = {
@@ -298,9 +338,12 @@ def title_matches(title: str, keywords: list[str]) -> bool:
 # Fetch & parse
 # ---------------------------------------------------------------------------
 
-def fetch_rss(query: str) -> list[ET.Element]:
-    """Fetch and parse one RSS query. Returns list of <item> elements."""
-    url = RSS_URL.format(query=query)
+def fetch_rss(query: str, job_type_param: str | None = "Fuldtid") -> list[ET.Element]:
+    """Fetch and parse one RSS query. job_type_param=None omits the filter."""
+    if job_type_param:
+        url = RSS_URL.format(query=query, maxcount=FETCH_PER_QUERY, jobtype=job_type_param)
+    else:
+        url = RSS_URL_NOTYPE.format(query=query, maxcount=FETCH_PER_QUERY)
     try:
         resp = requests.get(url, headers=HEADERS, timeout=20)
         resp.raise_for_status()
@@ -351,30 +394,58 @@ def parse_item(item: ET.Element) -> dict | None:
 
 def fetch_category(label: str, queries: list[str]) -> list[dict]:
     """
-    Run all queries for a category, merge, deduplicate by URL,
-    apply title keyword filter, return up to MAX_PER_CATEGORY jobs.
+    Fetch jobs across full-time, part-time, and student types.
+
+    Strategy:
+    - Full-time and part-time use the CATEGORIES queries with the
+      arbejdstid[] filter so Jobindex only returns matching job types.
+    - Student jobs use dedicated STUDENT_QUERIES without any filter so
+      that role-specific student listings are captured correctly.
+    - Global URL deduplication ensures each job URL appears only ONCE,
+      labelled by the type in which it was first encountered.
     """
-    seen: set[str] = set()
-    all_jobs: list[dict] = []
+    kws         = TITLE_KEYWORDS.get(label, [])
+    global_seen: set[str] = set()   # dedup across ALL types
+    result: list[dict] = []
 
-    for q in queries:
-        for item in fetch_rss(q):
+    # Full-time and part-time (use arbejdstid[] filter) ----------------------
+    for type_label, type_param in JOB_TYPES_PARAM.items():
+        type_jobs: list[dict] = []
+        for q in queries:
+            for item in fetch_rss(q, type_param):
+                job = parse_item(item)
+                if job and job["url"] not in global_seen:
+                    global_seen.add(job["url"])
+                    job["job_type"] = type_label
+                    type_jobs.append(job)
+
+        raw = len(type_jobs)
+        if kws:
+            type_jobs = [j for j in type_jobs if title_matches(j["title"], kws)]
+        kept = type_jobs[:MAX_PER_TYPE]
+        result.extend(kept)
+        print(f"  [{type_label:10}]  raw={raw:2}  after_filter={len(type_jobs):2}  kept={len(kept):2}")
+
+    # Student jobs (dedicated queries, no arbejdstid filter) -----------------
+    student_queries = STUDENT_QUERIES.get(label, [])
+    student_jobs: list[dict] = []
+    for q in student_queries:
+        for item in fetch_rss(q, None):
             job = parse_item(item)
-            if job and job["url"] not in seen:
-                seen.add(job["url"])
-                all_jobs.append(job)
+            if job and job["url"] not in global_seen:
+                global_seen.add(job["url"])
+                job["job_type"] = "student"
+                student_jobs.append(job)
 
-    print(f"  {len(all_jobs)} unique jobs fetched from {len(queries)} queries")
+    raw_s = len(student_jobs)
+    # Skip title whitelist for students: the dedicated STUDENT_QUERIES already
+    # embed category-relevant terms, so filtering by title keywords would
+    # incorrectly drop roles titled "Studentermedhjælper til [role]".
+    kept_s = student_jobs[:MAX_PER_TYPE]
+    result.extend(kept_s)
+    print(f"  [{'student':10}]  raw={raw_s:2}  after_filter={len(student_jobs):2}  kept={len(kept_s):2}")
 
-    # Title whitelist filter
-    kws = TITLE_KEYWORDS.get(label, [])
-    if kws:
-        before = len(all_jobs)
-        all_jobs = [j for j in all_jobs if title_matches(j["title"], kws)]
-        print(f"  {before} -> {len(all_jobs)} after title filter")
-
-    result = all_jobs[:MAX_PER_CATEGORY]
-    print(f"  => {len(result)} jobs saved for '{label}'")
+    print(f"  => {len(result)} total jobs for '{label}'")
     return result
 
 

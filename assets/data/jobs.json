@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T01:48:56Z",
+  "updated": "2026-03-03T02:01:15Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -10,7 +10,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1640499",
         "posted": "2026-02-19",
         "snippet": "If you are looking to contribute to the decarbonisation of maritime shipping, this is an ideal project and part-time position for you.At DTU Chemical Engineering, as part of SEAFAIRER (Horizon Europe Innovation Action), you will s",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "AI Data Analyst",
@@ -19,7 +20,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1640060",
         "posted": "2026-02-18",
         "snippet": "Vil du være med til at analysere Telenors netværks- og kundedata og omsætte dem til kundeorienterede handlinger - og samtidig bidrage til at udvikle rapporteringsløsninger og AI‑initiativer, der kommer til at forme Telenors arbejd",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Finance Data Analyst",
@@ -28,7 +30,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1639996",
         "posted": "2026-02-18",
         "snippet": "Du får en central rolle i at strukturere og videreudvikle vores data med særligt fokus på definition, struktur og kvalitetssikring af vores hoved-KPI’er herunder churn, sign-ups, revenue metrics, etc.I stillingen bliver du en del",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Master Data Analyst",
@@ -37,7 +40,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1639743",
         "posted": "2026-02-17",
         "snippet": "Passionate about turning data into insight and bridging business and IT?You will play a key role in shaping how data supports decision-making across Wrist. You work hands-on with master data, ensuring high quality and consistency,",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Data Analyst for Molecular Endocrinology and Stem Cell Research Unit (KMEB)",
@@ -46,7 +50,8 @@
         "url": "https://www.jobindex.dk/vis-job/r13655457",
         "posted": "2026-03-02",
         "snippet": "We are looking for a Data Analyst (AC-TAP) position with a focus on data analysis and management within the Danish Structural Imaging and...",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "TV 2 Data & Insight søger Advanced Data Analyst",
@@ -55,7 +60,8 @@
         "url": "https://www.jobindex.dk/vis-job/r13635624",
         "posted": "2026-02-19",
         "snippet": "TV 2 Data & Insight søger Advanced Data Analyst Er du også vild med data?",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Bliv dataanalytiker i Customer data i en foreningsejet Nykredit-koncern",
@@ -64,7 +70,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1641367",
         "posted": "2026-02-23",
         "snippet": "Motiveres du af at arbejde med data, og vil du gerne være med til at sikre et solidt og pålideligt datagrundlag for Nykredits kundedata og modpartsdata? Så er dette en spændende mulighed for dig.Du vil blive en del af et lille tea",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "BI-Specialist & Dataanalytiker",
@@ -73,7 +80,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1639507",
         "posted": "2026-02-16",
         "snippet": "Vil du være arkitekten bag vores datamodeller – og den, der gør resten af organisationen i stand til at bruge dem?Vi søger en stærk profil til vores IT & Digitaliseringsafdeling, der kan løfte vores brug af data fra rapportering t",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker til centerstaben i Center for Kræft og Organsygdomme (CKO) på Rigshospitalet",
@@ -82,7 +90,108 @@
         "url": "https://www.jobindex.dk/vis-job/r13629631",
         "posted": "2026-02-17",
         "snippet": "Vil du være med til at styrke datagrundlaget på Rigshospitalet og skabe indsigt, der gør en reel forskel for patienter og personale?",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Ny kollega til landzonesagsbehandling og planlægning i det åbne land - Til Plan, Byg og Miljø",
+        "company": "Kalundborg Kommune",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643426",
+        "posted": "2026-03-02",
+        "snippet": "Vi har brug for en ny planlægger til vores Planafdeling, der vil være en del af et spændende fagområde under konstant udvikling.Du skal først og fremmest arbejde med landzonesagsbehandling og derudover med kommune- og lokalplanlæg",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Marketingansvarlig til Eurofins Product Testing Denmark A/S",
+        "company": "Eurofins",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643366",
+        "posted": "2026-03-02",
+        "snippet": "Kan du hjælpe nogle naturvidenskabelige med at styrke deres branding, og kan du understøtte vores sælgere i Europa? Så er det dig, vi søger.Vi har store drømme og visioner for vores marketingstrategi. Derfor søger vi dig som får i",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Kickstart din juridiske karriere indenfor fast ejendom – bliv studentermedhjælper i Bygningsstyrelsen",
+        "company": "Bygningsstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643226",
+        "posted": "2026-03-02",
+        "snippet": "Leder du efter et studiejob, hvor du kan gøre brug af din teoretiske viden og samtidig opbygge kompetencer inden for det ejendomsjuridiske område? Dine arbejdsopgaver vil blandt andet være:Juridiske opgaver relateret til Bygningss",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Vil du bruge din juridiske faglighed dér, hvor den gør en forskel? Bliv juridisk konsulent i Team Jura",
+        "company": "Industriens Uddannelser",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643222",
+        "posted": "2026-03-02",
+        "snippet": "Industriens Uddannelser søger en juridisk konsulent med stærke faglige kompetencer og interesse for samfundsforhold, uddannelsesområdet og gode arbejdsfællesskaber.Du vil komme til at arbejde med afgørelser inden for erhvervsuddan",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Vil du være studentermedhjælper i vores spændende kontor, der blandt andet arbejder med eksport/import af fødevarer?",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1643197",
+        "posted": "2026-03-02",
+        "snippet": "Vil du være med til at facilitere dansk eksport og import af fødevarer, foder og levende dyr? Er du i gang med en relevant akademisk uddannelse og har interesse for fødevareklyngen?For tiden har vi følgende opgaver til studenterme",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Afdelingsleder for Økonomistyring hos Nordværk",
+        "company": "Nordværk I/S",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1634852",
+        "posted": "2026-03-02",
+        "snippet": "Vil du lede en central økonomifunktion, der skaber værdi gennem strategisk styring og faglig ekspertise?Nordværk I/S søger en engageret afdelingsleder for Økonomistyring, der med stærk analytisk forståelse og solid ledelseserfarin",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til SoMe",
+        "company": "Løgismose A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643470",
+        "posted": "2026-03-02",
+        "snippet": "Har du en forkærlighed for god mad, solidt håndværk og kreativ formidling?Vi søger en engageret og idérig studentermedhjælper, der har lyst til at arbejde med SoMe, tekstforfatning, opdatering af vores website, nyhedsbreve og gene",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Bliv kontorelever hos IDA!, Ingeniørforeningen",
+        "company": "IDA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643342",
+        "posted": "2026-03-02",
+        "snippet": "Er du pligtopfyldende, lærevillig og engageret i dit arbejde? Vi søger 1 kontorelev, der kan starte hos os den 1. september 2026. Elevperioden vil være delt mellem to afdelinger: Kompetence og læring samt Netværk og frivillighed.V",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Aktivitetsansvarlig til Hjertemotion",
+        "company": "Hjerteforeningen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643246",
+        "posted": "2026-03-02",
+        "snippet": "Vi søger en ny kollega, der kan koordinere samarbejdet med opgaveteamet, udvikle og prioritere den løbende drift og sikre kvalitet i alle leverancer.Du vil have ansvaret for at koordinere samarbejdet med opgaveteamet og have konta",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Bliv privat lektiehjælper – et unikt studiejob eller deltidsjob",
+        "company": "Egmont",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1642710",
+        "posted": "2026-03-02",
+        "snippet": "",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "business analyst": [
@@ -93,7 +202,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1642972",
         "posted": "2026-02-27",
         "snippet": "Er du skarp til data, forretningsforståelse og procesoptimering – og trives du i rollen som bindeleddet mellem forretning og regnskab?Hos ZF Danmark søger vi en engageret Business Analyst, der vil være med til at styrke vores fina",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Business Analyst til Finans",
@@ -102,7 +212,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1642702",
         "posted": "2026-02-27",
         "snippet": "Vil du være med dér, hvor finansielle indsigter bliver til strategiske beslutninger?Som Business Analyst får du en rolle tæt på forretningsledelsen og bliver central i at omsætte data og analyser til konkrete handlinger.Du får mul",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Business Analyst",
@@ -111,7 +222,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1627000",
         "posted": "2026-02-26",
         "snippet": "Trives du med at opbygge relationer til kunder, drive dialogen og identificere muligheder for forretning, samtidig med at du arbejder proaktivt i en hverdag med højt tempo og variation?Hos Solitwork får du en central rolle i at de",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Business analyst (senior)",
@@ -120,7 +232,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1641548",
         "posted": "2026-02-24",
         "snippet": "The Senior Business Analyst role offers you the possibility to work with our existing solutions in the credit risk area as well as participate in BEC’s tech transformation journey.It is in the Reporting Solutions domain which is r",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Business analyst (Senior) – Core Banking",
@@ -129,7 +242,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1620714",
         "posted": "2026-02-24",
         "snippet": "The role offers a unique opportunity to join a fresh team in charge of building a new and modern liquidity management solution for a strategically important initiative in BEC.One of your primary tasks and responsibilities will inc",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Business Analyst",
@@ -138,7 +252,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1641506",
         "posted": "2026-02-24",
         "snippet": "Vil du være en del af Danmarks største dagligvarekæde? I jobbet får du en bred berøringsflade på tværs af centrale forretningsenheder og salgsafdeling. Forankret i data skal du optimere vores performance ved at levere værdiskabend",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Advanced Business Analyst - Bliv bindeled mellem AI-strategi og forretning i DSB",
@@ -147,7 +262,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1641436",
         "posted": "2026-02-23",
         "snippet": "Vil du være med til at omsætte forretningsbehov til intelligente AI-løsninger, der skaber værdi for både kunder og DSB? Bliv bindeleddet mellem strategi og teknologi, og vær med til at forme fremtidens digitale agenter!Du bliver d",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "AI Business Analyst",
@@ -156,7 +272,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1640789",
         "posted": "2026-02-20",
         "snippet": "Vores mål er at skabe en sikker, compliant og skalerbar AI-platform, der kan hjælpe os med at gøre AI til en integreret del af vores teknologilandskab, og den måde, vi driver a-kasseforretning på.Vi tilbyder en spændende og udford",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Senior Business Analyst for Customer Rating & Analytics",
@@ -165,7 +282,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1640294",
         "posted": "2026-02-19",
         "snippet": "This position is based at our friendly office in Roskilde and you will join our Customer Rating & Analytics team (CRA) which is part of the regulatory Reporting Solutions (RS) domain.The position offers a unique opportunity to joi",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Datadreven forretningsanalytiker",
@@ -174,7 +292,108 @@
         "url": "https://www.jobindex.dk/vis-job/h1640024",
         "posted": "2026-02-18",
         "snippet": "I Center for Kommunikation og Udvikling søger vi lige nu en erfaren forretningsanalytiker, som vil være med til at sikre god datakvalitet på tværs af organisationen samt styrke og udvikle den datadrevne ledelse.Vi søger dig, der s",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Ny kollega til landzonesagsbehandling og planlægning i det åbne land - Til Plan, Byg og Miljø",
+        "company": "Kalundborg Kommune",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643426",
+        "posted": "2026-03-02",
+        "snippet": "Vi har brug for en ny planlægger til vores Planafdeling, der vil være en del af et spændende fagområde under konstant udvikling.Du skal først og fremmest arbejde med landzonesagsbehandling og derudover med kommune- og lokalplanlæg",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Marketingansvarlig til Eurofins Product Testing Denmark A/S",
+        "company": "Eurofins",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643366",
+        "posted": "2026-03-02",
+        "snippet": "Kan du hjælpe nogle naturvidenskabelige med at styrke deres branding, og kan du understøtte vores sælgere i Europa? Så er det dig, vi søger.Vi har store drømme og visioner for vores marketingstrategi. Derfor søger vi dig som får i",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Kickstart din juridiske karriere indenfor fast ejendom – bliv studentermedhjælper i Bygningsstyrelsen",
+        "company": "Bygningsstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643226",
+        "posted": "2026-03-02",
+        "snippet": "Leder du efter et studiejob, hvor du kan gøre brug af din teoretiske viden og samtidig opbygge kompetencer inden for det ejendomsjuridiske område? Dine arbejdsopgaver vil blandt andet være:Juridiske opgaver relateret til Bygningss",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Vil du bruge din juridiske faglighed dér, hvor den gør en forskel? Bliv juridisk konsulent i Team Jura",
+        "company": "Industriens Uddannelser",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643222",
+        "posted": "2026-03-02",
+        "snippet": "Industriens Uddannelser søger en juridisk konsulent med stærke faglige kompetencer og interesse for samfundsforhold, uddannelsesområdet og gode arbejdsfællesskaber.Du vil komme til at arbejde med afgørelser inden for erhvervsuddan",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Vil du være studentermedhjælper i vores spændende kontor, der blandt andet arbejder med eksport/import af fødevarer?",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1643197",
+        "posted": "2026-03-02",
+        "snippet": "Vil du være med til at facilitere dansk eksport og import af fødevarer, foder og levende dyr? Er du i gang med en relevant akademisk uddannelse og har interesse for fødevareklyngen?For tiden har vi følgende opgaver til studenterme",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Afdelingsleder for Økonomistyring hos Nordværk",
+        "company": "Nordværk I/S",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1634852",
+        "posted": "2026-03-02",
+        "snippet": "Vil du lede en central økonomifunktion, der skaber værdi gennem strategisk styring og faglig ekspertise?Nordværk I/S søger en engageret afdelingsleder for Økonomistyring, der med stærk analytisk forståelse og solid ledelseserfarin",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til SoMe",
+        "company": "Løgismose A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643470",
+        "posted": "2026-03-02",
+        "snippet": "Har du en forkærlighed for god mad, solidt håndværk og kreativ formidling?Vi søger en engageret og idérig studentermedhjælper, der har lyst til at arbejde med SoMe, tekstforfatning, opdatering af vores website, nyhedsbreve og gene",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Bliv kontorelever hos IDA!, Ingeniørforeningen",
+        "company": "IDA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643342",
+        "posted": "2026-03-02",
+        "snippet": "Er du pligtopfyldende, lærevillig og engageret i dit arbejde? Vi søger 1 kontorelev, der kan starte hos os den 1. september 2026. Elevperioden vil være delt mellem to afdelinger: Kompetence og læring samt Netværk og frivillighed.V",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Aktivitetsansvarlig til Hjertemotion",
+        "company": "Hjerteforeningen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643246",
+        "posted": "2026-03-02",
+        "snippet": "Vi søger en ny kollega, der kan koordinere samarbejdet med opgaveteamet, udvikle og prioritere den løbende drift og sikre kvalitet i alle leverancer.Du vil have ansvaret for at koordinere samarbejdet med opgaveteamet og have konta",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Bliv privat lektiehjælper – et unikt studiejob eller deltidsjob",
+        "company": "Egmont",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1642710",
+        "posted": "2026-03-02",
+        "snippet": "",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "business intelligence": [
@@ -185,7 +404,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1641888",
         "posted": "2026-02-25",
         "snippet": "Do you have a strong financial understanding combined with an analytical and business-oriented mindset?You will be a key member of our team, supporting the organization's data needs by assisting with data management and analysis t",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Graduate, Data Engineer – Business Intelligence",
@@ -194,7 +414,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1640818",
         "posted": "2026-02-20",
         "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development. From day one, you take on responsibility and become part of a strong community that succeeds toge",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Graduate, Business Analytics – Business Intelligence",
@@ -203,7 +424,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1640809",
         "posted": "2026-02-20",
         "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development.Design and implement BI solutions for Denmark’s most visionary companies, work closely with client",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "CRM & Business Intelligence Manager",
@@ -212,7 +434,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1638981",
         "posted": "2026-02-13",
         "snippet": "Vil du bruge dine evner inden for teknologi, data og CRM til at bekæmpe ulighed og udrydde fattigdom?Vi søger en skarp CRM & Business Intelligence Manager til vores Kommunikations- og Fundraising-afdeling. Vi leder efter en profil",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Studentermedhjælper til Business Intelligence",
@@ -221,7 +444,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1638827",
         "posted": "2026-02-12",
         "snippet": "Brænder du for data, og leder du efter et studiejob som er relevant for dig? Har du lyst til at arbejde med Business Intelligence, analyser og rapportering?Dine primære arbejdsopgaver vil være driftsopgaver i frontend, udvikling o",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Senior Business Intelligence developer – develop dashboards to improve company efficiency",
@@ -230,7 +454,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1637200",
         "posted": "2026-02-06",
         "snippet": "Could you see yourself be the key driver of Power BI dashboard reporting?As a Senior BI Developer, you'll simplify complex data into visual and meaningful insights that enable our Finance colleagues and business managers to be dat",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Senior Business Intelligence Analyst",
@@ -239,7 +464,8 @@
         "url": "https://www.jobindex.dk/vis-job/r13656433",
         "posted": "2026-03-02",
         "snippet": "Are you ready to play a crucial part in transforming data into actionable insights that drive strategic decisions and improve...",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Senior Power BI Developer - Aarhus or Gdansk",
@@ -248,7 +474,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1638977",
         "posted": "2026-02-13",
         "snippet": "",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Senior BI Developer",
@@ -257,7 +484,108 @@
         "url": "https://www.jobindex.dk/vis-job/h1637517",
         "posted": "2026-02-09",
         "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Ny kollega til landzonesagsbehandling og planlægning i det åbne land - Til Plan, Byg og Miljø",
+        "company": "Kalundborg Kommune",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643426",
+        "posted": "2026-03-02",
+        "snippet": "Vi har brug for en ny planlægger til vores Planafdeling, der vil være en del af et spændende fagområde under konstant udvikling.Du skal først og fremmest arbejde med landzonesagsbehandling og derudover med kommune- og lokalplanlæg",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Marketingansvarlig til Eurofins Product Testing Denmark A/S",
+        "company": "Eurofins",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643366",
+        "posted": "2026-03-02",
+        "snippet": "Kan du hjælpe nogle naturvidenskabelige med at styrke deres branding, og kan du understøtte vores sælgere i Europa? Så er det dig, vi søger.Vi har store drømme og visioner for vores marketingstrategi. Derfor søger vi dig som får i",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Kickstart din juridiske karriere indenfor fast ejendom – bliv studentermedhjælper i Bygningsstyrelsen",
+        "company": "Bygningsstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643226",
+        "posted": "2026-03-02",
+        "snippet": "Leder du efter et studiejob, hvor du kan gøre brug af din teoretiske viden og samtidig opbygge kompetencer inden for det ejendomsjuridiske område? Dine arbejdsopgaver vil blandt andet være:Juridiske opgaver relateret til Bygningss",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Vil du bruge din juridiske faglighed dér, hvor den gør en forskel? Bliv juridisk konsulent i Team Jura",
+        "company": "Industriens Uddannelser",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643222",
+        "posted": "2026-03-02",
+        "snippet": "Industriens Uddannelser søger en juridisk konsulent med stærke faglige kompetencer og interesse for samfundsforhold, uddannelsesområdet og gode arbejdsfællesskaber.Du vil komme til at arbejde med afgørelser inden for erhvervsuddan",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Vil du være studentermedhjælper i vores spændende kontor, der blandt andet arbejder med eksport/import af fødevarer?",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1643197",
+        "posted": "2026-03-02",
+        "snippet": "Vil du være med til at facilitere dansk eksport og import af fødevarer, foder og levende dyr? Er du i gang med en relevant akademisk uddannelse og har interesse for fødevareklyngen?For tiden har vi følgende opgaver til studenterme",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til SoMe",
+        "company": "Løgismose A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643470",
+        "posted": "2026-03-02",
+        "snippet": "Har du en forkærlighed for god mad, solidt håndværk og kreativ formidling?Vi søger en engageret og idérig studentermedhjælper, der har lyst til at arbejde med SoMe, tekstforfatning, opdatering af vores website, nyhedsbreve og gene",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Bliv kontorelever hos IDA!, Ingeniørforeningen",
+        "company": "IDA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643342",
+        "posted": "2026-03-02",
+        "snippet": "Er du pligtopfyldende, lærevillig og engageret i dit arbejde? Vi søger 1 kontorelev, der kan starte hos os den 1. september 2026. Elevperioden vil være delt mellem to afdelinger: Kompetence og læring samt Netværk og frivillighed.V",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Aktivitetsansvarlig til Hjertemotion",
+        "company": "Hjerteforeningen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643246",
+        "posted": "2026-03-02",
+        "snippet": "Vi søger en ny kollega, der kan koordinere samarbejdet med opgaveteamet, udvikle og prioritere den løbende drift og sikre kvalitet i alle leverancer.Du vil have ansvaret for at koordinere samarbejdet med opgaveteamet og have konta",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Bliv privat lektiehjælper – et unikt studiejob eller deltidsjob",
+        "company": "Egmont",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1642710",
+        "posted": "2026-03-02",
+        "snippet": "",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Lager-/Logistikassistent",
+        "company": "Nordic Bioscience A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643118",
+        "posted": "2026-02-27",
+        "snippet": "Vi søger en engageret og ansvarsbevidst assistent til at hjælpe i vores varemodtagelse og logistikafdeling samt på lageret.Dagligdagen er travl, men der er altid plads til grin. Vi vægter samarbejde højt og støtter hinanden i en h",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -268,7 +596,8 @@
         "url": "https://www.jobindex.dk/vis-job/h1638977",
         "posted": "2026-02-13",
         "snippet": "",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Lead Generation, AI & Business Intelligence Specialist",
@@ -277,7 +606,8 @@
         "url": "https://www.jobindex.dk/vis-job/r13641332",
         "posted": "2026-02-23",
         "snippet": "Vil du have en rolle, hvor data, AI og analyse direkte påvirker, hvilke forretninger der bliver skabt?",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Aller søger Business Intelligence Specialist - Group Finance",
@@ -286,7 +616,108 @@
         "url": "https://www.jobindex.dk/vis-job/r13622119",
         "posted": "2026-02-12",
         "snippet": "Stillingen er nyoprettet og giver dig mulighed for at få en central rolle i at styrke koncernens rapportering, dataoverblik og...",
-        "source": "jobindex"
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Ny kollega til landzonesagsbehandling og planlægning i det åbne land - Til Plan, Byg og Miljø",
+        "company": "Kalundborg Kommune",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643426",
+        "posted": "2026-03-02",
+        "snippet": "Vi har brug for en ny planlægger til vores Planafdeling, der vil være en del af et spændende fagområde under konstant udvikling.Du skal først og fremmest arbejde med landzonesagsbehandling og derudover med kommune- og lokalplanlæg",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Marketingansvarlig til Eurofins Product Testing Denmark A/S",
+        "company": "Eurofins",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1643366",
+        "posted": "2026-03-02",
+        "snippet": "Kan du hjælpe nogle naturvidenskabelige med at styrke deres branding, og kan du understøtte vores sælgere i Europa? Så er det dig, vi søger.Vi har store drømme og visioner for vores marketingstrategi. Derfor søger vi dig som får i",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Kickstart din juridiske karriere indenfor fast ejendom – bliv studentermedhjælper i Bygningsstyrelsen",
+        "company": "Bygningsstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643226",
+        "posted": "2026-03-02",
+        "snippet": "Leder du efter et studiejob, hvor du kan gøre brug af din teoretiske viden og samtidig opbygge kompetencer inden for det ejendomsjuridiske område? Dine arbejdsopgaver vil blandt andet være:Juridiske opgaver relateret til Bygningss",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Vil du bruge din juridiske faglighed dér, hvor den gør en forskel? Bliv juridisk konsulent i Team Jura",
+        "company": "Industriens Uddannelser",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643222",
+        "posted": "2026-03-02",
+        "snippet": "Industriens Uddannelser søger en juridisk konsulent med stærke faglige kompetencer og interesse for samfundsforhold, uddannelsesområdet og gode arbejdsfællesskaber.Du vil komme til at arbejde med afgørelser inden for erhvervsuddan",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Vil du være studentermedhjælper i vores spændende kontor, der blandt andet arbejder med eksport/import af fødevarer?",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1643197",
+        "posted": "2026-03-02",
+        "snippet": "Vil du være med til at facilitere dansk eksport og import af fødevarer, foder og levende dyr? Er du i gang med en relevant akademisk uddannelse og har interesse for fødevareklyngen?For tiden har vi følgende opgaver til studenterme",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Afdelingsleder for Økonomistyring hos Nordværk",
+        "company": "Nordværk I/S",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1634852",
+        "posted": "2026-03-02",
+        "snippet": "Vil du lede en central økonomifunktion, der skaber værdi gennem strategisk styring og faglig ekspertise?Nordværk I/S søger en engageret afdelingsleder for Økonomistyring, der med stærk analytisk forståelse og solid ledelseserfarin",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til SoMe",
+        "company": "Løgismose A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643470",
+        "posted": "2026-03-02",
+        "snippet": "Har du en forkærlighed for god mad, solidt håndværk og kreativ formidling?Vi søger en engageret og idérig studentermedhjælper, der har lyst til at arbejde med SoMe, tekstforfatning, opdatering af vores website, nyhedsbreve og gene",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Bliv kontorelever hos IDA!, Ingeniørforeningen",
+        "company": "IDA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643342",
+        "posted": "2026-03-02",
+        "snippet": "Er du pligtopfyldende, lærevillig og engageret i dit arbejde? Vi søger 1 kontorelev, der kan starte hos os den 1. september 2026. Elevperioden vil være delt mellem to afdelinger: Kompetence og læring samt Netværk og frivillighed.V",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Aktivitetsansvarlig til Hjertemotion",
+        "company": "Hjerteforeningen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643246",
+        "posted": "2026-03-02",
+        "snippet": "Vi søger en ny kollega, der kan koordinere samarbejdet med opgaveteamet, udvikle og prioritere den løbende drift og sikre kvalitet i alle leverancer.Du vil have ansvaret for at koordinere samarbejdet med opgaveteamet og have konta",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Bliv privat lektiehjælper – et unikt studiejob eller deltidsjob",
+        "company": "Egmont",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1642710",
+        "posted": "2026-03-02",
+        "snippet": "",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ]
   }
