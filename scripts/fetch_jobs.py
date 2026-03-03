@@ -81,7 +81,7 @@ STUDENT_QUERIES: dict[str, list[str]] = {
 STUDENT_TITLE_KEYWORDS: dict[str, list[str]] = {
     "data analyst": [
         "data analyst", "dataanalytiker", "data analytiker",
-        "data og", "data-", " data ", "analytiker", "analyst",
+        "analytiker", "analyst",
     ],
     "business analyst": [
         "business analyst", "forretningsanalytiker", "businessanalytiker",
@@ -481,6 +481,13 @@ def fetch_category(label: str, queries: list[str],
     raw_s = len(student_jobs)
     if s_kws:
         student_jobs = [j for j in student_jobs if title_matches(j["title"], s_kws)]
+    # Only keep jobs whose titles actually signal a student position.
+    # Jobindex returns full-time jobs in student query results; without this
+    # guard they get mis-tagged as 'student' and block the full-time pass.
+    student_jobs = [
+        j for j in student_jobs
+        if any(ind in j["title"].lower() for ind in STUDENT_TITLE_INDICATORS + ["studentermedarbejder", "student "])
+    ]
     kept_s = student_jobs[:MAX_PER_TYPE]
     student_result.extend(kept_s)
     # Add kept student URLs to cross_seen so they don't repeat under a different category

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T15:48:47Z",
+  "updated": "2026-03-03T15:53:15Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -54,6 +54,16 @@
         "job_type": "full-time"
       },
       {
+        "title": "Dataanalytiker til Efterretnings- og Analysecentret",
+        "company": "Politi",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1643750",
+        "posted": "2026-03-03",
+        "snippet": "Vil du være med til at identificere og bekæmpe den mest komplekse kriminalitet i samfundet?Vi bliver i stigende grad udfordret af de kriminelles brug af teknologi og digital kommunikation. Som dataanalytiker er du med til at tegne",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Bliv dataanalytiker i Customer data i en foreningsejet Nykredit-koncern",
         "company": "Nykredit",
         "location": "Copenhagen",
@@ -82,26 +92,6 @@
         "snippet": "Vil du være med til at styrke datagrundlaget på Rigshospitalet og skabe indsigt, der gør en reel forskel for patienter og personale?",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist",
-        "company": "Københavns Lufthavne A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1644002",
-        "posted": "2026-03-03",
-        "snippet": "I Københavns Lufthavn (CPH) arbejder vi hver dag for at skabe den bedst mulige oplevelse for vores passagerer og her spiller data en stadig mere og mere afgørende rolle.Som vores nye Senior Data Scientist bliver du en del af et te",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Dataanalytiker til Efterretnings- og Analysecentret",
-        "company": "Politi",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1643750",
-        "posted": "2026-03-03",
-        "snippet": "Vil du være med til at identificere og bekæmpe den mest komplekse kriminalitet i samfundet?Vi bliver i stigende grad udfordret af de kriminelles brug af teknologi og digital kommunikation. Som dataanalytiker er du med til at tegne",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "business analyst": [
@@ -208,6 +198,16 @@
     ],
     "business intelligence": [
       {
+        "title": "Senior Business Intelligence Developer",
+        "company": "DUOS A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643960",
+        "posted": "2026-03-03",
+        "snippet": "Vi er i en spændende fase, hvor vi bygger nyt, skalerer og migrerer til en større dataplatform for at centralisere BI-funktionen på tværs af selskaber i DUOS-koncernen.Du bliver en central teknisk profil i BI-teamet og får ansvar",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Graduate, Data Engineer – Business Intelligence",
         "company": "Itm8",
         "location": "Aarhus",
@@ -268,32 +268,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Business Intelligence Developer",
-        "company": "DUOS A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643960",
-        "posted": "2026-03-03",
-        "snippet": "Vi er i en spændende fase, hvor vi bygger nyt, skalerer og migrerer til en større dataplatform for at centralisere BI-funktionen på tværs af selskaber i DUOS-koncernen.Du bliver en central teknisk profil i BI-teamet og får ansvar",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "Studentermedarbejder med flair for planlægning, data og kommunikation",
         "company": "Fonden Dansk Standard",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/h1643619",
         "posted": "2026-03-03",
         "snippet": "Har du lyst til at arbejde med researchopgaver, databehandling, visualisering af viden og data samt kommunikation deraf?Som studentermedarbejder bliver du en del af et team af tværgående studentermedarbejdere og får ansvar for opg",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Administrativ koordinator med fokus på kvalitet, data og compliance",
-        "company": "BKI foods a/s",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1626466",
-        "posted": "2026-03-03",
-        "snippet": "Trives du med struktur, præcision og ansvar – og motiveres du af at sikre, at data, dokumentation og lovkrav er i orden ned til mindste detalje?Du bliver omdrejningspunktet for korrekt varestamdata, dokumentation og efterlevelse a",
         "source": "jobindex",
         "job_type": "student"
       }
@@ -328,16 +308,6 @@
         "snippet": "Stillingen er nyoprettet og giver dig mulighed for at få en central rolle i at styrke koncernens rapportering, dataoverblik og...",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Intelligence Developer",
-        "company": "DUOS A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643960",
-        "posted": "2026-03-03",
-        "snippet": "Vi er i en spændende fase, hvor vi bygger nyt, skalerer og migrerer til en større dataplatform for at centralisere BI-funktionen på tværs af selskaber i DUOS-koncernen.Du bliver en central teknisk profil i BI-teamet og får ansvar",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -460,26 +430,6 @@
         "snippet": "At Neurons, we help the world’s leading brands predict how people will perceive, feel, and react to creative; before it goes live.",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Data scientist med stærk data-, proces- og systemforståelse til Center for It og Data",
-        "company": "Familieretshuset",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643589",
-        "posted": "2026-03-03",
-        "snippet": "Kan du omsætte data til værdifulde indsigter, der kan optimere processer og understøtte strategiske beslutninger? Har du erfaring med at formidle og oversætte data til praktiske løsninger?Du vil samarbejde tæt med forretningen for",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Senior Data Scientist",
-        "company": "Københavns Lufthavne A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1644002",
-        "posted": "2026-03-03",
-        "snippet": "I Københavns Lufthavn (CPH) arbejder vi hver dag for at skabe den bedst mulige oplevelse for vores passagerer og her spiller data en stadig mere og mere afgørende rolle.Som vores nye Senior Data Scientist bliver du en del af et te",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ]
   }
