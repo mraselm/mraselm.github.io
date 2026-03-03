@@ -25,7 +25,7 @@ import requests
 # Configuration
 # ---------------------------------------------------------------------------
 
-MAX_PER_CATEGORY = 15    # jobs to KEEP per category after filter & dedup
+MAX_PER_CATEGORY = 20    # jobs to KEEP per category after filter & dedup
 FETCH_PER_QUERY  = 30    # jobs to FETCH from Jobindex per individual query
 
 # Each category maps to a list of quoted-phrase queries.
@@ -33,10 +33,15 @@ FETCH_PER_QUERY  = 30    # jobs to FETCH from Jobindex per individual query
 CATEGORIES: dict[str, list[str]] = {
     "data analyst": [
         "%22data+analyst%22",
+        "%22senior+data+analyst%22",
+        "%22junior+data+analyst%22",
+        "%22advanced+data+analyst%22",
         "dataanalytiker",
     ],
     "business analyst": [
         "%22business+analyst%22",
+        "%22senior+business+analyst%22",
+        "%22advanced+business+analyst%22",
         "forretningsanalytiker",
     ],
     "business intelligence": [
@@ -44,22 +49,30 @@ CATEGORIES: dict[str, list[str]] = {
         "%22BI+analyst%22",
         "%22BI+developer%22",
         "%22BI+consultant%22",
-        "%22BI+developer%22",
+        "%22BI+manager%22",
+        "%22Power+BI%22",
     ],
     "bi specialist": [
         "%22BI+specialist%22",
         "%22BI+arkitekt%22",
+        "%22BI+engineer%22",
+        "%22Power+BI+specialist%22",
+        "%22Power+BI+developer%22",
+        "%22BI+manager%22",
         "%22business+intelligence+specialist%22",
     ],
 }
 
 # Title keyword whitelist — job title must contain at least one (case-insensitive).
+# Keep these tight: each list reflects the most relevant titles for that role.
 TITLE_KEYWORDS: dict[str, list[str]] = {
     "data analyst": [
         "data analyst",
         "dataanalytiker",
         "data analytiker",
-        "analytics",
+        "advanced data analyst",
+        "senior data analyst",
+        "junior data analyst",
     ],
     "business analyst": [
         "business analyst",
@@ -72,11 +85,9 @@ TITLE_KEYWORDS: dict[str, list[str]] = {
         "bi analyst",
         "bi consultant",
         "bi manager",
-        "bi specialist",
         "bi lead",
         "bi arkitekt",
         "power bi",
-        "data engineer",
     ],
     "bi specialist": [
         "bi specialist",
@@ -86,6 +97,7 @@ TITLE_KEYWORDS: dict[str, list[str]] = {
         "bi manager",
         "bi lead",
         "bi arkitekt",
+        "bi engineer",
         "business intelligence",
         "power bi",
     ],
@@ -106,15 +118,111 @@ HEADERS = {
 }
 
 # ---------------------------------------------------------------------------
+# Known cities — used to validate location candidates
+# ---------------------------------------------------------------------------
+
+# Maps lowercase keywords → canonical display name
+_CITY_MAP: dict[str, str] = {
+    # Copenhagen region
+    "københavn": "Copenhagen",
+    "kobenhavn": "Copenhagen",
+    "copenhagen": "Copenhagen",
+    "kbh": "Copenhagen",
+    "nordhavn": "Copenhagen",
+    "østerbro": "Copenhagen",
+    "osterbro": "Copenhagen",
+    "nørrebro": "Copenhagen",
+    "norrebro": "Copenhagen",
+    "vesterbro": "Copenhagen",
+    "valby": "Copenhagen",
+    "amager": "Copenhagen",
+    "sydhavn": "Copenhagen",
+    "frederiksberg": "Frederiksberg",
+    "hellerup": "Hellerup",
+    "lyngby": "Lyngby",
+    "gentofte": "Gentofte",
+    "glostrup": "Glostrup",
+    "ballerup": "Ballerup",
+    "taastrup": "Taastrup",
+    "hvidovre": "Hvidovre",
+    "soeborg": "Søborg",
+    "søborg": "Søborg",
+    "gladsaxe": "Gladsaxe",
+    "brøndby": "Brøndby",
+    "brondby": "Brøndby",
+    "hørsholm": "Hørsholm",
+    "hoersholm": "Hørsholm",
+    "horsholm": "Hørsholm",
+    "hillerød": "Hillerød",
+    "hillerod": "Hillerød",
+    "hilleroed": "Hillerød",
+    "roskilde": "Roskilde",
+    "ringsted": "Ringsted",
+    # Aarhus region
+    "aarhus": "Aarhus",
+    "arhus": "Aarhus",
+    "viby j": "Aarhus",
+    "viby": "Aarhus",
+    "risskov": "Aarhus",
+    "skanderborg": "Skanderborg",
+    # Funen
+    "odense": "Odense",
+    "svendborg": "Svendborg",
+    # Jutland
+    "aalborg": "Aalborg",
+    "esbjerg": "Esbjerg",
+    "vejle": "Vejle",
+    "kolding": "Kolding",
+    "horsens": "Horsens",
+    "silkeborg": "Silkeborg",
+    "herning": "Herning",
+    "holstebro": "Holstebro",
+    "randers": "Randers",
+    "fredericia": "Fredericia",
+    "billund": "Billund",
+    "naestved": "Næstved",
+    "næstved": "Næstved",
+    "viborg": "Viborg",
+    # Remote / hybrid
+    "remote": "Remote",
+    "hjemmearbejde": "Remote",
+    "anywhere": "Remote",
+}
+
+
+def match_city_in_text(text: str) -> str:
+    """Return canonical city name if any known city keyword appears in text."""
+    t = text.lower()
+    for key, canonical in _CITY_MAP.items():
+        if key in t:
+            return canonical
+    return ""
+
+
+# ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
-_HTML_TAG = re.compile(r"<[^>]+>")
-_PAREN    = re.compile(r"\(([^)]+)\)")
+_HTML_TAG    = re.compile(r"<[^>]+>")
+_WHITESPACE  = re.compile(r"[ \t]+")
+
+
+def _decode_entities(text: str) -> str:
+    """Replace common HTML entities with their characters."""
+    replacements = {
+        "&amp;": "&", "&lt;": "<", "&gt;": ">",
+        "&quot;": '"', "&apos;": "'", "&nbsp;": " ",
+    }
+    for ent, char in replacements.items():
+        text = text.replace(ent, char)
+    return re.sub(r"&#(\d+);", lambda m: chr(int(m.group(1))), text)
 
 
 def strip_html(text: str) -> str:
-    return _HTML_TAG.sub("", text or "").strip()
+    """Strip HTML tags and decode entities."""
+    text = _HTML_TAG.sub("", text or "")
+    text = _decode_entities(text)
+    return text.strip()
 
 
 def parse_date(date_str: str) -> str:
@@ -143,30 +251,41 @@ def split_title_company(raw_title: str) -> tuple[str, str]:
     return raw_title, ""
 
 
-def extract_location_from_title(raw_title: str) -> str:
+def parse_description(raw_desc: str) -> tuple[str, str]:
     """
-    Jobindex embeds location in parens: 'Data Analyst (Copenhagen), Acme'
-    Returns the last parenthetical value, or empty string.
+    Extract (location, snippet) from an RSS description field.
+
+    Jobindex RSS descriptions follow this pattern after stripping HTML:
+      Line 0: Repeated job title
+      Line 1: City / location (short, e.g. "Copenhagen, Hybrid position")
+      Line 2+: Actual job description text
+
+    Returns (city_string, clean_snippet).
     """
-    matches = _PAREN.findall(raw_title)
-    return matches[-1].strip() if matches else ""
+    text = strip_html(raw_desc)
+    lines = [_WHITESPACE.sub(" ", ln).strip() for ln in text.split("\n")]
+    lines = [ln for ln in lines if ln]
 
+    location = ""
+    snippet_lines: list[str] = []
 
-def extract_location(description: str) -> str:
-    """Scan description for a known Danish city; fall back to 'Denmark'."""
-    text = strip_html(description)
-    cities = [
-        "Koebenhavn", "Copenhagen", "Aarhus", "Odense", "Aalborg",
-        "Esbjerg", "Randers", "Kolding", "Horsens", "Vejle",
-        "Fredericia", "Roskilde", "Herning", "Silkeborg",
-        "Naestved", "Frederiksberg", "Viborg", "Koege", "Holstebro",
-        "Lyngby", "Hellerup", "Glostrup", "Ballerup", "Taastrup",
-        "Ringsted", "Svendborg", "Hilleroed", "Hvidovre", "Soeborg",
-    ]
-    for city in cities:
-        if city.lower() in text.lower():
-            return city
-    return "Denmark"
+    for i, line in enumerate(lines):
+        if i == 0:
+            # First line is the repeated title — skip for snippet
+            continue
+        if i == 1:
+            # Second line is typically the location block
+            city = match_city_in_text(line)
+            if city:
+                location = city
+            # Don't include location line in snippet
+            continue
+        snippet_lines.append(line)
+        if sum(len(l) for l in snippet_lines) >= 220:
+            break
+
+    snippet = " ".join(snippet_lines)[:230].strip()
+    return location or "Denmark", snippet
 
 
 def title_matches(title: str, keywords: list[str]) -> bool:
@@ -209,14 +328,23 @@ def parse_item(item: ET.Element) -> dict | None:
         return None
 
     title, company = split_title_company(raw_title)
-    location = extract_location_from_title(raw_title) or extract_location(desc) or "Denmark"
+
+    # Extract clean location and actual description snippet
+    location, snippet = parse_description(desc)
+
+    # If description lines didn't yield a city, scan full description text
+    if location == "Denmark":
+        city = match_city_in_text(strip_html(desc))
+        if city:
+            location = city
+
     return {
         "title":    title,
         "company":  company,
         "location": location,
         "url":      link,
         "posted":   parse_date(pub_date),
-        "snippet":  strip_html(desc)[:160].strip(),
+        "snippet":  snippet,
         "source":   "jobindex",
     }
 
