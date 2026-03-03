@@ -988,7 +988,7 @@
             allJobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
           }
 
-          /* Apply city + type filters */
+          /* Apply city + type filters, then sort by most recent first */
           var jobs = allJobs.filter(function (j) {
             var cityOk = currentCity === 'all' || matchesCity(j, currentCity);
             /* Student filter also shows part-time jobs since they overlap */
@@ -996,6 +996,10 @@
             var typeOk = currentType === 'all' || _jt === currentType ||
                          (currentType === 'student' && _jt === 'part-time');
             return cityOk && typeOk;
+          }).sort(function (a, b) {
+            var da = a.posted ? new Date(a.posted).getTime() : 0;
+            var db = b.posted ? new Date(b.posted).getTime() : 0;
+            return db - da;
           });
 
           if (!allJobs.length) {
