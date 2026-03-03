@@ -661,6 +661,12 @@
                  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt" aria-hidden="true"></i> Browse Jobindex
               </a>
+              <div style="display:flex;align-items:center;gap:0.5rem;justify-content:flex-end;">
+                <span class="jobs-count" id="jobs-count" aria-live="polite" style="font-size:0.8rem;"></span>
+                <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings" title="Refresh" style="padding:0.3rem 0.55rem;">
+                  <i class="fas fa-sync-alt" aria-hidden="true"></i>
+                </button>
+              </div>
               <span class="last-updated" id="jobs-updated-hero" aria-live="polite"></span>
             </div>
           </div>
@@ -720,12 +726,6 @@
                 </button>
               </div>
 
-              <div class="filter-controls">
-                <span class="jobs-count" id="jobs-count" aria-live="polite"></span>
-                <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
-                  <i class="fas fa-sync-alt" aria-hidden="true"></i>
-                </button>
-              </div>
             </div>
 
             <!-- Combined city + type filter bar -->
