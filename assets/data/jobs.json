@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T03:14:58Z",
+  "updated": "2026-03-03T06:42:25Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -284,6 +284,16 @@
         "url": "https://www.jobindex.dk/vis-job/h1642952",
         "posted": "2026-02-27",
         "snippet": "Vil du være med til at løfte FP&A og spille en central rolle i vores nye planning setup og cost allokeringsmodel? Brænder du for at arbejde i krydsfeltet mellem finans, data og forretning?Du bliver en del af teamet, der har ansvar",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedarbejder med flair for planlægning, data og kommunikation",
+        "company": "Fonden Dansk Standard",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643619",
+        "posted": "2026-03-03",
+        "snippet": "Har du lyst til at arbejde med researchopgaver, databehandling, visualisering af viden og data samt kommunikation deraf?Som studentermedarbejder bliver du en del af et team af tværgående studentermedarbejdere og får ansvar for opg",
         "source": "jobindex",
         "job_type": "student"
       }
