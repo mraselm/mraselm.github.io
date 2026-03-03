@@ -285,6 +285,13 @@
       #jobs-refresh:active {
         transform: rotate(45deg);
       }
+      #jobs-updated {
+        font-size: 0.68rem;
+        color: var(--muted, #64748b);
+        white-space: nowrap;
+        opacity: 0.7;
+        letter-spacing: 0.01em;
+      }
 
       /*  Job grid  */
       .jobs-grid {
@@ -744,6 +751,7 @@
 
               <div class="filter-controls">
                 <span class="jobs-count" id="jobs-count" aria-live="polite"></span>
+                <span id="jobs-updated" title="Last time jobs data was refreshed"></span>
                 <button id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
                   <i class="fas fa-redo-alt" aria-hidden="true"></i>
                 </button>
@@ -1188,6 +1196,11 @@
             })
             .then(function (data) {
               JOBS_DATA = data;
+              var upEl = document.getElementById('jobs-updated');
+              if (upEl && data.updated) {
+                var d = new Date(data.updated);
+                upEl.textContent = 'Updated ' + d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) + ', ' + d.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+              }
               updateHeroStats(data);
               updateTabCounts(data);
               renderCategory(currentCategory, currentColor);
