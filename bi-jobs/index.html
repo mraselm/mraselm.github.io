@@ -121,7 +121,7 @@
         border: 1px solid var(--border);
         border-radius: 16px;
         padding: 0.9rem 1.35rem;
-        min-width: 110px;
+        min-width: 120px;
         box-shadow: 0 4px 16px rgba(14,23,42,0.06);
         position: relative;
         overflow: hidden;
@@ -585,7 +585,7 @@
               <h1 id="jobs-heading">Data &amp; BI Jobs</h1>
               <p class="lead">
                 Curated full-time, part-time and student positions in Denmark across Data Analyst,
-                Business Analyst, Business Intelligence, and BI Specialist roles &mdash; sourced daily from Jobindex.dk.
+                Business Analyst, Business Intelligence, BI Specialist, and Data Scientist roles &mdash; sourced daily from Jobindex.dk.
               </p>
               <div class="hero-stat-row" aria-live="polite" aria-label="Job listing statistics">
                 <div class="hero-stat">
@@ -595,6 +595,14 @@
                 <div class="hero-stat">
                   <span class="hero-stat-num">5</span>
                   <span class="hero-stat-label">Categories</span>
+                </div>
+                <div class="hero-stat">
+                  <span class="hero-stat-num" id="stat-cities">&mdash;</span>
+                  <span class="hero-stat-label">Cities</span>
+                </div>
+                <div class="hero-stat">
+                  <span class="hero-stat-num" id="stat-top-city">&mdash;</span>
+                  <span class="hero-stat-label">Top City</span>
                 </div>
               </div>
             </div>
@@ -910,6 +918,27 @@
           }
           var el = document.getElementById('stat-total');
           if (el) el.textContent = total > 0 ? total : '\u2014';
+
+          /* Cities covered + top city */
+          if (data && data.categories) {
+            var cityCount = {};
+            Object.keys(data.categories).forEach(function (k) {
+              (data.categories[k] || []).forEach(function (j) {
+                var loc = (j.location || 'Denmark').trim();
+                if (loc && loc !== 'Denmark') {
+                  cityCount[loc] = (cityCount[loc] || 0) + 1;
+                }
+              });
+            });
+            var cities = Object.keys(cityCount);
+            var elCities = document.getElementById('stat-cities');
+            if (elCities) elCities.textContent = cities.length > 0 ? cities.length : '\u2014';
+            if (cities.length > 0) {
+              var topCity = cities.reduce(function (a, b) { return cityCount[a] >= cityCount[b] ? a : b; });
+              var elTop = document.getElementById('stat-top-city');
+              if (elTop) elTop.textContent = topCity;
+            }
+          }
 
           if (data && data.updated) {
             var label = 'Updated ' + formatDate(data.updated);
