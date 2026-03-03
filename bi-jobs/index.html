@@ -170,20 +170,11 @@
         flex-direction: column;
         gap: 0;
         padding: 1rem 1.35rem 1rem;
-        position: sticky;
-        top: 68px;
-        backdrop-filter: blur(40px) saturate(180%);
-        -webkit-backdrop-filter: blur(40px) saturate(180%);
-        background: linear-gradient(
-          135deg,
-          rgba(255,255,255,0.7) 0%,
-          rgba(255,255,255,0.4) 50%,
-          rgba(255,255,255,0.6) 100%
-        );
-        z-index: 10;
-        border: 1px solid rgba(255,255,255,0.5);
+        position: static;
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border);
         border-radius: 8px;
-        box-shadow: 0 4px 24px rgba(0,0,0,0.06), inset 0 -1px 0 rgba(255,255,255,0.2);
+        box-shadow: 0 2px 12px rgba(0,0,0,0.05);
         margin-bottom: 2rem;
         /* Subtle indigo top accent */
         border-top: 3px solid var(--accent, #6366f1);
@@ -589,7 +580,7 @@
         .jobs-hero-inner  { grid-template-columns: 1fr; }
         .jobs-hero-cta    { align-items: flex-start; }
         .jobs-hero h1     { -webkit-text-fill-color: unset; background: none; color: var(--ink); }
-        .jobs-filter-bar  { position: static; border-radius: 8px; padding: 0.8rem 1rem 0.85rem; }
+        .jobs-filter-bar  { border-radius: 8px; padding: 0.8rem 1rem 0.85rem; }
         .jobs-grid        { grid-template-columns: 1fr; }
         .filter-top-row   { gap: 0.5rem; }
         .filter-pipe      { display: none; }
