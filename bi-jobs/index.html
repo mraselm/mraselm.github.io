@@ -694,7 +694,32 @@
                 rel="noopener noreferrer">Jobindex.dk</a>
             </span>
             <span class="jobs-source-dot" aria-hidden="true"></span>
-            <span>Updated daily at 06:00 UTC</span>
+            <span id="refresh-time-label">Updated daily at 07:00 CET</span>
+            <script>
+              (function(){
+                try {
+                  var d = new Date('2000-01-01T06:00:00Z');
+                  var fmt = new Intl.DateTimeFormat('en-GB', {
+                    hour: '2-digit', minute: '2-digit',
+                    timeZone: 'Europe/Copenhagen',
+                    timeZoneName: 'short'
+                  });
+                  var parts = fmt.formatToParts(d);
+                  var time = '';  var tz = '';
+                  parts.forEach(function(p){
+                    if (p.type === 'hour' || p.type === 'literal' && time) time += p.value;
+                    else if (p.type === 'minute') time += p.value;
+                    else if (p.type === 'timeZoneName') tz = p.value;
+                  });
+                  var h = parts.find(function(p){ return p.type==='hour'; });
+                  var m = parts.find(function(p){ return p.type==='minute'; });
+                  if (h && m && tz) {
+                    document.getElementById('refresh-time-label').textContent =
+                      'Updated daily at ' + h.value + ':' + m.value + '\u202f' + tz;
+                  }
+                } catch(e){}
+              })();
+            </script>
             <span class="jobs-source-dot" aria-hidden="true"></span>
             <a id="jobs-see-all"
                href="https://www.jobindex.dk/jobsoegning?q=data+analyst&arbejdstid%5B%5D=Fuldtid"
@@ -756,10 +781,6 @@
 
         <div class="footer-bottom">
           <span class="copyright">&copy; Rasel Mia 2026 &middot; All Rights Reserved</span>
-          <a href="#jobs" class="btn ghost"
-             style="padding:.5rem 1rem;font-size:.85rem;">
-            <i class="fas fa-arrow-up" aria-hidden="true"></i> Back to top
-          </a>
         </div>
       </div>
     </footer>
