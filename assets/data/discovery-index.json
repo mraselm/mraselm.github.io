@@ -1,5 +1,13 @@
 [
   {
+    "id": "project-bijobs",
+    "type": "project",
+    "title": "BI Jobs Board — Denmark's Curated BI Job Feed",
+    "description": "Python scraper runs daily via GitHub Actions, fetches BI roles from Jobindex, and auto-deploys a filterable static page. Filter by city, job type, and category.",
+    "url": "/bi-jobs/",
+    "tags": ["Python", "GitHub Actions", "Automation", "Scraping", "Denmark"]
+  },
+  {
     "id": "project-churn",
     "type": "project",
     "title": "AI-Powered Customer Churn Prediction & Retention Dashboard",
