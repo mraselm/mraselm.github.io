@@ -182,7 +182,7 @@
         );
         z-index: 10;
         border: 1px solid rgba(255,255,255,0.5);
-        border-radius: 16px;
+        border-radius: 22px;
         box-shadow: 0 4px 24px rgba(0,0,0,0.06), inset 0 -1px 0 rgba(255,255,255,0.2);
         margin-bottom: 2rem;
         /* Subtle indigo top accent */
@@ -192,24 +192,17 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 0.75rem;
         padding-bottom: 0.7rem;
         border-bottom: 1px solid var(--border);
         margin-bottom: 0.65rem;
       }
       .jobs-tabs {
-        flex: 1;
-        min-width: 0;
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 0.45rem;
-        overflow-x: auto;
-        overflow-y: hidden;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
       }
-      .jobs-tabs::-webkit-scrollbar { display: none; }
       .jobs-tab {
         display: inline-flex;
         align-items: center;
@@ -464,7 +457,7 @@
         padding: 0.42rem 1rem;
         background: var(--body-bg, #f8fafc);
         border: 1px solid var(--border);
-        border-radius: 12px;
+        border-radius: 999px;
       }
       .filter-seg {
         display: inline-flex;
@@ -522,7 +515,7 @@
       .type-btn[data-type="full-time"].active  { background:#16a34a; border-color:#16a34a; color:#fff; }
       .type-btn[data-type="student"].active    { background:#f59e0b; border-color:#f59e0b; color:#fff; }
 
-      /* Language filter pills — same as city/type pills */
+      /* Language filter pills */
       .lang-btn {
         display: inline-flex;
         align-items: center;
@@ -567,11 +560,11 @@
         .jobs-hero-inner  { grid-template-columns: 1fr; }
         .jobs-hero-cta    { align-items: flex-start; }
         .jobs-hero h1     { -webkit-text-fill-color: unset; background: none; color: var(--ink); }
-        .jobs-filter-bar  { position: static; border-radius: 12px; padding: 0.8rem 1rem 0.85rem; }
+        .jobs-filter-bar  { position: static; border-radius: 16px; padding: 0.8rem 1rem 0.85rem; }
         .jobs-grid        { grid-template-columns: 1fr; }
         .filter-top-row   { gap: 0.5rem; }
         .filter-pipe      { display: none; }
-        .filter-combined-bar { border-radius: 10px; padding: 0.5rem 0.75rem; row-gap: 0.4rem; }
+        .filter-combined-bar { border-radius: 14px; padding: 0.5rem 0.75rem; row-gap: 0.4rem; }
         .jobs-source      { border-radius: 12px; }
       }
     </style>
@@ -764,8 +757,8 @@
               <div class="filter-seg" id="lang-filter-row">
                 <span class="filter-seg-icon" aria-label="Language"><i class="fas fa-language"></i></span>
                 <button class="lang-btn active" data-lang="all">All</button>
-                <button class="lang-btn" data-lang="en">EN</button>
-                <button class="lang-btn" data-lang="da">DK</button>
+                <button class="lang-btn" data-lang="en">&#127468;&#127463; EN</button>
+                <button class="lang-btn" data-lang="da">&#127465;&#127472; DK</button>
               </div>
             </div>
           </div>
