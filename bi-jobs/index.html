@@ -373,88 +373,70 @@
         display: inline-block;
       }
 
-      /* ── City filter row ── */
-      .city-filter-row {
+      /* ── Combined compact filter bar ── */
+      .filter-combined-bar {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        gap: 0.4rem;
-        padding: 0.6rem 0 0.5rem;
+        gap: 0.3rem 0.5rem;
+        padding: 0.55rem 0;
         border-top: 1px solid var(--border);
       }
-      .city-filter-label {
-        font-size: 0.73rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--muted);
-        margin-right: 0.25rem;
-        white-space: nowrap;
-      }
-      .city-btn {
+      .filter-seg {
         display: inline-flex;
         align-items: center;
-        gap: 0.35rem;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+      }
+      .filter-seg-icon {
+        font-size: 0.72rem;
+        color: var(--muted);
+        opacity: 0.65;
+        margin-right: 0.1rem;
+        padding: 0 0.2rem;
+        flex-shrink: 0;
+      }
+      .filter-pipe {
+        width: 1px;
+        height: 1.6rem;
+        background: var(--border);
+        margin: 0 0.35rem;
+        flex-shrink: 0;
+        align-self: center;
+      }
+      /* shared pill base for both city + type buttons */
+      .city-btn, .type-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
         background: transparent;
         border: 1px solid var(--border, #e2e8f0);
-        border-radius: 8px;
-        padding: 0.28rem 0.75rem;
-        font-size: 0.78rem;
+        border-radius: 20px;
+        padding: 0.22rem 0.7rem;
+        font-size: 0.76rem;
         font-weight: 600;
         cursor: pointer;
         color: var(--muted, #64748b);
         font-family: inherit;
-        transition: background 0.18s, color 0.18s, border-color 0.18s;
+        transition: background 0.15s, color 0.15s, border-color 0.15s;
         white-space: nowrap;
+        line-height: 1.4;
       }
-      .city-btn:hover {
+      .city-btn:hover, .type-btn:hover {
         border-color: var(--accent);
         color: var(--accent);
-        background: rgba(99,102,241,0.05);
+        background: rgba(99,102,241,0.06);
       }
-      .city-btn.active {
+      .city-btn.active, .type-btn.active {
         background: rgba(99,102,241,0.1);
         border-color: var(--accent);
         color: var(--accent);
         font-weight: 700;
       }
-      .city-btn i { font-size: 0.72rem; opacity: 0.7; }
-
-      /* ── Job type filter row ── */
-      .type-filter-row {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 0.4rem;
-        padding: 0.5rem 0 0.6rem;
-        border-top: 1px solid var(--border);
-      }
-      .type-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.35rem;
-        background: transparent;
-        border: 1px solid var(--border, #e2e8f0);
-        border-radius: 8px;
-        padding: 0.28rem 0.75rem;
-        font-size: 0.78rem;
-        font-weight: 600;
-        cursor: pointer;
-        color: var(--muted, #64748b);
-        font-family: inherit;
-        transition: background 0.18s, color 0.18s, border-color 0.18s;
-        white-space: nowrap;
-      }
-      .type-btn:hover {
-        border-color: var(--accent);
-        color: var(--accent);
-        background: rgba(99,102,241,0.05);
-      }
-      .type-btn.active                              { background:rgba(99,102,241,0.10); border-color:var(--accent); color:var(--accent); font-weight:700; }
-      .type-btn[data-type="full-time"].active       { background:rgba(22,163,74,0.10);  border-color:#16a34a; color:#16a34a; }
-      .type-btn[data-type="part-time"].active       { background:rgba(14,165,233,0.10); border-color:#0ea5e9; color:#0369a1; }
-      .type-btn[data-type="student"].active         { background:rgba(245,158,11,0.10); border-color:#f59e0b; color:#b45309; }
-      .type-btn i { font-size: 0.72rem; opacity: 0.7; }
+      .city-btn i, .type-btn i { font-size: 0.68rem; opacity: 0.7; }
+      /* type-specific active colours */
+      .type-btn[data-type="full-time"].active  { background:rgba(22,163,74,0.10);  border-color:#16a34a; color:#16a34a; }
+      .type-btn[data-type="student"].active    { background:rgba(245,158,11,0.10); border-color:#f59e0b; color:#b45309; }
 
       @keyframes spin {
         from { transform: rotate(0deg); }
@@ -467,6 +449,8 @@
         .jobs-filter-bar  { top: 58px; }
         .jobs-grid        { grid-template-columns: 1fr; }
         .filter-top-row   { gap: 0.5rem; }
+        .filter-pipe      { display: none; }
+        .filter-combined-bar { row-gap: 0.4rem; }
       }
     </style>
   </head>
@@ -492,11 +476,11 @@
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="/home/#projects">Projects</a>
           <a href="/home/#skills">Toolbox</a>
-          <a href="/bi-jobs/" class="active" aria-current="page">Jobs</a>
           <a href="/home/#contact">Contact</a>
           <a href="/datastory/">Data Story</a>
           <a href="/cover-letter/">AI Toolkit</a>
           <a href="/resume/">Resume</a>
+          <a href="/bi-jobs/" class="active" aria-current="page">BI Jobs</a>
         </nav>
 
         <div class="header-actions">
@@ -569,6 +553,13 @@
           <div class="jobs-filter-bar" role="toolbar" aria-label="Filter jobs">
             <div class="filter-top-row">
               <div class="jobs-tabs" id="jobs-tabs" role="tablist" aria-label="Job categories">
+                <button class="jobs-tab"
+                  data-query="all" data-color="#64748b" style="--tab-color:#64748b"
+                  role="tab" aria-selected="false" aria-controls="jobs-grid">
+                  <i class="fas fa-layer-group" aria-hidden="true"></i>
+                  All Jobs
+                  <span class="tab-count" id="tc-all">0</span>
+                </button>
                 <button class="jobs-tab active"
                   data-query="data analyst" data-color="#6366f1" style="--tab-color:#6366f1"
                   role="tab" aria-selected="true" aria-controls="jobs-grid">
@@ -607,26 +598,29 @@
               </div>
             </div>
 
-            <!-- City filter row (lives inside the sticky bar) -->
-            <div class="city-filter-row" id="city-filter-row" role="group" aria-label="Filter by city">
-              <span class="city-filter-label"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> City</span>
-              <button class="city-btn active" data-city="all">All Denmark</button>
-              <button class="city-btn" data-city="copenhagen"><i class="fas fa-city" aria-hidden="true"></i>Copenhagen</button>
-              <button class="city-btn" data-city="aarhus"><i class="fas fa-city" aria-hidden="true"></i>Aarhus</button>
-              <button class="city-btn" data-city="odense"><i class="fas fa-city" aria-hidden="true"></i>Odense</button>
-              <button class="city-btn" data-city="aalborg"><i class="fas fa-city" aria-hidden="true"></i>Aalborg</button>
-              <button class="city-btn" data-city="esbjerg"><i class="fas fa-city" aria-hidden="true"></i>Esbjerg</button>
-              <button class="city-btn" data-city="vejle"><i class="fas fa-city" aria-hidden="true"></i>Vejle</button>
-              <button class="city-btn" data-city="remote"><i class="fas fa-laptop-house" aria-hidden="true"></i>Remote</button>
-            </div>
-
-            <!-- Job type filter row -->
-            <div class="type-filter-row" id="type-filter-row" role="group" aria-label="Filter by job type">
-              <span class="city-filter-label"><i class="fas fa-clock" aria-hidden="true"></i> Type</span>
-              <button class="type-btn active" data-type="all">All Types</button>
-              <button class="type-btn" data-type="full-time"><i class="fas fa-briefcase" aria-hidden="true"></i>Full Time</button>
-              <button class="type-btn" data-type="part-time"><i class="fas fa-clock" aria-hidden="true"></i>Part Time</button>
-              <button class="type-btn" data-type="student"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Student Job</button>
+            <!-- Combined city + type filter bar -->
+            <div class="filter-combined-bar" id="filter-combined-bar" role="group" aria-label="Filter by city and job type">
+              <!-- City segment -->
+              <div class="filter-seg" id="city-filter-row">
+                <span class="filter-seg-icon" aria-label="City"><i class="fas fa-map-marker-alt"></i></span>
+                <button class="city-btn active" data-city="all">All Denmark</button>
+                <button class="city-btn" data-city="copenhagen">Copenhagen</button>
+                <button class="city-btn" data-city="aarhus">Aarhus</button>
+                <button class="city-btn" data-city="odense">Odense</button>
+                <button class="city-btn" data-city="aalborg">Aalborg</button>
+                <button class="city-btn" data-city="esbjerg">Esbjerg</button>
+                <button class="city-btn" data-city="vejle">Vejle</button>
+                <button class="city-btn" data-city="remote"><i class="fas fa-laptop-house" aria-hidden="true"></i>Remote</button>
+              </div>
+              <!-- Divider -->
+              <span class="filter-pipe" aria-hidden="true"></span>
+              <!-- Type segment -->
+              <div class="filter-seg" id="type-filter-row">
+                <span class="filter-seg-icon" aria-label="Job type"><i class="fas fa-clock"></i></span>
+                <button class="type-btn active" data-type="all">All Types</button>
+                <button class="type-btn" data-type="full-time"><i class="fas fa-briefcase" aria-hidden="true"></i>Full Time</button>
+                <button class="type-btn" data-type="student"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Student / Part-time</button>
+              </div>
             </div>
           </div>
           <div id="jobs-grid" class="jobs-grid"
@@ -834,12 +828,17 @@
         /*  Tab count badges  */
         function updateTabCounts(data) {
           if (!data || !data.categories) return;
+          var total = 0;
           Object.keys(TAB_COUNT_IDS).forEach(function (q) {
             var id  = TAB_COUNT_IDS[q];
             var n   = (data.categories[q] || []).length;
+            total += n;
             var el  = document.getElementById(id);
             if (el) { el.textContent = n; el.classList.add('loaded'); }
           });
+          /* All Jobs tab shows total (deduplicated count may differ, use sum) */
+          var allEl = document.getElementById('tc-all');
+          if (allEl) { allEl.textContent = total; allEl.classList.add('loaded'); }
         }
 
         /*  Render jobs for a category (with optional city filter)  */
@@ -849,14 +848,29 @@
           var count  = document.getElementById('jobs-count');
           var seeAll = document.getElementById('jobs-see-all');
 
-          if (seeAll) seeAll.href = JOBINDEX_SEARCH.replace('{q}', encodeURIComponent(cat));
+          if (seeAll) seeAll.href = JOBINDEX_SEARCH.replace('{q}', cat === 'all' ? 'data+analyst' : encodeURIComponent(cat));
 
-          var allJobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
+          /* Aggregate all categories when cat==='all', otherwise use specific category */
+          var allJobs;
+          if (cat === 'all') {
+            var _dedup = {};
+            allJobs = [];
+            ['data analyst', 'business analyst', 'business intelligence', 'bi specialist'].forEach(function (k) {
+              ((JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[k]) || []).forEach(function (j) {
+                if (!_dedup[j.url]) { _dedup[j.url] = true; allJobs.push(j); }
+              });
+            });
+          } else {
+            allJobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
+          }
 
           /* Apply city + type filters */
           var jobs = allJobs.filter(function (j) {
             var cityOk = currentCity === 'all' || matchesCity(j, currentCity);
-            var typeOk = currentType === 'all' || (j.job_type || 'full-time') === currentType;
+            /* Student filter also shows part-time jobs since they overlap */
+            var _jt = j.job_type || 'full-time';
+            var typeOk = currentType === 'all' || _jt === currentType ||
+                         (currentType === 'student' && _jt === 'part-time');
             return cityOk && typeOk;
           });
 

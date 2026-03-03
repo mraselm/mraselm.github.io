@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
@@ -275,11 +275,11 @@
         <nav class="nav-links">
           <a href="#projects" data-i18n="nav_projects">Projects</a>
           <a href="#skills" data-i18n="nav_skills">Toolbox</a>
-          <a href="#jobs" data-i18n="nav_jobs">Jobs</a>
           <a href="#contact" data-i18n="nav_contact">Contact</a>
           <a href="/datastory/" data-i18n="nav_datastory">Data Story</a>
           <a href="/cover-letter/" data-i18n="nav_cover">AI Toolkit</a>
           <a href="/resume/" data-i18n="nav_resume">Resume</a>
+          <a href="/bi-jobs/" data-i18n="nav_jobs">BI Jobs</a>
         </nav>
         <div class="header-actions">
           <div class="socials">
@@ -470,37 +470,6 @@
         </div>
       </section>
 
-      <section id="jobs">
-        <div class="container">
-          <div class="section-header">
-            <p class="eyebrow" data-i18n="jobs_eyebrow">Open Roles &middot; Denmark</p>
-            <h2 class="section-title" data-i18n="jobs_title">Latest Data &amp; BI Jobs</h2>
-            <p data-i18n="jobs_desc">Live full-time positions in Denmark across Data Analyst, Business Analyst, Business Intelligence, and BI Specialist roles &mdash; sourced from Jobindex.dk.</p>
-          </div>
-          <div class="jobs-filter-bar">
-            <div class="jobs-tabs" id="jobs-tabs" role="tablist" aria-label="Job category filter">
-              <button class="jobs-tab active" data-query="data analyst" role="tab" aria-selected="true">Data Analyst</button>
-              <button class="jobs-tab" data-query="business analyst" role="tab" aria-selected="false">Business Analyst</button>
-              <button class="jobs-tab" data-query="business intelligence" role="tab" aria-selected="false">Business Intelligence</button>
-              <button class="jobs-tab" data-query="bi specialist" role="tab" aria-selected="false">BI Specialist</button>
-            </div>
-            <button class="btn ghost" id="jobs-refresh" aria-label="Refresh job listings">
-              <i class="fas fa-sync-alt" aria-hidden="true"></i> Refresh
-            </button>
-          </div>
-          <p class="jobs-count" id="jobs-count" aria-live="polite"></p>
-          <div id="jobs-loading" class="jobs-loading" aria-live="polite">
-            <i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>
-            <span data-i18n="jobs_loading">Loading jobs&hellip;</span>
-          </div>
-          <div id="jobs-grid" class="jobs-grid" role="list"></div>
-          <div id="jobs-error" class="jobs-error" style="display:none;" role="alert"></div>
-          <p class="jobs-source">Powered by <a href="https://www.jobindex.dk/" target="_blank" rel="noopener noreferrer">Jobindex.dk</a> &mdash; updated daily &middot;
-            <a id="jobs-see-all" href="https://www.jobindex.dk/jobsoegning?q=data+analyst&arbejdstid%5B%5D=Fuldtid" target="_blank" rel="noopener noreferrer">See all on Jobindex &#8599;</a>
-            <span id="jobs-updated" style="margin-left:.75rem;"></span>
-          </p>
-        </div>
-      </section>
 
       <section id="for-you" class="for-you-section">
         <div class="container">
@@ -651,7 +620,7 @@
             <ul>
               <li><a href="/home/#projects">Projects</a></li>
               <li><a href="/home/#skills">Toolbox</a></li>
-              <li><a href="/home/#jobs">Jobs in Denmark</a></li>
+              <li><a href="/bi-jobs/">BI Jobs</a></li>
               <li><a href="/datastory/">Data Story</a></li>
               <li><a href="/cover-letter/">AI Toolkit</a></li>
             </ul>
@@ -815,6 +784,7 @@
       (function () {
         var JOBS_DATA = null;      // cached after first fetch
         var currentCategory = 'data analyst';
+        if (!document.getElementById('jobs-grid')) return;
 
         var JOBINDEX_SEARCH = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
 
@@ -1046,7 +1016,7 @@
             jobs_title: "Latest Data & BI Jobs",
             jobs_desc: "Live full-time positions in Denmark across Data Analyst, Business Analyst, Business Intelligence, and BI Specialist roles \u2014 sourced from Jobindex.dk.",
             jobs_loading: "Loading jobs\u2026",
-            nav_jobs: "Jobs"
+            nav_jobs: "BI Jobs"
           },
           da: {
             nav_projects: "Projekter",
@@ -1138,7 +1108,7 @@
             jobs_title: "Seneste Data & BI stillinger",
             jobs_desc: "Aktuelle fuldtidsstillinger i Danmark inden for Data Analyst, Business Analyst, Business Intelligence og BI Specialist \u2014 hentet fra Jobindex.dk.",
             jobs_loading: "Indlæser stillinger\u2026",
-            nav_jobs: "Stillinger"
+            nav_jobs: "BI Jobs"
           }
         };
 
