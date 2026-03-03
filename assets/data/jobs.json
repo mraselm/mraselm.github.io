@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T15:53:15Z",
+  "updated": "2026-03-03T16:19:08Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -10,6 +10,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640499",
         "posted": "2026-02-19",
         "snippet": "If you are looking to contribute to the decarbonisation of maritime shipping, this is an ideal project and part-time position for you.At DTU Chemical Engineering, as part of SEAFAIRER (Horizon Europe Innovation Action), you will s",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -20,6 +21,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640060",
         "posted": "2026-02-18",
         "snippet": "Vil du være med til at analysere Telenors netværks- og kundedata og omsætte dem til kundeorienterede handlinger - og samtidig bidrage til at udvikle rapporteringsløsninger og AI‑initiativer, der kommer til at forme Telenors arbejd",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -30,6 +32,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1639996",
         "posted": "2026-02-18",
         "snippet": "Du får en central rolle i at strukturere og videreudvikle vores data med særligt fokus på definition, struktur og kvalitetssikring af vores hoved-KPI’er herunder churn, sign-ups, revenue metrics, etc.I stillingen bliver du en del",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -40,6 +43,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1639743",
         "posted": "2026-02-17",
         "snippet": "Passionate about turning data into insight and bridging business and IT?You will play a key role in shaping how data supports decision-making across Wrist. You work hands-on with master data, ensuring high quality and consistency,",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -50,6 +54,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13655457",
         "posted": "2026-03-02",
         "snippet": "We are looking for a Data Analyst (AC-TAP) position with a focus on data analysis and management within the Danish Structural Imaging and...",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -60,6 +65,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1643750",
         "posted": "2026-03-03",
         "snippet": "Vil du være med til at identificere og bekæmpe den mest komplekse kriminalitet i samfundet?Vi bliver i stigende grad udfordret af de kriminelles brug af teknologi og digital kommunikation. Som dataanalytiker er du med til at tegne",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -70,6 +76,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1641367",
         "posted": "2026-02-23",
         "snippet": "Motiveres du af at arbejde med data, og vil du gerne være med til at sikre et solidt og pålideligt datagrundlag for Nykredits kundedata og modpartsdata? Så er dette en spændende mulighed for dig.Du vil blive en del af et lille tea",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -80,6 +87,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1639507",
         "posted": "2026-02-16",
         "snippet": "Vil du være arkitekten bag vores datamodeller – og den, der gør resten af organisationen i stand til at bruge dem?Vi søger en stærk profil til vores IT & Digitaliseringsafdeling, der kan løfte vores brug af data fra rapportering t",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -90,6 +98,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13629631",
         "posted": "2026-02-17",
         "snippet": "Vil du være med til at styrke datagrundlaget på Rigshospitalet og skabe indsigt, der gør en reel forskel for patienter og personale?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -102,6 +111,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1642972",
         "posted": "2026-02-27",
         "snippet": "Er du skarp til data, forretningsforståelse og procesoptimering – og trives du i rollen som bindeleddet mellem forretning og regnskab?Hos ZF Danmark søger vi en engageret Business Analyst, der vil være med til at styrke vores fina",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -112,6 +122,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1642702",
         "posted": "2026-02-27",
         "snippet": "Vil du være med dér, hvor finansielle indsigter bliver til strategiske beslutninger?Som Business Analyst får du en rolle tæt på forretningsledelsen og bliver central i at omsætte data og analyser til konkrete handlinger.Du får mul",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -122,6 +133,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1627000",
         "posted": "2026-02-26",
         "snippet": "Trives du med at opbygge relationer til kunder, drive dialogen og identificere muligheder for forretning, samtidig med at du arbejder proaktivt i en hverdag med højt tempo og variation?Hos Solitwork får du en central rolle i at de",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -132,6 +144,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1641548",
         "posted": "2026-02-24",
         "snippet": "The Senior Business Analyst role offers you the possibility to work with our existing solutions in the credit risk area as well as participate in BEC’s tech transformation journey.It is in the Reporting Solutions domain which is r",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -142,6 +155,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1620714",
         "posted": "2026-02-24",
         "snippet": "The role offers a unique opportunity to join a fresh team in charge of building a new and modern liquidity management solution for a strategically important initiative in BEC.One of your primary tasks and responsibilities will inc",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -152,6 +166,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1641506",
         "posted": "2026-02-24",
         "snippet": "Vil du være en del af Danmarks største dagligvarekæde? I jobbet får du en bred berøringsflade på tværs af centrale forretningsenheder og salgsafdeling. Forankret i data skal du optimere vores performance ved at levere værdiskabend",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -162,6 +177,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1641436",
         "posted": "2026-02-23",
         "snippet": "Vil du være med til at omsætte forretningsbehov til intelligente AI-løsninger, der skaber værdi for både kunder og DSB? Bliv bindeleddet mellem strategi og teknologi, og vær med til at forme fremtidens digitale agenter!Du bliver d",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -172,6 +188,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640789",
         "posted": "2026-02-20",
         "snippet": "Vores mål er at skabe en sikker, compliant og skalerbar AI-platform, der kan hjælpe os med at gøre AI til en integreret del af vores teknologilandskab, og den måde, vi driver a-kasseforretning på.Vi tilbyder en spændende og udford",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -182,6 +199,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640294",
         "posted": "2026-02-19",
         "snippet": "This position is based at our friendly office in Roskilde and you will join our Customer Rating & Analytics team (CRA) which is part of the regulatory Reporting Solutions (RS) domain.The position offers a unique opportunity to joi",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -192,6 +210,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640024",
         "posted": "2026-02-18",
         "snippet": "I Center for Kommunikation og Udvikling søger vi lige nu en erfaren forretningsanalytiker, som vil være med til at sikre god datakvalitet på tværs af organisationen samt styrke og udvikle den datadrevne ledelse.Vi søger dig, der s",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -204,6 +223,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1643960",
         "posted": "2026-03-03",
         "snippet": "Vi er i en spændende fase, hvor vi bygger nyt, skalerer og migrerer til en større dataplatform for at centralisere BI-funktionen på tværs af selskaber i DUOS-koncernen.Du bliver en central teknisk profil i BI-teamet og får ansvar",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -214,6 +234,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640818",
         "posted": "2026-02-20",
         "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development. From day one, you take on responsibility and become part of a strong community that succeeds toge",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -224,6 +245,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640809",
         "posted": "2026-02-20",
         "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development.Design and implement BI solutions for Denmark’s most visionary companies, work closely with client",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -234,6 +256,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1638981",
         "posted": "2026-02-13",
         "snippet": "Vil du bruge dine evner inden for teknologi, data og CRM til at bekæmpe ulighed og udrydde fattigdom?Vi søger en skarp CRM & Business Intelligence Manager til vores Kommunikations- og Fundraising-afdeling. Vi leder efter en profil",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -244,6 +267,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1637200",
         "posted": "2026-02-06",
         "snippet": "Could you see yourself be the key driver of Power BI dashboard reporting?As a Senior BI Developer, you'll simplify complex data into visual and meaningful insights that enable our Finance colleagues and business managers to be dat",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -254,6 +278,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1638977",
         "posted": "2026-02-13",
         "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -264,6 +289,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1637517",
         "posted": "2026-02-09",
         "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -274,6 +300,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1643619",
         "posted": "2026-03-03",
         "snippet": "Har du lyst til at arbejde med researchopgaver, databehandling, visualisering af viden og data samt kommunikation deraf?Som studentermedarbejder bliver du en del af et team af tværgående studentermedarbejdere og får ansvar for opg",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "student"
       }
@@ -286,6 +313,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13658510",
         "posted": "2026-03-03",
         "snippet": "Til DataHorizon-projektet søger vi en Data Solution Architect med stærk teknisk profil og erfaring inden for data engineering og softwareudvikling.",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -296,6 +324,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13641332",
         "posted": "2026-02-23",
         "snippet": "Vil du have en rolle, hvor data, AI og analyse direkte påvirker, hvilke forretninger der bliver skabt?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -306,6 +335,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13622119",
         "posted": "2026-02-12",
         "snippet": "Stillingen er nyoprettet og giver dig mulighed for at få en central rolle i at styrke koncernens rapportering, dataoverblik og...",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -318,6 +348,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1642662",
         "posted": "2026-02-27",
         "snippet": "Join our dedicated team and become part of a company developing the next-generation glucose monitors to improve the lives of millions of people with impaired glucose control.The work will include research within regression modelli",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -328,6 +359,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1642854",
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -338,6 +370,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640050",
         "posted": "2026-02-18",
         "snippet": "Do you want to help develop and bring advanced AI into the core of Telenor’s daily operations?You will work directly with modern AI tools and develop the models and solutions that make our network smarter and more efficient. Here,",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -348,6 +381,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1639120",
         "posted": "2026-02-13",
         "snippet": "Do you believe there’s a connection between bacon and data — and are you ready to drive this connection to the next level?You will play an active role in shaping and influencing data-driven decision-making, partnering with operati",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -358,6 +392,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1638053",
         "posted": "2026-02-11",
         "snippet": "We are looking for a colleague with strong interest in algorithms, Machine Learning & AIYou will join a newly established international project team with participants in Denmark and three other European countries.In this role, you",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -368,6 +403,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13655387",
         "posted": "2026-03-02",
         "snippet": "Er du uddannet læge med speciallægeanerkendelse?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -378,6 +414,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13635359",
         "posted": "2026-02-19",
         "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -388,6 +425,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13619141",
         "posted": "2026-02-11",
         "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -398,6 +436,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640483",
         "posted": "2026-02-19",
         "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -408,6 +447,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1640316",
         "posted": "2026-02-19",
         "snippet": "To uphold high-quality digital solutions provided to our commercial teams, we are looking for an AI Engineer to join our Chartering Analytics team in Copenhagen.Our tech stack consists of Python and its modern ecosystem (uv, FastA",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -418,6 +458,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13635361",
         "posted": "2026-02-19",
         "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -428,6 +469,7 @@
         "url": "https://www.jobindex.dk/vis-job/r13633104",
         "posted": "2026-02-18",
         "snippet": "At Neurons, we help the world’s leading brands predict how people will perceive, feel, and react to creative; before it goes live.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       }

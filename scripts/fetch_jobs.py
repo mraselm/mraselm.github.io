@@ -384,6 +384,29 @@ def parse_description(raw_desc: str) -> tuple[str, str]:
     return location or "Denmark", snippet
 
 
+def detect_language(text: str) -> str:
+    """Return 'da' if text reads as Danish, 'en' otherwise.
+
+    Heuristic: Danish-specific diacritics (æ, ø, å) in the snippet are a
+    near-certain signal.  If absent, count high-frequency Danish function
+    words; two or more hits classify the text as Danish.
+    """
+    if not text:
+        return "en"
+    t = text.lower()
+    # Danish diacritics are a very strong signal
+    if any(c in t for c in 'æøå'):
+        return "da"
+    # Fallback: common Danish function words (padded to avoid sub-matches)
+    da_words = [
+        ' du ', ' dig ', ' vi ', ' er ', ' og ', ' til ',
+        ' med ', ' som ', ' det ', ' den ', ' de ', ' kan ',
+        ' vil ', ' har ', ' din ', ' dit ', ' hvad ', ' ikke ',
+    ]
+    hits = sum(1 for w in da_words if w in ' ' + t + ' ')
+    return 'da' if hits >= 2 else 'en'
+
+
 def title_matches(title: str, keywords: list[str]) -> bool:
     """Return True if title contains at least one whitelisted keyword."""
     t = title.lower()
@@ -437,6 +460,8 @@ def parse_item(item: ET.Element) -> dict | None:
         if city:
             location = city
 
+    lang = detect_language(snippet)
+
     return {
         "title":    title,
         "company":  company,
@@ -444,6 +469,7 @@ def parse_item(item: ET.Element) -> dict | None:
         "url":      link,
         "posted":   parse_date(pub_date),
         "snippet":  snippet,
+        "lang":     lang,
         "source":   "jobindex",
     }
 

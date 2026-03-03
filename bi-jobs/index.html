@@ -515,6 +515,38 @@
       .type-btn[data-type="full-time"].active  { background:#16a34a; border-color:#16a34a; color:#fff; }
       .type-btn[data-type="student"].active    { background:#f59e0b; border-color:#f59e0b; color:#fff; }
 
+      /* Language filter pills */
+      .lang-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.28rem;
+        background: transparent;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        padding: 0.2rem 0.65rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        cursor: pointer;
+        color: var(--muted, #64748b);
+        font-family: inherit;
+        transition: background 0.15s, color 0.15s, border-color 0.15s;
+        white-space: nowrap;
+        line-height: 1.45;
+      }
+      .lang-btn:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+        background: rgba(99,102,241,0.07);
+      }
+      .lang-btn.active {
+        background: var(--accent, #6366f1);
+        border-color: var(--accent, #6366f1);
+        color: #fff;
+        font-weight: 700;
+      }
+      .lang-btn[data-lang="en"].active { background:#0369a1; border-color:#0369a1; color:#fff; }
+      .lang-btn[data-lang="da"].active { background:#c0392b; border-color:#c0392b; color:#fff; }
+
       @keyframes shimmer {
         0%   { background-position: 200% 0; }
         100% { background-position: -200% 0; }
@@ -719,6 +751,15 @@
                 <button class="type-btn" data-type="full-time"><i class="fas fa-briefcase" aria-hidden="true"></i>Full Time</button>
                 <button class="type-btn" data-type="student"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Student / Part-time</button>
               </div>
+              <!-- Divider -->
+              <span class="filter-pipe" aria-hidden="true"></span>
+              <!-- Language segment -->
+              <div class="filter-seg" id="lang-filter-row">
+                <span class="filter-seg-icon" aria-label="Language"><i class="fas fa-language"></i></span>
+                <button class="lang-btn active" data-lang="all">All</button>
+                <button class="lang-btn" data-lang="en">&#127468;&#127463; EN</button>
+                <button class="lang-btn" data-lang="da">&#127465;&#127472; DK</button>
+              </div>
             </div>
           </div>
           <div id="jobs-grid" class="jobs-grid"
@@ -842,6 +883,7 @@
         var currentColor     = '#64748b';
         var currentCity      = 'all';
         var currentType      = 'all';
+        var currentLang      = 'all';
         var JOBINDEX_SEARCH  = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
 
         /* City keyword match map */
@@ -876,6 +918,14 @@
           var allBtn = document.querySelector('.type-btn[data-type="all"]');
           if (allBtn) allBtn.classList.add('active');
           currentType = 'all';
+          renderCategory(currentCategory, currentColor);
+        };
+
+        window._jobsShowAllLangs = function () {
+          document.querySelectorAll('.lang-btn').forEach(function (b) { b.classList.remove('active'); });
+          var allBtn = document.querySelector('.lang-btn[data-lang="all"]');
+          if (allBtn) allBtn.classList.add('active');
+          currentLang = 'all';
           renderCategory(currentCategory, currentColor);
         };
 
@@ -1005,14 +1055,15 @@
             allJobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
           }
 
-          /* Apply city + type filters, then sort by most recent first */
+          /* Apply city + type + language filters, then sort by most recent first */
           var jobs = allJobs.filter(function (j) {
             var cityOk = currentCity === 'all' || matchesCity(j, currentCity);
             /* Student filter also shows part-time jobs since they overlap */
             var _jt = j.job_type || 'full-time';
             var typeOk = currentType === 'all' || _jt === currentType ||
                          (currentType === 'student' && _jt === 'part-time');
-            return cityOk && typeOk;
+            var langOk = currentLang === 'all' || (j.lang || 'en') === currentLang;
+            return cityOk && typeOk && langOk;
           }).sort(function (a, b) {
             var da = a.posted ? new Date(a.posted).getTime() : 0;
             var db = b.posted ? new Date(b.posted).getTime() : 0;
@@ -1040,15 +1091,18 @@
               error.style.display = 'block';
               var _acb = document.querySelector('.city-btn.active');
               var _atb = document.querySelector('.type-btn.active');
+              var _alb = document.querySelector('.lang-btn.active');
               var _fd  = [];
               if (currentCity !== 'all') _fd.push(_acb ? _acb.textContent.trim() : currentCity);
               if (currentType !== 'all') _fd.push(_atb ? _atb.textContent.trim() : currentType);
+              if (currentLang !== 'all') _fd.push(_alb ? _alb.textContent.trim() : currentLang);
               error.innerHTML =
                 '<div class="jobs-empty-icon"><i class="fas fa-filter" aria-hidden="true"></i></div>' +
                 '<p>No listings match <strong>' + esc(_fd.join(' + ')) + '</strong> for this category.</p>' +
                 '<span style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;">' +
                 (currentCity !== 'all' ? '<button class="btn ghost" onclick="_jobsShowAllCities()">All cities</button>' : '') +
                 (currentType !== 'all' ? '<button class="btn ghost" onclick="_jobsShowAllTypes()">All types</button>' : '') +
+                (currentLang !== 'all' ? '<button class="btn ghost" onclick="_jobsShowAllLangs()">All languages</button>' : '') +
                 '</span>';
             }
             return;
@@ -1057,8 +1111,10 @@
           if (error) error.style.display = 'none';
           var _activeCity = document.querySelector('.city-btn.active');
           var _activeType = document.querySelector('.type-btn.active');
+          var _activeLang = document.querySelector('.lang-btn.active');
           var _suffix = (currentType !== 'all' ? ' \u00b7 ' + (_activeType ? _activeType.textContent.trim() : '') : '')
-                      + (currentCity !== 'all' ? ' in ' + (_activeCity ? _activeCity.textContent.trim() : '') : '');
+                      + (currentCity !== 'all' ? ' in ' + (_activeCity ? _activeCity.textContent.trim() : '') : '')
+                      + (currentLang !== 'all' ? ' \u00b7 ' + (_activeLang ? _activeLang.textContent.trim() : '') : '');
           if (count) count.textContent = jobs.length + ' position' + (jobs.length === 1 ? '' : 's') + _suffix;
 
           var c = esc(color || currentColor);
@@ -1174,6 +1230,16 @@
             document.querySelectorAll('.type-btn').forEach(function (b) { b.classList.remove('active'); });
             this.classList.add('active');
             currentType = this.dataset.type;
+            if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
+          });
+        });
+
+        /*  Language button click handler  */
+        document.querySelectorAll('.lang-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            document.querySelectorAll('.lang-btn').forEach(function (b) { b.classList.remove('active'); });
+            this.classList.add('active');
+            currentLang = this.dataset.lang;
             if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
           });
         });
