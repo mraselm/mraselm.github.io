@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T02:01:15Z",
+  "updated": "2026-03-03T02:12:08Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -94,117 +94,17 @@
         "job_type": "full-time"
       },
       {
-        "title": "Ny kollega til landzonesagsbehandling og planlægning i det åbne land - Til Plan, Byg og Miljø",
-        "company": "Kalundborg Kommune",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643426",
-        "posted": "2026-03-02",
-        "snippet": "Vi har brug for en ny planlægger til vores Planafdeling, der vil være en del af et spændende fagområde under konstant udvikling.Du skal først og fremmest arbejde med landzonesagsbehandling og derudover med kommune- og lokalplanlæg",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Marketingansvarlig til Eurofins Product Testing Denmark A/S",
-        "company": "Eurofins",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643366",
-        "posted": "2026-03-02",
-        "snippet": "Kan du hjælpe nogle naturvidenskabelige med at styrke deres branding, og kan du understøtte vores sælgere i Europa? Så er det dig, vi søger.Vi har store drømme og visioner for vores marketingstrategi. Derfor søger vi dig som får i",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Kickstart din juridiske karriere indenfor fast ejendom – bliv studentermedhjælper i Bygningsstyrelsen",
-        "company": "Bygningsstyrelsen",
+        "title": "Studentermedhjælper - Data Engineering",
+        "company": "Finansforbundet",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643226",
-        "posted": "2026-03-02",
-        "snippet": "Leder du efter et studiejob, hvor du kan gøre brug af din teoretiske viden og samtidig opbygge kompetencer inden for det ejendomsjuridiske område? Dine arbejdsopgaver vil blandt andet være:Juridiske opgaver relateret til Bygningss",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du bruge din juridiske faglighed dér, hvor den gør en forskel? Bliv juridisk konsulent i Team Jura",
-        "company": "Industriens Uddannelser",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643222",
-        "posted": "2026-03-02",
-        "snippet": "Industriens Uddannelser søger en juridisk konsulent med stærke faglige kompetencer og interesse for samfundsforhold, uddannelsesområdet og gode arbejdsfællesskaber.Du vil komme til at arbejde med afgørelser inden for erhvervsuddan",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du være studentermedhjælper i vores spændende kontor, der blandt andet arbejder med eksport/import af fødevarer?",
-        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1643197",
-        "posted": "2026-03-02",
-        "snippet": "Vil du være med til at facilitere dansk eksport og import af fødevarer, foder og levende dyr? Er du i gang med en relevant akademisk uddannelse og har interesse for fødevareklyngen?For tiden har vi følgende opgaver til studenterme",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Afdelingsleder for Økonomistyring hos Nordværk",
-        "company": "Nordværk I/S",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1634852",
-        "posted": "2026-03-02",
-        "snippet": "Vil du lede en central økonomifunktion, der skaber værdi gennem strategisk styring og faglig ekspertise?Nordværk I/S søger en engageret afdelingsleder for Økonomistyring, der med stærk analytisk forståelse og solid ledelseserfarin",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til SoMe",
-        "company": "Løgismose A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643470",
-        "posted": "2026-03-02",
-        "snippet": "Har du en forkærlighed for god mad, solidt håndværk og kreativ formidling?Vi søger en engageret og idérig studentermedhjælper, der har lyst til at arbejde med SoMe, tekstforfatning, opdatering af vores website, nyhedsbreve og gene",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv kontorelever hos IDA!, Ingeniørforeningen",
-        "company": "IDA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643342",
-        "posted": "2026-03-02",
-        "snippet": "Er du pligtopfyldende, lærevillig og engageret i dit arbejde? Vi søger 1 kontorelev, der kan starte hos os den 1. september 2026. Elevperioden vil være delt mellem to afdelinger: Kompetence og læring samt Netværk og frivillighed.V",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Aktivitetsansvarlig til Hjertemotion",
-        "company": "Hjerteforeningen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643246",
-        "posted": "2026-03-02",
-        "snippet": "Vi søger en ny kollega, der kan koordinere samarbejdet med opgaveteamet, udvikle og prioritere den løbende drift og sikre kvalitet i alle leverancer.Du vil have ansvaret for at koordinere samarbejdet med opgaveteamet og have konta",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv privat lektiehjælper – et unikt studiejob eller deltidsjob",
-        "company": "Egmont",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1642710",
-        "posted": "2026-03-02",
-        "snippet": "",
+        "url": "https://www.jobindex.dk/vis-job/h1643047",
+        "posted": "2026-02-27",
+        "snippet": "Er du nysgerrig på data engineering, og motiveres du af at omsætte data til forretningsmæssige indsigter?Så har du mulighed for at blive en del af Team Data & Analyse i Finansforbundet, hvor vi søger en nysgerrig, initiativrig og",
         "source": "jobindex",
         "job_type": "student"
       }
     ],
     "business analyst": [
-      {
-        "title": "Business Analyst",
-        "company": "ZF Danmark ApS",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1642972",
-        "posted": "2026-02-27",
-        "snippet": "Er du skarp til data, forretningsforståelse og procesoptimering – og trives du i rollen som bindeleddet mellem forretning og regnskab?Hos ZF Danmark søger vi en engageret Business Analyst, der vil være med til at styrke vores fina",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Business Analyst til Finans",
         "company": "Tryg Forsikring A/S",
@@ -296,102 +196,22 @@
         "job_type": "full-time"
       },
       {
-        "title": "Ny kollega til landzonesagsbehandling og planlægning i det åbne land - Til Plan, Byg og Miljø",
-        "company": "Kalundborg Kommune",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643426",
-        "posted": "2026-03-02",
-        "snippet": "Vi har brug for en ny planlægger til vores Planafdeling, der vil være en del af et spændende fagområde under konstant udvikling.Du skal først og fremmest arbejde med landzonesagsbehandling og derudover med kommune- og lokalplanlæg",
+        "title": "Business Analyst",
+        "company": "ZF Danmark ApS",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1642972",
+        "posted": "2026-02-27",
+        "snippet": "Er du skarp til data, forretningsforståelse og procesoptimering – og trives du i rollen som bindeleddet mellem forretning og regnskab?Hos ZF Danmark søger vi en engageret Business Analyst, der vil være med til at styrke vores fina",
         "source": "jobindex",
         "job_type": "student"
       },
       {
-        "title": "Marketingansvarlig til Eurofins Product Testing Denmark A/S",
-        "company": "Eurofins",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643366",
-        "posted": "2026-03-02",
-        "snippet": "Kan du hjælpe nogle naturvidenskabelige med at styrke deres branding, og kan du understøtte vores sælgere i Europa? Så er det dig, vi søger.Vi har store drømme og visioner for vores marketingstrategi. Derfor søger vi dig som får i",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Kickstart din juridiske karriere indenfor fast ejendom – bliv studentermedhjælper i Bygningsstyrelsen",
-        "company": "Bygningsstyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643226",
-        "posted": "2026-03-02",
-        "snippet": "Leder du efter et studiejob, hvor du kan gøre brug af din teoretiske viden og samtidig opbygge kompetencer inden for det ejendomsjuridiske område? Dine arbejdsopgaver vil blandt andet være:Juridiske opgaver relateret til Bygningss",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du bruge din juridiske faglighed dér, hvor den gør en forskel? Bliv juridisk konsulent i Team Jura",
-        "company": "Industriens Uddannelser",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643222",
-        "posted": "2026-03-02",
-        "snippet": "Industriens Uddannelser søger en juridisk konsulent med stærke faglige kompetencer og interesse for samfundsforhold, uddannelsesområdet og gode arbejdsfællesskaber.Du vil komme til at arbejde med afgørelser inden for erhvervsuddan",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du være studentermedhjælper i vores spændende kontor, der blandt andet arbejder med eksport/import af fødevarer?",
-        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1643197",
-        "posted": "2026-03-02",
-        "snippet": "Vil du være med til at facilitere dansk eksport og import af fødevarer, foder og levende dyr? Er du i gang med en relevant akademisk uddannelse og har interesse for fødevareklyngen?For tiden har vi følgende opgaver til studenterme",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Afdelingsleder for Økonomistyring hos Nordværk",
-        "company": "Nordværk I/S",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1634852",
-        "posted": "2026-03-02",
-        "snippet": "Vil du lede en central økonomifunktion, der skaber værdi gennem strategisk styring og faglig ekspertise?Nordværk I/S søger en engageret afdelingsleder for Økonomistyring, der med stærk analytisk forståelse og solid ledelseserfarin",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til SoMe",
-        "company": "Løgismose A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643470",
-        "posted": "2026-03-02",
-        "snippet": "Har du en forkærlighed for god mad, solidt håndværk og kreativ formidling?Vi søger en engageret og idérig studentermedhjælper, der har lyst til at arbejde med SoMe, tekstforfatning, opdatering af vores website, nyhedsbreve og gene",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv kontorelever hos IDA!, Ingeniørforeningen",
-        "company": "IDA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643342",
-        "posted": "2026-03-02",
-        "snippet": "Er du pligtopfyldende, lærevillig og engageret i dit arbejde? Vi søger 1 kontorelev, der kan starte hos os den 1. september 2026. Elevperioden vil være delt mellem to afdelinger: Kompetence og læring samt Netværk og frivillighed.V",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Aktivitetsansvarlig til Hjertemotion",
-        "company": "Hjerteforeningen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643246",
-        "posted": "2026-03-02",
-        "snippet": "Vi søger en ny kollega, der kan koordinere samarbejdet med opgaveteamet, udvikle og prioritere den løbende drift og sikre kvalitet i alle leverancer.Du vil have ansvaret for at koordinere samarbejdet med opgaveteamet og have konta",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv privat lektiehjælper – et unikt studiejob eller deltidsjob",
-        "company": "Egmont",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1642710",
-        "posted": "2026-03-02",
-        "snippet": "",
+        "title": "Senior FP&A Analyst",
+        "company": "OK a.m.b.a.",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1642952",
+        "posted": "2026-02-27",
+        "snippet": "Vil du være med til at løfte FP&A og spille en central rolle i vores nye planning setup og cost allokeringsmodel? Brænder du for at arbejde i krydsfeltet mellem finans, data og forretning?Du bliver en del af teamet, der har ansvar",
         "source": "jobindex",
         "job_type": "student"
       }
@@ -458,16 +278,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Business Intelligence Analyst",
-        "company": "LEGO System A/S",
-        "location": "Billund",
-        "url": "https://www.jobindex.dk/vis-job/r13656433",
-        "posted": "2026-03-02",
-        "snippet": "Are you ready to play a crucial part in transforming data into actionable insights that drive strategic decisions and improve...",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Power BI Developer - Aarhus or Gdansk",
         "company": "Arla Foods amba",
         "location": "Aarhus",
@@ -488,117 +298,17 @@
         "job_type": "full-time"
       },
       {
-        "title": "Ny kollega til landzonesagsbehandling og planlægning i det åbne land - Til Plan, Byg og Miljø",
-        "company": "Kalundborg Kommune",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643426",
-        "posted": "2026-03-02",
-        "snippet": "Vi har brug for en ny planlægger til vores Planafdeling, der vil være en del af et spændende fagområde under konstant udvikling.Du skal først og fremmest arbejde med landzonesagsbehandling og derudover med kommune- og lokalplanlæg",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Marketingansvarlig til Eurofins Product Testing Denmark A/S",
-        "company": "Eurofins",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643366",
-        "posted": "2026-03-02",
-        "snippet": "Kan du hjælpe nogle naturvidenskabelige med at styrke deres branding, og kan du understøtte vores sælgere i Europa? Så er det dig, vi søger.Vi har store drømme og visioner for vores marketingstrategi. Derfor søger vi dig som får i",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Kickstart din juridiske karriere indenfor fast ejendom – bliv studentermedhjælper i Bygningsstyrelsen",
-        "company": "Bygningsstyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643226",
-        "posted": "2026-03-02",
-        "snippet": "Leder du efter et studiejob, hvor du kan gøre brug af din teoretiske viden og samtidig opbygge kompetencer inden for det ejendomsjuridiske område? Dine arbejdsopgaver vil blandt andet være:Juridiske opgaver relateret til Bygningss",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du bruge din juridiske faglighed dér, hvor den gør en forskel? Bliv juridisk konsulent i Team Jura",
-        "company": "Industriens Uddannelser",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643222",
-        "posted": "2026-03-02",
-        "snippet": "Industriens Uddannelser søger en juridisk konsulent med stærke faglige kompetencer og interesse for samfundsforhold, uddannelsesområdet og gode arbejdsfællesskaber.Du vil komme til at arbejde med afgørelser inden for erhvervsuddan",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du være studentermedhjælper i vores spændende kontor, der blandt andet arbejder med eksport/import af fødevarer?",
-        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1643197",
-        "posted": "2026-03-02",
-        "snippet": "Vil du være med til at facilitere dansk eksport og import af fødevarer, foder og levende dyr? Er du i gang med en relevant akademisk uddannelse og har interesse for fødevareklyngen?For tiden har vi følgende opgaver til studenterme",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til SoMe",
-        "company": "Løgismose A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643470",
-        "posted": "2026-03-02",
-        "snippet": "Har du en forkærlighed for god mad, solidt håndværk og kreativ formidling?Vi søger en engageret og idérig studentermedhjælper, der har lyst til at arbejde med SoMe, tekstforfatning, opdatering af vores website, nyhedsbreve og gene",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv kontorelever hos IDA!, Ingeniørforeningen",
-        "company": "IDA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643342",
-        "posted": "2026-03-02",
-        "snippet": "Er du pligtopfyldende, lærevillig og engageret i dit arbejde? Vi søger 1 kontorelev, der kan starte hos os den 1. september 2026. Elevperioden vil være delt mellem to afdelinger: Kompetence og læring samt Netværk og frivillighed.V",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Aktivitetsansvarlig til Hjertemotion",
-        "company": "Hjerteforeningen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643246",
-        "posted": "2026-03-02",
-        "snippet": "Vi søger en ny kollega, der kan koordinere samarbejdet med opgaveteamet, udvikle og prioritere den løbende drift og sikre kvalitet i alle leverancer.Du vil have ansvaret for at koordinere samarbejdet med opgaveteamet og have konta",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv privat lektiehjælper – et unikt studiejob eller deltidsjob",
-        "company": "Egmont",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1642710",
-        "posted": "2026-03-02",
-        "snippet": "",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Lager-/Logistikassistent",
-        "company": "Nordic Bioscience A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643118",
+        "title": "Senior FP&A Analyst",
+        "company": "OK a.m.b.a.",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1642952",
         "posted": "2026-02-27",
-        "snippet": "Vi søger en engageret og ansvarsbevidst assistent til at hjælpe i vores varemodtagelse og logistikafdeling samt på lageret.Dagligdagen er travl, men der er altid plads til grin. Vi vægter samarbejde højt og støtter hinanden i en h",
+        "snippet": "Vil du være med til at løfte FP&A og spille en central rolle i vores nye planning setup og cost allokeringsmodel? Brænder du for at arbejde i krydsfeltet mellem finans, data og forretning?Du bliver en del af teamet, der har ansvar",
         "source": "jobindex",
         "job_type": "student"
       }
     ],
     "bi specialist": [
-      {
-        "title": "Senior Power BI Developer - Aarhus or Gdansk",
-        "company": "Arla Foods amba",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1638977",
-        "posted": "2026-02-13",
-        "snippet": "",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Lead Generation, AI & Business Intelligence Specialist",
         "company": "Contentway A/S",
@@ -620,102 +330,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Ny kollega til landzonesagsbehandling og planlægning i det åbne land - Til Plan, Byg og Miljø",
-        "company": "Kalundborg Kommune",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643426",
-        "posted": "2026-03-02",
-        "snippet": "Vi har brug for en ny planlægger til vores Planafdeling, der vil være en del af et spændende fagområde under konstant udvikling.Du skal først og fremmest arbejde med landzonesagsbehandling og derudover med kommune- og lokalplanlæg",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Marketingansvarlig til Eurofins Product Testing Denmark A/S",
-        "company": "Eurofins",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1643366",
-        "posted": "2026-03-02",
-        "snippet": "Kan du hjælpe nogle naturvidenskabelige med at styrke deres branding, og kan du understøtte vores sælgere i Europa? Så er det dig, vi søger.Vi har store drømme og visioner for vores marketingstrategi. Derfor søger vi dig som får i",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Kickstart din juridiske karriere indenfor fast ejendom – bliv studentermedhjælper i Bygningsstyrelsen",
-        "company": "Bygningsstyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643226",
-        "posted": "2026-03-02",
-        "snippet": "Leder du efter et studiejob, hvor du kan gøre brug af din teoretiske viden og samtidig opbygge kompetencer inden for det ejendomsjuridiske område? Dine arbejdsopgaver vil blandt andet være:Juridiske opgaver relateret til Bygningss",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du bruge din juridiske faglighed dér, hvor den gør en forskel? Bliv juridisk konsulent i Team Jura",
-        "company": "Industriens Uddannelser",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643222",
-        "posted": "2026-03-02",
-        "snippet": "Industriens Uddannelser søger en juridisk konsulent med stærke faglige kompetencer og interesse for samfundsforhold, uddannelsesområdet og gode arbejdsfællesskaber.Du vil komme til at arbejde med afgørelser inden for erhvervsuddan",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du være studentermedhjælper i vores spændende kontor, der blandt andet arbejder med eksport/import af fødevarer?",
-        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1643197",
-        "posted": "2026-03-02",
-        "snippet": "Vil du være med til at facilitere dansk eksport og import af fødevarer, foder og levende dyr? Er du i gang med en relevant akademisk uddannelse og har interesse for fødevareklyngen?For tiden har vi følgende opgaver til studenterme",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Afdelingsleder for Økonomistyring hos Nordværk",
-        "company": "Nordværk I/S",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1634852",
-        "posted": "2026-03-02",
-        "snippet": "Vil du lede en central økonomifunktion, der skaber værdi gennem strategisk styring og faglig ekspertise?Nordværk I/S søger en engageret afdelingsleder for Økonomistyring, der med stærk analytisk forståelse og solid ledelseserfarin",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til SoMe",
-        "company": "Løgismose A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643470",
-        "posted": "2026-03-02",
-        "snippet": "Har du en forkærlighed for god mad, solidt håndværk og kreativ formidling?Vi søger en engageret og idérig studentermedhjælper, der har lyst til at arbejde med SoMe, tekstforfatning, opdatering af vores website, nyhedsbreve og gene",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv kontorelever hos IDA!, Ingeniørforeningen",
-        "company": "IDA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643342",
-        "posted": "2026-03-02",
-        "snippet": "Er du pligtopfyldende, lærevillig og engageret i dit arbejde? Vi søger 1 kontorelev, der kan starte hos os den 1. september 2026. Elevperioden vil være delt mellem to afdelinger: Kompetence og læring samt Netværk og frivillighed.V",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Aktivitetsansvarlig til Hjertemotion",
-        "company": "Hjerteforeningen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643246",
-        "posted": "2026-03-02",
-        "snippet": "Vi søger en ny kollega, der kan koordinere samarbejdet med opgaveteamet, udvikle og prioritere den løbende drift og sikre kvalitet i alle leverancer.Du vil have ansvaret for at koordinere samarbejdet med opgaveteamet og have konta",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv privat lektiehjælper – et unikt studiejob eller deltidsjob",
-        "company": "Egmont",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1642710",
-        "posted": "2026-03-02",
-        "snippet": "",
+        "title": "Senior FP&A Analyst",
+        "company": "OK a.m.b.a.",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1642952",
+        "posted": "2026-02-27",
+        "snippet": "Vil du være med til at løfte FP&A og spille en central rolle i vores nye planning setup og cost allokeringsmodel? Brænder du for at arbejde i krydsfeltet mellem finans, data og forretning?Du bliver en del af teamet, der har ansvar",
         "source": "jobindex",
         "job_type": "student"
       }

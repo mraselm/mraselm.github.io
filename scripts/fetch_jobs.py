@@ -62,6 +62,29 @@ STUDENT_QUERIES: dict[str, list[str]] = {
     ],
 }
 
+# Relevance filter for student jobs: the job TITLE must contain at least one keyword.
+# These are broad enough to keep genuine data/BI roles while excluding unrelated
+# studentermedhjælper roles (SoMe, legal, food-export, etc.) that Jobindex full-text
+# search returns because the description mentions a category term.
+STUDENT_TITLE_KEYWORDS: dict[str, list[str]] = {
+    "data analyst": [
+        "data analyst", "dataanalytiker", "data analytiker",
+        "data og", "data-", " data ", "analytiker", "analyst",
+    ],
+    "business analyst": [
+        "business analyst", "forretningsanalytiker", "businessanalytiker",
+        "business analyst", "analytiker", "analyst",
+    ],
+    "business intelligence": [
+        "business intelligence", "bi ", " bi", "power bi",
+        "data analyst", "analytiker", "analyst", "data og",
+    ],
+    "bi specialist": [
+        "bi ", " bi", "business intelligence", "power bi",
+        "data analyst", "analytiker", "analyst",
+    ],
+}
+
 # Each category maps to a list of quoted-phrase queries.
 # %22…%22 = URL-encoded double-quotes, forces Jobindex phrase search.
 CATEGORIES: dict[str, list[str]] = {
@@ -392,30 +415,54 @@ def parse_item(item: ET.Element) -> dict | None:
     }
 
 
-def fetch_category(label: str, queries: list[str]) -> list[dict]:
+def fetch_category(label: str, queries: list[str],
+                   cross_seen: set[str]) -> list[dict]:
     """
-    Fetch jobs across full-time, part-time, and student types.
+    Fetch jobs for a category across student, full-time, and part-time types.
 
-    Strategy:
-    - Full-time and part-time use the CATEGORIES queries with the
-      arbejdstid[] filter so Jobindex only returns matching job types.
-    - Student jobs use dedicated STUDENT_QUERIES without any filter so
-      that role-specific student listings are captured correctly.
-    - Global URL deduplication ensures each job URL appears only ONCE,
-      labelled by the type in which it was first encountered.
+    Student queries use LOCAL dedup (per-category) because each STUDENT_QUERY
+    already embeds the category keyword, so cross-contamination is minimal.
+    This also prevents a student URL that fails one category's title filter
+    from being permanently locked out of a more relevant category.
+
+    Full-time / part-time use cross_seen so the same general posting does not
+    appear under multiple category tabs.
     """
-    kws         = TITLE_KEYWORDS.get(label, [])
-    global_seen: set[str] = set()   # dedup across ALL types
-    result: list[dict] = []
+    kws   = TITLE_KEYWORDS.get(label, [])
+    s_kws = STUDENT_TITLE_KEYWORDS.get(label, [])
+    student_result: list[dict] = []
+    ft_result:      list[dict] = []
 
-    # Full-time and part-time (use arbejdstid[] filter) ----------------------
+    # ── 1. Student jobs (per-category dedup, no arbejdstid filter) ───────────
+    local_seen: set[str] = set()
+    student_queries = STUDENT_QUERIES.get(label, [])
+    student_jobs: list[dict] = []
+    for q in student_queries:
+        for item in fetch_rss(q, None):
+            job = parse_item(item)
+            if job and job["url"] not in local_seen:
+                local_seen.add(job["url"])
+                job["job_type"] = "student"
+                student_jobs.append(job)
+
+    raw_s = len(student_jobs)
+    if s_kws:
+        student_jobs = [j for j in student_jobs if title_matches(j["title"], s_kws)]
+    kept_s = student_jobs[:MAX_PER_TYPE]
+    student_result.extend(kept_s)
+    # Add kept student URLs to cross_seen so they don't repeat under a different category
+    for j in kept_s:
+        cross_seen.add(j["url"])
+    print(f"  [{'student':10}]  raw={raw_s:2}  after_filter={len(student_jobs):2}  kept={len(kept_s):2}")
+
+    # ── 2. Full-time and part-time (cross-category dedup, arbejdstid[] filter) ─
     for type_label, type_param in JOB_TYPES_PARAM.items():
         type_jobs: list[dict] = []
         for q in queries:
             for item in fetch_rss(q, type_param):
                 job = parse_item(item)
-                if job and job["url"] not in global_seen:
-                    global_seen.add(job["url"])
+                if job and job["url"] not in cross_seen:
+                    cross_seen.add(job["url"])
                     job["job_type"] = type_label
                     type_jobs.append(job)
 
@@ -423,27 +470,11 @@ def fetch_category(label: str, queries: list[str]) -> list[dict]:
         if kws:
             type_jobs = [j for j in type_jobs if title_matches(j["title"], kws)]
         kept = type_jobs[:MAX_PER_TYPE]
-        result.extend(kept)
+        ft_result.extend(kept)
         print(f"  [{type_label:10}]  raw={raw:2}  after_filter={len(type_jobs):2}  kept={len(kept):2}")
 
-    # Student jobs (dedicated queries, no arbejdstid filter) -----------------
-    student_queries = STUDENT_QUERIES.get(label, [])
-    student_jobs: list[dict] = []
-    for q in student_queries:
-        for item in fetch_rss(q, None):
-            job = parse_item(item)
-            if job and job["url"] not in global_seen:
-                global_seen.add(job["url"])
-                job["job_type"] = "student"
-                student_jobs.append(job)
-
-    raw_s = len(student_jobs)
-    # Skip title whitelist for students: the dedicated STUDENT_QUERIES already
-    # embed category-relevant terms, so filtering by title keywords would
-    # incorrectly drop roles titled "Studentermedhjælper til [role]".
-    kept_s = student_jobs[:MAX_PER_TYPE]
-    result.extend(kept_s)
-    print(f"  [{'student':10}]  raw={raw_s:2}  after_filter={len(student_jobs):2}  kept={len(kept_s):2}")
+    # Full-time/part-time first, then student cards
+    result = ft_result + student_result
 
     print(f"  => {len(result)} total jobs for '{label}'")
     return result
@@ -462,9 +493,12 @@ def main() -> None:
         "categories": {},
     }
 
+    # Shared set across ALL categories: each job URL is stored exactly once.
+    cross_seen: set[str] = set()
+
     for label, queries in CATEGORIES.items():
         print(f"\n[{label}]")
-        output["categories"][label] = fetch_category(label, queries)
+        output["categories"][label] = fetch_category(label, queries, cross_seen)
 
     out_path = "assets/data/jobs.json"
     with open(out_path, "w", encoding="utf-8") as fh:
