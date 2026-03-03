@@ -690,7 +690,6 @@
                  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt" aria-hidden="true"></i> Browse Jobindex
               </a>
-              <span class="last-updated" id="jobs-updated-hero" aria-live="polite"></span>
             </div>
           </div>
         </div>
@@ -1039,9 +1038,7 @@
           if (data && data.updated) {
             var label = 'Updated ' + formatDate(data.updated);
             var ts1   = document.getElementById('jobs-updated');
-            var ts2   = document.getElementById('jobs-updated-hero');
             if (ts1) ts1.textContent = label;
-            if (ts2) ts2.textContent = label;
           }
         }
 
