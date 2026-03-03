@@ -619,16 +619,16 @@
           <div class="jobs-filter-bar" role="toolbar" aria-label="Filter jobs">
             <div class="filter-top-row">
               <div class="jobs-tabs" id="jobs-tabs" role="tablist" aria-label="Job categories">
-                <button class="jobs-tab"
+                <button class="jobs-tab active"
                   data-query="all" data-color="#64748b" style="--tab-color:#64748b"
-                  role="tab" aria-selected="false" aria-controls="jobs-grid">
+                  role="tab" aria-selected="true" aria-controls="jobs-grid">
                   <i class="fas fa-layer-group" aria-hidden="true"></i>
                   All Jobs
                   <span class="tab-count" id="tc-all">0</span>
                 </button>
-                <button class="jobs-tab active"
+                <button class="jobs-tab"
                   data-query="data analyst" data-color="#6366f1" style="--tab-color:#6366f1"
-                  role="tab" aria-selected="true" aria-controls="jobs-grid">
+                  role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-chart-bar" aria-hidden="true"></i>
                   Data Analyst
                   <span class="tab-count" id="tc-da">0</span>
@@ -806,8 +806,8 @@
         'use strict';
 
         var JOBS_DATA        = null;
-        var currentCategory  = 'data analyst';
-        var currentColor     = '#6366f1';
+        var currentCategory  = 'all';
+        var currentColor     = '#64748b';
         var currentCity      = 'all';
         var currentType      = 'all';
         var JOBINDEX_SEARCH  = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
