@@ -31,8 +31,8 @@ FETCH_PER_QUERY  = 50    # jobs to FETCH from Jobindex per individual query
 # Title words that unambiguously mark a job as a student position.
 # If these appear in a title during the full-time/part-time fetch phase, skip it.
 STUDENT_TITLE_INDICATORS = [
-    "studentermedhjælper", "studentermedhjælper",
-    "studiejob", "student assistant", "studentjob", "studentermedhjælper",
+    "studentermedhjælper",
+    "studiejob", "student assistant", "studentjob",
 ]
 
 # Job types to fetch — keys become the 'job_type' field written to jobs.json.
