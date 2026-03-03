@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T02:36:49Z",
+  "updated": "2026-03-03T03:14:58Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -218,16 +218,6 @@
     ],
     "business intelligence": [
       {
-        "title": "Business Intelligence Student Assistant",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1641888",
-        "posted": "2026-02-25",
-        "snippet": "Do you have a strong financial understanding combined with an analytical and business-oriented mindset?You will be a key member of our team, supporting the organization's data needs by assisting with data management and analysis t",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Graduate, Data Engineer – Business Intelligence",
         "company": "Itm8",
         "location": "Aarhus",
@@ -254,16 +244,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1638981",
         "posted": "2026-02-13",
         "snippet": "Vil du bruge dine evner inden for teknologi, data og CRM til at bekæmpe ulighed og udrydde fattigdom?Vi søger en skarp CRM & Business Intelligence Manager til vores Kommunikations- og Fundraising-afdeling. Vi leder efter en profil",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til Business Intelligence",
-        "company": "Normal A/S",
-        "location": "Skanderborg",
-        "url": "https://www.jobindex.dk/vis-job/h1638827",
-        "posted": "2026-02-12",
-        "snippet": "Brænder du for data, og leder du efter et studiejob som er relevant for dig? Har du lyst til at arbejde med Business Intelligence, analyser og rapportering?Dine primære arbejdsopgaver vil være driftsopgaver i frontend, udvikling o",
         "source": "jobindex",
         "job_type": "full-time"
       },

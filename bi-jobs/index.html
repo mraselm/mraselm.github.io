@@ -1004,6 +1004,11 @@
             var url      = esc(job.url      || '#');
             var snippet  = esc((job.snippet || '').substring(0, 130));
             var jt       = job.job_type || 'full-time';
+            /* Safety: if the title itself signals a student job, override the badge */
+            var _tl = (job.title || '').toLowerCase();
+            if (_tl.indexOf('studentermedhjælper') !== -1 || _tl.indexOf('studiejob') !== -1 || _tl.indexOf('student assistant') !== -1) {
+              jt = 'student';
+            }
             var badgeCls = jt === 'part-time' ? 'parttime' : (jt === 'student' ? 'student' : 'fulltime');
             var badgeLbl = jt === 'part-time' ? 'Part-time' : (jt === 'student' ? 'Student' : 'Full-time');
 
