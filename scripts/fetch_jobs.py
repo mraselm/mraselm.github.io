@@ -2,8 +2,15 @@
 fetch_jobs.py
 Fetches full-time Data & BI job listings from Jobindex.dk (RSS feed)
 and writes them to assets/data/jobs.json.
-Run locally: python scripts/fetch_jobs.py
-Run via GitHub Actions: automatically on schedule.
+
+Strategy:
+  - Uses quoted phrase search (%22...%22) so Jobindex matches the exact phrase,
+    not just individual words scattered across the description.
+  - Each category runs multiple queries (EN + DA terms) and deduplicates by URL.
+  - A title-keyword whitelist acts as a final safety filter.
+
+Run locally:  python scripts/fetch_jobs.py
+Run via CI:   GitHub Actions (.github/workflows/fetch-jobs.yml)
 """
 
 import json
@@ -18,20 +25,76 @@ import requests
 # Configuration
 # ---------------------------------------------------------------------------
 
-CATEGORIES = {
-    "data analyst": "data+analyst",
-    "business analyst": "business+analyst",
-    "business intelligence": "business+intelligence",
-    "bi specialist": "BI+specialist",
+MAX_PER_CATEGORY = 15    # jobs to KEEP per category after filter & dedup
+FETCH_PER_QUERY  = 30    # jobs to FETCH from Jobindex per individual query
+
+# Each category maps to a list of quoted-phrase queries.
+# %22…%22 = URL-encoded double-quotes, forces Jobindex phrase search.
+CATEGORIES: dict[str, list[str]] = {
+    "data analyst": [
+        "%22data+analyst%22",
+        "dataanalytiker",
+    ],
+    "business analyst": [
+        "%22business+analyst%22",
+        "forretningsanalytiker",
+    ],
+    "business intelligence": [
+        "%22business+intelligence%22",
+        "%22BI+analyst%22",
+        "%22BI+developer%22",
+        "%22BI+consultant%22",
+        "%22BI+developer%22",
+    ],
+    "bi specialist": [
+        "%22BI+specialist%22",
+        "%22BI+arkitekt%22",
+        "%22business+intelligence+specialist%22",
+    ],
 }
 
-MAX_PER_CATEGORY = 15
+# Title keyword whitelist — job title must contain at least one (case-insensitive).
+TITLE_KEYWORDS: dict[str, list[str]] = {
+    "data analyst": [
+        "data analyst",
+        "dataanalytiker",
+        "data analytiker",
+        "analytics",
+    ],
+    "business analyst": [
+        "business analyst",
+        "forretningsanalytiker",
+        "businessanalytiker",
+    ],
+    "business intelligence": [
+        "business intelligence",
+        "bi developer",
+        "bi analyst",
+        "bi consultant",
+        "bi manager",
+        "bi specialist",
+        "bi lead",
+        "bi arkitekt",
+        "power bi",
+        "data engineer",
+    ],
+    "bi specialist": [
+        "bi specialist",
+        "bi developer",
+        "bi analyst",
+        "bi consultant",
+        "bi manager",
+        "bi lead",
+        "bi arkitekt",
+        "business intelligence",
+        "power bi",
+    ],
+}
 
-# Jobindex XML RSS — working endpoint (jobsoegning.xml, not /rss)
-# arbedjstid[] filter included for full-time jobs
+# Jobindex XML RSS endpoint — jobsoegning.xml works; /rss returns 404
 RSS_URL = (
     "https://www.jobindex.dk/jobsoegning.xml"
-    "?q={query}&maxcount={max}&arbejdstid%5B%5D=Fuldtid"
+    f"?q={{query}}&maxcount={FETCH_PER_QUERY}&arbejdstid%5B%5D=Fuldtid"
 )
 
 HEADERS = {
@@ -47,6 +110,7 @@ HEADERS = {
 # ---------------------------------------------------------------------------
 
 _HTML_TAG = re.compile(r"<[^>]+>")
+_PAREN    = re.compile(r"\(([^)]+)\)")
 
 
 def strip_html(text: str) -> str:
@@ -54,125 +118,136 @@ def strip_html(text: str) -> str:
 
 
 def parse_date(date_str: str) -> str:
-    """Return ISO-8601 date string (YYYY-MM-DD) from an RFC-2822 date."""
+    """Return YYYY-MM-DD from an RFC-2822 date string."""
     if not date_str:
         return ""
     try:
         return parsedate_to_datetime(date_str).strftime("%Y-%m-%d")
     except Exception:
-        # Fallback: grab first 10 chars if it looks like a date already
         clean = (date_str or "").strip()
         return clean[:10] if len(clean) >= 10 else clean
 
 
 def split_title_company(raw_title: str) -> tuple[str, str]:
     """
-    Jobindex RSS titles are in the format:
-      'Job Title (Location), Company Name'
-    or sometimes:
-      'Job Title, Company Name'
+    Jobindex RSS titles: 'Job Title (Location), Company Name'
     Split by the LAST comma to separate job title from company.
     """
     raw_title = strip_html(raw_title)
     if "," in raw_title:
         idx = raw_title.rfind(",")
         return raw_title[:idx].strip(), raw_title[idx + 1:].strip()
-    # Fallback: try ' - ' separator
     if " - " in raw_title:
         parts = raw_title.rsplit(" - ", 1)
         return parts[0].strip(), parts[1].strip()
     return raw_title, ""
 
 
-_PAREN = re.compile(r"\(([^)]+)\)")
-
-
-def extract_location_from_title(title: str) -> str:
+def extract_location_from_title(raw_title: str) -> str:
     """
-    Jobindex often embeds the location in parentheses in the job title:
-      'Data Analyst (Copenhagen)' -> 'Copenhagen'
-      'BI Developer (Remote/Danmark)' -> 'Remote/Danmark'
-    Returns the last parenthetical match, or empty string.
+    Jobindex embeds location in parens: 'Data Analyst (Copenhagen), Acme'
+    Returns the last parenthetical value, or empty string.
     """
-    matches = _PAREN.findall(title)
+    matches = _PAREN.findall(raw_title)
     return matches[-1].strip() if matches else ""
 
 
 def extract_location(description: str) -> str:
-    """
-    Try to pull a city/region from the description text.
-    Falls back to 'Denmark'.
-    """
+    """Scan description for a known Danish city; fall back to 'Denmark'."""
     text = strip_html(description)
-    # Look for common Danish city keywords in the description
-    danish_cities = [
-        "København", "Copenhagen", "Aarhus", "Odense", "Aalborg",
+    cities = [
+        "Koebenhavn", "Copenhagen", "Aarhus", "Odense", "Aalborg",
         "Esbjerg", "Randers", "Kolding", "Horsens", "Vejle",
-        "Fredericia", "Helsingør", "Roskilde", "Herning", "Silkeborg",
-        "Næstved", "Frederiksberg", "Viborg", "Køge", "Holstebro",
+        "Fredericia", "Roskilde", "Herning", "Silkeborg",
+        "Naestved", "Frederiksberg", "Viborg", "Koege", "Holstebro",
+        "Lyngby", "Hellerup", "Glostrup", "Ballerup", "Taastrup",
+        "Ringsted", "Svendborg", "Hilleroed", "Hvidovre", "Soeborg",
     ]
-    for city in danish_cities:
+    for city in cities:
         if city.lower() in text.lower():
             return city
     return "Denmark"
+
+
+def title_matches(title: str, keywords: list[str]) -> bool:
+    """Return True if title contains at least one whitelisted keyword."""
+    t = title.lower()
+    return any(kw in t for kw in keywords)
 
 
 # ---------------------------------------------------------------------------
 # Fetch & parse
 # ---------------------------------------------------------------------------
 
-def fetch_category(label: str, query: str) -> list[dict]:
-    url = RSS_URL.format(query=query, max=MAX_PER_CATEGORY)
-    print(f"  Fetching: {url}")
+def fetch_rss(query: str) -> list[ET.Element]:
+    """Fetch and parse one RSS query. Returns list of <item> elements."""
+    url = RSS_URL.format(query=query)
     try:
         resp = requests.get(url, headers=HEADERS, timeout=20)
         resp.raise_for_status()
-    except requests.RequestException as exc:
-        print(f"  ✗ Request failed for '{label}': {exc}")
-        return []
-
-    try:
         root = ET.fromstring(resp.content)
+        items = root.findall(".//item")
+        print(f"    [{len(items):2}] {url[-90:]}")
+        return items
+    except requests.RequestException as exc:
+        print(f"    [ERR] {exc}")
+        return []
     except ET.ParseError as exc:
-        print(f"  ✗ XML parse error for '{label}': {exc}")
+        print(f"    [ERR] XML: {exc}")
         return []
 
-    jobs = []
-    for item in root.findall(".//item"):
-        get = lambda tag: (item.findtext(tag) or "").strip()
 
-        raw_title = get("title")
-        link      = get("link")
-        desc      = get("description")
-        pub_date  = get("pubDate")
+def parse_item(item: ET.Element) -> dict | None:
+    """Convert one RSS <item> to a job dict. Returns None if no link."""
+    get = lambda tag: (item.findtext(tag) or "").strip()
+    raw_title = get("title")
+    link      = get("link")
+    desc      = get("description")
+    pub_date  = get("pubDate")
 
-        if not link:
-            continue
+    if not link:
+        return None
 
-        title, company = split_title_company(raw_title)
+    title, company = split_title_company(raw_title)
+    location = extract_location_from_title(raw_title) or extract_location(desc) or "Denmark"
+    return {
+        "title":    title,
+        "company":  company,
+        "location": location,
+        "url":      link,
+        "posted":   parse_date(pub_date),
+        "snippet":  strip_html(desc)[:160].strip(),
+        "source":   "jobindex",
+    }
 
-        # Try to get location from parentheses in the raw title first,
-        # then fall back to scanning the description text.
-        location = extract_location_from_title(raw_title)
-        if not location:
-            location = extract_location(desc) or "Denmark"
-        posted   = parse_date(pub_date)
-        snippet  = strip_html(desc)[:160].strip()
 
-        jobs.append(
-            {
-                "title":    title,
-                "company":  company,
-                "location": location,
-                "url":      link,
-                "posted":   posted,
-                "snippet":  snippet,
-                "source":   "jobindex",
-            }
-        )
+def fetch_category(label: str, queries: list[str]) -> list[dict]:
+    """
+    Run all queries for a category, merge, deduplicate by URL,
+    apply title keyword filter, return up to MAX_PER_CATEGORY jobs.
+    """
+    seen: set[str] = set()
+    all_jobs: list[dict] = []
 
-    print(f"  ✓ {len(jobs)} jobs for '{label}'")
-    return jobs[:MAX_PER_CATEGORY]
+    for q in queries:
+        for item in fetch_rss(q):
+            job = parse_item(item)
+            if job and job["url"] not in seen:
+                seen.add(job["url"])
+                all_jobs.append(job)
+
+    print(f"  {len(all_jobs)} unique jobs fetched from {len(queries)} queries")
+
+    # Title whitelist filter
+    kws = TITLE_KEYWORDS.get(label, [])
+    if kws:
+        before = len(all_jobs)
+        all_jobs = [j for j in all_jobs if title_matches(j["title"], kws)]
+        print(f"  {before} -> {len(all_jobs)} after title filter")
+
+    result = all_jobs[:MAX_PER_CATEGORY]
+    print(f"  => {len(result)} jobs saved for '{label}'")
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -182,21 +257,22 @@ def fetch_category(label: str, query: str) -> list[dict]:
 def main() -> None:
     print("=== Fetching Denmark Data & BI Jobs from Jobindex ===")
 
-    result: dict = {
+    output: dict = {
         "updated":    datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source_url": "https://www.jobindex.dk/",
         "categories": {},
     }
 
-    for label, query in CATEGORIES.items():
-        result["categories"][label] = fetch_category(label, query)
+    for label, queries in CATEGORIES.items():
+        print(f"\n[{label}]")
+        output["categories"][label] = fetch_category(label, queries)
 
     out_path = "assets/data/jobs.json"
     with open(out_path, "w", encoding="utf-8") as fh:
-        json.dump(result, fh, ensure_ascii=False, indent=2)
+        json.dump(output, fh, ensure_ascii=False, indent=2)
 
-    total = sum(len(v) for v in result["categories"].values())
-    print(f"\n✓ Saved {total} jobs to {out_path}  (updated: {result['updated']})")
+    total = sum(len(v) for v in output["categories"].values())
+    print(f"\nDone: {total} jobs saved to {out_path}  (updated: {output['updated']})")
 
 
 if __name__ == "__main__":
