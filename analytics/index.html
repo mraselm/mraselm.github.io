@@ -1,0 +1,573 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S86VJ0K0L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-1S86VJ0K0L');
+    </script>
+
+    <title>Portfolio Analytics | Rasel Mia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="Live portfolio analytics dashboard for raselmia.live — real visitor data, top projects, traffic sources, and global reach powered by GA4 and Looker Studio." />
+    <meta name="keywords" content="Portfolio Analytics, Rasel Mia, Looker Studio, GA4, Google Analytics, Dashboard, Data Analyst Denmark" />
+    <meta name="author" content="Rasel Mia" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://raselmia.live/analytics/" />
+    <link rel="icon" type="image/png" href="/images/rmlogo.jpg" />
+    <link rel="apple-touch-icon" href="/images/rmlogo.jpg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portfolio Analytics | Rasel Mia" />
+    <meta property="og:description" content="Live analytics dashboard showing real visitor metrics, top projects, and traffic sources for raselmia.live." />
+    <meta property="og:image" content="https://raselmia.live/images/portfolio_preview.jpeg" />
+    <meta property="og:url" content="https://raselmia.live/analytics/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Rasel Mia Portfolio" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portfolio Analytics | Rasel Mia" />
+    <meta name="twitter:description" content="Live analytics dashboard for raselmia.live — powered by GA4 + Looker Studio." />
+    <meta name="twitter:image" content="https://raselmia.live/images/portfolio_preview.jpeg" />
+
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" /></noscript>
+
+    <!-- JSON-LD Breadcrumb -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home",      "item": "https://raselmia.live/home/" },
+        { "@type": "ListItem", "position": 2, "name": "Analytics", "item": "https://raselmia.live/analytics/" }
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+
+    <style>
+      /* ───────────────────────────────────────────────
+         Analytics page — scoped styles
+      ─────────────────────────────────────────────── */
+
+      /* Hero */
+      .analytics-hero {
+        padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--border, #e2e8f0);
+      }
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent, #6366f1);
+        margin-bottom: 0.75rem;
+      }
+      .analytics-hero h1 {
+        font-size: clamp(1.75rem, 4vw, 2.6rem);
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0 0 0.9rem;
+      }
+      .analytics-hero p.lead {
+        font-size: 1.05rem;
+        color: var(--text-muted, #64748b);
+        max-width: 620px;
+        margin: 0 0 1.5rem;
+        line-height: 1.7;
+      }
+
+      /* Stat bar */
+      .stat-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        margin-top: 1.5rem;
+      }
+      .stat-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        background: var(--card-bg, #f8fafc);
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 2rem;
+        padding: 0.4rem 1rem;
+        font-size: 0.82rem;
+        font-weight: 500;
+        color: var(--text-muted, #64748b);
+      }
+      .stat-pill i { color: var(--accent, #6366f1); font-size: 0.78rem; }
+
+      /* Dashboard wrapper */
+      .dashboard-section {
+        padding: 2.5rem 0 3.5rem;
+      }
+      .dashboard-card {
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 1.25rem;
+        overflow: hidden;
+        box-shadow: 0 4px 24px rgba(0,0,0,.06);
+        transition: box-shadow 0.3s;
+      }
+      .dashboard-card:hover {
+        box-shadow: 0 8px 40px rgba(99,102,241,.12);
+      }
+      .dashboard-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.1rem 1.5rem;
+        border-bottom: 1px solid var(--border, #e2e8f0);
+        background: var(--surface, #f8fafc);
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      .dashboard-header-left {
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+      }
+      .dashboard-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        background: #dcfce7;
+        color: #16a34a;
+        font-size: 0.72rem;
+        font-weight: 600;
+        padding: 0.25rem 0.65rem;
+        border-radius: 2rem;
+        letter-spacing: 0.04em;
+      }
+      .live-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #22c55e;
+        animation: pulse-green 1.8s ease-in-out infinite;
+        flex-shrink: 0;
+      }
+      @keyframes pulse-green {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50%       { opacity: 0.5; transform: scale(1.4); }
+      }
+      .dashboard-title-text {
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+      .dashboard-actions {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .btn-icon {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        padding: 0.4rem 0.85rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--border, #e2e8f0);
+        background: transparent;
+        color: var(--text-muted, #64748b);
+        text-decoration: none;
+        cursor: pointer;
+        transition: background 0.2s, border-color 0.2s, color 0.2s;
+      }
+      .btn-icon:hover {
+        background: var(--accent, #6366f1);
+        border-color: var(--accent, #6366f1);
+        color: #fff;
+      }
+
+      /* Iframe container — clips blank canvas space below report content */
+      .iframe-wrapper {
+        position: relative;
+        width: 100%;
+        height: 700px;        /* visible crop — adjust if content is cut off */
+        overflow: hidden;
+      }
+      .iframe-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2125px;       /* full Looker Studio canvas height */
+        border: none;
+        display: block;
+      }
+
+      /* Placeholder (shown until iframe src is set) */
+      .iframe-placeholder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        height: 100%;
+        min-height: 420px;
+        background: var(--surface, #f8fafc);
+        color: var(--text-muted, #64748b);
+        text-align: center;
+        padding: 2rem;
+      }
+      .iframe-placeholder i { font-size: 2.5rem; color: var(--accent, #6366f1); opacity: 0.5; }
+      .iframe-placeholder h3 { font-size: 1.05rem; font-weight: 600; margin: 0; }
+      .iframe-placeholder p  { font-size: 0.875rem; max-width: 420px; margin: 0; line-height: 1.6; }
+      .iframe-placeholder .setup-steps {
+        text-align: left;
+        font-size: 0.82rem;
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 0.75rem;
+        padding: 1rem 1.25rem;
+        max-width: 460px;
+        width: 100%;
+        line-height: 1.8;
+        color: var(--text-body, #334155);
+      }
+      .iframe-placeholder .setup-steps code {
+        background: rgba(99,102,241,.1);
+        color: var(--accent, #6366f1);
+        font-family: monospace;
+        font-size: 0.8rem;
+        padding: 0.1em 0.4em;
+        border-radius: 0.3em;
+      }
+
+      /* Info row below dashboard */
+      .dashboard-info {
+        padding: 1rem 1.5rem;
+        border-top: 1px solid var(--border, #e2e8f0);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        font-size: 0.78rem;
+        color: var(--text-muted, #64748b);
+        background: var(--surface, #f8fafc);
+      }
+      .dashboard-info a {
+        color: var(--accent, #6366f1);
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .dashboard-info a:hover { text-decoration: underline; }
+
+      /* What's inside tiles */
+      .tiles-section {
+        padding: 0 0 3.5rem;
+      }
+      .tiles-section .section-label {
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent, #6366f1);
+        margin-bottom: 1.25rem;
+      }
+      .tiles-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1rem;
+      }
+      .tile-card {
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border, #e2e8f0);
+        border-radius: 1rem;
+        padding: 1.1rem 1.25rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .tile-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(99,102,241,.1);
+      }
+      .tile-icon {
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 0.6rem;
+        background: rgba(99,102,241,.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        color: var(--accent, #6366f1);
+        margin-bottom: 0.25rem;
+      }
+      .tile-card h4 { font-size: 0.88rem; font-weight: 600; margin: 0; }
+      .tile-card p  { font-size: 0.78rem; color: var(--text-muted, #64748b); margin: 0; line-height: 1.5; }
+
+      /* CTA strip */
+      .analytics-cta {
+        background: linear-gradient(135deg, rgba(99,102,241,.06) 0%, rgba(139,92,246,.06) 100%);
+        border: 1px solid rgba(99,102,241,.18);
+        border-radius: 1.25rem;
+        padding: 2rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin-bottom: 3.5rem;
+      }
+      .analytics-cta-copy h3 { font-size: 1.1rem; font-weight: 700; margin: 0 0 0.3rem; }
+      .analytics-cta-copy p  { font-size: 0.875rem; color: var(--text-muted, #64748b); margin: 0; }
+
+      @media (max-width: 640px) {
+        .dashboard-header { flex-direction: column; align-items: flex-start; }
+        .analytics-cta { flex-direction: column; }
+        .tiles-grid { grid-template-columns: 1fr 1fr; }
+      }
+      @media (max-width: 400px) {
+        .tiles-grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+
+  <body class="page-shell">
+    <a href="#top" class="skip-link">Skip to main content</a>
+    <div class="surface-glow"></div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container inner">
+        <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+        <nav class="nav-links">
+          <a href="/home/#projects">Projects</a>
+          <a href="/home/#skills">Toolbox</a>
+          <a href="/home/#contact">Contact</a>
+          <a href="/datastory/">Data Story</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button">Toolkit <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+            <div class="nav-dropdown-menu">
+              <a href="/cover-letter/">Cover Letter AI</a>
+              <a href="/analytics/" class="active">Portfolio Stats</a>
+            </div>
+          </div>
+          <a href="/resume/">Resume</a>
+          <a href="/bi-jobs/">BI Jobs</a>
+        </nav>
+        <div class="header-actions">
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"></a>
+            <a href="https://github.com/mraselm" class="icon fab fa-github" aria-label="GitHub" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-track">
+              <span class="theme-icon sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+              <span class="theme-icon moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+              <span class="theme-knob"></span>
+            </span>
+          </button>
+          <button class="nav-toggle" type="button" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page" id="top">
+
+      <!-- ── Hero ─────────────────────────────────── -->
+      <section class="analytics-hero">
+        <div class="container">
+          <p class="eyebrow"><i class="fas fa-chart-line" aria-hidden="true"></i> Live Data</p>
+          <h1>Portfolio Analytics</h1>
+          <p class="lead">
+            Real visitor metrics for <strong>raselmia.live</strong> — powered by Google Analytics 4 and visualised in Looker Studio.
+            No sampled data, no estimates.
+          </p>
+
+          <div class="stat-bar">
+            <span class="stat-pill"><i class="fas fa-users"></i> Active Users</span>
+            <span class="stat-pill"><i class="fas fa-globe"></i> Global Reach</span>
+            <span class="stat-pill"><i class="fas fa-layer-group"></i> Top Projects</span>
+            <span class="stat-pill"><i class="fas fa-share-alt"></i> Traffic Sources</span>
+            <span class="stat-pill"><i class="fas fa-mobile-alt"></i> Device Breakdown</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Live Dashboard ────────────────────────── -->
+      <section class="dashboard-section">
+        <div class="container">
+
+          <div class="dashboard-card">
+
+            <!-- Toolbar -->
+            <div class="dashboard-header">
+              <div class="dashboard-header-left">
+                <span class="live-dot" aria-hidden="true"></span>
+                <span class="dashboard-title-text">raselmia.live — Portfolio Analytics</span>
+                <span class="dashboard-badge"><i class="fas fa-circle" style="font-size:.5rem"></i> Live</span>
+              </div>
+              <div class="dashboard-actions">
+                <a class="btn-icon"
+                   href="https://lookerstudio.google.com/reporting/f39105a7-4a81-4e09-ab7d-d5001c5c43a5/page/kIV1C"
+                   target="_blank" rel="noopener noreferrer"
+                   id="open-fullscreen-btn"
+                   title="Open in Looker Studio">
+                  <i class="fas fa-external-link-alt"></i> Full screen
+                </a>
+              </div>
+            </div>
+
+            <div class="iframe-wrapper" id="dashboard-wrapper">
+              <iframe
+                src="https://lookerstudio.google.com/embed/reporting/f39105a7-4a81-4e09-ab7d-d5001c5c43a5/page/kIV1C"
+                allowfullscreen
+                sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+                loading="lazy"
+                title="Portfolio Analytics Dashboard — raselmia.live"
+              ></iframe>
+            </div>
+
+            <!-- Footer bar -->
+            <div class="dashboard-info">
+              <span><i class="fas fa-info-circle" aria-hidden="true"></i>
+                Data source: Google Analytics 4 &mdash; Property <code>G-1S86VJ0K0L</code>
+              </span>
+              <span>
+                Powered by
+                <a href="https://lookerstudio.google.com" target="_blank" rel="noopener noreferrer">Looker Studio</a>
+              </span>
+            </div>
+
+          </div><!-- /.dashboard-card -->
+
+        </div>
+      </section>
+
+      <!-- ── What's inside tiles ───────────────────── -->
+      <section class="tiles-section">
+        <div class="container">
+          <p class="tiles-section section-label"><i class="fas fa-th-large" aria-hidden="true"></i> Dashboard tiles</p>
+          <div class="tiles-grid">
+            <div class="tile-card">
+              <div class="tile-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
+              <h4>Visitors</h4>
+              <p>Total users and active users scorecard with 30-day trend line.</p>
+            </div>
+            <div class="tile-card">
+              <div class="tile-icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+              <h4>Engagement</h4>
+              <p>Average engagement time and sessions per user over time.</p>
+            </div>
+            <div class="tile-card">
+              <div class="tile-icon"><i class="fas fa-globe-europe" aria-hidden="true"></i></div>
+              <h4>Global Reach</h4>
+              <p>Geo map and country table showing where visitors come from.</p>
+            </div>
+            <div class="tile-card">
+              <div class="tile-icon"><i class="fas fa-file-alt" aria-hidden="true"></i></div>
+              <h4>Top Projects</h4>
+              <p>Landing page / page title ranked by users and engagement time.</p>
+            </div>
+            <div class="tile-card">
+              <div class="tile-icon"><i class="fas fa-share-alt" aria-hidden="true"></i></div>
+              <h4>Traffic Sources</h4>
+              <p>Default channel groups and source / medium breakdown.</p>
+            </div>
+            <div class="tile-card">
+              <div class="tile-icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
+              <h4>Device Types</h4>
+              <p>Desktop vs mobile vs tablet split across all sessions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── CTA ───────────────────────────────────── -->
+      <section>
+        <div class="container">
+          <div class="analytics-cta">
+            <div class="analytics-cta-copy">
+              <h3>Want to build something similar?</h3>
+              <p>I design GA4-backed Looker Studio dashboards and analytics pipelines for portfolios, products, and teams.</p>
+            </div>
+            <div style="display:flex;gap:.75rem;flex-wrap:wrap;">
+              <a class="btn primary" href="/home/#contact">Get in touch</a>
+              <a class="btn ghost" href="/resume/">My resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+            <p>Business Data Analyst based in Aarhus, Denmark. Turning complex data into clear, actionable decisions.</p>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"></a>
+              <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a>
+              <a href="https://instagram.com/mrasel_mrm" class="icon fab fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="/home/#projects">Projects</a></li>
+              <li><a href="/home/#skills">Toolbox</a></li>
+              <li><a href="/bi-jobs/">BI Jobs</a></li>
+              <li><a href="/datastory/">Data Story</a></li>
+              <li><a href="/cover-letter/">Cover Letter AI</a></li>
+              <li><a href="/analytics/">Portfolio Stats</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="/resume/">Resume</a></li>
+              <li><a href="/home/#contact">Contact</a></li>
+              <li><a href="https://www.linkedin.com/in/mrmia/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/mraselm" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="footer-bottom">
+          <span class="copyright">&copy; Rasel Mia 2026 &middot; All Rights Reserved</span>
+          <span class="footer-status"><i class="fas fa-circle"></i> Open to BI / Data Roles</span>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

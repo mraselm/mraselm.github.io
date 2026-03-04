@@ -277,7 +277,13 @@
           <a href="#skills" data-i18n="nav_skills">Toolbox</a>
           <a href="#contact" data-i18n="nav_contact">Contact</a>
           <a href="/datastory/" data-i18n="nav_datastory">Data Story</a>
-          <a href="/cover-letter/" data-i18n="nav_cover">AI Toolkit</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button">Toolkit <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+            <div class="nav-dropdown-menu">
+              <a href="/cover-letter/">Cover Letter AI</a>
+              <a href="/analytics/">Portfolio Stats</a>
+            </div>
+          </div>
           <a href="/resume/" data-i18n="nav_resume">Resume</a>
           <a href="/bi-jobs/" data-i18n="nav_jobs">BI Jobs</a>
         </nav>
@@ -371,6 +377,24 @@
           </div>
 
           <div class="projects-grid">
+            <article class="project-card" id="project-analytics">
+              <div class="date">Mar 4, 2026</div>
+              <img class="project-thumb" src="/images/portfolio_preview.jpeg" alt="Portfolio Analytics dashboard — GA4 + Looker Studio" loading="lazy" />
+              <h3>Portfolio Analytics — Live GA4 Dashboard</h3>
+              <p>
+                Real visitor metrics for raselmia.live embedded directly in the portfolio — powered by Google Analytics 4
+                and visualised in Looker Studio. Users, traffic sources, top projects, global reach, and device breakdown in one page.
+              </p>
+              <div class="tags">
+                <span class="tag"><i class="fas fa-chart-line tag-icon" aria-hidden="true"></i>Looker Studio</span>
+                <span class="tag"><i class="fas fa-chart-bar tag-icon" aria-hidden="true"></i>GA4</span>
+                <span class="tag"><i class="fas fa-globe tag-icon" aria-hidden="true"></i>Analytics</span>
+              </div>
+              <div class="actions">
+                <a class="btn primary" href="/analytics/">View dashboard</a>
+              </div>
+            </article>
+
             <article class="project-card" id="project-bijobs">
               <div class="date">Mar 3, 2026</div>
               <img class="project-thumb" src="/images/job-board.png" alt="BI Jobs board — Denmark curated BI job listings" loading="lazy" />
@@ -641,7 +665,8 @@
               <li><a href="/home/#skills">Toolbox</a></li>
               <li><a href="/bi-jobs/">BI Jobs</a></li>
               <li><a href="/datastory/">Data Story</a></li>
-              <li><a href="/cover-letter/">AI Toolkit</a></li>
+              <li><a href="/cover-letter/">Cover Letter AI</a></li>
+              <li><a href="/analytics/">Portfolio Stats</a></li>
             </ul>
           </div>
 
@@ -950,7 +975,7 @@
             nav_skills: "Toolbox",
             nav_contact: "Contact",
             nav_datastory: "Data Story",
-            nav_cover: "AI Toolkit",
+            nav_cover: "Cover Letter AI",
             nav_resume: "Resume",
             hero_eyebrow: "Business Data Science",
             hero_title: "Building smarter, faster, data-driven decisions",
@@ -1045,7 +1070,7 @@
             nav_skills: "Værktøjskasse",
             nav_contact: "Kontakt",
             nav_datastory: "Datafortælling",
-            nav_cover: "AI Toolkit",
+            nav_cover: "Cover Letter AI",
             nav_resume: "CV",
             hero_eyebrow: "Business Data Science",
             hero_title: "Skaber hurtigere og klogere datadrevne beslutninger",
