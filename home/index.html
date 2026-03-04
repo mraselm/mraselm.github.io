@@ -376,21 +376,42 @@
           </div>
 
           <div class="projects-grid">
-            <article class="project-card" id="project-analytics">
-              <div class="date">Mar 4, 2026</div>
-              <img class="project-thumb" src="/images/portfolio-dashboard.png" alt="Portfolio Analytics dashboard — GA4 + Looker Studio" loading="lazy" />
-              <h3>Portfolio Analytics — Live GA4 Dashboard</h3>
-              <p>
-                Real visitor metrics for raselmia.live embedded directly in the portfolio — powered by Google Analytics 4
-                and visualised in Looker Studio. Users, traffic sources, top projects, global reach, and device breakdown in one page.
+            <article class="project-card" id="project-churn">
+              <div class="date">Nov 20, 2025</div>
+              <img class="project-thumb" src="/images/customerchurn.jpg" alt="Customer churn dashboard preview" loading="lazy" />
+              <h3 data-i18n="proj1_title">AI-Powered Customer Churn Prediction &amp; Retention Dashboard</h3>
+              <p data-i18n="proj1_desc">
+                Streamlit + PyCaret AutoML with SHAP explainability and OpenAI recommendations. Upload customer data, train models,
+                inspect churn drivers, and trigger retention strategies—all in one workflow.
               </p>
               <div class="tags">
-                <span class="tag"><i class="fas fa-chart-line tag-icon" aria-hidden="true"></i>Looker Studio</span>
-                <span class="tag"><i class="fas fa-chart-bar tag-icon" aria-hidden="true"></i>GA4</span>
-                <span class="tag"><i class="fas fa-globe tag-icon" aria-hidden="true"></i>Analytics</span>
+                <span class="tag"><i class="fas fa-robot tag-icon" aria-hidden="true"></i>AutoML</span>
+                <span class="tag"><i class="fas fa-filter tag-icon" aria-hidden="true"></i>SHAP</span>
+                <span class="tag"><i class="fas fa-stream tag-icon" aria-hidden="true"></i>Streamlit</span>
+              </div>
+              <div class="actions compact">
+                <a class="btn ghost" href="https://github.com/mraselm/customer-churn-dashboard.git" target="_blank" rel="noopener noreferrer" data-i18n="cta_view_project">View project</a>
+                <a class="btn ghost" href="/datastory/churn-prediction/" data-i18n="cta_case_study">Read case study</a>
+                <a class="btn primary" href="https://app.raselmia.live/" target="_blank" rel="noopener noreferrer" data-i18n="cta_try">Try it</a>
+              </div>
+            </article>
+
+            <article class="project-card" id="project-stock">
+              <div class="date">June 19, 2025</div>
+              <img class="project-thumb" src="/images/candlestick.jpg" alt="Candlestick chart deep learning" loading="lazy" />
+              <h3 data-i18n="proj5_title">Predicting Stock Moves from Candlestick Images</h3>
+              <p data-i18n="proj5_desc">
+                A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning
+                rates deliver stronger accuracy and faster convergence.
+              </p>
+              <div class="tags">
+                <span class="tag"><i class="fas fa-brain tag-icon" aria-hidden="true"></i>CNN</span>
+                <span class="tag"><i class="fas fa-eye tag-icon" aria-hidden="true"></i>Computer Vision</span>
+                <span class="tag"><i class="fab fa-python tag-icon" aria-hidden="true"></i>Python</span>
               </div>
               <div class="actions">
-                <a class="btn primary" href="/analytics/">View dashboard</a>
+                <a class="btn ghost" href="https://github.com/mraselm/stock-chart-image-classifier.git" target="_blank" rel="noopener noreferrer" data-i18n="cta_view_project">View project</a>
+                <a class="btn primary" href="/datastory/stock-prediction/" data-i18n="cta_case_study">Read case study</a>
               </div>
             </article>
 
@@ -413,42 +434,21 @@
               </div>
             </article>
 
-            <article class="project-card" id="project-churn">
-              <div class="date">Nov 20, 2025</div>
-              <img class="project-thumb" src="/images/customerchurn.jpg" alt="Customer churn dashboard preview" loading="lazy" />
-              <h3 data-i18n="proj1_title">AI-Powered Customer Churn Prediction &amp; Retention Dashboard</h3>
-              <p data-i18n="proj1_desc">
-                Streamlit + PyCaret AutoML with SHAP explainability and OpenAI recommendations. Upload customer data, train models,
-                inspect churn drivers, and trigger retention strategies—all in one workflow.
+            <article class="project-card" id="project-analytics">
+              <div class="date">Mar 4, 2026</div>
+              <img class="project-thumb" src="/images/portfolio-dashboard.png" alt="Portfolio Analytics dashboard — GA4 + Looker Studio" loading="lazy" />
+              <h3>Portfolio Analytics — Live GA4 Dashboard</h3>
+              <p>
+                Real visitor metrics for raselmia.live embedded directly in the portfolio — powered by Google Analytics 4
+                and visualised in Looker Studio. Users, traffic sources, top projects, global reach, and device breakdown in one page.
               </p>
               <div class="tags">
-                <span class="tag"><i class="fas fa-robot tag-icon" aria-hidden="true"></i>AutoML</span>
-                <span class="tag"><i class="fas fa-filter tag-icon" aria-hidden="true"></i>SHAP</span>
-                <span class="tag"><i class="fas fa-stream tag-icon" aria-hidden="true"></i>Streamlit</span>
-              </div>
-              <div class="actions compact">
-                <a class="btn ghost" href="https://github.com/mraselm/customer-churn-dashboard.git" target="_blank" rel="noopener noreferrer" data-i18n="cta_view_project">View project</a>
-                <a class="btn ghost" href="/datastory/churn-prediction/" data-i18n="cta_case_study">Read case study</a>
-                <a class="btn primary" href="https://app.raselmia.live/" target="_blank" rel="noopener noreferrer" data-i18n="cta_try">Try it</a>
-              </div>
-            </article>
-
-            <article class="project-card" id="project-portfolio">
-              <div class="date">May 31, 2025</div>
-              <img class="project-thumb" src="/images/portfolio_preview.jpeg" alt="Portfolio preview" loading="lazy" />
-              <h3 data-i18n="proj2_title">Personal Portfolio — Hosted on GitHub Pages</h3>
-              <p data-i18n="proj2_desc">
-                A responsive personal portfolio designed to present academic background, skills, and data projects. Built with HTML/CSS
-                and powered by GitHub Pages + Formspree for direct contact.
-              </p>
-              <div class="tags">
-                <span class="tag"><i class="fab fa-html5 tag-icon" aria-hidden="true"></i>HTML</span>
-                <span class="tag"><i class="fab fa-css3-alt tag-icon" aria-hidden="true"></i>CSS</span>
-                <span class="tag"><i class="fab fa-github tag-icon" aria-hidden="true"></i>GitHub Pages</span>
+                <span class="tag"><i class="fas fa-chart-line tag-icon" aria-hidden="true"></i>Looker Studio</span>
+                <span class="tag"><i class="fas fa-chart-bar tag-icon" aria-hidden="true"></i>GA4</span>
+                <span class="tag"><i class="fas fa-globe tag-icon" aria-hidden="true"></i>Analytics</span>
               </div>
               <div class="actions">
-                <a class="btn ghost" href="https://github.com/mraselm/mraselm.github.io.git" target="_blank" rel="noopener noreferrer" data-i18n="cta_view_project">View project</a>
-                <a class="btn primary" href="/datastory/" data-i18n="cta_case_study">Read case study</a>
+                <a class="btn primary" href="/analytics/">View dashboard</a>
               </div>
             </article>
 
@@ -490,22 +490,22 @@
               </div>
             </article>
 
-            <article class="project-card" id="project-stock">
-              <div class="date">June 19, 2025</div>
-              <img class="project-thumb" src="/images/candlestick.jpg" alt="Candlestick chart deep learning" loading="lazy" />
-              <h3 data-i18n="proj5_title">Predicting Stock Moves from Candlestick Images</h3>
-              <p data-i18n="proj5_desc">
-                A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning
-                rates deliver stronger accuracy and faster convergence.
+            <article class="project-card" id="project-portfolio">
+              <div class="date">May 31, 2025</div>
+              <img class="project-thumb" src="/images/portfolio_preview.jpeg" alt="Portfolio preview" loading="lazy" />
+              <h3 data-i18n="proj2_title">Personal Portfolio — Hosted on GitHub Pages</h3>
+              <p data-i18n="proj2_desc">
+                A responsive personal portfolio designed to present academic background, skills, and data projects. Built with HTML/CSS
+                and powered by GitHub Pages + Formspree for direct contact.
               </p>
               <div class="tags">
-                <span class="tag"><i class="fas fa-brain tag-icon" aria-hidden="true"></i>CNN</span>
-                <span class="tag"><i class="fas fa-eye tag-icon" aria-hidden="true"></i>Computer Vision</span>
-                <span class="tag"><i class="fab fa-python tag-icon" aria-hidden="true"></i>Python</span>
+                <span class="tag"><i class="fab fa-html5 tag-icon" aria-hidden="true"></i>HTML</span>
+                <span class="tag"><i class="fab fa-css3-alt tag-icon" aria-hidden="true"></i>CSS</span>
+                <span class="tag"><i class="fab fa-github tag-icon" aria-hidden="true"></i>GitHub Pages</span>
               </div>
               <div class="actions">
-                <a class="btn ghost" href="https://github.com/mraselm/stock-chart-image-classifier.git" target="_blank" rel="noopener noreferrer" data-i18n="cta_view_project">View project</a>
-                <a class="btn primary" href="/datastory/stock-prediction/" data-i18n="cta_case_study">Read case study</a>
+                <a class="btn ghost" href="https://github.com/mraselm/mraselm.github.io.git" target="_blank" rel="noopener noreferrer" data-i18n="cta_view_project">View project</a>
+                <a class="btn primary" href="/datastory/" data-i18n="cta_case_study">Read case study</a>
               </div>
             </article>
           </div>
