@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-03T16:19:08Z",
+  "updated": "2026-03-04T06:39:39Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -309,8 +309,8 @@
       {
         "title": "Data solution architect til Business Intelligence",
         "company": "Aarhus Universitet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13658510",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13659478",
         "posted": "2026-03-03",
         "snippet": "Til DataHorizon-projektet søger vi en Data Solution Architect med stærk teknisk profil og erfaring inden for data engineering og softwareudvikling.",
         "lang": "da",
@@ -447,6 +447,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1640316",
         "posted": "2026-02-19",
         "snippet": "To uphold high-quality digital solutions provided to our commercial teams, we are looking for an AI Engineer to join our Chartering Analytics team in Copenhagen.Our tech stack consists of Python and its modern ecosystem (uv, FastA",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Applied AI Engineer – Build & Deploy AI Solutions for Production",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13659998",
+        "posted": "2026-03-03",
+        "snippet": "We build focused, production-ready AI solutions for professional services firms and larger enterprises.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
