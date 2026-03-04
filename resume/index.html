@@ -93,7 +93,8 @@
     <!--End of Tawk.to Script-->
     <div class="surface-glow"></div>
 
-    <header class="site-header">
+    <!-- Scroll progress indicator -->
+    <div class="scroll-progress" aria-hidden="true"></div>
       <div class="container inner">
         <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
         <nav class="nav-links">
@@ -263,6 +264,8 @@
             <h3>Projects</h3>
             <p class="section-hint">Selected work in analytics and ML.</p>
             <ul class="resume-list">
+              <li><strong>BI Jobs Board — Denmark's Curated BI Job Feed</strong> — Python scraper runs daily via GitHub Actions, fetches BI roles from Jobindex, and auto-deploys a filterable static page. <a href="/bi-jobs/">Try it</a></li>
+              <li><strong>Portfolio Analytics Dashboard</strong> — GA4 data connected to Looker Studio, embedded live in the portfolio with real visitor metrics, traffic sources, and device breakdown. <a href="/analytics/">View dashboard</a></li>
               <li><strong>Predicting Parking Availability in Aarhus</strong> — Python, Prophet, Streamlit, and API data to forecast parking supply; built an interactive dashboard for quick lookups.</li>
               <li><strong>Estimating Mobile Phone Price Ranges</strong> — R and Decision Trees to classify price tiers and surface feature importance for positioning decisions.</li>
               <li><strong>Predicting Stock Moves from Candlestick Images</strong> — Python CNN classifier to score next-day direction from chart images, with tuned learning rates for accuracy.</li>
@@ -350,17 +353,50 @@
     </main>
 
     <footer class="footer">
-      <div class="container meta">
-        <div>
-          <div>&copy; Rasel Mia 2026 · All Rights Reserved</div>
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <a href="/home/" class="brand"><span class="dot"></span><span>Rasel Mia</span></a>
+            <p>Business Data Analyst based in Aarhus, Denmark. Turning complex data into clear, actionable decisions.</p>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"></a>
+              <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a>
+              <a href="https://instagram.com/mrasel_mrm" class="icon fab fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="/home/#projects">Projects</a></li>
+              <li><a href="/bi-jobs/">BI Jobs</a></li>
+              <li><a href="/datastory/">Data Story</a></li>
+              <li><a href="/cover-letter/">Cover Letter AI</a></li>
+              <li><a href="/analytics/">Portfolio Stats</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="/resume/">Resume</a></li>
+              <li><a href="/home/#contact">Contact</a></li>
+              <li><a href="https://www.linkedin.com/in/mrmia/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/mraselm" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+          </div>
+
         </div>
-        <div class="socials">
-          <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"></a>
-          <a href="https://github.com/mraselm" class="icon fab fa-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a>
-          <a href="https://instagram.com/mrasel_mrm" class="icon fab fa-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>
+        <div class="footer-bottom">
+          <span class="copyright">&copy; Rasel Mia 2026 &middot; All Rights Reserved</span>
+          <span class="footer-status"><i class="fas fa-circle"></i> Open to BI / Data Roles</span>
         </div>
       </div>
     </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
 
     <div class="form-toast"><i class="fas fa-check-circle"></i>Thank you! Your message has been sent.</div>
 
