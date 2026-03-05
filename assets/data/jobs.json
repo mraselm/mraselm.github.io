@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-04T06:39:39Z",
+  "updated": "2026-03-05T06:42:55Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -11,17 +11,6 @@
         "posted": "2026-02-19",
         "snippet": "If you are looking to contribute to the decarbonisation of maritime shipping, this is an ideal project and part-time position for you.At DTU Chemical Engineering, as part of SEAFAIRER (Horizon Europe Innovation Action), you will s",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Data Analyst",
-        "company": "Telenor",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1640060",
-        "posted": "2026-02-18",
-        "snippet": "Vil du være med til at analysere Telenors netværks- og kundedata og omsætte dem til kundeorienterede handlinger - og samtidig bidrage til at udvikle rapporteringsløsninger og AI‑initiativer, der kommer til at forme Telenors arbejd",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -149,17 +138,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business analyst (Senior) – Core Banking",
-        "company": "BEC Financial Technologies",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1620714",
-        "posted": "2026-02-24",
-        "snippet": "The role offers a unique opportunity to join a fresh team in charge of building a new and modern liquidity management solution for a strategically important initiative in BEC.One of your primary tasks and responsibilities will inc",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst",
         "company": "Salling Group",
         "location": "Denmark",
@@ -204,13 +182,13 @@
         "job_type": "full-time"
       },
       {
-        "title": "Datadreven forretningsanalytiker",
-        "company": "Politi",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1640024",
-        "posted": "2026-02-18",
-        "snippet": "I Center for Kommunikation og Udvikling søger vi lige nu en erfaren forretningsanalytiker, som vil være med til at sikre god datakvalitet på tværs af organisationen samt styrke og udvikle den datadrevne ledelse.Vi søger dig, der s",
-        "lang": "da",
+        "title": "Business Analyst",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1640375",
+        "posted": "2026-02-19",
+        "snippet": "Are you a results‑driven Business Analyst with a passion for people and processes?In this position, you will support the local leadership in all business‑economic matters and help strengthen our controlling activities. You will co",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -292,17 +270,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedarbejder med flair for planlægning, data og kommunikation",
-        "company": "Fonden Dansk Standard",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643619",
-        "posted": "2026-03-03",
-        "snippet": "Har du lyst til at arbejde med researchopgaver, databehandling, visualisering af viden og data samt kommunikation deraf?Som studentermedarbejder bliver du en del af et team af tværgående studentermedarbejdere og får ansvar for opg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -364,17 +331,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "AI Data Scientists",
-        "company": "Telenor",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1640050",
-        "posted": "2026-02-18",
-        "snippet": "Do you want to help develop and bring advanced AI into the core of Telenor’s daily operations?You will work directly with modern AI tools and develop the models and solutions that make our network smarter and more efficient. Here,",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Data Scientist",
         "company": "DANISH CROWN A/S",
         "location": "Randers",
@@ -408,23 +364,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Revenue Data Scientist (RevOps)",
+        "company": "Adversus A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13649097",
+        "posted": "2026-02-26",
+        "snippet": "Adversus helps revenue teams connect with the right prospects through efficient outbound and sales engagement.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Start Your Career with GenAI Tribe, Data Science Chapter in Copenhagen, Denmark",
         "company": "Danske Bank",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13635359",
         "posted": "2026-02-19",
         "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Experienced Data Scientist - IRB Modelling",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13619141",
-        "posted": "2026-02-11",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
