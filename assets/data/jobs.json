@@ -1,19 +1,8 @@
 {
-  "updated": "2026-03-05T06:42:55Z",
+  "updated": "2026-03-06T06:40:21Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
-      {
-        "title": "Data Analyst for renewable energy value chain - DTU Chemical Engineering, DTU",
-        "company": "Danmarks Tekniske Universitet",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1640499",
-        "posted": "2026-02-19",
-        "snippet": "If you are looking to contribute to the decarbonisation of maritime shipping, this is an ideal project and part-time position for you.At DTU Chemical Engineering, as part of SEAFAIRER (Horizon Europe Innovation Action), you will s",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Finance Data Analyst",
         "company": "e-conomic",
@@ -93,6 +82,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst til Styrelsen for Fødevarer, Landbrug & Fiskeri - Barselsvikariat",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1644877",
+        "posted": "2026-03-05",
+        "snippet": "Har du lyst til at blive udfordret i en ambitiøs forretningsorienteret styrelse, som under stor mediemæssig bevågenhed \"arbejder for føden”?Vi søger en Business Analyst i et barselsvikariat i 12 måneder, der kan arbejde på tværs a",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst",
         "company": "ZF Danmark ApS",
@@ -195,6 +195,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Senior Business Intelligence developer – develop dashboards to improve company efficiency",
+        "company": "Systematic A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1637200",
+        "posted": "2026-03-06",
+        "snippet": "Could you see yourself be the key driver of Power BI dashboard reporting?As a Senior BI Developer, you'll simplify complex data into visual and meaningful insights that enable our Finance colleagues and business managers to be dat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Intelligence Developer",
         "company": "DUOS A/S",
         "location": "Copenhagen",
@@ -228,28 +239,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "CRM & Business Intelligence Manager",
-        "company": "Oxfam Danmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1638981",
-        "posted": "2026-02-13",
-        "snippet": "Vil du bruge dine evner inden for teknologi, data og CRM til at bekæmpe ulighed og udrydde fattigdom?Vi søger en skarp CRM & Business Intelligence Manager til vores Kommunikations- og Fundraising-afdeling. Vi leder efter en profil",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Intelligence developer – develop dashboards to improve company efficiency",
-        "company": "Systematic A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1637200",
-        "posted": "2026-02-06",
-        "snippet": "Could you see yourself be the key driver of Power BI dashboard reporting?As a Senior BI Developer, you'll simplify complex data into visual and meaningful insights that enable our Finance colleagues and business managers to be dat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Power BI Developer - Aarhus or Gdansk",
         "company": "Arla Foods amba",
         "location": "Aarhus",
@@ -268,6 +257,17 @@
         "posted": "2026-02-09",
         "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Power BI specialist",
+        "company": "Københavns Lufthavne A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1645116",
+        "posted": "2026-03-05",
+        "snippet": "Som Power BI Specialist bliver du nøglen til at omsætte data til indsigt og skabe brugervenlige rapporteringsløsninger, der understøtter både driftsafdelingen og ledelsen.Du arbejder tæt sammen med kolleger i Asset Data & Document",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -294,20 +294,31 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Aller søger Business Intelligence Specialist - Group Finance",
-        "company": "Aller A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13622119",
-        "posted": "2026-02-12",
-        "snippet": "Stillingen er nyoprettet og giver dig mulighed for at få en central rolle i at styrke koncernens rapportering, dataoverblik og...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
       }
     ],
     "data scientist": [
+      {
+        "title": "Senior Data Scientist",
+        "company": "Danmarks Nationalbank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1645062",
+        "posted": "2026-03-05",
+        "snippet": "Vi søger en Senior Data Scientist, der kan kan tage en central i vores data science‑arbejde og være med til at løfte vores metoder, værktøjer og datagrundlag til næste niveau.Dine primære opgaver omfatter:Bidrage med din viden ind",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data scientist med stærk data-, proces- og systemforståelse til Center for It og Data",
+        "company": "Familieretshuset",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1643589",
+        "posted": "2026-03-03",
+        "snippet": "Kan du omsætte data til værdifulde indsigter, der kan optimere processer og understøtte strategiske beslutninger? Har du erfaring med at formidle og oversætte data til praktiske løsninger?Du vil samarbejde tæt med forretningen for",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Scientist for Medical Device Development",
         "company": "RSP Systems A/S",
@@ -386,17 +397,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Quantum Machine Learning Engineer",
-        "company": "Temp-Team A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1640483",
-        "posted": "2026-02-19",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "AI Engineer",
         "company": "Dampskibsselskabet NORDEN A/S",
         "location": "Hellerup",
@@ -439,6 +439,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælperstilling som Data Scientist i Accounts Payable / Accounts Receivable",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1644899",
+        "posted": "2026-03-05",
+        "snippet": "Er du motiveret for at skabe indsigter, der driver forandringer og vil du tage del i udviklingen af en mere digital fremtid for vores Group Accounting funktion?I rollen som Data Scientist Student Worker vil du være medansvarlig fo",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ]
   }
