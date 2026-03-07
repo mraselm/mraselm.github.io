@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T06:40:21Z",
+  "updated": "2026-03-07T06:32:31Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -33,6 +33,17 @@
         "posted": "2026-03-02",
         "snippet": "We are looking for a Data Analyst (AC-TAP) position with a focus on data analysis and management within the Danish Structural Imaging and...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker - kvalitet & sikkerhed",
+        "company": "dao",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1645542",
+        "posted": "2026-03-06",
+        "snippet": "Hos dao søger vi en analytiker, der kan bruge data aktivt til at identificere uregelmæssigheder i pakkeflowet og være med til at sikre, at vores pakker håndteres korrekt gennem hele deres rejse.Du bliver en del af et mindre team m",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -270,6 +281,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper med interesse for ESG-data og rapportering",
+        "company": "Tryg Forsikring A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1645568",
+        "posted": "2026-03-06",
+        "snippet": "Vil du være med til at styrke Trygs bæredygtigheds- og ESG-rapportering? Har du interesse for eller måske endda erfaring med ESG-data?Opgaverne vil omhandle ESG‑data og rapportering – men præcis som ESG‑agendaen spænder bredt, gør",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -397,6 +419,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior Machine Learning Engineer – byg fremtidens ML-platform med os",
+        "company": "nemlig.com",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/h1645482",
+        "posted": "2026-03-06",
+        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Hos nemlig er vi i gang med at aktivere vores stærke dataplatform med ML i stor skala, og derfor søger vi en Senior Machine Learning E",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Engineer",
         "company": "Dampskibsselskabet NORDEN A/S",
         "location": "Hellerup",
@@ -408,7 +441,7 @@
         "job_type": "full-time"
       },
       {
-        "title": "Applied AI Engineer – Build & Deploy AI Solutions for Production",
+        "title": "AI Engineer – Build & Deploy AI Solutions for Production",
         "company": "",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13659998",
