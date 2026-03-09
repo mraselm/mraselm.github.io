@@ -1,49 +1,87 @@
-# Personal Portfolio Website
+# Rasel Mia Portfolio
 
-This repository contains my personal portfolio website. It is a static site built with HTML, CSS, and JavaScript, hosted on GitHub Pages with a custom domain.
+Static personal portfolio site for `raselmia.live`, built with HTML/CSS/JavaScript and deployed on GitHub Pages.
 
 Live site: https://raselmia.live
 
-## Highlights
+## What is in this repo
 
-- Responsive layout with light/dark theme toggle
-- English/Danish language toggle
-- Project discovery search with tags
-- Contact forms powered by Formspree
-- Live chat via Tawk.to
-- Resume download and share options
+- Portfolio landing page with projects, skills, and contact (`/home/`)
+- Data Story hub and six case-study pages (`/datastory/`)
+- BI jobs board for Denmark powered by auto-refreshed JSON data (`/bi-jobs/`)
+- Portfolio analytics dashboard (GA4 + Looker Studio embed) (`/analytics/`)
+- AI cover-letter generator tool (`/cover-letter/`)
+- Resume page and redirect helpers (`/resume/`, `resume.html`, `blog.html`)
 
-## Built With
+## Main routes
 
-- HTML5, CSS3, JavaScript
-- Font Awesome icons
-- Google Fonts (Manrope, Space Grotesk)
-- GitHub Pages + custom domain
-- Formspree, Tawk.to
+- `/` redirects to `/home/`
+- `/home/`
+- `/datastory/`
+- `/datastory/churn-prediction/`
+- `/datastory/parking-prediction/`
+- `/datastory/mobile-pricing/`
+- `/datastory/stock-prediction/`
+- `/datastory/chart-guide/`
+- `/datastory/jordan-brand-analysis/`
+- `/bi-jobs/`
+- `/analytics/`
+- `/cover-letter/`
+- `/resume/`
+- `/blog.html` redirects to `/datastory/`
+- `/resume.html` redirects to `/resume/`
 
-## Pages
+## Key features
 
-- / (redirects to /home/)
-- /home/ (portfolio landing page)
-- /datastory/ (case studies and data stories)
-- /cover-letter/ (AI Toolkit)
-- /resume/ (resume page)
+- Responsive UI with light/dark theme support
+- English/Danish content toggle on core portfolio pages
+- Unified discovery search (`assets/data/discovery-index.json`) for projects and stories
+- Dynamic BI jobs feed with filters (category, city, job type, language)
+- Formspree contact forms and Tawk.to chat
+- GA4 event tracking and public Looker Studio analytics page
+- AI cover-letter generator with PDF resume upload, rewrite options, and PDF/DOCX export
 
-## Project Structure
+## Data and automation
 
-- home/ (main portfolio page)
-- datastory/ (index + case study pages)
-- cover-letter/ (AI Toolkit)
-- resume/ (resume page)
-- assets/ (CSS, JS, data)
-- images/ (site imagery)
+- `assets/data/discovery-index.json`: search index for project and story cards
+- `assets/data/jobs.json`: BI job dataset used by `/home/` and `/bi-jobs/`
+- `scripts/fetch_jobs.py`: pulls Jobindex RSS results, filters/deduplicates, writes `jobs.json`
+- `.github/workflows/fetch-jobs.yml`: runs daily at `06:00 UTC` and on manual dispatch
 
-## Local Development
-
-This is a static site. You can open the pages directly or run a simple static server, for example:
+Manual job refresh:
 
 ```sh
-python -m http.server
+python -m pip install requests
+python scripts/fetch_jobs.py
 ```
 
-Then visit `http://localhost:8000/home/`.
+## Tech stack and services
+
+- HTML5, CSS3, JavaScript (no build step required)
+- GitHub Pages + Jekyll config (`_config.yml`) + custom domain (`CNAME`)
+- Font Awesome and Google Fonts
+- Google Analytics 4 and Looker Studio
+- Formspree, Tawk.to, CountAPI
+- Cover-letter API endpoint hosted externally (Cloudflare Worker URL configured in `cover-letter/index.html`)
+
+## Local development
+
+Run a static server from the repo root:
+
+```sh
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000/home/`.
+
+## Repository layout
+
+- `home/`: main portfolio page
+- `datastory/`: story index and individual case-study pages
+- `bi-jobs/`: BI jobs board UI
+- `analytics/`: GA4/Looker dashboard page
+- `cover-letter/`: AI cover-letter web app
+- `resume/`: resume page
+- `assets/css`, `assets/js`, `assets/data`: styles, shared scripts, data files
+- `scripts/`: maintenance scripts (job data fetcher)
+- `.github/workflows/`: scheduled automation
