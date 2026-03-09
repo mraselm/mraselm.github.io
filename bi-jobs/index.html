@@ -587,6 +587,8 @@
         .filter-combined-bar { border-radius: 8px; padding: 0.5rem 0.75rem; row-gap: 0.4rem; }
         .jobs-source      { border-radius: 12px; }
       }
+
+
     </style>
   </head>
 
@@ -1192,6 +1194,7 @@
               updateHeroStats(data);
               updateTabCounts(data);
               renderCategory(currentCategory, currentColor);
+
             })
             .catch(function () {
               var grid  = document.getElementById('jobs-grid');
