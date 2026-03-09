@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-08T06:35:43Z",
+  "updated": "2026-03-09T06:55:03Z",
   "source_url": "https://www.jobindex.dk/",
   "categories": {
     "data analyst": [
@@ -171,17 +171,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "AI Business Analyst",
-        "company": "Akademikernes A-kasse",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1640789",
-        "posted": "2026-02-20",
-        "snippet": "Vores mål er at skabe en sikker, compliant og skalerbar AI-platform, der kan hjælpe os med at gøre AI til en integreret del af vores teknologilandskab, og den måde, vi driver a-kasseforretning på.Vi tilbyder en spændende og udford",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst for Customer Rating & Analytics",
         "company": "BEC Financial Technologies",
         "location": "Roskilde",
@@ -250,13 +239,13 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Power BI Developer - Aarhus or Gdansk",
-        "company": "Arla Foods amba",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1638977",
+        "title": "CRM & Business Intelligence Manager",
+        "company": "Oxfam Danmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1638981",
         "posted": "2026-02-13",
-        "snippet": "",
-        "lang": "en",
+        "snippet": "Vil du bruge dine evner inden for teknologi, data og CRM til at bekæmpe ulighed og udrydde fattigdom?Vi søger en skarp CRM & Business Intelligence Manager til vores Kommunikations- og Fundraising-afdeling. Vi leder efter en profil",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -265,8 +254,19 @@
         "company": "DANISH CROWN A/S",
         "location": "Randers",
         "url": "https://www.jobindex.dk/vis-job/h1637517",
-        "posted": "2026-02-09",
+        "posted": "2026-03-09",
         "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Power BI Developer - Aarhus or Gdansk",
+        "company": "Arla Foods amba",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1638977",
+        "posted": "2026-02-13",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
