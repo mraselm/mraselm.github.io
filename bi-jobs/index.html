@@ -276,6 +276,30 @@
       #jobs-refresh:active {
         transform: rotate(45deg);
       }
+      #jobs-reset {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5rem;
+        padding: 0 0.58rem;
+        border-radius: 999px;
+        border: 1px solid #0ea5e9;
+        background: #0ea5e9;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        line-height: 1;
+        transition: background 0.15s, border-color 0.15s, transform 0.15s;
+      }
+      #jobs-reset:hover {
+        background: #0284c7;
+        border-color: #0284c7;
+      }
+      #jobs-reset:active {
+        transform: translateY(1px);
+      }
       #jobs-updated {
         font-size: 0.68rem;
         color: var(--muted, #64748b);
@@ -792,6 +816,9 @@
                 <button id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
                   <i class="fas fa-redo-alt" aria-hidden="true"></i>
                 </button>
+                <button id="jobs-reset" aria-label="Reset all filters" title="Reset filters">
+                  Reset
+                </button>
               </div>
             </div>
 
@@ -844,32 +871,7 @@
                 rel="noopener noreferrer">Jobbank.dk</a>
             </span>
             <span class="jobs-source-dot" aria-hidden="true"></span>
-            <span id="refresh-time-label">Updated daily at 07:00 CET</span>
-            <script>
-              (function(){
-                try {
-                  var d = new Date('2000-01-01T06:00:00Z');
-                  var fmt = new Intl.DateTimeFormat('en-GB', {
-                    hour: '2-digit', minute: '2-digit',
-                    timeZone: 'Europe/Copenhagen',
-                    timeZoneName: 'short'
-                  });
-                  var parts = fmt.formatToParts(d);
-                  var time = '';  var tz = '';
-                  parts.forEach(function(p){
-                    if (p.type === 'hour' || p.type === 'literal' && time) time += p.value;
-                    else if (p.type === 'minute') time += p.value;
-                    else if (p.type === 'timeZoneName') tz = p.value;
-                  });
-                  var h = parts.find(function(p){ return p.type==='hour'; });
-                  var m = parts.find(function(p){ return p.type==='minute'; });
-                  if (h && m && tz) {
-                    document.getElementById('refresh-time-label').textContent =
-                      'Updated daily at ' + h.value + ':' + m.value + '\u202f' + tz;
-                  }
-                } catch(e){}
-              })();
-            </script>
+            <span id="refresh-time-label">Updated hourly</span>
             <span class="jobs-source-dot" aria-hidden="true"></span>
             <a id="jobs-see-all"
                href="https://www.jobindex.dk/jobsoegning?q=data+analyst&arbejdstid%5B%5D=Fuldtid"
@@ -954,6 +956,8 @@
         var currentType      = 'all';
         var currentLang      = 'all';
         var JOBINDEX_SEARCH  = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
+        var lastDataUpdatedIso = '';
+        var justNowTimer = null;
 
         /* City keyword match map */
         var CITY_KEYWORDS = {
@@ -998,6 +1002,39 @@
           renderCategory(currentCategory, currentColor);
         };
 
+        function resetAllFilters() {
+          currentCategory = 'all';
+          currentColor    = '#64748b';
+          currentCity     = 'all';
+          currentType     = 'all';
+          currentLang     = 'all';
+
+          document.querySelectorAll('.jobs-tab').forEach(function (t) {
+            t.classList.remove('active');
+            t.setAttribute('aria-selected', 'false');
+          });
+          var allTab = document.querySelector('.jobs-tab[data-query="all"]');
+          if (allTab) {
+            allTab.classList.add('active');
+            allTab.setAttribute('aria-selected', 'true');
+          }
+
+          document.querySelectorAll('.city-btn').forEach(function (b) { b.classList.remove('active'); });
+          var allCityBtn = document.querySelector('.city-btn[data-city="all"]');
+          if (allCityBtn) allCityBtn.classList.add('active');
+
+          document.querySelectorAll('.type-btn').forEach(function (b) { b.classList.remove('active'); });
+          var allTypeBtn = document.querySelector('.type-btn[data-type="all"]');
+          if (allTypeBtn) allTypeBtn.classList.add('active');
+
+          document.querySelectorAll('.lang-btn').forEach(function (b) { b.classList.remove('active'); });
+          var allLangBtn = document.querySelector('.lang-btn[data-lang="all"]');
+          if (allLangBtn) allLangBtn.classList.add('active');
+
+          if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
+          else           { loadData(); }
+        }
+
         var TAB_COUNT_IDS = {
           'data analyst':         'tc-da',
           'business analyst':     'tc-ba',
@@ -1015,6 +1052,30 @@
               day: 'numeric', month: 'short', year: 'numeric'
             });
           } catch (e) { return iso; }
+        }
+        function formatDateTime(iso) {
+          if (!iso) return '';
+          try {
+            return new Intl.DateTimeFormat('en-GB', {
+              day: '2-digit',
+              month: 'short',
+              year: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              hour12: false,
+              timeZone: 'Europe/Copenhagen',
+              timeZoneName: 'short'
+            }).format(new Date(iso));
+          } catch (e) { return iso; }
+        }
+        function setUpdatedLabel(text) {
+          var ts = document.getElementById('jobs-updated');
+          if (ts) ts.textContent = text || '';
+        }
+        function showUpdatedFromIso(iso) {
+          if (!iso) return;
+          lastDataUpdatedIso = iso;
+          setUpdatedLabel('Updated ' + formatDateTime(iso));
         }
         function esc(str) {
           return String(str || '')
@@ -1077,11 +1138,7 @@
             }
           }
 
-          if (data && data.updated) {
-            var label = 'Updated ' + formatDate(data.updated);
-            var ts1   = document.getElementById('jobs-updated');
-            if (ts1) ts1.textContent = label;
-          }
+          if (data && data.updated) showUpdatedFromIso(data.updated);
         }
 
         /*  Tab count badges  */
@@ -1145,7 +1202,7 @@
               error.style.display = 'block';
               error.innerHTML =
                 '<div class="jobs-empty-icon"><i class="fas fa-briefcase" aria-hidden="true"></i></div>' +
-                '<p>No full-time positions found for this category yet &mdash; listings refresh daily.</p>' +
+                '<p>No full-time positions found for this category yet &mdash; listings refresh hourly.</p>' +
                 '<a href="' + JOBINDEX_SEARCH.replace('{q}', encodeURIComponent(cat)) +
                 '" target="_blank" rel="noopener noreferrer">Search live on Jobindex.dk &rarr;</a>';
             }
@@ -1230,7 +1287,7 @@
         }
 
         /*  Fetch jobs.json  */
-        function loadData() {
+        function loadData(isManualRefresh) {
           showSkeletons(6);
           fetch('/assets/data/jobs.json?v=' + Date.now())
             .then(function (res) {
@@ -1242,9 +1299,16 @@
               updateHeroStats(data);
               updateTabCounts(data);
               renderCategory(currentCategory, currentColor);
-
+              if (isManualRefresh) {
+                if (justNowTimer) { clearTimeout(justNowTimer); justNowTimer = null; }
+                setUpdatedLabel('Updated just now');
+                justNowTimer = setTimeout(function () {
+                  showUpdatedFromIso(data.updated);
+                }, 12000);
+              }
             })
             .catch(function () {
+              if (isManualRefresh && lastDataUpdatedIso) showUpdatedFromIso(lastDataUpdatedIso);
               var grid  = document.getElementById('jobs-grid');
               var error = document.getElementById('jobs-error');
               if (grid)  grid.innerHTML = '';
@@ -1283,8 +1347,17 @@
             var icon = this.querySelector('i');
             if (icon) { icon.style.animation = 'spin 0.65s linear'; }
             setTimeout(function () { if (icon) icon.style.animation = ''; }, 700);
+            if (justNowTimer) { clearTimeout(justNowTimer); justNowTimer = null; }
+            setUpdatedLabel('Updated just now');
             JOBS_DATA = null;
-            loadData();
+            loadData(true);
+          });
+        }
+
+        var resetBtn = document.getElementById('jobs-reset');
+        if (resetBtn) {
+          resetBtn.addEventListener('click', function () {
+            resetAllFilters();
           });
         }
 

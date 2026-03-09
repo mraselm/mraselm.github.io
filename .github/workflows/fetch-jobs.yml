@@ -2,7 +2,7 @@ name: Fetch Denmark Data & BI Jobs
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # Every day at 06:00 UTC
+    - cron: '17 * * * *'  # Every hour at :17 UTC
   workflow_dispatch:        # Allow manual trigger from GitHub Actions UI
 
 permissions:
