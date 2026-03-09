@@ -1,6 +1,9 @@
 {
-  "updated": "2026-03-09T06:55:03Z",
-  "source_url": "https://www.jobindex.dk/",
+  "updated": "2026-03-09T19:19:01Z",
+  "sources": [
+    "https://www.jobindex.dk/",
+    "https://jobbank.dk/"
+  ],
   "categories": {
     "data analyst": [
       {
@@ -81,14 +84,47 @@
         "job_type": "full-time"
       },
       {
-        "title": "Dataanalytiker til centerstaben i Center for Kræft og Organsygdomme (CKO) på Rigshospitalet",
-        "company": "Region Hovedstaden",
+        "title": "Data Analyst and Process Optimization Lead",
+        "company": "ECCO SKO A/S",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2992720/ecco-sko-as/data-analyst-and-process-optim",
+        "posted": "2026-03-04",
+        "snippet": "Full-time job at ECCO SKO A/S, Southern Jutland (Apply by: 30.04.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "People Data Analyst",
+        "company": "Ørsted",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2985002/orsted/people-data-analyst",
+        "posted": "2026-02-20",
+        "snippet": "Full-time job at Ørsted, Abroad (other) (Apply by: 15.03.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst in our Project Cost Management Team within Business Finance at Novo Nordisk Engineering (Denmark - Virum)",
+        "company": "NNE A/S",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13629631",
-        "posted": "2026-02-17",
-        "snippet": "Vil du være med til at styrke datagrundlaget på Rigshospitalet og skabe indsigt, der gør en reel forskel for patienter og personale?",
+        "url": "https://jobbank.dk/job/2995537/nne-as/data-analyst-in-our-project-co",
+        "posted": "2026-03-06",
+        "snippet": "Full-time job at NNE A/S, Greater Copenhagen (Apply by: 27.03.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til Efterretnings- og Analysecentret i National enhed for Særlig Kriminalitet",
+        "company": "Rigspolitiet",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2991669/rigspolitiet/dataanalytiker-til-efterretnin",
+        "posted": "2026-03-08",
+        "snippet": "Full-time job at Rigspolitiet, Greater Copenhagen, Øresund region (Apply by: 16.03.2026)",
         "lang": "da",
-        "source": "jobindex",
+        "source": "jobbank",
         "job_type": "full-time"
       }
     ],
@@ -160,28 +196,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Advanced Business Analyst - Bliv bindeled mellem AI-strategi og forretning i DSB",
-        "company": "DSB",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1641436",
-        "posted": "2026-02-23",
-        "snippet": "Vil du være med til at omsætte forretningsbehov til intelligente AI-løsninger, der skaber værdi for både kunder og DSB? Bliv bindeleddet mellem strategi og teknologi, og vær med til at forme fremtidens digitale agenter!Du bliver d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Analyst for Customer Rating & Analytics",
-        "company": "BEC Financial Technologies",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1640294",
-        "posted": "2026-02-19",
-        "snippet": "This position is based at our friendly office in Roskilde and you will join our Customer Rating & Analytics team (CRA) which is part of the regulatory Reporting Solutions (RS) domain.The position offers a unique opportunity to joi",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst",
         "company": "DSV",
         "location": "Denmark",
@@ -191,9 +205,86 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "IT Business Analyst Intern",
+        "company": "Ganni",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2973090/ganni/it-business-analyst-intern",
+        "posted": "2026-02-02",
+        "snippet": "Internship at Ganni, Greater Copenhagen (Apply by: 27.03.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "McKinsey & Company",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/1511019/mckinsey-company/business-analyst",
+        "posted": "2026-02-24",
+        "snippet": "Full-time job at McKinsey & Company, Abroad (Sweden), Abroad (Norway), Abroad (other) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "ERP Business Analyst 1",
+        "company": "esoft systems",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2692391/esoft-systems/erp-business-analyst-1",
+        "posted": "2024-11-21",
+        "snippet": "Full-time job at esoft systems, Abroad (other) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "IS Business Analyst – Finance, ABB Robotics",
+        "company": "ABB A/S",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2939077/abb-as/is-business-analyst-finance",
+        "posted": "2026-03-06",
+        "snippet": "Full-time job at ABB A/S, Abroad (other) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst Intern",
+        "company": "McKinsey & Company",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/1511020/mckinsey-company/business-analyst-intern",
+        "posted": "2026-03-06",
+        "snippet": "Internship at McKinsey & Company, Abroad (Sweden), Abroad (Norway), Abroad (other) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Teknisk Forretningsanalytiker",
+        "company": "Work Supply",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2611689/work-supply/teknisk-forretningsanalytiker",
+        "posted": "2025-06-09",
+        "snippet": "Full-time job at Work Supply, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
       }
     ],
     "business intelligence": [
+      {
+        "title": "Business Controller til Business Intelligence afdelingen",
+        "company": "Davidsen",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/h1646014",
+        "posted": "2026-03-09",
+        "snippet": "Brænder du for dataanalyser og formidling af disse?Kunne du tænke dig at blive en del af en dynamisk og vækstorienteret virksomhed, hvor du får en central rolle i at videreudvikle og undervise i vores BI-platform på tværs af hele",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Business Intelligence developer – develop dashboards to improve company efficiency",
         "company": "Systematic A/S",
@@ -239,17 +330,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "CRM & Business Intelligence Manager",
-        "company": "Oxfam Danmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1638981",
-        "posted": "2026-02-13",
-        "snippet": "Vil du bruge dine evner inden for teknologi, data og CRM til at bekæmpe ulighed og udrydde fattigdom?Vi søger en skarp CRM & Business Intelligence Manager til vores Kommunikations- og Fundraising-afdeling. Vi leder efter en profil",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior BI Developer",
         "company": "DANISH CROWN A/S",
         "location": "Randers",
@@ -283,29 +363,161 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælper med interesse for ESG-data og rapportering",
-        "company": "Tryg Forsikring A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1645568",
-        "posted": "2026-03-06",
-        "snippet": "Vil du være med til at styrke Trygs bæredygtigheds- og ESG-rapportering? Har du interesse for eller måske endda erfaring med ESG-data?Opgaverne vil omhandle ESG‑data og rapportering – men præcis som ESG‑agendaen spænder bredt, gør",
-        "lang": "da",
-        "source": "jobindex",
+        "title": "Internship - Business Intelligence",
+        "company": "Systematic",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2982623/systematic/internship-business-intellig",
+        "posted": "2026-02-17",
+        "snippet": "Internship at Systematic, Eastern Jutland (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Intelligence Developer",
+        "company": "Systematic",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2971332/systematic/senior-business-intelligence-d",
+        "posted": "2026-01-30",
+        "snippet": "Full-time job at Systematic, Eastern Jutland (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Studiejob: IT & business Intelligence",
+        "company": "Cand",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2979232/cand/studiejob-it-business-intel",
+        "posted": "2026-02-10",
+        "snippet": "Student job at Cand, Eastern Jutland (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
         "job_type": "student"
+      },
+      {
+        "title": "Data solution architect til Business Intelligence",
+        "company": "Aarhus Universitet (AU)",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2992028/aarhus-universitet/data-solution-architect-til-bu",
+        "posted": "2026-03-03",
+        "snippet": "Full-time job at Aarhus Universitet (AU), Greater Copenhagen (Apply by: 18.03.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence-konsulent",
+        "company": "Solita ApS",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2992238/solita-aps/business-intelligence-konsulen",
+        "posted": "2026-03-03",
+        "snippet": "Full-time job at Solita ApS, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Bliv en Senior BI Consultant i København",
+        "company": "ACCOBAT A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2663108/accobat-as/bliv-en-senior-bi-consultant-i",
+        "posted": "2025-12-08",
+        "snippet": "Full-time job at ACCOBAT A/S, Greater Copenhagen, Øresund region (Apply by: none specified)",
+        "lang": "da",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Specialist",
+        "company": "Magasin.dk",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2941212/magasindk/business-intelligence-speciali",
+        "posted": "2026-02-11",
+        "snippet": "Full-time job at Magasin.dk, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Global Business Intelligence Specialist - Pharmacosmos",
+        "company": "PHARMACOSMOS A/S",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2900565/pharmacosmos-as/global-business-intelligence-s",
+        "posted": "2026-02-11",
+        "snippet": "Full-time job at PHARMACOSMOS A/S, West Zealand (Apply by: 31.03.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Junior Business Intelligence Engineer | Buying & Merchandising",
+        "company": "Boozt Fashion AB",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2945915/boozt-fashion-ab/junior-business-intelligence-e",
+        "posted": "2026-02-27",
+        "snippet": "Full-time job at Boozt Fashion AB, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Specialist",
+        "company": "Vestas",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2990194/vestas/business-intelligence-speciali",
+        "posted": "2026-02-27",
+        "snippet": "Full-time job at Vestas, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "CRM & Business Intelligence Manager",
+        "company": "Oxfam IBIS",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2981565/oxfam-ibis/crm-business-intelligence-ma",
+        "posted": "2026-02-16",
+        "snippet": "Full-time job at Oxfam IBIS, Greater Copenhagen, Øresund region (Apply by: 15.03.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior BI Developer",
+        "company": "Unity Technologies ApS",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2943442/unity-technologies-a/senior-bi-developer",
+        "posted": "2026-02-26",
+        "snippet": "Full-time job at Unity Technologies ApS, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior BI Developer | Développeur(se) BI Sénior",
+        "company": "Unity Technologies ApS",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2947266/unity-technologies-a/senior-bi-developer-developp",
+        "posted": "2026-02-26",
+        "snippet": "Full-time job at Unity Technologies ApS, Abroad (other) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Customer Success Manager, Tableau/ Business Intelligence Solutions",
+        "company": "Salesforce",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2984353/salesforce/customer-success-manager-tabl",
+        "posted": "2026-02-19",
+        "snippet": "Full-time job at Salesforce, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
       }
     ],
     "bi specialist": [
-      {
-        "title": "Data solution architect til Business Intelligence",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13659478",
-        "posted": "2026-03-03",
-        "snippet": "Til DataHorizon-projektet søger vi en Data Solution Architect med stærk teknisk profil og erfaring inden for data engineering og softwareudvikling.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Lead Generation, AI & Business Intelligence Specialist",
         "company": "Contentway A/S",
@@ -386,34 +598,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Afdelingslæge søges til Data Science og AI i Sundhed",
-        "company": "Statens Serum Institut",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13655387",
-        "posted": "2026-03-02",
-        "snippet": "Er du uddannet læge med speciallægeanerkendelse?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Revenue Data Scientist (RevOps)",
-        "company": "Adversus A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13649097",
-        "posted": "2026-02-26",
-        "snippet": "Adversus helps revenue teams connect with the right prospects through efficient outbound and sales engagement.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Start Your Career with GenAI Tribe, Data Science Chapter in Copenhagen, Denmark",
         "company": "Danske Bank",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13635359",
         "posted": "2026-02-19",
         "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Quantum Machine Learning Engineer",
+        "company": "Temp-Team A/S",
+        "location": "Remote",
+        "url": "https://www.jobindex.dk/vis-job/h1646053",
+        "posted": "2026-03-09",
+        "snippet": "We are seeking a engineer to join our client’s dynamic, multidisciplinary team advancing the frontier of scalable quantum computing.The team brings together a highly talented and diverse international group dedicated to building t",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -474,15 +675,292 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælperstilling som Data Scientist i Accounts Payable / Accounts Receivable",
-        "company": "Salling Group",
+        "title": "Data Scientist for Defence decision-support tool",
+        "company": "Systematic",
         "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1644899",
+        "url": "https://jobbank.dk/job/2980423/systematic/data-scientist-for-defence-dec",
+        "posted": "2026-02-12",
+        "snippet": "Full-time job at Systematic, Eastern Jutland (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist / AI Lead",
+        "company": "Vattenfall A/S",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2992965/vattenfall-as/senior-data-scientist-ai-lea",
         "posted": "2026-03-05",
-        "snippet": "Er du motiveret for at skabe indsigter, der driver forandringer og vil du tage del i udviklingen af en mere digital fremtid for vores Group Accounting funktion?I rollen som Data Scientist Student Worker vil du være medansvarlig fo",
+        "snippet": "Full-time job at Vattenfall A/S, Abroad (Sweden) (Apply by: 25.03.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Wunderman",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2951664/wunderman/data-scientist",
+        "posted": "2025-12-22",
+        "snippet": "Full-time job at Wunderman, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælperstilling som Data Scientist i Accounts Payable / Accounts Receivable",
+        "company": "Salling Group A/S",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2993842/salling-group-as/studentermedhjaelperstilling-so",
+        "posted": "2026-03-05",
+        "snippet": "Student job at Salling Group A/S, Eastern Jutland (Apply by: none specified)",
+        "lang": "da",
+        "source": "jobbank",
+        "job_type": "student"
+      },
+      {
+        "title": "Data Scientist, Denmark - BCG X",
+        "company": "BCG - Boston Consulting Group",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2953860/bcg-boston-consult/data-scientist-denmark-bcg",
+        "posted": "2026-01-05",
+        "snippet": "Full-time job at BCG - Boston Consulting Group, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI & Data Science Consultant",
+        "company": "Systematic",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2890119/systematic/ai-data-science-consultant",
+        "posted": "2026-02-10",
+        "snippet": "Full-time job at Systematic, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Data Scientist",
+        "company": "Aeven A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2987136/aeven-as/ai-data-scientist",
+        "posted": "2026-03-07",
+        "snippet": "Full-time job at Aeven A/S, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist",
+        "company": "Benifex Denmark A/S",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2980533/benifex-denmark-as/senior-data-scientist",
+        "posted": "2026-02-20",
+        "snippet": "Full-time job at Benifex Denmark A/S, Abroad (other) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist",
+        "company": "Saxo Bank A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2927296/saxo-bank-as/senior-data-scientist",
+        "posted": "2025-11-14",
+        "snippet": "Full-time job at Saxo Bank A/S, Greater Copenhagen, Øresund region (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Position as Data Scientist at Aalborg University Hospital - Region Nordjylland",
+        "company": "Region Nordjylland",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2984694/region-nordjylland/position-as-data-scientist-at",
+        "posted": "2026-02-19",
+        "snippet": "Part-time job at Region Nordjylland, Northern Jutland (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Internship - Data Scientist",
+        "company": "Systematic",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2982624/systematic/internship-data-scientist",
+        "posted": "2026-02-17",
+        "snippet": "Internship at Systematic, Eastern Jutland (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist",
+        "company": "Solita ApS",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/1944064/solita-aps/senior-data-scientist",
+        "posted": "2026-03-03",
+        "snippet": "Full-time job at Solita ApS, Abroad (Sweden) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Revenue Data Scientist (RevOps)",
+        "company": "Adversus A/S",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2989222/adversus-as/revenue-data-scientist-revops",
+        "posted": "2026-02-26",
+        "snippet": "Full-time job at Adversus A/S, Eastern Jutland (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Experienced Data Scientist - IRB Modelling",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2979704/danske-bank/experienced-data-scientist-i",
+        "posted": "2026-02-20",
+        "snippet": "Full-time job at Danske Bank, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead Weather-to-Power Data Scientist",
+        "company": "Ørsted",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2993819/orsted/lead-weather-to-power-data-sci",
+        "posted": "2026-03-05",
+        "snippet": "Full-time job at Ørsted, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - Trifork",
+        "company": "Trifork A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2954099/trifork-as/senior-ai-engineer-trifork",
+        "posted": "2026-01-06",
+        "snippet": "Full-time job at Trifork A/S, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Worker - Machine Learning Engineer",
+        "company": "Veo Technologies",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2921990/veo-technologies/student-worker-machine-learn",
+        "posted": "2026-01-07",
+        "snippet": "Student job at Veo Technologies, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "student"
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Veo Technologies",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2685479/veo-technologies/machine-learning-engineer",
+        "posted": "2026-01-07",
+        "snippet": "Full-time job at Veo Technologies, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning engineer",
+        "company": "Viaplay Group",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2942037/viaplay-group/machine-learning-engineer",
+        "posted": "2026-02-19",
+        "snippet": "Full-time job at Viaplay Group, Abroad (Sweden) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Demant A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2991501/demant-as/senior-machine-learning-engine",
+        "posted": "2026-03-02",
+        "snippet": "Full-time job at Demant A/S, Greater Copenhagen, Øresund region (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer",
+        "company": "VENZO A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2984933/venzo-as/senior-ai-engineer",
+        "posted": "2026-02-20",
+        "snippet": "Full-time job at VENZO A/S, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer – Corax AI Team - Trifork",
+        "company": "Trifork A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2985087/trifork-as/ai-engineer-corax-ai-team",
+        "posted": "2026-02-20",
+        "snippet": "Full-time job at Trifork A/S, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      }
+    ],
+    "graduate program": [
+      {
+        "title": "Graduate, Data Engineer til Jyske Capital",
+        "company": "Jyske Bank",
+        "location": "Silkeborg",
+        "url": "https://www.jobindex.dk/vis-job/h1634643",
+        "posted": "2026-03-02",
+        "snippet": "Bliver du kandidat til sommer og overvejer, hvad der venter dig i dit første job? Hos Jyske Bank tilbyder vi dig en unik mulighed gennem vores Graduate-program, hvor du bliver ansat i en fast stilling med attraktiv løn og gode med",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "student"
+        "job_type": "graduate"
+      },
+      {
+        "title": "Graduate program CGI Danmark - Kickstart din karriere indenfor Financial Services & Data Analytics",
+        "company": "CGI Danmark A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1642793",
+        "posted": "2026-02-27",
+        "snippet": "Drømmer du om at arbejde med fremtidens dataløsninger for nogle af Danmarks og verdens største virksomheder?Vi tilbyder et unikt 12-måneders graduateprogram, hvor du får det bedste fra begge verdener: solid teoretisk træning, hand",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
+      {
+        "title": "Graduate, Dataplatform",
+        "company": "itm8",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2985182/itm8/graduate-dataplatform",
+        "posted": "2026-02-25",
+        "snippet": "Graduate/trainee at itm8, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: 23.03.2026)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "graduate"
+      },
+      {
+        "title": "Graduate Program Data Science & Analytics - Denmark",
+        "company": "Nets A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2952462/nets-as/graduate-program-data-science",
+        "posted": "2025-12-24",
+        "snippet": "Full-time job, Graduate/trainee at Nets A/S, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "graduate"
       }
     ]
   }

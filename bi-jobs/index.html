@@ -14,7 +14,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="format-detection" content="telephone=no" />
-    <meta name="description" content="Live full-time, part-time, and student Data Analyst, Business Analyst, Business Intelligence, and BI Specialist jobs in Denmark sourced daily from Jobindex.dk." />
+    <meta name="description" content="Live full-time, part-time, and student Data Analyst, Business Analyst, Business Intelligence, and BI Specialist jobs in Denmark sourced daily from Jobindex.dk and Jobbank.dk." />
     <meta name="keywords" content="Data Analyst jobs Denmark, Business Analyst Denmark, BI Specialist jobs, Business Intelligence Denmark, Jobindex, full-time data jobs" />
     <meta name="author" content="Rasel Mia" />
     <meta name="robots" content="index, follow" />
@@ -24,7 +24,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="BI &amp; Data Jobs in Denmark | Rasel Mia" />
-    <meta property="og:description" content="Curated full-time Data &amp; BI job listings in Denmark, sourced daily from Jobindex.dk." />
+    <meta property="og:description" content="Curated full-time Data &amp; BI job listings in Denmark, sourced daily from Jobindex.dk and Jobbank.dk." />
     <meta property="og:image" content="https://raselmia.live/images/portfolio_preview.jpeg" />
     <meta property="og:url" content="https://raselmia.live/bi-jobs/" />
     <meta property="og:type" content="website" />
@@ -388,11 +388,34 @@
         color: #b45309;
         border: 1px solid rgba(245,158,11,0.22);
       }
+      .job-badge.graduate {
+        background: rgba(236,72,153,0.1);
+        color: #db2777;
+        border: 1px solid rgba(236,72,153,0.22);
+      }
       .job-badge.new-badge {
         background: rgba(239,68,68,0.1);
         color: #dc2626;
         border: 1px solid rgba(239,68,68,0.25);
         animation: pulse-new 2s ease-in-out infinite;
+      }
+      .job-badge.source-badge {
+        background: rgba(100,116,139,0.08);
+        color: #64748b;
+        border: 1px solid rgba(100,116,139,0.18);
+        font-weight: 600;
+        font-size: 0.62rem;
+        letter-spacing: 0.02em;
+      }
+      .job-badge.source-jobindex {
+        background: #c8102e;
+        color: #ffffff;
+        border: 1px solid #c8102e;
+      }
+      .job-badge.source-jobbank {
+        background: #34495e;
+        color: #ffffff;
+        border: 1px solid #34495e;
       }
       @keyframes pulse-new {
         0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.3); }
@@ -425,6 +448,11 @@
         border-top: 1px solid var(--border, #e2e8f0);
         font-size: .78rem;
         color: var(--muted, #64748b);
+      }
+      .job-footer-left {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
       }
       .job-date { display:flex; align-items:center; gap:.35rem; }
       .job-cta {
@@ -661,7 +689,7 @@
               <h1 id="jobs-heading">Data &amp; BI Jobs</h1>
               <p class="lead">
                 Curated full-time, part-time and student positions in Denmark across Data Analyst,
-                Business Analyst, Business Intelligence, BI Specialist, and Data Scientist roles &mdash; sourced daily from Jobindex.dk.
+                Business Analyst, Business Intelligence, BI Specialist, and Data Scientist roles &mdash; sourced daily from Jobindex.dk &amp; Jobbank.dk.
               </p>
               <div class="hero-stat-row" aria-live="polite" aria-label="Job listing statistics">
                 <div class="hero-stat">
@@ -744,6 +772,13 @@
                   Data Scientist
                   <span class="tab-count" id="tc-ds">0</span>
                 </button>
+                <button class="jobs-tab"
+                  data-query="graduate program" data-color="#ec4899" style="--tab-color:#ec4899"
+                  role="tab" aria-selected="false" aria-controls="jobs-grid">
+                  <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                  Graduate Program
+                  <span class="tab-count" id="tc-gp">0</span>
+                </button>
               </div>
 
               <div class="filter-controls">
@@ -799,7 +834,9 @@
           <div class="jobs-source" aria-label="Data source">
             <span><i class="fas fa-database" aria-hidden="true"></i>
               Powered by <a href="https://www.jobindex.dk/" target="_blank"
-                rel="noopener noreferrer">Jobindex.dk</a>
+                rel="noopener noreferrer">Jobindex.dk</a> &amp;
+              <a href="https://jobbank.dk/" target="_blank"
+                rel="noopener noreferrer">Jobbank.dk</a>
             </span>
             <span class="jobs-source-dot" aria-hidden="true"></span>
             <span id="refresh-time-label">Updated daily at 07:00 CET</span>
@@ -961,7 +998,8 @@
           'business analyst':     'tc-ba',
           'business intelligence':'tc-bi',
           'bi specialist':        'tc-bis',
-          'data scientist':       'tc-ds'
+          'data scientist':       'tc-ds',
+          'graduate program':     'tc-gp'
         };
 
         /*  Helpers  */
@@ -1071,7 +1109,7 @@
           if (cat === 'all') {
             var _dedup = {};
             allJobs = [];
-            ['data analyst', 'business analyst', 'business intelligence', 'bi specialist', 'data scientist'].forEach(function (k) {
+            ['data analyst', 'business analyst', 'business intelligence', 'bi specialist', 'data scientist', 'graduate program'].forEach(function (k) {
               ((JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[k]) || []).forEach(function (j) {
                 if (!_dedup[j.url]) { _dedup[j.url] = true; allJobs.push(j); }
               });
@@ -1156,9 +1194,11 @@
             if (_tl.indexOf('studentermedhjælper') !== -1 || _tl.indexOf('studiejob') !== -1 || _tl.indexOf('student assistant') !== -1) {
               jt = 'student';
             }
-            var badgeCls = jt === 'part-time' ? 'parttime' : (jt === 'student' ? 'student' : 'fulltime');
-            var badgeLbl = jt === 'part-time' ? 'Part-time' : (jt === 'student' ? 'Student' : 'Full-time');
+            var badgeCls = jt === 'part-time' ? 'parttime' : (jt === 'student' ? 'student' : (jt === 'graduate' ? 'graduate' : 'fulltime'));
+            var badgeLbl = jt === 'part-time' ? 'Part-time' : (jt === 'student' ? 'Student' : (jt === 'graduate' ? 'Graduate' : 'Full-time'));
             var isNew    = job.posted && (Date.now() - new Date(job.posted).getTime()) < 48 * 60 * 60 * 1000;
+            var srcLabel = (job.source === 'jobbank') ? 'Jobbank' : 'Jobindex';
+            var srcBadgeCls = (job.source === 'jobbank') ? 'source-jobbank' : 'source-jobindex';
 
             return (
               '<a class="job-card" href="' + url + '" target="_blank" rel="noopener noreferrer"' +
@@ -1174,7 +1214,10 @@
               '<div class="job-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> ' + loc + '</div>' +
               (snippet ? '<p class="job-snippet">' + snippet + '\u2026</p>' : '') +
               '<div class="job-footer">' +
-              (posted ? '<span class="job-date"><i class="fas fa-clock" aria-hidden="true"></i> ' + posted + '</span>' : '<span></span>') +
+              '<div class="job-footer-left">' +
+              '<span class="job-badge source-badge ' + srcBadgeCls + '">' + srcLabel + '</span>' +
+              (posted ? '<span class="job-date"><i class="fas fa-clock" aria-hidden="true"></i> ' + posted + '</span>' : '') +
+              '</div>' +
               '<span class="job-cta">View &amp; Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></span>' +
               '</div></a>'
             );
