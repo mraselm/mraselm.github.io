@@ -343,10 +343,10 @@ _CITY_MAP: dict[str, str] = {
 
 def match_city_in_text(text: str) -> str:
     """Return canonical city name if any known city keyword appears in text."""
-    t = text.lower()
+    t = _fix_mojibake(text).lower()
     for key, canonical in _CITY_MAP.items():
         if key in t:
-            return canonical
+            return _fix_mojibake(canonical)
     return ""
 
 
@@ -356,6 +356,34 @@ def match_city_in_text(text: str) -> str:
 
 _HTML_TAG    = re.compile(r"<[^>]+>")
 _WHITESPACE  = re.compile(r"[ \t]+")
+
+
+def _mojibake_score(text: str) -> int:
+    """Higher score means text likely contains mojibake artefacts."""
+    if not text:
+        return 0
+    needles = ("Ã", "â€™", "â€œ", "â€", "â€“", "Â")
+    return sum(text.count(n) for n in needles)
+
+
+def _attempt_redecode(text: str, codec: str) -> str:
+    """Try to recover UTF-8 text that was decoded with the wrong codec."""
+    try:
+        return text.encode(codec).decode("utf-8")
+    except Exception:
+        return text
+
+
+def _fix_mojibake(text: str) -> str:
+    """Normalize common UTF-8/cp1252 and UTF-8/latin-1 mojibake patterns."""
+    if not text:
+        return text
+    candidates = [
+        text,
+        _attempt_redecode(text, "cp1252"),
+        _attempt_redecode(text, "latin-1"),
+    ]
+    return min(candidates, key=_mojibake_score)
 
 
 def _decode_entities(text: str) -> str:
@@ -373,6 +401,7 @@ def strip_html(text: str) -> str:
     """Strip HTML tags and decode entities."""
     text = _HTML_TAG.sub("", text or "")
     text = _decode_entities(text)
+    text = _fix_mojibake(text)
     return text.strip()
 
 
@@ -448,8 +477,7 @@ def detect_language(text: str) -> str:
     """
     if not text:
         return "en"
-    t = text.lower()
-    # Danish diacritics are a very strong signal
+    t = _fix_mojibake(text).lower()
     if any(c in t for c in 'æøå'):
         return "da"
     # Fallback: common Danish function words (padded to avoid sub-matches)
@@ -648,7 +676,7 @@ def fetch_jobbank_rss(query: str) -> list[ET.Element]:
 
 def parse_jobbank_item(item: ET.Element) -> dict | None:
     """Convert one Jobbank.dk RSS <item> to a job dict."""
-    get = lambda tag: (item.findtext(tag) or "").strip()
+    get = lambda tag: _fix_mojibake((item.findtext(tag) or "").strip())
     title = strip_html(get("title"))
     link   = get("link")
     desc   = strip_html(get("description"))
@@ -700,7 +728,7 @@ def fetch_rss(query: str, job_type_param: str | None = "Fuldtid") -> list[ET.Ele
 
 def parse_item(item: ET.Element) -> dict | None:
     """Convert one RSS <item> to a job dict. Returns None if no link."""
-    get = lambda tag: (item.findtext(tag) or "").strip()
+    get = lambda tag: _fix_mojibake((item.findtext(tag) or "").strip())
     raw_title = get("title")
     link      = get("link")
     desc      = get("description")

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T19:19:01Z",
+  "updated": "2026-03-09T23:27:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -95,23 +95,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Analyst – Factory IT and Digitalization for ABB Robotics",
+        "company": "ABB A/S",
+        "location": "Copenhagen",
+        "url": "https://jobbank.dk/job/2963578/abb-as/data-analyst-factory-it-and",
+        "posted": "2026-03-09",
+        "snippet": "Full-time job at ABB A/S, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
         "title": "People Data Analyst",
         "company": "Ørsted",
         "location": "Denmark",
         "url": "https://jobbank.dk/job/2985002/orsted/people-data-analyst",
         "posted": "2026-02-20",
         "snippet": "Full-time job at Ørsted, Abroad (other) (Apply by: 15.03.2026)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst in our Project Cost Management Team within Business Finance at Novo Nordisk Engineering (Denmark - Virum)",
-        "company": "NNE A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2995537/nne-as/data-analyst-in-our-project-co",
-        "posted": "2026-03-06",
-        "snippet": "Full-time job at NNE A/S, Greater Copenhagen (Apply by: 27.03.2026)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
@@ -196,6 +196,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior Business Analyst for Customer Rating & Analytics",
+        "company": "BEC Financial Technologies",
+        "location": "Roskilde",
+        "url": "https://www.jobindex.dk/vis-job/h1640294",
+        "posted": "2026-02-19",
+        "snippet": "This position is based at our friendly office in Roskilde and you will join our Customer Rating & Analytics team (CRA) which is part of the regulatory Reporting Solutions (RS) domain.The position offers a unique opportunity to joi",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst",
         "company": "DSV",
         "location": "Denmark",
@@ -222,7 +233,7 @@
         "company": "McKinsey & Company",
         "location": "Denmark",
         "url": "https://jobbank.dk/job/1511019/mckinsey-company/business-analyst",
-        "posted": "2026-02-24",
+        "posted": "2026-03-09",
         "snippet": "Full-time job at McKinsey & Company, Abroad (Sweden), Abroad (Norway), Abroad (other) (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
@@ -462,17 +473,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Intelligence Specialist",
-        "company": "Vestas",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2990194/vestas/business-intelligence-speciali",
-        "posted": "2026-02-27",
-        "snippet": "Full-time job at Vestas, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
         "title": "CRM & Business Intelligence Manager",
         "company": "Oxfam IBIS",
         "location": "Copenhagen",
@@ -490,6 +490,17 @@
         "url": "https://jobbank.dk/job/2943442/unity-technologies-a/senior-bi-developer",
         "posted": "2026-02-26",
         "snippet": "Full-time job at Unity Technologies ApS, Greater Copenhagen (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Data Engineer",
+        "company": "Semco Maritime A/S",
+        "location": "Esbjerg",
+        "url": "https://jobbank.dk/job/2996572/semco-maritime-as/business-intelligence-data-eng",
+        "posted": "2026-03-09",
+        "snippet": "Full-time job at Semco Maritime A/S, South-west Jutland (Esbjerg) (Apply by: 31.03.2026)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
@@ -774,17 +785,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Position as Data Scientist at Aalborg University Hospital - Region Nordjylland",
-        "company": "Region Nordjylland",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2984694/region-nordjylland/position-as-data-scientist-at",
-        "posted": "2026-02-19",
-        "snippet": "Part-time job at Region Nordjylland, Northern Jutland (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "part-time"
-      },
-      {
         "title": "Internship - Data Scientist",
         "company": "Systematic",
         "location": "Denmark",
@@ -796,12 +796,34 @@
         "job_type": "full-time"
       },
       {
+        "title": "Position as Data Scientist at Aalborg University Hospital - Region Nordjylland",
+        "company": "Region Nordjylland",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2984694/region-nordjylland/position-as-data-scientist-at",
+        "posted": "2026-02-19",
+        "snippet": "Part-time job at Region Nordjylland, Northern Jutland (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "part-time"
+      },
+      {
         "title": "Senior Data Scientist",
         "company": "Solita ApS",
         "location": "Denmark",
         "url": "https://jobbank.dk/job/1944064/solita-aps/senior-data-scientist",
         "posted": "2026-03-03",
         "snippet": "Full-time job at Solita ApS, Abroad (Sweden) (Apply by: none specified)",
+        "lang": "en",
+        "source": "jobbank",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist",
+        "company": "Systematic",
+        "location": "Denmark",
+        "url": "https://jobbank.dk/job/2996002/systematic/senior-data-scientist",
+        "posted": "2026-03-09",
+        "snippet": "Full-time job at Systematic, Eastern Jutland (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
@@ -840,17 +862,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer - Trifork",
-        "company": "Trifork A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2954099/trifork-as/senior-ai-engineer-trifork",
-        "posted": "2026-01-06",
-        "snippet": "Full-time job at Trifork A/S, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
         "title": "Student Worker - Machine Learning Engineer",
         "company": "Veo Technologies",
         "location": "Copenhagen",
@@ -866,7 +877,7 @@
         "company": "Veo Technologies",
         "location": "Copenhagen",
         "url": "https://jobbank.dk/job/2685479/veo-technologies/machine-learning-engineer",
-        "posted": "2026-01-07",
+        "posted": "2026-03-09",
         "snippet": "Full-time job at Veo Technologies, Greater Copenhagen (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
@@ -877,7 +888,7 @@
         "company": "Viaplay Group",
         "location": "Denmark",
         "url": "https://jobbank.dk/job/2942037/viaplay-group/machine-learning-engineer",
-        "posted": "2026-02-19",
+        "posted": "2026-03-09",
         "snippet": "Full-time job at Viaplay Group, Abroad (Sweden) (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
