@@ -7,6 +7,74 @@ document.addEventListener('DOMContentLoaded', () => {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
   const body = document.body;
   const root = document.documentElement;
+  const heroSlideshow = document.querySelector('[data-hero-slideshow]');
+  const heroDots = Array.from(document.querySelectorAll('[data-hero-dots] .hero-dot'));
+
+  if (heroSlideshow && heroDots.length) {
+    const heroSlideTexts = {
+      en: [
+        'Building dashboards and analytics that teams can act on',
+        'Turning operational data into decision-ready insight',
+        'Automating reporting for faster business decisions'
+      ],
+      da: [
+        'Bygger dashboards og analyser, som teams kan handle på',
+        'Omsætter operationelle data til beslutningsklar indsigt',
+        'Automatiserer rapportering til hurtigere forretningsbeslutninger'
+      ]
+    };
+
+    let currentSlideIndex = 0;
+    let slideTimer = null;
+
+    const getHeroSlides = () => {
+      const lang = localStorage.getItem('lang') || 'en';
+      return heroSlideTexts[lang] || heroSlideTexts.en;
+    };
+
+    const renderHeroSlides = () => {
+      const slides = getHeroSlides();
+      heroSlideshow.innerHTML = slides.map((text, index) =>
+        '<span class="hero-slide' + (index === currentSlideIndex ? ' is-active' : '') + '">' + text + '</span>'
+      ).join('');
+    };
+
+    const updateHeroDots = () => {
+      heroDots.forEach((dot, index) => {
+        const active = index === currentSlideIndex;
+        dot.classList.toggle('is-active', active);
+        dot.setAttribute('aria-selected', String(active));
+      });
+    };
+
+    const scheduleHeroAdvance = () => {
+      if (slideTimer) clearTimeout(slideTimer);
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      slideTimer = window.setTimeout(() => {
+        setHeroSlide((currentSlideIndex + 1) % heroDots.length);
+      }, 4200);
+    };
+
+    const setHeroSlide = (index) => {
+      currentSlideIndex = index;
+      renderHeroSlides();
+      updateHeroDots();
+      scheduleHeroAdvance();
+    };
+
+    heroDots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        setHeroSlide(index);
+      });
+    });
+
+    window.resetHeroSlider = function() {
+      currentSlideIndex = 0;
+      setHeroSlide(0);
+    };
+
+    setHeroSlide(0);
+  }
 
   // ═══════════════════════════════════════════════════════════
   // TYPING ANIMATION (with i18n support)
