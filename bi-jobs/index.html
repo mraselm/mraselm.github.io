@@ -106,8 +106,26 @@
         font-size: 1.02rem;
         color: var(--muted);
         max-width: 600px;
-        margin: 0 0 1.5rem;
+        margin: 0 0 1rem;
         line-height: 1.65;
+      }
+      .jobs-hero-helper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        margin-bottom: 1.5rem;
+      }
+      .jobs-hero-helper span {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.35rem 0.75rem;
+        border-radius: 999px;
+        background: rgba(99,102,241,0.08);
+        border: 1px solid rgba(99,102,241,0.15);
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 600;
       }
       .hero-stat-row {
         display: flex;
@@ -157,6 +175,9 @@
         align-items: flex-end;
         gap: 0.65rem;
         padding-top: 0.4rem;
+      }
+      .jobs-hero-cta .btn.ghost {
+        background: transparent;
       }
       .jobs-hero-cta .last-updated {
         font-size: 0.76rem;
@@ -246,13 +267,50 @@
       .filter-controls {
         display: flex;
         align-items: center;
+        flex-wrap: nowrap;
         gap: 0.5rem;
+        justify-content: flex-end;
       }
       .jobs-count {
         font-size: 0.82rem;
         color: var(--muted);
         font-weight: 600;
         white-space: nowrap;
+        margin-right: 0.15rem;
+      }
+      .jobs-search {
+        position: relative;
+        min-width: 200px;
+        flex: 0 1 290px;
+        max-width: 290px;
+      }
+      .jobs-search input {
+        width: 100%;
+        height: 2.35rem;
+        padding: 0 0.85rem 0 2.35rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--body-bg, #f8fafc);
+        color: var(--ink);
+        font: inherit;
+        font-size: 0.76rem;
+      }
+      .jobs-search input::placeholder {
+        font-size: 0.76rem;
+        opacity: 1;
+      }
+      .jobs-search input:focus {
+        outline: none;
+        border-color: var(--accent, #6366f1);
+        box-shadow: 0 0 0 3px rgba(99,102,241,0.12);
+      }
+      .jobs-search i {
+        position: absolute;
+        left: 0.85rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--muted);
+        font-size: 0.82rem;
       }
       #jobs-refresh {
         display: inline-flex;
@@ -280,22 +338,23 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        height: 1.5rem;
-        padding: 0 0.58rem;
+        height: 2rem;
+        padding: 0 0.85rem;
         border-radius: 999px;
-        border: 1px solid #0ea5e9;
-        background: #0ea5e9;
-        color: #ffffff;
+        border: 1px solid var(--border);
+        background: transparent;
+        color: var(--muted, #64748b);
         cursor: pointer;
-        font-size: 0.7rem;
+        font-size: 0.74rem;
         font-weight: 700;
         letter-spacing: 0.01em;
         line-height: 1;
-        transition: background 0.15s, border-color 0.15s, transform 0.15s;
+        transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.15s;
       }
       #jobs-reset:hover {
-        background: #0284c7;
-        border-color: #0284c7;
+        background: rgba(99,102,241,0.07);
+        border-color: rgba(99,102,241,0.22);
+        color: var(--accent, #6366f1);
       }
       #jobs-reset:active {
         transform: translateY(1px);
@@ -306,6 +365,7 @@
         white-space: nowrap;
         opacity: 0.7;
         letter-spacing: 0.01em;
+        flex-shrink: 0;
       }
 
       /*  Job grid  */
@@ -313,6 +373,35 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 1.25rem;
+      }
+      .jobs-active-filters {
+        display: none;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.45rem;
+        margin: -0.75rem 0 1rem;
+      }
+      .jobs-active-filters.is-visible {
+        display: flex;
+      }
+      .jobs-active-filters-label {
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .jobs-filter-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.28rem 0.7rem;
+        border-radius: 999px;
+        background: rgba(99,102,241,0.08);
+        border: 1px solid rgba(99,102,241,0.16);
+        color: var(--accent, #6366f1);
+        font-size: 0.76rem;
+        font-weight: 700;
       }
 
       /*  Skeleton  */
@@ -376,6 +465,11 @@
         justify-content: space-between;
         gap: 0.5rem;
       }
+      .job-card-main {
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+      }
       .job-badges {
         display: flex;
         gap: 0.35rem;
@@ -384,9 +478,9 @@
         justify-content: flex-end;
       }
       .job-title {
-        font-size: 1rem;
+        font-size: 1.05rem;
         font-weight: 700;
-        line-height: 1.4;
+        line-height: 1.35;
         margin: 0;
         color: var(--ink);
       }
@@ -445,12 +539,21 @@
         0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.3); }
         50%       { box-shadow: 0 0 0 4px rgba(239,68,68,0); }
       }
+      .job-meta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem 0.85rem;
+      }
       .job-company, .job-location {
-        font-size: .875rem;
+        font-size: .86rem;
         color: var(--muted, #64748b);
         display: flex;
         align-items: center;
         gap: .4rem;
+      }
+      .job-company {
+        color: var(--ink);
+        font-weight: 700;
       }
       .job-snippet {
         font-size: .82rem;
@@ -458,8 +561,8 @@
         line-height: 1.5;
         margin: 0;
         display: -webkit-box;
-        -webkit-line-clamp: 2;
-        line-clamp: 2;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
         -webkit-box-orient: vertical;
         overflow: hidden;
       }
@@ -514,6 +617,10 @@
       }
       .jobs-source a { color: var(--accent); font-weight: 700; }
       .jobs-source a:hover { text-decoration: underline; }
+      .jobs-source-helper {
+        font-size: 0.78rem;
+        color: var(--muted);
+      }
       .jobs-source-dot {
         width: 4px; height: 4px;
         border-radius: 50%; background: var(--border);
@@ -553,7 +660,6 @@
         flex-shrink: 0;
         align-self: center;
       }
-      /* shared pill base for both city + type buttons */
       .city-btn, .type-btn {
         display: inline-flex;
         align-items: center;
@@ -583,11 +689,8 @@
         font-weight: 700;
       }
       .city-btn i, .type-btn i { font-size: 0.67rem; opacity: 0.8; }
-      /* type-specific active colours */
       .type-btn[data-type="full-time"].active  { background:#16a34a; border-color:#16a34a; color:#fff; }
       .type-btn[data-type="student"].active    { background:#f59e0b; border-color:#f59e0b; color:#fff; }
-
-      /* Language filter pills */
       .lang-btn {
         display: inline-flex;
         align-items: center;
@@ -635,8 +738,14 @@
         .jobs-filter-bar  { border-radius: 8px; padding: 0.8rem 1rem 0.85rem; }
         .jobs-grid        { grid-template-columns: 1fr; }
         .filter-top-row   { gap: 0.5rem; }
+        .jobs-tabs        { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 0.2rem; scrollbar-width: thin; }
+        .jobs-tab         { flex: 0 0 auto; }
+        .jobs-search      { min-width: 100%; max-width: 100%; order: 3; }
+        .filter-controls  { width: 100%; justify-content: flex-start; }
         .filter-pipe      { display: none; }
         .filter-combined-bar { border-radius: 8px; padding: 0.5rem 0.75rem; row-gap: 0.4rem; }
+        .filter-seg       { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.15rem; }
+        .jobs-source-helper { text-align: center; }
         .jobs-source      { border-radius: 12px; }
       }
 
@@ -715,13 +824,17 @@
                 Curated full-time, part-time and student positions in Denmark across Data Analyst,
                 Business Analyst, Business Intelligence, BI Specialist, and Data Scientist roles &mdash; sourced daily from Jobindex.dk &amp; Jobbank.dk.
               </p>
+              <div class="jobs-hero-helper" aria-label="How to use the jobs board">
+                <span><i class="fas fa-bolt" aria-hidden="true"></i>Search, filter, and apply in one place</span>
+                <span><i class="fas fa-sync-alt" aria-hidden="true"></i>Updated hourly from two sources</span>
+              </div>
               <div class="hero-stat-row" aria-live="polite" aria-label="Job listing statistics">
                 <div class="hero-stat">
                   <span class="hero-stat-num" id="stat-total">&mdash;</span>
                   <span class="hero-stat-label">Live Listings</span>
                 </div>
                 <div class="hero-stat">
-                  <span class="hero-stat-num">5</span>
+                  <span class="hero-stat-num" id="stat-categories">&mdash;</span>
                   <span class="hero-stat-label">Categories</span>
                 </div>
                 <div class="hero-stat">
@@ -736,14 +849,12 @@
             </div>
             <div class="jobs-hero-cta">
               <a class="btn primary"
-                 href="https://www.jobindex.dk/jobsoegning?q=data+analyst&arbejdstid%5B%5D=Fuldtid"
-                 target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Browse Jobindex
+                 href="#jobs-grid">
+                <i class="fas fa-stream" aria-hidden="true"></i> View Latest Jobs
               </a>
-              <a class="btn primary"
-                 href="https://jobbank.dk/"
-                 target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Browse Jobbank
+              <a class="btn ghost"
+                 href="#jobs">
+                <i class="fas fa-sliders-h" aria-hidden="true"></i> Jump to Filters
               </a>
             </div>
           </div>
@@ -760,49 +871,49 @@
             <div class="filter-top-row">
               <div class="jobs-tabs" id="jobs-tabs" role="tablist" aria-label="Job categories">
                 <button class="jobs-tab active"
-                  data-query="all" data-color="#64748b" style="--tab-color:#64748b"
+                  data-query="all" data-label="All Jobs" data-color="#64748b" style="--tab-color:#64748b"
                   role="tab" aria-selected="true" aria-controls="jobs-grid">
                   <i class="fas fa-layer-group" aria-hidden="true"></i>
                   All Jobs
                   <span class="tab-count" id="tc-all">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="data analyst" data-color="#6366f1" style="--tab-color:#6366f1"
+                  data-query="data analyst" data-label="Data Analyst" data-color="#6366f1" style="--tab-color:#6366f1"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-chart-bar" aria-hidden="true"></i>
                   Data Analyst
                   <span class="tab-count" id="tc-da">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="business analyst" data-color="#0ea5e9" style="--tab-color:#0ea5e9"
+                  data-query="business analyst" data-label="Business Analyst" data-color="#0ea5e9" style="--tab-color:#0ea5e9"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-briefcase" aria-hidden="true"></i>
                   Business Analyst
                   <span class="tab-count" id="tc-ba">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="business intelligence" data-color="#8b5cf6" style="--tab-color:#8b5cf6"
+                  data-query="business intelligence" data-label="Business Intelligence" data-color="#8b5cf6" style="--tab-color:#8b5cf6"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-brain" aria-hidden="true"></i>
                   Business Intelligence
                   <span class="tab-count" id="tc-bi">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="bi specialist" data-color="#f59e0b" style="--tab-color:#f59e0b"
+                  data-query="bi specialist" data-label="BI Specialist" data-color="#f59e0b" style="--tab-color:#f59e0b"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-database" aria-hidden="true"></i>
                   BI Specialist
                   <span class="tab-count" id="tc-bis">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="data scientist" data-color="#10b981" style="--tab-color:#10b981"
+                  data-query="data scientist" data-label="Data Scientist" data-color="#10b981" style="--tab-color:#10b981"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-flask" aria-hidden="true"></i>
                   Data Scientist
                   <span class="tab-count" id="tc-ds">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="graduate program" data-color="#ec4899" style="--tab-color:#ec4899"
+                  data-query="graduate program" data-label="Graduate Program" data-color="#ec4899" style="--tab-color:#ec4899"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                   Graduate Program
@@ -812,6 +923,10 @@
 
               <div class="filter-controls">
                 <span class="jobs-count" id="jobs-count" aria-live="polite"></span>
+                <label class="jobs-search" for="jobs-search">
+                  <i class="fas fa-search" aria-hidden="true"></i>
+                  <input id="jobs-search" type="search" placeholder="Search title, company, or keyword" aria-label="Search jobs" />
+                </label>
                 <span id="jobs-updated" title="Last time jobs data was refreshed"></span>
                 <button id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
                   <i class="fas fa-redo-alt" aria-hidden="true"></i>
@@ -824,38 +939,34 @@
 
             <!-- Combined city + type filter bar -->
             <div class="filter-combined-bar" id="filter-combined-bar" role="group" aria-label="Filter by city and job type">
-              <!-- City segment -->
               <div class="filter-seg" id="city-filter-row">
                 <span class="filter-seg-icon" aria-label="City"><i class="fas fa-map-marker-alt"></i></span>
-                <button class="city-btn active" data-city="all">All Denmark</button>
-                <button class="city-btn" data-city="copenhagen">Copenhagen</button>
-                <button class="city-btn" data-city="aarhus">Aarhus</button>
-                <button class="city-btn" data-city="odense">Odense</button>
-                <button class="city-btn" data-city="aalborg">Aalborg</button>
-                <button class="city-btn" data-city="esbjerg">Esbjerg</button>
-                <button class="city-btn" data-city="vejle">Vejle</button>
-                <button class="city-btn" data-city="remote"><i class="fas fa-laptop-house" aria-hidden="true"></i>Remote</button>
+                <button class="city-btn active" data-city="all" data-label="All Denmark">All Denmark</button>
+                <button class="city-btn" data-city="copenhagen" data-label="Copenhagen">Copenhagen</button>
+                <button class="city-btn" data-city="aarhus" data-label="Aarhus">Aarhus</button>
+                <button class="city-btn" data-city="odense" data-label="Odense">Odense</button>
+                <button class="city-btn" data-city="aalborg" data-label="Aalborg">Aalborg</button>
+                <button class="city-btn" data-city="esbjerg" data-label="Esbjerg">Esbjerg</button>
+                <button class="city-btn" data-city="vejle" data-label="Vejle">Vejle</button>
+                <button class="city-btn" data-city="remote" data-label="Remote"><i class="fas fa-laptop-house" aria-hidden="true"></i>Remote</button>
               </div>
-              <!-- Divider -->
               <span class="filter-pipe" aria-hidden="true"></span>
-              <!-- Type segment -->
               <div class="filter-seg" id="type-filter-row">
                 <span class="filter-seg-icon" aria-label="Job type"><i class="fas fa-clock"></i></span>
-                <button class="type-btn active" data-type="all">All Types</button>
-                <button class="type-btn" data-type="full-time"><i class="fas fa-briefcase" aria-hidden="true"></i>Full Time</button>
-                <button class="type-btn" data-type="student"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Student / Part-time</button>
+                <button class="type-btn active" data-type="all" data-label="All Types">All Types</button>
+                <button class="type-btn" data-type="full-time" data-label="Full Time"><i class="fas fa-briefcase" aria-hidden="true"></i>Full Time</button>
+                <button class="type-btn" data-type="student" data-label="Student / Part-time"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Student / Part-time</button>
               </div>
-              <!-- Divider -->
               <span class="filter-pipe" aria-hidden="true"></span>
-              <!-- Language segment -->
               <div class="filter-seg" id="lang-filter-row">
                 <span class="filter-seg-icon" aria-label="Language"><i class="fas fa-language"></i></span>
-                <button class="lang-btn active" data-lang="all">All</button>
-                <button class="lang-btn" data-lang="en">EN</button>
-                <button class="lang-btn" data-lang="da">DK</button>
+                <button class="lang-btn active" data-lang="all" data-label="All languages">All</button>
+                <button class="lang-btn" data-lang="en" data-label="English">EN</button>
+                <button class="lang-btn" data-lang="da" data-label="Danish">DA</button>
               </div>
             </div>
           </div>
+          <div id="jobs-active-filters" class="jobs-active-filters" aria-live="polite"></div>
           <div id="jobs-grid" class="jobs-grid"
                role="list" aria-live="polite" aria-label="Job listings"></div>
 
@@ -873,10 +984,12 @@
             <span class="jobs-source-dot" aria-hidden="true"></span>
             <span id="refresh-time-label">Updated hourly</span>
             <span class="jobs-source-dot" aria-hidden="true"></span>
+            <span class="jobs-source-helper">Use filters to narrow by role, city, job type, language, or keywords.</span>
+            <span class="jobs-source-dot" aria-hidden="true"></span>
             <a id="jobs-see-all"
                href="https://www.jobindex.dk/jobsoegning?q=data+analyst&arbejdstid%5B%5D=Fuldtid"
                target="_blank" rel="noopener noreferrer">
-              See all on Jobindex <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              Search on Jobindex <i class="fas fa-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
 
@@ -895,7 +1008,7 @@
               <span class="dot" aria-hidden="true"></span>
               <span>Rasel Mia</span>
             </a>
-            <p>Business Data Analyst based in Denmark. Turning raw data into measurable business impact.</p>
+            <p>Data Analyst and BI Analyst based in Denmark. Turning raw data into measurable business impact.</p>
             <div class="socials" aria-label="Social links">
               <a href="https://www.linkedin.com/in/mrmia/" class="icon fab fa-linkedin"
                  aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"></a>
@@ -955,6 +1068,7 @@
         var currentCity      = 'all';
         var currentType      = 'all';
         var currentLang      = 'all';
+        var currentSearch    = '';
         var JOBINDEX_SEARCH  = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
         var lastDataUpdatedIso = '';
         var justNowTimer = null;
@@ -975,6 +1089,11 @@
           var haystack = ((job.location || '') + ' ' + (job.title || '') + ' ' + (job.snippet || '')).toLowerCase();
           var keywords = CITY_KEYWORDS[city] || [city];
           return keywords.some(function (kw) { return haystack.indexOf(kw) !== -1; });
+        }
+        function activeLabel(selector, fallback) {
+          var el = document.querySelector(selector);
+          if (!el) return fallback;
+          return el.dataset.label || el.textContent.trim() || fallback;
         }
 
         /* Global helper so inline error button can call it */
@@ -999,6 +1118,12 @@
           var allBtn = document.querySelector('.lang-btn[data-lang="all"]');
           if (allBtn) allBtn.classList.add('active');
           currentLang = 'all';
+          renderCategory(currentCategory, currentColor);
+        };
+        window._jobsClearSearch = function () {
+          var searchInput = document.getElementById('jobs-search');
+          if (searchInput) searchInput.value = '';
+          currentSearch = '';
           renderCategory(currentCategory, currentColor);
         };
 
@@ -1084,6 +1209,35 @@
             .replace(/>/g,  '&gt;')
             .replace(/"/g,  '&quot;');
         }
+        function searchMatches(job, query) {
+          if (!query) return true;
+          var haystack = ((job.title || '') + ' ' + (job.company || '') + ' ' + (job.snippet || '')).toLowerCase();
+          return haystack.indexOf(query) !== -1;
+        }
+        function updateActiveFilterSummary() {
+          var holder = document.getElementById('jobs-active-filters');
+          if (!holder) return;
+          var chips = [];
+          var ac = document.querySelector('.city-btn.active');
+          var at = document.querySelector('.type-btn.active');
+          var al = document.querySelector('.lang-btn.active');
+          if (currentCategory !== 'all') {
+            var activeTab = document.querySelector('.jobs-tab.active');
+            chips.push(activeTab ? (activeTab.dataset.label || activeTab.textContent.trim()) : currentCategory);
+          }
+          if (currentCity !== 'all') chips.push(ac ? (ac.dataset.label || ac.textContent.trim()) : currentCity);
+          if (currentType !== 'all') chips.push(at ? (at.dataset.label || at.textContent.trim()) : currentType);
+          if (currentLang !== 'all') chips.push(al ? (al.dataset.label || al.textContent.trim()) : currentLang);
+          if (currentSearch) chips.push('Search: ' + currentSearch);
+          if (!chips.length) {
+            holder.className = 'jobs-active-filters';
+            holder.innerHTML = '';
+            return;
+          }
+          holder.className = 'jobs-active-filters is-visible';
+          holder.innerHTML = '<span class="jobs-active-filters-label">Active</span>' +
+            chips.map(function (label) { return '<span class="jobs-filter-chip">' + esc(label) + '</span>'; }).join('');
+        }
 
         /*  Skeleton cards  */
         function showSkeletons(n) {
@@ -1109,13 +1263,17 @@
         /*  Hero stats  */
         function updateHeroStats(data) {
           var total = 0;
+          var categoryCount = 0;
           if (data && data.categories) {
             Object.keys(data.categories).forEach(function (k) {
               total += (data.categories[k] || []).length;
             });
+            categoryCount = Object.keys(TAB_COUNT_IDS).length;
           }
           var el = document.getElementById('stat-total');
           if (el) el.textContent = total > 0 ? total : '\u2014';
+          var elCat = document.getElementById('stat-categories');
+          if (elCat) elCat.textContent = categoryCount > 0 ? categoryCount : '\u2014';
 
           /* Cities covered + top city */
           if (data && data.categories) {
@@ -1188,7 +1346,8 @@
             var typeOk = currentType === 'all' || _jt === currentType ||
                          (currentType === 'student' && _jt === 'part-time');
             var langOk = currentLang === 'all' || (j.lang || 'en') === currentLang;
-            return cityOk && typeOk && langOk;
+            var searchOk = searchMatches(j, currentSearch);
+            return cityOk && typeOk && langOk && searchOk;
           }).sort(function (a, b) {
             var da = a.posted ? new Date(a.posted).getTime() : 0;
             var db = b.posted ? new Date(b.posted).getTime() : 0;
@@ -1202,10 +1361,11 @@
               error.style.display = 'block';
               error.innerHTML =
                 '<div class="jobs-empty-icon"><i class="fas fa-briefcase" aria-hidden="true"></i></div>' +
-                '<p>No full-time positions found for this category yet &mdash; listings refresh hourly.</p>' +
+                '<p>No positions found for this category yet. Listings refresh hourly from Jobindex and Jobbank.</p>' +
                 '<a href="' + JOBINDEX_SEARCH.replace('{q}', encodeURIComponent(cat)) +
                 '" target="_blank" rel="noopener noreferrer">Search live on Jobindex.dk &rarr;</a>';
             }
+            updateActiveFilterSummary();
             return;
           }
 
@@ -1214,33 +1374,36 @@
             if (count) count.textContent = '';
             if (error) {
               error.style.display = 'block';
+              var _fd  = [];
               var _acb = document.querySelector('.city-btn.active');
               var _atb = document.querySelector('.type-btn.active');
               var _alb = document.querySelector('.lang-btn.active');
-              var _fd  = [];
-              if (currentCity !== 'all') _fd.push(_acb ? _acb.textContent.trim() : currentCity);
-              if (currentType !== 'all') _fd.push(_atb ? _atb.textContent.trim() : currentType);
-              if (currentLang !== 'all') _fd.push(_alb ? _alb.textContent.trim() : currentLang);
+              if (currentCity !== 'all') _fd.push(_acb ? (_acb.dataset.label || _acb.textContent.trim()) : currentCity);
+              if (currentType !== 'all') _fd.push(_atb ? (_atb.dataset.label || _atb.textContent.trim()) : currentType);
+              if (currentLang !== 'all') _fd.push(_alb ? (_alb.dataset.label || _alb.textContent.trim()) : currentLang);
+              if (currentSearch) _fd.push('search "' + currentSearch + '"');
               error.innerHTML =
                 '<div class="jobs-empty-icon"><i class="fas fa-filter" aria-hidden="true"></i></div>' +
-                '<p>No listings match <strong>' + esc(_fd.join(' + ')) + '</strong> for this category.</p>' +
+                '<p>No listings match <strong>' + esc(_fd.join(' + ')) + '</strong>.</p>' +
+                '<p style="margin-top:.4rem">Try broadening the city, type, language, or keyword search.</p>' +
                 '<span style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;">' +
                 (currentCity !== 'all' ? '<button class="btn ghost" onclick="_jobsShowAllCities()">All cities</button>' : '') +
                 (currentType !== 'all' ? '<button class="btn ghost" onclick="_jobsShowAllTypes()">All types</button>' : '') +
                 (currentLang !== 'all' ? '<button class="btn ghost" onclick="_jobsShowAllLangs()">All languages</button>' : '') +
+                (currentSearch ? '<button class="btn ghost" onclick="_jobsClearSearch()">Clear search</button>' : '') +
                 '</span>';
             }
+            updateActiveFilterSummary();
             return;
           }
 
           if (error) error.style.display = 'none';
-          var _activeCity = document.querySelector('.city-btn.active');
-          var _activeType = document.querySelector('.type-btn.active');
-          var _activeLang = document.querySelector('.lang-btn.active');
-          var _suffix = (currentType !== 'all' ? ' \u00b7 ' + (_activeType ? _activeType.textContent.trim() : '') : '')
-                      + (currentCity !== 'all' ? ' in ' + (_activeCity ? _activeCity.textContent.trim() : '') : '')
-                      + (currentLang !== 'all' ? ' \u00b7 ' + (_activeLang ? _activeLang.textContent.trim() : '') : '');
+          var _suffix = (currentType !== 'all' ? ' \u00b7 ' + activeLabel('.type-btn.active', currentType) : '')
+                      + (currentCity !== 'all' ? ' in ' + activeLabel('.city-btn.active', currentCity) : '')
+                      + (currentLang !== 'all' ? ' \u00b7 ' + activeLabel('.lang-btn.active', currentLang) : '')
+                      + (currentSearch ? ' \u00b7 matching "' + currentSearch + '"' : '');
           if (count) count.textContent = jobs.length + ' position' + (jobs.length === 1 ? '' : 's') + _suffix;
+          updateActiveFilterSummary();
 
           var c = esc(color || currentColor);
           grid.innerHTML = jobs.map(function (job) {
@@ -1272,13 +1435,17 @@
               '<span class="job-badge ' + badgeCls + '">' + badgeLbl + '</span>' +
               '</div>' +
               '</div>' +
+              '<div class="job-card-main">' +
+              '<div class="job-meta-row">' +
               (company ? '<div class="job-company"><i class="fas fa-building" aria-hidden="true"></i> ' + company + '</div>' : '') +
               '<div class="job-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> ' + loc + '</div>' +
+              (posted ? '<div class="job-location"><i class="fas fa-clock" aria-hidden="true"></i> ' + posted + '</div>' : '') +
+              '</div>' +
               (snippet ? '<p class="job-snippet">' + snippet + '\u2026</p>' : '') +
+              '</div>' +
               '<div class="job-footer">' +
               '<div class="job-footer-left">' +
               '<span class="job-badge source-badge ' + srcBadgeCls + '">' + srcLabel + '</span>' +
-              (posted ? '<span class="job-date"><i class="fas fa-clock" aria-hidden="true"></i> ' + posted + '</span>' : '') +
               '</div>' +
               '<span class="job-cta">View &amp; Apply <i class="fas fa-arrow-right" aria-hidden="true"></i></span>' +
               '</div></a>'
@@ -1357,37 +1524,44 @@
         var resetBtn = document.getElementById('jobs-reset');
         if (resetBtn) {
           resetBtn.addEventListener('click', function () {
+            var searchInput = document.getElementById('jobs-search');
+            if (searchInput) searchInput.value = '';
+            currentSearch = '';
             resetAllFilters();
           });
         }
+        var searchInput = document.getElementById('jobs-search');
+        if (searchInput) {
+          searchInput.addEventListener('input', function () {
+            currentSearch = this.value.trim().toLowerCase();
+            if (JOBS_DATA) renderCategory(currentCategory, currentColor);
+          });
+        }
 
-        /*  City button click handler  */
         document.querySelectorAll('.city-btn').forEach(function (btn) {
           btn.addEventListener('click', function () {
             document.querySelectorAll('.city-btn').forEach(function (b) { b.classList.remove('active'); });
             this.classList.add('active');
             currentCity = this.dataset.city;
-            if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
+            if (JOBS_DATA) renderCategory(currentCategory, currentColor);
           });
         });
 
-        /*  Job type button click handler  */
         document.querySelectorAll('.type-btn').forEach(function (btn) {
           btn.addEventListener('click', function () {
             document.querySelectorAll('.type-btn').forEach(function (b) { b.classList.remove('active'); });
             this.classList.add('active');
             currentType = this.dataset.type;
-            if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
+            if (JOBS_DATA) renderCategory(currentCategory, currentColor);
           });
         });
 
-        /*  Language button click handler  */
         document.querySelectorAll('.lang-btn').forEach(function (btn) {
           btn.addEventListener('click', function () {
             document.querySelectorAll('.lang-btn').forEach(function (b) { b.classList.remove('active'); });
             this.classList.add('active');
             currentLang = this.dataset.lang;
-            if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
+            if (JOBS_DATA) renderCategory(currentCategory, currentColor);
           });
         });
 
