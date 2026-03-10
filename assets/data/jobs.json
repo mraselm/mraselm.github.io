@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10T11:48:21Z",
+  "updated": "2026-03-10T13:38:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -575,6 +575,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Data Scientist",
+        "company": "JYSK",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1646502",
+        "posted": "2026-03-10",
+        "snippet": "At JYSK, we are strengthening how we use AI to support data-driven decision-making, operational efficiency, and innovation across the organisation. In this role, you will take ownership of delivering end-to-end AI/ML solutions – f",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Data Scientist",
         "company": "Danmarks Nationalbank",
