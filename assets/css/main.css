@@ -640,7 +640,7 @@ section:not(:first-of-type)::before {
   font-size: clamp(2.6rem, 5vw, 3.6rem);
   line-height: 1.1;
   min-height: 2.4em;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.7rem;
 }
 
 .hero p {
@@ -850,6 +850,9 @@ section:not(:first-of-type)::before {
 }
 
 .meta-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 1.15rem 1.2rem;
   background: #fff;
   border: 1px solid var(--border);
@@ -858,10 +861,25 @@ section:not(:first-of-type)::before {
 }
 
 .meta-item span {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 0.9rem;
   color: var(--muted);
   margin-bottom: 0.35rem;
+}
+
+.meta-item strong {
+  display: block;
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.meta-icon {
+  width: 1rem;
+  color: var(--accent);
+  text-align: center;
+  flex: 0 0 1rem;
 }
 
 .hero-visual {
