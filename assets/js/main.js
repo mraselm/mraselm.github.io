@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isDeleting = false;
     let isPaused = false;
     let typingTimeout = null;
+    const typingHeading = typingElement.closest('h1');
     
     const typeSpeed = 50;      // Speed of typing
     const deleteSpeed = 30;    // Speed of deleting
@@ -42,6 +43,36 @@ document.addEventListener('DOMContentLoaded', () => {
     function getTexts() {
       const lang = localStorage.getItem('lang') || 'en';
       return typingTexts[lang] || typingTexts.en;
+    }
+
+    function reserveTypingSpace() {
+      if (!typingHeading) return;
+
+      const texts = getTexts();
+      const measure = document.createElement('span');
+      measure.className = 'typing-text';
+      measure.style.position = 'absolute';
+      measure.style.visibility = 'hidden';
+      measure.style.pointerEvents = 'none';
+      measure.style.left = '0';
+      measure.style.top = '0';
+      measure.style.width = '100%';
+      measure.style.whiteSpace = 'normal';
+
+      typingHeading.classList.add('is-typing-stable');
+      typingHeading.appendChild(measure);
+
+      let maxHeight = 0;
+      for (const text of texts) {
+        measure.textContent = text;
+        maxHeight = Math.max(maxHeight, Math.ceil(measure.getBoundingClientRect().height));
+      }
+
+      measure.remove();
+
+      if (maxHeight > 0) {
+        typingElement.style.minHeight = maxHeight + 'px';
+      }
     }
     
     function type() {
@@ -91,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Reset typing animation when language changes
     window.resetTypingAnimation = function() {
       if (typingTimeout) clearTimeout(typingTimeout);
+      reserveTypingSpace();
       textIndex = 0;
       charIndex = 0;
       isDeleting = false;
@@ -100,6 +132,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     
     // Start typing after a short delay
+    reserveTypingSpace();
+    window.addEventListener('resize', reserveTypingSpace);
     setTimeout(type, 800);
   }
 

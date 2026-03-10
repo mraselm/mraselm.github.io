@@ -115,7 +115,8 @@ h3 {
 }
 
 .typing-text {
-  display: inline;
+  display: block;
+  width: 100%;
 }
 
 .typing-cursor {
@@ -128,6 +129,10 @@ h3 {
 
 .typing-cursor.done {
   display: none;
+}
+
+.hero h1.is-typing-stable {
+  position: relative;
 }
 
 .animate-fade-up {
