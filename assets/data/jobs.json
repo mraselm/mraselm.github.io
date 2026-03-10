@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10T13:38:38Z",
+  "updated": "2026-03-10T16:15:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -348,17 +348,6 @@
         "posted": "2026-02-20",
         "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development.Design and implement BI solutions for Denmark’s most visionary companies, work closely with client",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "CRM & Business Intelligence Manager",
-        "company": "Oxfam Danmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1638981",
-        "posted": "2026-02-13",
-        "snippet": "Vil du bruge dine evner inden for teknologi, data og CRM til at bekæmpe ulighed og udrydde fattigdom?Vi søger en skarp CRM & Business Intelligence Manager til vores Kommunikations- og Fundraising-afdeling. Vi leder efter en profil",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -980,17 +969,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1634643",
         "posted": "2026-03-02",
         "snippet": "Bliver du kandidat til sommer og overvejer, hvad der venter dig i dit første job? Hos Jyske Bank tilbyder vi dig en unik mulighed gennem vores Graduate-program, hvor du bliver ansat i en fast stilling med attraktiv løn og gode med",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
-      {
-        "title": "Graduate program CGI Danmark - Kickstart din karriere indenfor Financial Services & Data Analytics",
-        "company": "CGI Danmark A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1642793",
-        "posted": "2026-02-27",
-        "snippet": "Drømmer du om at arbejde med fremtidens dataløsninger for nogle af Danmarks og verdens største virksomheder?Vi tilbyder et unikt 12-måneders graduateprogram, hvor du får det bedste fra begge verdener: solid teoretisk træning, hand",
         "lang": "da",
         "source": "jobindex",
         "job_type": "graduate"
