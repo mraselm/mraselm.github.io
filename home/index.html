@@ -275,11 +275,11 @@
         <nav class="nav-links">
           <a href="#projects" data-i18n="nav_projects">Projects</a>
           <a href="/datastory/" data-i18n="nav_datastory">Data Story</a>
-          <a href="/bi-jobs/" data-i18n="nav_jobs">BI Jobs</a>
           <a href="/resume/" data-i18n="nav_resume">Resume</a>
           <div class="nav-dropdown">
-            <button class="nav-dropdown-toggle" type="button">Toolkit <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+            <button class="nav-dropdown-toggle" type="button">More <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
             <div class="nav-dropdown-menu">
+              <a href="/bi-jobs/">BI Jobs</a>
               <a href="/cover-letter/">Cover Letter AI</a>
               <a href="/analytics/">Portfolio Stats</a>
             </div>
@@ -314,13 +314,13 @@
       <section class="hero" id="top">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow animate-fade-up delay-1" data-i18n="hero_eyebrow">Business Data Science</p>
+            <p class="eyebrow animate-fade-up delay-1" data-i18n="hero_eyebrow">Data Analytics and BI</p>
             <h1 class="animate-fade-up delay-2">
               <span class="typing-text" data-i18n="hero_title"></span><span class="typing-cursor">|</span>
             </h1>
             <p class="animate-fade-up delay-3" data-i18n="hero_body">
-              I design machine learning models, interactive dashboards, and automated pipelines that turn complex data into smart,
-              scalable solutions—from predicting customer behavior to uncovering deep market insights.
+              I build dashboards, automate reporting, and turn operational data into clear decisions for business teams. My strongest
+              work sits at the intersection of Power BI, SQL, Python, and practical analytics.
             </p>
             <div class="badge-row animate-fade-up delay-4">
               <span class="badge" data-i18n="badge_edu"><i class="fas fa-graduation-cap"></i>MSc Business Intelligence</span>
@@ -330,24 +330,24 @@
             <div class="cta-row animate-fade-up delay-5">
               <a class="btn primary" href="#projects" data-i18n="cta_projects">View Projects</a>
               <a class="btn ghost" href="/resume/" data-i18n="cta_resume">Open Resume</a>
-              <a class="btn ghost" href="https://calendar.app.google/7v4thxh13mTU1ibZ6" target="_blank" rel="noopener" data-ga-event="cta_book_intro" data-ga-label="hero" data-i18n="cta_book">Book a 30-min intro</a>
+              <a class="btn ghost" href="#contact" data-ga-event="cta_contact" data-ga-label="hero" data-i18n="cta_book">Contact Me</a>
             </div>
           </div>
 
           <div class="hero-visual animate-fade delay-3">
             <div class="hero-card">
               <img src="/images/businessanalyst.jpg" alt="Business analytics dashboard" loading="eager" fetchpriority="high" />
-              <div class="note" data-i18n="hero_note"><i class="fas fa-bolt"></i> Fast experiments, measurable impact.</div>
+              <div class="note" data-i18n="hero_note"><i class="fas fa-bolt"></i> Clear analysis. Faster decisions.</div>
               <p data-i18n="hero_para">
-                From churn prediction and explainable ML to streamlined BI reporting, I connect data, tools, and teams so decisions are
-                clear, defensible, and quick to act on.
+                I work across analytics, BI, and applied machine learning to turn messy data into dashboards, models, and workflows
+                that people can actually use.
               </p>
             </div>
             <div class="meta-grid">
               <div class="meta-item animate-fade-up delay-4"><span data-i18n="meta_current_label">Current</span><strong data-i18n="meta_current">MSc in Business Intelligence, Aarhus University</strong></div>
               <div class="meta-item animate-fade-up delay-5"><span data-i18n="meta_focus_label">Focus</span><strong data-i18n="meta_focus">Data Strategy · Forecasting · Customer Analytics</strong></div>
               <div class="meta-item animate-fade-up delay-6"><span data-i18n="meta_strengths_label">Strengths</span><strong data-i18n="meta_strengths">Storytelling Dashboards · Rapid Experiments · SHAP-Driven Insight</strong></div>
-              <div class="meta-item animate-fade-up delay-6"><span data-i18n="meta_available_label">Available for</span><strong data-i18n="meta_available">BI Analyst · Data Analyst · ML Engineer</strong></div>
+              <div class="meta-item animate-fade-up delay-6"><span data-i18n="meta_available_label">Available for</span><strong data-i18n="meta_available">Data Analyst · BI Analyst</strong></div>
             </div>
           </div>
         </div>
@@ -358,7 +358,7 @@
           <div class="section-header">
             <p class="eyebrow" data-i18n="projects_eyebrow">Selected Work</p>
             <h2 class="section-title" data-i18n="projects_title">Turning data into decisions</h2>
-            <p data-i18n="projects_desc">Same work, sharper presentation—here are the projects I rely on to demonstrate analytics, BI, and ML in motion.</p>
+            <p data-i18n="projects_desc">These are the projects I use to demonstrate dashboarding, automation, forecasting, and decision-focused analytics.</p>
           </div>
 
           <div class="discovery-panel" data-discovery-root data-discovery-index="/assets/data/discovery-index.json">
@@ -381,8 +381,8 @@
               <img class="project-thumb" src="/images/customerchurn.jpg" alt="Customer churn dashboard preview" loading="lazy" />
               <h3 data-i18n="proj1_title">AI-Powered Customer Churn Prediction &amp; Retention Dashboard</h3>
               <p data-i18n="proj1_desc">
-                Streamlit + PyCaret AutoML with SHAP explainability and OpenAI recommendations. Upload customer data, train models,
-                inspect churn drivers, and trigger retention strategies—all in one workflow.
+                An end-to-end churn workflow that scores risk, explains the drivers behind it, and helps teams move from analysis to
+                retention action in one place.
               </p>
               <div class="tags">
                 <span class="tag"><i class="fas fa-robot tag-icon" aria-hidden="true"></i>AutoML</span>
@@ -401,8 +401,8 @@
               <img class="project-thumb" src="/images/candlestick.jpg" alt="Candlestick chart deep learning" loading="lazy" />
               <h3 data-i18n="proj5_title">Predicting Stock Moves from Candlestick Images</h3>
               <p data-i18n="proj5_desc">
-                A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning
-                rates deliver stronger accuracy and faster convergence.
+                A computer vision experiment that classifies candlestick chart images to predict next-day market direction, with
+                model tuning focused on stronger accuracy and faster learning.
               </p>
               <div class="tags">
                 <span class="tag"><i class="fas fa-brain tag-icon" aria-hidden="true"></i>CNN</span>
@@ -420,8 +420,8 @@
               <img class="project-thumb" src="/images/job-board.png" alt="BI Jobs board — Denmark curated BI job listings" loading="lazy" />
               <h3 data-i18n="proj6_title">BI Jobs Board — Denmark's Curated BI Job Feed</h3>
               <p data-i18n="proj6_desc">
-                Python scraper runs daily via GitHub Actions, fetches BI roles from Jobindex, and auto-deploys a filterable static page.
-                Filter by city, job type, and category. Built and shipped end-to-end — no backend, no cost.
+                A fully automated jobs product that collects BI roles from Jobindex, refreshes daily, and publishes a filterable static
+                board without backend overhead.
               </p>
               <div class="tags">
                 <span class="tag"><i class="fab fa-python tag-icon" aria-hidden="true"></i>Python</span>
@@ -439,8 +439,8 @@
               <img class="project-thumb" src="/images/portfolio-dashboard.png" alt="Portfolio Analytics dashboard — GA4 + Looker Studio" loading="lazy" />
               <h3>Portfolio Analytics — Live GA4 Dashboard</h3>
               <p>
-                Real visitor metrics for raselmia.live embedded directly in the portfolio — powered by Google Analytics 4
-                and visualised in Looker Studio. Users, traffic sources, top projects, global reach, and device breakdown in one page.
+                A live analytics layer for the portfolio, bringing together GA4 and Looker Studio to show traffic sources, audience
+                behavior, top content, and device mix in one view.
               </p>
               <div class="tags">
                 <span class="tag"><i class="fas fa-chart-line tag-icon" aria-hidden="true"></i>Looker Studio</span>
@@ -457,8 +457,8 @@
               <img class="project-thumb" src="/images/parking.png" alt="Parking availability dashboard" loading="lazy" />
               <h3 data-i18n="proj3_title">Parking Prediction &amp; Optimization in Aarhus</h3>
               <p data-i18n="proj3_desc">
-                Combines real-time parking API data, weather, and congestion to forecast availability. ML models (Random Forest,
-                XGBoost) feed interactive dashboards to cut search time and city congestion.
+                Combines parking, weather, and congestion data to forecast availability and support smarter decisions around traffic,
+                search time, and city mobility.
               </p>
               <div class="tags">
                 <span class="tag"><i class="fab fa-python tag-icon" aria-hidden="true"></i>Python</span>
@@ -476,8 +476,8 @@
               <img class="project-thumb" src="/images/mobilecase.jpg" alt="Mobile price prediction model" loading="lazy" />
               <h3 data-i18n="proj4_title">Estimating Mobile Phone Price Ranges with ML</h3>
               <p data-i18n="proj4_desc">
-                Built classification models on 2,000 phones with 21 features to predict price tiers. Highlights feature importance so
-                teams can shape market positioning and product strategy.
+                Predicts mobile price tiers from product features and surfaces the variables that matter most for positioning,
+                segmentation, and product strategy.
               </p>
               <div class="tags">
                 <span class="tag"><i class="fab fa-r-project tag-icon" aria-hidden="true"></i>R</span>
@@ -495,8 +495,8 @@
               <img class="project-thumb" src="/images/portfolio_preview.jpeg" alt="Portfolio preview" loading="lazy" />
               <h3 data-i18n="proj2_title">Personal Portfolio — Hosted on GitHub Pages</h3>
               <p data-i18n="proj2_desc">
-                A responsive personal portfolio designed to present academic background, skills, and data projects. Built with HTML/CSS
-                and powered by GitHub Pages + Formspree for direct contact.
+                A custom-built portfolio that presents projects, experience, and case studies in a clear hiring-friendly format using a
+                lightweight static stack.
               </p>
               <div class="tags">
                 <span class="tag"><i class="fab fa-html5 tag-icon" aria-hidden="true"></i>HTML</span>
@@ -518,25 +518,25 @@
           <div class="section-header">
             <p class="eyebrow" data-i18n="foryou_eyebrow">How Can I Help?</p>
             <h2 class="section-title" data-i18n="foryou_title">What I can do for you</h2>
-            <p data-i18n="foryou_desc">Whether you're hiring, recruiting, or looking to collaborate—I've got you covered.</p>
+            <p data-i18n="foryou_desc">Choose the fastest path depending on why you're here: hiring, recruiting, or collaboration.</p>
           </div>
           <div class="persona-grid">
             <div class="persona-card">
               <div class="persona-icon"><i class="fas fa-user-tie"></i></div>
               <h3 data-i18n="persona_hiring_title">Hiring Manager?</h3>
-              <p data-i18n="persona_hiring_desc">See my qualifications, experience, and how I can add value to your data team.</p>
+              <p data-i18n="persona_hiring_desc">Review the projects, tools, and business-facing work most relevant to a data or BI hiring decision.</p>
               <a class="btn primary" href="/resume/" data-ga-event="persona_hiring" data-ga-label="See my resume" data-i18n="persona_hiring_cta">See my resume →</a>
             </div>
             <div class="persona-card">
               <div class="persona-icon"><i class="fas fa-search"></i></div>
               <h3 data-i18n="persona_recruiter_title">Recruiter?</h3>
-              <p data-i18n="persona_recruiter_desc">Grab my CV for your talent pipeline. ATS-friendly format, ready to share.</p>
+              <p data-i18n="persona_recruiter_desc">Download a clean CV with the keywords, tools, and project context needed for quick screening.</p>
               <a class="btn primary" href="https://drive.google.com/uc?export=download&id=1Fj2vEBOiiAwQutO_jdFlmDhX9JClxkHE" data-ga-event="persona_recruiter" data-ga-label="Download CV" data-i18n="persona_recruiter_cta">Download CV →</a>
             </div>
             <div class="persona-card">
               <div class="persona-icon"><i class="fas fa-handshake"></i></div>
               <h3 data-i18n="persona_collab_title">Collaborator?</h3>
-              <p data-i18n="persona_collab_desc">Have a data project or research idea? Let's explore how we can work together.</p>
+              <p data-i18n="persona_collab_desc">If you have a data project, dashboard need, or research idea, let's discuss what a practical collaboration could look like.</p>
               <a class="btn primary" href="#contact" data-ga-event="persona_collab" data-ga-label="Let's talk" data-i18n="persona_collab_cta">Let's talk →</a>
             </div>
           </div>
@@ -548,7 +548,7 @@
           <div class="section-header">
             <p class="eyebrow" data-i18n="skills_eyebrow">Capabilities</p>
             <h2 class="section-title" data-i18n="skills_title">Tools, stacks, and strengths</h2>
-            <p data-i18n="skills_desc">What I use most days to move from data collection to decisions.</p>
+            <p data-i18n="skills_desc">The tools and workflows I use to move from raw data to analysis, reporting, and action.</p>
           </div>
           <div class="skills-grid">
             <div class="skill-card">
@@ -976,19 +976,19 @@
             nav_datastory: "Data Story",
             nav_cover: "Cover Letter AI",
             nav_resume: "Resume",
-            hero_eyebrow: "Business Data Science",
-            hero_title: "Building smarter, faster, data-driven decisions",
+            hero_eyebrow: "Data Analytics and BI",
+            hero_title: "Building dashboards and analytics that teams can act on",
             hero_body:
-              "I design machine learning models, interactive dashboards, and automated pipelines that turn complex data into smart, scalable solutions—from predicting customer behavior to uncovering deep market insights.",
+              "I build dashboards, automate reporting, and turn operational data into clear decisions for business teams. My strongest work sits at the intersection of Power BI, SQL, Python, and practical analytics.",
             badge_edu: "MSc Business Intelligence",
             badge_analytics: "Analytics & Automation",
             badge_stack: "Power BI · Python · SQL · ML",
             cta_projects: "View Projects",
             cta_resume: "Open Resume",
-            cta_book: "Book a 30-min intro",
-            hero_note: "Fast experiments, measurable impact.",
+            cta_book: "Contact Me",
+            hero_note: "Clear analysis. Faster decisions.",
             hero_para:
-              "From churn prediction and explainable ML to streamlined BI reporting, I connect data, tools, and teams so decisions are clear, defensible, and quick to act on.",
+              "I work across analytics, BI, and applied machine learning to turn messy data into dashboards, models, and workflows that people can actually use.",
             meta_current_label: "Current",
             meta_current: "MSc in Business Intelligence, Aarhus University",
             meta_focus_label: "Focus",
@@ -996,41 +996,41 @@
             meta_strengths_label: "Strengths",
             meta_strengths: "Storytelling Dashboards · Rapid Experiments · SHAP-Driven Insight",
             meta_available_label: "Available for",
-            meta_available: "BI Analyst · Data Analyst · ML Engineer",
+            meta_available: "Data Analyst · BI Analyst",
             projects_eyebrow: "Selected Work",
             projects_title: "Turning data into decisions",
             projects_desc:
-              "Same work, sharper presentation—here are the projects I rely on to demonstrate analytics, BI, and ML in motion.",
+              "These are the projects I use to demonstrate dashboarding, automation, forecasting, and decision-focused analytics.",
             proj1_title: "AI-Powered Customer Churn Prediction & Retention Dashboard",
             proj1_desc:
-              "Streamlit + PyCaret AutoML with SHAP explainability and OpenAI recommendations. Upload customer data, train models, inspect churn drivers, and trigger retention strategies—all in one workflow.",
+              "An end-to-end churn workflow that scores risk, explains the drivers behind it, and helps teams move from analysis to retention action in one place.",
             proj2_title: "Personal Portfolio — Hosted on GitHub Pages",
             proj2_desc:
-              "A responsive personal portfolio designed to present academic background, skills, and data projects. Built with HTML/CSS and powered by GitHub Pages + Formspree for direct contact.",
+              "A custom-built portfolio that presents projects, experience, and case studies in a clear hiring-friendly format using a lightweight static stack.",
             proj3_title: "Parking Prediction & Optimization in Aarhus",
             proj3_desc:
-              "Combines real-time parking API data, weather, and congestion to forecast availability. ML models (Random Forest, XGBoost) feed interactive dashboards to cut search time and city congestion.",
+              "Combines parking, weather, and congestion data to forecast availability and support smarter decisions around traffic, search time, and city mobility.",
             proj4_title: "Estimating Mobile Phone Price Ranges with ML",
             proj4_desc:
-              "Built classification models on 2,000 phones with 21 features to predict price tiers. Highlights feature importance so teams can shape market positioning and product strategy.",
+              "Predicts mobile price tiers from product features and surfaces the variables that matter most for positioning, segmentation, and product strategy.",
             proj5_title: "Predicting Stock Moves from Candlestick Images",
             proj5_desc:
-              "A CNN trained from scratch to classify candlestick chart images and predict next-day stock direction. Tuned learning rates deliver stronger accuracy and faster convergence.",
+              "A computer vision experiment that classifies candlestick chart images to predict next-day market direction, with model tuning focused on stronger accuracy and faster learning.",
             proj6_title: "BI Jobs Board — Denmark's Curated BI Job Feed",
             proj6_desc:
-              "Python scraper runs daily via GitHub Actions, fetches BI roles from Jobindex, and auto-deploys a filterable static page. Filter by city, job type, and category. Built and shipped end-to-end — no backend, no cost.",
+              "A fully automated jobs product that collects BI roles from Jobindex, refreshes daily, and publishes a filterable static board without backend overhead.",
             cta_view_project: "View project",
             cta_case_study: "Read case study",
             cta_try: "Try it",
             skills_eyebrow: "Capabilities",
             skills_title: "Tools, stacks, and strengths",
-            skills_desc: "What I use most days to move from data collection to decisions.",
+            skills_desc: "The tools and workflows I use to move from raw data to analysis, reporting, and action.",
             skills_analytics: "Analytics & Modeling",
             skills_platforms: "Platforms & Workflow",
             skills_collab: "Collaboration",
             contact_eyebrow: "Contact",
             contact_title: "Let’s build something meaningful",
-            contact_desc: "Reach out for data analysis, BI, or ML collaborations. Replies within 24h CET.",
+            contact_desc: "Reach out about data analysis, BI, dashboards, or collaboration. I usually reply within 24 hours CET.",
             contact_details: "Details",
             contact_location_label: "Location:",
             contact_phone_label: "Phone:",
@@ -1048,15 +1048,15 @@
             status_open: "Open to BI/Data Roles",
             foryou_eyebrow: "How Can I Help?",
             foryou_title: "What I can do for you",
-            foryou_desc: "Whether you're hiring, recruiting, or looking to collaborate—I've got you covered.",
+            foryou_desc: "Choose the fastest path depending on why you're here: hiring, recruiting, or collaboration.",
             persona_hiring_title: "Hiring Manager?",
-            persona_hiring_desc: "See my qualifications, experience, and how I can add value to your data team.",
+            persona_hiring_desc: "Review the projects, tools, and business-facing work most relevant to a data or BI hiring decision.",
             persona_hiring_cta: "See my resume →",
             persona_recruiter_title: "Recruiter?",
-            persona_recruiter_desc: "Grab my CV for your talent pipeline. ATS-friendly format, ready to share.",
+            persona_recruiter_desc: "Download a clean CV with the keywords, tools, and project context needed for quick screening.",
             persona_recruiter_cta: "Download CV →",
             persona_collab_title: "Collaborator?",
-            persona_collab_desc: "Have a data project or research idea? Let's explore how we can work together.",
+            persona_collab_desc: "If you have a data project, dashboard need, or research idea, let's discuss what a practical collaboration could look like.",
             persona_collab_cta: "Let's talk →",
             jobs_eyebrow: "Open Roles \u00b7 Denmark",
             jobs_title: "Latest Data & BI Jobs",
@@ -1071,19 +1071,19 @@
             nav_datastory: "Datafortælling",
             nav_cover: "Cover Letter AI",
             nav_resume: "CV",
-            hero_eyebrow: "Business Data Science",
-            hero_title: "Skaber hurtigere og klogere datadrevne beslutninger",
+            hero_eyebrow: "Dataanalyse og BI",
+            hero_title: "Bygger dashboards og analyser, som teams kan handle på",
             hero_body:
-              "Jeg bygger ML-modeller, interaktive dashboards og automatiske pipelines, der gør komplekse data til klare, skalerbare beslutninger—fra kundeindsigt til markedsanalyse.",
+              "Jeg bygger dashboards, automatiserer rapportering og omsætter operationelle data til klare beslutninger for forretningen. Mit stærkeste arbejde ligger i krydsfeltet mellem Power BI, SQL, Python og praktisk analyse.",
             badge_edu: "Cand.merc. Business Intelligence",
             badge_analytics: "Analyse & Automatisering",
             badge_stack: "Power BI · Python · SQL · ML",
             cta_projects: "Se projekter",
             cta_resume: "Åbn CV",
-            cta_book: "Book et 30-min intro",
-            hero_note: "Hurtige eksperimenter, målbar effekt.",
+            cta_book: "Kontakt mig",
+            hero_note: "Klar analyse. Hurtigere beslutninger.",
             hero_para:
-              "Fra churn-prediktion og forklarlig ML til strømlinet BI rapportering forbinder jeg data, værktøjer og teams, så beslutninger bliver tydelige, forsvarlige og hurtige at handle på.",
+              "Jeg arbejder på tværs af analyse, BI og anvendt machine learning for at gøre rodet data til dashboards, modeller og workflows, som folk faktisk kan bruge.",
             meta_current_label: "Nuværende",
             meta_current: "Cand.merc. i Business Intelligence, Aarhus Universitet",
             meta_focus_label: "Fokus",
@@ -1091,41 +1091,41 @@
             meta_strengths_label: "Styrker",
             meta_strengths: "Storytelling-dashboards · Hurtige eksperimenter · SHAP-drevet indsigt",
             meta_available_label: "Tilgængelig til",
-            meta_available: "BI-analytiker · Dataanalytiker · ML-ingeniør",
+            meta_available: "Dataanalytiker · BI-analytiker",
             projects_eyebrow: "Udvalgt arbejde",
             projects_title: "Omsætter data til beslutninger",
             projects_desc:
-              "Samme arbejde, skarpere præsentation—projekterne jeg bruger til at vise analytics, BI og ML i praksis.",
+              "Et udvalg af projekter, der viser, hvordan jeg arbejder med dashboarding, automatisering, forecasting og beslutningsnær analyse.",
             proj1_title: "AI-baseret kunde-churn forudsigelse og retention-dashboard",
             proj1_desc:
-              "Streamlit + PyCaret AutoML med SHAP-forklaringer og OpenAI anbefalinger. Upload kundedata, træn modeller, se churn-drivere og sæt retention tiltag i gang—alt i én løsning.",
+              "Et samlet churn-workflow, der scorer risiko, forklarer de vigtigste drivere og hjælper teams fra analyse til konkrete retention-tiltag.",
             proj2_title: "Personligt portfolio — hostet på GitHub Pages",
             proj2_desc:
-              "Responsivt portfolio, der viser uddannelse, kompetencer og dataprojekter. Bygget i HTML/CSS og drevet af GitHub Pages + Formspree til kontakt.",
+              "Et specialbygget portfolio, der præsenterer projekter, erfaring og casestudier i et klart og ansættelsesvenligt format på en let statisk stack.",
             proj3_title: "Parkeringsprognoser og optimering i Aarhus",
             proj3_desc:
-              "Kombinerer live parkerings-API, vejr og trængsel for at forudsige ledige pladser. ML-modeller (Random Forest, XGBoost) driver dashboards, der reducerer søgetid og trængsel.",
+              "Kombinerer parkerings-, vejr- og trængselsdata for at forudsige ledige pladser og understøtte bedre beslutninger om trafik, søgetid og mobilitet i byen.",
             proj4_title: "Prisniveauer for mobiltelefoner med ML",
             proj4_desc:
-              "Klassifikationsmodeller på 2.000 telefoner med 21 features for at forudsige prisklasser. Viser feature-importance så teams kan styre markedsposition og produktstrategi.",
+              "Forudsiger mobilers prisklasser ud fra produktegenskaber og fremhæver de vigtigste variabler for positionering, segmentering og produktstrategi.",
             proj5_title: "Forudsig aktiebevægelse fra lysestagebilleder",
             proj5_desc:
-              "En CNN trænet fra bunden til at klassificere lysestagediagrammer og forudsige næste dags retning. Tunede learning rates giver bedre nøjagtighed og hurtigere konvergens.",
+              "Et computer vision-projekt, der klassificerer candlestick-diagrammer for at forudsige næste dags markedsretning med fokus på bedre nøjagtighed og hurtigere læring.",
             proj6_title: "BI Jobs Board — Danmarks kuraterede BI-jobfeed",
             proj6_desc:
-              "Python-scraper kører dagligt via GitHub Actions, henter BI-roller fra Jobindex og auto-deployer en filtrerbar statisk side. Filtrer på by, jobtype og kategori. Bygget og leveret fra ende til anden — ingen backend, ingen omkostninger.",
+              "Et fuldt automatiseret jobprodukt, der henter BI-stillinger fra Jobindex, opdateres dagligt og publicerer et filtrerbart statisk jobboard uden backend-overhead.",
             cta_view_project: "Se projekt",
             cta_case_study: "Læs casestudie",
             cta_try: "Prøv det",
             skills_eyebrow: "Kompetencer",
             skills_title: "Værktøjer, stacks og styrker",
-            skills_desc: "Det jeg bruger til dagligt for at gå fra data til beslutninger.",
+            skills_desc: "Værktøjer og workflows, jeg bruger til at gå fra rå data til analyse, rapportering og handling.",
             skills_analytics: "Analyse & Modellering",
             skills_platforms: "Platforme & Workflow",
             skills_collab: "Samarbejde",
             contact_eyebrow: "Kontakt",
             contact_title: "Lad os bygge noget meningsfuldt",
-            contact_desc: "Skriv om dataanalyse, BI eller ML-samarbejder. Svarer inden for 24 timer CET.",
+            contact_desc: "Skriv om dataanalyse, BI, dashboards eller samarbejde. Jeg svarer som regel inden for 24 timer CET.",
             contact_details: "Detaljer",
             contact_location_label: "Lokation:",
             contact_phone_label: "Telefon:",
@@ -1143,15 +1143,15 @@
             footer_open: "Åben for BI/Data-roller",
             foryou_eyebrow: "Hvordan kan jeg hjælpe?",
             foryou_title: "Hvad jeg kan gøre for dig",
-            foryou_desc: "Uanset om du ansætter, rekrutterer eller leder efter samarbejde—jeg er klar.",
+            foryou_desc: "Vælg den hurtigste vej alt efter, hvorfor du er her: ansættelse, rekruttering eller samarbejde.",
             persona_hiring_title: "Ansættende leder?",
-            persona_hiring_desc: "Se mine kvalifikationer, erfaring og hvordan jeg kan tilføre værdi til dit datateam.",
+            persona_hiring_desc: "Se de projekter, værktøjer og forretningsnære opgaver, der er mest relevante for en data- eller BI-ansættelse.",
             persona_hiring_cta: "Se mit CV →",
             persona_recruiter_title: "Rekrutterer?",
-            persona_recruiter_desc: "Hent mit CV til din talentpipeline. ATS-venligt format, klar til at dele.",
+            persona_recruiter_desc: "Hent et klart CV med nøgleord, værktøjer og projektkontekst, der gør den første screening hurtigere.",
             persona_recruiter_cta: "Download CV →",
             persona_collab_title: "Samarbejdspartner?",
-            persona_collab_desc: "Har du et dataprojekt eller forskningsidé? Lad os udforske et samarbejde.",
+            persona_collab_desc: "Hvis du har et dataprojekt, behov for et dashboard eller en forskningsidé, så lad os tale om et praktisk samarbejde.",
             persona_collab_cta: "Lad os tale →",
             jobs_eyebrow: "Åbne stillinger \u00b7 Danmark",
             jobs_title: "Seneste Data & BI stillinger",

@@ -17,14 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typingElement) {
     const typingTexts = {
       en: [
-        'Building smarter, faster, data-driven decisions',
-        'Turning complex data into actionable insights',
-        'Creating ML models that drive real business value'
+        'Building dashboards and analytics that teams can act on',
+        'Turning operational data into decision-ready insight',
+        'Automating reporting for faster business decisions'
       ],
       da: [
-        'Skaber hurtigere og klogere datadrevne beslutninger',
-        'Omsætter komplekse data til handlingsbar indsigt',
-        'Bygger ML-modeller der skaber reel forretningsværdi'
+        'Bygger dashboards og analyser, som teams kan handle på',
+        'Omsætter operationelle data til beslutningsklar indsigt',
+        'Automatiserer rapportering til hurtigere forretningsbeslutninger'
       ]
     };
     
