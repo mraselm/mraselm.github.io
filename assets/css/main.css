@@ -108,60 +108,26 @@ h3 {
   100% { background-position: 200% 0; }
 }
 
-.hero-headline {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
+/* Typing animation */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
 
-.hero-slideshow {
-  position: relative;
-  display: grid;
-  min-height: 3.4em;
+.typing-text {
+  display: inline;
 }
 
-.hero-slide {
-  grid-area: 1 / 1;
-  opacity: 0;
-  transform: translateY(14px);
-  transition: opacity 0.45s ease, transform 0.45s ease;
-  pointer-events: none;
+.typing-cursor {
+  display: inline-block;
+  color: var(--accent);
+  font-weight: 400;
+  animation: blink 0.8s infinite;
+  margin-left: 2px;
 }
 
-.hero-slide.is-active {
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
-}
-
-.hero-dots {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.65rem;
-}
-
-.hero-dot {
-  width: 0.8rem;
-  height: 0.8rem;
-  border: 0;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--accent) 22%, white);
-  cursor: pointer;
-  padding: 0;
-  transition: transform 0.2s ease, background-color 0.2s ease, width 0.2s ease;
-}
-
-.hero-dot:hover,
-.hero-dot:focus-visible {
-  background: color-mix(in srgb, var(--accent) 60%, white);
-  outline: none;
-  transform: translateY(-1px);
-}
-
-.hero-dot.is-active {
-  width: 2.2rem;
-  background: var(--accent);
+.typing-cursor.done {
+  display: none;
 }
 
 .animate-fade-up {

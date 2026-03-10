@@ -315,20 +315,9 @@
         <div class="container hero-grid">
           <div class="hero-copy">
             <p class="eyebrow animate-fade-up delay-1" data-i18n="hero_eyebrow">Data Analytics and BI</p>
-            <div class="hero-headline animate-fade-up delay-2">
-              <h1>
-                <span class="hero-slideshow" data-hero-slideshow aria-live="polite">
-                  <span class="hero-slide is-active">Building dashboards and analytics that teams can act on</span>
-                  <span class="hero-slide">Turning operational data into decision-ready insight</span>
-                  <span class="hero-slide">Automating reporting for faster business decisions</span>
-                </span>
-              </h1>
-              <div class="hero-dots" data-hero-dots role="tablist" aria-label="Hero highlights">
-                <button class="hero-dot is-active" type="button" role="tab" aria-selected="true" aria-label="Show slide 1"></button>
-                <button class="hero-dot" type="button" role="tab" aria-selected="false" aria-label="Show slide 2"></button>
-                <button class="hero-dot" type="button" role="tab" aria-selected="false" aria-label="Show slide 3"></button>
-              </div>
-            </div>
+            <h1 class="animate-fade-up delay-2">
+              <span class="typing-text" data-i18n="hero_title"></span><span class="typing-cursor">|</span>
+            </h1>
             <p class="animate-fade-up delay-3" data-i18n="hero_body">
               I build dashboards, automate reporting, and turn operational data into clear decisions for business teams. My strongest
               work sits at the intersection of Power BI, SQL, Python, and practical analytics.
@@ -1197,9 +1186,9 @@
             const next = (localStorage.getItem('lang') || 'en') === 'en' ? 'da' : 'en';
             toggle.setAttribute('aria-pressed', next === 'da');
             applyLang(next);
-            // Reset hero slider with new language
-            if (typeof window.resetHeroSlider === 'function') {
-              window.resetHeroSlider();
+            // Reset typing animation with new language
+            if (typeof window.resetTypingAnimation === 'function') {
+              window.resetTypingAnimation();
             }
           });
         }
