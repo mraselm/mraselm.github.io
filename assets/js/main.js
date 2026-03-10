@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
       measure.remove();
 
       if (maxHeight > 0) {
-        typingElement.style.minHeight = maxHeight + 'px';
+        typingHeading.style.minHeight = maxHeight + 'px';
       }
     }
     
