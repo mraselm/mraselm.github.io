@@ -15,6 +15,7 @@ Run via CI:   GitHub Actions (.github/workflows/fetch-jobs.yml)
 """
 
 import json
+import os
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -968,12 +969,61 @@ def fetch_graduate_programs(
     return result
 
 
+def count_source_jobs(data: dict, source: str) -> int:
+    total = 0
+    for jobs in (data.get("categories") or {}).values():
+        total += sum(1 for job in jobs if job.get("source") == source)
+    return total
+
+
+def merge_source_from_previous(current: dict, previous: dict, source: str) -> bool:
+    """Restore source-specific jobs from previous data if the current run lost them."""
+    prev_categories = previous.get("categories") or {}
+    curr_categories = current.get("categories") or {}
+
+    previous_count = count_source_jobs(previous, source)
+    current_count = count_source_jobs(current, source)
+    if previous_count == 0 or current_count > 0:
+        return False
+
+    restored = 0
+    for label, jobs in prev_categories.items():
+        target = curr_categories.setdefault(label, [])
+        seen_urls = {job.get("url") for job in target}
+        for job in jobs:
+            if job.get("source") != source:
+                continue
+            url = job.get("url")
+            if url and url in seen_urls:
+                continue
+            target.append(job)
+            if url:
+                seen_urls.add(url)
+            restored += 1
+
+    if restored:
+        print(
+            f"[WARN] Current run returned 0 {source} jobs; restored "
+            f"{restored} {source} jobs from previous assets/data/jobs.json."
+        )
+    return restored > 0
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main() -> None:
     print("=== Fetching Denmark Data & BI Jobs from Jobindex + Jobbank.dk ===")
+    out_path = "assets/data/jobs.json"
+
+    previous_output: dict = {}
+    if os.path.exists(out_path):
+        try:
+            with open(out_path, "r", encoding="utf-8") as fh:
+                previous_output = json.load(fh)
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"[WARN] Could not read previous jobs data for fallback: {exc}")
 
     output: dict = {
         "updated":    datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -997,7 +1047,8 @@ def main() -> None:
         cross_seen, cross_fingerprints,
     )
 
-    out_path = "assets/data/jobs.json"
+    merge_source_from_previous(output, previous_output, "jobbank")
+
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(output, fh, ensure_ascii=False, indent=2)
 
