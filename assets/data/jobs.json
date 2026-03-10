@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T23:27:26Z",
+  "updated": "2026-03-10T02:50:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -196,6 +196,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Advanced Business Analyst - Bliv bindeled mellem AI-strategi og forretning i DSB",
+        "company": "DSB",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1641436",
+        "posted": "2026-02-23",
+        "snippet": "Vil du være med til at omsætte forretningsbehov til intelligente AI-løsninger, der skaber værdi for både kunder og DSB? Bliv bindeleddet mellem strategi og teknologi, og vær med til at forme fremtidens digitale agenter!Du bliver d",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Analyst for Customer Rating & Analytics",
         "company": "BEC Financial Technologies",
         "location": "Roskilde",
@@ -337,6 +348,17 @@
         "posted": "2026-02-20",
         "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development.Design and implement BI solutions for Denmark’s most visionary companies, work closely with client",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "CRM & Business Intelligence Manager",
+        "company": "Oxfam Danmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1638981",
+        "posted": "2026-02-13",
+        "snippet": "Vil du bruge dine evner inden for teknologi, data og CRM til at bekæmpe ulighed og udrydde fattigdom?Vi søger en skarp CRM & Business Intelligence Manager til vores Kommunikations- og Fundraising-afdeling. Vi leder efter en profil",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -529,6 +551,17 @@
       }
     ],
     "bi specialist": [
+      {
+        "title": "Data solution architect til Business Intelligence",
+        "company": "Aarhus Universitet",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13659478",
+        "posted": "2026-03-03",
+        "snippet": "Til DataHorizon-projektet søger vi en Data Solution Architect med stærk teknisk profil og erfaring inden for data engineering og softwareudvikling.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Lead Generation, AI & Business Intelligence Specialist",
         "company": "Contentway A/S",
