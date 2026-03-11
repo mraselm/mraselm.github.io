@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-11T18:04:28Z",
+  "updated": "2026-03-11T19:11:17Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -24,6 +24,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1639743",
         "posted": "2026-02-17",
         "snippet": "Passionate about turning data into insight and bridging business and IT?You will play a key role in shaping how data supports decision-making across Wrist. You work hands-on with master data, ensuring high quality and consistency,",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Advanced Data Analyst",
+        "company": "Novo Nordisk A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13678484",
+        "posted": "2026-03-11",
+        "snippet": "Do you have a passion for numbers and accountability?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -642,6 +653,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "(Senior) Data Scientist",
+        "company": "Novo Nordisk A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13678486",
+        "posted": "2026-03-11",
+        "snippet": "Are you a computational drug hunter with a deep understanding of the drug discovery process?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "(Senior) Data Scientist",
+        "company": "Novo Nordisk A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13678485",
+        "posted": "2026-03-11",
+        "snippet": "Are you passionate about working at the interface between AI/ML and protein design and translating ideas into tangible impact in drug discovery?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Start Your Career with GenAI Tribe, Data Science Chapter in Copenhagen, Denmark",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -682,6 +715,17 @@
         "posted": "2026-02-19",
         "snippet": "To uphold high-quality digital solutions provided to our commercial teams, we are looking for an AI Engineer to join our Chartering Analytics team in Copenhagen.Our tech stack consists of Python and its modern ecosystem (uv, FastA",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13679739",
+        "posted": "2026-03-11",
+        "snippet": "Vil du være med til at bygge det, der endnu ikke findes?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
