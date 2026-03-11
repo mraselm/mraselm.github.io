@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-11T20:50:08Z",
+  "updated": "2026-03-11T21:48:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -358,7 +358,7 @@
         "url": "https://www.jobindex.dk/vis-job/h1646792",
         "posted": "2026-03-11",
         "snippet": "",
-        "lang": "en",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "student"
       },
@@ -1004,28 +1004,6 @@
         "snippet": "Graduate/trainee at itm8, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: 23.03.2026)",
         "lang": "en",
         "source": "jobbank",
-        "job_type": "graduate"
-      },
-      {
-        "title": "Graduate, Data Engineer – Business Intelligence",
-        "company": "Itm8",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1640818",
-        "posted": "2026-02-20",
-        "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development. From day one, you take on responsibility and become part of a strong community that succeeds toge",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
-      {
-        "title": "Graduate, Business Analytics – Business Intelligence",
-        "company": "Itm8",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1640809",
-        "posted": "2026-02-20",
-        "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development.Design and implement BI solutions for Denmark’s most visionary companies, work closely with client",
-        "lang": "en",
-        "source": "jobindex",
         "job_type": "graduate"
       },
       {
