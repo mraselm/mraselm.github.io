@@ -214,6 +214,12 @@ GRADUATE_TITLE_KEYWORDS: list[str] = [
     "trainee",
 ]
 
+
+def is_graduate_title(title: str) -> bool:
+    """Return True when a title clearly belongs to the graduate-program flow."""
+    t = (title or "").lower()
+    return any(kw in t for kw in GRADUATE_TITLE_KEYWORDS)
+
 # Jobindex XML RSS endpoint — jobsoegning.xml works; /rss returns 404
 # {query}, {maxcount}, and {jobtype} are filled at runtime.
 RSS_URL = (
@@ -479,7 +485,14 @@ def detect_language(text: str) -> str:
     if not text:
         return "en"
     t = _fix_mojibake(text).lower()
-    if any(c in t for c in 'æøå'):
+    if any(c in t for c in "æøå"):
+        return "da"
+    da_markers = [
+        " søger ", " studentermedhjælper", " studentermedhjælper",
+        " studiejob", " hos ", " hjæl", " københavn", " forretningsanalytiker",
+        " konsulent", " virksomhed", " stilling", " mulighed", " bliv ",
+    ]
+    if any(marker in (" " + t + " ") for marker in da_markers):
         return "da"
     # Fallback: common Danish function words (padded to avoid sub-matches)
     da_words = [
@@ -687,7 +700,7 @@ def parse_jobbank_item(item: ET.Element) -> dict | None:
         return None
 
     jtype, company, location, _deadline = parse_jobbank_description(desc)
-    lang = detect_language(title)
+    lang = detect_language(title + " " + desc)
 
     return {
         "title":    title,
@@ -749,7 +762,7 @@ def parse_item(item: ET.Element) -> dict | None:
         if city:
             location = city
 
-    lang = detect_language(snippet)
+    lang = detect_language(title + " " + snippet)
 
     return {
         "title":    title,
@@ -823,6 +836,8 @@ def fetch_category(label: str, queries: list[str],
                 job = parse_item(item)
                 if not job or job["url"] in cross_seen:
                     continue
+                if is_graduate_title(job["title"]):
+                    continue
                 # Cross-portal dedup: a Jobbank job from an earlier category
                 # may already match this Jobindex job.
                 if cross_fingerprints.is_duplicate(job["title"], job["company"]):
@@ -859,6 +874,8 @@ def fetch_category(label: str, queries: list[str],
         for item in fetch_jobbank_rss(q):
             job = parse_jobbank_item(item)
             if not job or job["url"] in cross_seen:
+                continue
+            if is_graduate_title(job["title"]):
                 continue
             if cross_fingerprints.is_duplicate(job["title"], job["company"]):
                 continue
@@ -917,7 +934,7 @@ def fetch_graduate_programs(
 
     def _is_bi_graduate(title: str) -> bool:
         t = title.lower()
-        has_grad = any(kw in t for kw in GRADUATE_TITLE_KEYWORDS)
+        has_grad = is_graduate_title(title)
         has_bi   = any(kw in t for kw in BI_RELEVANCE)
         excluded = any(kw in t for kw in GRADUATE_EXCLUDE)
         return has_grad and has_bi and not excluded

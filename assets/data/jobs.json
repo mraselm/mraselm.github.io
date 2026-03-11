@@ -290,7 +290,7 @@
         "url": "https://jobbank.dk/job/2611689/work-supply/teknisk-forretningsanalytiker",
         "posted": "2025-06-09",
         "snippet": "Full-time job at Work Supply, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
+        "lang": "da",
         "source": "jobbank",
         "job_type": "full-time"
       }
@@ -326,28 +326,6 @@
         "posted": "2026-03-03",
         "snippet": "Vi er i en spændende fase, hvor vi bygger nyt, skalerer og migrerer til en større dataplatform for at centralisere BI-funktionen på tværs af selskaber i DUOS-koncernen.Du bliver en central teknisk profil i BI-teamet og får ansvar",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Graduate, Data Engineer – Business Intelligence",
-        "company": "Itm8",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1640818",
-        "posted": "2026-02-20",
-        "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development. From day one, you take on responsibility and become part of a strong community that succeeds toge",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Graduate, Business Analytics – Business Intelligence",
-        "company": "Itm8",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1640809",
-        "posted": "2026-02-20",
-        "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development.Design and implement BI solutions for Denmark’s most visionary companies, work closely with client",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -413,7 +391,7 @@
         "url": "https://jobbank.dk/job/2979232/cand/studiejob-it-business-intel",
         "posted": "2026-02-10",
         "snippet": "Student job at Cand, Eastern Jutland (Apply by: none specified)",
-        "lang": "en",
+        "lang": "da",
         "source": "jobbank",
         "job_type": "student"
       },
@@ -424,7 +402,7 @@
         "url": "https://jobbank.dk/job/2992028/aarhus-universitet/data-solution-architect-til-bu",
         "posted": "2026-03-03",
         "snippet": "Full-time job at Aarhus Universitet (AU), Greater Copenhagen (Apply by: 18.03.2026)",
-        "lang": "en",
+        "lang": "da",
         "source": "jobbank",
         "job_type": "full-time"
       },
@@ -435,7 +413,7 @@
         "url": "https://jobbank.dk/job/2992238/solita-aps/business-intelligence-konsulen",
         "posted": "2026-03-03",
         "snippet": "Full-time job at Solita ApS, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: none specified)",
-        "lang": "en",
+        "lang": "da",
         "source": "jobbank",
         "job_type": "full-time"
       },
@@ -1026,6 +1004,28 @@
         "snippet": "Graduate/trainee at itm8, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: 23.03.2026)",
         "lang": "en",
         "source": "jobbank",
+        "job_type": "graduate"
+      },
+      {
+        "title": "Graduate, Data Engineer – Business Intelligence",
+        "company": "Itm8",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1640818",
+        "posted": "2026-02-20",
+        "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development. From day one, you take on responsibility and become part of a strong community that succeeds toge",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
+      {
+        "title": "Graduate, Business Analytics – Business Intelligence",
+        "company": "Itm8",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1640809",
+        "posted": "2026-02-20",
+        "snippet": "Kickstart your IT career with itm8’s Graduate Program – an 18‑month journey accelerating your professional and personal development.Design and implement BI solutions for Denmark’s most visionary companies, work closely with client",
+        "lang": "en",
+        "source": "jobindex",
         "job_type": "graduate"
       },
       {
