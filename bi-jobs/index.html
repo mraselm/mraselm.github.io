@@ -169,6 +169,26 @@
         text-transform: uppercase;
         letter-spacing: 0.07em;
       }
+      .hero-stat-tools {
+        display: flex;
+        align-items: center;
+        gap: 0.55rem;
+        padding: 0.2rem 0;
+        min-height: auto;
+        align-self: center;
+      }
+      .hero-stat-tools #jobs-updated {
+        font-size: 0.72rem;
+        color: var(--muted, #64748b);
+        white-space: nowrap;
+        opacity: 0.85;
+        letter-spacing: 0.01em;
+        flex-shrink: 0;
+      }
+      .hero-stat-tools #jobs-refresh {
+        width: 1.9rem;
+        height: 1.9rem;
+      }
       .jobs-hero-cta {
         display: flex;
         flex-direction: column;
@@ -350,6 +370,9 @@
         letter-spacing: 0.01em;
         line-height: 1;
         transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.15s;
+      }
+      #jobs-reset.is-hidden {
+        display: none;
       }
       #jobs-reset:hover {
         background: rgba(99,102,241,0.07);
@@ -741,6 +764,21 @@
         .jobs-hero-inner  { grid-template-columns: 1fr; }
         .jobs-hero-cta    { align-items: flex-start; }
         .jobs-hero h1     { -webkit-text-fill-color: unset; background: none; color: var(--ink); }
+        .hero-stat-row    { gap: 0.7rem; }
+        .hero-stat        { min-width: calc(50% - 0.35rem); flex: 1 1 calc(50% - 0.35rem); }
+        .hero-stat[data-kpi="cities"] { order: 3; }
+        .hero-stat-tools  {
+          order: 4;
+          width: 100%;
+          justify-content: flex-start;
+          min-height: auto;
+          padding: 0;
+        }
+        .hero-stat[data-kpi="top-city"] { order: 5; }
+        .hero-stat-tools #jobs-updated {
+          white-space: normal;
+          line-height: 1.35;
+        }
         .jobs-filter-bar  { border-radius: 8px; padding: 0.8rem 1rem 0.85rem; }
         .jobs-grid        { grid-template-columns: 1fr; }
         .filter-top-row   { gap: 0.5rem; }
@@ -841,21 +879,27 @@
                 <span><i class="fas fa-sync-alt" aria-hidden="true"></i>Updated hourly from two sources</span>
               </div>
               <div class="hero-stat-row" aria-live="polite" aria-label="Job listing statistics">
-                <div class="hero-stat">
+                <div class="hero-stat" data-kpi="total">
                   <span class="hero-stat-num" id="stat-total">&mdash;</span>
                   <span class="hero-stat-label">Live Listings</span>
                 </div>
-                <div class="hero-stat">
+                <div class="hero-stat" data-kpi="categories">
                   <span class="hero-stat-num" id="stat-categories">&mdash;</span>
                   <span class="hero-stat-label">Categories</span>
                 </div>
-                <div class="hero-stat">
+                <div class="hero-stat" data-kpi="cities">
                   <span class="hero-stat-num" id="stat-cities">&mdash;</span>
                   <span class="hero-stat-label">Cities</span>
                 </div>
-                <div class="hero-stat">
+                <div class="hero-stat" data-kpi="top-city">
                   <span class="hero-stat-num" id="stat-top-city">&mdash;</span>
                   <span class="hero-stat-label">Top City</span>
+                </div>
+                <div class="hero-stat-tools" aria-live="polite">
+                  <span id="jobs-updated" title="Last time jobs data was refreshed"></span>
+                  <button id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
+                    <i class="fas fa-redo-alt" aria-hidden="true"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -939,11 +983,7 @@
                   <i class="fas fa-search" aria-hidden="true"></i>
                   <input id="jobs-search" type="search" placeholder="Search title, company, or keyword" aria-label="Search jobs" />
                 </label>
-                <span id="jobs-updated" title="Last time jobs data was refreshed"></span>
-                <button id="jobs-refresh" aria-label="Refresh job listings" title="Refresh">
-                  <i class="fas fa-redo-alt" aria-hidden="true"></i>
-                </button>
-                <button id="jobs-reset" aria-label="Reset all filters" title="Reset filters">
+                <button id="jobs-reset" class="is-hidden" aria-label="Reset all filters" title="Reset filters">
                   Reset
                 </button>
               </div>
@@ -1228,6 +1268,7 @@
         }
         function updateActiveFilterSummary() {
           var holder = document.getElementById('jobs-active-filters');
+          var resetBtn = document.getElementById('jobs-reset');
           if (!holder) return;
           var chips = [];
           var ac = document.querySelector('.city-btn.active');
@@ -1241,6 +1282,9 @@
           if (currentType !== 'all') chips.push(at ? (at.dataset.label || at.textContent.trim()) : currentType);
           if (currentLang !== 'all') chips.push(al ? (al.dataset.label || al.textContent.trim()) : currentLang);
           if (currentSearch) chips.push('Search: ' + currentSearch);
+          if (resetBtn) {
+            resetBtn.classList.toggle('is-hidden', chips.length === 0);
+          }
           if (!chips.length) {
             holder.className = 'jobs-active-filters';
             holder.innerHTML = '';
