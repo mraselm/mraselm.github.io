@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-11T22:42:59Z",
+  "updated": "2026-03-11T23:42:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -598,17 +598,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist/Development Engineer",
-        "company": "AVK Holding A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1638053",
-        "posted": "2026-02-11",
-        "snippet": "We are looking for a colleague with strong interest in algorithms, Machine Learning & AIYou will join a newly established international project team with participants in Denmark and three other European countries.In this role, you",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "(Senior) Data Scientist",
         "company": "Novo Nordisk A/S",
         "location": "Denmark",
@@ -703,17 +692,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13635361",
         "posted": "2026-02-19",
         "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Neurons Inc.",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/r13633104",
-        "posted": "2026-02-18",
-        "snippet": "At Neurons, we help the world’s leading brands predict how people will perceive, feel, and react to creative; before it goes live.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
