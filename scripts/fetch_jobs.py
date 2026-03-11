@@ -29,6 +29,7 @@ import requests
 
 MAX_PER_TYPE     = 25    # jobs to KEEP per job-type per category after filter & dedup
 FETCH_PER_QUERY  = 50    # jobs to FETCH from Jobindex per individual query
+MAX_JOB_AGE_MONTHS = 6
 
 # Title words that unambiguously mark a job as a student position.
 # If these appear in a title during the full-time/part-time fetch phase, skip it.
@@ -423,6 +424,47 @@ def parse_date(date_str: str) -> str:
         return clean[:10] if len(clean) >= 10 else clean
 
 
+def _subtract_months(dt: datetime, months: int) -> datetime:
+    """Return dt shifted back by `months` calendar months."""
+    year = dt.year
+    month = dt.month - months
+    while month <= 0:
+        month += 12
+        year -= 1
+    if month == 2:
+        leap = year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+        max_day = 29 if leap else 28
+    elif month in (4, 6, 9, 11):
+        max_day = 30
+    else:
+        max_day = 31
+    return dt.replace(year=year, month=month, day=min(dt.day, max_day))
+
+
+def posted_within_max_age(posted: str, now: datetime | None = None) -> bool:
+    """Return True when posted date is not older than the configured age window."""
+    if not posted:
+        return False
+    now = now or datetime.now(timezone.utc)
+    try:
+        posted_dt = datetime.strptime(posted, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return False
+    cutoff = _subtract_months(now, MAX_JOB_AGE_MONTHS)
+    return posted_dt >= cutoff
+
+
+def prune_old_jobs(categories: dict[str, list[dict]], now: datetime | None = None) -> int:
+    """Remove jobs older than the configured max age from all categories."""
+    now = now or datetime.now(timezone.utc)
+    removed = 0
+    for label, jobs in categories.items():
+        fresh_jobs = [job for job in jobs if posted_within_max_age(job.get("posted", ""), now)]
+        removed += len(jobs) - len(fresh_jobs)
+        categories[label] = fresh_jobs
+    return removed
+
+
 def split_title_company(raw_title: str) -> tuple[str, str]:
     """
     Jobindex RSS titles: 'Job Title (Location), Company Name'
@@ -491,17 +533,28 @@ def detect_language(text: str) -> str:
         " søger ", " studentermedhjælper", " studentermedhjælper",
         " studiejob", " hos ", " hjæl", " københavn", " forretningsanalytiker",
         " konsulent", " virksomhed", " stilling", " mulighed", " bliv ",
+        " fuldtid ", " deltid ", " kandidat ",
     ]
-    if any(marker in (" " + t + " ") for marker in da_markers):
-        return "da"
+    en_markers = [
+        " apply ", " experience ", " analytics ", " reporting ",
+        " stakeholders ", " full-time ", " part-time ",
+        " business intelligence ", " machine learning ",
+    ]
+    da_score = sum(2 for marker in da_markers if marker in (" " + t + " "))
+    en_score = sum(2 for marker in en_markers if marker in (" " + t + " "))
     # Fallback: common Danish function words (padded to avoid sub-matches)
     da_words = [
         ' du ', ' dig ', ' vi ', ' er ', ' og ', ' til ',
         ' med ', ' som ', ' det ', ' den ', ' de ', ' kan ',
         ' vil ', ' har ', ' din ', ' dit ', ' hvad ', ' ikke ',
     ]
-    hits = sum(1 for w in da_words if w in ' ' + t + ' ')
-    return 'da' if hits >= 2 else 'en'
+    en_words = [
+        ' the ', ' and ', ' with ', ' for ', ' you ', ' your ',
+        ' role ', ' team ', ' insight ', ' analyst ',
+    ]
+    da_score += sum(1 for w in da_words if w in ' ' + t + ' ')
+    en_score += sum(1 for w in en_words if w in ' ' + t + ' ')
+    return 'da' if da_score > en_score else 'en'
 
 
 def title_matches(title: str, keywords: list[str]) -> bool:
@@ -807,6 +860,8 @@ def fetch_category(label: str, queries: list[str],
         for item in fetch_rss(q, None):
             job = parse_item(item)
             if job and job["url"] not in local_seen:
+                if not posted_within_max_age(job.get("posted", "")):
+                    continue
                 local_seen.add(job["url"])
                 job["job_type"] = "student"
                 student_jobs.append(job)
@@ -835,6 +890,8 @@ def fetch_category(label: str, queries: list[str],
             for item in fetch_rss(q, type_param):
                 job = parse_item(item)
                 if not job or job["url"] in cross_seen:
+                    continue
+                if not posted_within_max_age(job.get("posted", "")):
                     continue
                 if is_graduate_title(job["title"]):
                     continue
@@ -874,6 +931,8 @@ def fetch_category(label: str, queries: list[str],
         for item in fetch_jobbank_rss(q):
             job = parse_jobbank_item(item)
             if not job or job["url"] in cross_seen:
+                continue
+            if not posted_within_max_age(job.get("posted", "")):
                 continue
             if is_graduate_title(job["title"]):
                 continue
@@ -946,6 +1005,8 @@ def fetch_graduate_programs(
             job = parse_item(item)
             if not job or job["url"] in cross_seen:
                 continue
+            if not posted_within_max_age(job.get("posted", "")):
+                continue
             if cross_fingerprints.is_duplicate(job["title"], job["company"]):
                 cross_seen.add(job["url"])
                 continue
@@ -968,6 +1029,8 @@ def fetch_graduate_programs(
         for item in fetch_jobbank_rss(q):
             job = parse_jobbank_item(item)
             if not job or job["url"] in cross_seen:
+                continue
+            if not posted_within_max_age(job.get("posted", "")):
                 continue
             if cross_fingerprints.is_duplicate(job["title"], job["company"]):
                 continue
@@ -1065,6 +1128,9 @@ def main() -> None:
     )
 
     merge_source_from_previous(output, previous_output, "jobbank")
+    removed_old = prune_old_jobs(output["categories"])
+    if removed_old:
+        print(f"[INFO] Pruned {removed_old} jobs older than {MAX_JOB_AGE_MONTHS} months.")
 
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(output, fh, ensure_ascii=False, indent=2)

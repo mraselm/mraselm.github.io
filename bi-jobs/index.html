@@ -14,7 +14,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="format-detection" content="telephone=no" />
-    <meta name="description" content="Live full-time, part-time, and student Data Analyst, Business Analyst, Business Intelligence, and BI Specialist jobs in Denmark sourced daily from Jobindex.dk and Jobbank.dk." />
+    <meta name="description" content="Live full-time, part-time, and student Data Analyst, Business Analyst, Business Intelligence, and BI Specialist jobs in Denmark, updated hourly from Jobindex.dk and Jobbank.dk." />
     <meta name="keywords" content="Data Analyst jobs Denmark, Business Analyst Denmark, BI Specialist jobs, Business Intelligence Denmark, Jobindex, full-time data jobs" />
     <meta name="author" content="Rasel Mia" />
     <meta name="robots" content="index, follow" />
@@ -24,7 +24,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="BI &amp; Data Jobs in Denmark | Rasel Mia" />
-    <meta property="og:description" content="Curated full-time Data &amp; BI job listings in Denmark, sourced daily from Jobindex.dk and Jobbank.dk." />
+    <meta property="og:description" content="Curated Data &amp; BI job listings in Denmark, updated hourly from Jobindex.dk and Jobbank.dk." />
     <meta property="og:image" content="https://raselmia.live/images/portfolio_preview.jpeg" />
     <meta property="og:url" content="https://raselmia.live/bi-jobs/" />
     <meta property="og:type" content="website" />
@@ -580,6 +580,10 @@
         align-items: center;
         gap: .4rem;
       }
+      .job-meta-relative {
+        color: var(--muted, #64748b);
+        font-size: .84em;
+      }
       .job-company {
         color: var(--ink);
         font-weight: 700;
@@ -635,8 +639,8 @@
       /*  Source bar  */
       .jobs-source {
         display: flex; flex-wrap: wrap;
-        align-items: center; justify-content: center;
-        gap: .5rem 1.25rem;
+        align-items: center; justify-content: space-between;
+        gap: .75rem 1.25rem;
         margin-top: 2.5rem; padding: 1rem 1.5rem;
         background: var(--card-bg, #fff);
         border: 1px solid var(--border);
@@ -644,12 +648,15 @@
         font-size: .8rem; color: var(--muted);
         box-shadow: 0 2px 8px rgba(0,0,0,0.04);
       }
+      .jobs-source-status,
+      .jobs-source-links {
+        display: inline-flex;
+        align-items: center;
+        gap: .6rem;
+        flex-wrap: wrap;
+      }
       .jobs-source a { color: var(--accent); font-weight: 700; }
       .jobs-source a:hover { text-decoration: underline; }
-      .jobs-source-helper {
-        font-size: 0.78rem;
-        color: var(--muted);
-      }
       .jobs-source-dot {
         width: 4px; height: 4px;
         border-radius: 50%; background: var(--border);
@@ -795,8 +802,9 @@
         .jobs-active-filters { margin: -0.55rem 0 0.85rem; align-items: flex-start; }
         .jobs-active-filters-label { width: 100%; margin-bottom: 0.1rem; }
         .jobs-filter-chip { width: 100%; justify-content: flex-start; }
-        .jobs-source-helper { text-align: center; }
-        .jobs-source      { border-radius: 12px; }
+        .jobs-source      { border-radius: 12px; justify-content: center; text-align: center; }
+        .jobs-source-status,
+        .jobs-source-links { justify-content: center; }
       }
 
 
@@ -872,7 +880,7 @@
               <h1 id="jobs-heading">Data &amp; BI Jobs</h1>
               <p class="lead">
                 Curated full-time, part-time and student positions in Denmark across Data Analyst,
-                Business Analyst, Business Intelligence, BI Specialist, and Data Scientist roles &mdash; sourced daily from Jobindex.dk &amp; Jobbank.dk.
+                Business Analyst, Business Intelligence, BI Specialist, and Data Scientist roles &mdash; updated hourly from Jobindex.dk &amp; Jobbank.dk.
               </p>
               <div class="hero-stat-row" aria-live="polite" aria-label="Job listing statistics">
                 <div class="hero-stat" data-kpi="total">
@@ -1023,22 +1031,22 @@
 
           <!-- Source attribution -->
           <div class="jobs-source" aria-label="Data source">
-            <span><i class="fas fa-database" aria-hidden="true"></i>
-              Powered by <a href="https://www.jobindex.dk/" target="_blank"
-                rel="noopener noreferrer">Jobindex.dk</a> &amp;
-              <a href="https://jobbank.dk/" target="_blank"
-                rel="noopener noreferrer">Jobbank.dk</a>
-            </span>
-            <span class="jobs-source-dot" aria-hidden="true"></span>
-            <span id="refresh-time-label">Updated hourly</span>
-            <span class="jobs-source-dot" aria-hidden="true"></span>
-            <span class="jobs-source-helper">Use filters to narrow by role, city, job type, language, or keywords.</span>
-            <span class="jobs-source-dot" aria-hidden="true"></span>
-            <a id="jobs-see-all"
-               href="https://www.jobindex.dk/jobsoegning?q=data+analyst&arbejdstid%5B%5D=Fuldtid"
-               target="_blank" rel="noopener noreferrer">
-              Search on Jobindex <i class="fas fa-arrow-right" aria-hidden="true"></i>
-            </a>
+            <div class="jobs-source-status">
+              <span><i class="fas fa-database" aria-hidden="true"></i> Updated hourly from Jobindex.dk and Jobbank.dk</span>
+            </div>
+            <div class="jobs-source-links">
+              <a id="jobs-see-all"
+                 href="https://www.jobindex.dk/jobsoegning?q=data+analyst&arbejdstid%5B%5D=Fuldtid"
+                 target="_blank" rel="noopener noreferrer">
+                Search on Jobindex <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+              <span class="jobs-source-dot" aria-hidden="true"></span>
+              <a id="jobs-see-all-jobbank"
+                 href="https://jobbank.dk/en/job?key=data%20analyst"
+                 target="_blank" rel="noopener noreferrer">
+                Search on Jobbank <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
           </div>
 
         </div>
@@ -1118,8 +1126,20 @@
         var currentLang      = 'all';
         var currentSearch    = '';
         var JOBINDEX_SEARCH  = 'https://www.jobindex.dk/jobsoegning?q={q}&arbejdstid%5B%5D=Fuldtid';
+        var JOBINDEX_SEARCH_NOTYPE = 'https://www.jobindex.dk/jobsoegning?q={q}';
+        var JOBBANK_SEARCH   = 'https://jobbank.dk/en/job?key={q}';
         var lastDataUpdatedIso = '';
         var justNowTimer = null;
+        var CATEGORY_ORDER = ['data analyst', 'business analyst', 'business intelligence', 'bi specialist', 'data scientist', 'graduate program'];
+        var CITY_LABELS = {
+          copenhagen: 'Copenhagen',
+          aarhus: 'Aarhus',
+          odense: 'Odense',
+          aalborg: 'Aalborg',
+          esbjerg: 'Esbjerg',
+          vejle: 'Vejle',
+          remote: 'Remote'
+        };
 
         /* City keyword match map */
         var CITY_KEYWORDS = {
@@ -1137,6 +1157,92 @@
           var haystack = ((job.location || '') + ' ' + (job.title || '') + ' ' + (job.snippet || '')).toLowerCase();
           var keywords = CITY_KEYWORDS[city] || [city];
           return keywords.some(function (kw) { return haystack.indexOf(kw) !== -1; });
+        }
+        function normalizedCity(job) {
+          var haystack = ((job.location || '') + ' ' + (job.title || '') + ' ' + (job.snippet || '')).toLowerCase();
+          var match = Object.keys(CITY_KEYWORDS).find(function (key) {
+            return (CITY_KEYWORDS[key] || []).some(function (kw) { return haystack.indexOf(kw) !== -1; });
+          });
+          if (match) return CITY_LABELS[match];
+          var raw = String(job.location || '').trim();
+          if (!raw) return '';
+          var folded = raw.toLowerCase();
+          if (folded === 'denmark') return '';
+          if (folded.indexOf('greater copenhagen') !== -1 || folded.indexOf('oresund') !== -1 || folded.indexOf('\u00f8resund') !== -1) {
+            return CITY_LABELS.copenhagen;
+          }
+          return raw;
+        }
+        function normalizeDedupPart(value) {
+          return String(value || '')
+            .toLowerCase()
+            .replace(/\([^)]*\)/g, ' ')
+            .replace(/[^\w\s]+/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+        }
+        function dedupeKey(job) {
+          var title = normalizeDedupPart(job.title);
+          var company = normalizeDedupPart(job.company);
+          var url = String(job.url || '').trim().toLowerCase();
+          return (title && company) ? (title + ' @ ' + company) : url;
+        }
+        function collectJobsFromData(cat, data) {
+          var sourceData = data || JOBS_DATA;
+          if (!sourceData || !sourceData.categories) return [];
+          if (cat && cat !== 'all') return (sourceData.categories[cat] || []).slice();
+          var seen = {};
+          var merged = [];
+          CATEGORY_ORDER.forEach(function (key) {
+            (sourceData.categories[key] || []).forEach(function (job) {
+              var keyId = dedupeKey(job);
+              if (!seen[keyId]) {
+                seen[keyId] = true;
+                merged.push(job);
+              }
+            });
+          });
+          return merged;
+        }
+        function countNormalizedCities(jobs) {
+          var counts = {};
+          (jobs || []).forEach(function (job) {
+            var city = normalizedCity(job);
+            if (city) counts[city] = (counts[city] || 0) + 1;
+          });
+          return counts;
+        }
+        function collectJobs(cat) {
+          if (!JOBS_DATA || !JOBS_DATA.categories) return [];
+          return collectJobsFromData(cat, JOBS_DATA);
+        }
+        function categorySearchHref(cat) {
+          var queries = {
+            'all': 'data analyst',
+            'data analyst': 'data analyst',
+            'business analyst': 'business analyst',
+            'business intelligence': 'business intelligence',
+            'bi specialist': 'bi specialist',
+            'data scientist': 'data scientist',
+            'graduate program': 'graduate trainee data analytics business intelligence'
+          };
+          var q = encodeURIComponent(queries[cat] || cat || 'data analyst');
+          return cat === 'graduate program'
+            ? JOBINDEX_SEARCH_NOTYPE.replace('{q}', q)
+            : JOBINDEX_SEARCH.replace('{q}', q);
+        }
+        function categorySearchHrefJobbank(cat) {
+          var queries = {
+            'all': 'data analyst',
+            'data analyst': 'data analyst',
+            'business analyst': 'business analyst',
+            'business intelligence': 'business intelligence',
+            'bi specialist': 'bi specialist',
+            'data scientist': 'data scientist',
+            'graduate program': 'graduate trainee'
+          };
+          var q = encodeURIComponent(queries[cat] || cat || 'data analyst');
+          return JOBBANK_SEARCH.replace('{q}', q);
         }
         function activeLabel(selector, fallback) {
           var el = document.querySelector(selector);
@@ -1225,6 +1331,20 @@
               day: 'numeric', month: 'short', year: 'numeric'
             });
           } catch (e) { return iso; }
+        }
+        function formatRelativeDate(iso) {
+          if (!iso) return '';
+          try {
+            var posted = new Date(iso + 'T00:00:00');
+            if (isNaN(posted.getTime())) return '';
+            var now = new Date();
+            var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            var then = new Date(posted.getFullYear(), posted.getMonth(), posted.getDate());
+            var diffDays = Math.round((today - then) / 86400000);
+            if (diffDays <= 0) return 'Today';
+            if (diffDays === 1) return '1d ago';
+            return diffDays + 'd ago';
+          } catch (e) { return ''; }
         }
         function formatDateTime(iso) {
           if (!iso) return '';
@@ -1316,10 +1436,10 @@
         function updateHeroStats(data) {
           var total = 0;
           var categoryCount = 0;
+          var allJobs = [];
           if (data && data.categories) {
-            Object.keys(data.categories).forEach(function (k) {
-              total += (data.categories[k] || []).length;
-            });
+            allJobs = collectJobsFromData('all', data);
+            total = allJobs.length;
             categoryCount = Object.keys(TAB_COUNT_IDS).length;
           }
           var el = document.getElementById('stat-total');
@@ -1328,16 +1448,8 @@
           if (elCat) elCat.textContent = categoryCount > 0 ? categoryCount : '\u2014';
 
           /* Cities covered + top city */
-          if (data && data.categories) {
-            var cityCount = {};
-            Object.keys(data.categories).forEach(function (k) {
-              (data.categories[k] || []).forEach(function (j) {
-                var loc = (j.location || 'Denmark').trim();
-                if (loc && loc !== 'Denmark') {
-                  cityCount[loc] = (cityCount[loc] || 0) + 1;
-                }
-              });
-            });
+          if (allJobs.length) {
+            var cityCount = countNormalizedCities(allJobs);
             var cities = Object.keys(cityCount);
             var elCities = document.getElementById('stat-cities');
             if (elCities) elCities.textContent = cities.length > 0 ? cities.length : '\u2014';
@@ -1346,6 +1458,11 @@
               var elTop = document.getElementById('stat-top-city');
               if (elTop) elTop.textContent = topCity;
             }
+          } else {
+            var blankCities = document.getElementById('stat-cities');
+            var blankTop = document.getElementById('stat-top-city');
+            if (blankCities) blankCities.textContent = '\u2014';
+            if (blankTop) blankTop.textContent = '\u2014';
           }
 
           if (data && data.updated) showUpdatedFromIso(data.updated);
@@ -1358,11 +1475,10 @@
           Object.keys(TAB_COUNT_IDS).forEach(function (q) {
             var id  = TAB_COUNT_IDS[q];
             var n   = (data.categories[q] || []).length;
-            total += n;
             var el  = document.getElementById(id);
             if (el) { el.textContent = n; el.classList.add('loaded'); }
           });
-          /* All Jobs tab shows total (deduplicated count may differ, use sum) */
+          total = collectJobsFromData('all', data).length;
           var allEl = document.getElementById('tc-all');
           if (allEl) { allEl.textContent = total; allEl.classList.add('loaded'); }
         }
@@ -1373,22 +1489,13 @@
           var error  = document.getElementById('jobs-error');
           var count  = document.getElementById('jobs-count');
           var seeAll = document.getElementById('jobs-see-all');
+          var seeAllJobbank = document.getElementById('jobs-see-all-jobbank');
 
-          if (seeAll) seeAll.href = JOBINDEX_SEARCH.replace('{q}', cat === 'all' ? 'data+analyst' : encodeURIComponent(cat));
+          if (seeAll) seeAll.href = categorySearchHref(cat);
+          if (seeAllJobbank) seeAllJobbank.href = categorySearchHrefJobbank(cat);
 
           /* Aggregate all categories when cat==='all', otherwise use specific category */
-          var allJobs;
-          if (cat === 'all') {
-            var _dedup = {};
-            allJobs = [];
-            ['data analyst', 'business analyst', 'business intelligence', 'bi specialist', 'data scientist', 'graduate program'].forEach(function (k) {
-              ((JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[k]) || []).forEach(function (j) {
-                if (!_dedup[j.url]) { _dedup[j.url] = true; allJobs.push(j); }
-              });
-            });
-          } else {
-            allJobs = (JOBS_DATA && JOBS_DATA.categories && JOBS_DATA.categories[cat]) || [];
-          }
+          var allJobs = collectJobs(cat);
 
           /* Apply city + type + language filters, then sort by most recent first */
           var jobs = allJobs.filter(function (j) {
@@ -1414,7 +1521,7 @@
               error.innerHTML =
                 '<div class="jobs-empty-icon"><i class="fas fa-briefcase" aria-hidden="true"></i></div>' +
                 '<p>No positions found for this category yet. Listings refresh hourly from Jobindex and Jobbank.</p>' +
-                '<a href="' + JOBINDEX_SEARCH.replace('{q}', encodeURIComponent(cat)) +
+                '<a href="' + categorySearchHref(cat) +
                 '" target="_blank" rel="noopener noreferrer">Search live on Jobindex.dk &rarr;</a>';
             }
             updateActiveFilterSummary();
@@ -1463,6 +1570,7 @@
             var company  = esc(job.company  || '');
             var loc      = esc(job.location || 'Denmark');
             var posted   = formatDate(job.posted);
+            var postedRelative = formatRelativeDate(job.posted);
             var url      = esc(job.url      || '#');
             var snippet  = esc((job.snippet || '').substring(0, 130));
             var jt       = job.job_type || 'full-time';
@@ -1491,7 +1599,7 @@
               '<div class="job-meta-row">' +
               (company ? '<div class="job-company"><i class="fas fa-building" aria-hidden="true"></i> ' + company + '</div>' : '') +
               '<div class="job-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> ' + loc + '</div>' +
-              (posted ? '<div class="job-location"><i class="fas fa-clock" aria-hidden="true"></i> ' + posted + '</div>' : '') +
+              (posted ? '<div class="job-location"><i class="fas fa-clock" aria-hidden="true"></i> ' + posted + (postedRelative ? ' <span class="job-meta-relative">(' + esc(postedRelative) + ')</span>' : '') + '</div>' : '') +
               '</div>' +
               (snippet ? '<p class="job-snippet">' + snippet + '\u2026</p>' : '') +
               '</div>' +
