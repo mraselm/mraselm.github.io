@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10T23:42:56Z",
+  "updated": "2026-03-11T02:49:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -191,17 +191,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1641506",
         "posted": "2026-02-24",
         "snippet": "Vil du være en del af Danmarks største dagligvarekæde? I jobbet får du en bred berøringsflade på tværs af centrale forretningsenheder og salgsafdeling. Forankret i data skal du optimere vores performance ved at levere værdiskabend",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Advanced Business Analyst - Bliv bindeled mellem AI-strategi og forretning i DSB",
-        "company": "DSB",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1641436",
-        "posted": "2026-02-23",
-        "snippet": "Vil du være med til at omsætte forretningsbehov til intelligente AI-løsninger, der skaber værdi for både kunder og DSB? Bliv bindeleddet mellem strategi og teknologi, og vær med til at forme fremtidens digitale agenter!Du bliver d",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
