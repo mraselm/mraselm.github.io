@@ -767,14 +767,14 @@
         .hero-stat-row    { gap: 0.7rem; }
         .hero-stat        { min-width: calc(50% - 0.35rem); flex: 1 1 calc(50% - 0.35rem); }
         .hero-stat[data-kpi="cities"] { order: 3; }
+        .hero-stat[data-kpi="top-city"] { order: 4; }
         .hero-stat-tools  {
-          order: 4;
+          order: 5;
           width: 100%;
           justify-content: flex-start;
           min-height: auto;
           padding: 0;
         }
-        .hero-stat[data-kpi="top-city"] { order: 5; }
         .hero-stat-tools #jobs-updated {
           white-space: normal;
           line-height: 1.35;
@@ -874,10 +874,6 @@
                 Curated full-time, part-time and student positions in Denmark across Data Analyst,
                 Business Analyst, Business Intelligence, BI Specialist, and Data Scientist roles &mdash; sourced daily from Jobindex.dk &amp; Jobbank.dk.
               </p>
-              <div class="jobs-hero-helper" aria-label="How to use the jobs board">
-                <span><i class="fas fa-bolt" aria-hidden="true"></i>Search, filter, and apply in one place</span>
-                <span><i class="fas fa-sync-alt" aria-hidden="true"></i>Updated hourly from two sources</span>
-              </div>
               <div class="hero-stat-row" aria-live="polite" aria-label="Job listing statistics">
                 <div class="hero-stat" data-kpi="total">
                   <span class="hero-stat-num" id="stat-total">&mdash;</span>
