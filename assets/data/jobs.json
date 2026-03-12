@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T22:46:06Z",
+  "updated": "2026-03-12T23:43:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -609,17 +609,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Start Your Career with GenAI Tribe, Data Science Chapter in Copenhagen, Denmark",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13635359",
-        "posted": "2026-02-19",
-        "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Quantum Machine Learning Engineer",
         "company": "Temp-Team A/S",
         "location": "Remote",
@@ -671,17 +660,6 @@
         "posted": "2026-03-11",
         "snippet": "Vil du være med til at bygge det, der endnu ikke findes?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Start Your AI Engineer Career with the GenAI Tribe, Denmark",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13635361",
-        "posted": "2026-02-19",
-        "snippet": "Do you want to shape the future of one of the leading Nordic wholesale banks while accelerating your professional skillset?",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
