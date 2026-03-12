@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T09:02:52Z",
+  "updated": "2026-03-12T10:01:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -940,17 +940,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Graduate, Data Engineer til Jyske Capital",
-        "company": "Jyske Bank",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1634643",
-        "posted": "2026-03-02",
-        "snippet": "Bliver du kandidat til sommer og overvejer, hvad der venter dig i dit første job? Hos Jyske Bank tilbyder vi dig en unik mulighed gennem vores Graduate-program, hvor du bliver ansat i en fast stilling med attraktiv løn og gode med",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
