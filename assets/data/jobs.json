@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T13:37:08Z",
+  "updated": "2026-03-12T15:09:46Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -653,6 +653,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "AI Engineer – Build & Deploy AI Solutions for Production",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13681098",
+        "posted": "2026-03-12",
+        "snippet": "We build focused, production-ready AI solutions for professional services firms and larger enterprises.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior AI Engineer",
         "company": "",
         "location": "Copenhagen",
@@ -660,17 +671,6 @@
         "posted": "2026-03-11",
         "snippet": "Vil du være med til at bygge det, der endnu ikke findes?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer – Build & Deploy AI Solutions for Production",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13659998",
-        "posted": "2026-03-03",
-        "snippet": "We build focused, production-ready AI solutions for professional services firms and larger enterprises.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -929,6 +929,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Trainee/Elev i Business Data Platform",
+        "company": "FOSS",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1647269",
+        "posted": "2026-03-12",
+        "snippet": "Vil du have en verden af muligheder i en global virksomhed?I vores team er det vores mission som forretningspartner at sikre høj datakvalitet gennem klare forretningsprocesser og understøttende teknologi. Vi har sammensat et 2‑åri",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
