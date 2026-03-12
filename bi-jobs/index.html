@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <!-- Google Analytics -->
@@ -808,6 +808,92 @@
       }
 
 
+      /* ── Notify panel ── */
+      .notify-panel {
+        overflow: hidden;
+        max-height: 0;
+        opacity: 0;
+        transition: max-height 0.35s ease, opacity 0.3s ease, margin 0.3s ease;
+        margin-top: 0;
+      }
+      .notify-panel.is-open {
+        max-height: 260px;
+        opacity: 1;
+        margin-top: 1.25rem;
+      }
+      .notify-inner {
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 1.25rem 1.5rem;
+        box-shadow: 0 4px 16px rgba(14,23,42,0.06);
+      }
+      .notify-inner p {
+        font-size: 0.88rem;
+        color: var(--muted);
+        margin: 0 0 0.85rem;
+        line-height: 1.55;
+      }
+      .notify-form {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .notify-form input[type="email"] {
+        flex: 1 1 220px;
+        height: 2.5rem;
+        padding: 0 1rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--body-bg, #f8fafc);
+        color: var(--ink);
+        font: inherit;
+        font-size: 0.84rem;
+      }
+      .notify-form input[type="email"]:focus {
+        outline: none;
+        border-color: var(--accent, #6366f1);
+        box-shadow: 0 0 0 3px rgba(99,102,241,0.12);
+      }
+      .notify-form button[type="submit"] {
+        height: 2.5rem;
+        padding: 0 1.25rem;
+        border-radius: 999px;
+        border: none;
+        background: var(--accent, #6366f1);
+        color: #fff;
+        font: inherit;
+        font-size: 0.82rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: filter 0.15s, transform 0.15s;
+        white-space: nowrap;
+      }
+      .notify-form button[type="submit"]:hover {
+        filter: brightness(1.1);
+        transform: translateY(-1px);
+      }
+      .notify-feedback {
+        font-size: 0.82rem;
+        margin-top: 0.55rem;
+        line-height: 1.45;
+      }
+      .notify-feedback.success { color: #16a34a; }
+      .notify-feedback.error   { color: #dc2626; }
+      .notify-subscribed {
+        display: flex;
+        align-items: center;
+        gap: 0.45rem;
+        font-size: 0.84rem;
+        color: #16a34a;
+        font-weight: 600;
+      }
+      @media (max-width: 640px) {
+        .job-save-btn { opacity: 1; }
+        .notify-form input[type="email"] { flex-basis: 100%; }
+      }
+
     </style>
   </head>
 
@@ -916,6 +1002,22 @@
                  href="#jobs">
                 <i class="fas fa-sliders-h" aria-hidden="true"></i> Jump to Filters
               </a>
+              <button class="btn ghost" type="button" id="notify-toggle"
+                 aria-expanded="false" aria-controls="notify-panel">
+                <i class="fas fa-bell" aria-hidden="true"></i> Get Notified
+              </button>
+            </div>
+            <div class="notify-panel" id="notify-panel">
+              <div class="notify-inner">
+                <p><i class="fas fa-bell" aria-hidden="true" style="margin-right:0.3rem;color:var(--accent)"></i>
+                  Get weekly updates on new BI &amp; Data job openings in Denmark.</p>
+                <form class="notify-form" id="notify-form">
+                  <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address" />
+                  <input type="hidden" name="_subject" value="BI Jobs Alert Subscription" />
+                  <button type="submit"><i class="fas fa-paper-plane" aria-hidden="true"></i> Subscribe</button>
+                </form>
+                <div class="notify-feedback" id="notify-feedback" aria-live="polite"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -1131,6 +1233,8 @@
         var lastDataUpdatedIso = '';
         var justNowTimer = null;
         var CATEGORY_ORDER = ['data analyst', 'business analyst', 'business intelligence', 'bi specialist', 'data scientist', 'graduate program'];
+
+
         var CITY_LABELS = {
           copenhagen: 'Copenhagen',
           aarhus: 'Aarhus',
@@ -1724,6 +1828,65 @@
             if (JOBS_DATA) renderCategory(currentCategory, currentColor);
           });
         });
+
+
+        /* ── Notify panel ── */
+        var notifyToggle = document.getElementById('notify-toggle');
+        var notifyPanel  = document.getElementById('notify-panel');
+        var notifyForm   = document.getElementById('notify-form');
+        var notifyFb     = document.getElementById('notify-feedback');
+
+        if (localStorage.getItem('bi-jobs-subscribed')) {
+          if (notifyToggle) {
+            notifyToggle.innerHTML = '<i class="fas fa-check-circle" aria-hidden="true"></i> Subscribed';
+            notifyToggle.disabled = true;
+            notifyToggle.style.opacity = '0.7';
+            notifyToggle.style.cursor = 'default';
+          }
+        } else if (notifyToggle && notifyPanel) {
+          notifyToggle.addEventListener('click', function () {
+            var open = notifyPanel.classList.toggle('is-open');
+            notifyToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+          });
+        }
+
+        if (notifyForm) {
+          notifyForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var emailInput = notifyForm.querySelector('input[type="email"]');
+            var email = emailInput.value;
+            var submitBtn = notifyForm.querySelector('button[type="submit"]');
+            if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Sending\u2026'; }
+            /* TODO: Replace with your deployed Cloudflare Worker URL */
+            var SUBSCRIBE_URL = 'https://bi-jobs-subscribe.raselmia-uiu.workers.dev';
+            fetch(SUBSCRIBE_URL, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ email: email })
+            }).then(function (res) {
+              if (res.ok) {
+                if (notifyFb) {
+                  notifyFb.className = 'notify-feedback success';
+                  notifyFb.innerHTML = '<i class="fas fa-check-circle"></i> Subscribed! Updates will be sent to <strong>' + esc(email) + '</strong>.';
+                }
+                notifyForm.style.display = 'none';
+                try { localStorage.setItem('bi-jobs-subscribed', '1'); } catch (ex) {}
+                if (notifyToggle) {
+                  notifyToggle.innerHTML = '<i class="fas fa-check-circle" aria-hidden="true"></i> Subscribed';
+                  notifyToggle.disabled = true;
+                  notifyToggle.style.opacity = '0.7';
+                  notifyToggle.style.cursor = 'default';
+                }
+              } else { throw new Error('not ok'); }
+            }).catch(function () {
+              if (notifyFb) {
+                notifyFb.className = 'notify-feedback error';
+                notifyFb.innerHTML = '<i class="fas fa-exclamation-circle"></i> Something went wrong. Please try again.';
+              }
+              if (submitBtn) { submitBtn.disabled = false; submitBtn.innerHTML = '<i class="fas fa-paper-plane" aria-hidden="true"></i> Subscribe'; }
+            });
+          });
+        }
 
         loadData();
       })();
