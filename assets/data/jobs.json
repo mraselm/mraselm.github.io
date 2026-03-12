@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T10:01:28Z",
+  "updated": "2026-03-12T11:00:52Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -582,17 +582,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1642854",
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist",
-        "company": "DANISH CROWN A/S",
-        "location": "Randers",
-        "url": "https://www.jobindex.dk/vis-job/h1639120",
-        "posted": "2026-02-13",
-        "snippet": "Do you believe there’s a connection between bacon and data — and are you ready to drive this connection to the next level?You will play an active role in shaping and influencing data-driven decision-making, partnering with operati",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
