@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-13T22:45:50Z",
+  "updated": "2026-03-13T23:43:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -73,17 +73,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "BI-Specialist & Dataanalytiker",
-        "company": "Sorø Kommune",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1639507",
-        "posted": "2026-02-16",
-        "snippet": "Vil du være arkitekten bag vores datamodeller – og den, der gør resten af organisationen i stand til at bruge dem?Vi søger en stærk profil til vores IT & Digitaliseringsafdeling, der kan løfte vores brug af data fra rapportering t",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Analyst and Process Optimization Lead",
         "company": "ECCO SKO A/S",
         "location": "Denmark",
@@ -152,17 +141,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst til Finans",
-        "company": "Tryg Forsikring A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1642702",
-        "posted": "2026-02-27",
-        "snippet": "Vil du være med dér, hvor finansielle indsigter bliver til strategiske beslutninger?Som Business Analyst får du en rolle tæt på forretningsledelsen og bliver central i at omsætte data og analyser til konkrete handlinger.Du får mul",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst",
         "company": "Solitwork A/S",
         "location": "Copenhagen",
@@ -196,17 +174,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Business Analyst for Customer Rating & Analytics",
-        "company": "BEC Financial Technologies",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1640294",
-        "posted": "2026-02-19",
-        "snippet": "This position is based at our friendly office in Roskilde and you will join our Customer Rating & Analytics team (CRA) which is part of the regulatory Reporting Solutions (RS) domain.The position offers a unique opportunity to joi",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst",
         "company": "DSV",
         "location": "Denmark",
@@ -214,6 +181,17 @@
         "posted": "2026-02-19",
         "snippet": "Are you a results‑driven Business Analyst with a passion for people and processes?In this position, you will support the local leadership in all business‑economic matters and help strengthen our controlling activities. You will co",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Sagsbehandler/ Business Analyst til J7 Studie- og Udviklingssektionen ved Operativ Støttekommando",
+        "company": "Forsvaret",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13680310",
+        "posted": "2026-03-12",
+        "snippet": "Vil du arbejde med analyser, sagsfremstilling og policyudvikling inden for nogle af Forsvarets mest aktuelle og strategisk vigtige områder,...",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
