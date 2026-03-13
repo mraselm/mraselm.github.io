@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-13T11:46:56Z",
+  "updated": "2026-03-13T13:34:41Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -308,15 +308,15 @@
         "job_type": "full-time"
       },
       {
-        "title": "ISS søger en studentermedhjælper til at hjælpe med data og procesoptimering hos kunde i Lyngby",
-        "company": "ISS Facility Services A/S",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1646792",
-        "posted": "2026-03-11",
-        "snippet": "",
+        "title": "Vi udvider BI-teamet og søger to ambitiøse udviklere til vores videre rejse med Power BI og Azure",
+        "company": "Wismo Group A/S",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1647721",
+        "posted": "2026-03-13",
+        "snippet": "Er du typen, der ser skønheden i stabil datahåndtering og værdien i et knivskarpt dashboard?Hos os kan du blive en nøglespiller i et mindre BI-team, der leverer det fundament, som mange af virksomhedens beslutninger i Danmark og S",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "student"
+        "job_type": "full-time"
       },
       {
         "title": "Internship - Business Intelligence",
