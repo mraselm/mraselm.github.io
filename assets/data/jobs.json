@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T23:43:05Z",
+  "updated": "2026-03-13T03:09:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -68,17 +68,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1643750",
         "posted": "2026-03-03",
         "snippet": "Vil du være med til at identificere og bekæmpe den mest komplekse kriminalitet i samfundet?Vi bliver i stigende grad udfordret af de kriminelles brug af teknologi og digital kommunikation. Som dataanalytiker er du med til at tegne",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Bliv dataanalytiker i Customer data i en foreningsejet Nykredit-koncern",
-        "company": "Nykredit",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1641367",
-        "posted": "2026-02-23",
-        "snippet": "Motiveres du af at arbejde med data, og vil du gerne være med til at sikre et solidt og pålideligt datagrundlag for Nykredits kundedata og modpartsdata? Så er dette en spændende mulighed for dig.Du vil blive en del af et lille tea",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -225,6 +214,17 @@
         "posted": "2026-02-19",
         "snippet": "Are you a results‑driven Business Analyst with a passion for people and processes?In this position, you will support the local leadership in all business‑economic matters and help strengthen our controlling activities. You will co",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Sagsbehandler/ Business Analyst til J7 Studie- og Udviklingssektionen ved Operativ Støttekommando",
+        "company": "Forsvaret",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13680310",
+        "posted": "2026-03-12",
+        "snippet": "Vil du arbejde med analyser, sagsfremstilling og policyudvikling inden for nogle af Forsvarets mest aktuelle og strategisk vigtige områder,...",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
