@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-14T17:44:43Z",
+  "updated": "2026-03-14T18:57:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -24,6 +24,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1639743",
         "posted": "2026-02-17",
         "snippet": "Passionate about turning data into insight and bridging business and IT?You will play a key role in shaping how data supports decision-making across Wrist. You work hands-on with master data, ensuring high quality and consistency,",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Energy Data Analyst (HSE-ENV-EC-2026-57-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13685283",
+        "posted": "2026-03-14",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
