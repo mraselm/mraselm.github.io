@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-15T22:48:30Z",
+  "updated": "2026-03-15T23:45:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -516,17 +516,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1645062",
         "posted": "2026-03-05",
         "snippet": "Vi søger en Senior Data Scientist, der kan kan tage en central i vores data science‑arbejde og være med til at løfte vores metoder, værktøjer og datagrundlag til næste niveau.Dine primære opgaver omfatter:Bidrage med din viden ind",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data scientist med stærk data-, proces- og systemforståelse til Center for It og Data",
-        "company": "Familieretshuset",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643589",
-        "posted": "2026-03-03",
-        "snippet": "Kan du omsætte data til værdifulde indsigter, der kan optimere processer og understøtte strategiske beslutninger? Har du erfaring med at formidle og oversætte data til praktiske løsninger?Du vil samarbejde tæt med forretningen for",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
