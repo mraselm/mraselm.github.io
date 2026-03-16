@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16T10:16:57Z",
+  "updated": "2026-03-16T11:14:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -539,6 +539,17 @@
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist til sundhedsinnovation og forskning ved Blodprøver og Biokemi",
+        "company": "Odense Universitetshospitals Børnecenter",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13686419",
+        "posted": "2026-03-16",
+        "snippet": "Vi søger en engageret Data Scientist til vores forskningsgruppe \"Den Intelligente Patientjournal\" (IPJ.dk) på Odense Universitetshospital.",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
