@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16T17:17:51Z",
+  "updated": "2026-03-16T19:29:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -196,13 +196,13 @@
         "job_type": "full-time"
       },
       {
-        "title": "Sagsbehandler/ Business Analyst til J7 Studie- og Udviklingssektionen ved Operativ Støttekommando",
-        "company": "Forsvaret",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13680310",
-        "posted": "2026-03-12",
-        "snippet": "Vil du arbejde med analyser, sagsfremstilling og policyudvikling inden for nogle af Forsvarets mest aktuelle og strategisk vigtige områder,...",
-        "lang": "da",
+        "title": "Business Analyst",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13687962",
+        "posted": "2026-03-16",
+        "snippet": "Vi leder efter nye stjerner til vores Strategy and Operations team.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -544,11 +544,22 @@
       },
       {
         "title": "Data Scientist til sundhedsinnovation og forskning ved Blodprøver og Biokemi",
-        "company": "Odense Universitetshospitals Børnecenter",
+        "company": "Region Syddanmark",
         "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13686419",
+        "url": "https://www.jobindex.dk/vis-job/r13687274",
         "posted": "2026-03-16",
         "snippet": "Vi søger en engageret Data Scientist til vores forskningsgruppe \"Den Intelligente Patientjournal\" (IPJ.dk) på Odense Universitetshospital.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Ansvarlig for Data Science",
+        "company": "Clever A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13687985",
+        "posted": "2026-03-16",
+        "snippet": "Som Data Scientist i Clever er du med til at balancere det danske elnet.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
