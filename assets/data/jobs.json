@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T22:53:08Z",
+  "updated": "2026-03-17T23:47:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -14,17 +14,6 @@
         "posted": "2026-02-18",
         "snippet": "Du får en central rolle i at strukturere og videreudvikle vores data med særligt fokus på definition, struktur og kvalitetssikring af vores hoved-KPI’er herunder churn, sign-ups, revenue metrics, etc.I stillingen bliver du en del",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Master Data Analyst",
-        "company": "Wrist Ship Supply",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1639743",
-        "posted": "2026-02-17",
-        "snippet": "Passionate about turning data into insight and bridging business and IT?You will play a key role in shaping how data supports decision-making across Wrist. You work hands-on with master data, ensuring high quality and consistency,",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
