@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T15:17:44Z",
+  "updated": "2026-03-17T17:18:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -308,6 +308,17 @@
         "job_type": "student"
       },
       {
+        "title": "Talented BI Student Assistant",
+        "company": "Paychex Europe",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1648738",
+        "posted": "2026-03-17",
+        "snippet": "Help turn data into insights by supporting the BI team with data preparation, analysis, and engaging visualizations in Power BI, Excel, and Microsoft Fabric to drive smarter decisions.We foster a supportive and social team culture",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -486,6 +497,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Talented BI Student Assistant",
+        "company": "Paychex Europe",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1648738",
+        "posted": "2026-03-17",
+        "snippet": "Help turn data into insights by supporting the BI team with data preparation, analysis, and engaging visualizations in Power BI, Excel, and Microsoft Fabric to drive smarter decisions.We foster a supportive and social team culture",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion – og samtidig få superrelevant erhvervserfaring? Bliv student hos os!",
         "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
         "location": "Glostrup",
@@ -538,6 +560,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1642854",
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist ̶̶ Integration of structure and omics-related data",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13689892",
+        "posted": "2026-03-17",
+        "snippet": "We are seeking a Data Scientist to support infrastructure for harmonization and integration of omics related data.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
