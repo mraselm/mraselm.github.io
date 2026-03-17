@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T13:52:40Z",
+  "updated": "2026-03-17T15:17:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -297,6 +297,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion – og samtidig få superrelevant erhvervserfaring? Bliv student hos os!",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1648678",
+        "posted": "2026-03-17",
+        "snippet": "Vil du have relevant joberfaring og en unik mulighed for at arbejde helt tæt på beslutningerne og beslutningstagerne i en stor statslig styrelse?Du får en rolle i den daglige koordinering af sager, som styrelsen håndterer i samarb",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -473,6 +484,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion – og samtidig få superrelevant erhvervserfaring? Bliv student hos os!",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1648678",
+        "posted": "2026-03-17",
+        "snippet": "Vil du have relevant joberfaring og en unik mulighed for at arbejde helt tæt på beslutningerne og beslutningstagerne i en stor statslig styrelse?Du får en rolle i den daglige koordinering af sager, som styrelsen håndterer i samarb",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
