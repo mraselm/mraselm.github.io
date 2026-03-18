@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-18T10:12:54Z",
+  "updated": "2026-03-18T11:10:59Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -527,17 +527,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1642854",
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist ̶̶ Integration of structure and omics-related data",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13689892",
-        "posted": "2026-03-17",
-        "snippet": "We are seeking a Data Scientist to support infrastructure for harmonization and integration of omics related data.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
