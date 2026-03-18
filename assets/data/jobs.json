@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-18T07:18:34Z",
+  "updated": "2026-03-18T09:08:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -170,6 +170,17 @@
         "posted": "2026-02-19",
         "snippet": "Are you a results‑driven Business Analyst with a passion for people and processes?In this position, you will support the local leadership in all business‑economic matters and help strengthen our controlling activities. You will co",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker - analyse, projektledelse og rådgivning",
+        "company": "Politi",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1648843",
+        "posted": "2026-03-18",
+        "snippet": "Vi søger en analytisk stærk og samarbejdsorienteret forretningsanalytiker, der kan understøtte vores arbejde med IT- og infrastrukturprojekter gennem analyser, projektledelse og rådgivning.Stillingen er en bred rolle som indebærer",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -885,6 +896,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Graduate, Analytiker til AI & Dataprodukter",
+        "company": "Jyske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1648808",
+        "posted": "2026-03-18",
+        "snippet": "Bliver du kandidat til sommer og overvejer, hvad der venter dig i dit første job?Hos Jyske Bank tilbyder vi dig en unik mulighed gennem vores Graduate-program, hvor du bliver ansat i en fast stilling med attraktiv løn og gode meda",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
