@@ -1,22 +1,11 @@
 {
-  "updated": "2026-03-18T22:52:14Z",
+  "updated": "2026-03-18T23:43:31Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Finance Data Analyst",
-        "company": "e-conomic",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1639996",
-        "posted": "2026-02-18",
-        "snippet": "Du får en central rolle i at strukturere og videreudvikle vores data med særligt fokus på definition, struktur og kvalitetssikring af vores hoved-KPI’er herunder churn, sign-ups, revenue metrics, etc.I stillingen bliver du en del",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Full Stack Data Analyst",
         "company": "Pleo Technologies A/S",
