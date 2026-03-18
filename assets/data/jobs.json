@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-18T09:08:40Z",
+  "updated": "2026-03-18T10:12:54Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -238,17 +238,6 @@
         "posted": "2026-03-09",
         "snippet": "Brænder du for dataanalyser og formidling af disse?Kunne du tænke dig at blive en del af en dynamisk og vækstorienteret virksomhed, hvor du får en central rolle i at videreudvikle og undervise i vores BI-platform på tværs af hele",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Intelligence developer – develop dashboards to improve company efficiency",
-        "company": "Systematic A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1637200",
-        "posted": "2026-03-06",
-        "snippet": "Could you see yourself be the key driver of Power BI dashboard reporting?As a Senior BI Developer, you'll simplify complex data into visual and meaningful insights that enable our Finance colleagues and business managers to be dat",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
