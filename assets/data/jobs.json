@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-18T17:18:40Z",
+  "updated": "2026-03-18T19:18:04Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -14,6 +14,17 @@
         "posted": "2026-02-18",
         "snippet": "Du får en central rolle i at strukturere og videreudvikle vores data med særligt fokus på definition, struktur og kvalitetssikring af vores hoved-KPI’er herunder churn, sign-ups, revenue metrics, etc.I stillingen bliver du en del",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Full Stack Data Analyst",
+        "company": "Pleo Technologies A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13693599",
+        "posted": "2026-03-18",
+        "snippet": "Messy spend management is tricky business.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
