@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-18T05:42:05Z",
+  "updated": "2026-03-18T07:18:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -174,17 +174,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13687962",
-        "posted": "2026-03-16",
-        "snippet": "Vi leder efter nye stjerner til vores Strategy and Operations team.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "IT Business Analyst Intern",
         "company": "Ganni",
         "location": "Copenhagen",
@@ -249,17 +238,6 @@
         "posted": "2026-03-06",
         "snippet": "Could you see yourself be the key driver of Power BI dashboard reporting?As a Senior BI Developer, you'll simplify complex data into visual and meaningful insights that enable our Finance colleagues and business managers to be dat",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Intelligence Developer",
-        "company": "DUOS A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1643960",
-        "posted": "2026-03-03",
-        "snippet": "Vi er i en spændende fase, hvor vi bygger nyt, skalerer og migrerer til en større dataplatform for at centralisere BI-funktionen på tværs af selskaber i DUOS-koncernen.Du bliver en central teknisk profil i BI-teamet og får ansvar",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
