@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T13:43:08Z",
+  "updated": "2026-03-19T15:07:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -148,17 +148,6 @@
         "posted": "2026-02-26",
         "snippet": "Trives du med at opbygge relationer til kunder, drive dialogen og identificere muligheder for forretning, samtidig med at du arbejder proaktivt i en hverdag med højt tempo og variation?Hos Solitwork får du en central rolle i at de",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business analyst (senior)",
-        "company": "BEC Financial Technologies",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1641548",
-        "posted": "2026-02-24",
-        "snippet": "The Senior Business Analyst role offers you the possibility to work with our existing solutions in the credit risk area as well as participate in BEC’s tech transformation journey.It is in the Reporting Solutions domain which is r",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
