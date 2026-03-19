@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T19:15:56Z",
+  "updated": "2026-03-19T19:55:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -159,6 +159,17 @@
         "posted": "2026-02-19",
         "snippet": "Are you a results‑driven Business Analyst with a passion for people and processes?In this position, you will support the local leadership in all business‑economic matters and help strengthen our controlling activities. You will co",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Procurement Business Analyst",
+        "company": "Frontmatec Group APS",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/r13696983",
+        "posted": "2026-03-19",
+        "snippet": "Vil du være med til at forberede forhandlings resultatet - ikke bare analysere dem?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
