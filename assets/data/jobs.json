@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-18T23:43:31Z",
+  "updated": "2026-03-19T03:21:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -554,6 +554,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Ansvarlig for Data Science",
+        "company": "Clever A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13687985",
+        "posted": "2026-03-16",
+        "snippet": "Som Data Scientist i Clever er du med til at balancere det danske elnet.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "(Senior) Data Scientist",
         "company": "Novo Nordisk A/S",
         "location": "Denmark",
@@ -594,17 +605,6 @@
         "posted": "2026-03-06",
         "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Hos nemlig er vi i gang med at aktivere vores stærke dataplatform med ML i stor skala, og derfor søger vi en Senior Machine Learning E",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Dampskibsselskabet NORDEN A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1640316",
-        "posted": "2026-02-19",
-        "snippet": "To uphold high-quality digital solutions provided to our commercial teams, we are looking for an AI Engineer to join our Chartering Analytics team in Copenhagen.Our tech stack consists of Python and its modern ecosystem (uv, FastA",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
