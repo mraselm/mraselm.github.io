@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T18:05:52Z",
+  "updated": "2026-03-19T19:15:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -7,7 +7,7 @@
   "categories": {
     "data analyst": [
       {
-        "title": "Full Stack Data Analyst",
+        "title": "Fullstack Data Analyst",
         "company": "Pleo Technologies A/S",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13693599",
@@ -24,17 +24,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13685283",
         "posted": "2026-03-14",
         "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Advanced Data Analyst",
-        "company": "Novo Nordisk A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13678484",
-        "posted": "2026-03-11",
-        "snippet": "Do you have a passion for numbers and accountability?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -453,17 +442,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data solution architect til Business Intelligence",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13659478",
-        "posted": "2026-03-03",
-        "snippet": "Til DataHorizon-projektet søger vi en Data Solution Architect med stærk teknisk profil og erfaring inden for data engineering og softwareudvikling.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Talented BI Student Assistant",
         "company": "Paychex Europe",
         "location": "Denmark",
@@ -532,6 +510,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Student Data Scientist at Center for Humanities Computing",
+        "company": "Aarhus Universitet",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13696119",
+        "posted": "2026-03-19",
+        "snippet": "Institut for Kultur og Samfund - Center for Humanities Computing Jens Chr.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist ̶̶ Integration of structure and omics-related data",
         "company": "",
         "location": "Copenhagen",
@@ -539,28 +528,6 @@
         "posted": "2026-03-17",
         "snippet": "We are seeking a Data Scientist to support infrastructure for harmonization and integration of omics related data.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til sundhedsinnovation og forskning ved Blodprøver og Biokemi",
-        "company": "Region Syddanmark",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13687274",
-        "posted": "2026-03-16",
-        "snippet": "Vi søger en engageret Data Scientist til vores forskningsgruppe \"Den Intelligente Patientjournal\" (IPJ.dk) på Odense Universitetshospital.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Ansvarlig for Data Science",
-        "company": "Clever A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13687985",
-        "posted": "2026-03-16",
-        "snippet": "Som Data Scientist i Clever er du med til at balancere det danske elnet.",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
