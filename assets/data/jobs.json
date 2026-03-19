@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T11:02:46Z",
+  "updated": "2026-03-19T11:51:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -241,6 +241,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Senior BI Consultant til ATP Ejendomme",
+        "company": "ATP Ejendomme A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1649337",
+        "posted": "2026-03-19",
+        "snippet": "Vil du styrke beslutningsgrundlaget i en organisation med store ejendomsinvesteringer og et stort fokus på data?Du får en central rolle i udviklingen af business intelligence og rapportering i ATP Ejendomme. Du arbejder tæt sammen",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Controller til Business Intelligence afdelingen",
         "company": "Davidsen",
