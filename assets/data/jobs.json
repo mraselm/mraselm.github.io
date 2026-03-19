@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T10:01:51Z",
+  "updated": "2026-03-19T11:02:46Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -262,6 +262,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student Assistant til S&OP - få værdifuld erfaring med data og analyser",
+        "company": "N1 A/S",
+        "location": "Esbjerg",
+        "url": "https://www.jobindex.dk/vis-job/h1649334",
+        "posted": "2026-03-19",
+        "snippet": "Hos N1 søger vi en studentermedhjælper til vores S&OP-team, hvor du bliver en del af arbejdet med forecast, planlægning og analyser.Du får mulighed for at arbejde med data fra mange forskellige kilder og bidrage til indsigt, der u",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion – og samtidig få superrelevant erhvervserfaring? Bliv student hos os!",
