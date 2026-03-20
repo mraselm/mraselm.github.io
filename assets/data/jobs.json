@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-20T08:59:43Z",
+  "updated": "2026-03-20T09:58:45Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -107,6 +107,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Skab fremtidens løsninger – Business Analyst med fokus på RPA",
+        "company": "Udviklings- og Forenklingsstyrelsen",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1649665",
+        "posted": "2026-03-20",
+        "snippet": "Brænder du for at afdække potentialer for automatisering? Er du mester i gennemskue udfordringer og muligheder for effektivisering af arbejdsprocesser? Kan du udarbejde stringente krav til løsningsudvikling og eksekvere på aftalte",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst til Styrelsen for Fødevarer, Landbrug & Fiskeri - Barselsvikariat",
         "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
@@ -449,17 +460,6 @@
         "posted": "2026-03-17",
         "snippet": "Help turn data into insights by supporting the BI team with data preparation, analysis, and engaging visualizations in Power BI, Excel, and Microsoft Fabric to drive smarter decisions.We foster a supportive and social team culture",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion – og samtidig få superrelevant erhvervserfaring? Bliv student hos os!",
-        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1648678",
-        "posted": "2026-03-17",
-        "snippet": "Vil du have relevant joberfaring og en unik mulighed for at arbejde helt tæt på beslutningerne og beslutningstagerne i en stor statslig styrelse?Du får en rolle i den daglige koordinering af sager, som styrelsen håndterer i samarb",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "student"
       }
