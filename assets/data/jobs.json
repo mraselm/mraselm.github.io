@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-21T17:42:37Z",
+  "updated": "2026-03-21T18:54:45Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -180,17 +180,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1641506",
         "posted": "2026-02-24",
         "snippet": "Vil du være en del af Danmarks største dagligvarekæde? I jobbet får du en bred berøringsflade på tværs af centrale forretningsenheder og salgsafdeling. Forankret i data skal du optimere vores performance ved at levere værdiskabend",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Procurement Business Analyst",
-        "company": "Frontmatec Group APS",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/r13696983",
-        "posted": "2026-03-19",
-        "snippet": "Vil du være med til at forberede forhandlings resultatet - ikke bare analysere dem?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
