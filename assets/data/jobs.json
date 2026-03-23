@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T18:05:51Z",
+  "updated": "2026-03-23T19:14:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -18,7 +18,7 @@
         "job_type": "full-time"
       },
       {
-        "title": "Project Data Analyst [Open to all applicants] - Home-based, Copenhagen, Denmark",
+        "title": "Project Data Analyst [Open to all applicants], Home-Based, Copenhagen, Denmark",
         "company": "United Nations Development Programme",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13698551",
@@ -170,6 +170,17 @@
         "posted": "2026-02-26",
         "snippet": "Trives du med at opbygge relationer til kunder, drive dialogen og identificere muligheder for forretning, samtidig med at du arbejder proaktivt i en hverdag med højt tempo og variation?Hos Solitwork får du en central rolle i at de",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst for GenAI Innovation Lab",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13699718",
+        "posted": "2026-03-21",
+        "snippet": "Would you like to be part of Generative AI development and play a role in turning it into measurable business outcomes?",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -495,39 +506,6 @@
         "posted": "2026-03-19",
         "snippet": "Institut for Kultur og Samfund - Center for Humanities Computing Jens Chr.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist ̶̶ Integration of structure and omics-related data",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13689892",
-        "posted": "2026-03-17",
-        "snippet": "We are seeking a Data Scientist to support infrastructure for harmonization and integration of omics related data.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til sundhedsinnovation og forskning ved Blodprøver og Biokemi",
-        "company": "Region Syddanmark",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13687274",
-        "posted": "2026-03-16",
-        "snippet": "Vi søger en engageret Data Scientist til vores forskningsgruppe \"Den Intelligente Patientjournal\" (IPJ.dk) på Odense Universitetshospital.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Ansvarlig for Data Science",
-        "company": "Clever A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13687985",
-        "posted": "2026-03-16",
-        "snippet": "Som Data Scientist i Clever er du med til at balancere det danske elnet.",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
