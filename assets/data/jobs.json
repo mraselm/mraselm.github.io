@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T07:40:01Z",
+  "updated": "2026-03-23T09:14:00Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -230,6 +230,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Business Intelligence Specialist",
+        "company": "BIOFOS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1650050",
+        "posted": "2026-03-23",
+        "snippet": "Du bliver en del af IT og Digitaliseringsafdelingen, hvor vi arbejder målrettet med datadrevet styring, governance og moderne BI-løsninger.Som BI-specialist vil du arbejde med hele værdikæden inden for Business Intelligence, lige",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior BI Consultant til ATP Ejendomme",
         "company": "ATP Ejendomme A/S",
