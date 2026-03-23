@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T10:15:52Z",
+  "updated": "2026-03-23T11:11:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -852,17 +852,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Graduate, Analytiker til AI & Dataprodukter",
-        "company": "Jyske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1648808",
-        "posted": "2026-03-18",
-        "snippet": "Bliver du kandidat til sommer og overvejer, hvad der venter dig i dit første job?Hos Jyske Bank tilbyder vi dig en unik mulighed gennem vores Graduate-program, hvor du bliver ansat i en fast stilling med attraktiv løn og gode meda",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
