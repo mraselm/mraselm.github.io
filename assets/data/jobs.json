@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T11:11:13Z",
+  "updated": "2026-03-23T11:55:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -129,6 +129,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
+        "company": "BitaBIZ",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1650147",
+        "posted": "2026-03-23",
+        "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Skab fremtidens løsninger – Business Analyst med fokus på RPA",
         "company": "Udviklings- og Forenklingsstyrelsen",
