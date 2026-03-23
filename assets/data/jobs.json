@@ -1,11 +1,66 @@
 {
-  "updated": "2026-03-23T13:50:38Z",
+  "updated": "2026-03-23T15:16:07Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Senior Data Analyst - Quality Analytics",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13699043",
+        "posted": "2026-03-20",
+        "snippet": "Are you passionate about turning complex data into actionable insights that support quality, compliance, and decision-making?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Project Data Analyst [Open to all applicants] - Home-based, Copenhagen, Denmark",
+        "company": "United Nations Development Programme",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13698551",
+        "posted": "2026-03-20",
+        "snippet": "The United Nations Development Programme (UNDP) is the knowledge frontier organization for sustainable development within the UN...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Fullstack Data Analyst",
+        "company": "Pleo Technologies A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13693599",
+        "posted": "2026-03-18",
+        "snippet": "Messy spend management is tricky business.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Energy Data Analyst (HSE-ENV-EC-2026-57-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13685283",
+        "posted": "2026-03-14",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst for Molecular Endocrinology and Stem Cell Research Unit (KMEB)",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13655457",
+        "posted": "2026-03-02",
+        "snippet": "We are looking for a Data Analyst (AC-TAP) position with a focus on data analysis and management within the Danish Structural Imaging and...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Bliv senior dataanalytiker i Mortgage Data and Reporting i en foreningsejet Nykredit-koncern",
         "company": "Nykredit",
@@ -15,7 +70,7 @@
         "snippet": "Vil du være med til at udvikle fremtidens datagrundlag for realkreditforretningen i Totalkredit og Nykredit og samtidig sikre forvaltning, fortsat analyse og nedlukning af nuværende on-prem BI-løsninger, når tiden er inde til det?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker - kvalitet & sikkerhed",
@@ -26,7 +81,7 @@
         "snippet": "Hos dao søger vi en analytiker, der kan bruge data aktivt til at identificere uregelmæssigheder i pakkeflowet og være med til at sikre, at vores pakker håndteres korrekt gennem hele deres rejse.Du bliver en del af et mindre team m",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -114,17 +169,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1627000",
         "posted": "2026-02-26",
         "snippet": "Trives du med at opbygge relationer til kunder, drive dialogen og identificere muligheder for forretning, samtidig med at du arbejder proaktivt i en hverdag med højt tempo og variation?Hos Solitwork får du en central rolle i at de",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Procurement Business Analyst",
-        "company": "Frontmatec Group APS",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/r13696983",
-        "posted": "2026-03-19",
-        "snippet": "Vil du være med til at forberede forhandlings resultatet - ikke bare analysere dem?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -400,12 +444,89 @@
     ],
     "data scientist": [
       {
+        "title": "Data Scientist",
+        "company": "JYSK",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1646502",
+        "posted": "2026-03-10",
+        "snippet": "At JYSK, we are strengthening how we use AI to support data-driven decision-making, operational efficiency, and innovation across the organisation. In this role, you will take ownership of delivering end-to-end AI/ML solutions – f",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Data Scientist",
         "company": "Danmarks Nationalbank",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/h1645062",
         "posted": "2026-03-05",
         "snippet": "Vi søger en Senior Data Scientist, der kan kan tage en central i vores data science‑arbejde og være med til at løfte vores metoder, værktøjer og datagrundlag til næste niveau.Dine primære opgaver omfatter:Bidrage med din viden ind",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist for Medical Device Development",
+        "company": "RSP Systems A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1642662",
+        "posted": "2026-02-27",
+        "snippet": "Join our dedicated team and become part of a company developing the next-generation glucose monitors to improve the lives of millions of people with impaired glucose control.The work will include research within regression modelli",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "DLG",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1642854",
+        "posted": "2026-02-27",
+        "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Data Scientist at Center for Humanities Computing",
+        "company": "Aarhus Universitet",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13696119",
+        "posted": "2026-03-19",
+        "snippet": "Institut for Kultur og Samfund - Center for Humanities Computing Jens Chr.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist ̶̶ Integration of structure and omics-related data",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13689892",
+        "posted": "2026-03-17",
+        "snippet": "We are seeking a Data Scientist to support infrastructure for harmonization and integration of omics related data.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist til sundhedsinnovation og forskning ved Blodprøver og Biokemi",
+        "company": "Region Syddanmark",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13687274",
+        "posted": "2026-03-16",
+        "snippet": "Vi søger en engageret Data Scientist til vores forskningsgruppe \"Den Intelligente Patientjournal\" (IPJ.dk) på Odense Universitetshospital.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Ansvarlig for Data Science",
+        "company": "Clever A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13687985",
+        "posted": "2026-03-16",
+        "snippet": "Som Data Scientist i Clever er du med til at balancere det danske elnet.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -475,83 +596,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "JYSK",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1646502",
-        "posted": "2026-03-10",
-        "snippet": "At JYSK, we are strengthening how we use AI to support data-driven decision-making, operational efficiency, and innovation across the organisation. In this role, you will take ownership of delivering end-to-end AI/ML solutions – f",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Data Scientist for Medical Device Development",
-        "company": "RSP Systems A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1642662",
-        "posted": "2026-02-27",
-        "snippet": "Join our dedicated team and become part of a company developing the next-generation glucose monitors to improve the lives of millions of people with impaired glucose control.The work will include research within regression modelli",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "DLG",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1642854",
-        "posted": "2026-02-27",
-        "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Student Data Scientist at Center for Humanities Computing",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13696119",
-        "posted": "2026-03-19",
-        "snippet": "Institut for Kultur og Samfund - Center for Humanities Computing Jens Chr.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Data Scientist ̶̶ Integration of structure and omics-related data",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13689892",
-        "posted": "2026-03-17",
-        "snippet": "We are seeking a Data Scientist to support infrastructure for harmonization and integration of omics related data.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Data Scientist til sundhedsinnovation og forskning ved Blodprøver og Biokemi",
-        "company": "Region Syddanmark",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13687274",
-        "posted": "2026-03-16",
-        "snippet": "Vi søger en engageret Data Scientist til vores forskningsgruppe \"Den Intelligente Patientjournal\" (IPJ.dk) på Odense Universitetshospital.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Ansvarlig for Data Science",
-        "company": "Clever A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13687985",
-        "posted": "2026-03-16",
-        "snippet": "Som Data Scientist i Clever er du med til at balancere det danske elnet.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
