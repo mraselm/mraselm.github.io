@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T15:34:39Z",
+  "updated": "2026-03-24T17:14:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -319,6 +319,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Bygningsstyrelsen søger lige nu en studentermedhjælper til opgaver indenfor dataanalyse, BI og økonomistyring i vores Center for Byggeri",
+        "company": "Bygningsstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1650867",
+        "posted": "2026-03-24",
+        "snippet": "Du får en vigtig rolle i at udvikle og videreudvikle vores BI- og rapporteringsløsninger, for eksempel i Power BI, Power Apps og andre rapporterings- og analysetools.Den ugentlige arbejdstid vil være omkring 15 timer i gennemsnit",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
         "company": "Beierholm Godkendt Revisionspartnerselskab",
         "location": "Copenhagen",
@@ -495,6 +506,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Bygningsstyrelsen søger lige nu en studentermedhjælper til opgaver indenfor dataanalyse, BI og økonomistyring i vores Center for Byggeri",
+        "company": "Bygningsstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1650867",
+        "posted": "2026-03-24",
+        "snippet": "Du får en vigtig rolle i at udvikle og videreudvikle vores BI- og rapporteringsløsninger, for eksempel i Power BI, Power Apps og andre rapporterings- og analysetools.Den ugentlige arbejdstid vil være omkring 15 timer i gennemsnit",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
