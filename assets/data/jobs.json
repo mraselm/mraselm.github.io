@@ -1,11 +1,22 @@
 {
-  "updated": "2026-03-24T10:10:19Z",
+  "updated": "2026-03-24T11:10:27Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Data analyst for large international collaborative project on menopause and mental health",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13702526",
+        "posted": "2026-03-24",
+        "snippet": "We are looking for a data analyst – for example a biostatistician or epidemiologist with strong quantitative skills – to join the Research...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Data Analyst - Quality Analytics",
         "company": "Novo Nordisk A/S",
