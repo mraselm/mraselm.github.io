@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T18:10:11Z",
+  "updated": "2026-03-24T19:30:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,17 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13693599",
         "posted": "2026-03-18",
         "snippet": "Messy spend management is tricky business.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Energy Data Analyst (HSE-ENV-EC-2026-57-GRAP)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13685283",
-        "posted": "2026-03-14",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -196,12 +185,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst, Sweco Danmark",
-        "company": "Sweco Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13702354",
-        "posted": "2026-03-23",
-        "snippet": "Er du analytisk, nysgerrig og struktureret?",
+        "title": "Business Analyst - Business Development & Retail Planning",
+        "company": "Coop Danmark A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13704089",
+        "posted": "2026-03-24",
+        "snippet": "Vil du arbejde i krydsfeltet mellem strategi, analyse og forretningsudvikling i en af Danmarks største retailvirksomheder?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -571,17 +560,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1642854",
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student Data Scientist at Center for Humanities Computing",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13696119",
-        "posted": "2026-03-19",
-        "snippet": "Institut for Kultur og Samfund - Center for Humanities Computing Jens Chr.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
