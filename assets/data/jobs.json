@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T07:31:32Z",
+  "updated": "2026-03-24T09:09:49Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -165,7 +165,7 @@
       {
         "title": "Business Analyst, Sweco Danmark",
         "company": "Sweco Danmark A/S",
-        "location": "Denmark",
+        "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13702354",
         "posted": "2026-03-23",
         "snippet": "Er du analytisk, nysgerrig og struktureret?",
@@ -181,17 +181,6 @@
         "posted": "2026-03-21",
         "snippet": "Would you like to be part of Generative AI development and play a role in turning it into measurable business outcomes?",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Procurement Business Analyst",
-        "company": "Frontmatec Group APS",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/r13696983",
-        "posted": "2026-03-19",
-        "snippet": "Vil du være med til at forberede forhandlings resultatet - ikke bare analysere dem?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
