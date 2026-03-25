@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T22:57:03Z",
+  "updated": "2026-03-25T23:51:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -180,17 +180,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1649665",
         "posted": "2026-03-20",
         "snippet": "Brænder du for at afdække potentialer for automatisering? Er du mester i gennemskue udfordringer og muligheder for effektivisering af arbejdsprocesser? Kan du udarbejde stringente krav til løsningsudvikling og eksekvere på aftalte",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "ZF Danmark ApS",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1642972",
-        "posted": "2026-02-27",
-        "snippet": "Er du skarp til data, forretningsforståelse og procesoptimering – og trives du i rollen som bindeleddet mellem forretning og regnskab?Hos ZF Danmark søger vi en engageret Business Analyst, der vil være med til at styrke vores fina",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -565,17 +554,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Data Scientist",
-        "company": "Danmarks Nationalbank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1645062",
-        "posted": "2026-03-05",
-        "snippet": "Vi søger en Senior Data Scientist, der kan kan tage en central i vores data science‑arbejde og være med til at løfte vores metoder, værktøjer og datagrundlag til næste niveau.Dine primære opgaver omfatter:Bidrage med din viden ind",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Scientist for Medical Device Development",
         "company": "RSP Systems A/S",
         "location": "Odense",
@@ -593,6 +571,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1642854",
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Data Scientist at Center for Humanities Computing",
+        "company": "Aarhus Universitet",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13696119",
+        "posted": "2026-03-19",
+        "snippet": "Institut for Kultur og Samfund - Center for Humanities Computing Jens Chr.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
