@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T07:36:38Z",
+  "updated": "2026-03-26T09:14:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -152,61 +152,6 @@
     ],
     "business analyst": [
       {
-        "title": "Business Analyst – Create Our First-Ever Service Catalogue",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1650617",
-        "posted": "2026-03-24",
-        "snippet": "Are you ready to help us build a service catalogue that will become a vital tool for literally thousands of colleagues all around the globe in their work with sales and service delivery?Then join us and help formalise the structur",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
-        "company": "BitaBIZ",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650147",
-        "posted": "2026-03-23",
-        "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Skab fremtidens løsninger – Business Analyst med fokus på RPA",
-        "company": "Udviklings- og Forenklingsstyrelsen",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1649665",
-        "posted": "2026-03-20",
-        "snippet": "Brænder du for at afdække potentialer for automatisering? Er du mester i gennemskue udfordringer og muligheder for effektivisering af arbejdsprocesser? Kan du udarbejde stringente krav til løsningsudvikling og eksekvere på aftalte",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Solitwork A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1627000",
-        "posted": "2026-02-26",
-        "snippet": "Trives du med at opbygge relationer til kunder, drive dialogen og identificere muligheder for forretning, samtidig med at du arbejder proaktivt i en hverdag med højt tempo og variation?Hos Solitwork får du en central rolle i at de",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13708427",
-        "posted": "2026-03-25",
-        "snippet": "Around half of the world’s laundry machines still run on coins.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -214,17 +159,6 @@
         "posted": "2026-03-25",
         "snippet": "Are you a curious and analytical professional with an investigatory mind who can help us with identifying business processes and use your...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Business Development & Retail Planning",
-        "company": "Coop Danmark A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13704089",
-        "posted": "2026-03-24",
-        "snippet": "Vil du arbejde i krydsfeltet mellem strategi, analyse og forretningsudvikling i en af Danmarks største retailvirksomheder?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -238,6 +172,72 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst – Create Our First-Ever Service Catalogue",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1650617",
+        "posted": "2026-03-24",
+        "snippet": "Are you ready to help us build a service catalogue that will become a vital tool for literally thousands of colleagues all around the globe in their work with sales and service delivery?Then join us and help formalise the structur",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
+        "company": "BitaBIZ",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1650147",
+        "posted": "2026-03-23",
+        "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Skab fremtidens løsninger – Business Analyst med fokus på RPA",
+        "company": "Udviklings- og Forenklingsstyrelsen",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1649665",
+        "posted": "2026-03-20",
+        "snippet": "Brænder du for at afdække potentialer for automatisering? Er du mester i gennemskue udfordringer og muligheder for effektivisering af arbejdsprocesser? Kan du udarbejde stringente krav til løsningsudvikling og eksekvere på aftalte",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Solitwork A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1627000",
+        "posted": "2026-02-26",
+        "snippet": "Trives du med at opbygge relationer til kunder, drive dialogen og identificere muligheder for forretning, samtidig med at du arbejder proaktivt i en hverdag med højt tempo og variation?Hos Solitwork får du en central rolle i at de",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13708427",
+        "posted": "2026-03-25",
+        "snippet": "Around half of the world’s laundry machines still run on coins.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst - Business Development & Retail Planning",
+        "company": "Coop Danmark A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13704089",
+        "posted": "2026-03-24",
+        "snippet": "Vil du arbejde i krydsfeltet mellem strategi, analyse og forretningsudvikling i en af Danmarks største retailvirksomheder?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
@@ -297,13 +297,13 @@
     ],
     "business intelligence": [
       {
-        "title": "Business Intelligence Specialist",
-        "company": "BIOFOS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650050",
-        "posted": "2026-03-23",
-        "snippet": "Du bliver en del af IT og Digitaliseringsafdelingen, hvor vi arbejder målrettet med datadrevet styring, governance og moderne BI-løsninger.Som BI-specialist vil du arbejde med hele værdikæden inden for Business Intelligence, lige",
-        "lang": "da",
+        "title": "Senior BI Developer",
+        "company": "DANISH CROWN A/S",
+        "location": "Randers",
+        "url": "https://www.jobindex.dk/vis-job/h1637517",
+        "posted": "2026-03-09",
+        "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -319,6 +319,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business Intelligence Specialist",
+        "company": "BIOFOS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1650050",
+        "posted": "2026-03-23",
+        "snippet": "Du bliver en del af IT og Digitaliseringsafdelingen, hvor vi arbejder målrettet med datadrevet styring, governance og moderne BI-løsninger.Som BI-specialist vil du arbejde med hele værdikæden inden for Business Intelligence, lige",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
         "title": "Business Controller til Business Intelligence afdelingen",
         "company": "Davidsen",
         "location": "Kolding",
@@ -327,18 +338,7 @@
         "snippet": "Brænder du for dataanalyser og formidling af disse?Kunne du tænke dig at blive en del af en dynamisk og vækstorienteret virksomhed, hvor du får en central rolle i at videreudvikle og undervise i vores BI-platform på tværs af hele",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior BI Developer",
-        "company": "DANISH CROWN A/S",
-        "location": "Randers",
-        "url": "https://www.jobindex.dk/vis-job/h1637517",
-        "posted": "2026-03-09",
-        "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
@@ -527,7 +527,7 @@
         "snippet": "Som Power BI Specialist bliver du nøglen til at omsætte data til indsigt og skabe brugervenlige rapporteringsløsninger, der understøtter både driftsafdelingen og ledelsen.Du arbejder tæt sammen med kolleger i Asset Data & Document",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
@@ -587,17 +587,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Student Data Scientist at Center for Humanities Computing",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13696119",
-        "posted": "2026-03-19",
-        "snippet": "Institut for Kultur og Samfund - Center for Humanities Computing Jens Chr.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "(Senior) Data Scientist",
         "company": "Novo Nordisk A/S",
         "location": "Denmark",
@@ -642,24 +631,13 @@
         "job_type": "full-time"
       },
       {
-        "title": "AI Engineer – Build & Deploy AI Solutions for Production",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13681098",
-        "posted": "2026-03-12",
-        "snippet": "We build focused, production-ready AI solutions for professional services firms and larger enterprises.",
+        "title": "Computer Vision & AI Engineer",
+        "company": "BEUMER Group A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1651300",
+        "posted": "2026-03-26",
+        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13679739",
-        "posted": "2026-03-11",
-        "snippet": "Vil du være med til at bygge det, der endnu ikke findes?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
