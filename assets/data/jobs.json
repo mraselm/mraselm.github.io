@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T05:50:30Z",
+  "updated": "2026-03-26T07:36:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -214,6 +214,17 @@
         "posted": "2026-03-25",
         "snippet": "Are you a curious and analytical professional with an investigatory mind who can help us with identifying business processes and use your...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst - Business Development & Retail Planning",
+        "company": "Coop Danmark A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13704089",
+        "posted": "2026-03-24",
+        "snippet": "Vil du arbejde i krydsfeltet mellem strategi, analyse og forretningsudvikling i en af Danmarks største retailvirksomheder?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
