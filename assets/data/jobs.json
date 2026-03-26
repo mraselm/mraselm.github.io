@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T22:50:48Z",
+  "updated": "2026-03-26T23:48:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -208,17 +208,6 @@
       },
       {
         "title": "Business Analyst",
-        "company": "Solitwork A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1627000",
-        "posted": "2026-02-26",
-        "snippet": "Trives du med at opbygge relationer til kunder, drive dialogen og identificere muligheder for forretning, samtidig med at du arbejder proaktivt i en hverdag med højt tempo og variation?Hos Solitwork får du en central rolle i at de",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
         "company": "",
         "location": "Odense",
         "url": "https://www.jobindex.dk/vis-job/r13708427",
@@ -236,6 +225,17 @@
         "posted": "2026-03-25",
         "snippet": "Are you a curious and analytical professional with an investigatory mind who can help us with identifying business processes and use your...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst - Business Development & Retail Planning",
+        "company": "Coop Danmark A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13704089",
+        "posted": "2026-03-24",
+        "snippet": "Vil du arbejde i krydsfeltet mellem strategi, analyse og forretningsudvikling i en af Danmarks største retailvirksomheder?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -609,17 +609,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist",
-        "company": "DLG",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1642854",
-        "posted": "2026-02-27",
-        "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Machine Learning /AI Engineer (Senior to Principal Level), Permanent contract",
         "company": "Devoteam A/S",
         "location": "Copenhagen",
@@ -929,6 +918,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Graduate program CGI Danmark - Kickstart din karriere indenfor Financial Services & Data Analytics",
+        "company": "CGI Danmark A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1642793",
+        "posted": "2026-03-27",
+        "snippet": "Drømmer du om at arbejde med fremtidens dataløsninger for nogle af Danmarks og verdens største virksomheder?Vi tilbyder et unikt 12-måneders graduateprogram, hvor du får det bedste fra begge verdener: solid teoretisk træning, hand",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate, Analytiker til Jyske Realkredit",
         "company": "Jyske Bank",
