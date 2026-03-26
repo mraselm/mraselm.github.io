@@ -1,11 +1,22 @@
 {
-  "updated": "2026-03-26T17:19:15Z",
+  "updated": "2026-03-26T19:32:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "HR Data Analyst (HR-CBS-RA-2026-73-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13710404",
+        "posted": "2026-03-26",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Energy Data Analyst (HSE-ENV-EC-2026-57-GRAP)",
         "company": "",
@@ -90,6 +101,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1645542",
         "posted": "2026-03-06",
         "snippet": "Hos dao søger vi en analytiker, der kan bruge data aktivt til at identificere uregelmæssigheder i pakkeflowet og være med til at sikre, at vores pakker håndteres korrekt gennem hele deres rejse.Du bliver en del af et mindre team m",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "datamanager/dataanalytiker til internationalt studie",
+        "company": "Region Hovedstaden",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/r13709789",
+        "posted": "2026-03-26",
+        "snippet": "Hjerteafdeling på Bispebjerg og Frederiksberg Hospital søger en datamanager/dataanalytiker med tiltrædelse d. 1. maj eller snarest herefter.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -604,28 +626,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1642854",
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "(Senior) Data Scientist",
-        "company": "Novo Nordisk A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13678486",
-        "posted": "2026-03-11",
-        "snippet": "Are you a computational drug hunter with a deep understanding of the drug discovery process?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "(Senior) Data Scientist",
-        "company": "Novo Nordisk A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13678485",
-        "posted": "2026-03-11",
-        "snippet": "Are you passionate about working at the interface between AI/ML and protein design and translating ideas into tangible impact in drug discovery?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
