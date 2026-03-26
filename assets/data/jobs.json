@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T19:32:47Z",
+  "updated": "2026-03-26T20:51:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -236,17 +236,6 @@
         "posted": "2026-03-25",
         "snippet": "Are you a curious and analytical professional with an investigatory mind who can help us with identifying business processes and use your...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Business Development & Retail Planning",
-        "company": "Coop Danmark A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13704089",
-        "posted": "2026-03-24",
-        "snippet": "Vil du arbejde i krydsfeltet mellem strategi, analyse og forretningsudvikling i en af Danmarks største retailvirksomheder?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -626,6 +615,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1642854",
         "posted": "2026-02-27",
         "snippet": "If you want to use data and AI to solve real-world problems that truly make a difference, you will feel at home here.As a Data Scientist, you help us turn data into action. You design and build machine learning models, develop dat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning /AI Engineer (Senior to Principal Level), Permanent contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13711854",
+        "posted": "2026-03-26",
+        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
