@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T12:01:10Z",
+  "updated": "2026-03-26T13:59:49Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -218,17 +218,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst - Business Development & Retail Planning",
-        "company": "Coop Danmark A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13704089",
-        "posted": "2026-03-24",
-        "snippet": "Vil du arbejde i krydsfeltet mellem strategi, analyse og forretningsudvikling i en af Danmarks største retailvirksomheder?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker - analyse, projektledelse og rådgivning",
         "company": "Politi",
         "location": "Denmark",
@@ -339,6 +328,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper med stærke Excel kompetencer til HR Data og International Tjeneste",
+        "company": "Politi",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1651503",
+        "posted": "2026-03-26",
+        "snippet": "Vil du have et job, hvor Excel er dit vigtigste arbejdsredskab?Vi søger en studentermedhjælper, der kan trække og bearbejde HR-data til besvarelse af diverse spørgsmål. Dine opgaver vil primært være:Trækning og bearbejdning af HR-",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
