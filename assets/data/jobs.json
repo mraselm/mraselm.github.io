@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T15:10:07Z",
+  "updated": "2026-03-27T16:06:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -117,6 +117,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13713203",
+        "posted": "2026-03-27",
+        "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "datamanager/dataanalytiker til internationalt studie",
         "company": "Region Hovedstaden",
         "location": "Frederiksberg",
@@ -173,6 +184,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst",
+        "company": "BESTSELLER",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1652297",
+        "posted": "2026-03-27",
+        "snippet": "Do you enjoy turning complexity into clear solutions? And do you want to take ownership of how tech supports business across BESTSELLER?In this role, you will turn business needs into concrete solutions. You connect the dots betwe",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst - skab innovative PowerBI-løsninger til fremtidens elnet",
         "company": "N1 A/S",
@@ -247,17 +269,6 @@
         "posted": "2026-03-25",
         "snippet": "Are you a curious and analytical professional with an investigatory mind who can help us with identifying business processes and use your...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Business Development & Retail Planning",
-        "company": "Coop Danmark A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13704089",
-        "posted": "2026-03-24",
-        "snippet": "Vil du arbejde i krydsfeltet mellem strategi, analyse og forretningsudvikling i en af Danmarks største retailvirksomheder?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
