@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T03:30:30Z",
+  "updated": "2026-03-27T05:51:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -605,6 +605,17 @@
         "posted": "2026-02-27",
         "snippet": "Join our dedicated team and become part of a company developing the next-generation glucose monitors to improve the lives of millions of people with impaired glucose control.The work will include research within regression modelli",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13711977",
+        "posted": "2026-03-27",
+        "snippet": "Vil du være en del af Danmarks digitale frontline?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
