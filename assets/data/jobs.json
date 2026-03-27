@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T07:35:56Z",
+  "updated": "2026-03-27T09:08:31Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -115,17 +115,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
-        "company": "Beierholm Godkendt Revisionspartnerselskab",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650929",
-        "posted": "2026-03-25",
-        "snippet": "Vi fortsætter med at vækste og ønsker at styrke teamet med dygtige studentermedhjælpere (M&A Analysts), der har lyst til at lære faget indefra og bidrage med høj energi og gåpåmod.Arbejdstiden vil typisk være ca. 20 timer om ugen,",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -262,17 +251,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
-        "company": "Beierholm Godkendt Revisionspartnerselskab",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650929",
-        "posted": "2026-03-25",
-        "snippet": "Vi fortsætter med at vækste og ønsker at styrke teamet med dygtige studentermedhjælpere (M&A Analysts), der har lyst til at lære faget indefra og bidrage med høj energi og gåpåmod.Arbejdstiden vil typisk være ca. 20 timer om ugen,",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "IT Business Analyst Intern",
         "company": "Ganni",
         "location": "Copenhagen",
@@ -380,28 +358,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1651503",
         "posted": "2026-03-26",
         "snippet": "Vil du have et job, hvor Excel er dit vigtigste arbejdsredskab?Vi søger en studentermedhjælper, der kan trække og bearbejde HR-data til besvarelse af diverse spørgsmål. Dine opgaver vil primært være:Trækning og bearbejdning af HR-",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bygningsstyrelsen søger lige nu en studentermedhjælper til opgaver indenfor dataanalyse, BI og økonomistyring i vores Center for Byggeri",
-        "company": "Bygningsstyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650867",
-        "posted": "2026-03-24",
-        "snippet": "Du får en vigtig rolle i at udvikle og videreudvikle vores BI- og rapporteringsløsninger, for eksempel i Power BI, Power Apps og andre rapporterings- og analysetools.Den ugentlige arbejdstid vil være omkring 15 timer i gennemsnit",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
-        "company": "Beierholm Godkendt Revisionspartnerselskab",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650929",
-        "posted": "2026-03-25",
-        "snippet": "Vi fortsætter med at vækste og ønsker at styrke teamet med dygtige studentermedhjælpere (M&A Analysts), der har lyst til at lære faget indefra og bidrage med høj energi og gåpåmod.Arbejdstiden vil typisk være ca. 20 timer om ugen,",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -583,20 +539,20 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Oaklins Beierholm - M&A Analyst (studentermedhjælper) til Corporate Finance",
-        "company": "Beierholm Godkendt Revisionspartnerselskab",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650929",
-        "posted": "2026-03-25",
-        "snippet": "Vi fortsætter med at vækste og ønsker at styrke teamet med dygtige studentermedhjælpere (M&A Analysts), der har lyst til at lære faget indefra og bidrage med høj energi og gåpåmod.Arbejdstiden vil typisk være ca. 20 timer om ugen,",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
+      {
+        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1651776",
+        "posted": "2026-03-27",
+        "snippet": "Vil du være en del af Danmarks digitale frontline? Du indgår i et specialiseret team, der planlægger og gennemfører avancerede cyberoperationer. Dit primære arbejdsområde vil være at analysere og formidle forskellige typer af data",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Scientist",
         "company": "JYSK",
@@ -616,17 +572,6 @@
         "posted": "2026-02-27",
         "snippet": "Join our dedicated team and become part of a company developing the next-generation glucose monitors to improve the lives of millions of people with impaired glucose control.The work will include research within regression modelli",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
-        "company": "Forsvarets Efterretningstjeneste",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13711977",
-        "posted": "2026-03-27",
-        "snippet": "Vil du være en del af Danmarks digitale frontline?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
