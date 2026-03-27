@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T09:08:31Z",
+  "updated": "2026-03-27T10:07:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -80,6 +80,17 @@
         "posted": "2026-03-18",
         "snippet": "Messy spend management is tricky business.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til udvikling af datadrevne løsninger",
+        "company": "Lyngby-Taarbæk Forsyning A/S",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1651867",
+        "posted": "2026-03-27",
+        "snippet": "Kan du omdanne data til viden, så det kan bruges til at optimere processer, identificere muligheder og styrke datadrevne beslutninger?Lige nu søger vi en dataanalytiker, som kan hjælpe os med at blive endnu bedre til at kortlægge,",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
