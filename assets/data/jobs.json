@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T11:07:51Z",
+  "updated": "2026-03-27T11:56:59Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -363,6 +363,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
+        "company": "Wrist Ship Supply",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1651963",
+        "posted": "2026-03-27",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Business Intelligence Student Assistant til Home of Carlsberg",
         "company": "Carlsberg",
         "location": "Copenhagen",
@@ -552,6 +563,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
+        "company": "Wrist Ship Supply",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1651963",
+        "posted": "2026-03-27",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Business Intelligence Student Assistant til Home of Carlsberg",
         "company": "Carlsberg",
         "location": "Copenhagen",
@@ -600,7 +622,7 @@
       {
         "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
         "company": "Forsvaret",
-        "location": "Denmark",
+        "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13712451",
         "posted": "2026-03-27",
         "snippet": "Vil du være en del af Danmarks digitale frontline?",
