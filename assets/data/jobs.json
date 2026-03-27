@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T10:07:30Z",
+  "updated": "2026-03-27T11:07:51Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -173,6 +173,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst for Global IT - Enterprise Business Development",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1651881",
+        "posted": "2026-03-27",
+        "snippet": "Are you an experienced Business Analyst who brings clarity and structure to complex, fast‑moving delivery environments?We are looking for a new colleague who takes ownership of how business needs are understood, shaped, and transl",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst – Create Our First-Ever Service Catalogue",
         "company": "DSV",
@@ -583,6 +594,17 @@
         "posted": "2026-02-27",
         "snippet": "Join our dedicated team and become part of a company developing the next-generation glucose monitors to improve the lives of millions of people with impaired glucose control.The work will include research within regression modelli",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
+        "company": "Forsvaret",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13712451",
+        "posted": "2026-03-27",
+        "snippet": "Vil du være en del af Danmarks digitale frontline?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
