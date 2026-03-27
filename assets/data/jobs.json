@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T19:12:06Z",
+  "updated": "2026-03-27T19:52:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -279,17 +279,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13714016",
         "posted": "2026-03-27",
         "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13708427",
-        "posted": "2026-03-25",
-        "snippet": "Around half of the world’s laundry machines still run on coins.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -649,17 +638,6 @@
         "posted": "2026-03-27",
         "snippet": "Vil du være en del af Danmarks digitale frontline?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning /AI Engineer (Senior to Principal Level), Permanent contract",
-        "company": "Devoteam A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13711854",
-        "posted": "2026-03-26",
-        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
