@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-28T17:47:07Z",
+  "updated": "2026-03-28T19:00:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -57,17 +57,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13699043",
         "posted": "2026-03-20",
         "snippet": "Are you passionate about turning complex data into actionable insights that support quality, compliance, and decision-making?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Project Data Analyst [Open to all applicants], Home-Based, Copenhagen, Denmark",
-        "company": "United Nations Development Programme",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13698551",
-        "posted": "2026-03-20",
-        "snippet": "The United Nations Development Programme (UNDP) is the knowledge frontier organization for sustainable development within the UN...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
