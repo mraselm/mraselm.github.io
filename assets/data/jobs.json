@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-29T21:47:29Z",
+  "updated": "2026-03-29T22:51:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -268,6 +268,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13714016",
         "posted": "2026-03-27",
         "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13708427",
+        "posted": "2026-03-25",
+        "snippet": "Around half of the world’s laundry machines still run on coins.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -563,17 +574,6 @@
     ],
     "bi specialist": [
       {
-        "title": "Power BI specialist",
-        "company": "Københavns Lufthavne A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1645116",
-        "posted": "2026-03-05",
-        "snippet": "Som Power BI Specialist bliver du nøglen til at omsætte data til indsigt og skabe brugervenlige rapporteringsløsninger, der understøtter både driftsafdelingen og ledelsen.Du arbejder tæt sammen med kolleger i Asset Data & Document",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
         "company": "Wrist Ship Supply",
         "location": "Denmark",
@@ -609,45 +609,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist for Medical Device Development",
-        "company": "RSP Systems A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1642662",
-        "posted": "2026-02-27",
-        "snippet": "Join our dedicated team and become part of a company developing the next-generation glucose monitors to improve the lives of millions of people with impaired glucose control.The work will include research within regression modelli",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
         "company": "Forsvaret",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13712451",
         "posted": "2026-03-27",
         "snippet": "Vil du være en del af Danmarks digitale frontline?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Quantum Machine Learning Engineer",
-        "company": "Temp-Team A/S",
-        "location": "Remote",
-        "url": "https://www.jobindex.dk/vis-job/h1646053",
-        "posted": "2026-03-09",
-        "snippet": "We are seeking a engineer to join our client’s dynamic, multidisciplinary team advancing the frontier of scalable quantum computing.The team brings together a highly talented and diverse international group dedicated to building t",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Machine Learning Engineer – byg fremtidens ML-platform med os",
-        "company": "nemlig.com",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/h1645482",
-        "posted": "2026-03-06",
-        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Hos nemlig er vi i gang med at aktivere vores stærke dataplatform med ML i stor skala, og derfor søger vi en Senior Machine Learning E",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
