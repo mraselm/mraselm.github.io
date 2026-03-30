@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-30T03:43:20Z",
+  "updated": "2026-03-30T06:08:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -396,6 +396,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper til H.C. Andersen-projekt i afdelingen Specialsamlinger på Det Kgl. Bibliotek, København (tidsbegrænset)",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652322",
+        "posted": "2026-03-30",
+        "snippet": "Vil du være med til at give verden adgang til H.C. Andersens originale manuskripter og breve?Du vil blive tilknyttet et projektteam, hvor du vil få mulighed for at dykke ned i alle aspekter af H.C. Andersens tekster, samt være med",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til afdelingen Specialsamlinger på Det Kgl. Bibliotek, København",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652321",
+        "posted": "2026-03-30",
+        "snippet": "Vil du være med til at give adgang til Danmarks kulturarv? Det Kgl. Bibliotek søger en studentermedhjælper til den daglige tværgående drift i afdelingens forskellige samlinger.Du kommer bl.a. til at arbejde med:Sortering og regist",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
         "company": "Wrist Ship Supply",
         "location": "Denmark",
@@ -574,23 +596,34 @@
     ],
     "bi specialist": [
       {
+        "title": "Studentermedhjælper til H.C. Andersen-projekt i afdelingen Specialsamlinger på Det Kgl. Bibliotek, København (tidsbegrænset)",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652322",
+        "posted": "2026-03-30",
+        "snippet": "Vil du være med til at give verden adgang til H.C. Andersens originale manuskripter og breve?Du vil blive tilknyttet et projektteam, hvor du vil få mulighed for at dykke ned i alle aspekter af H.C. Andersens tekster, samt være med",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til afdelingen Specialsamlinger på Det Kgl. Bibliotek, København",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652321",
+        "posted": "2026-03-30",
+        "snippet": "Vil du være med til at give adgang til Danmarks kulturarv? Det Kgl. Bibliotek søger en studentermedhjælper til den daglige tværgående drift i afdelingens forskellige samlinger.Du kommer bl.a. til at arbejde med:Sortering og regist",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
         "company": "Wrist Ship Supply",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/h1651963",
         "posted": "2026-03-27",
         "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Business Intelligence Student Assistant til Home of Carlsberg",
-        "company": "Carlsberg",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1651681",
-        "posted": "2026-03-26",
-        "snippet": "Som vores fremtidige studentermedhjælper bliver du en del af vores Digital & Insights team, der driver digitale innovationsprojekter, gæsteundersøgelser, businness intelligence udvikling og vores AI agenda.Du skal være med til at",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
