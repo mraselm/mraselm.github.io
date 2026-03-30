@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-30T06:08:01Z",
+  "updated": "2026-03-30T08:01:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -195,6 +195,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Senior Business Analyst – Post-Trade Program",
+        "company": "BEC Financial Technologies",
+        "location": "Roskilde",
+        "url": "https://www.jobindex.dk/vis-job/h1652419",
+        "posted": "2026-03-30",
+        "snippet": "The Senior Business Analyst role offers a unique opportunity to contribute directly to one of BEC’s strategic programs.You will work with complex regulatory requirements, collaborate with engaged customers across Denmark, and help",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst",
         "company": "BESTSELLER",
@@ -424,17 +435,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1651963",
         "posted": "2026-03-27",
         "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Business Intelligence Student Assistant til Home of Carlsberg",
-        "company": "Carlsberg",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1651681",
-        "posted": "2026-03-26",
-        "snippet": "Som vores fremtidige studentermedhjælper bliver du en del af vores Digital & Insights team, der driver digitale innovationsprojekter, gæsteundersøgelser, businness intelligence udvikling og vores AI agenda.Du skal være med til at",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
