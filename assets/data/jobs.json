@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-30T11:18:57Z",
+  "updated": "2026-03-30T14:03:15Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -273,23 +273,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business analyst til Contract Management & Compliance søges til Forsvarsministeriets Materiel- og Indkøbsstyrelse",
+        "company": "Forsvarets Koncernfælles Informatiktjeneste (FKIT)",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13716670",
+        "posted": "2026-03-30",
+        "snippet": "Anvend dine analytiske kompetencer til at understøtte udviklingen af Contract Management i Forsvaret og bidrag til datagrundlag,...",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst (FAP-BC-PM-2026-74-GRAP)",
         "company": "",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/r13714016",
         "posted": "2026-03-27",
         "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13708427",
-        "posted": "2026-03-25",
-        "snippet": "Around half of the world’s laundry machines still run on coins.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -641,6 +641,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Senior Data Scientist, Dnk",
+        "company": "Intrum A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652642",
+        "posted": "2026-03-30",
+        "snippet": "Vil du være med til at forme vores næste generation af AI teknologi og tage et ledende ansvar i udviklingen af vores mest forretningskritiske systemer?Du skal stå for udviklingen af vores AI platforme, herunder vores neurale netvæ",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
         "company": "Forsvarets Efterretningstjeneste",
