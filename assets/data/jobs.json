@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T07:44:42Z",
+  "updated": "2026-03-31T09:18:51Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -396,6 +396,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper / Juniorkonsulent (analyse, data og økonomi)",
+        "company": "Jhn Processor I/S",
+        "location": "Vejle",
+        "url": "https://www.jobindex.dk/vis-job/h1652972",
+        "posted": "2026-03-31",
+        "snippet": "Vil du arbejde med data, dataindsamling, analyser og rådgivning, der har reel betydning for klima- og miljøområdet – og samtidig have mulighed for en fremtidig fast stilling?Hos os bliver du en aktiv del af vores projekter og opga",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælper med flair for data og analyse",
         "company": "VisitDenmark",
         "location": "Copenhagen",
@@ -630,6 +641,28 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Senior Data Scientist/ Senior Risk Model Analyst",
+        "company": "Santander Consumer Bank",
+        "location": "Hvidovre",
+        "url": "https://www.jobindex.dk/vis-job/h1652967",
+        "posted": "2026-03-31",
+        "snippet": "We are looking for a Senior Data Scientist/ Senior Risk Model Analyst to join the Nordic Advanced Analytics and Risk Modeling Team.Key ResponsibilitiesDelivering state of the art Models in a timely mannerImproved calibration, stab",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist/Risk Model Analyst",
+        "company": "Santander Consumer Bank",
+        "location": "Hvidovre",
+        "url": "https://www.jobindex.dk/vis-job/h1652963",
+        "posted": "2026-03-31",
+        "snippet": "We are looking for a Data Scientist/Risk Model Analyst to join the Nordic Advanced Analytics and Risk Modeling Team.Key Responsibilities:Delivering state of the art Models in a timely mannerImproved calibration, stability and sepa",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Data Scientist, Dnk",
         "company": "Intrum A/S",
