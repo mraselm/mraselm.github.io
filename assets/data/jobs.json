@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T21:55:59Z",
+  "updated": "2026-03-31T22:52:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -79,17 +79,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1649203",
         "posted": "2026-03-19",
         "snippet": "Vil du være med til at udvikle fremtidens datagrundlag for realkreditforretningen i Totalkredit og Nykredit og samtidig sikre forvaltning, fortsat analyse og nedlukning af nuværende on-prem BI-løsninger, når tiden er inde til det?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker - kvalitet & sikkerhed",
-        "company": "dao",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1645542",
-        "posted": "2026-03-06",
-        "snippet": "Hos dao søger vi en analytiker, der kan bruge data aktivt til at identificere uregelmæssigheder i pakkeflowet og være med til at sikre, at vores pakker håndteres korrekt gennem hele deres rejse.Du bliver en del af et mindre team m",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -991,6 +980,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1642793",
         "posted": "2026-03-27",
         "snippet": "Drømmer du om at arbejde med fremtidens dataløsninger for nogle af Danmarks og verdens største virksomheder?Vi tilbyder et unikt 12-måneders graduateprogram, hvor du får det bedste fra begge verdener: solid teoretisk træning, hand",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
+      {
+        "title": "Graduate, Analytiker til Jyske Realkredit",
+        "company": "Jyske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1641794",
+        "posted": "2026-03-24",
+        "snippet": "Bliver du kandidat til sommer og overvejer, hvad der venter dig i dit første job?Vi tilbyder dig en unik mulighed gennem vores Graduate-program, hvor du bliver ansat i en fast stilling med attraktiv løn og gode medarbejdervilkår.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "graduate"
