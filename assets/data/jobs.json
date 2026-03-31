@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T11:11:25Z",
+  "updated": "2026-03-31T12:00:59Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -73,6 +73,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
+        "company": "Forsvaret",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1653112",
+        "posted": "2026-03-31",
+        "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Dataanalytiker til udvikling af datadrevne løsninger",
         "company": "Lyngby-Taarbæk Forsyning A/S",
         "location": "Lyngby",
@@ -101,17 +112,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1645542",
         "posted": "2026-03-06",
         "snippet": "Hos dao søger vi en analytiker, der kan bruge data aktivt til at identificere uregelmæssigheder i pakkeflowet og være med til at sikre, at vores pakker håndteres korrekt gennem hele deres rejse.Du bliver en del af et mindre team m",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
-        "company": "Forsvaret",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13713496",
-        "posted": "2026-03-27",
-        "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -195,6 +195,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst - Pricing",
+        "company": "STARK Danmark",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1653088",
+        "posted": "2026-03-31",
+        "snippet": "Som Business Analyst i Pricing bliver du den, der omsætter data og forretningslogik til konkrete pricing‑løsninger, der skaber synlig værdi.Du arbejder tæt sammen med IT, økonomi og forretningen som helhed, driver processer fremad",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Business Analyst – Post-Trade Program",
         "company": "BEC Financial Technologies",
@@ -440,17 +451,6 @@
         "job_type": "student"
       },
       {
-        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
-        "company": "Wrist Ship Supply",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1651963",
-        "posted": "2026-03-27",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -624,17 +624,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1652321",
         "posted": "2026-03-30",
         "snippet": "Vil du være med til at give adgang til Danmarks kulturarv? Det Kgl. Bibliotek søger en studentermedhjælper til den daglige tværgående drift i afdelingens forskellige samlinger.Du kommer bl.a. til at arbejde med:Sortering og regist",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
-        "company": "Wrist Ship Supply",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1651963",
-        "posted": "2026-03-27",
-        "snippet": "",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -980,17 +969,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1642793",
         "posted": "2026-03-27",
         "snippet": "Drømmer du om at arbejde med fremtidens dataløsninger for nogle af Danmarks og verdens største virksomheder?Vi tilbyder et unikt 12-måneders graduateprogram, hvor du får det bedste fra begge verdener: solid teoretisk træning, hand",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
-      {
-        "title": "Graduate, Analytiker til Jyske Realkredit",
-        "company": "Jyske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1641794",
-        "posted": "2026-03-24",
-        "snippet": "Bliver du kandidat til sommer og overvejer, hvad der venter dig i dit første job?Vi tilbyder dig en unik mulighed gennem vores Graduate-program, hvor du bliver ansat i en fast stilling med attraktiv løn og gode medarbejdervilkår.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "graduate"
