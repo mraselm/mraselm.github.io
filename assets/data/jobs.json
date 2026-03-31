@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T17:14:31Z",
+  "updated": "2026-03-31T18:08:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -7,23 +7,12 @@
   "categories": {
     "data analyst": [
       {
-        "title": "HR Data Analyst (HR-CBS-RA-2026-73-GRAP)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13710404",
-        "posted": "2026-03-26",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Energy Data Analyst (HSE-ENV-EC-2026-57-GRAP)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13707946",
-        "posted": "2026-03-25",
-        "snippet": "",
+        "title": "Student Business/Data Analyst (Dashboards & Visualization)",
+        "company": "Join a Fast-Growing Scale-Up!",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13720865",
+        "posted": "2026-03-31",
+        "snippet": "Student Business/Data Analyst (Dashboards & Visualization) - Join a Fast-Growing Scale-Up!",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -57,17 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13699043",
         "posted": "2026-03-20",
         "snippet": "Are you passionate about turning complex data into actionable insights that support quality, compliance, and decision-making?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Fullstack Data Analyst",
-        "company": "Pleo Technologies A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13693599",
-        "posted": "2026-03-18",
-        "snippet": "Messy spend management is tricky business.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -675,6 +653,39 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Scientist (TE-DPS-AIM-2026-75-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13720484",
+        "posted": "2026-03-31",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist (TE-DPS-AIM-2026-76-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13720483",
+        "posted": "2026-03-31",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13720861",
+        "posted": "2026-03-31",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
         "company": "Forsvaret",
         "location": "Copenhagen",
@@ -682,6 +693,17 @@
         "posted": "2026-03-27",
         "snippet": "Vil du være en del af Danmarks digitale frontline?",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer (TE-DPS-AIM-2026-94-GRAE)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13720485",
+        "posted": "2026-03-31",
+        "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
