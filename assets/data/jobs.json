@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T21:01:55Z",
+  "updated": "2026-04-01T21:58:49Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -759,17 +759,6 @@
         "posted": "2026-03-12",
         "snippet": "We build focused, production-ready AI solutions for professional services firms and larger enterprises.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13679739",
-        "posted": "2026-03-11",
-        "snippet": "Vil du være med til at bygge det, der endnu ikke findes?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
