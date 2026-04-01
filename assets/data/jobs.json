@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T11:14:07Z",
+  "updated": "2026-04-01T12:02:49Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -704,6 +704,17 @@
         "posted": "2026-03-31",
         "snippet": "",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - Digital Engineering Commercial",
+        "company": "twoday A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1653528",
+        "posted": "2026-04-01",
+        "snippet": "Du bliver en central del af vores AI‑arbejde, hvor vi kombinerer moderne udviklingspraksis med de muligheder, der ligger i AI‑drevet softwareudvikling.Du kommer til at arbejde tæt på kunderne i korte, intensive forløb – ofte i spr",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
