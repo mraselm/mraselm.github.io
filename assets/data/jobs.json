@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T06:03:57Z",
+  "updated": "2026-04-01T07:55:07Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -163,6 +163,17 @@
     ],
     "business analyst": [
       {
+        "title": "Business Analyst - Purchase Management",
+        "company": "STARK Danmark",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1653315",
+        "posted": "2026-04-01",
+        "snippet": "Vil du være den, der omsætter komplekse indkøbsdata til løsninger, der gør hele vores forretning skarpere? Du bliver en nøglespiller i krydsfeltet mellem IT, indkøb, økonomi og forretning. Du bliver en central aktør i at forenkle",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst - Pricing",
         "company": "STARK Danmark",
         "location": "Aarhus",
@@ -246,17 +257,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1649665",
         "posted": "2026-03-20",
         "snippet": "Brænder du for at afdække potentialer for automatisering? Er du mester i gennemskue udfordringer og muligheder for effektivisering af arbejdsprocesser? Kan du udarbejde stringente krav til løsningsudvikling og eksekvere på aftalte",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business analyst til Contract Management & Compliance søges til Forsvarsministeriets Materiel- og Indkøbsstyrelse",
-        "company": "Forsvaret",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13717113",
-        "posted": "2026-03-30",
-        "snippet": "Anvend dine analytiske kompetencer til at understøtte udviklingen af Contract Management i Forsvaret og bidrag til datagrundlag,...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -372,6 +372,50 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper/Juniorkonsulent (analyse, data og økonomi)",
+        "company": "Jhn Processor I/S",
+        "location": "Vejle",
+        "url": "https://www.jobindex.dk/vis-job/h1652972",
+        "posted": "2026-03-31",
+        "snippet": "Vil du arbejde med data, dataindsamling, analyser og rådgivning, der har reel betydning for klima- og miljøområdet – og samtidig have mulighed for en fremtidig fast stilling?Hos os bliver du en aktiv del af vores projekter og opga",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper med flair for data og analyse",
+        "company": "VisitDenmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652547",
+        "posted": "2026-03-30",
+        "snippet": "Vil du være med til at skabe vidensgrundlaget for bæredygtig vækst i turismeøkonomien? Motiverer det dig at arbejde med data og analyser og bidrage til at skabe indsigt, der understøtter beslutninger?Din hverdag vil bestå af både",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til H.C. Andersen-projekt i afdelingen Specialsamlinger på Det Kgl. Bibliotek, København (tidsbegrænset)",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652322",
+        "posted": "2026-03-30",
+        "snippet": "Vil du være med til at give verden adgang til H.C. Andersens originale manuskripter og breve?Du vil blive tilknyttet et projektteam, hvor du vil få mulighed for at dykke ned i alle aspekter af H.C. Andersens tekster, samt være med",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til afdelingen Specialsamlinger på Det Kgl. Bibliotek, København",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652321",
+        "posted": "2026-03-30",
+        "snippet": "Vil du være med til at give adgang til Danmarks kulturarv? Det Kgl. Bibliotek søger en studentermedhjælper til den daglige tværgående drift i afdelingens forskellige samlinger.Du kommer bl.a. til at arbejde med:Sortering og regist",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
