@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T09:36:20Z",
+  "updated": "2026-04-01T11:14:07Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -280,6 +280,17 @@
         "posted": "2026-03-25",
         "snippet": "Are you a curious and analytical professional with an investigatory mind who can help us with identifying business processes and use your...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
+        "company": "Region Midtjylland - Regionshuset Viborg",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1653512",
+        "posted": "2026-04-01",
+        "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark? Du er ”oversætteren” fra forretningen til udviklingsteamet, der koder LUNA-a",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
