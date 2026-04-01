@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T07:55:07Z",
+  "updated": "2026-04-01T09:36:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -47,6 +47,17 @@
         "posted": "2026-03-20",
         "snippet": "Are you passionate about turning complex data into actionable insights that support quality, compliance, and decision-making?",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker - analysér, modeller og påvirk Danmarks digitale infrastruktur",
+        "company": "Sinal",
+        "location": "Silkeborg",
+        "url": "https://www.jobindex.dk/vis-job/h1653414",
+        "posted": "2026-04-01",
+        "snippet": "Motiveres du af at omsætte komplekse data til strategisk indsigt, og trives du i et miljø, hvor strategisk tankevirke og dataanalyse er i fokus?Vi kombinerer forretningsforståelse, datadrevet analyse og netværksindsigt – og vi led",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -675,17 +686,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
-        "company": "Forsvaret",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13712451",
-        "posted": "2026-03-27",
-        "snippet": "Vil du være en del af Danmarks digitale frontline?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Machine Learning Engineer (TE-DPS-AIM-2026-94-GRAE)",
         "company": "",
         "location": "Denmark",
@@ -980,17 +980,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1642793",
         "posted": "2026-03-27",
         "snippet": "Drømmer du om at arbejde med fremtidens dataløsninger for nogle af Danmarks og verdens største virksomheder?Vi tilbyder et unikt 12-måneders graduateprogram, hvor du får det bedste fra begge verdener: solid teoretisk træning, hand",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
-      {
-        "title": "Graduate, Analytiker til Jyske Realkredit",
-        "company": "Jyske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1641794",
-        "posted": "2026-03-24",
-        "snippet": "Bliver du kandidat til sommer og overvejer, hvad der venter dig i dit første job?Vi tilbyder dig en unik mulighed gennem vores Graduate-program, hvor du bliver ansat i en fast stilling med attraktiv løn og gode medarbejdervilkår.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "graduate"
