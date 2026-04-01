@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T17:11:58Z",
+  "updated": "2026-04-01T18:04:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -301,6 +301,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1648843",
         "posted": "2026-03-18",
         "snippet": "Vi søger en analytisk stærk og samarbejdsorienteret forretningsanalytiker, der kan understøtte vores arbejde med IT- og infrastrukturprojekter gennem analyser, projektledelse og rådgivning.Stillingen er en bred rolle som indebærer",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
+        "company": "Region Midtjylland",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13722512",
+        "posted": "2026-04-01",
+        "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -692,6 +703,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13720861",
         "posted": "2026-03-31",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer (IT-CD-PI-2026-63-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13723283",
+        "posted": "2026-04-01",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
