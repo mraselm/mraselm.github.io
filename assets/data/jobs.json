@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-02T21:53:16Z",
+  "updated": "2026-04-02T22:51:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -79,17 +79,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1651867",
         "posted": "2026-03-27",
         "snippet": "Kan du omdanne data til viden, så det kan bruges til at optimere processer, identificere muligheder og styrke datadrevne beslutninger?Lige nu søger vi en dataanalytiker, som kan hjælpe os med at blive endnu bedre til at kortlægge,",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Bliv senior dataanalytiker i Mortgage Data and Reporting i en foreningsejet Nykredit-koncern",
-        "company": "Nykredit",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1649203",
-        "posted": "2026-03-19",
-        "snippet": "Vil du være med til at udvikle fremtidens datagrundlag for realkreditforretningen i Totalkredit og Nykredit og samtidig sikre forvaltning, fortsat analyse og nedlukning af nuværende on-prem BI-løsninger, når tiden er inde til det?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -774,17 +763,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "AI Engineer – Build & Deploy AI Solutions for Production",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13681098",
-        "posted": "2026-03-12",
-        "snippet": "We build focused, production-ready AI solutions for professional services firms and larger enterprises.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Scientist for Defence decision-support tool",
         "company": "Systematic",
         "location": "Denmark",
@@ -1028,17 +1006,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Bliv salgstrainee i Danmarks største bilhus - Bilernes Hus",
-        "company": "Bjarne Nielsen A/S",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1653602",
-        "posted": "2026-04-01",
-        "snippet": "Drømmer du om at arbejde med biler og få en karriere i bilbranchen?Her får du en spændende hverdag, hvor ingen dage er ens, særligt i vores store bilhus sker der altid meget, og du skal være god til at omstille dig og kunne arbejd",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate program CGI Danmark - Kickstart din karriere indenfor Financial Services & Data Analytics",
         "company": "CGI Danmark A/S",
