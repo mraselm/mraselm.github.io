@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-04T21:47:11Z",
+  "updated": "2026-04-04T22:49:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -715,6 +715,17 @@
         "posted": "2026-03-31",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
+        "company": "Forsvaret",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13712451",
+        "posted": "2026-03-27",
+        "snippet": "Vil du være en del af Danmarks digitale frontline?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
