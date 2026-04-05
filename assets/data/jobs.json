@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-05T21:47:34Z",
+  "updated": "2026-04-05T22:51:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -374,22 +374,11 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior BI Consultant til ATP Ejendomme",
-        "company": "ATP Ejendomme A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1649337",
-        "posted": "2026-03-19",
-        "snippet": "Vil du styrke beslutningsgrundlaget i en organisation med store ejendomsinvesteringer og et stort fokus på data?Du får en central rolle i udviklingen af business intelligence og rapportering i ATP Ejendomme. Du arbejder tæt sammen",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior BI Developer",
         "company": "DANISH CROWN A/S",
         "location": "Randers",
         "url": "https://www.jobindex.dk/vis-job/h1637517",
-        "posted": "2026-03-09",
+        "posted": "2026-04-06",
         "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
         "lang": "en",
         "source": "jobindex",
