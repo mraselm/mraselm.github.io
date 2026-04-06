@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-06T21:51:34Z",
+  "updated": "2026-04-06T22:56:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -251,17 +251,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Skab fremtidens løsninger – Business Analyst med fokus på RPA",
-        "company": "Udviklings- og Forenklingsstyrelsen",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1649665",
-        "posted": "2026-03-20",
-        "snippet": "Brænder du for at afdække potentialer for automatisering? Er du mester i gennemskue udfordringer og muligheder for effektivisering af arbejdsprocesser? Kan du udarbejde stringente krav til løsningsudvikling og eksekvere på aftalte",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -279,17 +268,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1653512",
         "posted": "2026-04-01",
         "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark? Du er ”oversætteren” fra forretningen til udviklingsteamet, der koder LUNA-a",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker - analyse, projektledelse og rådgivning",
-        "company": "Politi",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1648843",
-        "posted": "2026-03-18",
-        "snippet": "Vi søger en analytisk stærk og samarbejdsorienteret forretningsanalytiker, der kan understøtte vores arbejde med IT- og infrastrukturprojekter gennem analyser, projektledelse og rådgivning.Stillingen er en bred rolle som indebærer",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -363,17 +341,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Intelligence Specialist",
-        "company": "BIOFOS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650050",
-        "posted": "2026-03-23",
-        "snippet": "Du bliver en del af IT og Digitaliseringsafdelingen, hvor vi arbejder målrettet med datadrevet styring, governance og moderne BI-løsninger.Som BI-specialist vil du arbejde med hele værdikæden inden for Business Intelligence, lige",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior BI Developer",
         "company": "DANISH CROWN A/S",
         "location": "Randers",
@@ -435,17 +402,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1652322",
         "posted": "2026-03-30",
         "snippet": "Vil du være med til at give verden adgang til H.C. Andersens originale manuskripter og breve?Du vil blive tilknyttet et projektteam, hvor du vil få mulighed for at dykke ned i alle aspekter af H.C. Andersens tekster, samt være med",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til afdelingen Specialsamlinger på Det Kgl. Bibliotek, København",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1652321",
-        "posted": "2026-03-30",
-        "snippet": "Vil du være med til at give adgang til Danmarks kulturarv? Det Kgl. Bibliotek søger en studentermedhjælper til den daglige tværgående drift i afdelingens forskellige samlinger.Du kommer bl.a. til at arbejde med:Sortering og regist",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -613,17 +569,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1652322",
         "posted": "2026-03-30",
         "snippet": "Vil du være med til at give verden adgang til H.C. Andersens originale manuskripter og breve?Du vil blive tilknyttet et projektteam, hvor du vil få mulighed for at dykke ned i alle aspekter af H.C. Andersens tekster, samt være med",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til afdelingen Specialsamlinger på Det Kgl. Bibliotek, København",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1652321",
-        "posted": "2026-03-30",
-        "snippet": "Vil du være med til at give adgang til Danmarks kulturarv? Det Kgl. Bibliotek søger en studentermedhjælper til den daglige tværgående drift i afdelingens forskellige samlinger.Du kommer bl.a. til at arbejde med:Sortering og regist",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
