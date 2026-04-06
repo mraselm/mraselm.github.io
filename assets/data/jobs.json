@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-06T15:06:33Z",
+  "updated": "2026-04-06T16:01:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -639,18 +639,7 @@
         "snippet": "We are looking for a Senior Data Scientist/ Senior Risk Model Analyst to join the Nordic Advanced Analytics and Risk Modeling Team.Key ResponsibilitiesDelivering state of the art Models in a timely mannerImproved calibration, stab",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist/Risk Model Analyst",
-        "company": "Santander Consumer Bank",
-        "location": "Hvidovre",
-        "url": "https://www.jobindex.dk/vis-job/h1652963",
-        "posted": "2026-03-31",
-        "snippet": "We are looking for a Data Scientist/Risk Model Analyst to join the Nordic Advanced Analytics and Risk Modeling Team.Key Responsibilities:Delivering state of the art Models in a timely mannerImproved calibration, stability and sepa",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior Data Scientist, Dnk",
@@ -661,106 +650,7 @@
         "snippet": "Vil du være med til at forme vores næste generation af AI teknologi og tage et ledende ansvar i udviklingen af vores mest forretningskritiske systemer?Du skal stå for udviklingen af vores AI platforme, herunder vores neurale netvæ",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
-        "company": "Forsvarets Efterretningstjeneste",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1651776",
-        "posted": "2026-03-27",
-        "snippet": "Vil du være en del af Danmarks digitale frontline? Du indgår i et specialiseret team, der planlægger og gennemfører avancerede cyberoperationer. Dit primære arbejdsområde vil være at analysere og formidle forskellige typer af data",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist (TE-DPS-AIM-2026-75-GRAP)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13720484",
-        "posted": "2026-03-31",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist (TE-DPS-AIM-2026-76-GRAP)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13720483",
-        "posted": "2026-03-31",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13720861",
-        "posted": "2026-03-31",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
-        "company": "Forsvaret",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13712451",
-        "posted": "2026-03-27",
-        "snippet": "Vil du være en del af Danmarks digitale frontline?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer (IT-CD-PI-2026-63-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13723283",
-        "posted": "2026-04-01",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer (TE-DPS-AIM-2026-94-GRAE)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13720485",
-        "posted": "2026-03-31",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer - Digital Engineering Commercial",
-        "company": "twoday A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1653528",
-        "posted": "2026-04-01",
-        "snippet": "Du bliver en central del af vores AI‑arbejde, hvor vi kombinerer moderne udviklingspraksis med de muligheder, der ligger i AI‑drevet softwareudvikling.Du kommer til at arbejde tæt på kunderne i korte, intensive forløb – ofte i spr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Computer Vision & AI Engineer",
-        "company": "BEUMER Group A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1651300",
-        "posted": "2026-03-26",
-        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
@@ -1006,17 +896,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Graduate program CGI Danmark - Kickstart din karriere indenfor Financial Services & Data Analytics",
-        "company": "CGI Danmark A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1642793",
-        "posted": "2026-03-27",
-        "snippet": "Drømmer du om at arbejde med fremtidens dataløsninger for nogle af Danmarks og verdens største virksomheder?Vi tilbyder et unikt 12-måneders graduateprogram, hvor du får det bedste fra begge verdener: solid teoretisk træning, hand",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
