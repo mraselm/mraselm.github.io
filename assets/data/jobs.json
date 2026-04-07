@@ -1,11 +1,22 @@
 {
-  "updated": "2026-04-07T12:04:44Z",
+  "updated": "2026-04-07T14:02:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Data Analyst",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1654026",
+        "posted": "2026-04-07",
+        "snippet": "We’re looking for a Data Analyst who brings structure and clarity to how data is understood, aligned, and connected across an Enterprise Data Platform.You take ownership of how business concepts, source data, and platform models a",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Student Business/Data Analyst (Dashboards & Visualization)",
         "company": "Join a Fast-Growing Scale-Up!",
