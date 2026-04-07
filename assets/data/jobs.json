@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-07T05:56:49Z",
+  "updated": "2026-04-07T07:49:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -374,6 +374,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Vil du arbejde med kontrakter, data og styring på statens ejendomme? Bygningsstyrelsen søger lige nu en studentermedhjælper i København",
+        "company": "Bygningsstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1653720",
+        "posted": "2026-04-07",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælper/Juniorkonsulent (analyse, data og økonomi)",
         "company": "Jhn Processor I/S",
         "location": "Vejle",
@@ -391,17 +402,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1652547",
         "posted": "2026-03-30",
         "snippet": "Vil du være med til at skabe vidensgrundlaget for bæredygtig vækst i turismeøkonomien? Motiverer det dig at arbejde med data og analyser og bidrage til at skabe indsigt, der understøtter beslutninger?Din hverdag vil bestå af både",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til H.C. Andersen-projekt i afdelingen Specialsamlinger på Det Kgl. Bibliotek, København (tidsbegrænset)",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1652322",
-        "posted": "2026-03-30",
-        "snippet": "Vil du være med til at give verden adgang til H.C. Andersens originale manuskripter og breve?Du vil blive tilknyttet et projektteam, hvor du vil få mulighed for at dykke ned i alle aspekter af H.C. Andersens tekster, samt være med",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -561,19 +561,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Studentermedhjælper til H.C. Andersen-projekt i afdelingen Specialsamlinger på Det Kgl. Bibliotek, København (tidsbegrænset)",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1652322",
-        "posted": "2026-03-30",
-        "snippet": "Vil du være med til at give verden adgang til H.C. Andersens originale manuskripter og breve?Du vil blive tilknyttet et projektteam, hvor du vil få mulighed for at dykke ned i alle aspekter af H.C. Andersens tekster, samt være med",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Senior Data Scientist/ Senior Risk Model Analyst",
