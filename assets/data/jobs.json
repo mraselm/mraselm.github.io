@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-08T07:53:39Z",
+  "updated": "2026-04-08T09:19:48Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -680,6 +680,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13727857",
         "posted": "2026-04-07",
         "snippet": "Juris is building AI-native software for legal and compliance work.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "PhD scholarship in large-scale Bayesian deep learning - DTU Compute, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1654225",
+        "posted": "2026-04-08",
+        "snippet": "Do you want to figure out why Bayesian deep learning doesn’t work? And afterwards fix it?At DTU Compute we are working towards building highly scalable Bayesian approximations that actually work for deep learning. The driving appr",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
