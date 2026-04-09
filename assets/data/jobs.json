@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-09T07:55:37Z",
+  "updated": "2026-04-09T09:40:52Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -383,17 +383,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Vil du arbejde med kontrakter, data og styring på statens ejendomme? Bygningsstyrelsen søger lige nu en studentermedhjælper i København",
-        "company": "Bygningsstyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1653720",
-        "posted": "2026-04-07",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
