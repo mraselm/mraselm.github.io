@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-10T12:01:06Z",
+  "updated": "2026-04-10T13:51:00Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -396,6 +396,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper til BoligPortals finans- og BI team",
+        "company": "North Media A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1655151",
+        "posted": "2026-04-10",
+        "snippet": "Med din analytiske sans og din nysgerrighed for data og økonomi vil du understøtte finans- og BI teamet med bl.a. finansiel planlægning, fx assistere i udarbejdelse af budgetter og løbende finansielle estimater.Du træder ind i et",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælper - Business Analyst med stærk talforståelse",
         "company": "Tryg Forsikring A/S",
         "location": "Ballerup",
@@ -563,6 +574,17 @@
     ],
     "bi specialist": [
       {
+        "title": "Studentermedhjælper til BoligPortals finans- og BI team",
+        "company": "North Media A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1655151",
+        "posted": "2026-04-10",
+        "snippet": "Med din analytiske sans og din nysgerrighed for data og økonomi vil du understøtte finans- og BI teamet med bl.a. finansiel planlægning, fx assistere i udarbejdelse af budgetter og løbende finansielle estimater.Du træder ind i et",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælper - Business Analyst med stærk talforståelse",
         "company": "Tryg Forsikring A/S",
         "location": "Ballerup",
@@ -626,17 +648,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13731103",
         "posted": "2026-04-08",
         "snippet": "FlavorScale is seeking an AI/Data Scientist Intern to join our \"Engine Room.\" While the rest of the team is on the streets of Amsterdam, you...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist (TE-DPS-AIM-2026-75-GRAP)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13720484",
-        "posted": "2026-03-31",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
