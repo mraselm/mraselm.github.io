@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-10T18:01:33Z",
+  "updated": "2026-04-10T19:13:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -725,6 +725,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1651300",
         "posted": "2026-03-26",
         "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Clinical Data & AI Engineer",
+        "company": "ALK",
+        "location": "Hørsholm",
+        "url": "https://www.jobindex.dk/vis-job/r13736916",
+        "posted": "2026-04-10",
+        "snippet": "Can you build systems and agentic AI capability that connect study design, data collection, programming, analysis, and regulatory...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
