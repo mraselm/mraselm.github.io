@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-11T09:58:03Z",
+  "updated": "2026-04-11T10:56:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -106,34 +106,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Engageret dataanalytiker til Børne- og Ungdomsforvaltningen i Københavns Kommune",
-        "company": "Københavns Kommune",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13713375",
-        "posted": "2026-03-27",
-        "snippet": "Er du passioneret inden for dataanalyse og dygtig i brugen af Excel og Power BI?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Dataanalytiker til barselsvikariat/projektansættelse i Digitalisering & Kliniknær Analyse på Rigshospitalet",
         "company": "Region Hovedstaden",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13713361",
         "posted": "2026-03-27",
         "snippet": "Vil du være med til at skabe indsigt og værdi gennem data på Danmarks største hospital?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "datamanager/dataanalytiker til internationalt studie",
-        "company": "Region Hovedstaden",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/r13709789",
-        "posted": "2026-03-26",
-        "snippet": "Hjerteafdeling på Bispebjerg og Frederiksberg Hospital søger en datamanager/dataanalytiker med tiltrædelse d. 1. maj eller snarest herefter.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -664,6 +642,39 @@
         "job_type": "full-time"
       },
       {
+        "title": "Machine Learning Engineer (IT-CD-PI-2026-98-GRAE)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13730740",
+        "posted": "2026-04-08",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer (IT-CD-PI-2026-63-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13723283",
+        "posted": "2026-04-01",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer (TE-DPS-AIM-2026-94-GRAE)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13720485",
+        "posted": "2026-03-31",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist",
         "company": "Too Good To Go ApS",
         "location": "Copenhagen",
@@ -717,39 +728,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer (IT-CD-PI-2026-98-GRAE)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13730740",
-        "posted": "2026-04-08",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Machine Learning Engineer (IT-CD-PI-2026-63-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13723283",
-        "posted": "2026-04-01",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Machine Learning Engineer (TE-DPS-AIM-2026-94-GRAE)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13720485",
-        "posted": "2026-03-31",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
