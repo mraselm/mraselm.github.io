@@ -1,66 +1,11 @@
 {
-  "updated": "2026-04-12T11:48:27Z",
+  "updated": "2026-04-12T13:35:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Data Analyst",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1654026",
-        "posted": "2026-04-07",
-        "snippet": "We’re looking for a Data Analyst who brings structure and clarity to how data is understood, aligned, and connected across an Enterprise Data Platform.You take ownership of how business concepts, source data, and platform models a",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst - Business Insights & Forecasting",
-        "company": "Universal Robots A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13735789",
-        "posted": "2026-04-10",
-        "snippet": "At Teradyne Robotics, we’re shaping the future of automation.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student Business/Data Analyst (Dashboards & Visualization)",
-        "company": "Join a Fast-Growing Scale-Up!",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13720865",
-        "posted": "2026-03-31",
-        "snippet": "Student Business/Data Analyst (Dashboards & Visualization) - Join a Fast-Growing Scale-Up!",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Analyst, Analytics & Insights",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13708123",
-        "posted": "2026-03-25",
-        "snippet": "The banking industry is rapidly evolving, and Danske Bank is leading this transformation.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data analyst for large international collaborative project on menopause and mental health",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13702526",
-        "posted": "2026-03-24",
-        "snippet": "We are looking for a data analyst – for example a biostatistician or epidemiologist with strong quantitative skills – to join the Research...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker - analysér, modeller og påvirk Danmarks digitale infrastruktur",
         "company": "Sinal",
@@ -70,7 +15,7 @@
         "snippet": "Motiveres du af at omsætte komplekse data til strategisk indsigt, og trives du i et miljø, hvor strategisk tankevirke og dataanalyse er i fokus?Vi kombinerer forretningsforståelse, datadrevet analyse og netværksindsigt – og vi led",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
@@ -81,7 +26,7 @@
         "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker til udvikling af datadrevne løsninger",
@@ -92,7 +37,7 @@
         "snippet": "Kan du omdanne data til viden, så det kan bruges til at optimere processer, identificere muligheder og styrke datadrevne beslutninger?Lige nu søger vi en dataanalytiker, som kan hjælpe os med at blive endnu bedre til at kortlægge,",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker med stærke formidlingsevner til analyseteam",
@@ -103,7 +48,7 @@
         "snippet": "Er du skarp til dataanalyse og samtidig dygtig til at formidle komplekse indsigter klart og forståeligt?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker til barselsvikariat/projektansættelse i Digitalisering & Kliniknær Analyse på Rigshospitalet",
@@ -114,18 +59,7 @@
         "snippet": "Vil du være med til at skabe indsigt og værdi gennem data på Danmarks største hospital?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper - Business Analyst med stærk talforståelse",
-        "company": "Tryg Forsikring A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1654757",
-        "posted": "2026-04-09",
-        "snippet": "Leder du efter et studiejob, hvor du kan kombinere din talforståelse med praktisk erfaring i en af Danmarks førende forsikringsvirksomheder? Du får en varieret hverdag med opgaver af både analytisk og administrativ karakter. I rol",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -626,6 +560,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1651776",
         "posted": "2026-03-27",
         "snippet": "Vil du være en del af Danmarks digitale frontline? Du indgår i et specialiseret team, der planlægger og gennemfører avancerede cyberoperationer. Dit primære arbejdsområde vil være at analysere og formidle forskellige typer af data",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data scientist til udvikling af løsninger i Fraud Detection & AI Solutions",
+        "company": "ATP",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1651348",
+        "posted": "2026-03-26",
+        "snippet": "Vil du arbejde med alt fra klassiske ML modeller til moderne AI-løsninger?Som vores nye kollega i Fraud Detection & AI Solutions er du med til bl.a. at sikre en koordineret indsats, når det drejer sig om kontrol af fejludbetalinge",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
