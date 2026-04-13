@@ -1,11 +1,22 @@
 {
-  "updated": "2026-04-13T06:27:16Z",
+  "updated": "2026-04-13T09:12:23Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Data Analyst til marketingafdelingen",
+        "company": "Inco CC København A/S",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1655413",
+        "posted": "2026-04-13",
+        "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Analyst",
         "company": "DSV",
