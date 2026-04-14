@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T11:20:06Z",
+  "updated": "2026-04-14T14:13:23Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -586,6 +586,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Assistant Professor position in Computer Science with a Focus on Interdisciplinary Data Science",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13741504",
+        "posted": "2026-04-14",
+        "snippet": "As part of expanding the Centre for Visual Data Science and the Centre for Digital Humanities, the Department of Mathematics and Computer...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI & Data Science Intern: Research-Led Innovation (Remote-First)",
         "company": "",
         "location": "Copenhagen",
@@ -636,6 +647,50 @@
         "url": "https://www.jobindex.dk/vis-job/r13720861",
         "posted": "2026-03-31",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - Digital Engineering Commercial",
+        "company": "twoday A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1653528",
+        "posted": "2026-04-01",
+        "snippet": "Du bliver en central del af vores AI‑arbejde, hvor vi kombinerer moderne udviklingspraksis med de muligheder, der ligger i AI‑drevet softwareudvikling.Du kommer til at arbejde tæt på kunderne i korte, intensive forløb – ofte i spr",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Computer Vision & AI Engineer",
+        "company": "BEUMER Group A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1651300",
+        "posted": "2026-03-26",
+        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Clinical Data & AI Engineer",
+        "company": "ALK",
+        "location": "Hørsholm",
+        "url": "https://www.jobindex.dk/vis-job/r13736916",
+        "posted": "2026-04-10",
+        "snippet": "Can you build systems and agentic AI capability that connect study design, data collection, programming, analysis, and regulatory...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Applied AI Engineer (founding role",
+        "company": "equity-based)",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13727857",
+        "posted": "2026-04-07",
+        "snippet": "Juris is building AI-native software for legal and compliance work.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -884,6 +939,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Trainee/Elev i Business Data Platform",
+        "company": "FOSS",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1647269",
+        "posted": "2026-04-09",
+        "snippet": "Vil du have en verden af muligheder i en global virksomhed?I vores team er det vores mission som forretningspartner at sikre høj datakvalitet gennem klare forretningsprocesser og understøttende teknologi. Vi har sammensat et 2‑åri",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
