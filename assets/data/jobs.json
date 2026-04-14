@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T08:04:13Z",
+  "updated": "2026-04-14T09:50:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -270,7 +270,7 @@
         "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark? Du er ”oversætteren” fra forretningen til udviklingsteamet, der koder LUNA-a",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
@@ -281,7 +281,7 @@
         "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "IT Business Analyst Intern",
@@ -383,17 +383,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til BoligPortals finans- og BI team",
-        "company": "North Media A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1655151",
-        "posted": "2026-04-10",
-        "snippet": "Med din analytiske sans og din nysgerrighed for data og økonomi vil du understøtte finans- og BI teamet med bl.a. finansiel planlægning, fx assistere i udarbejdelse af budgetter og løbende finansielle estimater.Du træder ind i et",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -550,19 +539,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Studentermedhjælper til BoligPortals finans- og BI team",
-        "company": "North Media A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1655151",
-        "posted": "2026-04-10",
-        "snippet": "Med din analytiske sans og din nysgerrighed for data og økonomi vil du understøtte finans- og BI teamet med bl.a. finansiel planlægning, fx assistere i udarbejdelse af budgetter og løbende finansielle estimater.Du træder ind i et",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Senior Data Scientist/ Senior Risk Model Analyst",
