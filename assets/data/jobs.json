@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T21:08:27Z",
+  "updated": "2026-04-14T22:06:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -62,17 +62,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data analyst for large international collaborative project on menopause and mental health",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13702526",
-        "posted": "2026-03-24",
-        "snippet": "We are looking for a data analyst – for example a biostatistician or epidemiologist with strong quantitative skills – to join the Research...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Dataanalytiker - analysér, modeller og påvirk Danmarks digitale infrastruktur",
         "company": "Sinal",
         "location": "Silkeborg",
@@ -81,7 +70,7 @@
         "snippet": "Motiveres du af at omsætte komplekse data til strategisk indsigt, og trives du i et miljø, hvor strategisk tankevirke og dataanalyse er i fokus?Vi kombinerer forretningsforståelse, datadrevet analyse og netværksindsigt – og vi led",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
@@ -92,7 +81,7 @@
         "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker til udvikling af datadrevne løsninger",
@@ -103,7 +92,7 @@
         "snippet": "Kan du omdanne data til viden, så det kan bruges til at optimere processer, identificere muligheder og styrke datadrevne beslutninger?Lige nu søger vi en dataanalytiker, som kan hjælpe os med at blive endnu bedre til at kortlægge,",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker med stærke formidlingsevner til analyseteam",
@@ -114,7 +103,7 @@
         "snippet": "Er du skarp til dataanalyse og samtidig dygtig til at formidle komplekse indsigter klart og forståeligt?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker til barselsvikariat/projektansættelse i Digitalisering & Kliniknær Analyse på Rigshospitalet",
@@ -125,7 +114,7 @@
         "snippet": "Vil du være med til at skabe indsigt og værdi gennem data på Danmarks største hospital?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
