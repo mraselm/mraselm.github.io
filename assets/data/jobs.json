@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T22:06:16Z",
+  "updated": "2026-04-14T23:05:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -79,17 +79,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1653112",
         "posted": "2026-03-31",
         "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til udvikling af datadrevne løsninger",
-        "company": "Lyngby-Taarbæk Forsyning A/S",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1651867",
-        "posted": "2026-03-27",
-        "snippet": "Kan du omdanne data til viden, så det kan bruges til at optimere processer, identificere muligheder og styrke datadrevne beslutninger?Lige nu søger vi en dataanalytiker, som kan hjælpe os med at blive endnu bedre til at kortlægge,",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
