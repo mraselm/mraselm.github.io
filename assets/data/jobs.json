@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15T22:05:18Z",
+  "updated": "2026-04-15T23:02:51Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -185,17 +185,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst for Global IT - Enterprise Business Development",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1651881",
-        "posted": "2026-03-27",
-        "snippet": "Are you an experienced Business Analyst who brings clarity and structure to complex, fast‑moving delivery environments?We are looking for a new colleague who takes ownership of how business needs are understood, shaped, and transl",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
         "company": "BitaBIZ",
         "location": "Copenhagen",
@@ -214,6 +203,17 @@
         "posted": "2026-04-10",
         "snippet": "This is an opportunity to make a visible, high-impact contribution by turning business needs into clear insights, recommendations, and...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business analyst til Contract Management & Compliance søges til Forsvarsministeriets Materiel- og Indkøbsstyrelse",
+        "company": "Forsvaret",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13717113",
+        "posted": "2026-03-30",
+        "snippet": "Anvend dine analytiske kompetencer til at understøtte udviklingen af Contract Management i Forsvaret og bidrag til datagrundlag,...",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
