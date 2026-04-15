@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15T08:05:54Z",
+  "updated": "2026-04-15T09:51:14Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -917,6 +917,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Trainee/Elev i Business Data Platform",
+        "company": "FOSS",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1647269",
+        "posted": "2026-04-09",
+        "snippet": "Vil du have en verden af muligheder i en global virksomhed?I vores team er det vores mission som forretningspartner at sikre høj datakvalitet gennem klare forretningsprocesser og understøttende teknologi. Vi har sammensat et 2‑åri",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
