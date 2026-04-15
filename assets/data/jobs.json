@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15T11:17:32Z",
+  "updated": "2026-04-15T14:05:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -363,6 +363,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Talented BI Student Assistant",
+        "company": "Paychex Europe",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1648738",
+        "posted": "2026-04-15",
+        "snippet": "Help turn data into insights by supporting the BI team with data preparation, analysis, and engaging visualizations in Power BI, Excel, and Microsoft Fabric to drive smarter decisions.We foster a supportive and social team culture",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -517,7 +528,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Talented BI Student Assistant",
+        "company": "Paychex Europe",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1648738",
+        "posted": "2026-04-15",
+        "snippet": "Help turn data into insights by supporting the BI team with data preparation, analysis, and engaging visualizations in Power BI, Excel, and Microsoft Fabric to drive smarter decisions.We foster a supportive and social team culture",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "Senior Data Scientist/ Senior Risk Model Analyst",
