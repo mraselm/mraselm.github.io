@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15T17:20:12Z",
+  "updated": "2026-04-15T19:43:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -229,17 +229,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business analyst til Contract Management & Compliance søges til Forsvarsministeriets Materiel- og Indkøbsstyrelse",
-        "company": "Forsvaret",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13717113",
-        "posted": "2026-03-30",
-        "snippet": "Anvend dine analytiske kompetencer til at understøtte udviklingen af Contract Management i Forsvaret og bidrag til datagrundlag,...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
         "company": "Region Midtjylland - Regionshuset Viborg",
         "location": "Aarhus",
@@ -325,6 +314,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1652568",
         "posted": "2026-03-30",
         "snippet": "Vi søger en dygtig og visionær BI Lead, der brænder for front-end BI, rapportering og forretningsunderstøttelse - og samtidig kan tage lead på strukturen bag løsningerne.Dette er en rolle for dig, der vil sætte retningen for BI, s",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Financial BI Analyst - Danica Ejendomme",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13744484",
+        "posted": "2026-04-15",
+        "snippet": "Vil du gøre BI og finansiel analyse til motoren i forretningen?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
