@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15T21:07:20Z",
+  "updated": "2026-04-15T22:05:18Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,17 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13720865",
         "posted": "2026-03-31",
         "snippet": "Student Business/Data Analyst (Dashboards & Visualization) - Join a Fast-Growing Scale-Up!",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Analyst, Analytics & Insights",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13708123",
-        "posted": "2026-03-25",
-        "snippet": "The banking industry is rapidly evolving, and Danske Bank is leading this transformation.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
