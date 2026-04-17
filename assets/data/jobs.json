@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T22:01:54Z",
+  "updated": "2026-04-17T23:02:17Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -159,17 +159,6 @@
         "posted": "2026-03-31",
         "snippet": "Som Business Analyst i Pricing bliver du den, der omsætter data og forretningslogik til konkrete pricing‑løsninger, der skaber synlig værdi.Du arbejder tæt sammen med IT, økonomi og forretningen som helhed, driver processer fremad",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Analyst – Post-Trade Program",
-        "company": "BEC Financial Technologies",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1652419",
-        "posted": "2026-03-30",
-        "snippet": "The Senior Business Analyst role offers a unique opportunity to contribute directly to one of BEC’s strategic programs.You will work with complex regulatory requirements, collaborate with engaged customers across Denmark, and help",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -582,17 +571,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1652642",
         "posted": "2026-03-30",
         "snippet": "Vil du være med til at forme vores næste generation af AI teknologi og tage et ledende ansvar i udviklingen af vores mest forretningskritiske systemer?Du skal stå for udviklingen af vores AI platforme, herunder vores neurale netvæ",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Gør en forskel med Data Science i Forsvarets Efterretningstjeneste",
-        "company": "Forsvarets Efterretningstjeneste",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1651776",
-        "posted": "2026-03-27",
-        "snippet": "Vil du være en del af Danmarks digitale frontline? Du indgår i et specialiseret team, der planlægger og gennemfører avancerede cyberoperationer. Dit primære arbejdsområde vil være at analysere og formidle forskellige typer af data",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
