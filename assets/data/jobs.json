@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T06:14:18Z",
+  "updated": "2026-04-17T08:05:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -285,6 +285,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Pricing & Business Intelligence Analyst",
+        "company": "Hilti Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1656901",
+        "posted": "2026-04-17",
+        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Studerende til Business Intelligence",
         "company": "HortenDahl",
