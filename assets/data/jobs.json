@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T11:13:35Z",
+  "updated": "2026-04-17T12:05:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -374,6 +374,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælpere til Legal, Bid & Compliance hos OK",
+        "company": "OK a.m.b.a.",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1657081",
+        "posted": "2026-04-17",
+        "snippet": "Er du jurastuderende, og vil du arbejde i et fagligt stærkt og uformelt team, hvor der er plads til både ansvar, læring og et godt grin i hverdagen – samtidig med at du opbygger værdifuld erhvervserfaring?Du bliver en del af et te",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -528,7 +539,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Studentermedhjælpere til Legal, Bid & Compliance hos OK",
+        "company": "OK a.m.b.a.",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1657081",
+        "posted": "2026-04-17",
+        "snippet": "Er du jurastuderende, og vil du arbejde i et fagligt stærkt og uformelt team, hvor der er plads til både ansvar, læring og et godt grin i hverdagen – samtidig med at du opbygger værdifuld erhvervserfaring?Du bliver en del af et te",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "Senior Data Scientist/ Senior Risk Model Analyst",
