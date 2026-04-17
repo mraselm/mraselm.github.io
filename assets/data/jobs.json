@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T12:05:39Z",
+  "updated": "2026-04-17T13:59:00Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -145,7 +145,7 @@
         "company": "BNP Paribas Factor A/S",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/h1655242",
-        "posted": "2026-04-10",
+        "posted": "2026-04-17",
         "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
         "lang": "en",
         "source": "jobindex",
@@ -951,17 +951,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Trainee/Elev i Business Data Platform",
-        "company": "FOSS",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1647269",
-        "posted": "2026-04-09",
-        "snippet": "Vil du have en verden af muligheder i en global virksomhed?I vores team er det vores mission som forretningspartner at sikre høj datakvalitet gennem klare forretningsprocesser og understøttende teknologi. Vi har sammensat et 2‑åri",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
