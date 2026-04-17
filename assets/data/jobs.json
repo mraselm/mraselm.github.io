@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T13:59:00Z",
+  "updated": "2026-04-17T15:17:12Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -553,6 +553,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
+        "company": "Teknologisk Institut",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1657222",
+        "posted": "2026-04-17",
+        "snippet": "Hos Teknologisk Institut arbejder vi for at forbedre erhvervslivets konkurrenceevne, samfundets grønne omstilling og menneskers liv gennem teknologiske løsninger. Nu søger vi en kommercielt stærk kollega, der kan åbne de rigtige d",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Data Scientist/ Senior Risk Model Analyst",
         "company": "Santander Consumer Bank",
