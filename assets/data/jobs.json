@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T17:07:45Z",
+  "updated": "2026-04-17T18:06:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -636,17 +636,6 @@
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/r13730740",
         "posted": "2026-04-08",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer (IT-CD-PI-2026-63-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13723283",
-        "posted": "2026-04-01",
         "snippet": "",
         "lang": "en",
         "source": "jobindex",
