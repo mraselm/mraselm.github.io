@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T19:32:24Z",
+  "updated": "2026-04-17T21:04:18Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -141,39 +141,6 @@
     ],
     "business analyst": [
       {
-        "title": "Credit / Business Analyst",
-        "company": "BNP Paribas Factor A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1655242",
-        "posted": "2026-04-17",
-        "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Purchase Management",
-        "company": "STARK Danmark",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1653315",
-        "posted": "2026-04-01",
-        "snippet": "Vil du være den, der omsætter komplekse indkøbsdata til løsninger, der gør hele vores forretning skarpere? Du bliver en nøglespiller i krydsfeltet mellem IT, indkøb, økonomi og forretning. Du bliver en central aktør i at forenkle",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Pricing",
-        "company": "STARK Danmark",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1653088",
-        "posted": "2026-03-31",
-        "snippet": "Som Business Analyst i Pricing bliver du den, der omsætter data og forretningslogik til konkrete pricing‑løsninger, der skaber synlig værdi.Du arbejder tæt sammen med IT, økonomi og forretningen som helhed, driver processer fremad",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst – Post-Trade Program",
         "company": "BEC Financial Technologies",
         "location": "Roskilde",
@@ -182,40 +149,7 @@
         "snippet": "The Senior Business Analyst role offers a unique opportunity to contribute directly to one of BEC’s strategic programs.You will work with complex regulatory requirements, collaborate with engaged customers across Denmark, and help",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
-        "company": "BitaBIZ",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650147",
-        "posted": "2026-03-23",
-        "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Novo Nordisk A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13735382",
-        "posted": "2026-04-10",
-        "snippet": "This is an opportunity to make a visible, high-impact contribution by turning business needs into clear insights, recommendations, and...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business analyst til Contract Management & Compliance søges til Forsvarsministeriets Materiel- og Indkøbsstyrelse",
-        "company": "Forsvaret",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13717113",
-        "posted": "2026-03-30",
-        "snippet": "Anvend dine analytiske kompetencer til at understøtte udviklingen af Contract Management i Forsvaret og bidrag til datagrundlag,...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
@@ -226,7 +160,7 @@
         "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark? Du er ”oversætteren” fra forretningen til udviklingsteamet, der koder LUNA-a",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
@@ -237,7 +171,7 @@
         "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "IT Business Analyst Intern",
