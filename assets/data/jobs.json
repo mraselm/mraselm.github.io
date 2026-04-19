@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-19T21:51:33Z",
+  "updated": "2026-04-19T22:56:23Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -130,6 +130,17 @@
     ],
     "business analyst": [
       {
+        "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
+        "company": "BitaBIZ",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1650147",
+        "posted": "2026-04-20",
+        "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Credit / Business Analyst",
         "company": "BNP Paribas Factor A/S",
         "location": "Copenhagen",
@@ -137,39 +148,6 @@
         "posted": "2026-04-17",
         "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Purchase Management",
-        "company": "STARK Danmark",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1653315",
-        "posted": "2026-04-01",
-        "snippet": "Vil du være den, der omsætter komplekse indkøbsdata til løsninger, der gør hele vores forretning skarpere? Du bliver en nøglespiller i krydsfeltet mellem IT, indkøb, økonomi og forretning. Du bliver en central aktør i at forenkle",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Pricing",
-        "company": "STARK Danmark",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1653088",
-        "posted": "2026-03-31",
-        "snippet": "Som Business Analyst i Pricing bliver du den, der omsætter data og forretningslogik til konkrete pricing‑løsninger, der skaber synlig værdi.Du arbejder tæt sammen med IT, økonomi og forretningen som helhed, driver processer fremad",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
-        "company": "BitaBIZ",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650147",
-        "posted": "2026-03-23",
-        "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -543,28 +521,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Data Scientist/ Senior Risk Model Analyst",
-        "company": "Santander Consumer Bank",
-        "location": "Hvidovre",
-        "url": "https://www.jobindex.dk/vis-job/h1652967",
-        "posted": "2026-03-31",
-        "snippet": "We are looking for a Senior Data Scientist/ Senior Risk Model Analyst to join the Nordic Advanced Analytics and Risk Modeling Team.Key ResponsibilitiesDelivering state of the art Models in a timely mannerImproved calibration, stab",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist/Risk Model Analyst",
-        "company": "Santander Consumer Bank",
-        "location": "Hvidovre",
-        "url": "https://www.jobindex.dk/vis-job/h1652963",
-        "posted": "2026-03-31",
-        "snippet": "We are looking for a Data Scientist/Risk Model Analyst to join the Nordic Advanced Analytics and Risk Modeling Team.Key Responsibilities:Delivering state of the art Models in a timely mannerImproved calibration, stability and sepa",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Data Scientist, Dnk",
         "company": "Intrum A/S",
         "location": "Copenhagen",
@@ -598,6 +554,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Scientist",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13720861",
+        "posted": "2026-03-31",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Machine Learning Engineer (IT-CD-PI-2026-98-GRAE)",
         "company": "",
         "location": "Denmark",
@@ -615,17 +582,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13720485",
         "posted": "2026-03-31",
         "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13720861",
-        "posted": "2026-03-31",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
