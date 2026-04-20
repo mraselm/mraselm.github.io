@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T11:42:32Z",
+  "updated": "2026-04-20T14:13:45Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -129,6 +129,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst til en virksomhed med fokus på miljø, data og udvikling",
+        "company": "Dansk Retursystem A/S",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1657472",
+        "posted": "2026-04-20",
+        "snippet": "Dansk Retursystem er i gang med en data- og AI-satsning for at styrke beslutningsgrundlaget. Du bliver en nøglespiller i krydsfeltet mellem forretning, analyse og teknologi.Dit primære fokus bliver at fungere som en nær og tillids",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
         "company": "BitaBIZ",
