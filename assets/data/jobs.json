@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T06:27:34Z",
+  "updated": "2026-04-20T09:19:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -561,6 +561,17 @@
         "posted": "2026-03-31",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Machine Learning Engineer – fra model til produktion",
+        "company": "nemlig.com",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/h1657333",
+        "posted": "2026-04-20",
+        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
