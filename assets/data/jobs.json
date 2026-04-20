@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T17:19:14Z",
+  "updated": "2026-04-20T19:34:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -158,6 +158,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1655242",
         "posted": "2026-04-17",
         "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst - Markets Reference Data",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13754087",
+        "posted": "2026-04-20",
+        "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
