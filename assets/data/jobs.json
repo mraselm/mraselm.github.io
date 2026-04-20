@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T14:13:45Z",
+  "updated": "2026-04-20T15:45:52Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -896,6 +896,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Financial Planning Analyst - Graduate (Vikariat)",
+        "company": "Aon Denmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1657591",
+        "posted": "2026-04-20",
+        "snippet": "Vi søger en ny kollega til vores Financial Planning & Analysis (FP&A)-team, som har lyst til at udvikle sine evner i en global virksomhed med en stærk kundeorienteret kultur.Du vil spille en nøglerolle i den finansielle planlægnin",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
