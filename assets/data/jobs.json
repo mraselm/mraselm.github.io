@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-21T22:00:17Z",
+  "updated": "2026-04-21T22:59:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -330,6 +330,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business Intelligence Student Assistant",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1641888",
+        "posted": "2026-04-22",
+        "snippet": "Excellent opportunity for students who want hands-on experience with modern data platforms, analytics, and business intelligence.Do you have a strong analytical mindset? Do you enjoy coding, processing data and conceptualize them",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -484,7 +495,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Business Intelligence Student Assistant",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1641888",
+        "posted": "2026-04-22",
+        "snippet": "Excellent opportunity for students who want hands-on experience with modern data platforms, analytics, and business intelligence.Do you have a strong analytical mindset? Do you enjoy coding, processing data and conceptualize them",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
