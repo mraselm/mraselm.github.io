@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-22T22:05:35Z",
+  "updated": "2026-04-22T23:07:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -609,6 +609,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Computer Vision & AI Engineer",
+        "company": "BEUMER Group A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1651300",
+        "posted": "2026-04-23",
+        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior AI Engineer - Digital Engineering Commercial",
         "company": "twoday A/S",
         "location": "Copenhagen",
@@ -616,17 +627,6 @@
         "posted": "2026-04-01",
         "snippet": "Du bliver en central del af vores AI‑arbejde, hvor vi kombinerer moderne udviklingspraksis med de muligheder, der ligger i AI‑drevet softwareudvikling.Du kommer til at arbejde tæt på kunderne i korte, intensive forløb – ofte i spr",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Computer Vision & AI Engineer",
-        "company": "BEUMER Group A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1651300",
-        "posted": "2026-03-26",
-        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
