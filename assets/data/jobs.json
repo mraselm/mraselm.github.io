@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-22T17:15:44Z",
+  "updated": "2026-04-22T18:14:14Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -152,6 +152,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business Analyst with client focus – Cash & Position Transfer Strategy",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13758491",
+        "posted": "2026-04-22",
+        "snippet": "Join our newly formed Cash & Position Transfer Strategy team at our headquarters in Copenhagen.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Analyst - Markets Reference Data",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -275,6 +286,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Financial BI Analyst - Danica Ejendomme",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13744484",
+        "posted": "2026-04-15",
+        "snippet": "Vil du gøre BI og finansiel analyse til motoren i forretningen?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior BI Developer",
         "company": "DANISH CROWN A/S",
         "location": "Randers",
@@ -306,17 +328,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Financial BI Analyst - Danica Ejendomme",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13744484",
-        "posted": "2026-04-15",
-        "snippet": "Vil du gøre BI og finansiel analyse til motoren i forretningen?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Studentermedhjælpere til Kemikalier & Biocider",
@@ -565,6 +576,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Scientist – Applied AI & Machine Learning",
+        "company": "Collectia A/S",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/r13758701",
+        "posted": "2026-04-22",
+        "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions – end-to-end, from idea to production?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Assistant Professor position in Computer Science with a Focus on Interdisciplinary Data Science",
         "company": "Syddansk Universitet",
         "location": "Odense",
@@ -626,6 +648,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1651300",
         "posted": "2026-03-26",
         "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer – AI Centre of Excellence",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13758495",
+        "posted": "2026-04-22",
+        "snippet": "Saxo is building the capability for secure, compliant, and scalable AI agents to power internal productivity and client-facing experiences.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
