@@ -1,11 +1,22 @@
 {
-  "updated": "2026-04-22T11:32:28Z",
+  "updated": "2026-04-22T14:10:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Dataanalytiker (Data Analyst)",
+        "company": "Jet Time A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1658290",
+        "posted": "2026-04-22",
+        "snippet": "Har du lyst til at spille en central rolle i udviklingen af en moderne dataplatform i et stort privatejet dansk business to business flyselskab med en stærk, inkluderende kultur og et tæt samarbejde på tværs af organisationen?Som",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Analyst til marketingafdelingen",
         "company": "Inco CC København A/S",
@@ -308,6 +319,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælpere til Kemikalier & Biocider",
+        "company": "Miljø- og Ligestillingsministeriet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1658295",
+        "posted": "2026-04-22",
+        "snippet": "Vil du bidrage til en sikker anvendelse af biocider for forbrugere og miljøet og vi arbejder i et internationalt miljø?Vi kan tilbyde et spændende studiejob, som giver indblik i Miljøstyrelsens administrative arbejde og i de fagli",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Business Intelligence Student Assistant",
         "company": "Everllence",
         "location": "Copenhagen",
@@ -484,6 +506,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælpere til Kemikalier & Biocider",
+        "company": "Miljø- og Ligestillingsministeriet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1658295",
+        "posted": "2026-04-22",
+        "snippet": "Vil du bidrage til en sikker anvendelse af biocider for forbrugere og miljøet og vi arbejder i et internationalt miljø?Vi kan tilbyde et spændende studiejob, som giver indblik i Miljøstyrelsens administrative arbejde og i de fagli",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Business Intelligence Student Assistant",
