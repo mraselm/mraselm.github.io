@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-22T09:53:20Z",
+  "updated": "2026-04-22T11:32:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -498,6 +498,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Senior Data Scientist (R&D) - Enterprise Business Development",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1658171",
+        "posted": "2026-04-22",
+        "snippet": "Do you thrive in a product-centric environment where AI and analytics drive action – not just insight?Your work will include developing reusable packages and core contributions to our machine learning platforms, while ensuring str",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
         "company": "Teknologisk Institut",
