@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-22T03:42:46Z",
+  "updated": "2026-04-22T06:11:27Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -36,17 +36,6 @@
         "posted": "2026-04-10",
         "snippet": "At Teradyne Robotics, we’re shaping the future of automation.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker - analysér, modeller og påvirk Danmarks digitale infrastruktur",
-        "company": "Sinal",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1653414",
-        "posted": "2026-04-01",
-        "snippet": "Motiveres du af at omsætte komplekse data til strategisk indsigt, og trives du i et miljø, hvor strategisk tankevirke og dataanalyse er i fokus?Vi kombinerer forretningsforståelse, datadrevet analyse og netværksindsigt – og vi led",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
