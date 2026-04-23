@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T22:02:17Z",
+  "updated": "2026-04-23T23:08:02Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -330,6 +330,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
+        "company": "Wrist Ship Supply",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1651963",
+        "posted": "2026-04-24",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælpere til Kemikalier & Biocider",
         "company": "Miljø- og Ligestillingsministeriet",
         "location": "Odense",
@@ -528,6 +539,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
+        "company": "Wrist Ship Supply",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1651963",
+        "posted": "2026-04-24",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Studentermedhjælpere til Kemikalier & Biocider",
