@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T09:03:23Z",
+  "updated": "2026-04-23T10:48:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -107,6 +107,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst",
+        "company": "STARK Danmark",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1658499",
+        "posted": "2026-04-23",
+        "snippet": "Leder du efter et spændende job, hvor du kan være med til at udvikle og anvende Cost-to-Serve som et kommercielt styringsværktøj? Vil du være med til at skabe gennemsigtighed i logistikomkostninger og spotte forbedringspotentialer",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst til en virksomhed med fokus på miljø, data og udvikling",
         "company": "Dansk Retursystem A/S",
@@ -616,17 +627,6 @@
         "posted": "2026-04-23",
         "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer - Digital Engineering Commercial",
-        "company": "twoday A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1653528",
-        "posted": "2026-04-01",
-        "snippet": "Du bliver en central del af vores AI‑arbejde, hvor vi kombinerer moderne udviklingspraksis med de muligheder, der ligger i AI‑drevet softwareudvikling.Du kommer til at arbejde tæt på kunderne i korte, intensive forløb – ofte i spr",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
