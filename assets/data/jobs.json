@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T06:17:22Z",
+  "updated": "2026-04-23T09:03:23Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,17 +25,6 @@
         "posted": "2026-04-13",
         "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1654026",
-        "posted": "2026-04-07",
-        "snippet": "We’re looking for a Data Analyst who brings structure and clarity to how data is understood, aligned, and connected across an Enterprise Data Platform.You take ownership of how business concepts, source data, and platform models a",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -582,6 +571,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13741504",
         "posted": "2026-04-14",
         "snippet": "As part of expanding the Centre for Visual Data Science and the Centre for Digital Humanities, the Department of Mathematics and Computer...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI & Data Science Intern: Research-Led Innovation (Remote-First)",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13731103",
+        "posted": "2026-04-08",
+        "snippet": "FlavorScale is seeking an AI/Data Scientist Intern to join our \"Engine Room.\" While the rest of the team is on the streets of Amsterdam, you...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
