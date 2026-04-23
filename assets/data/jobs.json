@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T12:09:09Z",
+  "updated": "2026-04-23T14:12:48Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -148,6 +148,17 @@
         "posted": "2026-04-17",
         "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "QA & BUSINESS ANALYST – SKAB KVALITET I DIGITALE LØSNINGER TIL LANDBRUGET",
+        "company": "SEGES Innovation",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13759877",
+        "posted": "2026-04-23",
+        "snippet": "Hjælp os med at omsætte komplekse forretningsbehov til løsninger – og sikre, at kvalitet og krav hænger sammen i praksis.",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
