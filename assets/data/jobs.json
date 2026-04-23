@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T10:48:25Z",
+  "updated": "2026-04-23T12:09:09Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -341,6 +341,17 @@
         "job_type": "student"
       },
       {
+        "title": "Climate and Sustainability Analyst - Student Position",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1658516",
+        "posted": "2026-04-23",
+        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -528,9 +539,31 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "student"
+      },
+      {
+        "title": "Climate and Sustainability Analyst - Student Position",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1658516",
+        "posted": "2026-04-23",
+        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
+      {
+        "title": "Data Scientist (AI-Enabled)",
+        "company": "SVITZER",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1658577",
+        "posted": "2026-04-23",
+        "snippet": "We are looking for an experienced Data Scientist who actively leverages AI tools (e.g. Codex) to accelerate experimentation, improve model quality, and explore new ways of solving complex business problems.This role is ideal for s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Data Scientist (R&D) - Enterprise Business Development",
         "company": "DSV",
