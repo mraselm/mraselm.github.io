@@ -1,11 +1,66 @@
 {
-  "updated": "2026-04-24T09:11:49Z",
+  "updated": "2026-04-24T10:45:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Dataanalytiker (Data Analyst)",
+        "company": "Jet Time A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1658290",
+        "posted": "2026-04-22",
+        "snippet": "Har du lyst til at spille en central rolle i udviklingen af en moderne dataplatform i et stort privatejet dansk business to business flyselskab med en stærk, inkluderende kultur og et tæt samarbejde på tværs af organisationen?Som",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Data Analyst til marketingafdelingen",
+        "company": "Inco CC København A/S",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1655413",
+        "posted": "2026-04-13",
+        "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Sustainability Data Analyst",
+        "company": "ALK",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13762072",
+        "posted": "2026-04-23",
+        "snippet": "Do you want to make a sustainable difference for people living with allergy?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Data Analyst - Business Insights & Forecasting",
+        "company": "Universal Robots A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13735789",
+        "posted": "2026-04-10",
+        "snippet": "At Teradyne Robotics, we’re shaping the future of automation.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
+        "company": "Forsvaret",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1653112",
+        "posted": "2026-03-31",
+        "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
       {
         "title": "Data Analyst and Process Optimization Lead",
         "company": "ECCO SKO A/S",
@@ -98,6 +153,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "BI Lead, Dnk",
+        "company": "Intrum A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1652568",
+        "posted": "2026-03-30",
+        "snippet": "Vi søger en dygtig og visionær BI Lead, der brænder for front-end BI, rapportering og forretningsunderstøttelse - og samtidig kan tage lead på strukturen bag løsningerne.Dette er en rolle for dig, der vil sætte retningen for BI, s",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
@@ -264,20 +330,31 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "part-time"
+      },
+      {
+        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
+        "company": "Wrist Ship Supply",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1651963",
+        "posted": "2026-04-24",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Climate and Sustainability Analyst - Student Position",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1658516",
+        "posted": "2026-04-23",
+        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
-      {
-        "title": "Data Scientist (AI-Enabled)",
-        "company": "SVITZER",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658577",
-        "posted": "2026-04-23",
-        "snippet": "We are looking for an experienced Data Scientist who actively leverages AI tools (e.g. Codex) to accelerate experimentation, improve model quality, and explore new ways of solving complex business problems.This role is ideal for s",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
       {
         "title": "Senior Data Scientist (R&D) - Enterprise Business Development",
         "company": "DSV",
@@ -287,29 +364,7 @@
         "snippet": "Do you thrive in a product-centric environment where AI and analytics drive action – not just insight?Your work will include developing reusable packages and core contributions to our machine learning platforms, while ensuring str",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Akademikernes A-kasse",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1657827",
-        "posted": "2026-04-21",
-        "snippet": "Vil du være en central figur i at realisere vores ambitioner inden for AI- og dataområdet?Du får en central rolle i arbejdet med klassiske ML-discipliner, herunder rensning af data, analyse, modeludvikling, validering og formidlin",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
-        "company": "Teknologisk Institut",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1657222",
-        "posted": "2026-04-17",
-        "snippet": "Hos Teknologisk Institut arbejder vi for at forbedre erhvervslivets konkurrenceevne, samfundets grønne omstilling og menneskers liv gennem teknologiske løsninger. Nu søger vi en kommercielt stærk kollega, der kan åbne de rigtige d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Senior Data Scientist, Dnk",
@@ -320,40 +375,29 @@
         "snippet": "Vil du være med til at forme vores næste generation af AI teknologi og tage et ledende ansvar i udviklingen af vores mest forretningskritiske systemer?Du skal stå for udviklingen af vores AI platforme, herunder vores neurale netvæ",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
-        "title": "Data Scientist – Applied AI & Machine Learning",
-        "company": "Collectia A/S",
+        "title": "Senior Machine Learning Engineer – fra model til produktion",
+        "company": "nemlig.com",
         "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/r13758701",
-        "posted": "2026-04-22",
-        "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions – end-to-end, from idea to production?",
-        "lang": "en",
+        "url": "https://www.jobindex.dk/vis-job/h1657333",
+        "posted": "2026-04-20",
+        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
+        "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
-        "title": "Assistant Professor position in Computer Science with a Focus on Interdisciplinary Data Science",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13741504",
-        "posted": "2026-04-14",
-        "snippet": "As part of expanding the Centre for Visual Data Science and the Centre for Digital Humanities, the Department of Mathematics and Computer...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "AI & Data Science Intern: Research-Led Innovation (Remote-First)",
+        "title": "Machine Learning Engineer (IT-CD-PI-2026-98-GRAE)",
         "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13731103",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13730740",
         "posted": "2026-04-08",
-        "snippet": "FlavorScale is seeking an AI/Data Scientist Intern to join our \"Engine Room.\" While the rest of the team is on the streets of Amsterdam, you...",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
