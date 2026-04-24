@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-24T15:38:13Z",
+  "updated": "2026-04-24T17:12:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -18,17 +18,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
-        "company": "Forsvaret",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1653112",
-        "posted": "2026-03-31",
-        "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Analyst til marketingafdelingen",
         "company": "Inco CC København A/S",
         "location": "Glostrup",
@@ -37,7 +26,7 @@
         "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Sustainability Data Analyst",
@@ -48,7 +37,7 @@
         "snippet": "Do you want to make a sustainable difference for people living with allergy?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Data Analyst - Business Insights & Forecasting",
@@ -59,7 +48,18 @@
         "snippet": "At Teradyne Robotics, we’re shaping the future of automation.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
+        "company": "Forsvaret",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1653112",
+        "posted": "2026-03-31",
+        "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -108,127 +108,6 @@
     ],
     "business analyst": [
       {
-        "title": "Business Analyst",
-        "company": "Kongskilde Industries A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1659050",
-        "posted": "2026-04-24",
-        "snippet": "Are you passionate about turning data into commercial impact? Then this newly established role might be your next career move.Kongskilde Industries is expanding our business intelligence capabilities, and we are looking for a comm",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "STARK Danmark",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1658499",
-        "posted": "2026-04-23",
-        "snippet": "Leder du efter et spændende job, hvor du kan være med til at udvikle og anvende Cost-to-Serve som et kommercielt styringsværktøj? Vil du være med til at skabe gennemsigtighed i logistikomkostninger og spotte forbedringspotentialer",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst til en virksomhed med fokus på miljø, data og udvikling",
-        "company": "Dansk Retursystem A/S",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1657472",
-        "posted": "2026-04-20",
-        "snippet": "Dansk Retursystem er i gang med en data- og AI-satsning for at styrke beslutningsgrundlaget. Du bliver en nøglespiller i krydsfeltet mellem forretning, analyse og teknologi.Dit primære fokus bliver at fungere som en nær og tillids",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
-        "company": "BitaBIZ",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1650147",
-        "posted": "2026-04-20",
-        "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Credit / Business Analyst",
-        "company": "BNP Paribas Factor A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1655242",
-        "posted": "2026-04-17",
-        "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Capital Markets Business Analyst",
-        "company": "Performativ ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13761881",
-        "posted": "2026-04-23",
-        "snippet": "As a Capital Markets Business Analyst, you will build and operate the systems that power Performativ’s investment platform, ensuring...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "QA & BUSINESS ANALYST – SKAB KVALITET I DIGITALE LØSNINGER TIL LANDBRUGET",
-        "company": "SEGES Innovation",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13759877",
-        "posted": "2026-04-23",
-        "snippet": "Hjælp os med at omsætte komplekse forretningsbehov til løsninger – og sikre, at kvalitet og krav hænger sammen i praksis.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst with client focus – Cash & Position Transfer Strategy",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13758491",
-        "posted": "2026-04-22",
-        "snippet": "Join our newly formed Cash & Position Transfer Strategy team at our headquarters in Copenhagen.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Analyst - Markets Reference Data",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13754087",
-        "posted": "2026-04-20",
-        "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Novo Nordisk A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13735382",
-        "posted": "2026-04-10",
-        "snippet": "This is an opportunity to make a visible, high-impact contribution by turning business needs into clear insights, recommendations, and...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
-        "company": "Region Midtjylland - Regionshuset Viborg",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1653512",
-        "posted": "2026-04-01",
-        "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark? Du er ”oversætteren” fra forretningen til udviklingsteamet, der koder LUNA-a",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "IT Business Analyst Intern",
         "company": "Ganni",
         "location": "Copenhagen",
@@ -275,24 +154,13 @@
     ],
     "business intelligence": [
       {
-        "title": "Pricing & Business Intelligence Analyst",
-        "company": "Hilti Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1656901",
-        "posted": "2026-04-17",
-        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
+        "title": "Senior BI Developer",
+        "company": "DANISH CROWN A/S",
+        "location": "Randers",
+        "url": "https://www.jobindex.dk/vis-job/h1637517",
+        "posted": "2026-04-06",
+        "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studerende til Business Intelligence",
-        "company": "HortenDahl",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1654260",
-        "posted": "2026-04-08",
-        "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -304,28 +172,6 @@
         "posted": "2026-03-30",
         "snippet": "Vi søger en dygtig og visionær BI Lead, der brænder for front-end BI, rapportering og forretningsunderstøttelse - og samtidig kan tage lead på strukturen bag løsningerne.Dette er en rolle for dig, der vil sætte retningen for BI, s",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Financial BI Analyst - Danica Ejendomme",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13744484",
-        "posted": "2026-04-15",
-        "snippet": "Vil du gøre BI og finansiel analyse til motoren i forretningen?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior BI Developer",
-        "company": "DANISH CROWN A/S",
-        "location": "Randers",
-        "url": "https://www.jobindex.dk/vis-job/h1637517",
-        "posted": "2026-04-06",
-        "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -519,17 +365,6 @@
     ],
     "bi specialist": [
       {
-        "title": "Power BI Specialist til Arkil Holding",
-        "company": "Arkil A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1656744",
-        "posted": "2026-04-16",
-        "snippet": "Motiveres du af at arbejde i krydsfeltet mellem forretning, KPI’er og visualisering – og har du samtidig interesse for, hvordan det underliggende datagrundlag hænger sammen?Vi søger en Power BI Specialist, der får ansvaret for opb",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
         "company": "Wrist Ship Supply",
         "location": "Denmark",
@@ -550,39 +385,39 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
+      },
+      {
+        "title": "Climate and Sustainability Analyst - Student Position",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1658516",
+        "posted": "2026-04-23",
+        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
       {
-        "title": "Data Scientist (AI-Enabled)",
-        "company": "SVITZER",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658577",
-        "posted": "2026-04-23",
-        "snippet": "We are looking for an experienced Data Scientist who actively leverages AI tools (e.g. Codex) to accelerate experimentation, improve model quality, and explore new ways of solving complex business problems.This role is ideal for s",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist (R&D) - Enterprise Business Development",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1658171",
-        "posted": "2026-04-22",
-        "snippet": "Do you thrive in a product-centric environment where AI and analytics drive action – not just insight?Your work will include developing reusable packages and core contributions to our machine learning platforms, while ensuring str",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
-        "company": "Teknologisk Institut",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1657222",
-        "posted": "2026-04-17",
-        "snippet": "Hos Teknologisk Institut arbejder vi for at forbedre erhvervslivets konkurrenceevne, samfundets grønne omstilling og menneskers liv gennem teknologiske løsninger. Nu søger vi en kommercielt stærk kollega, der kan åbne de rigtige d",
+        "title": "Senior Machine Learning Engineer – fra model til produktion",
+        "company": "nemlig.com",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/h1657333",
+        "posted": "2026-04-20",
+        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer (IT-CD-PI-2026-98-GRAE)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13730740",
+        "posted": "2026-04-08",
+        "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -598,6 +433,83 @@
         "job_type": "full-time"
       },
       {
+        "title": "Computer Vision & AI Engineer",
+        "company": "BEUMER Group A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1651300",
+        "posted": "2026-04-23",
+        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer – AI Centre of Excellence",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13758495",
+        "posted": "2026-04-22",
+        "snippet": "Saxo is building the capability for secure, compliant, and scalable AI agents to power internal productivity and client-facing experiences.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Clinical Data & AI Engineer",
+        "company": "ALK",
+        "location": "Hørsholm",
+        "url": "https://www.jobindex.dk/vis-job/r13736916",
+        "posted": "2026-04-10",
+        "snippet": "Can you build systems and agentic AI capability that connect study design, data collection, programming, analysis, and regulatory...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Applied AI Engineer (founding role",
+        "company": "equity-based)",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13727857",
+        "posted": "2026-04-07",
+        "snippet": "Juris is building AI-native software for legal and compliance work.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist (AI-Enabled)",
+        "company": "SVITZER",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1658577",
+        "posted": "2026-04-23",
+        "snippet": "We are looking for an experienced Data Scientist who actively leverages AI tools (e.g. Codex) to accelerate experimentation, improve model quality, and explore new ways of solving complex business problems.This role is ideal for s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Senior Data Scientist (R&D) - Enterprise Business Development",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1658171",
+        "posted": "2026-04-22",
+        "snippet": "Do you thrive in a product-centric environment where AI and analytics drive action – not just insight?Your work will include developing reusable packages and core contributions to our machine learning platforms, while ensuring str",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
+        "company": "Teknologisk Institut",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1657222",
+        "posted": "2026-04-17",
+        "snippet": "Hos Teknologisk Institut arbejder vi for at forbedre erhvervslivets konkurrenceevne, samfundets grønne omstilling og menneskers liv gennem teknologiske løsninger. Nu søger vi en kommercielt stærk kollega, der kan åbne de rigtige d",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
         "title": "Data Scientist – Applied AI & Machine Learning",
         "company": "Collectia A/S",
         "location": "Brøndby",
@@ -606,7 +518,7 @@
         "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions – end-to-end, from idea to production?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Assistant Professor position in Computer Science with a Focus on Interdisciplinary Data Science",
@@ -617,7 +529,7 @@
         "snippet": "As part of expanding the Centre for Visual Data Science and the Centre for Digital Humanities, the Department of Mathematics and Computer...",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
@@ -863,6 +775,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Financial Planning Analyst - Graduate (Vikariat)",
+        "company": "Aon Denmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1657591",
+        "posted": "2026-04-20",
+        "snippet": "Vi søger en ny kollega til vores Financial Planning & Analysis (FP&A)-team, som har lyst til at udvikle sine evner i en global virksomhed med en stærk kundeorienteret kultur.Du vil spille en nøglerolle i den finansielle planlægnin",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
