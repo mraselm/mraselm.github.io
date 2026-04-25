@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-24T23:56:28Z",
+  "updated": "2026-04-25T03:32:37Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -15,7 +15,7 @@
         "snippet": "Har du lyst til at spille en central rolle i udviklingen af en moderne dataplatform i et stort privatejet dansk business to business flyselskab med en stærk, inkluderende kultur og et tæt samarbejde på tværs af organisationen?Som",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst til marketingafdelingen",
@@ -26,7 +26,7 @@
         "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Sustainability Data Analyst",
@@ -37,7 +37,7 @@
         "snippet": "Do you want to make a sustainable difference for people living with allergy?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst - Business Insights & Forecasting",
@@ -48,18 +48,7 @@
         "snippet": "At Teradyne Robotics, we’re shaping the future of automation.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til strategisk planlægning af Forsvarets bemanding",
-        "company": "Forsvaret",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1653112",
-        "posted": "2026-03-31",
-        "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -163,6 +152,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior Business Analyst (Tax) til Netcompany Banking Services",
+        "company": "Netcompany A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1647061",
+        "posted": "2026-04-09",
+        "snippet": "Vil du spille en nøglerolle i krydsfeltet mellem data, regulering og bankforretning – og sikre, at nordiske banker leverer korrekt og rettidig skatterapportering?Vi søger en erfaren Senior Business Analyst, der brænder for at omsæ",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Analyst - AI Solutions",
         "company": "Danske Bank",
         "location": "Denmark",
@@ -226,7 +226,7 @@
         "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark? Du er ”oversætteren” fra forretningen til udviklingsteamet, der koder LUNA-a",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "IT Business Analyst Intern",
@@ -283,7 +283,7 @@
         "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Studerende til Business Intelligence",
@@ -294,7 +294,7 @@
         "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "BI Lead, Dnk",
@@ -305,7 +305,7 @@
         "snippet": "Vi søger en dygtig og visionær BI Lead, der brænder for front-end BI, rapportering og forretningsunderstøttelse - og samtidig kan tage lead på strukturen bag løsningerne.Dette er en rolle for dig, der vil sætte retningen for BI, s",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Financial BI Analyst - Danica Ejendomme",
@@ -316,7 +316,7 @@
         "snippet": "Vil du gøre BI og finansiel analyse til motoren i forretningen?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior BI Developer",
@@ -327,7 +327,7 @@
         "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
@@ -348,17 +348,6 @@
         "posted": "2026-04-22",
         "snippet": "Vil du bidrage til en sikker anvendelse af biocider for forbrugere og miljøet og vi arbejder i et internationalt miljø?Vi kan tilbyde et spændende studiejob, som giver indblik i Miljøstyrelsens administrative arbejde og i de fagli",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Climate and Sustainability Analyst - Student Position",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658516",
-        "posted": "2026-04-23",
-        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       },
@@ -587,6 +576,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Scientist",
+        "company": "Akademikernes A-kasse",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1657827",
+        "posted": "2026-04-21",
+        "snippet": "Vil du være en central figur i at realisere vores ambitioner inden for AI- og dataområdet?Du får en central rolle i arbejdet med klassiske ML-discipliner, herunder rensning af data, analyse, modeludvikling, validering og formidlin",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
         "company": "Teknologisk Institut",
         "location": "Aarhus",
@@ -642,28 +642,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Machine Learning Engineer – fra model til produktion",
-        "company": "nemlig.com",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/h1657333",
-        "posted": "2026-04-20",
-        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer (IT-CD-PI-2026-98-GRAE)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13730740",
-        "posted": "2026-04-08",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Computer Vision & AI Engineer",
         "company": "BEUMER Group A/S",
         "location": "Aarhus",
@@ -706,6 +684,28 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Senior Machine Learning Engineer – fra model til produktion",
+        "company": "nemlig.com",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/h1657333",
+        "posted": "2026-04-20",
+        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Machine Learning Engineer (IT-CD-PI-2026-98-GRAE)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13730740",
+        "posted": "2026-04-08",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
@@ -951,17 +951,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Financial Planning Analyst - Graduate (Vikariat)",
-        "company": "Aon Denmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1657591",
-        "posted": "2026-04-20",
-        "snippet": "Vi søger en ny kollega til vores Financial Planning & Analysis (FP&A)-team, som har lyst til at udvikle sine evner i en global virksomhed med en stærk kundeorienteret kultur.Du vil spille en nøglerolle i den finansielle planlægnin",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
