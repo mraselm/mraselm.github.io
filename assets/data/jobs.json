@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-25T17:57:12Z",
+  "updated": "2026-04-25T19:12:14Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -275,24 +275,13 @@
     ],
     "business intelligence": [
       {
-        "title": "Pricing & Business Intelligence Analyst",
-        "company": "Hilti Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1656901",
-        "posted": "2026-04-17",
-        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
+        "title": "Senior BI Developer",
+        "company": "DANISH CROWN A/S",
+        "location": "Randers",
+        "url": "https://www.jobindex.dk/vis-job/h1637517",
+        "posted": "2026-04-06",
+        "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studerende til Business Intelligence",
-        "company": "HortenDahl",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1654260",
-        "posted": "2026-04-08",
-        "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -308,6 +297,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "Pricing & Business Intelligence Analyst",
+        "company": "Hilti Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1656901",
+        "posted": "2026-04-17",
+        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Studerende til Business Intelligence",
+        "company": "HortenDahl",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/h1654260",
+        "posted": "2026-04-08",
+        "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
         "title": "Financial BI Analyst - Danica Ejendomme",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -316,18 +327,7 @@
         "snippet": "Vil du gøre BI og finansiel analyse til motoren i forretningen?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior BI Developer",
-        "company": "DANISH CROWN A/S",
-        "location": "Randers",
-        "url": "https://www.jobindex.dk/vis-job/h1637517",
-        "posted": "2026-04-06",
-        "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
@@ -348,17 +348,6 @@
         "posted": "2026-04-22",
         "snippet": "Vil du bidrage til en sikker anvendelse af biocider for forbrugere og miljøet og vi arbejder i et internationalt miljø?Vi kan tilbyde et spændende studiejob, som giver indblik i Miljøstyrelsens administrative arbejde og i de fagli",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Climate and Sustainability Analyst - Student Position",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658516",
-        "posted": "2026-04-23",
-        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       },
@@ -548,17 +537,6 @@
         "posted": "2026-04-22",
         "snippet": "Vil du bidrage til en sikker anvendelse af biocider for forbrugere og miljøet og vi arbejder i et internationalt miljø?Vi kan tilbyde et spændende studiejob, som giver indblik i Miljøstyrelsens administrative arbejde og i de fagli",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Climate and Sustainability Analyst - Student Position",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658516",
-        "posted": "2026-04-23",
-        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       }
