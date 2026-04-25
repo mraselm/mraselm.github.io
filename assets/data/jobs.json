@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-25T09:11:11Z",
+  "updated": "2026-04-25T10:06:46Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -108,6 +108,17 @@
     ],
     "business analyst": [
       {
+        "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
+        "company": "Region Midtjylland - Regionshuset Viborg",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1653512",
+        "posted": "2026-04-01",
+        "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark? Du er ”oversætteren” fra forretningen til udviklingsteamet, der koder LUNA-a",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst",
         "company": "Kongskilde Industries A/S",
         "location": "Denmark",
@@ -116,7 +127,7 @@
         "snippet": "Are you passionate about turning data into commercial impact? Then this newly established role might be your next career move.Kongskilde Industries is expanding our business intelligence capabilities, and we are looking for a comm",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst",
@@ -127,7 +138,7 @@
         "snippet": "Leder du efter et spændende job, hvor du kan være med til at udvikle og anvende Cost-to-Serve som et kommercielt styringsværktøj? Vil du være med til at skabe gennemsigtighed i logistikomkostninger og spotte forbedringspotentialer",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst til en virksomhed med fokus på miljø, data og udvikling",
@@ -138,7 +149,7 @@
         "snippet": "Dansk Retursystem er i gang med en data- og AI-satsning for at styrke beslutningsgrundlaget. Du bliver en nøglespiller i krydsfeltet mellem forretning, analyse og teknologi.Dit primære fokus bliver at fungere som en nær og tillids",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst/Product Delivery Manager – udvikling og eksekvering",
@@ -149,7 +160,7 @@
         "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Credit / Business Analyst",
@@ -160,7 +171,7 @@
         "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior Business Analyst - AI Solutions",
@@ -171,7 +182,7 @@
         "snippet": "Are you motivated by bringing structure and clarity to complex problem spaces at the intersection of business, technology, and risk?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Capital Markets Business Analyst",
@@ -182,7 +193,7 @@
         "snippet": "As a Capital Markets Business Analyst, you will build and operate the systems that power Performativ’s investment platform, ensuring...",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "QA & BUSINESS ANALYST – SKAB KVALITET I DIGITALE LØSNINGER TIL LANDBRUGET",
@@ -193,7 +204,7 @@
         "snippet": "Hjælp os med at omsætte komplekse forretningsbehov til løsninger – og sikre, at kvalitet og krav hænger sammen i praksis.",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst with client focus – Cash & Position Transfer Strategy",
@@ -204,7 +215,7 @@
         "snippet": "Join our newly formed Cash & Position Transfer Strategy team at our headquarters in Copenhagen.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior Business Analyst - Markets Reference Data",
@@ -214,17 +225,6 @@
         "posted": "2026-04-20",
         "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker der arbejder helt tæt på forretningen og brugerne",
-        "company": "Region Midtjylland - Regionshuset Viborg",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1653512",
-        "posted": "2026-04-01",
-        "snippet": "Vil du være med til at understøtte den nationale it-løsning LUNA, der spiller en central rolle i administration og afregning af praksisområdet i Danmark? Du er ”oversætteren” fra forretningen til udviklingsteamet, der koder LUNA-a",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "part-time"
       },
