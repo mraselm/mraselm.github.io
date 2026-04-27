@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T04:00:49Z",
+  "updated": "2026-04-27T06:42:02Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -330,17 +330,6 @@
         "job_type": "student"
       },
       {
-        "title": "Studentermedhjælpere til Kemikalier & Biocider",
-        "company": "Miljø- og Ligestillingsministeriet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1658295",
-        "posted": "2026-04-22",
-        "snippet": "Vil du bidrage til en sikker anvendelse af biocider for forbrugere og miljøet og vi arbejder i et internationalt miljø?Vi kan tilbyde et spændende studiejob, som giver indblik i Miljøstyrelsens administrative arbejde og i de fagli",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "Climate and Sustainability Analyst - Student Position",
         "company": "Everllence",
         "location": "Copenhagen",
@@ -528,28 +517,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælpere til Kemikalier & Biocider",
-        "company": "Miljø- og Ligestillingsministeriet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1658295",
-        "posted": "2026-04-22",
-        "snippet": "Vil du bidrage til en sikker anvendelse af biocider for forbrugere og miljøet og vi arbejder i et internationalt miljø?Vi kan tilbyde et spændende studiejob, som giver indblik i Miljøstyrelsens administrative arbejde og i de fagli",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Climate and Sustainability Analyst - Student Position",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658516",
-        "posted": "2026-04-23",
-        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -582,17 +549,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1657222",
         "posted": "2026-04-17",
         "snippet": "Hos Teknologisk Institut arbejder vi for at forbedre erhvervslivets konkurrenceevne, samfundets grønne omstilling og menneskers liv gennem teknologiske løsninger. Nu søger vi en kommercielt stærk kollega, der kan åbne de rigtige d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist, Dnk",
-        "company": "Intrum A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1652642",
-        "posted": "2026-03-30",
-        "snippet": "Vil du være med til at forme vores næste generation af AI teknologi og tage et ledende ansvar i udviklingen af vores mest forretningskritiske systemer?Du skal stå for udviklingen af vores AI platforme, herunder vores neurale netvæ",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -653,23 +609,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "AI Engineer",
+        "company": "Weibel Scientific A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1659182",
+        "posted": "2026-04-27",
+        "snippet": "Har du lyst til at være med til at bygge den platform som gør AI til virkelighed i avanceret radarteknologi? Din mission er klar: Du designer, implementerer og vedligeholder den MLOps-infrastruktur, der gør det muligt for os at tr",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Computer Vision & AI Engineer",
         "company": "BEUMER Group A/S",
         "location": "Aarhus",
         "url": "https://www.jobindex.dk/vis-job/h1651300",
         "posted": "2026-04-23",
         "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Weibel Scientific A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13764955",
-        "posted": "2026-04-24",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
