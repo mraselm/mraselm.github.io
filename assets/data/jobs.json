@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T09:30:18Z",
+  "updated": "2026-04-27T12:00:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -7,8 +7,19 @@
   "categories": {
     "data analyst": [
       {
+        "title": "Research & Data Analyst",
+        "company": "CompanYoung",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1659384",
+        "posted": "2026-04-27",
+        "snippet": "Du bliver en central del af vores intelligence-setup og kommer til at arbejde tæt sammen med vores Intelligence & Growth Lead, der driver den kommercielle strategi og forretningsudvikling med afsæt i vores datagrundlag.Du kommer b",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Dataanalytiker (Data Analyst)",
-        "company": "Jet Time A/S",
+        "company": "Jettime A/S",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/h1658290",
         "posted": "2026-04-22",
@@ -110,7 +121,7 @@
       {
         "title": "Business Analyst",
         "company": "Kongskilde Industries A/S",
-        "location": "Denmark",
+        "location": "Remote",
         "url": "https://www.jobindex.dk/vis-job/h1659050",
         "posted": "2026-04-24",
         "snippet": "Are you passionate about turning data into commercial impact? Then this newly established role might be your next career move.Kongskilde Industries is expanding our business intelligence capabilities, and we are looking for a comm",
