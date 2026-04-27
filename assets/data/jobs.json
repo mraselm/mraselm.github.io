@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T06:42:02Z",
+  "updated": "2026-04-27T09:30:18Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -326,17 +326,6 @@
         "posted": "2026-04-24",
         "snippet": "",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Climate and Sustainability Analyst - Student Position",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658516",
-        "posted": "2026-04-23",
-        "snippet": "Do you want hands on experience with data analysis, dashboards, and cross functional sustainability projects in an industrial context?You will play an important role in:Coordinating and supporting various sustainability projects.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       },
