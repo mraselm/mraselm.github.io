@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T16:56:17Z",
+  "updated": "2026-04-27T18:41:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -169,6 +169,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1655242",
         "posted": "2026-04-17",
         "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst - Finance & Supply Chain",
+        "company": "ALK",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13768327",
+        "posted": "2026-04-27",
+        "snippet": "ALK is a global pharmaceutical company specializing in allergy immunotherapy.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
