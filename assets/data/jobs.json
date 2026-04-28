@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-28T22:12:04Z",
+  "updated": "2026-04-28T23:10:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -885,6 +885,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Bliv salgstrainee i Danmarks største bilhus - Bilernes Hus",
+        "company": "Bjarne Nielsen A/S",
+        "location": "Silkeborg",
+        "url": "https://www.jobindex.dk/vis-job/h1653602",
+        "posted": "2026-04-29",
+        "snippet": "Vi søger en ny salgstrainee, der drømmer om at arbejde med biler og have en karriere i bilbranchen.Her får du en spændende hverdag, hvor ingen dage er ens, særligt i vores store bilhus sker der altid meget, og du skal være god til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Financial Planning Analyst - Graduate (Vikariat)",
         "company": "Aon Denmark A/S",
