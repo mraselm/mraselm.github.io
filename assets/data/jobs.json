@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-28T17:02:46Z",
+  "updated": "2026-04-28T18:52:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -68,6 +68,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1653112",
         "posted": "2026-03-31",
         "snippet": "Vil du arbejde med analyser og modeller, der danner grundlag for opbygningen af Forsvarets fremtidige kampkraft?Du vil arbejde med kvantitative analyser og modeller, der understøtter strategiske beslutninger om personelopbygning.D",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Socialforvaltningen søger to engagerede dataanalytikere med stærke analyse- og formidlingsevner",
+        "company": "Københavns Kommune",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13769843",
+        "posted": "2026-04-28",
+        "snippet": "Vil du bruge dine analytiske evner til at skabe reel værdi for mennesker?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -498,9 +509,9 @@
       },
       {
         "title": "Datamanager og BI specialist til digitalisering i Center for Digital Psykiatri",
-        "company": "",
+        "company": "Region Syddanmark",
         "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13768650",
+        "url": "https://www.jobindex.dk/vis-job/r13769787",
         "posted": "2026-04-28",
         "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
         "lang": "da",
