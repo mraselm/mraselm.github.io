@@ -1,22 +1,11 @@
 {
-  "updated": "2026-04-28T04:07:06Z",
+  "updated": "2026-04-28T06:45:03Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Research & Data Analyst",
-        "company": "CompanYoung",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1659384",
-        "posted": "2026-04-27",
-        "snippet": "Du bliver en central del af vores intelligence-setup og kommer til at arbejde tæt sammen med vores Intelligence & Growth Lead, der driver den kommercielle strategi og forretningsudvikling med afsæt i vores datagrundlag.Du kommer b",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker (Data Analyst)",
         "company": "Jettime A/S",
@@ -25,39 +14,6 @@
         "posted": "2026-04-22",
         "snippet": "Har du lyst til at spille en central rolle i udviklingen af en moderne dataplatform i et stort privatejet dansk business to business flyselskab med en stærk, inkluderende kultur og et tæt samarbejde på tværs af organisationen?Som",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst til marketingafdelingen",
-        "company": "Inco CC København A/S",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1655413",
-        "posted": "2026-04-13",
-        "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Sustainability Data Analyst",
-        "company": "ALK",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13762072",
-        "posted": "2026-04-23",
-        "snippet": "Do you want to make a sustainable difference for people living with allergy?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst - Business Insights & Forecasting",
-        "company": "Universal Robots A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13735789",
-        "posted": "2026-04-10",
-        "snippet": "At Teradyne Robotics, we’re shaping the future of automation.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -71,6 +27,50 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Research & Data Analyst",
+        "company": "CompanYoung",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1659384",
+        "posted": "2026-04-27",
+        "snippet": "Du bliver en central del af vores intelligence-setup og kommer til at arbejde tæt sammen med vores Intelligence & Growth Lead, der driver den kommercielle strategi og forretningsudvikling med afsæt i vores datagrundlag.Du kommer b",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Data Analyst til marketingafdelingen",
+        "company": "Inco CC København A/S",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1655413",
+        "posted": "2026-04-13",
+        "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Sustainability Data Analyst",
+        "company": "ALK",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13762072",
+        "posted": "2026-04-23",
+        "snippet": "Do you want to make a sustainable difference for people living with allergy?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Data Analyst - Business Insights & Forecasting",
+        "company": "Universal Robots A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13735789",
+        "posted": "2026-04-10",
+        "snippet": "At Teradyne Robotics, we’re shaping the future of automation.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -506,17 +506,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
-        "company": "Wrist Ship Supply",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1651963",
-        "posted": "2026-04-24",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -617,7 +606,7 @@
         "snippet": "Har du lyst til at være med til at bygge den platform som gør AI til virkelighed i avanceret radarteknologi? Din mission er klar: Du designer, implementerer og vedligeholder den MLOps-infrastruktur, der gør det muligt for os at tr",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Computer Vision & AI Engineer",
@@ -628,7 +617,7 @@
         "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior AI Engineer – AI Centre of Excellence",
@@ -639,7 +628,7 @@
         "snippet": "Saxo is building the capability for secure, compliant, and scalable AI agents to power internal productivity and client-facing experiences.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Applied AI Engineer (founding role",
@@ -650,7 +639,7 @@
         "snippet": "Juris is building AI-native software for legal and compliance work.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
