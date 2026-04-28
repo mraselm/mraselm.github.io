@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-28T20:41:48Z",
+  "updated": "2026-04-28T22:12:04Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -637,17 +637,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13758495",
         "posted": "2026-04-22",
         "snippet": "Saxo is building the capability for secure, compliant, and scalable AI agents to power internal productivity and client-facing experiences.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Applied AI Engineer (founding role",
-        "company": "equity-based)",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13727857",
-        "posted": "2026-04-07",
-        "snippet": "Juris is building AI-native software for legal and compliance work.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
