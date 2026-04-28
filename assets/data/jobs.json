@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-28T09:34:38Z",
+  "updated": "2026-04-28T12:02:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -330,17 +330,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
-        "company": "Wrist Ship Supply",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1651963",
-        "posted": "2026-04-24",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -508,15 +497,15 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælper til Business Intelligence/Analytics – Nørresundby",
-        "company": "Wrist Ship Supply",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1651963",
-        "posted": "2026-04-24",
-        "snippet": "",
+        "title": "Datamanager og BI specialist til digitalisering i Center for Digital Psykiatri",
+        "company": "",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13768650",
+        "posted": "2026-04-28",
+        "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "student"
+        "job_type": "full-time"
       }
     ],
     "data scientist": [
