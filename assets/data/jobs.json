@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-29T16:53:50Z",
+  "updated": "2026-04-29T18:48:49Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -251,17 +251,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst with client focus – Cash & Position Transfer Strategy",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13758491",
-        "posted": "2026-04-22",
-        "snippet": "Join our newly formed Cash & Position Transfer Strategy team at our headquarters in Copenhagen.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst - Markets Reference Data",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -336,17 +325,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1654260",
         "posted": "2026-04-08",
         "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Financial BI Analyst - Danica Ejendomme",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13744484",
-        "posted": "2026-04-15",
-        "snippet": "Vil du gøre BI og finansiel analyse til motoren i forretningen?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
