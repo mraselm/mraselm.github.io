@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-29T18:48:49Z",
+  "updated": "2026-04-29T20:35:02Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -259,7 +259,7 @@
         "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "IT Business Analyst Intern",
@@ -308,6 +308,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Senior BI Developer",
+        "company": "DANISH CROWN A/S",
+        "location": "Randers",
+        "url": "https://www.jobindex.dk/vis-job/h1637517",
+        "posted": "2026-04-06",
+        "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Pricing & Business Intelligence Analyst",
         "company": "Hilti Danmark A/S",
         "location": "Copenhagen",
@@ -316,7 +327,7 @@
         "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Studerende til Business Intelligence",
@@ -327,18 +338,7 @@
         "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior BI Developer",
-        "company": "DANISH CROWN A/S",
-        "location": "Randers",
-        "url": "https://www.jobindex.dk/vis-job/h1637517",
-        "posted": "2026-04-06",
-        "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Internship - Business Intelligence",
