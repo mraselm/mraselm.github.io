@@ -1,11 +1,22 @@
 {
-  "updated": "2026-04-29T11:54:47Z",
+  "updated": "2026-04-29T14:31:12Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Master Data Analyst",
+        "company": "Weibel Scientific A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1660419",
+        "posted": "2026-04-29",
+        "snippet": "Kan du indsamle, behandle og sætte standarder for ERP-data i et produktionsmiljø?Vi søger en Master Data Analyst til et nøgleområde på tværs af vores produktion. Dit arbejde får stor betydning for Weibel - og vi glæder os til at f",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Research & Data Analyst",
         "company": "CompanYoung",
@@ -130,6 +141,17 @@
     ],
     "business analyst": [
       {
+        "title": "Erfaren Business Analyst til Danmarks betalingsinfrastruktur – analyse, drift og udvikling",
+        "company": "Finans Danmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1660421",
+        "posted": "2026-04-29",
+        "snippet": "Vil du arbejde med hjertet af Danmarks betalingsinfrastruktur, hvor dine analyser er med til at udvikle og sikre, at millioner af betalinger gennemføres sikkert hver dag?Du bliver del af et team, der løfter i flok, og værdsætter s",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst for Our Finance Transformation Portfolio",
         "company": "DSV",
         "location": "Denmark",
@@ -181,17 +203,6 @@
         "posted": "2026-04-20",
         "snippet": "Trives du i spændet mellem forretning og udvikling, og motiveres du af at skabe struktur, klarhed og fremdrift?BitaBIZ anvendes bredt i dansk erhvervsliv – fra små virksomheder til større koncerner. Du kommer til at arbejde tæt sa",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Credit / Business Analyst",
-        "company": "BNP Paribas Factor A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1655242",
-        "posted": "2026-04-17",
-        "snippet": "BNP Paribas is the European Union’s leading bank and key player in international banking.As Credit / Business Analyst you will, together with a colleague, be our local credit and risk expertise when it comes to analysis of existin",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -896,17 +907,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Bliv salgstrainee i Danmarks største bilhus - Bilernes Hus",
-        "company": "Bjarne Nielsen A/S",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1653602",
-        "posted": "2026-04-29",
-        "snippet": "Vi søger en ny salgstrainee, der drømmer om at arbejde med biler og have en karriere i bilbranchen.Her får du en spændende hverdag, hvor ingen dage er ens, særligt i vores store bilhus sker der altid meget, og du skal være god til",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
