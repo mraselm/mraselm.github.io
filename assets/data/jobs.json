@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-30T16:48:20Z",
+  "updated": "2026-04-30T18:45:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -47,6 +47,17 @@
         "posted": "2026-04-13",
         "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Master Data Analyst",
+        "company": "Weibel Scientific A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13777480",
+        "posted": "2026-04-30",
+        "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -229,17 +240,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Capital Markets Business Analyst",
-        "company": "Performativ ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13761881",
-        "posted": "2026-04-23",
-        "snippet": "As a Capital Markets Business Analyst, you will build and operate the systems that power Performativ’s investment platform, ensuring...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst - Markets Reference Data",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -315,6 +315,17 @@
         "posted": "2026-04-08",
         "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student BI Analyst",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13777207",
+        "posted": "2026-04-30",
+        "snippet": "Are you ready to transform your curiosity for data into real business impact?",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -598,12 +609,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer – AI Centre of Excellence",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13758495",
-        "posted": "2026-04-22",
-        "snippet": "Saxo is building the capability for secure, compliant, and scalable AI agents to power internal productivity and client-facing experiences.",
+        "title": "Director - Forward Deployed AI Engineering",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13775915",
+        "posted": "2026-04-30",
+        "snippet": "Shape the future of AI-driven healthcare by leading a team that reimagines how Novo Nordisk delivers life-changing treatments to millions of patients worldwide.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
