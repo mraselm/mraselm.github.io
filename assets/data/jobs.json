@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01T11:33:21Z",
+  "updated": "2026-05-01T13:54:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -251,6 +251,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "AP søger Forretningsanalytiker",
+        "company": "AP Pension",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1661337",
+        "posted": "2026-05-01",
+        "snippet": "Vi søger en forretningsanalytiker med solid analytisk tyngde og teknisk forståelse, der vil være med til at udvikle og videreudvikle backend-landskabet for pensions- og formuerådgivningsløsninger til vores datterselskab, nærpensio",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "IT Business Analyst Intern",
         "company": "Ganni",
         "location": "Copenhagen",
@@ -339,6 +350,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til data og studenterevalueringer",
+        "company": "Københavns Professionshøjskole",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1661339",
+        "posted": "2026-05-01",
+        "snippet": "Vi søger en studentermedhjælper, der kan understøtte vores arbejde med evalueringsdata på Københavns Professionshøjskole (KP).I afdelingen Organisationssupport arbejder vi med at bearbejde og udstille data, herunder de studerendes",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -520,6 +542,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Junior Data Scientist/Data Engineer",
+        "company": "Esoft A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1661382",
+        "posted": "2026-05-01",
+        "snippet": "We are looking for a junior data scientist/engineer to join our R&D team.This role has two main areas of focus: First, data. Our ML systems depend on well-structured, clean, reliable data – and you will own this. Second, research",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Scientist (AI-Enabled)",
         "company": "SVITZER",
