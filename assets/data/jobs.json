@@ -1,11 +1,33 @@
 {
-  "updated": "2026-05-02T13:49:52Z",
+  "updated": "2026-05-02T15:05:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Dataanalytiker (Data Analyst)",
+        "company": "Jettime A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1658290",
+        "posted": "2026-04-22",
+        "snippet": "Har du lyst til at spille en central rolle i udviklingen af en moderne dataplatform i et stort privatejet dansk business to business flyselskab med en stærk, inkluderende kultur og et tæt samarbejde på tværs af organisationen?Som",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Socialforvaltningen søger to engagerede dataanalytikere med stærke analyse- og formidlingsevner",
+        "company": "Københavns Kommune",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13769843",
+        "posted": "2026-04-28",
+        "snippet": "Vil du bruge dine analytiske evner til at skabe reel værdi for mennesker?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Analyst and Process Optimization Lead",
         "company": "ECCO SKO A/S",
@@ -119,17 +141,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Business Analyst (Tax) til Netcompany Banking Services",
-        "company": "Netcompany A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1647061",
-        "posted": "2026-04-09",
-        "snippet": "Vil du spille en nøglerolle i krydsfeltet mellem data, regulering og bankforretning – og sikre, at nordiske banker leverer korrekt og rettidig skatterapportering?Vi søger en erfaren Senior Business Analyst, der brænder for at omsæ",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst - Finance & Supply Chain",
         "company": "ALK",
         "location": "Denmark",
@@ -171,7 +182,18 @@
         "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
+      },
+      {
+        "title": "AP søger Forretningsanalytiker",
+        "company": "AP Pension",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1661337",
+        "posted": "2026-05-01",
+        "snippet": "Vi søger en forretningsanalytiker med solid analytisk tyngde og teknisk forståelse, der vil være med til at udvikle og videreudvikle backend-landskabet for pensions- og formuerådgivningsløsninger til vores datterselskab, nærpensio",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "IT Business Analyst Intern",
@@ -220,17 +242,6 @@
     ],
     "business intelligence": [
       {
-        "title": "BI-udviklere og data engineers til Statens Business Intelligence",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1660396",
-        "posted": "2026-04-29",
-        "snippet": "Er du passioneret omkring data og BI, og vil du være med til at sætte dit aftryk på eksisterende og fremtidige analyse- og rapporteringsløsninger, der anvendes i hele staten? Vi er både interesseret i dig, der brænder for solid ba",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Pricing & Business Intelligence Analyst",
         "company": "Hilti Danmark A/S",
         "location": "Copenhagen",
@@ -239,7 +250,7 @@
         "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Studerende til Business Intelligence",
@@ -250,7 +261,18 @@
         "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
+      },
+      {
+        "title": "Student BI Analyst",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13777207",
+        "posted": "2026-04-30",
+        "snippet": "Are you ready to transform your curiosity for data into real business impact?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Senior BI Developer",
@@ -261,18 +283,7 @@
         "snippet": "You will be at the forefront of our reporting strategy, by defining standards, models and governance as we build a new data platform and elevate our BI maturity.Working primarily with Power BI while also collaborating and working",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til data og studenterevalueringer",
-        "company": "Københavns Professionshøjskole",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1661339",
-        "posted": "2026-05-01",
-        "snippet": "Vi søger en studentermedhjælper, der kan understøtte vores arbejde med evalueringsdata på Københavns Professionshøjskole (KP).I afdelingen Organisationssupport arbejder vi med at bearbejde og udstille data, herunder de studerendes",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
+        "job_type": "part-time"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -461,72 +472,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1661382",
         "posted": "2026-05-01",
         "snippet": "We are looking for a junior data scientist/engineer to join our R&D team.This role has two main areas of focus: First, data. Our ML systems depend on well-structured, clean, reliable data – and you will own this. Second, research",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist (AI-Enabled)",
-        "company": "SVITZER",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658577",
-        "posted": "2026-04-23",
-        "snippet": "We are looking for an experienced Data Scientist who actively leverages AI tools (e.g. Codex) to accelerate experimentation, improve model quality, and explore new ways of solving complex business problems.This role is ideal for s",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist (R&D) - Enterprise Business Development",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1658171",
-        "posted": "2026-04-22",
-        "snippet": "Do you thrive in a product-centric environment where AI and analytics drive action – not just insight?Your work will include developing reusable packages and core contributions to our machine learning platforms, while ensuring str",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Akademikernes A-kasse",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1657827",
-        "posted": "2026-04-21",
-        "snippet": "Vil du være en central figur i at realisere vores ambitioner inden for AI- og dataområdet?Du får en central rolle i arbejdet med klassiske ML-discipliner, herunder rensning af data, analyse, modeludvikling, validering og formidlin",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
-        "company": "Teknologisk Institut",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1657222",
-        "posted": "2026-04-17",
-        "snippet": "Hos Teknologisk Institut arbejder vi for at forbedre erhvervslivets konkurrenceevne, samfundets grønne omstilling og menneskers liv gennem teknologiske løsninger. Nu søger vi en kommercielt stærk kollega, der kan åbne de rigtige d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist – Applied AI & Machine Learning",
-        "company": "Collectia A/S",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/r13758701",
-        "posted": "2026-04-22",
-        "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions – end-to-end, from idea to production?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Assistant Professor position in Computer Science with a Focus on Interdisciplinary Data Science",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13741504",
-        "posted": "2026-04-14",
-        "snippet": "As part of expanding the Centre for Visual Data Science and the Centre for Digital Humanities, the Department of Mathematics and Computer...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
