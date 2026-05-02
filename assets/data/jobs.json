@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-02T10:10:48Z",
+  "updated": "2026-05-02T11:07:31Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -286,28 +286,6 @@
     ],
     "business intelligence": [
       {
-        "title": "Pricing & Business Intelligence Analyst",
-        "company": "Hilti Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1656901",
-        "posted": "2026-04-17",
-        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studerende til Business Intelligence",
-        "company": "HortenDahl",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1654260",
-        "posted": "2026-04-08",
-        "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Student BI Analyst",
         "company": "Saxo Bank A/S",
         "location": "Hellerup",
@@ -330,15 +308,26 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælper til data og studenterevalueringer",
-        "company": "Københavns Professionshøjskole",
+        "title": "Pricing & Business Intelligence Analyst",
+        "company": "Hilti Danmark A/S",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1661339",
-        "posted": "2026-05-01",
-        "snippet": "Vi søger en studentermedhjælper, der kan understøtte vores arbejde med evalueringsdata på Københavns Professionshøjskole (KP).I afdelingen Organisationssupport arbejder vi med at bearbejde og udstille data, herunder de studerendes",
+        "url": "https://www.jobindex.dk/vis-job/h1656901",
+        "posted": "2026-04-17",
+        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Studerende til Business Intelligence",
+        "company": "HortenDahl",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/h1654260",
+        "posted": "2026-04-08",
+        "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "student"
+        "job_type": "part-time"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -516,7 +505,7 @@
         "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       }
     ],
     "data scientist": [
@@ -527,39 +516,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1661382",
         "posted": "2026-05-01",
         "snippet": "We are looking for a junior data scientist/engineer to join our R&D team.This role has two main areas of focus: First, data. Our ML systems depend on well-structured, clean, reliable data – and you will own this. Second, research",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Weibel Scientific A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1659182",
-        "posted": "2026-04-27",
-        "snippet": "Har du lyst til at være med til at bygge den platform som gør AI til virkelighed i avanceret radarteknologi? Din mission er klar: Du designer, implementerer og vedligeholder den MLOps-infrastruktur, der gør det muligt for os at tr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Computer Vision & AI Engineer",
-        "company": "BEUMER Group A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1651300",
-        "posted": "2026-04-23",
-        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Director - Forward Deployed AI Engineering",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13775915",
-        "posted": "2026-04-30",
-        "snippet": "Shape the future of AI-driven healthcare by leading a team that reimagines how Novo Nordisk delivers life-changing treatments to millions of patients worldwide.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -616,17 +572,6 @@
         "posted": "2026-04-14",
         "snippet": "As part of expanding the Centre for Visual Data Science and the Centre for Digital Humanities, the Department of Mathematics and Computer...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Senior Machine Learning Engineer – fra model til produktion",
-        "company": "nemlig.com",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/h1657333",
-        "posted": "2026-04-20",
-        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "part-time"
       },
