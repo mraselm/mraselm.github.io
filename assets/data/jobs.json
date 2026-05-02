@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-02T16:01:41Z",
+  "updated": "2026-05-02T17:07:03Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -218,17 +218,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Business Analyst - Markets Reference Data",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13754087",
-        "posted": "2026-04-20",
-        "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "AP søger Forretningsanalytiker",
         "company": "AP Pension",
         "location": "Copenhagen",
@@ -238,6 +227,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst - Markets Reference Data",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13754087",
+        "posted": "2026-04-20",
+        "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "IT Business Analyst Intern",
@@ -594,39 +594,6 @@
         "posted": "2026-04-20",
         "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Weibel Scientific A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1659182",
-        "posted": "2026-04-27",
-        "snippet": "Har du lyst til at være med til at bygge den platform som gør AI til virkelighed i avanceret radarteknologi? Din mission er klar: Du designer, implementerer og vedligeholder den MLOps-infrastruktur, der gør det muligt for os at tr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Computer Vision & AI Engineer",
-        "company": "BEUMER Group A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1651300",
-        "posted": "2026-04-23",
-        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Director - Forward Deployed AI Engineering",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13775915",
-        "posted": "2026-04-30",
-        "snippet": "Shape the future of AI-driven healthcare by leading a team that reimagines how Novo Nordisk delivers life-changing treatments to millions of patients worldwide.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
