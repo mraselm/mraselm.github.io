@@ -1,33 +1,11 @@
 {
-  "updated": "2026-05-03T00:01:34Z",
+  "updated": "2026-05-03T04:12:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Master Data Analyst",
-        "company": "Weibel Scientific A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1660419",
-        "posted": "2026-04-29",
-        "snippet": "Kan du indsamle, behandle og sætte standarder for ERP-data i et produktionsmiljø?Vi søger en Master Data Analyst til et nøgleområde på tværs af vores produktion. Dit arbejde får stor betydning for Weibel - og vi glæder os til at f",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Research & Data Analyst",
-        "company": "CompanYoung",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1659384",
-        "posted": "2026-04-27",
-        "snippet": "Du bliver en central del af vores intelligence-setup og kommer til at arbejde tæt sammen med vores Intelligence & Growth Lead, der driver den kommercielle strategi og forretningsudvikling med afsæt i vores datagrundlag.Du kommer b",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker (Data Analyst)",
         "company": "Jettime A/S",
@@ -36,28 +14,6 @@
         "posted": "2026-04-22",
         "snippet": "Har du lyst til at spille en central rolle i udviklingen af en moderne dataplatform i et stort privatejet dansk business to business flyselskab med en stærk, inkluderende kultur og et tæt samarbejde på tværs af organisationen?Som",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst til marketingafdelingen",
-        "company": "Inco CC København A/S",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1655413",
-        "posted": "2026-04-13",
-        "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Sustainability Data Analyst",
-        "company": "ALK",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13762072",
-        "posted": "2026-04-23",
-        "snippet": "Do you want to make a sustainable difference for people living with allergy?",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -71,6 +27,50 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Master Data Analyst",
+        "company": "Weibel Scientific A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1660419",
+        "posted": "2026-04-29",
+        "snippet": "Kan du indsamle, behandle og sætte standarder for ERP-data i et produktionsmiljø?Vi søger en Master Data Analyst til et nøgleområde på tværs af vores produktion. Dit arbejde får stor betydning for Weibel - og vi glæder os til at f",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Research & Data Analyst",
+        "company": "CompanYoung",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1659384",
+        "posted": "2026-04-27",
+        "snippet": "Du bliver en central del af vores intelligence-setup og kommer til at arbejde tæt sammen med vores Intelligence & Growth Lead, der driver den kommercielle strategi og forretningsudvikling med afsæt i vores datagrundlag.Du kommer b",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Data Analyst til marketingafdelingen",
+        "company": "Inco CC København A/S",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1655413",
+        "posted": "2026-04-13",
+        "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Sustainability Data Analyst",
+        "company": "ALK",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13762072",
+        "posted": "2026-04-23",
+        "snippet": "Do you want to make a sustainable difference for people living with allergy?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
