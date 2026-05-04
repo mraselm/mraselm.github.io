@@ -1,11 +1,22 @@
 {
-  "updated": "2026-05-04T10:25:34Z",
+  "updated": "2026-05-04T12:56:14Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Data Analyst",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1661756",
+        "posted": "2026-05-04",
+        "snippet": "We’re looking for a Data Analyst who brings structure and clarity to how data is understood, aligned, and connected across an Enterprise Data Platform.You take ownership of how business concepts, source data, and platform models a",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Master Data Analyst",
         "company": "Weibel Scientific A/S",
@@ -229,17 +240,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst with client focus – Cash & Position Transfer Strategy",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13758491",
-        "posted": "2026-04-22",
-        "snippet": "Join our newly formed Cash & Position Transfer Strategy team at our headquarters in Copenhagen.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst - Markets Reference Data",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -326,17 +326,6 @@
         "posted": "2026-04-17",
         "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studerende til Business Intelligence",
-        "company": "HortenDahl",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1654260",
-        "posted": "2026-04-08",
-        "snippet": "Brænder du for data og analyse, og har du lyst til et udfordrende studiejob, hvor du arbejder tæt på forretningsudvikling og beslutningsprocesser i praksis – og hvor tempoet og ambitionsniveauet er højt?Opgaverne er alsidige og kr",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
