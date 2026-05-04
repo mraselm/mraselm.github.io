@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T15:22:38Z",
+  "updated": "2026-05-04T17:51:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -225,17 +225,6 @@
         "posted": "2026-04-23",
         "snippet": "As a Capital Markets Business Analyst, you will build and operate the systems that power Performativ’s investment platform, ensuring...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "QA & BUSINESS ANALYST – SKAB KVALITET I DIGITALE LØSNINGER TIL LANDBRUGET",
-        "company": "SEGES Innovation",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13759877",
-        "posted": "2026-04-23",
-        "snippet": "Hjælp os med at omsætte komplekse forretningsbehov til løsninger – og sikre, at kvalitet og krav hænger sammen i praksis.",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
