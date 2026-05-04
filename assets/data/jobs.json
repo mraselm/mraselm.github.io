@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T07:25:27Z",
+  "updated": "2026-05-04T10:25:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -308,6 +308,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Finance BI Partner med fokus på Power BI, FP&A og Business Intelligence",
+        "company": "Billund Lufthavn A/S",
+        "location": "Billund",
+        "url": "https://www.jobindex.dk/vis-job/h1661620",
+        "posted": "2026-05-04",
+        "snippet": "Vil du arbejde med Power BI, finans og data i en rolle, hvor dine løsninger bliver brugt direkte i forretningsbeslutninger?Rollen kombinerer stærk finansiel forståelse med solid BI-kompetence (særligt Power BI og SQL forståelse) o",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Pricing & Business Intelligence Analyst",
         "company": "Hilti Danmark A/S",
         "location": "Copenhagen",
@@ -361,6 +372,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til Business Intelligence",
+        "company": "Normal A/S",
+        "location": "Skanderborg",
+        "url": "https://www.jobindex.dk/vis-job/h1661527",
+        "posted": "2026-05-04",
+        "snippet": "Brænder du for data, og leder du efter et studiejob som er relevant for dig? Har du lyst til at arbejde med Business Intelligence, analyser og rapportering?Du får mulighed for at omsætte din teoretiske viden til praktisk erfaring",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Studentermedhjælper til data og studenterevalueringer",
@@ -550,6 +572,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til Business Intelligence",
+        "company": "Normal A/S",
+        "location": "Skanderborg",
+        "url": "https://www.jobindex.dk/vis-job/h1661527",
+        "posted": "2026-05-04",
+        "snippet": "Brænder du for data, og leder du efter et studiejob som er relevant for dig? Har du lyst til at arbejde med Business Intelligence, analyser og rapportering?Du får mulighed for at omsætte din teoretiske viden til praktisk erfaring",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -560,17 +593,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1661382",
         "posted": "2026-05-01",
         "snippet": "We are looking for a junior data scientist/engineer to join our R&D team.This role has two main areas of focus: First, data. Our ML systems depend on well-structured, clean, reliable data – and you will own this. Second, research",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist (AI-Enabled)",
-        "company": "SVITZER",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658577",
-        "posted": "2026-04-23",
-        "snippet": "We are looking for an experienced Data Scientist who actively leverages AI tools (e.g. Codex) to accelerate experimentation, improve model quality, and explore new ways of solving complex business problems.This role is ideal for s",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
