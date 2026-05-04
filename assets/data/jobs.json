@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T17:51:35Z",
+  "updated": "2026-05-04T19:55:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -213,17 +213,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13764213",
         "posted": "2026-04-24",
         "snippet": "Are you motivated by bringing structure and clarity to complex problem spaces at the intersection of business, technology, and risk?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Capital Markets Business Analyst",
-        "company": "Performativ ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13761881",
-        "posted": "2026-04-23",
-        "snippet": "As a Capital Markets Business Analyst, you will build and operate the systems that power Performativ’s investment platform, ensuring...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -604,17 +593,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13758701",
         "posted": "2026-04-22",
         "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions – end-to-end, from idea to production?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Assistant Professor position in Computer Science with a Focus on Interdisciplinary Data Science",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13741504",
-        "posted": "2026-04-14",
-        "snippet": "As part of expanding the Centre for Visual Data Science and the Centre for Digital Humanities, the Department of Mathematics and Computer...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
