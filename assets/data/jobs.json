@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T16:55:47Z",
+  "updated": "2026-05-05T18:47:37Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -316,7 +316,7 @@
         "snippet": "Vil du være med til at sætte retning for, hvordan vi arbejder med data og kunstig intelligens?Du får en nøglerolle i vores digitale udvikling, hvor du både arbejder hands-on med Power BI og er med til at udvikle og implementere vo",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Studentermedhjælper til Business Intelligence",
@@ -576,12 +576,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist – Applied AI & Machine Learning",
-        "company": "Collectia A/S",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/r13758701",
-        "posted": "2026-04-22",
-        "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions – end-to-end, from idea to production?",
+        "title": "Senior Data Scientist",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13786909",
+        "posted": "2026-05-05",
+        "snippet": "Do you want to work with modelling and development of different models and data-based automated processes with Saxo’s Financial Crime Prevention (FCP)?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
