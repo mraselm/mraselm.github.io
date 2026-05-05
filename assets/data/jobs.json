@@ -1,11 +1,33 @@
 {
-  "updated": "2026-05-05T09:21:15Z",
+  "updated": "2026-05-05T11:39:09Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Master Data Analyst",
+        "company": "Weibel Scientific A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1660419",
+        "posted": "2026-04-29",
+        "snippet": "Kan du indsamle, behandle og sætte standarder for ERP-data i et produktionsmiljø?Vi søger en Master Data Analyst til et nøgleområde på tværs af vores produktion. Dit arbejde får stor betydning for Weibel - og vi glæder os til at f",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Research & Data Analyst",
+        "company": "CompanYoung",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1659384",
+        "posted": "2026-04-27",
+        "snippet": "Du bliver en central del af vores intelligence-setup og kommer til at arbejde tæt sammen med vores Intelligence & Growth Lead, der driver den kommercielle strategi og forretningsudvikling med afsæt i vores datagrundlag.Du kommer b",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Dataanalytiker (Data Analyst)",
         "company": "Jettime A/S",
@@ -14,6 +36,28 @@
         "posted": "2026-04-22",
         "snippet": "Har du lyst til at spille en central rolle i udviklingen af en moderne dataplatform i et stort privatejet dansk business to business flyselskab med en stærk, inkluderende kultur og et tæt samarbejde på tværs af organisationen?Som",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst til marketingafdelingen",
+        "company": "Inco CC København A/S",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1655413",
+        "posted": "2026-04-13",
+        "snippet": "Inco Cash & Carry arbejder intenst med at optimere og effektivisere vores marketingarbejde og søger derfor en Data Analyst, som har lyst til at videreføre incos datadrevne markedsføring og butiksdriftsstrategier.Du kommer også til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Sustainability Data Analyst",
+        "company": "ALK",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13762072",
+        "posted": "2026-04-23",
+        "snippet": "Do you want to make a sustainable difference for people living with allergy?",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -174,17 +218,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst with client focus – Cash & Position Transfer Strategy",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13758491",
-        "posted": "2026-04-22",
-        "snippet": "Join our newly formed Cash & Position Transfer Strategy team at our headquarters in Copenhagen.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst - Markets Reference Data",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -192,6 +225,17 @@
         "posted": "2026-04-20",
         "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AP søger Forretningsanalytiker",
+        "company": "AP Pension",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1661337",
+        "posted": "2026-05-01",
+        "snippet": "Vi søger en forretningsanalytiker med solid analytisk tyngde og teknisk forståelse, der vil være med til at udvikle og videreudvikle backend-landskabet for pensions- og formuerådgivningsløsninger til vores datterselskab, nærpensio",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -253,6 +297,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "Pricing & Business Intelligence Analyst",
+        "company": "Hilti Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1656901",
+        "posted": "2026-04-17",
+        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student BI Analyst",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13777207",
+        "posted": "2026-04-30",
+        "snippet": "Are you ready to transform your curiosity for data into real business impact?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Power BI analytiker og AI pilot - vær med til at forme fremtidens digitale udvikling",
         "company": "DAV NORDIC A/S",
         "location": "Silkeborg",
@@ -262,28 +328,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "BI-udviklere og data engineers til Statens Business Intelligence",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1660396",
-        "posted": "2026-04-29",
-        "snippet": "Er du passioneret omkring data og BI, og vil du være med til at sætte dit aftryk på eksisterende og fremtidige analyse- og rapporteringsløsninger, der anvendes i hele staten? Vi er både interesseret i dig, der brænder for solid ba",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Pricing & Business Intelligence Analyst",
-        "company": "Hilti Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1656901",
-        "posted": "2026-04-17",
-        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Studentermedhjælper til Business Intelligence",
@@ -472,7 +516,7 @@
         "snippet": "Motiveres du af at arbejde i krydsfeltet mellem forretning, KPI’er og visualisering – og har du samtidig interesse for, hvordan det underliggende datagrundlag hænger sammen?Vi søger en Power BI Specialist, der får ansvaret for opb",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Datamanager og BI specialist til digitalisering i Center for Digital Psykiatri",
@@ -483,7 +527,7 @@
         "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Studentermedhjælper til Business Intelligence",
