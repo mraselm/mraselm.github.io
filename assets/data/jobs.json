@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-06T16:54:52Z",
+  "updated": "2026-05-06T19:00:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -572,6 +572,17 @@
         "posted": "2026-04-20",
         "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Biomedical Machine Learning Engineer Intern",
+        "company": "",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/r13790216",
+        "posted": "2026-05-06",
+        "snippet": "Join IMP SCANDINAVIA, a dynamic MedTech Start-Up revolutionizing the healthcare sector with our intelligent monitoring technology.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
