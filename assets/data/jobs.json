@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-06T06:45:45Z",
+  "updated": "2026-05-06T09:36:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -319,17 +319,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælper til Business Intelligence",
-        "company": "Normal A/S",
-        "location": "Skanderborg",
-        "url": "https://www.jobindex.dk/vis-job/h1661527",
-        "posted": "2026-05-04",
-        "snippet": "Brænder du for data, og leder du efter et studiejob som er relevant for dig? Har du lyst til at arbejde med Business Intelligence, analyser og rapportering?Du får mulighed for at omsætte din teoretiske viden til praktisk erfaring",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -506,17 +495,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til Business Intelligence",
-        "company": "Normal A/S",
-        "location": "Skanderborg",
-        "url": "https://www.jobindex.dk/vis-job/h1661527",
-        "posted": "2026-05-04",
-        "snippet": "Brænder du for data, og leder du efter et studiejob som er relevant for dig? Har du lyst til at arbejde med Business Intelligence, analyser og rapportering?Du får mulighed for at omsætte din teoretiske viden til praktisk erfaring",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -571,6 +549,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13786909",
         "posted": "2026-05-05",
         "snippet": "Do you want to work with modelling and development of different models and data-based automated processes with Saxo’s Financial Crime Prevention (FCP)?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist – Applied AI & Machine Learning",
+        "company": "Collectia A/S",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/r13758701",
+        "posted": "2026-04-22",
+        "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions – end-to-end, from idea to production?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
