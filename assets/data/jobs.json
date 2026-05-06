@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-06T04:06:30Z",
+  "updated": "2026-05-06T06:45:45Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -325,17 +325,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1661527",
         "posted": "2026-05-04",
         "snippet": "Brænder du for data, og leder du efter et studiejob som er relevant for dig? Har du lyst til at arbejde med Business Intelligence, analyser og rapportering?Du får mulighed for at omsætte din teoretiske viden til praktisk erfaring",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til data og studenterevalueringer",
-        "company": "Københavns Professionshøjskole",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1661339",
-        "posted": "2026-05-01",
-        "snippet": "Vi søger en studentermedhjælper, der kan understøtte vores arbejde med evalueringsdata på Københavns Professionshøjskole (KP).I afdelingen Organisationssupport arbejder vi med at bearbejde og udstille data, herunder de studerendes",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
