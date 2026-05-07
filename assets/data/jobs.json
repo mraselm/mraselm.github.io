@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T10:35:02Z",
+  "updated": "2026-05-07T13:03:17Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -130,6 +130,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "GDPR Business Analyst/Compliance Specialist med IT-fokus",
+        "company": "Velliv",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1663233",
+        "posted": "2026-05-07",
+        "snippet": "Vil du være med til at omsætte GDPR-krav til konkrete IT-løsninger, der skaber værdi i praksis? Du bliver bindeleddet mellem vores juridiske GDPR-specialister og IT-organisationen og får en central rolle i at sikre, at compliance",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Erfaren Business Analyst til Danmarks betalingsinfrastruktur – analyse, drift og udvikling",
         "company": "Finans Danmark",
         "location": "Copenhagen",
@@ -202,17 +213,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13764213",
         "posted": "2026-04-24",
         "snippet": "Are you motivated by bringing structure and clarity to complex problem spaces at the intersection of business, technology, and risk?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Capital Markets Business Analyst",
-        "company": "Performativ ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13761881",
-        "posted": "2026-04-23",
-        "snippet": "As a Capital Markets Business Analyst, you will build and operate the systems that power Performativ’s investment platform, ensuring...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
