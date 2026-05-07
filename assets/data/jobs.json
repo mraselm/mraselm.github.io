@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T15:37:10Z",
+  "updated": "2026-05-07T17:58:12Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -543,13 +543,13 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Data Scientist",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13786909",
-        "posted": "2026-05-05",
-        "snippet": "Do you want to work with modelling and development of different models and data-based automated processes with Saxo’s Financial Crime Prevention (FCP)?",
-        "lang": "en",
+        "title": "Data Scientist til arbejdet med kunstig intelligens i Digitaliseringsstyrelsen",
+        "company": "Digitaliseringsstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13792934",
+        "posted": "2026-05-07",
+        "snippet": "Vil du være med til at forme, hvordan kunstig intelligens og sprogmodeller anvendes i samfundet?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -578,9 +578,9 @@
       {
         "title": "Biomedical Machine Learning Engineer Intern",
         "company": "",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/r13790216",
-        "posted": "2026-05-06",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13792221",
+        "posted": "2026-05-07",
         "snippet": "Join IMP SCANDINAVIA, a dynamic MedTech Start-Up revolutionizing the healthcare sector with our intelligent monitoring technology.",
         "lang": "en",
         "source": "jobindex",
