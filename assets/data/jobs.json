@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T04:05:56Z",
+  "updated": "2026-05-07T07:18:54Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -304,17 +304,6 @@
         "posted": "2026-04-30",
         "snippet": "Are you ready to transform your curiosity for data into real business impact?",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Power BI analytiker og AI pilot - vær med til at forme fremtidens digitale udvikling",
-        "company": "DAV NORDIC A/S",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1660771",
-        "posted": "2026-05-04",
-        "snippet": "Vil du være med til at sætte retning for, hvordan vi arbejder med data og kunstig intelligens?Du får en nøglerolle i vores digitale udvikling, hvor du både arbejder hands-on med Power BI og er med til at udvikle og implementere vo",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
