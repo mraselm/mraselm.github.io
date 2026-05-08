@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T11:46:17Z",
+  "updated": "2026-05-08T14:17:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -319,6 +319,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Bliv studentermedhjælper i OSINT i PET og bidrag til sikkerheden i Danmark",
+        "company": "Politiets Efterretningstjeneste",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/h1663877",
+        "posted": "2026-05-08",
+        "snippet": "Vil du bidrage til bekæmpelsen af ekstremister, terrorister og spioner? Vil du lave screeninger og due dilligence på personer og virksomheder? Brænder du for at benytte open source kilder i dit arbejde? Hvis du kan svare ja til ov",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -495,6 +506,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Bliv studentermedhjælper i OSINT i PET og bidrag til sikkerheden i Danmark",
+        "company": "Politiets Efterretningstjeneste",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/h1663877",
+        "posted": "2026-05-08",
+        "snippet": "Vil du bidrage til bekæmpelsen af ekstremister, terrorister og spioner? Vil du lave screeninger og due dilligence på personer og virksomheder? Brænder du for at benytte open source kilder i dit arbejde? Hvis du kan svare ja til ov",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
