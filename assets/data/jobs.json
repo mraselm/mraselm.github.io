@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T06:10:08Z",
+  "updated": "2026-05-08T07:58:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -499,23 +499,23 @@
     ],
     "data scientist": [
       {
+        "title": "Data Scientist til arbejdet med kunstig intelligens",
+        "company": "Økonomistyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1663493",
+        "posted": "2026-05-08",
+        "snippet": "Vi mangler dig, der vil være vores tekniske ekspert indenfor kunstig intelligens, herunder sprogteknologi og sprogmodeller.Du kommer til at indgå i arbejdet med flere af styrelsens AI-indsatser og får en central rolle i at omsætte",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Junior Data Scientist/Data Engineer",
         "company": "Esoft A/S",
         "location": "Odense",
         "url": "https://www.jobindex.dk/vis-job/h1661382",
         "posted": "2026-05-01",
         "snippet": "We are looking for a junior data scientist/engineer to join our R&D team.This role has two main areas of focus: First, data. Our ML systems depend on well-structured, clean, reliable data – and you will own this. Second, research",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist (AI-Enabled)",
-        "company": "SVITZER",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1658577",
-        "posted": "2026-04-23",
-        "snippet": "We are looking for an experienced Data Scientist who actively leverages AI tools (e.g. Codex) to accelerate experimentation, improve model quality, and explore new ways of solving complex business problems.This role is ideal for s",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -538,17 +538,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1657222",
         "posted": "2026-04-17",
         "snippet": "Hos Teknologisk Institut arbejder vi for at forbedre erhvervslivets konkurrenceevne, samfundets grønne omstilling og menneskers liv gennem teknologiske løsninger. Nu søger vi en kommercielt stærk kollega, der kan åbne de rigtige d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til arbejdet med kunstig intelligens i Digitaliseringsstyrelsen",
-        "company": "Digitaliseringsstyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13792934",
-        "posted": "2026-05-07",
-        "snippet": "Vil du være med til at forme, hvordan kunstig intelligens og sprogmodeller anvendes i samfundet?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
