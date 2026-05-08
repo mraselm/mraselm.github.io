@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T22:14:25Z",
+  "updated": "2026-05-08T23:12:06Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -24,17 +24,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1659384",
         "posted": "2026-04-27",
         "snippet": "Du bliver en central del af vores intelligence-setup og kommer til at arbejde tæt sammen med vores Intelligence & Growth Lead, der driver den kommercielle strategi og forretningsudvikling med afsæt i vores datagrundlag.Du kommer b",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker (Data Analyst)",
-        "company": "Jettime A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1658290",
-        "posted": "2026-04-22",
-        "snippet": "Har du lyst til at spille en central rolle i udviklingen af en moderne dataplatform i et stort privatejet dansk business to business flyselskab med en stærk, inkluderende kultur og et tæt samarbejde på tværs af organisationen?Som",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -550,17 +539,6 @@
         "posted": "2026-04-22",
         "snippet": "Do you thrive in a product-centric environment where AI and analytics drive action – not just insight?Your work will include developing reusable packages and core contributions to our machine learning platforms, while ensuring str",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Developer med ansvar for salg og kundeudvikling inden for Data Science & AI",
-        "company": "Teknologisk Institut",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1657222",
-        "posted": "2026-04-17",
-        "snippet": "Hos Teknologisk Institut arbejder vi for at forbedre erhvervslivets konkurrenceevne, samfundets grønne omstilling og menneskers liv gennem teknologiske løsninger. Nu søger vi en kommercielt stærk kollega, der kan åbne de rigtige d",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
