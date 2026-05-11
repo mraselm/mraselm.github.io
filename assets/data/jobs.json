@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T16:11:37Z",
+  "updated": "2026-05-11T18:05:02Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -174,12 +174,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst - Finance & Supply Chain",
-        "company": "ALK",
+        "title": "FX Business Analyst",
+        "company": "Danske Bank",
         "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13768327",
-        "posted": "2026-04-27",
-        "snippet": "ALK is a global pharmaceutical company specializing in allergy immunotherapy.",
+        "url": "https://www.jobindex.dk/vis-job/r13798569",
+        "posted": "2026-05-11",
+        "snippet": "At Markets Business Technology (MBT), we’re a dynamic team of 200+ professionals at Danske Bank LC&I, united by a focus on innovation in financial markets.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -191,17 +191,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13764213",
         "posted": "2026-04-24",
         "snippet": "Are you motivated by bringing structure and clarity to complex problem spaces at the intersection of business, technology, and risk?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Analyst - Markets Reference Data",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13754087",
-        "posted": "2026-04-20",
-        "snippet": "We are seeking a mature and inquisitive Business Analyst with Markets and Reference data experience to join our team.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
