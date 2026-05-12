@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T06:50:03Z",
+  "updated": "2026-05-12T09:48:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -538,6 +538,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13792221",
         "posted": "2026-05-07",
         "snippet": "Join IMP SCANDINAVIA, a dynamic MedTech Start-Up revolutionizing the healthcare sector with our intelligent monitoring technology.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - RAG, Open Source LLMs & Kubernetes",
+        "company": "twoday A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1664585",
+        "posted": "2026-05-12",
+        "snippet": "Do you want to build AI solutions that are actually used in production — and not just demos and prototypes?At Twoday, we are looking for a hands-on AI Engineer to build and operate LLM-powered assistants and chatbot solutions for",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
