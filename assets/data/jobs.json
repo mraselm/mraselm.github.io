@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T20:50:20Z",
+  "updated": "2026-05-12T22:35:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -48,7 +48,7 @@
         "snippet": "Vil du arbejde med dataanalyser i et fagligt stærkt miljø, hvor internationale data og surveyundersøgelser danner grundlag for viden om uddannelsesområdet?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Socialforvaltningen søger to engagerede dataanalytikere med stærke analyse- og formidlingsevner",
@@ -59,7 +59,7 @@
         "snippet": "Vil du bruge dine analytiske evner til at skabe reel værdi for mennesker?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
