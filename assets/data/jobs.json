@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T10:43:53Z",
+  "updated": "2026-05-13T13:29:36Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -40,6 +40,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Dataanalytiker til fjernvarmeforsyning",
+        "company": "Høje Taastrup Fjernvarme a.m.b.a",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1665479",
+        "posted": "2026-05-13",
+        "snippet": "Vil du arbejde i krydsfeltet mellem data, hydraulik og grøn omstilling og være med til at optimere et af Danmarks største forbrugerejede fjernvarmeselskaber ved hjælp af avanceret analyse, digitale modeller og kunstig intelligens?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Dataanalytikere søges til strategiske analyser",
         "company": "Politi",
         "location": "Copenhagen",
@@ -49,6 +60,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student Assistant - Business Analyst",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1665437",
+        "posted": "2026-05-13",
+        "snippet": "Har du lyst til at arbejde med data, analyser og kommercielle beslutninger i Danmarks største detailkæde – samtidig med, at du studerer?Som studentermedhjælper bliver du en vigtig del af teamet og kommer bl.a. til at arbejde med a",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -207,6 +229,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Student Assistant - Business Analyst",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1665437",
+        "posted": "2026-05-13",
+        "snippet": "Har du lyst til at arbejde med data, analyser og kommercielle beslutninger i Danmarks største detailkæde – samtidig med, at du studerer?Som studentermedhjælper bliver du en vigtig del af teamet og kommer bl.a. til at arbejde med a",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "IT Business Analyst Intern",
         "company": "Ganni",
         "location": "Copenhagen",
@@ -264,17 +297,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Pricing & Business Intelligence Analyst",
-        "company": "Hilti Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1656901",
-        "posted": "2026-04-17",
-        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Student BI Analyst",
         "company": "Saxo Bank A/S",
         "location": "Hellerup",
@@ -284,6 +306,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student Assistant - Business Analyst",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1665437",
+        "posted": "2026-05-13",
+        "snippet": "Har du lyst til at arbejde med data, analyser og kommercielle beslutninger i Danmarks største detailkæde – samtidig med, at du studerer?Som studentermedhjælper bliver du en vigtig del af teamet og kommer bl.a. til at arbejde med a",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Studentermedhjælper til Data og BI i Sampension",
@@ -464,12 +497,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælper til Data og BI i Sampension",
-        "company": "Sampension A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1664480",
-        "posted": "2026-05-12",
-        "snippet": "Har du lyst til at arbejde med data, Power BI og AI, i en pensionsvirksomhed, hvor du får praktisk erfaring med data, analyser og moderne Microsoft-teknologi?Dine opgaver vil bl.a. være at:Hjælpe med udrulning og governance af Cop",
+        "title": "Student Assistant - Business Analyst",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1665437",
+        "posted": "2026-05-13",
+        "snippet": "Har du lyst til at arbejde med data, analyser og kommercielle beslutninger i Danmarks største detailkæde – samtidig med, at du studerer?Som studentermedhjælper bliver du en vigtig del af teamet og kommer bl.a. til at arbejde med a",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -560,28 +593,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1659182",
         "posted": "2026-04-27",
         "snippet": "Har du lyst til at være med til at bygge den platform som gør AI til virkelighed i avanceret radarteknologi? Din mission er klar: Du designer, implementerer og vedligeholder den MLOps-infrastruktur, der gør det muligt for os at tr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Computer Vision & AI Engineer",
-        "company": "BEUMER Group A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1651300",
-        "posted": "2026-04-23",
-        "snippet": "Do you want to work with computer vision and AI? As our new Computer Vision & AI Engineer, you will become part of a cross‑functional team consisting of highly skilled colleagues within robotics, vision, mechanical and electrical",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Kolding Kommune",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/r13802448",
-        "posted": "2026-05-13",
-        "snippet": "I Kolding Kommune har vi valgt at gøre AI til et strategisk indsatsområde.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
