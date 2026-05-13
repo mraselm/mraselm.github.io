@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T07:29:14Z",
+  "updated": "2026-05-13T10:43:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -40,23 +40,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Dataanalytiker til internationale analyser og survey data",
-        "company": "Styrelsen for Undervisning og Kvalitet",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13799965",
-        "posted": "2026-05-12",
-        "snippet": "Vil du arbejde med dataanalyser i et fagligt stærkt miljø, hvor internationale data og surveyundersøgelser danner grundlag for viden om uddannelsesområdet?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Socialforvaltningen søger to engagerede dataanalytikere med stærke analyse- og formidlingsevner",
-        "company": "Københavns Kommune",
+        "title": "Dataanalytikere søges til strategiske analyser",
+        "company": "Politi",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13769843",
-        "posted": "2026-04-28",
-        "snippet": "Vil du bruge dine analytiske evner til at skabe reel værdi for mennesker?",
+        "url": "https://www.jobindex.dk/vis-job/h1665216",
+        "posted": "2026-05-13",
+        "snippet": "Har du stærke kompetencer inden for databehandling og samtidig flair for analyse og formidling?Dit arbejde vil bestå i at foretage dataanalyser til internt og eksternt brug samt udvikle og vedligeholde datamodeller, der udgør kern",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -488,6 +477,17 @@
     ],
     "data scientist": [
       {
+        "title": "Data & AI Engineer",
+        "company": "Billund Lufthavn A/S",
+        "location": "Billund",
+        "url": "https://www.jobindex.dk/vis-job/h1665215",
+        "posted": "2026-05-13",
+        "snippet": "Vil du bygge AI-løsninger, der bruges i en lufthavn hver dag?I Billund Airport arbejder vi mod en klar ambition: at blive den mest digitale regionale lufthavn i 2030. Derfor søger vi en Data & AI Engineer, der vil være med til at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist til arbejdet med kunstig intelligens",
         "company": "Økonomistyrelsen",
         "location": "Copenhagen",
@@ -521,12 +521,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist – Applied AI & Machine Learning",
-        "company": "Collectia A/S",
+        "title": "Senior Machine Learning Engineer – fra model til produktion",
+        "company": "nemlig.com",
         "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/r13758701",
-        "posted": "2026-04-22",
-        "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions – end-to-end, from idea to production?",
+        "url": "https://www.jobindex.dk/vis-job/h1657333",
+        "posted": "2026-04-20",
+        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Biomedical Machine Learning Engineer Intern",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13792221",
+        "posted": "2026-05-07",
+        "snippet": "Join IMP SCANDINAVIA, a dynamic MedTech Start-Up revolutionizing the healthcare sector with our intelligent monitoring technology.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -565,6 +576,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "AI Engineer",
+        "company": "Kolding Kommune",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/r13802448",
+        "posted": "2026-05-13",
+        "snippet": "I Kolding Kommune har vi valgt at gøre AI til et strategisk indsatsområde.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Director - Forward Deployed AI Engineering",
         "company": "Novo Nordisk A/S",
         "location": "Ballerup",
@@ -574,28 +596,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Senior Machine Learning Engineer – fra model til produktion",
-        "company": "nemlig.com",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/h1657333",
-        "posted": "2026-04-20",
-        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Biomedical Machine Learning Engineer Intern",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13792221",
-        "posted": "2026-05-07",
-        "snippet": "Join IMP SCANDINAVIA, a dynamic MedTech Start-Up revolutionizing the healthcare sector with our intelligent monitoring technology.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
@@ -841,17 +841,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Salgstrainee til bilbranchen",
-        "company": "Autohuset Vestergaard A/S",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1664949",
-        "posted": "2026-05-12",
-        "snippet": "Er du dedikeret, udadvendt og har lyst til at sælge en masse biler?Du har nu chancen for at kickstarte din karriere som salgstrainee i Fredericia, hvor du både kan udvikle dig fagligt og personligt.I rollen som salgstrainee får du",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
