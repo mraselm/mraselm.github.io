@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T13:29:36Z",
+  "updated": "2026-05-13T16:33:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -120,6 +120,17 @@
     "business analyst": [
       {
         "title": "Business Analyst",
+        "company": "BESTSELLER",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1665562",
+        "posted": "2026-05-13",
+        "snippet": "Vil du gøre rapportering skarpere, smartere og mere brugbar for en logistikforretning i bevægelse?Hos BESTSELLER Logistics får du ansvar for data, rapporter og analyser, der hjælper Finance, Customs, Supply Chain og IT med at træf",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
         "company": "Fibia P/S",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/h1662188",
@@ -224,6 +235,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1661337",
         "posted": "2026-05-01",
         "snippet": "Vi søger en forretningsanalytiker med solid analytisk tyngde og teknisk forståelse, der vil være med til at udvikle og videreudvikle backend-landskabet for pensions- og formuerådgivningsløsninger til vores datterselskab, nærpensio",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til FE’s centrale analyseplatform",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13803426",
+        "posted": "2026-05-13",
+        "snippet": "Vil du være med til at præge retningen for anvendelsen af FE’s centrale it-analysestøtteværktøj, og vil du være en del af et tværfagligt hold af FE-medarbejdere?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
