@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T04:14:31Z",
+  "updated": "2026-05-13T07:29:14Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -532,28 +532,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Machine Learning Engineer – fra model til produktion",
-        "company": "nemlig.com",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/h1657333",
-        "posted": "2026-04-20",
-        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Biomedical Machine Learning Engineer Intern",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13792221",
-        "posted": "2026-05-07",
-        "snippet": "Join IMP SCANDINAVIA, a dynamic MedTech Start-Up revolutionizing the healthcare sector with our intelligent monitoring technology.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior AI Engineer - RAG, Open Source LLMs & Kubernetes",
         "company": "twoday A/S",
         "location": "Copenhagen",
@@ -596,6 +574,28 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Senior Machine Learning Engineer – fra model til produktion",
+        "company": "nemlig.com",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/h1657333",
+        "posted": "2026-04-20",
+        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Biomedical Machine Learning Engineer Intern",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13792221",
+        "posted": "2026-05-07",
+        "snippet": "Join IMP SCANDINAVIA, a dynamic MedTech Start-Up revolutionizing the healthcare sector with our intelligent monitoring technology.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
