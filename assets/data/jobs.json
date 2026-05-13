@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T22:35:58Z",
+  "updated": "2026-05-13T00:13:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -271,6 +271,17 @@
         "posted": "2026-05-04",
         "snippet": "Vil du arbejde med Power BI, finans og data i en rolle, hvor dine løsninger bliver brugt direkte i forretningsbeslutninger?Rollen kombinerer stærk finansiel forståelse med solid BI-kompetence (særligt Power BI og SQL forståelse) o",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Pricing & Business Intelligence Analyst",
+        "company": "Hilti Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1656901",
+        "posted": "2026-04-17",
+        "snippet": "Hilti Denmark are looking for a Pricing & Business Intelligence Analyst who will play a key role in driving pricing excellence and supporting profitable growth.In this role, you will own the pricing roadmap, strengthen pricing cap",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
