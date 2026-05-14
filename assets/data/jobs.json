@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T22:38:40Z",
+  "updated": "2026-05-14T00:15:41Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -703,17 +703,6 @@
         "url": "https://jobbank.dk/job/2980533/benifex-denmark-as/senior-data-scientist",
         "posted": "2026-02-20",
         "snippet": "Full-time job at Benifex Denmark A/S, Abroad (other) (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist",
-        "company": "Saxo Bank A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2927296/saxo-bank-as/senior-data-scientist",
-        "posted": "2025-11-14",
-        "snippet": "Full-time job at Saxo Bank A/S, Greater Copenhagen, Øresund region (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
