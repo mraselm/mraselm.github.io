@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T15:34:06Z",
+  "updated": "2026-05-14T18:08:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -560,6 +560,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1658171",
         "posted": "2026-04-22",
         "snippet": "Do you thrive in a product-centric environment where AI and analytics drive action – not just insight?Your work will include developing reusable packages and core contributions to our machine learning platforms, while ensuring str",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Science Specialist - Cross-Trial Evidence & HTA",
+        "company": "Novo Nordisk A/S",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/r13805815",
+        "posted": "2026-05-14",
+        "snippet": "For people living with serious chronic diseases, an approved medicine is only as good as the access they have to it.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
