@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T04:18:33Z",
+  "updated": "2026-05-15T08:17:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -207,6 +207,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytiker til FE’s centrale analyseplatform",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1665633",
+        "posted": "2026-05-15",
+        "snippet": "Som forretningsanalytiker arbejder du i en sektion bestående af Product Ownere og systemforvaltere.Du kommer til at arbejde tæt sammen med drifts- og udviklingsteams uden for sektionen om de daglige opgaver for analysestøtteværktø",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AP søger Forretningsanalytiker",
         "company": "AP Pension",
         "location": "Copenhagen",
@@ -314,17 +325,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1665437",
         "posted": "2026-05-13",
         "snippet": "Har du lyst til at arbejde med data, analyser og kommercielle beslutninger i Danmarks største detailkæde – samtidig med, at du studerer?Som studentermedhjælper bliver du en vigtig del af teamet og kommer bl.a. til at arbejde med a",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til Data og BI i Sampension",
-        "company": "Sampension A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1664480",
-        "posted": "2026-05-12",
-        "snippet": "Har du lyst til at arbejde med data, Power BI og AI, i en pensionsvirksomhed, hvor du får praktisk erfaring med data, analyser og moderne Microsoft-teknologi?Dine opgaver vil bl.a. være at:Hjælpe med udrulning og governance af Cop",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -484,19 +484,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Student Assistant - Business Analyst",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1665437",
-        "posted": "2026-05-13",
-        "snippet": "Har du lyst til at arbejde med data, analyser og kommercielle beslutninger i Danmarks største detailkæde – samtidig med, at du studerer?Som studentermedhjælper bliver du en vigtig del af teamet og kommer bl.a. til at arbejde med a",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Data & AI Engineer",
