@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T11:30:02Z",
+  "updated": "2026-05-15T14:35:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -196,17 +196,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Business Analyst - AI Solutions",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13764213",
-        "posted": "2026-04-24",
-        "snippet": "Are you motivated by bringing structure and clarity to complex problem spaces at the intersection of business, technology, and risk?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker til FE’s centrale analyseplatform",
         "company": "Forsvarets Efterretningstjeneste",
         "location": "Copenhagen",
@@ -238,17 +227,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student Assistant - Business Analyst",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1665437",
-        "posted": "2026-05-13",
-        "snippet": "Har du lyst til at arbejde med data, analyser og kommercielle beslutninger i Danmarks største detailkæde – samtidig med, at du studerer?Som studentermedhjælper bliver du en vigtig del af teamet og kommer bl.a. til at arbejde med a",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "IT Business Analyst Intern",
