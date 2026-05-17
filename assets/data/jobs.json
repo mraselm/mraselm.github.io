@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T22:09:00Z",
+  "updated": "2026-05-17T23:11:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -169,17 +169,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1658499",
         "posted": "2026-04-23",
         "snippet": "Leder du efter et spændende job, hvor du kan være med til at udvikle og anvende Cost-to-Serve som et kommercielt styringsværktøj? Vil du være med til at skabe gennemsigtighed i logistikomkostninger og spotte forbedringspotentialer",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst til en virksomhed med fokus på miljø, data og udvikling",
-        "company": "Dansk Retursystem A/S",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1657472",
-        "posted": "2026-04-20",
-        "snippet": "Dansk Retursystem er i gang med en data- og AI-satsning for at styrke beslutningsgrundlaget. Du bliver en nøglespiller i krydsfeltet mellem forretning, analyse og teknologi.Dit primære fokus bliver at fungere som en nær og tillids",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -520,17 +509,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Machine Learning Engineer – fra model til produktion",
-        "company": "nemlig.com",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/h1657333",
-        "posted": "2026-04-20",
-        "snippet": "Er du passioneret omkring machine learning, MLOps og reel impact – ikke kun i Jupyter Notebooks?Du kommer ikke ind for at vedligeholde noget eksisterende – du kommer ind for at være med til at definere, hvordan ML skal bygges og d",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Biomedical Machine Learning Engineer Intern",
         "company": "",
         "location": "Denmark",
@@ -560,17 +538,6 @@
         "posted": "2026-05-12",
         "snippet": "Do you want to build AI solutions that are actually used in production — and not just demos and prototypes?At Twoday, we are looking for a hands-on AI Engineer to build and operate LLM-powered assistants and chatbot solutions for",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Weibel Scientific A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1659182",
-        "posted": "2026-04-27",
-        "snippet": "Har du lyst til at være med til at bygge den platform som gør AI til virkelighed i avanceret radarteknologi? Din mission er klar: Du designer, implementerer og vedligeholder den MLOps-infrastruktur, der gør det muligt for os at tr",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
