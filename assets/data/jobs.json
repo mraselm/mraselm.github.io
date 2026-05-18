@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T08:52:39Z",
+  "updated": "2026-05-18T12:47:36Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -284,17 +284,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student Assistant - Business Analyst",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1665437",
-        "posted": "2026-05-13",
-        "snippet": "Har du lyst til at arbejde med data, analyser og kommercielle beslutninger i Danmarks største detailkæde – samtidig med, at du studerer?Som studentermedhjælper bliver du en vigtig del af teamet og kommer bl.a. til at arbejde med a",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
