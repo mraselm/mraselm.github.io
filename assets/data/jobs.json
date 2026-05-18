@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T19:03:13Z",
+  "updated": "2026-05-18T20:45:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,6 +46,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1665216",
         "posted": "2026-05-13",
         "snippet": "Har du stærke kompetencer inden for databehandling og samtidig flair for analyse og formidling?Dit arbejde vil bestå i at foretage dataanalyser til internt og eksternt brug samt udvikle og vedligeholde datamodeller, der udgør kern",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker",
+        "company": "Midttrafik",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13809953",
+        "posted": "2026-05-18",
+        "snippet": "Dataanalytiker til Data- og Analyseteam, Midttrafik Har du lyst til at arbejde med data i hele værdikæden – fra grunddata til analyser og...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
