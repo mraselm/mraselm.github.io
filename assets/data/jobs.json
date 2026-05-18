@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T16:33:09Z",
+  "updated": "2026-05-18T19:03:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -504,17 +504,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1664585",
         "posted": "2026-05-12",
         "snippet": "Do you want to build AI solutions that are actually used in production — and not just demos and prototypes?At Twoday, we are looking for a hands-on AI Engineer to build and operate LLM-powered assistants and chatbot solutions for",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Director - Forward Deployed AI Engineering",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13775915",
-        "posted": "2026-04-30",
-        "snippet": "Shape the future of AI-driven healthcare by leading a team that reimagines how Novo Nordisk delivers life-changing treatments to millions of patients worldwide.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
