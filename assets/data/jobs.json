@@ -1,22 +1,11 @@
 {
-  "updated": "2026-05-19T21:46:36Z",
+  "updated": "2026-05-19T23:33:14Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Master Data Analyst",
-        "company": "Weibel Scientific A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1660419",
-        "posted": "2026-04-29",
-        "snippet": "Kan du indsamle, behandle og sætte standarder for ERP-data i et produktionsmiljø?Vi søger en Master Data Analyst til et nøgleområde på tværs af vores produktion. Dit arbejde får stor betydning for Weibel - og vi glæder os til at f",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Research & Data Analyst",
         "company": "CompanYoung",
@@ -504,6 +493,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13811181",
         "posted": "2026-05-19",
         "snippet": "We are seeking an academic candidate for a PhD position.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Science Specialist - Cross-Trial Evidence & HTA",
+        "company": "Novo Nordisk A/S",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/r13805815",
+        "posted": "2026-05-14",
+        "snippet": "For people living with serious chronic diseases, an approved medicine is only as good as the access they have to it.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
