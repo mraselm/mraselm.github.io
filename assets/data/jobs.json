@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T12:20:42Z",
+  "updated": "2026-05-19T16:31:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -213,6 +213,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1661337",
         "posted": "2026-05-01",
         "snippet": "Vi søger en forretningsanalytiker med solid analytisk tyngde og teknisk forståelse, der vil være med til at udvikle og videreudvikle backend-landskabet for pensions- og formuerådgivningsløsninger til vores datterselskab, nærpensio",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Erfaren forretningsanalytiker søges til stort digitaliseringsprojekt i Styrelsen for Danmarks Fængsler",
+        "company": "Styrelsen for Danmarks Fængsler",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13810648",
+        "posted": "2026-05-19",
+        "snippet": "Vil du være med til at anskaffe, udvikle og implementere Danmarks Fængslers vigtigste it-løsning?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -537,17 +548,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1666578",
         "posted": "2026-05-19",
         "snippet": "Danish Refugee Council, one of the world’s leading humanitarian NGOs, is currently looking for a highly qualified AI Engineer. Your main duties and responsibilities will e.g. be to translate business and operational needs into AI‑",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer - RAG, Open Source LLMs & Kubernetes",
-        "company": "twoday A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1664585",
-        "posted": "2026-05-12",
-        "snippet": "Do you want to build AI solutions that are actually used in production — and not just demos and prototypes?At Twoday, we are looking for a hands-on AI Engineer to build and operate LLM-powered assistants and chatbot solutions for",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
