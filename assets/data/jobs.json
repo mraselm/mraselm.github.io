@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T08:38:59Z",
+  "updated": "2026-05-19T12:20:42Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -107,6 +107,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Bliv Business Analyst til Core Customer, Banking Technology i en foreningsejet Nykredit-koncern",
+        "company": "Nykredit",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1666642",
+        "posted": "2026-05-19",
+        "snippet": "Vil du spille en rolle i Nykredits AI‑transformation dér, hvor teknologi, forretning og kundedata smelter sammen?Vi søger en teknisk dygtig Business Analyst, som kan tage et tydeligt ansvar for at omsætte komplekse forretningsbeho",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst",
         "company": "BESTSELLER",
@@ -482,6 +493,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1658171",
         "posted": "2026-04-22",
         "snippet": "Do you thrive in a product-centric environment where AI and analytics drive action – not just insight?Your work will include developing reusable packages and core contributions to our machine learning platforms, while ensuring str",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Bioinformatician / Molecular Geneticist / Data Scientist for a PhD Project in Cancer Genetics",
+        "company": "Odense Universitetshospital",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13810158",
+        "posted": "2026-05-19",
+        "snippet": "Department of Clinical Research and the Research Unit of Clinical Genetics, University of Southern Denmark (SDU) and Department of...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
