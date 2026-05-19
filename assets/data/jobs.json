@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T16:31:28Z",
+  "updated": "2026-05-19T19:17:41Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -297,17 +297,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Student BI Analyst",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13777207",
-        "posted": "2026-04-30",
-        "snippet": "Are you ready to transform your curiosity for data into real business impact?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -510,11 +499,11 @@
       },
       {
         "title": "Bioinformatician / Molecular Geneticist / Data Scientist for a PhD Project in Cancer Genetics",
-        "company": "Odense Universitetshospital",
+        "company": "Region Syddanmark",
         "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13810158",
+        "url": "https://www.jobindex.dk/vis-job/r13811181",
         "posted": "2026-05-19",
-        "snippet": "Department of Clinical Research and the Research Unit of Clinical Genetics, University of Southern Denmark (SDU) and Department of...",
+        "snippet": "We are seeking an academic candidate for a PhD position.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
