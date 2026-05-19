@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T04:33:52Z",
+  "updated": "2026-05-19T08:38:59Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -29,6 +29,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Dataanalytiker",
+        "company": "Midttrafik",
+        "location": "Remote",
+        "url": "https://www.jobindex.dk/vis-job/h1666435",
+        "posted": "2026-05-19",
+        "snippet": "Har du lyst til at arbejde med data i hele værdikæden – fra grunddata til analyser og beslutningsstøtte inden for kollektiv trafik? Og har du samtidig interesse for at udvikle og vedligeholde Power BI-løsninger i tæt samspil med b",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Dataanalytiker til fjernvarmeforsyning",
         "company": "Høje Taastrup Fjernvarme a.m.b.a",
         "location": "Taastrup",
@@ -46,17 +57,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1665216",
         "posted": "2026-05-13",
         "snippet": "Har du stærke kompetencer inden for databehandling og samtidig flair for analyse og formidling?Dit arbejde vil bestå i at foretage dataanalyser til internt og eksternt brug samt udvikle og vedligeholde datamodeller, der udgør kern",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker",
-        "company": "Midttrafik",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13809953",
-        "posted": "2026-05-18",
-        "snippet": "Dataanalytiker til Data- og Analyseteam, Midttrafik Har du lyst til at arbejde med data i hele værdikæden – fra grunddata til analyser og...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -504,6 +504,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1665791",
         "posted": "2026-05-15",
         "snippet": "Do you want to create measurable value through the use of AI that makes a difference for customers, the business and society in both the short and long term? As part of the Data Science & AI team, you will help shape the future of",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer for a leading international NGO",
+        "company": "Dansk Flygtningehjælp",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1666578",
+        "posted": "2026-05-19",
+        "snippet": "Danish Refugee Council, one of the world’s leading humanitarian NGOs, is currently looking for a highly qualified AI Engineer. Your main duties and responsibilities will e.g. be to translate business and operational needs into AI‑",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
