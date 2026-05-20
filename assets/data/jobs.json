@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20T12:03:35Z",
+  "updated": "2026-05-20T15:56:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -97,6 +97,17 @@
     ],
     "business analyst": [
       {
+        "title": "Business Controller/Business Analyst",
+        "company": "Caljan A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1667255",
+        "posted": "2026-05-20",
+        "snippet": "Caljan is an international industrial company specializing in automation solutions for loose cargo handling.You will be part of a local finance team of six people were you will work closely with management to support decision-maki",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Bliv Business Analyst til Core Customer, Banking Technology i en foreningsejet Nykredit-koncern",
         "company": "Nykredit",
         "location": "Copenhagen",
@@ -170,6 +181,17 @@
         "posted": "2026-05-11",
         "snippet": "At Markets Business Technology (MBT), we’re a dynamic team of 200+ professionals at Danske Bank LC&I, united by a focus on innovation in financial markets.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytikere til hele statens BI kontor",
+        "company": "Økonomistyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1667356",
+        "posted": "2026-05-20",
+        "snippet": "Brænder du for at omsætte komplekse data til operationelle indsigter, og har du erfaring med procesoptimering, analyse, udarbejdelse af dokumentation samt anbefalinger til ledelsen i store it-løsninger?Så søger vi engagerede og sk",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -432,6 +454,17 @@
     "bi specialist": [],
     "data scientist": [
       {
+        "title": "Data Science Manager til JP/Politikens Hus AI-enhed",
+        "company": "JP/Politikens Hus",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1667322",
+        "posted": "2026-05-20",
+        "snippet": "Vil du være med til at forme, hvordan AI bliver brugt af nogle af Danmarks mest betydningsfulde medier?Du bliver leder for fem dygtige Data Scientists, der dækker hele spændet fra generativ AI over klassifikationsmodeller til reco",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data & AI Engineer",
         "company": "Billund Lufthavn A/S",
         "location": "Billund",
@@ -482,17 +515,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13811181",
         "posted": "2026-05-19",
         "snippet": "We are seeking an academic candidate for a PhD position.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Science Specialist - Cross-Trial Evidence & HTA",
-        "company": "Novo Nordisk A/S",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/r13805815",
-        "posted": "2026-05-14",
-        "snippet": "For people living with serious chronic diseases, an approved medicine is only as good as the access they have to it.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
