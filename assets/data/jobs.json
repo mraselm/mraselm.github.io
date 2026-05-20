@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20T15:56:44Z",
+  "updated": "2026-05-20T18:32:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -14,6 +14,17 @@
         "posted": "2026-04-27",
         "snippet": "Du bliver en central del af vores intelligence-setup og kommer til at arbejde tæt sammen med vores Intelligence & Growth Lead, der driver den kommercielle strategi og forretningsudvikling med afsæt i vores datagrundlag.Du kommer b",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Master Data Analyst",
+        "company": "LEGO System A/S",
+        "location": "Billund",
+        "url": "https://www.jobindex.dk/vis-job/r13814134",
+        "posted": "2026-05-20",
+        "snippet": "We are looking for a dedicated Master Data Analyst to join our dynamic team!",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
