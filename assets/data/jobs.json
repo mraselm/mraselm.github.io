@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21T10:03:33Z",
+  "updated": "2026-05-21T13:32:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -531,23 +531,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data scientister til Rigsarkivet",
+        "company": "Rigsarkivet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13815375",
+        "posted": "2026-05-21",
+        "snippet": "Vil du være med til at skabe nye historiske data, der kan bidrage til en bedre forståelse af sundhed, sygdom og sociale dynamikker?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Bioinformatician / Molecular Geneticist / Data Scientist for a PhD Project in Cancer Genetics",
         "company": "Region Syddanmark",
         "location": "Odense",
         "url": "https://www.jobindex.dk/vis-job/r13811181",
         "posted": "2026-05-19",
         "snippet": "We are seeking an academic candidate for a PhD position.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Science Specialist - Cross-Trial Evidence & HTA",
-        "company": "Novo Nordisk A/S",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/r13805815",
-        "posted": "2026-05-14",
-        "snippet": "For people living with serious chronic diseases, an approved medicine is only as good as the access they have to it.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
