@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21T05:19:35Z",
+  "updated": "2026-05-21T10:03:33Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,6 +25,17 @@
         "posted": "2026-05-20",
         "snippet": "We are looking for a dedicated Master Data Analyst to join our dynamic team!",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Tele- og dataanalytiker til EAE",
+        "company": "Politi",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1667492",
+        "posted": "2026-05-21",
+        "snippet": "Du understøtter efterforskninger og politiets indsatser på tværs af Nordjyllands politikreds og kobles på aktuelle efterforskninger med enkeltopgaver eller fuld sagsunderstøttelse afhængig af behovet fra sektionen, der har opgaven",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -471,6 +482,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1667322",
         "posted": "2026-05-20",
         "snippet": "Vil du være med til at forme, hvordan AI bliver brugt af nogle af Danmarks mest betydningsfulde medier?Du bliver leder for fem dygtige Data Scientists, der dækker hele spændet fra generativ AI over klassifikationsmodeller til reco",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Predictify A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/h1665895",
+        "posted": "2026-05-18",
+        "snippet": "Vi søger to data scientists med ønske om at indgå i et ungt team, der arbejder med alt fra Microsoft Fabric, Microsoft DevOps, Excel og PowerPoint.Vi arbejder med avancerede analyser såsom økonometrisk modellering, machine learnin",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
