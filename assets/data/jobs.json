@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T12:00:53Z",
+  "updated": "2026-05-22T15:23:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -185,23 +185,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst for Our Finance Transformation Portfolio",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1660170",
-        "posted": "2026-04-29",
-        "snippet": "Would you like to be part of a one-of-a-kind transformation in the largest transport and logistics company in the world?If you enjoy combining structured thinking, data, and stakeholder coordination to turn ambiguity into decision",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst",
         "company": "Kongskilde Industries A/S",
         "location": "Remote",
         "url": "https://www.jobindex.dk/vis-job/h1659050",
         "posted": "2026-04-24",
         "snippet": "Are you passionate about turning data into commercial impact? Then this newly established role might be your next career move.Kongskilde Industries is expanding our business intelligence capabilities, and we are looking for a comm",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "FX Business Analyst",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13798569",
+        "posted": "2026-05-11",
+        "snippet": "At Markets Business Technology (MBT), we’re a dynamic team of 200+ professionals at Danske Bank LC&I, united by a focus on innovation in financial markets.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
