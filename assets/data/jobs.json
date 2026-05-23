@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T17:17:51Z",
+  "updated": "2026-05-23T19:38:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -170,6 +170,17 @@
         "posted": "2026-05-07",
         "snippet": "Vil du være med til at omsætte GDPR-krav til konkrete IT-løsninger, der skaber værdi i praksis? Du bliver bindeleddet mellem vores juridiske GDPR-specialister og IT-organisationen og får en central rolle i at sikre, at compliance",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13819718",
+        "posted": "2026-05-23",
+        "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
