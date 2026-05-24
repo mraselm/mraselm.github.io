@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T22:11:28Z",
+  "updated": "2026-05-24T23:15:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -296,17 +296,6 @@
       }
     ],
     "business intelligence": [
-      {
-        "title": "Finance BI Partner med fokus på Power BI, FP&A og Business Intelligence",
-        "company": "Billund Lufthavn A/S",
-        "location": "Billund",
-        "url": "https://www.jobindex.dk/vis-job/h1661620",
-        "posted": "2026-05-04",
-        "snippet": "Vil du arbejde med Power BI, finans og data i en rolle, hvor dine løsninger bliver brugt direkte i forretningsbeslutninger?Rollen kombinerer stærk finansiel forståelse med solid BI-kompetence (særligt Power BI og SQL forståelse) o",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Studentermedarbejder til BIOFOS' besøgstjeneste Kloaklab",
         "company": "BIOFOS",
