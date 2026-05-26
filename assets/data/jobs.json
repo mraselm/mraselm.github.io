@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T16:52:27Z",
+  "updated": "2026-05-26T19:28:12Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -542,17 +542,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data scientister til Rigsarkivet",
-        "company": "Rigsarkivet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13815375",
-        "posted": "2026-05-21",
-        "snippet": "Vil du være med til at skabe nye historiske data, der kan bidrage til en bedre forståelse af sundhed, sygdom og sociale dynamikker?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Biomedical Machine Learning Engineer Intern",
         "company": "",
         "location": "Denmark",
@@ -581,6 +570,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1666578",
         "posted": "2026-05-19",
         "snippet": "Danish Refugee Council, one of the world’s leading humanitarian NGOs, is currently looking for a highly qualified AI Engineer. Your main duties and responsibilities will e.g. be to translate business and operational needs into AI‑",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer for Agent Development",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13822184",
+        "posted": "2026-05-26",
+        "snippet": "Design and implement sophisticated AI agents that directly drive banker productivity.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
