@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T21:58:07Z",
+  "updated": "2026-05-26T23:34:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -493,17 +493,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1665215",
         "posted": "2026-05-13",
         "snippet": "Vil du bygge AI-løsninger, der bruges i en lufthavn hver dag?I Billund Airport arbejder vi mod en klar ambition: at blive den mest digitale regionale lufthavn i 2030. Derfor søger vi en Data & AI Engineer, der vil være med til at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til arbejdet med kunstig intelligens",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1663493",
-        "posted": "2026-05-08",
-        "snippet": "Vi mangler dig, der vil være vores tekniske ekspert indenfor kunstig intelligens, herunder sprogteknologi og sprogmodeller.Du kommer til at indgå i arbejdet med flere af styrelsens AI-indsatser og får en central rolle i at omsætte",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
