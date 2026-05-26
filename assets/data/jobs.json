@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T04:35:07Z",
+  "updated": "2026-05-26T08:43:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,6 +25,17 @@
         "posted": "2026-05-20",
         "snippet": "We are looking for a dedicated Master Data Analyst to join our dynamic team!",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Tele- og dataanalytiker søges til Afdelingen for Efterretning og Analyse",
+        "company": "Politi",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1668459",
+        "posted": "2026-05-26",
+        "snippet": "Vi tilbyder dig en unik mulighed for at spille en vigtig rolle i efterforskningen, hvor din opgave vil være at behandle, analysere og formidle data. Du vil skulle vejlede efterforskere til at træffe beslutninger for indhentning af",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
