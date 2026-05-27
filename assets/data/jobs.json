@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T12:32:07Z",
+  "updated": "2026-05-27T16:46:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -296,17 +296,6 @@
       }
     ],
     "business intelligence": [
-      {
-        "title": "Studentermedarbejder til BIOFOS' besøgstjeneste Kloaklab",
-        "company": "BIOFOS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1667911",
-        "posted": "2026-05-22",
-        "snippet": "Vil du undervise om spildevand, miljø og bæredygtig energi? Og vil du gerne have muligheden for at lære fra dig ved siden af dit studie?Vores studentermedhjælpere står selvstændigt for at undervise vores gæster, som spænder vidt f",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
       {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
