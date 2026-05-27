@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T08:48:50Z",
+  "updated": "2026-05-27T12:32:07Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -560,6 +560,17 @@
         "posted": "2026-05-15",
         "snippet": "Do you want to create measurable value through the use of AI that makes a difference for customers, the business and society in both the short and long term? As part of the Data Science & AI team, you will help shape the future of",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "PensionDanmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1668874",
+        "posted": "2026-05-27",
+        "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI løsninger, ikke bare i teorien, men i produktion fra dag ét?Hos PensionDanmark leder vi efter dig, der brænder for conversational AI og vil være med til at skabe løs",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
