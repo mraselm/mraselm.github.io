@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T04:49:50Z",
+  "updated": "2026-05-27T08:48:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -464,6 +464,17 @@
     ],
     "bi specialist": [],
     "data scientist": [
+      {
+        "title": "Data Scientist, Quantitative Analytics",
+        "company": "Dampskibsselskabet NORDEN A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/h1668843",
+        "posted": "2026-05-27",
+        "snippet": "Are you in the early stages of your career and ready to take the next step in developing your analytical skill set?In this role, you will contribute to shaping how data is used in one of the world’s leading shipping companies, app",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Science Manager til JP/Politikens Hus AI-enhed",
         "company": "JP/Politikens Hus",
