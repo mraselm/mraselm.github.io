@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T16:46:22Z",
+  "updated": "2026-05-27T19:33:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -13,17 +13,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13817464",
         "posted": "2026-05-22",
         "snippet": "The position is based in the Research Unit for Epidemiology, Biostatistics, and Biodemography, where we study human development,...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Master Data Analyst",
-        "company": "LEGO System A/S",
-        "location": "Billund",
-        "url": "https://www.jobindex.dk/vis-job/r13814134",
-        "posted": "2026-05-20",
-        "snippet": "We are looking for a dedicated Master Data Analyst to join our dynamic team!",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -509,28 +498,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Research Data Steward / Data Scientist (Biological Research Data) – 2 year position",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13818871",
-        "posted": "2026-05-22",
-        "snippet": "Would you like to help the Department of Biology at Aarhus University to build a sustainable data management culture and support high-quality,...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forward Deployed AI Engineer - AI Framework & Engineering",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13818457",
-        "posted": "2026-05-22",
-        "snippet": "Are you excited about using AI to improve patients' lives?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Biomedical Machine Learning Engineer Intern",
         "company": "",
         "location": "Denmark",
@@ -575,6 +542,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "AI Engineer til PensionDanmark",
+        "company": "PensionDanmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13825007",
+        "posted": "2026-05-27",
+        "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI løsninger, ikke bare i teorien, men i produktion fra dag ét?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Engineer for Agent Development",
         "company": "Danske Bank",
         "location": "Denmark",
@@ -592,6 +570,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13819139",
         "posted": "2026-05-22",
         "snippet": "AI is moving from prototypes to production-ready solutions.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forward Deployed AI Engineer - AI Framework & Engineering",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13818457",
+        "posted": "2026-05-22",
+        "snippet": "Are you excited about using AI to improve patients' lives?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
