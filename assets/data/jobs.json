@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T04:40:47Z",
+  "updated": "2026-05-28T08:53:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -493,6 +493,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1661382",
         "posted": "2026-05-01",
         "snippet": "We are looking for a junior data scientist/engineer to join our R&D team.This role has two main areas of focus: First, data. Our ML systems depend on well-structured, clean, reliable data – and you will own this. Second, research",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Research Data Steward / Data Scientist (Biological Research Data) – 2 year position",
+        "company": "Aarhus Universitet",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13818871",
+        "posted": "2026-05-22",
+        "snippet": "Would you like to help the Department of Biology at Aarhus University to build a sustainable data management culture and support high-quality,...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
