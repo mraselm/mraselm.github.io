@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T12:45:06Z",
+  "updated": "2026-05-28T17:02:27Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -118,6 +118,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst – AI & Automation",
+        "company": "TDC NET",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1669654",
+        "posted": "2026-05-28",
+        "snippet": "Do you want to turn AI opportunities into tangible products and business value?You will be responsible for identifying, describing, and driving AI relevant improvement opportunities across business areas. You will work closely wit",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Controller/Business Analyst",
         "company": "Caljan A/S",
@@ -536,7 +547,7 @@
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/h1668874",
         "posted": "2026-05-27",
-        "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI løsninger, ikke bare i teorien, men i produktion fra dag ét?Hos PensionDanmark leder vi efter dig, der brænder for conversational AI og vil være med til at skabe løs",
+        "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI-løsninger, ikke bare i teorien, men i produktion fra dag ét?Hos PensionDanmark leder vi efter dig, der brænder for conversational AI og vil være med til at skabe løs",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
