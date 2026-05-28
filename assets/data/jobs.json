@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T08:53:24Z",
+  "updated": "2026-05-28T12:45:06Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -181,6 +181,17 @@
         "posted": "2026-05-11",
         "snippet": "At Markets Business Technology (MBT), we’re a dynamic team of 200+ professionals at Danske Bank LC&I, united by a focus on innovation in financial markets.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
+        "company": "Politi",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1669428",
+        "posted": "2026-05-28",
+        "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -493,17 +504,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1661382",
         "posted": "2026-05-01",
         "snippet": "We are looking for a junior data scientist/engineer to join our R&D team.This role has two main areas of focus: First, data. Our ML systems depend on well-structured, clean, reliable data – and you will own this. Second, research",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Research Data Steward / Data Scientist (Biological Research Data) – 2 year position",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13818871",
-        "posted": "2026-05-22",
-        "snippet": "Would you like to help the Department of Biology at Aarhus University to build a sustainable data management culture and support high-quality,...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
