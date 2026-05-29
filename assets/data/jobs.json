@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T22:04:44Z",
+  "updated": "2026-05-29T23:41:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -68,17 +68,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1665479",
         "posted": "2026-05-13",
         "snippet": "Vil du arbejde i krydsfeltet mellem data, hydraulik og grøn omstilling og være med til at optimere et af Danmarks største forbrugerejede fjernvarmeselskaber ved hjælp af avanceret analyse, digitale modeller og kunstig intelligens?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytikere søges til strategiske analyser",
-        "company": "Politi",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1665216",
-        "posted": "2026-05-13",
-        "snippet": "Har du stærke kompetencer inden for databehandling og samtidig flair for analyse og formidling?Dit arbejde vil bestå i at foretage dataanalyser til internt og eksternt brug samt udvikle og vedligeholde datamodeller, der udgør kern",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -224,17 +213,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1665633",
         "posted": "2026-05-15",
         "snippet": "Som forretningsanalytiker arbejder du i en sektion bestående af Product Ownere og systemforvaltere.Du kommer til at arbejde tæt sammen med drifts- og udviklingsteams uden for sektionen om de daglige opgaver for analysestøtteværktø",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AP søger Forretningsanalytiker",
-        "company": "AP Pension",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1661337",
-        "posted": "2026-05-01",
-        "snippet": "Vi søger en forretningsanalytiker med solid analytisk tyngde og teknisk forståelse, der vil være med til at udvikle og videreudvikle backend-landskabet for pensions- og formuerådgivningsløsninger til vores datterselskab, nærpensio",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -527,17 +505,6 @@
         "posted": "2026-05-13",
         "snippet": "Vil du bygge AI-løsninger, der bruges i en lufthavn hver dag?I Billund Airport arbejder vi mod en klar ambition: at blive den mest digitale regionale lufthavn i 2030. Derfor søger vi en Data & AI Engineer, der vil være med til at",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Junior Data Scientist/Data Engineer",
-        "company": "Esoft A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1661382",
-        "posted": "2026-05-01",
-        "snippet": "We are looking for a junior data scientist/engineer to join our R&D team.This role has two main areas of focus: First, data. Our ML systems depend on well-structured, clean, reliable data – and you will own this. Second, research",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
