@@ -1,11 +1,22 @@
 {
-  "updated": "2026-05-29T16:54:03Z",
+  "updated": "2026-05-29T19:40:52Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Student Worker, Global Maintenance Efficiency - Data analyst & BI reporting",
+        "company": "LEGO System A/S",
+        "location": "Billund",
+        "url": "https://www.jobindex.dk/vis-job/r13829505",
+        "posted": "2026-05-29",
+        "snippet": "Could you see yourself helping transform global maintenance through data, digital reporting, and business intelligence?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Analyst at the Danish Twin Registry and the Danish Aging Research Center",
         "company": "Syddansk Universitet",
@@ -170,17 +181,6 @@
         "posted": "2026-05-07",
         "snippet": "Vil du være med til at omsætte GDPR-krav til konkrete IT-løsninger, der skaber værdi i praksis? Du bliver bindeleddet mellem vores juridiske GDPR-specialister og IT-organisationen og får en central rolle i at sikre, at compliance",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Junior Business Analyst for Asset Finance Tribe",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13826689",
-        "posted": "2026-05-28",
-        "snippet": "",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
