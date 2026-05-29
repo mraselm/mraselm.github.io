@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T12:27:00Z",
+  "updated": "2026-05-29T16:54:03Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -185,17 +185,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13819718",
-        "posted": "2026-05-23",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
         "company": "Politi",
         "location": "Glostrup",
@@ -307,6 +296,39 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Product Manager - conceive, own and grow innovative Business Intelligence (BI) solutions",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1670184",
+        "posted": "2026-05-29",
+        "snippet": "Join DSV’s BI & Insights team and help transform the global Road business through data and business intelligence.In this role, you will work closely with stakeholders across the business to turn insights and needs into valuable BI",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Controller with Power BI experience",
+        "company": "Autorola Group A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1670127",
+        "posted": "2026-05-29",
+        "snippet": "As a Business Controller, you will hold a key position within the finance department, where your overall purpose is to ensure that management receives timely, accurate, and value-adding financial reporting.At the same time, you wi",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student til energidata og statistik, Klima-",
+        "company": "Energi- og Forsyningsministeriet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1670112",
+        "posted": "2026-05-29",
+        "snippet": "Synes du, at det lyder spændende at arbejde med i en sektor i rivende udvikling, der har stor bevågenhed fra både borgere og politikere?Har du interesse for indsamling, validering og bearbejdning af data der understøtter den grønn",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
       {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
@@ -603,6 +625,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13814601",
         "posted": "2026-05-20",
         "snippet": "Danish Refugee Council, one of the world’s leading humanitarian NGOs, is currently looking for a highly qualified AI Engineer.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Head of Data Science",
+        "company": "NMD Pharma A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1670161",
+        "posted": "2026-05-29",
+        "snippet": "NMD Pharma is a clinical-stage biotech company dedicated to developing novel and improved treatments for people living with neuromuscular diseases.You will lead the statistical science, statistical programming, and clinical data m",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
