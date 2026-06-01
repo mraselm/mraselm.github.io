@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T05:16:45Z",
+  "updated": "2026-06-01T10:33:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -592,17 +592,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13814601",
         "posted": "2026-05-20",
         "snippet": "Danish Refugee Council, one of the world’s leading humanitarian NGOs, is currently looking for a highly qualified AI Engineer.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Head of Data Science",
-        "company": "NMD Pharma A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1670161",
-        "posted": "2026-05-29",
-        "snippet": "NMD Pharma is a clinical-stage biotech company dedicated to developing novel and improved treatments for people living with neuromuscular diseases.You will lead the statistical science, statistical programming, and clinical data m",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
