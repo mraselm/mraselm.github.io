@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T10:33:22Z",
+  "updated": "2026-06-01T16:47:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -218,6 +218,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytiker og Data scientist med stærk forretnings- og dataforståelse til Familieretshuset",
+        "company": "Familieretshuset",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13832794",
+        "posted": "2026-06-01",
+        "snippet": "I Familieretshuset hjælper vi borgere i nogle af livets vigtigste overgange – fra skilsmisse og forældremyndighedssager til ægteskaber og værgemål.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker til FE’s centrale analyseplatform",
         "company": "Forsvaret",
         "location": "Copenhagen",
@@ -295,17 +306,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student til energidata og statistik, Klima-",
-        "company": "Energi- og Forsyningsministeriet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1670112",
-        "posted": "2026-05-29",
-        "snippet": "Synes du, at det lyder spændende at arbejde med i en sektor i rivende udvikling, der har stor bevågenhed fra både borgere og politikere?Har du interesse for indsamling, validering og bearbejdning af data der understøtter den grønn",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -509,12 +509,34 @@
         "job_type": "full-time"
       },
       {
+        "title": "Postdoctoral Researcher in Personalized Oncology and Clinical Data Science at Center for Surgical Science",
+        "company": "Region Sjælland",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13833133",
+        "posted": "2026-06-01",
+        "snippet": "Are you looking for an opportunity to bridge the gap between advanced data science and clinical impact?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Scale Agentic AI as a Senior AI Engineer at Norlys",
         "company": "Norlys",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/h1665791",
         "posted": "2026-05-15",
         "snippet": "Do you want to create measurable value through the use of AI that makes a difference for customers, the business and society in both the short and long term? As part of the Data Science & AI team, you will help shape the future of",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Founding ML Engineer",
+        "company": "Underwater Acoustic Intelligence",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/r13833000",
+        "posted": "2026-06-01",
+        "snippet": "The ocean is the last unmonitored domain.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
