@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T06:58:10Z",
+  "updated": "2026-06-02T11:42:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -306,17 +306,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student til energidata og statistik, Klima-",
-        "company": "Energi- og Forsyningsministeriet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1670112",
-        "posted": "2026-05-29",
-        "snippet": "Synes du, at det lyder spændende at arbejde med i en sektor i rivende udvikling, der har stor bevågenhed fra både borgere og politikere?Har du interesse for indsamling, validering og bearbejdning af data der understøtter den grønn",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
