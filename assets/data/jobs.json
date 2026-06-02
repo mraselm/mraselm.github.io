@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T01:36:54Z",
+  "updated": "2026-06-02T06:58:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -475,6 +475,17 @@
     ],
     "bi specialist": [],
     "data scientist": [
+      {
+        "title": "Data Scientist - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
+        "company": "Udviklings- og Forenklingsstyrelsen",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1670704",
+        "posted": "2026-06-02",
+        "snippet": "I Avanceret Analyse arbejder vi med løsninger, der hjælper med at sikre, at skatter og afgifter bliver betalt rigtigt, så velfærdssamfundet hænger sammen.Som Data Scientist får du samtidigt lov til at nørde med nogle af de mest sp",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Scientist, Quantitative Analytics",
         "company": "Dampskibsselskabet NORDEN A/S",
