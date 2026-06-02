@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-02T16:55:22Z",
+  "updated": "2026-06-02T20:19:18Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -170,6 +170,17 @@
         "posted": "2026-05-07",
         "snippet": "Vil du være med til at omsætte GDPR-krav til konkrete IT-løsninger, der skaber værdi i praksis? Du bliver bindeleddet mellem vores juridiske GDPR-specialister og IT-organisationen og får en central rolle i at sikre, at compliance",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13837665",
+        "posted": "2026-06-02",
+        "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -581,6 +592,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1666578",
         "posted": "2026-05-19",
         "snippet": "Danish Refugee Council, one of the world’s leading humanitarian NGOs, is currently looking for a highly qualified AI Engineer. Your main duties and responsibilities will e.g. be to translate business and operational needs into AI‑",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13837497",
+        "posted": "2026-06-02",
+        "snippet": "Light exists to replace factory-era ERPs with software that feels alive.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
