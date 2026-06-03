@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T12:12:44Z",
+  "updated": "2026-06-03T17:18:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -285,6 +285,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Business Intelligence Analyst",
+        "company": "Royal Greenland",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1671542",
+        "posted": "2026-06-03",
+        "snippet": "Would you like to assist in collating industry data and strategic reporting? If so, joining the Business Development & Intelligence team at Royal Greenland could be the perfect next step for you.You will support the development of",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Product Manager - conceive, own and grow innovative Business Intelligence (BI) solutions",
         "company": "DSV",
