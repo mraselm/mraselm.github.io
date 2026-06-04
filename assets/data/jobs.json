@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T09:01:26Z",
+  "updated": "2026-06-04T12:19:42Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -60,6 +60,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student worker as Data Analyst for HR – start 1. August 2026",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1672001",
+        "posted": "2026-06-04",
+        "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -297,6 +308,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Student worker as Data Analyst for HR – start 1. August 2026",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1672001",
+        "posted": "2026-06-04",
+        "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -451,7 +473,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Student worker as Data Analyst for HR – start 1. August 2026",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1672001",
+        "posted": "2026-06-04",
+        "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "Data Scientist - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
@@ -504,17 +538,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13833542",
         "posted": "2026-06-01",
         "snippet": "Do you want to apply advanced data analytics and AI to improve patient care and generate knowledge on stress and mental health?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Postdoctoral Researcher in Personalized Oncology and Clinical Data Science at Center for Surgical Science",
-        "company": "Region Sjælland",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13833133",
-        "posted": "2026-06-01",
-        "snippet": "Are you looking for an opportunity to bridge the gap between advanced data science and clinical impact?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
