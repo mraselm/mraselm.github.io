@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T16:09:07Z",
+  "updated": "2026-06-05T18:12:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -528,6 +528,17 @@
         "posted": "2026-05-18",
         "snippet": "Vi søger to data scientists med ønske om at indgå i et ungt team, der arbejder med alt fra Microsoft Fabric, Microsoft DevOps, Excel og PowerPoint.Vi arbejder med avancerede analyser såsom økonometrisk modellering, machine learnin",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist, Price Forecasting",
+        "company": "Electricity Maps",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13846565",
+        "posted": "2026-06-05",
+        "snippet": "Electricity Maps is the world's most comprehensive electricity data platform - covering real-time, historical, and forecast data on...",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
