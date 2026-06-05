@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T21:45:14Z",
+  "updated": "2026-06-05T23:38:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -538,6 +538,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13846565",
         "posted": "2026-06-05",
         "snippet": "Electricity Maps is the world's most comprehensive electricity data platform - covering real-time, historical, and forecast data on...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist (1-year position)",
+        "company": "Region Hovedstaden",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13833542",
+        "posted": "2026-06-01",
+        "snippet": "Do you want to apply advanced data analytics and AI to improve patient care and generate knowledge on stress and mental health?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
