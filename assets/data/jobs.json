@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T08:52:35Z",
+  "updated": "2026-06-05T12:19:41Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -202,6 +202,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1667037",
         "posted": "2026-05-20",
         "snippet": "Du vil komme til at arbejde med Danmarks Fængslers største og vigtigste digitaliseringsprojekt, som er et ambitiøst udviklingsprojekt.Sammen med projektets Product Owner og 3 andre forretningsanalytikere vil dine opgaver blandt an",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytikere til Familiretshuset",
+        "company": "Familieretshuset",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13844981",
+        "posted": "2026-06-05",
+        "snippet": "Har du lyst til at bruge din flair for drift, data og processer på noget, der faktisk gør en forskel for familier, børn og borgere?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
