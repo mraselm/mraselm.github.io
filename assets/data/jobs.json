@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-06T16:34:29Z",
+  "updated": "2026-06-06T18:39:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -152,23 +152,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "AI Business Analyst, Copenhagen, Denmark",
+        "company": "UNOPS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13847257",
+        "posted": "2026-06-06",
+        "snippet": "This role combines business analysis, data analytics, and knowledge management in the context of cutting-edge AI deployment.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Experienced Business Analyst in Group Treasury",
         "company": "Danske Bank",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13840389",
         "posted": "2026-06-03",
         "snippet": "Be a part of shaping Danske Bank’s financial future.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13837665",
-        "posted": "2026-06-02",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
