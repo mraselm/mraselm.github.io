@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T16:28:11Z",
+  "updated": "2026-06-08T19:35:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -543,6 +543,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Student AI Engineer",
+        "company": "Retriever",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13849573",
+        "posted": "2026-06-08",
+        "snippet": "Join our team and help build applied AI systems for media intelligence: AI workflows, Python development, on-prem LLM deployments and harness engineering.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Applied AI Engineer (founding role",
         "company": "equity-based)",
         "location": "Copenhagen",
@@ -615,17 +626,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13818457",
         "posted": "2026-05-22",
         "snippet": "Are you excited about using AI to improve patients' lives?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer for a leading international NGO",
-        "company": "Dansk Flygtningehjælp",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13814601",
-        "posted": "2026-05-20",
-        "snippet": "Danish Refugee Council, one of the world’s leading humanitarian NGOs, is currently looking for a highly qualified AI Engineer.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
