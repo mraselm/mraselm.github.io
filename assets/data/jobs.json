@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T22:18:06Z",
+  "updated": "2026-06-08T01:34:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,28 +25,6 @@
         "posted": "2026-05-22",
         "snippet": "The position is based in the Research Unit for Epidemiology, Biostatistics, and Biodemography, where we study human development,...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Tele- og dataanalytiker søges til Afdelingen for Efterretning og Analyse",
-        "company": "Politi",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1668459",
-        "posted": "2026-05-26",
-        "snippet": "Vi tilbyder dig en unik mulighed for at spille en vigtig rolle i efterforskningen, hvor din opgave vil være at behandle, analysere og formidle data. Du vil skulle vejlede efterforskere til at træffe beslutninger for indhentning af",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker",
-        "company": "Midttrafik",
-        "location": "Remote",
-        "url": "https://www.jobindex.dk/vis-job/h1666435",
-        "posted": "2026-05-19",
-        "snippet": "Har du lyst til at arbejde med data i hele værdikæden – fra grunddata til analyser og beslutningsstøtte inden for kollektiv trafik? Og har du samtidig interesse for at udvikle og vedligeholde Power BI-løsninger i tæt samspil med b",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -174,34 +152,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13837665",
+        "posted": "2026-06-02",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
         "company": "Politi",
         "location": "Glostrup",
         "url": "https://www.jobindex.dk/vis-job/h1669428",
         "posted": "2026-05-28",
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytikere til hele statens BI kontor",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1667356",
-        "posted": "2026-05-20",
-        "snippet": "Brænder du for at omsætte komplekse data til operationelle indsigter, og har du erfaring med procesoptimering, analyse, udarbejdelse af dokumentation samt anbefalinger til ledelsen i store it-løsninger?Så søger vi engagerede og sk",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Erfaren forretningsanalytiker til stort digitaliseringsprojekt",
-        "company": "Styrelsen for Danmarks Fængsler",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1667037",
-        "posted": "2026-05-20",
-        "snippet": "Du vil komme til at arbejde med Danmarks Fængslers største og vigtigste digitaliseringsprojekt, som er et ambitiøst udviklingsprojekt.Sammen med projektets Product Owner og 3 andre forretningsanalytikere vil dine opgaver blandt an",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -369,17 +336,6 @@
         "url": "https://jobbank.dk/job/2992238/solita-aps/business-intelligence-konsulen",
         "posted": "2026-03-03",
         "snippet": "Full-time job at Solita ApS, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: none specified)",
-        "lang": "da",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Bliv en Senior BI Consultant i København",
-        "company": "ACCOBAT A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2663108/accobat-as/bliv-en-senior-bi-consultant-i",
-        "posted": "2025-12-08",
-        "snippet": "Full-time job at ACCOBAT A/S, Greater Copenhagen, Øresund region (Apply by: none specified)",
         "lang": "da",
         "source": "jobbank",
         "job_type": "full-time"
@@ -554,17 +510,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Scale Agentic AI as a Senior AI Engineer at Norlys",
-        "company": "Norlys",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1665791",
-        "posted": "2026-05-15",
-        "snippet": "Do you want to create measurable value through the use of AI that makes a difference for customers, the business and society in both the short and long term? As part of the Data Science & AI team, you will help shape the future of",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Founding ML Engineer",
         "company": "Underwater Acoustic Intelligence",
         "location": "Lyngby",
@@ -583,17 +528,6 @@
         "posted": "2026-05-27",
         "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI-løsninger, ikke bare i teorien, men i produktion fra dag ét?Hos PensionDanmark leder vi efter dig, der brænder for conversational AI og vil være med til at skabe løs",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer for a leading international NGO",
-        "company": "Dansk Flygtningehjælp",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1666578",
-        "posted": "2026-05-19",
-        "snippet": "Danish Refugee Council, one of the world’s leading humanitarian NGOs, is currently looking for a highly qualified AI Engineer. Your main duties and responsibilities will e.g. be to translate business and operational needs into AI‑",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
