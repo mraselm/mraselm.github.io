@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T01:34:13Z",
+  "updated": "2026-06-08T07:04:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -505,6 +505,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13833542",
         "posted": "2026-06-01",
         "snippet": "Do you want to apply advanced data analytics and AI to improve patient care and generate knowledge on stress and mental health?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Postdoctoral Researcher in Personalized Oncology and Clinical Data Science at Center for Surgical Science",
+        "company": "Region Sjælland",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13833133",
+        "posted": "2026-06-01",
+        "snippet": "Are you looking for an opportunity to bridge the gap between advanced data science and clinical impact?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
