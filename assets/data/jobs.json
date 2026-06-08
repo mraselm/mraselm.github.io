@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T12:09:22Z",
+  "updated": "2026-06-08T16:28:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -517,6 +517,17 @@
         "posted": "2026-06-01",
         "snippet": "The ocean is the last unmonitored domain.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer til banebrydende strategisk projekt i international teknologivirksomhed, Aarhus",
+        "company": "Rckt ApS",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1672633",
+        "posted": "2026-06-08",
+        "snippet": "",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
