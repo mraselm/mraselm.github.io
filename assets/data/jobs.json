@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T21:13:09Z",
+  "updated": "2026-06-09T22:51:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -33,7 +33,7 @@
         "company": "Høje Taastrup Fjernvarme a.m.b.a",
         "location": "Taastrup",
         "url": "https://www.jobindex.dk/vis-job/h1665479",
-        "posted": "2026-05-13",
+        "posted": "2026-06-10",
         "snippet": "Vil du arbejde i krydsfeltet mellem data, hydraulik og grøn omstilling og være med til at optimere et af Danmarks største forbrugerejede fjernvarmeselskaber ved hjælp af avanceret analyse, digitale modeller og kunstig intelligens?",
         "lang": "da",
         "source": "jobindex",
@@ -147,6 +147,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13840389",
         "posted": "2026-06-03",
         "snippet": "Be a part of shaping Danske Bank’s financial future.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13837665",
+        "posted": "2026-06-02",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
