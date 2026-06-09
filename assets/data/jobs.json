@@ -1,33 +1,11 @@
 {
-  "updated": "2026-06-09T04:36:30Z",
+  "updated": "2026-06-09T08:41:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Student Worker, Global Maintenance Efficiency - Data analyst & BI reporting",
-        "company": "LEGO System A/S",
-        "location": "Billund",
-        "url": "https://www.jobindex.dk/vis-job/r13829505",
-        "posted": "2026-05-29",
-        "snippet": "Could you see yourself helping transform global maintenance through data, digital reporting, and business intelligence?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst at the Danish Twin Registry and the Danish Aging Research Center",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13817464",
-        "posted": "2026-05-22",
-        "snippet": "The position is based in the Research Unit for Epidemiology, Biostatistics, and Biodemography, where we study human development,...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker til fjernvarmeforsyning",
         "company": "Høje Taastrup Fjernvarme a.m.b.a",
@@ -37,7 +15,7 @@
         "snippet": "Vil du arbejde i krydsfeltet mellem data, hydraulik og grøn omstilling og være med til at optimere et af Danmarks største forbrugerejede fjernvarmeselskaber ved hjælp af avanceret analyse, digitale modeller og kunstig intelligens?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Student worker as Data Analyst for HR – start 1. August 2026",
@@ -97,72 +75,6 @@
     ],
     "business analyst": [
       {
-        "title": "Business Analyst – AI & Automation",
-        "company": "TDC NET",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1669654",
-        "posted": "2026-05-28",
-        "snippet": "Do you want to turn AI opportunities into tangible products and business value?You will be responsible for identifying, describing, and driving AI relevant improvement opportunities across business areas. You will work closely wit",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Controller/Business Analyst",
-        "company": "Caljan A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1667255",
-        "posted": "2026-05-20",
-        "snippet": "Caljan is an international industrial company specializing in automation solutions for loose cargo handling.You will be part of a local finance team of six people were you will work closely with management to support decision-maki",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "BESTSELLER",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1665562",
-        "posted": "2026-05-13",
-        "snippet": "Vil du gøre rapportering skarpere, smartere og mere brugbar for en logistikforretning i bevægelse?Hos BESTSELLER Logistics får du ansvar for data, rapporter og analyser, der hjælper Finance, Customs, Supply Chain og IT med at træf",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Business Analyst, Copenhagen, Denmark",
-        "company": "UNOPS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13847257",
-        "posted": "2026-06-06",
-        "snippet": "This role combines business analysis, data analytics, and knowledge management in the context of cutting-edge AI deployment.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Experienced Business Analyst in Group Treasury",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13840389",
-        "posted": "2026-06-03",
-        "snippet": "Be a part of shaping Danske Bank’s financial future.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13837665",
-        "posted": "2026-06-02",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
         "company": "Politi",
         "location": "Glostrup",
@@ -194,6 +106,83 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst – AI & Automation",
+        "company": "TDC NET",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1669654",
+        "posted": "2026-05-28",
+        "snippet": "Do you want to turn AI opportunities into tangible products and business value?You will be responsible for identifying, describing, and driving AI relevant improvement opportunities across business areas. You will work closely wit",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Controller/Business Analyst",
+        "company": "Caljan A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1667255",
+        "posted": "2026-05-20",
+        "snippet": "Caljan is an international industrial company specializing in automation solutions for loose cargo handling.You will be part of a local finance team of six people were you will work closely with management to support decision-maki",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst Supply Chain & Procurement, Aarhus (Maternity Cover)",
+        "company": "Vitrolife A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1665561",
+        "posted": "2026-05-13",
+        "snippet": "We are seeking a Business Data Analyst to design and build power BI reporting to strengthen performance management and decision-making across planning, sourcing, purchasing and supplier performance.The role translates Operations p",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "BESTSELLER",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1665562",
+        "posted": "2026-05-13",
+        "snippet": "Vil du gøre rapportering skarpere, smartere og mere brugbar for en logistikforretning i bevægelse?Hos BESTSELLER Logistics får du ansvar for data, rapporter og analyser, der hjælper Finance, Customs, Supply Chain og IT med at træf",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "AI Business Analyst, Copenhagen, Denmark",
+        "company": "UNOPS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13847257",
+        "posted": "2026-06-06",
+        "snippet": "This role combines business analysis, data analytics, and knowledge management in the context of cutting-edge AI deployment.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Experienced Business Analyst in Group Treasury",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13840389",
+        "posted": "2026-06-03",
+        "snippet": "Be a part of shaping Danske Bank’s financial future.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13837665",
+        "posted": "2026-06-02",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "IT Business Analyst Intern",
@@ -429,19 +418,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Student worker as Data Analyst for HR – start 1. August 2026",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1672001",
-        "posted": "2026-06-04",
-        "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Data Scientist - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
