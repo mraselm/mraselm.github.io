@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T15:29:15Z",
+  "updated": "2026-06-09T18:21:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -465,6 +465,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior data scientist GenAI",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13852271",
+        "posted": "2026-06-09",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Data Scientist, Price Forecasting",
         "company": "Electricity Maps",
         "location": "Copenhagen",
@@ -520,6 +531,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "AI engineer for agentic AI",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13852272",
+        "posted": "2026-06-09",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Student AI Engineer",
         "company": "Retriever",
         "location": "Denmark",
@@ -571,17 +593,6 @@
         "posted": "2026-05-27",
         "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI løsninger, ikke bare i teorien, men i produktion fra dag ét?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer for Agent Development",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13822184",
-        "posted": "2026-05-26",
-        "snippet": "Design and implement sophisticated AI agents that directly drive banker productivity.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
