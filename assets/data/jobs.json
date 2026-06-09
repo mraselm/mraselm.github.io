@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T18:21:43Z",
+  "updated": "2026-06-09T21:13:09Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -158,6 +158,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1669428",
         "posted": "2026-05-28",
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Patent- og Varemærkestyrelsen",
+        "company": "Patent- og Varemærkestyrelsen",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/r13853352",
+        "posted": "2026-06-09",
+        "snippet": "Brænder du for at gøre en forskel, og vil du gerne bidrage til, at Patent- og Varemærkestyrelsens it-projekter understøtter både...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
