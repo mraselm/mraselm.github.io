@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T22:51:21Z",
+  "updated": "2026-06-10T01:31:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -13,17 +13,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13829505",
         "posted": "2026-05-29",
         "snippet": "Could you see yourself helping transform global maintenance through data, digital reporting, and business intelligence?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst at the Danish Twin Registry and the Danish Aging Research Center",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13817464",
-        "posted": "2026-05-22",
-        "snippet": "The position is based in the Research Unit for Epidemiology, Biostatistics, and Biodemography, where we study human development,...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
