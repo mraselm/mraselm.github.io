@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10T14:29:01Z",
+  "updated": "2026-06-10T18:09:17Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -141,34 +141,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Regulatory Business Analyst",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13855273",
+        "posted": "2026-06-10",
+        "snippet": "Are you passionate about regulation, data, and analytical work, with a keen interest in building solutions that ensure robust compliance and...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Business Analyst, Copenhagen, Denmark",
         "company": "UNOPS",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13847257",
         "posted": "2026-06-06",
         "snippet": "This role combines business analysis, data analytics, and knowledge management in the context of cutting-edge AI deployment.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Experienced Business Analyst in Group Treasury",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13840389",
-        "posted": "2026-06-03",
-        "snippet": "Be a part of shaping Danske Bank’s financial future.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst (FAP-BC-PM-2026-109-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13837665",
-        "posted": "2026-06-02",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -648,17 +637,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13819139",
         "posted": "2026-05-22",
         "snippet": "AI is moving from prototypes to production-ready solutions.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forward Deployed AI Engineer - AI Framework & Engineering",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13818457",
-        "posted": "2026-05-22",
-        "snippet": "Are you excited about using AI to improve patients' lives?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
