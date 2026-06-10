@@ -1,11 +1,22 @@
 {
-  "updated": "2026-06-10T06:42:57Z",
+  "updated": "2026-06-10T11:04:04Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Student worker as Data Analyst for HR – start 1. August 2026",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1672001",
+        "posted": "2026-06-04",
+        "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Student Worker, Global Maintenance Efficiency - Data analyst & BI reporting",
         "company": "LEGO System A/S",
@@ -14,6 +25,17 @@
         "posted": "2026-05-29",
         "snippet": "Could you see yourself helping transform global maintenance through data, digital reporting, and business intelligence?",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker/licensemanager",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1673361",
+        "posted": "2026-06-10",
+        "snippet": "Vil du være med til at sikre datadrevne beslutningsgrundlag for licensforhandlinger i Det Kgl. Bibliotek?Vi søger en kollega med kompetencer i indsamling, bearbejdning, analyse og præsentation af data til et dataanalytikerjob i Af",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -27,17 +49,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student worker as Data Analyst for HR – start 1. August 2026",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1672001",
-        "posted": "2026-06-04",
-        "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -152,23 +163,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytiker",
+        "company": "Erhvervsministeriet",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1673267",
+        "posted": "2026-06-10",
+        "snippet": "Vi søger lige nu en dygtig forretningsanalytiker, der ønsker at spille en afgørende rolle i realiseringen af Patent- og Varemærkestyrelsens digitale transformation.Din primære opgave som forretningsanalytiker bliver at sikre at kr",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
         "company": "Politi",
         "location": "Glostrup",
         "url": "https://www.jobindex.dk/vis-job/h1669428",
         "posted": "2026-05-28",
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til Patent- og Varemærkestyrelsen",
-        "company": "Patent- og Varemærkestyrelsen",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/r13853352",
-        "posted": "2026-06-09",
-        "snippet": "Brænder du for at gøre en forskel, og vil du gerne bidrage til, at Patent- og Varemærkestyrelsens it-projekter understøtter både...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -275,13 +286,13 @@
         "job_type": "full-time"
       },
       {
-        "title": "Student worker as Data Analyst for HR – start 1. August 2026",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1672001",
-        "posted": "2026-06-04",
-        "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
-        "lang": "en",
+        "title": "Studentermedhjælpere til Digital Bevaring og Medier på Det Kgl. Bibliotek",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1673268",
+        "posted": "2026-06-10",
+        "snippet": "Har du interesse for kulturarv, tv, radio og alt det digitale?Som studentermedhjælper i Digital Bevaring og Medier vil du komme til at arbejde med at forbedre og berige radio- og tv-samlingen med nye metadata og data samt klargøre",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "student"
       },
@@ -429,7 +440,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Studentermedhjælpere til Digital Bevaring og Medier på Det Kgl. Bibliotek",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1673268",
+        "posted": "2026-06-10",
+        "snippet": "Har du interesse for kulturarv, tv, radio og alt det digitale?Som studentermedhjælper i Digital Bevaring og Medier vil du komme til at arbejde med at forbedre og berige radio- og tv-samlingen med nye metadata og data samt klargøre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "Data Scientist - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
