@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10T11:04:04Z",
+  "updated": "2026-06-10T14:29:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -96,6 +96,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst med et stort kommercielt mindset søges til Q8 Danmark",
+        "company": "Q8 Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1673481",
+        "posted": "2026-06-10",
+        "snippet": "Vil du være med til at udvikle fremtidens B2B-salg i Q8 – og hjælpe vores kunder med at lykkes i den grønne omstilling?I hverdagen vil du arbejde tæt sammen med både salgsledelsen og sælgerne, hvor du bidrager med analyser, strukt",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Junior Business Analyst",
         "company": "VERO MODA",
