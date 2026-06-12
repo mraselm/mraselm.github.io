@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T12:32:04Z",
+  "updated": "2026-06-12T16:27:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -273,17 +273,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælpere til Digital Bevaring og Medier på Det Kgl. Bibliotek",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1673268",
-        "posted": "2026-06-10",
-        "snippet": "Har du interesse for kulturarv, tv, radio og alt det digitale?Som studentermedhjælper i Digital Bevaring og Medier vil du komme til at arbejde med at forbedre og berige radio- og tv-samlingen med nye metadata og data samt klargøre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
