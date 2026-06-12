@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T19:22:05Z",
+  "updated": "2026-06-12T22:00:49Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -582,17 +582,6 @@
         "posted": "2026-05-27",
         "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI løsninger, ikke bare i teorien, men i produktion fra dag ét?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Onsite Copenhagen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13819139",
-        "posted": "2026-05-22",
-        "snippet": "AI is moving from prototypes to production-ready solutions.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
