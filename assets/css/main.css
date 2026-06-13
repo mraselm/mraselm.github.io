@@ -923,6 +923,9 @@ section:not(:first-of-type)::before {
   width: 100%;
   border-radius: 14px;
   margin-bottom: 1rem;
+  /* Warm sepia wash so the illustration harmonizes with the ink + cream palette */
+  filter: sepia(0.45) saturate(0.7) hue-rotate(-6deg) brightness(1.03) contrast(0.96);
+  transition: filter var(--transition);
 }
 
 .hero-card .note {
