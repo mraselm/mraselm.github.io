@@ -62,10 +62,10 @@
     <style>
       /*  Jobs page theme vars  */
       :root {
-        --jobs-da:  #6366f1;
-        --jobs-ba:  #0ea5e9;
-        --jobs-bi:  #8b5cf6;
-        --jobs-bis: #f59e0b;
+        --jobs-da:  #3a322a;
+        --jobs-ba:  #5e6b4a;
+        --jobs-bi:  #6d4c3d;
+        --jobs-bis: #9a7b4f;
       }
 
       /*  Hero  */
@@ -81,9 +81,9 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        color: var(--accent, #6366f1);
-        background: rgba(99,102,241,0.08);
-        border: 1px solid rgba(99,102,241,0.18);
+        color: var(--accent, #3a322a);
+        background: rgba(138, 109, 74,0.08);
+        border: 1px solid rgba(138, 109, 74,0.18);
         padding: 0.25rem 0.85rem;
         border-radius: 999px;
         margin-bottom: 1rem;
@@ -97,7 +97,7 @@
       .jobs-hero h1 {
         font-size: clamp(2rem, 4.5vw, 2.8rem);
         margin-bottom: 0.55rem;
-        background: linear-gradient(135deg, var(--ink) 0%, var(--accent, #6366f1) 100%);
+        background: linear-gradient(135deg, var(--ink) 0%, var(--accent, #3a322a) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -121,8 +121,8 @@
         gap: 0.4rem;
         padding: 0.35rem 0.75rem;
         border-radius: 999px;
-        background: rgba(99,102,241,0.08);
-        border: 1px solid rgba(99,102,241,0.15);
+        background: rgba(138, 109, 74,0.08);
+        border: 1px solid rgba(138, 109, 74,0.15);
         color: var(--muted);
         font-size: 0.78rem;
         font-weight: 600;
@@ -140,7 +140,7 @@
         border-radius: 16px;
         padding: 0.9rem 1.35rem;
         min-width: 120px;
-        box-shadow: 0 4px 16px rgba(14,23,42,0.06);
+        box-shadow: 0 4px 16px rgba(20, 17, 13,0.06);
         position: relative;
         overflow: hidden;
       }
@@ -148,14 +148,14 @@
         content: '';
         position: absolute;
         inset: 0;
-        background: linear-gradient(135deg, rgba(99,102,241,0.04) 0%, transparent 60%);
+        background: linear-gradient(135deg, rgba(138, 109, 74,0.04) 0%, transparent 60%);
         pointer-events: none;
       }
       .hero-stat-num {
         font-size: 1.6rem;
         font-weight: 700;
         font-family: 'Space Grotesk', sans-serif;
-        background: linear-gradient(135deg, var(--ink) 0%, var(--accent, #6366f1) 120%);
+        background: linear-gradient(135deg, var(--ink) 0%, var(--accent, #3a322a) 120%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -179,7 +179,7 @@
       }
       .hero-stat-tools #jobs-updated {
         font-size: 0.72rem;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         white-space: nowrap;
         opacity: 0.85;
         letter-spacing: 0.01em;
@@ -219,7 +219,7 @@
         box-shadow: 0 2px 12px rgba(0,0,0,0.05);
         margin-bottom: 2rem;
         /* Subtle indigo top accent */
-        border-top: 3px solid var(--accent, #6366f1);
+        border-top: 3px solid var(--accent, #3a322a);
       }
       .filter-top-row {
         display: flex;
@@ -241,28 +241,28 @@
         align-items: center;
         gap: 0.45rem;
         background: transparent;
-        border: 1.5px solid var(--border, #e2e8f0);
+        border: 1.5px solid var(--border, #e2d8c5);
         border-radius: 999px;
         padding: 0.42rem 1.05rem;
         font-size: 0.84rem;
         font-weight: 600;
         cursor: pointer;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         font-family: inherit;
         transition: background 0.18s, color 0.18s, border-color 0.18s, box-shadow 0.18s, transform 0.15s;
         white-space: nowrap;
       }
       .jobs-tab:hover {
-        border-color: var(--tab-color, var(--accent, #6366f1));
-        color: var(--tab-color, var(--accent, #6366f1));
-        background: rgba(99,102,241,0.06);
+        border-color: var(--tab-color, var(--accent, #3a322a));
+        color: var(--tab-color, var(--accent, #3a322a));
+        background: rgba(138, 109, 74,0.06);
         transform: translateY(-1px);
       }
       .jobs-tab.active {
-        background: var(--tab-color, var(--accent, #6366f1));
+        background: var(--tab-color, var(--accent, #3a322a));
         color: #fff;
-        border-color: var(--tab-color, var(--accent, #6366f1));
-        box-shadow: 0 4px 16px color-mix(in srgb, var(--tab-color, #6366f1) 40%, transparent);
+        border-color: var(--tab-color, var(--accent, #3a322a));
+        box-shadow: 0 4px 16px color-mix(in srgb, var(--tab-color, #3a322a) 40%, transparent);
       }
       .tab-count {
         display: inline-flex;
@@ -280,7 +280,7 @@
       }
       .jobs-tab.active .tab-count.loaded { opacity: 1; }
       .jobs-tab:not(.active) .tab-count.loaded {
-        background: rgba(99,102,241,0.12);
+        background: rgba(138, 109, 74,0.12);
         color: var(--accent);
         opacity: 1;
       }
@@ -311,7 +311,7 @@
         padding: 0 0.85rem 0 2.35rem;
         border-radius: 999px;
         border: 1px solid var(--border);
-        background: var(--body-bg, #f8fafc);
+        background: var(--body-bg, #f5efe1);
         color: var(--ink);
         font: inherit;
         font-size: 0.76rem;
@@ -322,8 +322,8 @@
       }
       .jobs-search input:focus {
         outline: none;
-        border-color: var(--accent, #6366f1);
-        box-shadow: 0 0 0 3px rgba(99,102,241,0.12);
+        border-color: var(--accent, #3a322a);
+        box-shadow: 0 0 0 3px rgba(138, 109, 74,0.12);
       }
       .jobs-search i {
         position: absolute;
@@ -342,15 +342,15 @@
         border-radius: 50%;
         border: none;
         background: transparent;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         cursor: pointer;
         font-size: 0.82rem;
         transition: background 0.15s, color 0.15s, transform 0.2s;
         padding: 0;
       }
       #jobs-refresh:hover {
-        background: rgba(99,102,241,0.08);
-        color: var(--accent, #6366f1);
+        background: rgba(138, 109, 74,0.08);
+        color: var(--accent, #3a322a);
       }
       #jobs-refresh:active {
         transform: rotate(45deg);
@@ -364,7 +364,7 @@
         border-radius: 999px;
         border: 1px solid var(--border);
         background: transparent;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         cursor: pointer;
         font-size: 0.74rem;
         font-weight: 700;
@@ -376,16 +376,16 @@
         display: none;
       }
       #jobs-reset:hover {
-        background: rgba(99,102,241,0.07);
-        border-color: rgba(99,102,241,0.22);
-        color: var(--accent, #6366f1);
+        background: rgba(138, 109, 74,0.07);
+        border-color: rgba(138, 109, 74,0.22);
+        color: var(--accent, #3a322a);
       }
       #jobs-reset:active {
         transform: translateY(1px);
       }
       #jobs-updated {
         font-size: 0.68rem;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         white-space: nowrap;
         opacity: 0.7;
         letter-spacing: 0.01em;
@@ -422,9 +422,9 @@
         gap: 0.35rem;
         padding: 0.28rem 0.7rem;
         border-radius: 999px;
-        background: rgba(99,102,241,0.08);
-        border: 1px solid rgba(99,102,241,0.16);
-        color: var(--accent, #6366f1);
+        background: rgba(138, 109, 74,0.08);
+        border: 1px solid rgba(138, 109, 74,0.16);
+        color: var(--accent, #3a322a);
         font-size: 0.76rem;
         font-weight: 700;
         max-width: 100%;
@@ -446,7 +446,7 @@
       }
       .skel {
         border-radius: 6px;
-        background: linear-gradient(90deg,var(--border) 25%,rgba(200,207,216,0.4) 50%,var(--border) 75%);
+        background: linear-gradient(90deg,var(--border) 25%,rgba(226, 216, 197,0.4) 50%,var(--border) 75%);
         background-size: 200% 100%;
         animation: shimmer 1.4s infinite;
       }
@@ -463,7 +463,7 @@
         flex-direction: column;
         gap: 0.6rem;
         background: var(--card-bg, #fff);
-        border: 1px solid var(--border, #e2e8f0);
+        border: 1px solid var(--border, #e2d8c5);
         border-radius: 1.15rem;
         padding: 1.35rem 1.5rem;
         text-decoration: none;
@@ -478,7 +478,7 @@
         position: absolute;
         top: 0; bottom: 0; left: 0;
         width: 4px;
-        background: var(--cat-color, var(--accent, #6366f1));
+        background: var(--cat-color, var(--accent, #3a322a));
         opacity: 0;
         border-radius: 1.15rem 0 0 1.15rem;
         transition: opacity 0.2s;
@@ -486,7 +486,7 @@
       .job-card:hover {
         transform: translateY(-3px);
         box-shadow: 0 12px 32px rgba(0,0,0,0.1);
-        border-color: var(--cat-color, var(--accent, #6366f1));
+        border-color: var(--cat-color, var(--accent, #3a322a));
       }
       .job-card:hover::before { opacity: 1; }
       .job-card-header {
@@ -522,35 +522,35 @@
         flex-shrink: 0;
       }
       .job-badge.fulltime {
-        background: rgba(22,163,74,0.1);
-        color: #16a34a;
-        border: 1px solid rgba(22,163,74,0.22);
+        background: rgba(74, 93, 58,0.1);
+        color: #4a5d3a;
+        border: 1px solid rgba(74, 93, 58,0.22);
       }
       .job-badge.parttime {
-        background: rgba(14,165,233,0.1);
-        color: #0369a1;
-        border: 1px solid rgba(14,165,233,0.22);
+        background: rgba(79, 91, 107,0.1);
+        color: #4f5b6b;
+        border: 1px solid rgba(79, 91, 107,0.22);
       }
       .job-badge.student {
-        background: rgba(245,158,11,0.1);
-        color: #b45309;
-        border: 1px solid rgba(245,158,11,0.22);
+        background: rgba(154, 123, 79,0.1);
+        color: #8a6a2e;
+        border: 1px solid rgba(154, 123, 79,0.22);
       }
       .job-badge.graduate {
-        background: rgba(236,72,153,0.1);
-        color: #db2777;
-        border: 1px solid rgba(236,72,153,0.22);
+        background: rgba(124, 74, 82,0.1);
+        color: #7c4a52;
+        border: 1px solid rgba(124, 74, 82,0.22);
       }
       .job-badge.new-badge {
-        background: rgba(239,68,68,0.1);
-        color: #dc2626;
-        border: 1px solid rgba(239,68,68,0.25);
+        background: rgba(140, 47, 42,0.1);
+        color: #8c2f2a;
+        border: 1px solid rgba(140, 47, 42,0.25);
         animation: pulse-new 2s ease-in-out infinite;
       }
       .job-badge.source-badge {
-        background: rgba(100,116,139,0.08);
-        color: #64748b;
-        border: 1px solid rgba(100,116,139,0.18);
+        background: rgba(107, 99, 87,0.08);
+        color: #6b6357;
+        border: 1px solid rgba(107, 99, 87,0.18);
         font-weight: 600;
         font-size: 0.62rem;
         letter-spacing: 0.02em;
@@ -566,8 +566,8 @@
         border: 1px solid #34495e;
       }
       @keyframes pulse-new {
-        0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.3); }
-        50%       { box-shadow: 0 0 0 4px rgba(239,68,68,0); }
+        0%, 100% { box-shadow: 0 0 0 0 rgba(140, 47, 42,0.3); }
+        50%       { box-shadow: 0 0 0 4px rgba(140, 47, 42,0); }
       }
       .job-meta-row {
         display: flex;
@@ -576,13 +576,13 @@
       }
       .job-company, .job-location {
         font-size: .86rem;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         display: flex;
         align-items: center;
         gap: .4rem;
       }
       .job-meta-relative {
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         font-size: .84em;
       }
       .job-company {
@@ -591,7 +591,7 @@
       }
       .job-snippet {
         font-size: .82rem;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         line-height: 1.5;
         margin: 0;
         display: -webkit-box;
@@ -606,9 +606,9 @@
         justify-content: space-between;
         margin-top: auto;
         padding-top: .75rem;
-        border-top: 1px solid var(--border, #e2e8f0);
+        border-top: 1px solid var(--border, #e2d8c5);
         font-size: .78rem;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
       }
       .job-footer-left {
         display: flex;
@@ -618,7 +618,7 @@
       .job-date { display:flex; align-items:center; gap:.35rem; }
       .job-cta {
         display: flex; align-items: center; gap: .35rem;
-        color: var(--cat-color, var(--accent, #6366f1));
+        color: var(--cat-color, var(--accent, #3a322a));
         font-weight: 700; font-size: .78rem;
         transition: gap .15s;
       }
@@ -671,7 +671,7 @@
         flex-wrap: wrap;
         gap: 0.3rem 0.45rem;
         padding: 0.42rem 1rem;
-        background: var(--body-bg, #f8fafc);
+        background: var(--body-bg, #f5efe1);
         border: 1px solid var(--border);
         border-radius: 8px;
       }
@@ -708,7 +708,7 @@
         font-size: 0.75rem;
         font-weight: 600;
         cursor: pointer;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         font-family: inherit;
         transition: background 0.15s, color 0.15s, border-color 0.15s;
         white-space: nowrap;
@@ -717,17 +717,17 @@
       .city-btn:hover, .type-btn:hover {
         border-color: var(--accent);
         color: var(--accent);
-        background: rgba(99,102,241,0.07);
+        background: rgba(138, 109, 74,0.07);
       }
       .city-btn.active, .type-btn.active {
-        background: var(--accent, #6366f1);
-        border-color: var(--accent, #6366f1);
+        background: var(--accent, #3a322a);
+        border-color: var(--accent, #3a322a);
         color: #fff;
         font-weight: 700;
       }
       .city-btn i, .type-btn i { font-size: 0.67rem; opacity: 0.8; }
-      .type-btn[data-type="full-time"].active  { background:#16a34a; border-color:#16a34a; color:#fff; }
-      .type-btn[data-type="student"].active    { background:#f59e0b; border-color:#f59e0b; color:#fff; }
+      .type-btn[data-type="full-time"].active  { background:#4a5d3a; border-color:#4a5d3a; color:#fff; }
+      .type-btn[data-type="student"].active    { background:#9a7b4f; border-color:#9a7b4f; color:#fff; }
       .lang-btn {
         display: inline-flex;
         align-items: center;
@@ -739,7 +739,7 @@
         font-size: 0.75rem;
         font-weight: 600;
         cursor: pointer;
-        color: var(--muted, #64748b);
+        color: var(--muted, #6b6357);
         font-family: inherit;
         transition: background 0.15s, color 0.15s, border-color 0.15s;
         white-space: nowrap;
@@ -748,15 +748,15 @@
       .lang-btn:hover {
         border-color: var(--accent);
         color: var(--accent);
-        background: rgba(99,102,241,0.07);
+        background: rgba(138, 109, 74,0.07);
       }
       .lang-btn.active {
-        background: var(--accent, #6366f1);
-        border-color: var(--accent, #6366f1);
+        background: var(--accent, #3a322a);
+        border-color: var(--accent, #3a322a);
         color: #fff;
         font-weight: 700;
       }
-      .lang-btn[data-lang="en"].active { background:#0369a1; border-color:#0369a1; color:#fff; }
+      .lang-btn[data-lang="en"].active { background:#4f5b6b; border-color:#4f5b6b; color:#fff; }
       .lang-btn[data-lang="da"].active { background:#c0392b; border-color:#c0392b; color:#fff; }
 
       @keyframes shimmer {
@@ -827,7 +827,7 @@
         border: 1px solid var(--border);
         border-radius: 16px;
         padding: 1.25rem 1.5rem;
-        box-shadow: 0 4px 16px rgba(14,23,42,0.06);
+        box-shadow: 0 4px 16px rgba(20, 17, 13,0.06);
       }
       .notify-inner p {
         font-size: 0.88rem;
@@ -847,22 +847,22 @@
         padding: 0 1rem;
         border-radius: 999px;
         border: 1px solid var(--border);
-        background: var(--body-bg, #f8fafc);
+        background: var(--body-bg, #f5efe1);
         color: var(--ink);
         font: inherit;
         font-size: 0.84rem;
       }
       .notify-form input[type="email"]:focus {
         outline: none;
-        border-color: var(--accent, #6366f1);
-        box-shadow: 0 0 0 3px rgba(99,102,241,0.12);
+        border-color: var(--accent, #3a322a);
+        box-shadow: 0 0 0 3px rgba(138, 109, 74,0.12);
       }
       .notify-form button[type="submit"] {
         height: 2.5rem;
         padding: 0 1.25rem;
         border-radius: 999px;
         border: none;
-        background: var(--accent, #6366f1);
+        background: var(--accent, #3a322a);
         color: #fff;
         font: inherit;
         font-size: 0.82rem;
@@ -880,14 +880,14 @@
         margin-top: 0.55rem;
         line-height: 1.45;
       }
-      .notify-feedback.success { color: #16a34a; }
-      .notify-feedback.error   { color: #dc2626; }
+      .notify-feedback.success { color: #4a5d3a; }
+      .notify-feedback.error   { color: #8c2f2a; }
       .notify-subscribed {
         display: flex;
         align-items: center;
         gap: 0.45rem;
         font-size: 0.84rem;
-        color: #16a34a;
+        color: #4a5d3a;
         font-weight: 600;
       }
       @media (max-width: 640px) {
@@ -1034,49 +1034,49 @@
             <div class="filter-top-row">
               <div class="jobs-tabs" id="jobs-tabs" role="tablist" aria-label="Job categories">
                 <button class="jobs-tab active"
-                  data-query="all" data-label="All Jobs" data-color="#64748b" style="--tab-color:#64748b"
+                  data-query="all" data-label="All Jobs" data-color="#6b6357" style="--tab-color:#6b6357"
                   role="tab" aria-selected="true" aria-controls="jobs-grid">
                   <i class="fas fa-layer-group" aria-hidden="true"></i>
                   All Jobs
                   <span class="tab-count" id="tc-all">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="data analyst" data-label="Data Analyst" data-color="#6366f1" style="--tab-color:#6366f1"
+                  data-query="data analyst" data-label="Data Analyst" data-color="#3a322a" style="--tab-color:#3a322a"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-chart-bar" aria-hidden="true"></i>
                   Data Analyst
                   <span class="tab-count" id="tc-da">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="business analyst" data-label="Business Analyst" data-color="#0ea5e9" style="--tab-color:#0ea5e9"
+                  data-query="business analyst" data-label="Business Analyst" data-color="#5e6b4a" style="--tab-color:#5e6b4a"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-briefcase" aria-hidden="true"></i>
                   Business Analyst
                   <span class="tab-count" id="tc-ba">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="business intelligence" data-label="Business Intelligence" data-color="#8b5cf6" style="--tab-color:#8b5cf6"
+                  data-query="business intelligence" data-label="Business Intelligence" data-color="#6d4c3d" style="--tab-color:#6d4c3d"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-brain" aria-hidden="true"></i>
                   Business Intelligence
                   <span class="tab-count" id="tc-bi">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="bi specialist" data-label="BI Specialist" data-color="#f59e0b" style="--tab-color:#f59e0b"
+                  data-query="bi specialist" data-label="BI Specialist" data-color="#9a7b4f" style="--tab-color:#9a7b4f"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-database" aria-hidden="true"></i>
                   BI Specialist
                   <span class="tab-count" id="tc-bis">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="data scientist" data-label="Data Scientist" data-color="#10b981" style="--tab-color:#10b981"
+                  data-query="data scientist" data-label="Data Scientist" data-color="#4a5d50" style="--tab-color:#4a5d50"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-flask" aria-hidden="true"></i>
                   Data Scientist
                   <span class="tab-count" id="tc-ds">0</span>
                 </button>
                 <button class="jobs-tab"
-                  data-query="graduate program" data-label="Graduate Program" data-color="#ec4899" style="--tab-color:#ec4899"
+                  data-query="graduate program" data-label="Graduate Program" data-color="#7c4a52" style="--tab-color:#7c4a52"
                   role="tab" aria-selected="false" aria-controls="jobs-grid">
                   <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                   Graduate Program
@@ -1223,7 +1223,7 @@
 
         var JOBS_DATA        = null;
         var currentCategory  = 'all';
-        var currentColor     = '#64748b';
+        var currentColor     = '#6b6357';
         var currentCity      = 'all';
         var currentType      = 'all';
         var currentLang      = 'all';
@@ -1388,7 +1388,7 @@
 
         function resetAllFilters() {
           currentCategory = 'all';
-          currentColor    = '#64748b';
+          currentColor    = '#6b6357';
           currentCity     = 'all';
           currentType     = 'all';
           currentLang     = 'all';
@@ -1766,7 +1766,7 @@
             this.classList.add('active');
             this.setAttribute('aria-selected', 'true');
             currentCategory = this.dataset.query;
-            currentColor    = this.dataset.color || '#6366f1';
+            currentColor    = this.dataset.color || '#3a322a';
             if (JOBS_DATA) { renderCategory(currentCategory, currentColor); }
             else            { loadData(); }
           });
