@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T21:40:26Z",
+  "updated": "2026-06-14T23:37:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -476,6 +476,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Postdoctoral Researcher in Personalized Oncology and Clinical Data Science at Center for Surgical Science",
+        "company": "Region Sjælland",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13833133",
+        "posted": "2026-06-01",
+        "snippet": "Are you looking for an opportunity to bridge the gap between advanced data science and clinical impact?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Founding ML Engineer",
         "company": "Underwater Acoustic Intelligence",
         "location": "Lyngby",
@@ -493,17 +504,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1672633",
         "posted": "2026-06-08",
         "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "PensionDanmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1668874",
-        "posted": "2026-05-27",
-        "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI-løsninger, ikke bare i teorien, men i produktion fra dag ét?Hos PensionDanmark leder vi efter dig, der brænder for conversational AI og vil være med til at skabe løs",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
