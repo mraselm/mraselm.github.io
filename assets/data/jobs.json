@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T12:42:55Z",
+  "updated": "2026-06-15T18:01:41Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -13,17 +13,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1672001",
         "posted": "2026-06-04",
         "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student Worker, Global Maintenance Efficiency - Data analyst & BI reporting",
-        "company": "LEGO System A/S",
-        "location": "Billund",
-        "url": "https://www.jobindex.dk/vis-job/r13829505",
-        "posted": "2026-05-29",
-        "snippet": "Could you see yourself helping transform global maintenance through data, digital reporting, and business intelligence?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -97,6 +86,17 @@
     ],
     "business analyst": [
       {
+        "title": "Procurement Business Analyst",
+        "company": "DLF Seeds A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1674689",
+        "posted": "2026-06-15",
+        "snippet": "Brænder du for dataanalyse, procesoptimering og forretningsudvikling inden for procurement, og vil du bruge din faglighed til at styrke DLF's globale indkøbsorganisation?Vi søger dig, der motiveres af at omsætte data til indsigter",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst med et stort kommercielt mindset søges til Q8 Danmark",
         "company": "Q8 Danmark A/S",
         "location": "Copenhagen",
@@ -147,17 +147,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13847257",
         "posted": "2026-06-06",
         "snippet": "This role combines business analysis, data analytics, and knowledge management in the context of cutting-edge AI deployment.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Experienced Business Analyst in Group Treasury",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13840389",
-        "posted": "2026-06-03",
-        "snippet": "Be a part of shaping Danske Bank’s financial future.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -515,6 +504,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13846565",
         "posted": "2026-06-05",
         "snippet": "Electricity Maps is the world's most comprehensive electricity data platform - covering real-time, historical, and forecast data on...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI/ML Engineer",
+        "company": "XCI A/S",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1674662",
+        "posted": "2026-06-15",
+        "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
