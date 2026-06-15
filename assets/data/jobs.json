@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T05:28:15Z",
+  "updated": "2026-06-15T12:42:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -242,6 +242,28 @@
     ],
     "business intelligence": [
       {
+        "title": "BI Process Manager: Sæt rammerne for Power BI rapportering i DLG Group",
+        "company": "DLG",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1674622",
+        "posted": "2026-06-15",
+        "snippet": "Vil du bruge dine kompetencer indenfor data, tech og rapportering til at gøre en reel forskel for klimaet og landmanden? Rollen har 2 primære ansvarsområder; dels er du eksperten, der kan sætte rammerne for brugen af Power BI. Der",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Junior BI Specialist til Business Intelligence i DLG",
+        "company": "DLG",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1674616",
+        "posted": "2026-06-15",
+        "snippet": "Vil du bruge dine kompetencer indenfor data, tech og rapportering til at gøre en reel forskel for medarbejdere og ledere på tværs af DLG Group? I rollen som konsulent vil du få ansvaret for et eller flere data domainer, hvor du dr",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Intelligence Engineer",
         "company": "Ellab A/S",
         "location": "Hillerød",
@@ -421,6 +443,39 @@
     "bi specialist": [],
     "data scientist": [
       {
+        "title": "Data Scientist – Applied AI & Machine Learning",
+        "company": "Collectia A/S",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/h1674596",
+        "posted": "2026-06-15",
+        "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions end-to-end, from idea to production? Your work will be closely tied to core business outcomes. Your key res",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientists/udviklere til avanceret modellering af ejendomsvurderinger",
+        "company": "Vurderingsstyrelsen",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1674474",
+        "posted": "2026-06-15",
+        "snippet": "Er du stærk til statistiske analyser og til at arbejde med store mængder data? Kan du slet ikke stoppe før hele puslespillet er lagt?Vi søger en eller flere udviklere, der kan være med til at sikre kvaliteten af de kvantitative vu",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Københavns Lufthavne A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1673146",
+        "posted": "2026-06-09",
+        "snippet": "Hver dag sikrer Safe & Secure Operations, at lufthavnen fungerer sikkert og effektivt fra start til slut.Vi har ansvaret for den operative drift på tværs af lufthavnen fra flyoperationer og bagage til infrastruktur, compliance og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
         "company": "Udviklings- og Forenklingsstyrelsen",
         "location": "Frederiksberg",
@@ -460,28 +515,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13846565",
         "posted": "2026-06-05",
         "snippet": "Electricity Maps is the world's most comprehensive electricity data platform - covering real-time, historical, and forecast data on...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist (1-year position)",
-        "company": "Region Hovedstaden",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13833542",
-        "posted": "2026-06-01",
-        "snippet": "Do you want to apply advanced data analytics and AI to improve patient care and generate knowledge on stress and mental health?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Postdoctoral Researcher in Personalized Oncology and Clinical Data Science at Center for Surgical Science",
-        "company": "Region Sjælland",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13833133",
-        "posted": "2026-06-01",
-        "snippet": "Are you looking for an opportunity to bridge the gap between advanced data science and clinical impact?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
