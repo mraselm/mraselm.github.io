@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T05:34:14Z",
+  "updated": "2026-06-16T11:34:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -86,6 +86,17 @@
     ],
     "business analyst": [
       {
+        "title": "Business Analyst, AI Fashion Planning",
+        "company": "BESTSELLER",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1674919",
+        "posted": "2026-06-16",
+        "snippet": "Join BESTSELLER TECH and revolutionize fashion with machine learning!Your key to success in this role is your passion for supply chain planning and your ability to understand our planners' processes and their ways of working to en",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Procurement Business Analyst",
         "company": "DLF Seeds A/S",
         "location": "Denmark",
@@ -125,39 +136,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1667255",
         "posted": "2026-05-20",
         "snippet": "Caljan is an international industrial company specializing in automation solutions for loose cargo handling.You will be part of a local finance team of six people were you will work closely with management to support decision-maki",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Regulatory Business Analyst",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13855273",
-        "posted": "2026-06-10",
-        "snippet": "Are you passionate about regulation, data, and analytical work, with a keen interest in building solutions that ensure robust compliance and...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Business Analyst, Copenhagen, Denmark",
-        "company": "UNOPS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13847257",
-        "posted": "2026-06-06",
-        "snippet": "This role combines business analysis, data analytics, and knowledge management in the context of cutting-edge AI deployment.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Experienced Business Analyst in Group Treasury",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13840389",
-        "posted": "2026-06-03",
-        "snippet": "Be a part of shaping Danske Bank’s financial future.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -295,6 +273,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til Fredericia Bibliotek",
+        "company": "Fredericia Kommune",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1674774",
+        "posted": "2026-06-16",
+        "snippet": "Fredericia Bibliotek søger en studentermedhjælper til at hjælpe med materialehåndtering 12 timer ugentligt. Arbejdstiden fordeles på 2-3 dage – nogle af dem på formiddage. Der vil være fleksibilitet i forhold til dit studie og din",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -440,7 +429,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Studentermedhjælper til Fredericia Bibliotek",
+        "company": "Fredericia Kommune",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1674774",
+        "posted": "2026-06-16",
+        "snippet": "Fredericia Bibliotek søger en studentermedhjælper til at hjælpe med materialehåndtering 12 timer ugentligt. Arbejdstiden fordeles på 2-3 dage – nogle af dem på formiddage. Der vil være fleksibilitet i forhold til dit studie og din",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "Data Scientist – Applied AI & Machine Learning",
