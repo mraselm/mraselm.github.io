@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T21:22:29Z",
+  "updated": "2026-06-16T00:02:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -147,6 +147,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13847257",
         "posted": "2026-06-06",
         "snippet": "This role combines business analysis, data analytics, and knowledge management in the context of cutting-edge AI deployment.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Experienced Business Analyst in Group Treasury",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13840389",
+        "posted": "2026-06-03",
+        "snippet": "Be a part of shaping Danske Bank’s financial future.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -471,17 +482,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1670704",
         "posted": "2026-06-02",
         "snippet": "I Avanceret Analyse arbejder vi med løsninger, der hjælper med at sikre, at skatter og afgifter bliver betalt rigtigt, så velfærdssamfundet hænger sammen.Som Data Scientist får du samtidigt lov til at nørde med nogle af de mest sp",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Predictify A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1665895",
-        "posted": "2026-05-18",
-        "snippet": "Vi søger to data scientists med ønske om at indgå i et ungt team, der arbejder med alt fra Microsoft Fabric, Microsoft DevOps, Excel og PowerPoint.Vi arbejder med avancerede analyser såsom økonometrisk modellering, machine learnin",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
