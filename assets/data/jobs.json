@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T11:34:32Z",
+  "updated": "2026-06-16T17:21:12Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -484,6 +484,17 @@
         "posted": "2026-06-02",
         "snippet": "I Avanceret Analyse arbejder vi med løsninger, der hjælper med at sikre, at skatter og afgifter bliver betalt rigtigt, så velfærdssamfundet hænger sammen.Som Data Scientist får du samtidigt lov til at nørde med nogle af de mest sp",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist for Research Intelligence & Digital Research Support",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13864479",
+        "posted": "2026-06-16",
+        "snippet": "Do you know how to analyze complex data and deploy web applications?",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
