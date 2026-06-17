@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T17:23:56Z",
+  "updated": "2026-06-17T20:30:17Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -543,6 +543,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Machine Learning /AI Engineer (Senior to Principal Level), Fixed-term contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13869028",
+        "posted": "2026-06-17",
+        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Data Scientist",
         "company": "",
         "location": "Denmark",
@@ -693,17 +704,6 @@
         "posted": "2026-06-02",
         "snippet": "Light exists to replace factory-era ERPs with software that feels alive.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer til PensionDanmark",
-        "company": "PensionDanmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13825007",
-        "posted": "2026-05-27",
-        "snippet": "Drømmer du om at arbejde med næste generation af intelligente AI løsninger, ikke bare i teorien, men i produktion fra dag ét?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
