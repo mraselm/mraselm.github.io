@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T20:38:46Z",
+  "updated": "2026-06-18T23:06:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -147,6 +147,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1673057",
         "posted": "2026-06-09",
         "snippet": "Are you passionate about data and eager to kick-start your career in e-commerce? Do you want to turn analysis into decisions that influence product availability, sales performance and business growth across international markets?W",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Business Analyst to Cards & Financing Tribe",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13870865",
+        "posted": "2026-06-18",
+        "snippet": "Do you enjoy working in a role where no day looks the same, and where the focus is both on delivering meaningful outcomes and having fun along the way?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -325,17 +336,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1675348",
         "posted": "2026-06-18",
         "snippet": "Få et studiejob med relevant erhvervserfaring inden for løn, overenskomster, data og administration.Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Hos Ma",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til Fredericia Bibliotek",
-        "company": "Fredericia Kommune",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1674774",
-        "posted": "2026-06-16",
-        "snippet": "Fredericia Bibliotek søger en studentermedhjælper til at hjælpe med materialehåndtering 12 timer ugentligt. Arbejdstiden fordeles på 2-3 dage – nogle af dem på formiddage. Der vil være fleksibilitet i forhold til dit studie og din",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -527,17 +527,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1673146",
         "posted": "2026-06-09",
         "snippet": "Hver dag sikrer Safe & Secure Operations, at lufthavnen fungerer sikkert og effektivt fra start til slut.Vi har ansvaret for den operative drift på tværs af lufthavnen fra flyoperationer og bagage til infrastruktur, compliance og",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
-        "company": "Udviklings- og Forenklingsstyrelsen",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1670704",
-        "posted": "2026-06-02",
-        "snippet": "I Avanceret Analyse arbejder vi med løsninger, der hjælper med at sikre, at skatter og afgifter bliver betalt rigtigt, så velfærdssamfundet hænger sammen.Som Data Scientist får du samtidigt lov til at nørde med nogle af de mest sp",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
