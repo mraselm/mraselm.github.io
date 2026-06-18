@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T01:43:22Z",
+  "updated": "2026-06-18T07:09:33Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -488,6 +488,17 @@
     ],
     "data scientist": [
       {
+        "title": "Senior Data Scientist",
+        "company": "MB Shipbrokers 24 A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1675420",
+        "posted": "2026-06-18",
+        "snippet": "As a Senior Data Scientist in our shipbroking company, you’ll help shape the next generation of demand, supply, and price forecasting models.In this role, you will combine advanced data science with market understanding to build m",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist – Applied AI & Machine Learning",
         "company": "Collectia A/S",
         "location": "Brøndby",
@@ -695,6 +706,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student assistant: Data and AI engineer",
+        "company": "Everllence",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1675395",
+        "posted": "2026-06-18",
+        "snippet": "In this role, you will assist with various proof of concept developing Data and AI solutions to support the digitalization of the product development and administrative processes.You will have the opportunity to continue learning",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
