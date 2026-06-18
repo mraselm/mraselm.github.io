@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T14:25:26Z",
+  "updated": "2026-06-18T18:11:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -297,6 +297,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Er du vores nye Business Intelligence ressource med udviklingskompetencer i Forsvarsstaben?",
+        "company": "Forsvaret",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13870173",
+        "posted": "2026-06-18",
+        "snippet": "Vil du arbejde med data, der skaber reel forretningsværdi?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "BI Consultant",
         "company": "VIKING Life-Saving Equipment A/S",
         "location": "Esbjerg",
@@ -481,17 +492,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1675348",
         "posted": "2026-06-18",
         "snippet": "Få et studiejob med relevant erhvervserfaring inden for løn, overenskomster, data og administration.Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Hos Ma",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til Fredericia Bibliotek",
-        "company": "Fredericia Kommune",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1674774",
-        "posted": "2026-06-16",
-        "snippet": "Fredericia Bibliotek søger en studentermedhjælper til at hjælpe med materialehåndtering 12 timer ugentligt. Arbejdstiden fordeles på 2-3 dage – nogle af dem på formiddage. Der vil være fleksibilitet i forhold til dit studie og din",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
