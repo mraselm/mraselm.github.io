@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T07:09:33Z",
+  "updated": "2026-06-18T11:17:06Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -44,8 +44,8 @@
         "company": "MatchMind",
         "location": "Aalborg",
         "url": "https://www.jobindex.dk/vis-job/h1675348",
-        "posted": "2026-06-17",
-        "snippet": "Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Du bliver en del af et erfarent team og får mulighed for at arbejde med lønrelaterede opgaver, overenskoms",
+        "posted": "2026-06-18",
+        "snippet": "Få et studiejob med relevant erhvervserfaring inden for løn, overenskomster, data og administration.Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Hos Ma",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -96,6 +96,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Senior Business Analyst",
+        "company": "Movianto Nordic",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1675439",
+        "posted": "2026-06-18",
+        "snippet": "Brænder du for at omsætte forretningsbehov til effektive systemløsninger?Trives du i krydsfeltet mellem processer, mennesker og teknologi?Du får en central rolle i at udvikle, understøtte og optimere vores SaaS ERP-løsning. Du vil",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst, AI Fashion Planning",
         "company": "BESTSELLER",
@@ -178,8 +189,8 @@
         "company": "MatchMind",
         "location": "Aalborg",
         "url": "https://www.jobindex.dk/vis-job/h1675348",
-        "posted": "2026-06-17",
-        "snippet": "Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Du bliver en del af et erfarent team og får mulighed for at arbejde med lønrelaterede opgaver, overenskoms",
+        "posted": "2026-06-18",
+        "snippet": "Få et studiejob med relevant erhvervserfaring inden for løn, overenskomster, data og administration.Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Hos Ma",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -301,8 +312,8 @@
         "company": "MatchMind",
         "location": "Aalborg",
         "url": "https://www.jobindex.dk/vis-job/h1675348",
-        "posted": "2026-06-17",
-        "snippet": "Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Du bliver en del af et erfarent team og får mulighed for at arbejde med lønrelaterede opgaver, overenskoms",
+        "posted": "2026-06-18",
+        "snippet": "Få et studiejob med relevant erhvervserfaring inden for løn, overenskomster, data og administration.Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Hos Ma",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -468,8 +479,8 @@
         "company": "MatchMind",
         "location": "Aalborg",
         "url": "https://www.jobindex.dk/vis-job/h1675348",
-        "posted": "2026-06-17",
-        "snippet": "Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Du bliver en del af et erfarent team og får mulighed for at arbejde med lønrelaterede opgaver, overenskoms",
+        "posted": "2026-06-18",
+        "snippet": "Få et studiejob med relevant erhvervserfaring inden for løn, overenskomster, data og administration.Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Hos Ma",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -487,17 +498,6 @@
       }
     ],
     "data scientist": [
-      {
-        "title": "Senior Data Scientist",
-        "company": "MB Shipbrokers 24 A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1675420",
-        "posted": "2026-06-18",
-        "snippet": "As a Senior Data Scientist in our shipbroking company, you’ll help shape the next generation of demand, supply, and price forecasting models.In this role, you will combine advanced data science with market understanding to build m",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Data Scientist – Applied AI & Machine Learning",
         "company": "Collectia A/S",
@@ -593,6 +593,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13846565",
         "posted": "2026-06-05",
         "snippet": "Electricity Maps is the world's most comprehensive electricity data platform - covering real-time, historical, and forecast data on...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "MB Shipbrokers 24 A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1675503",
+        "posted": "2026-06-18",
+        "snippet": "In this role, you will strengthen our production analytics by automating operational tasks and developing solutions to support faster, data-supported decisions for brokers and analysts.Working closely with our Senior ML Engineer,",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
