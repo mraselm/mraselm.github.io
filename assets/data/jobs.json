@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T07:29:10Z",
+  "updated": "2026-06-19T12:17:45Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -498,6 +498,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Data Scientists for Big Data, IoT and AI projects",
+        "company": "BEUMER Group A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1675903",
+        "posted": "2026-06-19",
+        "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Scientist – Applied AI & Machine Learning",
         "company": "Collectia A/S",
