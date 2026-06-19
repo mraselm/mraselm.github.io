@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T12:17:45Z",
+  "updated": "2026-06-19T16:14:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -560,17 +560,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13866169",
         "posted": "2026-06-16",
         "snippet": "We’re looking for an experienced Data Scientist to help build the intelligence layer powering the future of board recruitment.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist for Research Intelligence & Digital Research Support",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13864479",
-        "posted": "2026-06-16",
-        "snippet": "Do you know how to analyze complex data and deploy web applications?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
