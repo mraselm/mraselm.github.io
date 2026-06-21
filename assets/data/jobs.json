@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T21:42:20Z",
+  "updated": "2026-06-21T23:44:54Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -158,28 +158,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1673267",
         "posted": "2026-06-10",
         "snippet": "Vi søger lige nu en dygtig forretningsanalytiker, der ønsker at spille en afgørende rolle i realiseringen af Patent- og Varemærkestyrelsens digitale transformation.Din primære opgave som forretningsanalytiker bliver at sikre at kr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytikere til Familiretshuset",
-        "company": "Familieretshuset",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13844981",
-        "posted": "2026-06-05",
-        "snippet": "Har du lyst til at bruge din flair for drift, data og processer på noget, der faktisk gør en forskel for familier, børn og borgere?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker og Data scientist med stærk forretnings- og dataforståelse til Familieretshuset",
-        "company": "Familieretshuset",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13832794",
-        "posted": "2026-06-01",
-        "snippet": "I Familieretshuset hjælper vi borgere i nogle af livets vigtigste overgange – fra skilsmisse og forældremyndighedssager til ægteskaber og værgemål.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
