@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T23:44:54Z",
+  "updated": "2026-06-22T05:31:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -703,17 +703,6 @@
         "url": "https://jobbank.dk/job/2992965/vattenfall-as/senior-data-scientist-ai-lea",
         "posted": "2026-03-05",
         "snippet": "Full-time job at Vattenfall A/S, Abroad (Sweden) (Apply by: 25.03.2026)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Wunderman",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2951664/wunderman/data-scientist",
-        "posted": "2025-12-22",
-        "snippet": "Full-time job at Wunderman, Greater Copenhagen (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
