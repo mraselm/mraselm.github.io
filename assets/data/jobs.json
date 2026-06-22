@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T21:13:33Z",
+  "updated": "2026-06-22T22:55:52Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -559,17 +559,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1674662",
         "posted": "2026-06-15",
         "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Founding ML Engineer",
-        "company": "Underwater Acoustic Intelligence",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/r13833000",
-        "posted": "2026-06-01",
-        "snippet": "The ocean is the last unmonitored domain.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
