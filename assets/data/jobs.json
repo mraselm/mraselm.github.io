@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T16:42:35Z",
+  "updated": "2026-06-23T19:19:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -308,17 +308,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Er du vores nye Business Intelligence ressource med udviklingskompetencer i Forsvarsstaben?",
-        "company": "Forsvaret",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13870173",
-        "posted": "2026-06-18",
-        "snippet": "Vil du arbejde med data, der skaber reel forretningsværdi?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "BI Consultant",
         "company": "VIKING Life-Saving Equipment A/S",
         "location": "Esbjerg",
@@ -542,11 +531,11 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer role (Senior to Principal), Fixed-term contract",
+        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
         "company": "Devoteam A/S",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13873970",
-        "posted": "2026-06-19",
+        "url": "https://www.jobindex.dk/vis-job/r13879315",
+        "posted": "2026-06-23",
         "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
         "lang": "en",
         "source": "jobindex",
@@ -559,6 +548,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13866169",
         "posted": "2026-06-16",
         "snippet": "We’re looking for an experienced Data Scientist to help build the intelligence layer powering the future of board recruitment.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior data scientist GenAI",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13852271",
+        "posted": "2026-06-09",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -608,6 +608,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Manufacturing AI Engineer",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13879129",
+        "posted": "2026-06-23",
+        "snippet": "Are you an ambitious student looking to build a career at the overlap of AI and manufacturing?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior AI Engineer",
         "company": "",
         "location": "Denmark",
@@ -625,6 +636,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13857998",
         "posted": "2026-06-11",
         "snippet": "KIME helps brands grow by increasing their visibility across Large Language Models (LLMs).",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI engineer for agentic AI",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13852272",
+        "posted": "2026-06-09",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
