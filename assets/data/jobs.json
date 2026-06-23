@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T21:50:57Z",
+  "updated": "2026-06-23T23:30:52Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -681,17 +681,6 @@
         "posted": "2026-06-03",
         "snippet": "Vil du være med til at bygge det, der endnu ikke findes?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13837497",
-        "posted": "2026-06-02",
-        "snippet": "Light exists to replace factory-era ERPs with software that feels alive.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
