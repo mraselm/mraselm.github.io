@@ -1,11 +1,22 @@
 {
-  "updated": "2026-06-23T10:43:31Z",
+  "updated": "2026-06-23T13:46:36Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Finance & Settlement Data Analyst",
+        "company": "Hybrid Greentech Energy Intelligence ApS",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1676372",
+        "posted": "2026-06-23",
+        "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Student worker as Data Analyst for HR – start 1. August 2026",
         "company": "Everllence",
@@ -38,17 +49,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student Analyst - Payroll, Finance & Operations",
-        "company": "MatchMind",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1675348",
-        "posted": "2026-06-18",
-        "snippet": "Få et studiejob med relevant erhvervserfaring inden for løn, overenskomster, data og administration.Interesserer du dig for tal, systemer og lovgivning - er du stærk i Excel, og motiveres du af at skabe struktur og overblik?Hos Ma",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -96,6 +96,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Senior Business Analyst - Skab stabilitet, transparens og værdi i Norlys' provisionsmodel",
+        "company": "Norlys",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1676652",
+        "posted": "2026-06-23",
+        "snippet": "Vil du spille en central rolle i at sikre, at en af Norlys’ vigtigste forretningsmodeller fungerer stabilt, transparent og værdiskabende?Du vil få en nøglerolle med stor betydning for forretningens performance og en hverdag præget",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Business Analyst",
         "company": "Movianto Nordic",
@@ -471,6 +482,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1675903",
         "posted": "2026-06-19",
         "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist",
+        "company": "MB Shipbrokers 24 A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1675420",
+        "posted": "2026-06-18",
+        "snippet": "As a Senior Data Scientist in our shipbroking company, you’ll help shape the next generation of demand, supply, and price forecasting models.In this role, you will combine advanced data science with market understanding to build m",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
