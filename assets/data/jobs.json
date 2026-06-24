@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T08:33:25Z",
+  "updated": "2026-06-24T12:01:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -96,6 +96,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst for Global IT - Enterprise Business Development",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1676949",
+        "posted": "2026-06-24",
+        "snippet": "Are you an experienced Business Analyst who brings clarity and structure to complex, fast‑moving delivery environments?We are looking for a new colleague who takes ownership of how business needs are understood, shaped, and transl",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Business Analyst - Skab stabilitet, transparens og værdi i Norlys' provisionsmodel",
         "company": "Norlys",
