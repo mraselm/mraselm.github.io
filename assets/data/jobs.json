@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T21:46:36Z",
+  "updated": "2026-06-24T23:34:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,17 +25,6 @@
         "posted": "2026-06-04",
         "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker/licensemanager",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1673361",
-        "posted": "2026-06-10",
-        "snippet": "Vil du være med til at sikre datadrevne beslutningsgrundlag for licensforhandlinger i Det Kgl. Bibliotek?Vi søger en kollega med kompetencer i indsamling, bearbejdning, analyse og præsentation af data til et dataanalytikerjob i Af",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -681,17 +670,6 @@
         "posted": "2026-06-04",
         "snippet": "Juris is building AI-native software for legal and compliance work.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13840970",
-        "posted": "2026-06-03",
-        "snippet": "Vil du være med til at bygge det, der endnu ikke findes?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
