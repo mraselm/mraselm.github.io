@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T23:30:52Z",
+  "updated": "2026-06-24T04:36:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -913,17 +913,6 @@
         "url": "https://jobbank.dk/job/2985182/itm8/graduate-dataplatform",
         "posted": "2026-02-25",
         "snippet": "Graduate/trainee at itm8, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: 23.03.2026)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "graduate"
-      },
-      {
-        "title": "Graduate Program Data Science & Analytics - Denmark",
-        "company": "Nets A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2952462/nets-as/graduate-program-data-science",
-        "posted": "2025-12-24",
-        "snippet": "Full-time job, Graduate/trainee at Nets A/S, Greater Copenhagen (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "graduate"
