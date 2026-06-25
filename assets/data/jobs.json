@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T11:55:09Z",
+  "updated": "2026-06-25T15:15:31Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,6 +25,17 @@
         "posted": "2026-06-04",
         "snippet": "At Everllence, we are in the process of an exciting transformation, where we are building the foundation for data-informed leadership across HR.We are looking for a student data analyst to support our HR controller in daily operat",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker og en 1-årig projektstilling til team Data og indberetninger i AU Uddannelse",
+        "company": "Aarhus Universitet",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13882785",
+        "posted": "2026-06-25",
+        "snippet": "Er du glad for data og processerne omkring dem?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -292,17 +303,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1670184",
         "posted": "2026-05-29",
         "snippet": "Join DSV’s BI & Insights team and help transform the global Road business through data and business intelligence.In this role, you will work closely with stakeholders across the business to turn insights and needs into valuable BI",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Controller with Power BI experience",
-        "company": "Autorola Group A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1670127",
-        "posted": "2026-05-29",
-        "snippet": "As a Business Controller, you will hold a key position within the finance department, where your overall purpose is to ensure that management receives timely, accurate, and value-adding financial reporting.At the same time, you wi",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -592,6 +592,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1674662",
         "posted": "2026-06-15",
         "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Alvina Shipping",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1677359",
+        "posted": "2026-06-25",
+        "snippet": "Are you ready to take ownership of our AI journey and shape the future of our digital experience?Go Nordic Cruiseline is building a digital backbone connecting guest experience, sales and operations across our systems. We know whe",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
