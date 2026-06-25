@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T15:15:31Z",
+  "updated": "2026-06-25T17:24:42Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -32,7 +32,7 @@
         "title": "Dataanalytiker og en 1-årig projektstilling til team Data og indberetninger i AU Uddannelse",
         "company": "Aarhus Universitet",
         "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13882785",
+        "url": "https://www.jobindex.dk/vis-job/r13883193",
         "posted": "2026-06-25",
         "snippet": "Er du glad for data og processerne omkring dem?",
         "lang": "da",
@@ -169,6 +169,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1673057",
         "posted": "2026-06-09",
         "snippet": "Are you passionate about data and eager to kick-start your career in e-commerce? Do you want to turn analysis into decisions that influence product availability, sales performance and business growth across international markets?W",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst for GenAI Innovation Lab",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13883439",
+        "posted": "2026-06-25",
+        "snippet": "Are you excited about working at the forefront of Generative AI and helping turn innovative ideas into real business value?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -527,6 +538,17 @@
         "posted": "2026-06-09",
         "snippet": "Hver dag sikrer Safe & Secure Operations, at lufthavnen fungerer sikkert og effektivt fra start til slut.Vi har ansvaret for den operative drift på tværs af lufthavnen fra flyoperationer og bagage til infrastruktur, compliance og",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Centre of Excellence Lead — Data Science & Machine Learning",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13883779",
+        "posted": "2026-06-25",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
