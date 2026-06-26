@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T16:27:39Z",
+  "updated": "2026-06-26T19:04:12Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -169,17 +169,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13883439",
         "posted": "2026-06-25",
         "snippet": "Are you excited about working at the forefront of Generative AI and helping turn innovative ideas into real business value?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student Business Analyst to Cards & Financing Tribe",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13870865",
-        "posted": "2026-06-18",
-        "snippet": "Do you enjoy working in a role where no day looks the same, and where the focus is both on delivering meaningful outcomes and having fun along the way?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -531,12 +520,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Centre of Excellence Lead — Data Science & Machine Learning",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13883779",
-        "posted": "2026-06-25",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "title": "Senior/Lead Data Scientist",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13886278",
+        "posted": "2026-06-26",
+        "snippet": "Build end-to-end AI/ML solutions that shape commercial decisions at Novo Nordisk – from forecasting and causal inference to GenAI assistants and agentic workflows.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -592,6 +581,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1674662",
         "posted": "2026-06-15",
         "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Centre of Excellence Lead — Data Science & Machine Learning",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13883779",
+        "posted": "2026-06-25",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
