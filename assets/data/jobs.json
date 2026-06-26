@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T20:55:25Z",
+  "updated": "2026-06-26T22:36:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -548,17 +548,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13852271",
         "posted": "2026-06-09",
         "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist, Price Forecasting",
-        "company": "Electricity Maps",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13846565",
-        "posted": "2026-06-05",
-        "snippet": "Electricity Maps is the world's most comprehensive electricity data platform - covering real-time, historical, and forecast data on...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
