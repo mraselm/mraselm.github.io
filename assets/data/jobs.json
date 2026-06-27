@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T20:32:47Z",
+  "updated": "2026-06-27T22:16:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -661,6 +661,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student assistant at Danish Data Science Academy, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1675597",
+        "posted": "2026-06-28",
+        "snippet": "Would you like to be part of growing Danish data science and shape an organisation that will benefit Danish society for many years to come? In this role you will work alongside the secretariat staff, and your main tasks involves:",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
