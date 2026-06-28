@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T22:15:21Z",
+  "updated": "2026-06-28T23:31:57Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -152,17 +152,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Junior Business Analyst",
-        "company": "VERO MODA",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1673057",
-        "posted": "2026-06-09",
-        "snippet": "Are you passionate about data and eager to kick-start your career in e-commerce? Do you want to turn analysis into decisions that influence product availability, sales performance and business growth across international markets?W",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst for GenAI Innovation Lab",
         "company": "Danske Bank",
         "location": "Denmark",
@@ -170,17 +159,6 @@
         "posted": "2026-06-25",
         "snippet": "Are you excited about working at the forefront of Generative AI and helping turn innovative ideas into real business value?",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker",
-        "company": "Erhvervsministeriet",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1673267",
-        "posted": "2026-06-10",
-        "snippet": "Vi søger lige nu en dygtig forretningsanalytiker, der ønsker at spille en afgørende rolle i realiseringen af Patent- og Varemærkestyrelsens digitale transformation.Din primære opgave som forretningsanalytiker bliver at sikre at kr",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -454,17 +432,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Data Scientist",
-        "company": "MB Shipbrokers 24 A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1675420",
-        "posted": "2026-06-18",
-        "snippet": "As a Senior Data Scientist in our shipbroking company, you’ll help shape the next generation of demand, supply, and price forecasting models.In this role, you will combine advanced data science with market understanding to build m",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data scientist til asset management og digital transformation",
         "company": "Vejdirektoratet",
         "location": "Remote",
@@ -498,23 +465,34 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist",
-        "company": "Københavns Lufthavne A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1673146",
-        "posted": "2026-06-09",
-        "snippet": "Hver dag sikrer Safe & Secure Operations, at lufthavnen fungerer sikkert og effektivt fra start til slut.Vi har ansvaret for den operative drift på tværs af lufthavnen fra flyoperationer og bagage til infrastruktur, compliance og",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior/Lead Data Scientist",
         "company": "Novo Nordisk A/S",
         "location": "Ballerup",
         "url": "https://www.jobindex.dk/vis-job/r13886278",
         "posted": "2026-06-26",
         "snippet": "Build end-to-end AI/ML solutions that shape commercial decisions at Novo Nordisk – from forecasting and causal inference to GenAI assistants and agentic workflows.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Centre of Excellence Lead — Data Science & Machine Learning",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13883779",
+        "posted": "2026-06-25",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13879315",
+        "posted": "2026-06-23",
+        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -531,34 +509,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Machine Learning Engineer",
-        "company": "MB Shipbrokers 24 A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1675503",
-        "posted": "2026-06-18",
-        "snippet": "In this role, you will strengthen our production analytics by automating operational tasks and developing solutions to support faster, data-supported decisions for brokers and analysts.Working closely with our Senior ML Engineer,",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "AI/ML Engineer",
         "company": "XCI A/S",
         "location": "Aalborg",
         "url": "https://www.jobindex.dk/vis-job/h1674662",
         "posted": "2026-06-15",
         "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Centre of Excellence Lead — Data Science & Machine Learning",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13883779",
-        "posted": "2026-06-25",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -592,17 +548,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13879129",
         "posted": "2026-06-23",
         "snippet": "Are you an ambitious student looking to build a career at the overlap of AI and manufacturing?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
-        "company": "Devoteam A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13879315",
-        "posted": "2026-06-23",
-        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
