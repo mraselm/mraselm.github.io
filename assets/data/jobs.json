@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T09:59:03Z",
+  "updated": "2026-06-29T14:19:03Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -260,6 +260,17 @@
         "posted": "2026-06-12",
         "snippet": "Help shape the future of Data & Analytics at EllabWe are on an exciting growth journey and data is at the heart of our success. We're building a unified, company-wide BI platform that will empower better decision-making across our",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Specialist",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/o40905",
+        "posted": "2026-06-29",
+        "snippet": "Vil du være med til at udvikle et nyt forretningsområde i et lokalt mediehus med store ambitioner?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
