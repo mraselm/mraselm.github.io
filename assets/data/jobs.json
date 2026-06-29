@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T21:45:13Z",
+  "updated": "2026-06-29T23:16:04Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -593,17 +593,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13857998",
         "posted": "2026-06-11",
         "snippet": "KIME helps brands grow by increasing their visibility across Large Language Models (LLMs).",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student AI Engineer",
-        "company": "Retriever",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13849573",
-        "posted": "2026-06-08",
-        "snippet": "Join our team and help build applied AI systems for media intelligence: AI workflows, Python development, on-prem LLM deployments and harness engineering.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
