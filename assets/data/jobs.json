@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T17:47:59Z",
+  "updated": "2026-06-29T20:15:27Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -148,17 +148,6 @@
         "posted": "2026-06-10",
         "snippet": "Vil du være med til at udvikle fremtidens B2B-salg i Q8 – og hjælpe vores kunder med at lykkes i den grønne omstilling?I hverdagen vil du arbejde tæt sammen med både salgsledelsen og sælgerne, hvor du bidrager med analyser, strukt",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Regulatory Business Analyst",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13855273",
-        "posted": "2026-06-10",
-        "snippet": "Are you passionate about regulation, data, and analytical work, with a keen interest in building solutions that ensure robust compliance and...",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -429,7 +418,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "BI specialist - projektansættelse",
+        "company": "Lolland-Falsters Folketidende A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13888769",
+        "posted": "2026-06-29",
+        "snippet": "Vil du være med til at udvikle et nyt forretningsområde i et lokalt mediehus med store ambitioner?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      }
+    ],
     "data scientist": [
       {
         "title": "Data Scientists for Big Data, IoT and AI projects",
@@ -498,17 +499,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
-        "company": "Devoteam A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13879315",
-        "posted": "2026-06-23",
-        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Data Scientist",
         "company": "",
         "location": "Denmark",
@@ -553,12 +543,34 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior AI Engineer Technology · Copenhagen, Denmark",
+        "company": "Lunar A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13888796",
+        "posted": "2026-06-29",
+        "snippet": "Banking hasn't changed much in decades.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Manufacturing AI Engineer",
         "company": "",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r13879129",
         "posted": "2026-06-23",
         "snippet": "Are you an ambitious student looking to build a career at the overlap of AI and manufacturing?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13879315",
+        "posted": "2026-06-23",
+        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
