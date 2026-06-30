@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:33:05Z",
+  "updated": "2026-06-30T10:38:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -148,6 +148,17 @@
         "posted": "2026-06-10",
         "snippet": "Vil du være med til at udvikle fremtidens B2B-salg i Q8 – og hjælpe vores kunder med at lykkes i den grønne omstilling?I hverdagen vil du arbejde tæt sammen med både salgsledelsen og sælgerne, hvor du bidrager med analyser, strukt",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Regulatory Business Analyst",
+        "company": "Saxo Bank A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/r13855273",
+        "posted": "2026-06-10",
+        "snippet": "Are you passionate about regulation, data, and analytical work, with a keen interest in building solutions that ensure robust compliance and...",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -499,17 +510,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
-        "company": "Devoteam A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13879315",
-        "posted": "2026-06-23",
-        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Data Scientist",
         "company": "",
         "location": "Denmark",
@@ -527,17 +527,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1674662",
         "posted": "2026-06-15",
         "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Alvina Shipping",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1677359",
-        "posted": "2026-06-25",
-        "snippet": "Are you ready to take ownership of our AI journey and shape the future of our digital experience?Go Nordic Cruiseline is building a digital backbone connecting guest experience, sales and operations across our systems. We know whe",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -571,6 +560,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13879129",
         "posted": "2026-06-23",
         "snippet": "Are you an ambitious student looking to build a career at the overlap of AI and manufacturing?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13879315",
+        "posted": "2026-06-23",
+        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
