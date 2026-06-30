@@ -1,22 +1,11 @@
 {
-  "updated": "2026-06-30T10:38:38Z",
+  "updated": "2026-06-30T13:15:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Finance & Settlement Data Analyst",
-        "company": "Hybrid Greentech Energy Intelligence ApS",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1676372",
-        "posted": "2026-06-23",
-        "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker og en 1-årig projektstilling til team Data og indberetninger i AU Uddannelse",
         "company": "Aarhus Universitet",
@@ -38,6 +27,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Finance & Settlement Data Analyst",
+        "company": "Hybrid Greentech Energy Intelligence ApS",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1676372",
+        "posted": "2026-06-23",
+        "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -209,6 +209,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Business Intelligence-konsulent med stærk data- og forretningsforståelse",
+        "company": "Fonden for Entreprenørskab",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1678499",
+        "posted": "2026-06-30",
+        "snippet": "Vil du være med til at styrke Fonden for Entreprenørskabs datagrundlag, analyser og digitale arbejdsgange?Du skal være med til at sikre, at vores data bliver indsamlet, struktureret, kvalitetssikret og anvendt på en måde, der skab",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Kontorchef med erfaring og indsigt i Data Warehouse og Business Intelligence",
         "company": "Udviklings- og Forenklingsstyrelsen",
         "location": "Frederiksberg",
@@ -260,17 +271,6 @@
         "posted": "2026-06-12",
         "snippet": "Help shape the future of Data & Analytics at EllabWe are on an exciting growth journey and data is at the heart of our success. We're building a unified, company-wide BI platform that will empower better decision-making across our",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence Specialist",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/o40905",
-        "posted": "2026-06-29",
-        "snippet": "Vil du være med til at udvikle et nyt forretningsområde i et lokalt mediehus med store ambitioner?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -431,6 +431,17 @@
     ],
     "bi specialist": [
       {
+        "title": "Business Intelligence Specialist",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/o40905",
+        "posted": "2026-06-29",
+        "snippet": "Vil du være med til at udvikle et nyt forretningsområde i et lokalt mediehus med store ambitioner?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "BI specialist - projektansættelse",
         "company": "Lolland-Falsters Folketidende A/S",
         "location": "Denmark",
@@ -499,17 +510,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Centre of Excellence Lead — Data Science & Machine Learning",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13883779",
-        "posted": "2026-06-25",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Data Scientist",
         "company": "",
         "location": "Denmark",
@@ -527,6 +527,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1674662",
         "posted": "2026-06-15",
         "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Centre of Excellence Lead — Data Science & Machine Learning",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13883779",
+        "posted": "2026-06-25",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
