@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T18:15:03Z",
+  "updated": "2026-06-30T20:21:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -561,6 +561,39 @@
         "posted": "2026-06-08",
         "snippet": "",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Experienced Biostatistician, Clinical Data Science & AI",
+        "company": "ALK",
+        "location": "Hørsholm",
+        "url": "https://www.jobindex.dk/vis-job/r13890948",
+        "posted": "2026-06-30",
+        "snippet": "Are you genuinely excited about turning clinical data into published science, and how agentic AI is reshaping that work from hypothesis...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer – Consulting Tools",
+        "company": "SimCorp A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13891012",
+        "posted": "2026-06-30",
+        "snippet": "Why This Role Matters SimCorp's consulting delivery involves solving complex, recurring problems across dozens of clients.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Applied AI Engineer",
+        "company": "SimCorp A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13891011",
+        "posted": "2026-06-30",
+        "snippet": "WHAT MAKES US, US Join some of the most innovative thinkers in FinTech as we lead the evolution of financial technology.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
