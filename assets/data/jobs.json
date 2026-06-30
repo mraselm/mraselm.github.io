@@ -1,11 +1,22 @@
 {
-  "updated": "2026-06-30T13:15:47Z",
+  "updated": "2026-06-30T15:43:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Finance & Settlement Data Analyst",
+        "company": "Hybrid Greentech Energy Intelligence ApS",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1676372",
+        "posted": "2026-06-23",
+        "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Dataanalytiker og en 1-årig projektstilling til team Data og indberetninger i AU Uddannelse",
         "company": "Aarhus Universitet",
@@ -27,17 +38,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Finance & Settlement Data Analyst",
-        "company": "Hybrid Greentech Energy Intelligence ApS",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1676372",
-        "posted": "2026-06-23",
-        "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -607,17 +607,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student assistant at Danish Data Science Academy, DTU",
-        "company": "Danmarks Tekniske Universitet",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1675597",
-        "posted": "2026-06-28",
-        "snippet": "Would you like to be part of growing Danish data science and shape an organisation that will benefit Danish society for many years to come? In this role you will work alongside the secretariat staff, and your main tasks involves:",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
