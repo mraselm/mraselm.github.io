@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T10:48:35Z",
+  "updated": "2026-07-01T13:40:48Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -308,6 +308,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælpere til research og billedgenkendelse",
+        "company": "VISDA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1678942",
+        "posted": "2026-07-01",
+        "snippet": "Hver dag bruges tusindvis af billeder i bøger, blade, aviser og på nettet – og bag hvert eneste billede står en skaber, der har ret til betaling, når værket bliver brugt.Hos VISDA arbejder vi for, at betalingen når frem til netop",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -473,6 +484,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælpere til research og billedgenkendelse",
+        "company": "VISDA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1678942",
+        "posted": "2026-07-01",
+        "snippet": "Hver dag bruges tusindvis af billeder i bøger, blade, aviser og på nettet – og bag hvert eneste billede står en skaber, der har ret til betaling, når værket bliver brugt.Hos VISDA arbejder vi for, at betalingen når frem til netop",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
