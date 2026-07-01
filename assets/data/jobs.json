@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T06:44:52Z",
+  "updated": "2026-07-01T10:48:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -219,6 +219,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Business Controller & Power BI Specialist",
+        "company": "Masai Clothing Company ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1678642",
+        "posted": "2026-07-01",
+        "snippet": "Har du blik for både data og forretning – og trives du med at omsætte analyser til konkrete løsninger, som gør en forskel?Hos Masai søger vi en Business Controller med stærke Power BI-kompetencer. Du bliver en vigtig sparringspart",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Intelligence-konsulent med stærk data- og forretningsforståelse",
         "company": "Fonden for Entreprenørskab",
