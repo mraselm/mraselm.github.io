@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T20:54:30Z",
+  "updated": "2026-07-01T22:40:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -159,17 +159,6 @@
         "posted": "2026-06-10",
         "snippet": "Vil du være med til at udvikle fremtidens B2B-salg i Q8 – og hjælpe vores kunder med at lykkes i den grønne omstilling?I hverdagen vil du arbejde tæt sammen med både salgsledelsen og sælgerne, hvor du bidrager med analyser, strukt",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Regulatory Business Analyst",
-        "company": "Saxo Bank A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13855273",
-        "posted": "2026-06-10",
-        "snippet": "Are you passionate about regulation, data, and analytical work, with a keen interest in building solutions that ensure robust compliance and...",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
