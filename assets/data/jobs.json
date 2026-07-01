@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T16:40:14Z",
+  "updated": "2026-07-01T19:12:17Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -292,6 +292,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1673977",
         "posted": "2026-06-12",
         "snippet": "Help shape the future of Data & Analytics at EllabWe are on an exciting growth journey and data is at the heart of our success. We're building a unified, company-wide BI platform that will empower better decision-making across our",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI Developer - 12 Month FTC",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13893081",
+        "posted": "2026-07-01",
+        "snippet": "We’re looking for a BI Developer to join the Parcels Planning team on a 12 month fixed-term contract.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
