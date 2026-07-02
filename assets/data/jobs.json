@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T12:21:29Z",
+  "updated": "2026-07-02T15:30:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -108,50 +108,6 @@
     ],
     "business analyst": [
       {
-        "title": "Business Analyst for Global IT - Enterprise Business Development",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1676949",
-        "posted": "2026-06-24",
-        "snippet": "Are you an experienced Business Analyst who brings clarity and structure to complex, fast‑moving delivery environments?We are looking for a new colleague who takes ownership of how business needs are understood, shaped, and transl",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Analyst - Skab stabilitet, transparens og værdi i Norlys' provisionsmodel",
-        "company": "Norlys",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1676652",
-        "posted": "2026-06-23",
-        "snippet": "Vil du spille en central rolle i at sikre, at en af Norlys’ vigtigste forretningsmodeller fungerer stabilt, transparent og værdiskabende?Du vil få en nøglerolle med stor betydning for forretningens performance og en hverdag præget",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst, AI Fashion Planning",
-        "company": "BESTSELLER",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1674919",
-        "posted": "2026-06-16",
-        "snippet": "Join BESTSELLER TECH and revolutionize fashion with machine learning!Your key to success in this role is your passion for supply chain planning and your ability to understand our planners' processes and their ways of working to en",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Procurement Business Analyst",
-        "company": "DLF Seeds A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1674689",
-        "posted": "2026-06-15",
-        "snippet": "Brænder du for dataanalyse, procesoptimering og forretningsudvikling inden for procurement, og vil du bruge din faglighed til at styrke DLF's globale indkøbsorganisation?Vi søger dig, der motiveres af at omsætte data til indsigter",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "IT Business Analyst Intern",
         "company": "Ganni",
         "location": "Copenhagen",
@@ -198,6 +154,28 @@
     ],
     "business intelligence": [
       {
+        "title": "BI Developer - 12 Month FTC",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13893081",
+        "posted": "2026-07-01",
+        "snippet": "We’re looking for a BI Developer to join the Parcels Planning team on a 12 month fixed-term contract.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI Consultant",
+        "company": "VIKING Life-Saving Equipment A/S",
+        "location": "Esbjerg",
+        "url": "https://www.jobindex.dk/vis-job/h1675185",
+        "posted": "2026-06-17",
+        "snippet": "Har du lyst til at blive del af et globalt team i VIKING’s Digital Department?Du kan forvente en alsidig hverdag, hvor du vil komme til at deltage i forskellige projekter, og af opgaver kan blandt andet nævnes:Modne og designe opg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Controller & Power BI Specialist",
         "company": "Masai Clothing Company ApS",
         "location": "Copenhagen",
@@ -228,7 +206,7 @@
         "snippet": "Som den nye kontorchef vil du, sammen med områdets øvrige kontorchefer og dygtige medarbejdere, bl.a. få ansvaret for at levere data og BI løsninger til hele Skatteforvaltningen. Vi forestiller os, at du er meget engageret i perso",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Power Platform & Business Intelligence Developer / Konica Minolta Nordic IT / Enterprise Data & Analytics",
@@ -239,7 +217,7 @@
         "snippet": "Do you want to help shape the future of digital transformation across the Nordics? Play a key role in connecting data, automation, and business performance.You will work at the intersection of business intelligence, process automa",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "BI Process Manager: Sæt rammerne for Power BI rapportering i DLG Group",
@@ -250,7 +228,7 @@
         "snippet": "Vil du bruge dine kompetencer indenfor data, tech og rapportering til at gøre en reel forskel for klimaet og landmanden? Rollen har 2 primære ansvarsområder; dels er du eksperten, der kan sætte rammerne for brugen af Power BI. Der",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Junior BI Specialist til Business Intelligence i DLG",
@@ -261,29 +239,7 @@
         "snippet": "Vil du bruge dine kompetencer indenfor data, tech og rapportering til at gøre en reel forskel for medarbejdere og ledere på tværs af DLG Group? I rollen som konsulent vil du få ansvaret for et eller flere data domainer, hvor du dr",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Developer - 12 Month FTC",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13893081",
-        "posted": "2026-07-01",
-        "snippet": "We’re looking for a BI Developer to join the Parcels Planning team on a 12 month fixed-term contract.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Consultant",
-        "company": "VIKING Life-Saving Equipment A/S",
-        "location": "Esbjerg",
-        "url": "https://www.jobindex.dk/vis-job/h1675185",
-        "posted": "2026-06-17",
-        "snippet": "Har du lyst til at blive del af et globalt team i VIKING’s Digital Department?Du kan forvente en alsidig hverdag, hvor du vil komme til at deltage i forskellige projekter, og af opgaver kan blandt andet nævnes:Modne og designe opg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Det Kgl. Bibliotek i Emdrup søger studentermedhjælpere",
