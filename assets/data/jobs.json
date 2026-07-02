@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T06:10:05Z",
+  "updated": "2026-07-02T09:32:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -253,17 +253,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Intelligence Engineer",
-        "company": "Ellab A/S",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1673977",
-        "posted": "2026-06-12",
-        "snippet": "Help shape the future of Data & Analytics at EllabWe are on an exciting growth journey and data is at the heart of our success. We're building a unified, company-wide BI platform that will empower better decision-making across our",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "BI Developer - 12 Month FTC",
         "company": "Too Good To Go ApS",
         "location": "Copenhagen",
@@ -453,6 +442,17 @@
     ],
     "bi specialist": [
       {
+        "title": "Business Intelligence Engineer",
+        "company": "Ellab A/S",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1673977",
+        "posted": "2026-06-12",
+        "snippet": "Help shape the future of Data & Analytics at EllabWe are on an exciting growth journey and data is at the heart of our success. We're building a unified, company-wide BI platform that will empower better decision-making across our",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Intelligence Specialist",
         "company": "",
         "location": "Denmark",
@@ -543,17 +543,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior/Lead Data Scientist",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13886278",
-        "posted": "2026-06-26",
-        "snippet": "Build end-to-end AI/ML solutions that shape commercial decisions at Novo Nordisk – from forecasting and causal inference to GenAI assistants and agentic workflows.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Data Scientist",
         "company": "",
         "location": "Denmark",
@@ -582,6 +571,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13883779",
         "posted": "2026-06-25",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Mid-Senior AI Engineer",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1679205",
+        "posted": "2026-07-02",
+        "snippet": "We are looking for a Mid-Senior AI Engineer who is motivated to turn emerging AI capabilities into reliable, high-impact solutions.You are curious, solution-oriented, and driven to push boundaries, drive continuous improvement, an",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -642,6 +642,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior/Lead Data Scientist",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13886278",
+        "posted": "2026-06-26",
+        "snippet": "Build end-to-end AI/ML solutions that shape commercial decisions at Novo Nordisk – from forecasting and causal inference to GenAI assistants and agentic workflows.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Manufacturing AI Engineer",
         "company": "",
         "location": "Copenhagen",
@@ -684,6 +695,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student Assistant, Data & AI Engineering",
+        "company": "BESTSELLER",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1679195",
+        "posted": "2026-07-02",
+        "snippet": "Join our innovative team at BESTSELLER as we leverage cutting-edge AI and data-driven solutions to transform the retail and e-commerce experience.We are looking for a curious and motivated Student Assistant who is eager to learn a",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
