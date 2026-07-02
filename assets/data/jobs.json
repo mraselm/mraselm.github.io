@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T22:40:26Z",
+  "updated": "2026-07-02T01:25:04Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -119,17 +119,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Business Analyst",
-        "company": "Movianto Nordic",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1675439",
-        "posted": "2026-06-18",
-        "snippet": "Brænder du for at omsætte forretningsbehov til effektive systemløsninger?Trives du i krydsfeltet mellem processer, mennesker og teknologi?Du får en central rolle i at udvikle, understøtte og optimere vores SaaS ERP-løsning. Du vil",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst, AI Fashion Planning",
         "company": "BESTSELLER",
         "location": "Aarhus",
@@ -147,17 +136,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1674689",
         "posted": "2026-06-15",
         "snippet": "Brænder du for dataanalyse, procesoptimering og forretningsudvikling inden for procurement, og vil du bruge din faglighed til at styrke DLF's globale indkøbsorganisation?Vi søger dig, der motiveres af at omsætte data til indsigter",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst med et stort kommercielt mindset søges til Q8 Danmark",
-        "company": "Q8 Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1673481",
-        "posted": "2026-06-10",
-        "snippet": "Vil du være med til at udvikle fremtidens B2B-salg i Q8 – og hjælpe vores kunder med at lykkes i den grønne omstilling?I hverdagen vil du arbejde tæt sammen med både salgsledelsen og sælgerne, hvor du bidrager med analyser, strukt",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
