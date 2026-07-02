@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T09:32:47Z",
+  "updated": "2026-07-02T12:21:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -14,6 +14,17 @@
         "posted": "2026-06-23",
         "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
+        "company": "Nykredit",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1679373",
+        "posted": "2026-07-02",
+        "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
