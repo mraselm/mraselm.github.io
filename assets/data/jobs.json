@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T18:02:02Z",
+  "updated": "2026-07-02T19:52:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -659,17 +659,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13891012",
         "posted": "2026-06-30",
         "snippet": "Why This Role Matters SimCorp's consulting delivery involves solving complex, recurring problems across dozens of clients.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Applied AI Engineer",
-        "company": "SimCorp A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13891011",
-        "posted": "2026-06-30",
-        "snippet": "WHAT MAKES US, US Join some of the most innovative thinkers in FinTech as we lead the evolution of financial technology.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
