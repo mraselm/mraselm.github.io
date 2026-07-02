@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T01:25:04Z",
+  "updated": "2026-07-02T06:10:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -286,6 +286,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Det Kgl. Bibliotek i Emdrup søger studentermedhjælpere",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1679138",
+        "posted": "2026-07-02",
+        "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælpere til research og billedgenkendelse",
         "company": "VISDA",
         "location": "Copenhagen",
@@ -462,6 +473,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Det Kgl. Bibliotek i Emdrup søger studentermedhjælpere",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1679138",
+        "posted": "2026-07-02",
+        "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Studentermedhjælpere til research og billedgenkendelse",
