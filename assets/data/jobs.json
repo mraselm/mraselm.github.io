@@ -1,11 +1,22 @@
 {
-  "updated": "2026-07-03T07:38:15Z",
+  "updated": "2026-07-03T10:50:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Pricing & Data Analyst",
+        "company": "DEKO p/s",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1679515",
+        "posted": "2026-07-03",
+        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Finance & Settlement Data Analyst",
         "company": "Hybrid Greentech Energy Intelligence ApS",
@@ -119,6 +130,28 @@
     ],
     "business analyst": [
       {
+        "title": "Business Analyst til konsulenthus",
+        "company": "TransportRådgiverne A/S",
+        "location": "Hørsholm",
+        "url": "https://www.jobindex.dk/vis-job/h1679914",
+        "posted": "2026-07-03",
+        "snippet": "Er du den talstærke speditør, der gerne vil mere? Er du den strukturerede medarbejder, der igennem talanalyse og ved hjælp af beregningsmodeller arbejder med at skabe overblik? Er du motiveret af at finde detaljer i store mængder",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business analyst",
+        "company": "KMD A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1679919",
+        "posted": "2026-07-03",
+        "snippet": "Vil du være med til at omsætte komplekse krav til digitale løsninger, der gør en reel forskel for millioner af borgere?Vi søger en dygtig Business Analyst til vores Person-team, hvor du bliver en central del af udvikling og videre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst for Global IT - Enterprise Business Development",
         "company": "DSV",
         "location": "Denmark",
@@ -158,6 +191,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1674689",
         "posted": "2026-06-15",
         "snippet": "Brænder du for dataanalyse, procesoptimering og forretningsudvikling inden for procurement, og vil du bruge din faglighed til at styrke DLF's globale indkøbsorganisation?Vi søger dig, der motiveres af at omsætte data til indsigter",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker med fokus på compliance og IT-sikkerhed",
+        "company": "Politi",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1679915",
+        "posted": "2026-07-03",
+        "snippet": "Rigspolitiet søger generalister til sektionen for Forretningsanalyse og Compliance, hvor vi arbejder i krydsfeltet mellem forretning, compliance og IT.Du bliver en central del af arbejdet med at sikre, at politiets processer og sy",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -303,17 +347,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1679138",
         "posted": "2026-07-02",
         "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælpere til research og billedgenkendelse",
-        "company": "VISDA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1678942",
-        "posted": "2026-07-01",
-        "snippet": "Hver dag bruges tusindvis af billeder i bøger, blade, aviser og på nettet – og bag hvert eneste billede står en skaber, der har ret til betaling, når værket bliver brugt.Hos VISDA arbejder vi for, at betalingen når frem til netop",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -503,17 +536,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1679138",
         "posted": "2026-07-02",
         "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælpere til research og billedgenkendelse",
-        "company": "VISDA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1678942",
-        "posted": "2026-07-01",
-        "snippet": "Hver dag bruges tusindvis af billeder i bøger, blade, aviser og på nettet – og bag hvert eneste billede står en skaber, der har ret til betaling, når værket bliver brugt.Hos VISDA arbejder vi for, at betalingen når frem til netop",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
