@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T15:25:43Z",
+  "updated": "2026-07-03T17:48:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -660,6 +660,17 @@
         "posted": "2026-06-08",
         "snippet": "",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Founding AI engineer (technical lead",
+        "company": "equity)",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13898300",
+        "posted": "2026-07-03",
+        "snippet": "About Juris Juris is on a mission to make legal issues simpler to solve, for the people who face them.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
