@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T13:12:22Z",
+  "updated": "2026-07-03T15:25:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -141,6 +141,17 @@
     ],
     "business analyst": [
       {
+        "title": "BI Business Analyst I",
+        "company": "Hamamatsu Photonics",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680218",
+        "posted": "2026-07-03",
+        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst til konsulenthus",
         "company": "TransportRådgiverne A/S",
         "location": "Hørsholm",
@@ -207,6 +218,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytikere til hele statens BI-kontor",
+        "company": "Økonomistyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1680169",
+        "posted": "2026-07-03",
+        "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor? Vi søger forretningsanalytikere, som kan skabe overblik og sammenhæng mellem forretning, data og leverancer. Rollen",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
         "company": "Politi",
         "location": "Glostrup",
@@ -224,17 +246,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1679915",
         "posted": "2026-07-03",
         "snippet": "Rigspolitiet søger generalister til sektionen for Forretningsanalyse og Compliance, hvor vi arbejder i krydsfeltet mellem forretning, compliance og IT.Du bliver en central del af arbejdet med at sikre, at politiets processer og sy",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytikere til hele statens BI kontor",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13896859",
-        "posted": "2026-07-03",
-        "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -326,28 +337,6 @@
         "posted": "2026-06-22",
         "snippet": "Do you want to help shape the future of digital transformation across the Nordics? Play a key role in connecting data, automation, and business performance.You will work at the intersection of business intelligence, process automa",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Process Manager: Sæt rammerne for Power BI rapportering i DLG Group",
-        "company": "DLG",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1674622",
-        "posted": "2026-06-15",
-        "snippet": "Vil du bruge dine kompetencer indenfor data, tech og rapportering til at gøre en reel forskel for klimaet og landmanden? Rollen har 2 primære ansvarsområder; dels er du eksperten, der kan sætte rammerne for brugen af Power BI. Der",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Junior BI Specialist til Business Intelligence i DLG",
-        "company": "DLG",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1674616",
-        "posted": "2026-06-15",
-        "snippet": "Vil du bruge dine kompetencer indenfor data, tech og rapportering til at gøre en reel forskel for medarbejdere og ledere på tværs af DLG Group? I rollen som konsulent vil du få ansvaret for et eller flere data domainer, hvor du dr",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -518,6 +507,17 @@
       }
     ],
     "bi specialist": [
+      {
+        "title": "Junior BI Specialist til Business Intelligence i DLG",
+        "company": "DLG",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1674616",
+        "posted": "2026-06-15",
+        "snippet": "Vil du bruge dine kompetencer indenfor data, tech og rapportering til at gøre en reel forskel for medarbejdere og ledere på tværs af DLG Group? I rollen som konsulent vil du få ansvaret for et eller flere data domainer, hvor du dr",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Intelligence Engineer",
         "company": "Ellab A/S",
@@ -750,17 +750,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student Assistant, Data & AI Engineering",
-        "company": "BESTSELLER",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1679195",
-        "posted": "2026-07-02",
-        "snippet": "Join our innovative team at BESTSELLER as we leverage cutting-edge AI and data-driven solutions to transform the retail and e-commerce experience.We are looking for a curious and motivated Student Assistant who is eager to learn a",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data Scientist for Defence decision-support tool",
