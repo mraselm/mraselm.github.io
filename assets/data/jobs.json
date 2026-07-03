@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T10:50:10Z",
+  "updated": "2026-07-03T13:12:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,6 +46,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1679373",
         "posted": "2026-07-02",
         "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker med stærke Python-kompetencer til Team Risikoanalyser",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13896836",
+        "posted": "2026-07-03",
+        "snippet": "Er du drevet af at omsætte komplekse datasæt til præcise risikovurderinger?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -196,12 +207,34 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
+        "company": "Politi",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1680153",
+        "posted": "2026-07-03",
+        "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker med fokus på compliance og IT-sikkerhed",
         "company": "Politi",
         "location": "Glostrup",
         "url": "https://www.jobindex.dk/vis-job/h1679915",
         "posted": "2026-07-03",
         "snippet": "Rigspolitiet søger generalister til sektionen for Forretningsanalyse og Compliance, hvor vi arbejder i krydsfeltet mellem forretning, compliance og IT.Du bliver en central del af arbejdet med at sikre, at politiets processer og sy",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytikere til hele statens BI kontor",
+        "company": "Økonomistyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13896859",
+        "posted": "2026-07-03",
+        "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -339,17 +372,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Det Kgl. Bibliotek i Emdrup søger studentermedhjælpere",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1679138",
-        "posted": "2026-07-02",
-        "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -528,17 +550,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Det Kgl. Bibliotek i Emdrup søger studentermedhjælpere",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1679138",
-        "posted": "2026-07-02",
-        "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
