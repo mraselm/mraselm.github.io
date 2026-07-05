@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T21:19:38Z",
+  "updated": "2026-07-05T23:19:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -363,6 +363,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper til DTU Bibliotek, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1679798",
+        "posted": "2026-07-06",
+        "snippet": "Du bliver en vigtig del af den daglige betjening af bibliotekets brugere. Du er med til at skabe en god oplevelse for studerende og medarbejdere og bidrager til, at biblioteket fungerer som et attraktivt studie- og læringsmiljø. D",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -550,6 +561,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til DTU Bibliotek, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1679798",
+        "posted": "2026-07-06",
+        "snippet": "Du bliver en vigtig del af den daglige betjening af bibliotekets brugere. Du er med til at skabe en god oplevelse for studerende og medarbejdere og bidrager til, at biblioteket fungerer som et attraktivt studie- og læringsmiljø. D",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
