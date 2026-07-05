@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T23:14:30Z",
+  "updated": "2026-07-05T00:14:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -794,17 +794,6 @@
         "lang": "da",
         "source": "jobbank",
         "job_type": "student"
-      },
-      {
-        "title": "Data Scientist, Denmark - BCG X",
-        "company": "BCG - Boston Consulting Group",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2953860/bcg-boston-consult/data-scientist-denmark-bcg",
-        "posted": "2026-01-05",
-        "snippet": "Full-time job at BCG - Boston Consulting Group, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
       },
       {
         "title": "AI & Data Science Consultant",
