@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T16:30:20Z",
+  "updated": "2026-07-06T19:05:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -225,6 +225,17 @@
         "posted": "2026-06-15",
         "snippet": "Brænder du for dataanalyse, procesoptimering og forretningsudvikling inden for procurement, og vil du bruge din faglighed til at styrke DLF's globale indkøbsorganisation?Vi søger dig, der motiveres af at omsætte data til indsigter",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst til Fondsudvikling",
+        "company": "Forca A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13901516",
+        "posted": "2026-07-06",
+        "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -642,13 +653,24 @@
         "job_type": "full-time"
       },
       {
-        "title": "Founding Data/ML Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13895314",
-        "posted": "2026-07-02",
-        "snippet": "We're looking for a data/ML engineer to own the brain of Palette: the signal engine.",
+        "title": "Senior Data Scientist - Store Partnering",
+        "company": "Coop Danmark A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13900704",
+        "posted": "2026-07-06",
+        "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Ansvarlig for Data Science og Analyse (Data scientist)",
+        "company": "Clever A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13901383",
+        "posted": "2026-07-06",
+        "snippet": "Lige nu leder vi efter dig, der kan omsætte kvantitative data til meningsfulde indsigter, som understøtter Clevers beslutninger og udvikling af løsninger.",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -670,6 +692,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1674662",
         "posted": "2026-06-15",
         "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Founding Data/ML Engineer",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13895314",
+        "posted": "2026-07-02",
+        "snippet": "We're looking for a data/ML engineer to own the brain of Palette: the signal engine.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -758,17 +791,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13891012",
         "posted": "2026-06-30",
         "snippet": "Why This Role Matters SimCorp's consulting delivery involves solving complex, recurring problems across dozens of clients.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer Technology · Copenhagen, Denmark",
-        "company": "Lunar A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13888796",
-        "posted": "2026-06-29",
-        "snippet": "Banking hasn't changed much in decades.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
