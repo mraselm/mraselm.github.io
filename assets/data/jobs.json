@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T09:10:41Z",
+  "updated": "2026-07-06T12:58:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -40,23 +40,34 @@
         "job_type": "full-time"
       },
       {
-        "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
-        "company": "Nykredit",
+        "title": "Dataanalytiker til Projekt- & Ledelsessupport i Byggeri & Anlæg",
+        "company": "HOFOR",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1679373",
-        "posted": "2026-07-02",
-        "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
+        "url": "https://www.jobindex.dk/vis-job/h1680637",
+        "posted": "2026-07-06",
+        "snippet": "I Byggeri & Anlæg har vi etableret en ny afdeling, Projekt- & Ledelsessupport, der skal sikre datadrevne beslutninger, fælles processer og tværgående udvikling. Du får en central rolle i at udvikle datagrundlaget for projekter, pr",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker med stærke Python-kompetencer til Team Risikoanalyser",
-        "company": "",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13896836",
-        "posted": "2026-07-03",
-        "snippet": "Er du drevet af at omsætte komplekse datasæt til præcise risikovurderinger?",
+        "url": "https://www.jobindex.dk/vis-job/h1680490",
+        "posted": "2026-07-06",
+        "snippet": "Vi står vi over for en omfattende opgave: At sikre et rent vandmiljø og gennemføre en historisk omlægning af landbrugsarealer til natur og skov. En central del af denne opgave er at sikre en effektiv og korrekt implementering af d",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
+        "company": "Nykredit",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1679373",
+        "posted": "2026-07-02",
+        "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -213,6 +224,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1674689",
         "posted": "2026-06-15",
         "snippet": "Brænder du for dataanalyse, procesoptimering og forretningsudvikling inden for procurement, og vil du bruge din faglighed til at styrke DLF's globale indkøbsorganisation?Vi søger dig, der motiveres af at omsætte data til indsigter",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Rigspolitiet",
+        "company": "Politi",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1680459",
+        "posted": "2026-07-06",
+        "snippet": "Behovet for automatisering og digitale løsninger er fortsat stigende, og derfor søger vi en forretningsanalytiker, som kan fungere som bindeled mellem det centrale RPA-team i København og resten af dansk politi.Du driver analysefa",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -664,12 +686,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Mid-Senior AI Engineer",
+        "title": "AI Engineer",
         "company": "DSV",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/h1679205",
         "posted": "2026-07-02",
-        "snippet": "We are looking for a Mid-Senior AI Engineer who is motivated to turn emerging AI capabilities into reliable, high-impact solutions.You are curious, solution-oriented, and driven to push boundaries, drive continuous improvement, an",
+        "snippet": "We are looking for an AI Engineer who is motivated to turn emerging AI capabilities into reliable, high-impact solutions.You are curious, solution-oriented, and driven to push boundaries, drive continuous improvement, and build pr",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
