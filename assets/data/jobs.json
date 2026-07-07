@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T05:07:31Z",
+  "updated": "2026-07-07T08:43:36Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -231,11 +231,11 @@
       {
         "title": "Business Analyst til Fondsudvikling",
         "company": "Forca A/S",
-        "location": "Denmark",
+        "location": "Hellerup",
         "url": "https://www.jobindex.dk/vis-job/r13901516",
         "posted": "2026-07-06",
-        "snippet": "",
-        "lang": "en",
+        "snippet": "Har du lyst til at dykke ned i komplekse fondsprocesser, oversætte forretningskrav til klare løsninger, og samarbejde tæt med kunderne?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -329,6 +329,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "FP&A Analyst (Power BI & Data)",
+        "company": "Hi-Fi Klubben A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1680782",
+        "posted": "2026-07-07",
+        "snippet": "Du bliver en del af Finance på vores hovedkontor i Tilst ved Aarhus og kommer til at arbejde tæt sammen med vores Head of FP&A.Rollen giver dig mulighed for at kombinere klassisk Financial Planning & Analysis med Business Intellig",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Controller & Power BI Specialist",
         "company": "Masai Clothing Company ApS",
@@ -704,6 +715,17 @@
         "posted": "2026-06-25",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer til banebrydende strategisk projekt - Visma Public Technologies, Aarhus",
+        "company": "Rckt ApS",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1672633",
+        "posted": "2026-07-07",
+        "snippet": "",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
