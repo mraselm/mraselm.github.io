@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T08:43:36Z",
+  "updated": "2026-07-07T12:09:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -370,6 +370,17 @@
         "posted": "2026-06-22",
         "snippet": "Do you want to help shape the future of digital transformation across the Nordics? Play a key role in connecting data, automation, and business performance.You will work at the intersection of business intelligence, process automa",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Power BI Developer til international koncern",
+        "company": "HumanTrust A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680906",
+        "posted": "2026-07-07",
+        "snippet": "",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
