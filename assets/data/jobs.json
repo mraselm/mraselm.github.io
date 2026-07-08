@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T06:38:43Z",
+  "updated": "2026-07-08T09:37:37Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -29,12 +29,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Finance Data Analyst",
-        "company": "Lunar A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13895312",
-        "posted": "2026-07-02",
-        "snippet": "Banking hasn't changed much in decades.",
+        "title": "Data Analyst for Beam Instrumentation (SY-BI-SW-2026-127-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13903696",
+        "posted": "2026-07-08",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Analyst",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13903172",
+        "posted": "2026-07-07",
+        "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -79,6 +90,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1679373",
         "posted": "2026-07-02",
         "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til centerstaben i Neurocentret (NEU) på Rigshospitalet",
+        "company": "Region Hovedstaden",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13902479",
+        "posted": "2026-07-07",
+        "snippet": "Vil du være med til at styrke datagrundlaget på Rigshospitalet og skabe indsigt, der gør en reel forskel for patienter og personale?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -427,6 +449,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Bliv studentermedhjælper inden for kvantitative data og analyse i statslig styrelse",
+        "company": "Udlændinge- og Integrationsministeriet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1681262",
+        "posted": "2026-07-08",
+        "snippet": "Har du interesse for at kvantitative data og har du lyst til at udvikle og bringe dine kompetencer i spil inden for databearbejdning i fx SAS, PowerBI og Excel, kodning i DST’s myndighedsordning, opsætning af surveys, håndtering a",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
