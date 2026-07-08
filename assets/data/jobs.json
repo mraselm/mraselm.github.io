@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T11:57:23Z",
+  "updated": "2026-07-08T14:41:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -185,6 +185,17 @@
     ],
     "business analyst": [
       {
+        "title": "Business Analyst",
+        "company": "Danoffice IT",
+        "location": "Svendborg",
+        "url": "https://www.jobindex.dk/vis-job/h1681618",
+        "posted": "2026-07-08",
+        "snippet": "Vil du arbejde tæt på forretningen og omsætte data til beslutninger, der gør en reel forskel?Som Business Analyst arbejder du tæt på både drift og ledelse og bidrager til at beslutninger træffes på et solidt datagrundlag. Du bevæg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst, Buying Solutions",
         "company": "BESTSELLER",
         "location": "Aarhus",
@@ -258,17 +269,6 @@
         "posted": "2026-06-16",
         "snippet": "Join BESTSELLER TECH and revolutionize fashion with machine learning!Your key to success in this role is your passion for supply chain planning and your ability to understand our planners' processes and their ways of working to en",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Procurement Business Analyst",
-        "company": "DLF Seeds A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1674689",
-        "posted": "2026-06-15",
-        "snippet": "Brænder du for dataanalyse, procesoptimering og forretningsudvikling inden for procurement, og vil du bruge din faglighed til at styrke DLF's globale indkøbsorganisation?Vi søger dig, der motiveres af at omsætte data til indsigter",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -449,6 +449,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Det Kgl. Bibliotek i Aarhus søger en studentermedhjælper",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1681545",
+        "posted": "2026-07-08",
+        "snippet": "Vi søger en studentermedhjælper, der skal arbejde med publikumsbetjening, både i vores skranker og i forbindelse med arrangementer i publikumsområderne. Du vil også komme til at arbejde med en række faste driftsopgaver og vil indg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Bliv studentermedhjælper inden for kvantitative data og analyse i statslig styrelse",
@@ -649,9 +660,31 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Det Kgl. Bibliotek i Aarhus søger en studentermedhjælper",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1681545",
+        "posted": "2026-07-08",
+        "snippet": "Vi søger en studentermedhjælper, der skal arbejde med publikumsbetjening, både i vores skranker og i forbindelse med arrangementer i publikumsområderne. Du vil også komme til at arbejde med en række faste driftsopgaver og vil indg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Gubra A/S",
+        "location": "Hørsholm",
+        "url": "https://www.jobindex.dk/vis-job/h1681620",
+        "posted": "2026-07-08",
+        "snippet": "In this role, you will build and scale machine learning infrastructure and MLOps capabilities for scientific automation. You will collaborate closely with software engineers, other ML engineers, data scientists, and scientific dom",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Scientists for Big Data, IoT and AI projects",
         "company": "BEUMER Group A/S",
@@ -704,17 +737,6 @@
         "posted": "2026-07-06",
         "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Ansvarlig for Data Science og Analyse (Data scientist)",
-        "company": "Clever A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13901383",
-        "posted": "2026-07-06",
-        "snippet": "Lige nu leder vi efter dig, der kan omsætte kvantitative data til meningsfulde indsigter, som understøtter Clevers beslutninger og udvikling af løsninger.",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
