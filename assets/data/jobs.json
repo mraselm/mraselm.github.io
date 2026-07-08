@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T09:37:37Z",
+  "updated": "2026-07-08T11:57:23Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -273,17 +273,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst til Fondsudvikling",
-        "company": "Forca A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/r13901516",
-        "posted": "2026-07-06",
-        "snippet": "Har du lyst til at dykke ned i komplekse fondsprocesser, oversætte forretningskrav til klare løsninger, og samarbejde tæt med kunderne?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker til Rigspolitiet",
         "company": "Politi",
         "location": "Copenhagen",
@@ -323,6 +312,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1679915",
         "posted": "2026-07-03",
         "snippet": "Rigspolitiet søger generalister til sektionen for Forretningsanalyse og Compliance, hvor vi arbejder i krydsfeltet mellem forretning, compliance og IT.Du bliver en central del af arbejdet med at sikre, at politiets processer og sy",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til support og udvikling af statens digitale økonomiløsninger",
+        "company": "Økonomistyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13904033",
+        "posted": "2026-07-08",
+        "snippet": "Brænder du for at komme til bunds i tekniske problemer og give brugerne en god oplevelse?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
