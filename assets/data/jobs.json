@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T16:49:54Z",
+  "updated": "2026-07-08T18:46:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -320,7 +320,7 @@
         "title": "Forretningsanalytiker til support og udvikling af statens digitale økonomiløsninger",
         "company": "Økonomistyrelsen",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13904033",
+        "url": "https://www.jobindex.dk/vis-job/r13905413",
         "posted": "2026-07-08",
         "snippet": "Brænder du for at komme til bunds i tekniske problemer og give brugerne en god oplevelse?",
         "lang": "da",
@@ -824,17 +824,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13895446",
         "posted": "2026-07-02",
         "snippet": "As our new Student AI Engineer, you will work hands-on with LLM workflows, coding agents, retrieval systems, and on-prem inference infrastructure.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Experienced Biostatistician, Clinical Data Science & AI",
-        "company": "ALK",
-        "location": "Hørsholm",
-        "url": "https://www.jobindex.dk/vis-job/r13890948",
-        "posted": "2026-06-30",
-        "snippet": "Are you genuinely excited about turning clinical data into published science, and how agentic AI is reshaping that work from hypothesis...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
