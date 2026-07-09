@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T21:46:01Z",
+  "updated": "2026-07-09T23:37:09Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -480,17 +480,6 @@
         "posted": "2026-07-08",
         "snippet": "Har du interesse for at kvantitative data og har du lyst til at udvikle og bringe dine kompetencer i spil inden for databearbejdning i fx SAS, PowerBI og Excel, kodning i DST’s myndighedsordning, opsætning af surveys, håndtering a",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Student Analyst",
-        "company": "Specsavers",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1681647",
-        "posted": "2026-07-09",
-        "snippet": "Are you a curious and analytical student with a passion for data, reporting, and AI?We are looking for a Student Analyst to support our Customer & Product Data & Measurement team. You will help maintain and improve reporting, supp",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       },
