@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T08:45:01Z",
+  "updated": "2026-07-09T12:20:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -451,6 +451,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Øresundsbron søger Senior Power BI-udvikler/analytiker",
+        "company": "Øresundsbro Konsortiet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1681936",
+        "posted": "2026-07-09",
+        "snippet": "En senior Power BI-udvikler/analytiker er ansvarlig for at omdanne Øresundsbrons databehov til pålidelig, struktureret og beslutningsstøttende rapportering i Microsoft Power BI.Rollen kombinerer kravanalyse, dataanalyse og rapport",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Det Kgl. Bibliotek i Aarhus søger en studentermedhjælper",
         "company": "Det Kgl. Bibliotek",
         "location": "Aarhus",
@@ -696,6 +707,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Data Scientist, AI Fashion Planning",
+        "company": "BESTSELLER",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1681919",
+        "posted": "2026-07-09",
+        "snippet": "Do you want to be part of shaping the future of fashion? Become a part of our mission to drive data-driven fashion innovation. Your key to success in this role is your passion for solving business problems using data, algorithms a",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Machine Learning Engineer",
         "company": "Gubra A/S",
