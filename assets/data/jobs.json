@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T01:03:08Z",
+  "updated": "2026-07-09T08:45:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -187,9 +187,9 @@
       {
         "title": "Business Analyst",
         "company": "Danoffice IT",
-        "location": "Svendborg",
+        "location": "Ballerup",
         "url": "https://www.jobindex.dk/vis-job/h1681618",
-        "posted": "2026-07-08",
+        "posted": "2026-07-09",
         "snippet": "Vil du arbejde tæt på forretningen og omsætte data til beslutninger, der gør en reel forskel?Som Business Analyst arbejder du tæt på både drift og ledelse og bidrager til at beslutninger træffes på et solidt datagrundlag. Du bevæg",
         "lang": "da",
         "source": "jobindex",
@@ -473,6 +473,17 @@
         "job_type": "student"
       },
       {
+        "title": "Student Analyst",
+        "company": "Specsavers",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1681647",
+        "posted": "2026-07-09",
+        "snippet": "Are you a curious and analytical student with a passion for data, reporting, and AI?We are looking for a Student Analyst to support our Customer & Product Data & Measurement team. You will help maintain and improve reporting, supp",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -669,6 +680,17 @@
         "posted": "2026-07-08",
         "snippet": "Vi søger en studentermedhjælper, der skal arbejde med publikumsbetjening, både i vores skranker og i forbindelse med arrangementer i publikumsområderne. Du vil også komme til at arbejde med en række faste driftsopgaver og vil indg",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Student Analyst",
+        "company": "Specsavers",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1681647",
+        "posted": "2026-07-09",
+        "snippet": "Are you a curious and analytical student with a passion for data, reporting, and AI?We are looking for a Student Analyst to support our Customer & Product Data & Measurement team. You will help maintain and improve reporting, supp",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       }
