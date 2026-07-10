@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T11:19:25Z",
+  "updated": "2026-07-10T15:01:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -57,6 +57,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1682178",
         "posted": "2026-07-10",
         "snippet": "Vi arbejder målrettet på tværs af organisationen med at styrke vores beslutningsgrundlag gennem data. Derfor søger vi en dataanalytiker med interesse for datakvalitet, datamodeller og analyse. Vi tilbyderEn central rolle med fokus",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Excel- og Dataanalytiker",
+        "company": "Moment",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1682449",
+        "posted": "2026-07-10",
+        "snippet": "Er Excel dit stærkeste værktøj, og motiveres du af at analysere store datamængder og finde mønstre?Vi søger en analytisk medarbejder, der skal understøtte DSV’s Air Freight-team med dataanalyse og rapportering. Du bliver en del af",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -197,6 +208,28 @@
     "business analyst": [
       {
         "title": "Business Analyst",
+        "company": "DBI – Dansk Brand- og sikringsteknisk Institut",
+        "location": "Hvidovre",
+        "url": "https://www.jobindex.dk/vis-job/h1682411",
+        "posted": "2026-07-10",
+        "snippet": "Do you enjoy working with Power BI, data models and business questions? In this role, you will have the opportunity to contribute to the further development of DBI’s Data and Analysis area.You will help reduce manual and ad hoc re",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst",
+        "company": "Københavns Lufthavne A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1682423",
+        "posted": "2026-07-10",
+        "snippet": "Hver dag sikrer Safe & Secure Operations, at lufthavnen fungerer sikkert og effektivt fra start til slut.Vi har ansvaret for den operative drift på tværs af lufthavnen fra flyoperationer og bagage til infrastruktur, compliance og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
         "company": "Danoffice IT",
         "location": "Ballerup",
         "url": "https://www.jobindex.dk/vis-job/h1681618",
@@ -279,17 +312,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1674919",
         "posted": "2026-06-16",
         "snippet": "Join BESTSELLER TECH and revolutionize fashion with machine learning!Your key to success in this role is your passion for supply chain planning and your ability to understand our planners' processes and their ways of working to en",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Chapter Lead",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13906687",
-        "posted": "2026-07-09",
-        "snippet": "In Digital Core, we build and maintain the foundational capabilities that enable secure, reliable and seamless digital banking experiences across Danske Bank.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -471,17 +493,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Det Kgl. Bibliotek i Aarhus søger en studentermedhjælper",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1681545",
-        "posted": "2026-07-08",
-        "snippet": "Vi søger en studentermedhjælper, der skal arbejde med publikumsbetjening, både i vores skranker og i forbindelse med arrangementer i publikumsområderne. Du vil også komme til at arbejde med en række faste driftsopgaver og vil indg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -671,17 +682,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Det Kgl. Bibliotek i Aarhus søger en studentermedhjælper",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1681545",
-        "posted": "2026-07-08",
-        "snippet": "Vi søger en studentermedhjælper, der skal arbejde med publikumsbetjening, både i vores skranker og i forbindelse med arrangementer i publikumsområderne. Du vil også komme til at arbejde med en række faste driftsopgaver og vil indg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -737,17 +737,6 @@
         "posted": "2026-06-17",
         "snippet": "Vil du arbejde med dataanalyse, modellering og visualisering og samtidig være bindeled mellem forretning, IT og vores eksterne leverandører? Så er du måske vores nye kollega.Du bliver en del af en organisation, hvor fleksibilitet,",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist – Applied AI & Machine Learning",
-        "company": "Collectia A/S",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/h1674596",
-        "posted": "2026-06-15",
-        "snippet": "Do you have strong technical data science skills and want to help shape the next generation of AI and automation solutions end-to-end, from idea to production? Your work will be closely tied to core business outcomes. Your key res",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
