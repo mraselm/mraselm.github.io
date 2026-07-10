@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T17:07:59Z",
+  "updated": "2026-07-10T18:45:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -312,6 +312,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1674919",
         "posted": "2026-06-16",
         "snippet": "Join BESTSELLER TECH and revolutionize fashion with machine learning!Your key to success in this role is your passion for supply chain planning and your ability to understand our planners' processes and their ways of working to en",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst for Group Market Data Management",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13908440",
+        "posted": "2026-07-10",
+        "snippet": "Join our Group Market Data Management team and help shape how market data is used across one of Northern Europe's leading financial institutions.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -802,6 +813,28 @@
         "url": "https://www.jobindex.dk/vis-job/h1679205",
         "posted": "2026-07-02",
         "snippet": "We are looking for an AI Engineer who is motivated to turn emerging AI capabilities into reliable, high-impact solutions.You are curious, solution-oriented, and driven to push boundaries, drive continuous improvement, and build pr",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student AI Engineer – Conversational AI",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13908438",
+        "posted": "2026-07-10",
+        "snippet": "Are you interested in building AI applications, integrating new technologies, and turning innovative ideas into scalable solutions?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Data Scientist – Conversational AI",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13908439",
+        "posted": "2026-07-10",
+        "snippet": "Are you a curious and motivated student looking to get experience with the latest advances in Natural Language Processing (NLP) and Generative AI (GenAI)?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
