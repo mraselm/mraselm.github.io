@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T03:43:48Z",
+  "updated": "2026-07-11T06:26:46Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -59,7 +59,7 @@
         "snippet": "Vi arbejder målrettet på tværs af organisationen med at styrke vores beslutningsgrundlag gennem data. Derfor søger vi en dataanalytiker med interesse for datakvalitet, datamodeller og analyse. Vi tilbyderEn central rolle med fokus",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Excel- og Dataanalytiker",
@@ -70,7 +70,7 @@
         "snippet": "Er Excel dit stærkeste værktøj, og motiveres du af at analysere store datamængder og finde mønstre?Vi søger en analytisk medarbejder, der skal understøtte DSV’s Air Freight-team med dataanalyse og rapportering. Du bliver en del af",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior HR-dataanalytiker til strategisk ledelsesinformation",
@@ -81,7 +81,7 @@
         "snippet": "Du bliver en central analytisk rådgiver på HR-området og omsætter HR-data til ledelsesinformation og beslutningsgrundlag for direktion, chefer og forretningsudvalg.Du driver analyserne fra den indledende behovsafklaring til den fæ",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker til Projekt- & Ledelsessupport i Byggeri & Anlæg",
@@ -92,7 +92,7 @@
         "snippet": "I Byggeri & Anlæg har vi etableret en ny afdeling, Projekt- & Ledelsessupport, der skal sikre datadrevne beslutninger, fælles processer og tværgående udvikling. Du får en central rolle i at udvikle datagrundlaget for projekter, pr",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker med stærke Python-kompetencer til Team Risikoanalyser",
@@ -103,7 +103,7 @@
         "snippet": "Vi står vi over for en omfattende opgave: At sikre et rent vandmiljø og gennemføre en historisk omlægning af landbrugsarealer til natur og skov. En central del af denne opgave er at sikre en effektiv og korrekt implementering af d",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
@@ -114,7 +114,7 @@
         "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker til centerstaben i Neurocentret (NEU) på Rigshospitalet",
@@ -125,7 +125,7 @@
         "snippet": "Vil du være med til at styrke datagrundlaget på Rigshospitalet og skabe indsigt, der gør en reel forskel for patienter og personale?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "F-35 dataanalytiker ved Fighter Wing Skrydstrup",
@@ -136,7 +136,7 @@
         "snippet": "Har du interesse for dataanalyse med udgangspunkt i F-35 systemer, så har vi stillingen til dig hos Weapons, Plans & Training sektionen (WPT) ved Fighter Wing Skrydstrup.",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker og en 1-årig projektstilling til team Data og indberetninger i AU Uddannelse",
@@ -147,7 +147,7 @@
         "snippet": "Er du glad for data og processerne omkring dem?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker til registerdata og kvantitative analyser på uddannelsesområdet",
@@ -158,7 +158,7 @@
         "snippet": "Vil du være med til at skabe ny viden om børn og unges læring, trivsel og uddannelsesforløb?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -207,17 +207,6 @@
     ],
     "business analyst": [
       {
-        "title": "Business Analyst",
-        "company": "DBI – Dansk Brand- og sikringsteknisk Institut",
-        "location": "Hvidovre",
-        "url": "https://www.jobindex.dk/vis-job/h1682411",
-        "posted": "2026-07-10",
-        "snippet": "Do you enjoy working with Power BI, data models and business questions? In this role, you will have the opportunity to contribute to the further development of DBI’s Data and Analysis area.You will help reduce manual and ad hoc re",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst",
         "company": "Københavns Lufthavne A/S",
         "location": "Denmark",
@@ -229,72 +218,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst",
-        "company": "Danoffice IT",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1681618",
-        "posted": "2026-07-09",
-        "snippet": "Vil du arbejde tæt på forretningen og omsætte data til beslutninger, der gør en reel forskel?Som Business Analyst arbejder du tæt på både drift og ledelse og bidrager til at beslutninger træffes på et solidt datagrundlag. Du bevæg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst, Buying Solutions",
-        "company": "BESTSELLER",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1681183",
-        "posted": "2026-07-07",
-        "snippet": "As a Business Analyst in TECH Buying, you'll help uncover the real business need before a single line of code is written. You'll ask questions, challenge assumptions and translate business needs into clear requirements that help t",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Business Analyst I",
-        "company": "Hamamatsu Photonics",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680218",
-        "posted": "2026-07-03",
-        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst til konsulenthus",
-        "company": "TransportRådgiverne A/S",
-        "location": "Hørsholm",
-        "url": "https://www.jobindex.dk/vis-job/h1679914",
-        "posted": "2026-07-03",
-        "snippet": "Er du den talstærke speditør, der gerne vil mere? Er du den strukturerede medarbejder, der igennem talanalyse og ved hjælp af beregningsmodeller arbejder med at skabe overblik? Er du motiveret af at finde detaljer i store mængder",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business analyst",
-        "company": "KMD A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1679919",
-        "posted": "2026-07-03",
-        "snippet": "Vil du være med til at omsætte komplekse krav til digitale løsninger, der gør en reel forskel for millioner af borgere?Vi søger en dygtig Business Analyst til vores Person-team, hvor du bliver en central del af udvikling og videre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst for Global IT - Enterprise Business Development",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1676949",
-        "posted": "2026-06-24",
-        "snippet": "Are you an experienced Business Analyst who brings clarity and structure to complex, fast‑moving delivery environments?We are looking for a new colleague who takes ownership of how business needs are understood, shaped, and transl",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Business Analyst - Skab stabilitet, transparens og værdi i Norlys' provisionsmodel",
         "company": "Norlys",
         "location": "Copenhagen",
@@ -302,17 +225,6 @@
         "posted": "2026-06-23",
         "snippet": "Vil du spille en central rolle i at sikre, at en af Norlys’ vigtigste forretningsmodeller fungerer stabilt, transparent og værdiskabende?Du vil få en nøglerolle med stor betydning for forretningens performance og en hverdag præget",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst, AI Fashion Planning",
-        "company": "BESTSELLER",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1674919",
-        "posted": "2026-06-16",
-        "snippet": "Join BESTSELLER TECH and revolutionize fashion with machine learning!Your key to success in this role is your passion for supply chain planning and your ability to understand our planners' processes and their ways of working to en",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -458,28 +370,6 @@
         "posted": "2026-06-30",
         "snippet": "Vil du være med til at styrke Fonden for Entreprenørskabs datagrundlag, analyser og digitale arbejdsgange?Du skal være med til at sikre, at vores data bliver indsamlet, struktureret, kvalitetssikret og anvendt på en måde, der skab",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Power BI Developer til international koncern",
-        "company": "HumanTrust A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680906",
-        "posted": "2026-07-07",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Developer - 12 Month FTC",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13893081",
-        "posted": "2026-07-01",
-        "snippet": "We’re looking for a BI Developer to join the Parcels Planning team on a 12 month fixed-term contract.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -679,6 +569,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13888769",
         "posted": "2026-06-29",
         "snippet": "Vil du være med til at udvikle et nyt forretningsområde i et lokalt mediehus med store ambitioner?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Power BI Developer til international koncern",
+        "company": "HumanTrust A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680906",
+        "posted": "2026-07-07",
+        "snippet": "",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
