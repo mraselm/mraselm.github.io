@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T16:14:58Z",
+  "updated": "2026-07-12T17:27:51Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -758,6 +758,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1674662",
         "posted": "2026-06-15",
         "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Founding Data & ML Engineer",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13909336",
+        "posted": "2026-07-12",
+        "snippet": "The ocean is the last unmonitored domain.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
