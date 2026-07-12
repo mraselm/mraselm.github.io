@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T22:08:05Z",
+  "updated": "2026-07-12T23:09:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -650,17 +650,6 @@
       }
     ],
     "bi specialist": [
-      {
-        "title": "Junior BI Specialist til Business Intelligence i DLG",
-        "company": "DLG",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1674616",
-        "posted": "2026-06-15",
-        "snippet": "Vil du bruge dine kompetencer indenfor data, tech og rapportering til at gøre en reel forskel for medarbejdere og ledere på tværs af DLG Group? I rollen som konsulent vil du få ansvaret for et eller flere data domainer, hvor du dr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Business Intelligence Specialist",
         "company": "",
