@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T22:11:14Z",
+  "updated": "2026-07-13T23:13:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -484,17 +484,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Øresundsbron søger Senior Power BI-udvikler/analytiker",
-        "company": "Øresundsbro Konsortiet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1681936",
-        "posted": "2026-07-09",
-        "snippet": "En senior Power BI-udvikler/analytiker er ansvarlig for at omdanne Øresundsbrons databehov til pålidelig, struktureret og beslutningsstøttende rapportering i Microsoft Power BI.Rollen kombinerer kravanalyse, dataanalyse og rapport",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -741,17 +730,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "AI/ML Engineer",
-        "company": "XCI A/S",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1674662",
-        "posted": "2026-06-15",
-        "snippet": "Join a rapidly growing technology company with an important purpose of developing the best software products to prevent and fight crime.Your primary role will involve developing and maintaining scalable and high-quality software s",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Founding Data & ML Engineer",
         "company": "",
         "location": "Copenhagen",
@@ -868,17 +846,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13898515",
         "posted": "2026-07-03",
         "snippet": "As a Student Assistant for AI Engineering - Consulting Tools, you will join a small, focused team building AI-powered internal tools used directly in consulting delivery.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student AI Engineer",
-        "company": "Retriever",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13895446",
-        "posted": "2026-07-02",
-        "snippet": "As our new Student AI Engineer, you will work hands-on with LLM workflows, coding agents, retrieval systems, and on-prem inference infrastructure.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
