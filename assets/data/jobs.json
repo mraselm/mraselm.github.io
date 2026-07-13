@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T17:22:45Z",
+  "updated": "2026-07-13T19:49:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -730,6 +730,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior Data Scientist",
+        "company": "LEGO System A/S",
+        "location": "Billund",
+        "url": "https://www.jobindex.dk/vis-job/r13910347",
+        "posted": "2026-07-13",
+        "snippet": "Just imagine turning manufacturing and engineering data into actionable insights that elevate every LEGO® brick’s quality.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Data Scientist - Store Partnering",
         "company": "Coop Danmark A/S",
         "location": "Denmark",
@@ -890,17 +901,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13891012",
         "posted": "2026-06-30",
         "snippet": "Why This Role Matters SimCorp's consulting delivery involves solving complex, recurring problems across dozens of clients.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior/Lead Data Scientist",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13886278",
-        "posted": "2026-06-26",
-        "snippet": "Build end-to-end AI/ML solutions that shape commercial decisions at Novo Nordisk – from forecasting and causal inference to GenAI assistants and agentic workflows.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
