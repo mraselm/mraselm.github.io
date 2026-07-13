@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T11:29:08Z",
+  "updated": "2026-07-13T15:12:06Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -313,6 +313,17 @@
         "posted": "2026-07-10",
         "snippet": "Join our Group Market Data Management team and help shape how market data is used across one of Northern Europe's leading financial institutions.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
+        "company": "AL Sydbank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1682735",
+        "posted": "2026-07-13",
+        "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
