@@ -1,11 +1,44 @@
 {
-  "updated": "2026-07-14T06:25:17Z",
+  "updated": "2026-07-14T09:17:24Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Pricing & Data Analyst",
+        "company": "DEKO p/s",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1679515",
+        "posted": "2026-07-03",
+        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Finance & Settlement Data Analyst",
+        "company": "Hybrid Greentech Energy Intelligence ApS",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1676372",
+        "posted": "2026-06-23",
+        "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst for Beam Instrumentation (SY-BI-SW-2026-127-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13903696",
+        "posted": "2026-07-08",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior Data Analyst",
         "company": "",
@@ -163,6 +196,17 @@
     ],
     "business analyst": [
       {
+        "title": "Business Analyst",
+        "company": "DBI – Dansk Brand- og sikringsteknisk Institut",
+        "location": "Hvidovre",
+        "url": "https://www.jobindex.dk/vis-job/h1682411",
+        "posted": "2026-07-10",
+        "snippet": "Do you enjoy working with Power BI, data models and business questions? In this role, you will have the opportunity to contribute to the further development of DBI’s Data and Analysis area.You will help reduce manual and ad hoc re",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Analyst",
         "company": "Københavns Lufthavne A/S",
         "location": "Denmark",
@@ -170,6 +214,72 @@
         "posted": "2026-07-10",
         "snippet": "Hver dag sikrer Safe & Secure Operations, at lufthavnen fungerer sikkert og effektivt fra start til slut.Vi har ansvaret for den operative drift på tværs af lufthavnen fra flyoperationer og bagage til infrastruktur, compliance og",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Danoffice IT",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1681618",
+        "posted": "2026-07-09",
+        "snippet": "Vil du arbejde tæt på forretningen og omsætte data til beslutninger, der gør en reel forskel?Som Business Analyst arbejder du tæt på både drift og ledelse og bidrager til at beslutninger træffes på et solidt datagrundlag. Du bevæg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst, Buying Solutions",
+        "company": "BESTSELLER",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1681183",
+        "posted": "2026-07-07",
+        "snippet": "As a Business Analyst in TECH Buying, you'll help uncover the real business need before a single line of code is written. You'll ask questions, challenge assumptions and translate business needs into clear requirements that help t",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI Business Analyst I",
+        "company": "Hamamatsu Photonics",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680218",
+        "posted": "2026-07-03",
+        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst til konsulenthus",
+        "company": "TransportRådgiverne A/S",
+        "location": "Hørsholm",
+        "url": "https://www.jobindex.dk/vis-job/h1679914",
+        "posted": "2026-07-03",
+        "snippet": "Er du den talstærke speditør, der gerne vil mere? Er du den strukturerede medarbejder, der igennem talanalyse og ved hjælp af beregningsmodeller arbejder med at skabe overblik? Er du motiveret af at finde detaljer i store mængder",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business analyst",
+        "company": "KMD A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1679919",
+        "posted": "2026-07-03",
+        "snippet": "Vil du være med til at omsætte komplekse krav til digitale løsninger, der gør en reel forskel for millioner af borgere?Vi søger en dygtig Business Analyst til vores Person-team, hvor du bliver en central del af udvikling og videre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst for Global IT - Enterprise Business Development",
+        "company": "DSV",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1676949",
+        "posted": "2026-06-24",
+        "snippet": "Are you an experienced Business Analyst who brings clarity and structure to complex, fast‑moving delivery environments?We are looking for a new colleague who takes ownership of how business needs are understood, shaped, and transl",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -196,83 +306,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst",
-        "company": "DBI – Dansk Brand- og sikringsteknisk Institut",
-        "location": "Hvidovre",
-        "url": "https://www.jobindex.dk/vis-job/h1682411",
-        "posted": "2026-07-10",
-        "snippet": "Do you enjoy working with Power BI, data models and business questions? In this role, you will have the opportunity to contribute to the further development of DBI’s Data and Analysis area.You will help reduce manual and ad hoc re",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Danoffice IT",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1681618",
-        "posted": "2026-07-09",
-        "snippet": "Vil du arbejde tæt på forretningen og omsætte data til beslutninger, der gør en reel forskel?Som Business Analyst arbejder du tæt på både drift og ledelse og bidrager til at beslutninger træffes på et solidt datagrundlag. Du bevæg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst, Buying Solutions",
-        "company": "BESTSELLER",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1681183",
-        "posted": "2026-07-07",
-        "snippet": "As a Business Analyst in TECH Buying, you'll help uncover the real business need before a single line of code is written. You'll ask questions, challenge assumptions and translate business needs into clear requirements that help t",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "BI Business Analyst I",
-        "company": "Hamamatsu Photonics",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680218",
-        "posted": "2026-07-03",
-        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst til konsulenthus",
-        "company": "TransportRådgiverne A/S",
-        "location": "Hørsholm",
-        "url": "https://www.jobindex.dk/vis-job/h1679914",
-        "posted": "2026-07-03",
-        "snippet": "Er du den talstærke speditør, der gerne vil mere? Er du den strukturerede medarbejder, der igennem talanalyse og ved hjælp af beregningsmodeller arbejder med at skabe overblik? Er du motiveret af at finde detaljer i store mængder",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business analyst",
-        "company": "KMD A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1679919",
-        "posted": "2026-07-03",
-        "snippet": "Vil du være med til at omsætte komplekse krav til digitale løsninger, der gør en reel forskel for millioner af borgere?Vi søger en dygtig Business Analyst til vores Person-team, hvor du bliver en central del af udvikling og videre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst for Global IT - Enterprise Business Development",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1676949",
-        "posted": "2026-06-24",
-        "snippet": "Are you an experienced Business Analyst who brings clarity and structure to complex, fast‑moving delivery environments?We are looking for a new colleague who takes ownership of how business needs are understood, shaped, and transl",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
         "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
         "company": "AL Sydbank",
         "location": "Copenhagen",
@@ -281,7 +314,7 @@
         "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker til Rigspolitiet",
@@ -292,7 +325,7 @@
         "snippet": "Behovet for automatisering og digitale løsninger er fortsat stigende, og derfor søger vi en forretningsanalytiker, som kan fungere som bindeled mellem det centrale RPA-team i København og resten af dansk politi.Du driver analysefa",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytikere til hele statens BI-kontor",
@@ -303,7 +336,7 @@
         "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor? Vi søger forretningsanalytikere, som kan skabe overblik og sammenhæng mellem forretning, data og leverancer. Rollen",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
@@ -314,7 +347,7 @@
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker med fokus på compliance og IT-sikkerhed",
@@ -325,7 +358,7 @@
         "snippet": "Rigspolitiet søger generalister til sektionen for Forretningsanalyse og Compliance, hvor vi arbejder i krydsfeltet mellem forretning, compliance og IT.Du bliver en central del af arbejdet med at sikre, at politiets processer og sy",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker til support og udvikling af statens digitale økonomiløsninger",
@@ -336,7 +369,7 @@
         "snippet": "Brænder du for at komme til bunds i tekniske problemer og give brugerne en god oplevelse?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "IT Business Analyst Intern",
@@ -615,7 +648,7 @@
         "snippet": "Vil du være med til at udvikle et nyt forretningsområde i et lokalt mediehus med store ambitioner?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       }
     ],
     "data scientist": [
