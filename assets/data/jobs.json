@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T21:15:15Z",
+  "updated": "2026-07-14T22:16:03Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -857,17 +857,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13891012",
         "posted": "2026-06-30",
         "snippet": "Why This Role Matters SimCorp's consulting delivery involves solving complex, recurring problems across dozens of clients.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Manufacturing AI Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13879129",
-        "posted": "2026-06-23",
-        "snippet": "Are you an ambitious student looking to build a career at the overlap of AI and manufacturing?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
