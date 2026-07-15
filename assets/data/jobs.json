@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T03:35:51Z",
+  "updated": "2026-07-15T06:28:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -704,6 +704,17 @@
         "posted": "2026-07-06",
         "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Vil du sætte dit præg på Agentic AI som Senior AI Engineer i Norlys?",
+        "company": "Norlys",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1683032",
+        "posted": "2026-07-15",
+        "snippet": "Vil du skabe synlig værdi gennem brugen af AI, der gør forskel for kunder, forretning og samfundet på kort og langt sigt? I denne rolle kommer du bl.a. til at arbejde med: Udvikling af nye og innovative AI-løsninger rettet mod båd",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
