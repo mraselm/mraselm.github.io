@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T22:15:44Z",
+  "updated": "2026-07-15T23:14:52Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -258,17 +258,6 @@
         "posted": "2026-07-03",
         "snippet": "Vil du være med til at omsætte komplekse krav til digitale løsninger, der gør en reel forskel for millioner af borgere?Vi søger en dygtig Business Analyst til vores Person-team, hvor du bliver en central del af udvikling og videre",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst for Global IT - Enterprise Business Development",
-        "company": "DSV",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1676949",
-        "posted": "2026-06-24",
-        "snippet": "Are you an experienced Business Analyst who brings clarity and structure to complex, fast‑moving delivery environments?We are looking for a new colleague who takes ownership of how business needs are understood, shaped, and transl",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
