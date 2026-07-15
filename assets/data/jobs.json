@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T15:50:58Z",
+  "updated": "2026-07-15T17:39:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -24,6 +24,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1676372",
         "posted": "2026-06-23",
         "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Assisant - IT Data Analyst",
+        "company": "Milestone Systems A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13912915",
+        "posted": "2026-07-15",
+        "snippet": "At Milestone, we pioneer solutions that solve real problems - and we need curious people like you.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
