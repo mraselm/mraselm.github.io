@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T06:31:41Z",
+  "updated": "2026-07-16T09:29:00Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -648,17 +648,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1681919",
         "posted": "2026-07-09",
         "snippet": "Do you want to be part of shaping the future of fashion? Become a part of our mission to drive data-driven fashion innovation. Your key to success in this role is your passion for solving business problems using data, algorithms a",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer",
-        "company": "Gubra A/S",
-        "location": "Hørsholm",
-        "url": "https://www.jobindex.dk/vis-job/h1681620",
-        "posted": "2026-07-08",
-        "snippet": "In this role, you will build and scale machine learning infrastructure and MLOps capabilities for scientific automation. You will collaborate closely with software engineers, other ML engineers, data scientists, and scientific dom",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
