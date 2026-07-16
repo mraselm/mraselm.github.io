@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T21:16:57Z",
+  "updated": "2026-07-16T22:25:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -134,17 +134,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13889889",
         "posted": "2026-06-30",
         "snippet": "Har du interesse for dataanalyse med udgangspunkt i F-35 systemer, så har vi stillingen til dig hos Weapons, Plans & Training sektionen (WPT) ved Fighter Wing Skrydstrup.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker og en 1-årig projektstilling til team Data og indberetninger i AU Uddannelse",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13883193",
-        "posted": "2026-06-25",
-        "snippet": "Er du glad for data og processerne omkring dem?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -714,17 +703,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13895314",
         "posted": "2026-07-02",
         "snippet": "We're looking for a data/ML engineer to own the brain of Palette: the signal engine.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Centre of Excellence Lead — Data Science & Machine Learning",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13883779",
-        "posted": "2026-06-25",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
