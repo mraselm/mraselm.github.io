@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T11:54:02Z",
+  "updated": "2026-07-16T14:23:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -396,6 +396,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Business Intelligence Specialist",
+        "company": "Cryos International – Denmark ApS",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1683428",
+        "posted": "2026-07-16",
+        "snippet": "Vil du være med til at udvikle og styrke Cryos' Business Intelligence-platform? Du bliver en del af arbejdet med at udvikle og vedligeholde vores BI-platform og sikre, at organisationen har adgang til pålidelige, relevante og brug",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "FP&A Analyst (Power BI & Data)",
         "company": "Hi-Fi Klubben A/S",
         "location": "Aarhus",
@@ -606,17 +617,6 @@
       }
     ],
     "bi specialist": [
-      {
-        "title": "Business Intelligence Specialist",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/o40905",
-        "posted": "2026-06-29",
-        "snippet": "Vil du være med til at udvikle et nyt forretningsområde i et lokalt mediehus med store ambitioner?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "BI specialist - projektansættelse",
         "company": "Lolland-Falsters Folketidende A/S",
