@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T22:25:32Z",
+  "updated": "2026-07-17T00:12:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -317,17 +317,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Forretningsanalytiker med fokus på compliance og IT-sikkerhed",
-        "company": "Politi",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1679915",
-        "posted": "2026-07-03",
-        "snippet": "Rigspolitiet søger generalister til sektionen for Forretningsanalyse og Compliance, hvor vi arbejder i krydsfeltet mellem forretning, compliance og IT.Du bliver en central del af arbejdet med at sikre, at politiets processer og sy",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker til support og udvikling af statens digitale økonomiløsninger",
         "company": "Økonomistyrelsen",
         "location": "Copenhagen",
@@ -620,6 +609,17 @@
     ],
     "data scientist": [
       {
+        "title": "Data Scientists for Big Data, IoT and AI projects",
+        "company": "BEUMER Group A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1675903",
+        "posted": "2026-07-17",
+        "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist - vil du være med til at udvikle fremtidens AI- og Machine Learning-løsninger?",
         "company": "LB Forsikring",
         "location": "Copenhagen",
@@ -637,17 +637,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1681919",
         "posted": "2026-07-09",
         "snippet": "Do you want to be part of shaping the future of fashion? Become a part of our mission to drive data-driven fashion innovation. Your key to success in this role is your passion for solving business problems using data, algorithms a",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientists for Big Data, IoT and AI projects",
-        "company": "BEUMER Group A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1675903",
-        "posted": "2026-06-19",
-        "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
