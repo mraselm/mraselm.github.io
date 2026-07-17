@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T06:28:02Z",
+  "updated": "2026-07-17T09:21:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -660,6 +660,17 @@
         "posted": "2026-07-17",
         "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist med forretningsforståelse",
+        "company": "3C RETAIL A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1683519",
+        "posted": "2026-07-17",
+        "snippet": "Har du forretningsforståelse og brænder du for data science, AI og machine learning i praksis? Vi søger en Data Scientist med stærke kompetencer inden for data science, AI og machine learning, som vil være med til at udvikle næste",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
