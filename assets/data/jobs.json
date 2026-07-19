@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T22:09:09Z",
+  "updated": "2026-07-19T23:11:54Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -406,6 +406,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Power Platform & Business Intelligence Developer / Konica Minolta Nordic IT / Enterprise Data & Analytics",
+        "company": "Konica Minolta Business Solutions Denmark a/s",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1676247",
+        "posted": "2026-07-20",
+        "snippet": "Do you want to help shape the future of digital transformation across the Nordics? Play a key role in connecting data, automation, and business performance.You will work at the intersection of business intelligence, process automa",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Intelligence Specialist",
         "company": "Cryos International – Denmark ApS",
