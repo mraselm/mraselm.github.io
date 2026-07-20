@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:40:56Z",
+  "updated": "2026-07-20T22:13:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -639,17 +639,6 @@
       }
     ],
     "bi specialist": [
-      {
-        "title": "BI specialist - projektansættelse",
-        "company": "Lolland-Falsters Folketidende A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13888769",
-        "posted": "2026-06-29",
-        "snippet": "Vil du være med til at udvikle et nyt forretningsområde i et lokalt mediehus med store ambitioner?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Student Data Analyst",
         "company": "Mind Energy",
