@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T12:00:42Z",
+  "updated": "2026-07-21T14:23:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -648,6 +648,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1683519",
         "posted": "2026-07-17",
         "snippet": "Har du forretningsforståelse og brænder du for data science, AI og machine learning i praksis? Vi søger en Data Scientist med stærke kompetencer inden for data science, AI og machine learning, som vil være med til at udvikle næste",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data scientist til asset management og digital transformation",
+        "company": "Vejdirektoratet",
+        "location": "Remote",
+        "url": "https://www.jobindex.dk/vis-job/h1675264",
+        "posted": "2026-07-15",
+        "snippet": "Vil du arbejde med dataanalyse, modellering og visualisering og samtidig være bindeled mellem forretning, IT og vores eksterne leverandører? Så er du måske vores nye kollega.Du bliver en del af en organisation, hvor fleksibilitet,",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
