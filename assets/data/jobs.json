@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T20:36:22Z",
+  "updated": "2026-07-21T22:12:15Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -123,17 +123,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13902479",
         "posted": "2026-07-07",
         "snippet": "Vil du være med til at styrke datagrundlaget på Rigshospitalet og skabe indsigt, der gør en reel forskel for patienter og personale?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "F-35 dataanalytiker ved Fighter Wing Skrydstrup",
-        "company": "Forsvaret",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13889889",
-        "posted": "2026-06-30",
-        "snippet": "Har du interesse for dataanalyse med udgangspunkt i F-35 systemer, så har vi stillingen til dig hos Weapons, Plans & Training sektionen (WPT) ved Fighter Wing Skrydstrup.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
