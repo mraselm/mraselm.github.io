@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T16:42:08Z",
+  "updated": "2026-07-21T18:40:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -686,6 +686,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Scientist",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13917682",
+        "posted": "2026-07-21",
+        "snippet": "The Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI and machine...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Principal Data Scientist",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13917681",
+        "posted": "2026-07-21",
+        "snippet": "The Principal Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Data Scientist",
         "company": "LEGO System A/S",
         "location": "Billund",
@@ -824,17 +846,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13898515",
         "posted": "2026-07-03",
         "snippet": "As a Student Assistant for AI Engineering - Consulting Tools, you will join a small, focused team building AI-powered internal tools used directly in consulting delivery.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer – Consulting Tools",
-        "company": "SimCorp A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13891012",
-        "posted": "2026-06-30",
-        "snippet": "Why This Role Matters SimCorp's consulting delivery involves solving complex, recurring problems across dozens of clients.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
