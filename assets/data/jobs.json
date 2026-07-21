@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T22:12:15Z",
+  "updated": "2026-07-21T23:12:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -246,17 +246,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1679919",
         "posted": "2026-07-03",
         "snippet": "Vil du være med til at omsætte komplekse krav til digitale løsninger, der gør en reel forskel for millioner af borgere?Vi søger en dygtig Business Analyst til vores Person-team, hvor du bliver en central del af udvikling og videre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Analyst - Skab stabilitet, transparens og værdi i Norlys' provisionsmodel",
-        "company": "Norlys",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1676652",
-        "posted": "2026-06-23",
-        "snippet": "Vil du spille en central rolle i at sikre, at en af Norlys’ vigtigste forretningsmodeller fungerer stabilt, transparent og værdiskabende?Du vil få en nøglerolle med stor betydning for forretningens performance og en hverdag præget",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
