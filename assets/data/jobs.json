@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T16:47:42Z",
+  "updated": "2026-07-22T18:34:23Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,6 +25,17 @@
         "posted": "2026-07-03",
         "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior FP&A & Data Analyst",
+        "company": "Mercell Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13918839",
+        "posted": "2026-07-22",
+        "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -236,6 +247,17 @@
         "posted": "2026-07-03",
         "snippet": "Vil du være med til at omsætte komplekse krav til digitale løsninger, der gør en reel forskel for millioner af borgere?Vi søger en dygtig Business Analyst til vores Person-team, hvor du bliver en central del af udvikling og videre",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13918702",
+        "posted": "2026-07-22",
+        "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
