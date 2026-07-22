@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T06:42:41Z",
+  "updated": "2026-07-22T09:38:57Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -126,17 +126,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Student Data Analyst",
-        "company": "Mind Energy",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1683464",
-        "posted": "2026-07-17",
-        "snippet": "As our Student Data Analyst, you help transform data into insights that strengthen commercial decisions, improve processes and customer experience and support the continued development of our customer business. You'll gain hands-o",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
