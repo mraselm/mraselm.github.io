@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T20:31:47Z",
+  "updated": "2026-07-22T22:16:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -425,17 +425,6 @@
         "posted": "2026-07-07",
         "snippet": "",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Developer - 12 Month FTC",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13893081",
-        "posted": "2026-07-01",
-        "snippet": "We’re looking for a BI Developer to join the Parcels Planning team on a 12 month fixed-term contract.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
