@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T12:02:36Z",
+  "updated": "2026-07-23T14:32:57Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -440,6 +440,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Proaktiv studentermedhjælper - DTU Bioengineering, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1684433",
+        "posted": "2026-07-23",
+        "snippet": "Institut for Biomedicin og Bioteknologi søger 1 studentermedhjælper, der vil indgå i instituttets sekretariat. Arbejdsopgaverne er meget varierede. Der er bl.a. opgaver for institutledelsen i forhold til at indsamle og systematise",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Student Assistant for BIM Development",
         "company": "VEOLIA",
         "location": "Søborg",
@@ -605,6 +616,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Proaktiv studentermedhjælper - DTU Bioengineering, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1684433",
+        "posted": "2026-07-23",
+        "snippet": "Institut for Biomedicin og Bioteknologi søger 1 studentermedhjælper, der vil indgå i instituttets sekretariat. Arbejdsopgaverne er meget varierede. Der er bl.a. opgaver for institutledelsen i forhold til at indsamle og systematise",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Student Assistant for BIM Development",
