@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T20:30:42Z",
+  "updated": "2026-07-23T22:14:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -758,17 +758,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13909336",
         "posted": "2026-07-12",
         "snippet": "The ocean is the last unmonitored domain.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Founding Data/ML Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13895314",
-        "posted": "2026-07-02",
-        "snippet": "We're looking for a data/ML engineer to own the brain of Palette: the signal engine.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
