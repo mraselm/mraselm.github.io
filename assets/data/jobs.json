@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T21:08:42Z",
+  "updated": "2026-07-25T22:10:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -462,17 +462,6 @@
         "job_type": "student"
       },
       {
-        "title": "Student Assistant for BIM Development",
-        "company": "VEOLIA",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/h1684353",
-        "posted": "2026-07-23",
-        "snippet": "Vil du ”BIM” med os?Vi søger en engageret studentermedhjælper, som har lyst til at bidrage til udviklingen – samtidig med at du opbygger dine egne kompetencer inden for BIM og får værdifuld praktisk erfaring.Du får mulighed for at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -635,17 +624,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1684433",
         "posted": "2026-07-23",
         "snippet": "Institut for Biomedicin og Bioteknologi søger 1 studentermedhjælper, der vil indgå i instituttets sekretariat. Arbejdsopgaverne er meget varierede. Der er bl.a. opgaver for institutledelsen i forhold til at indsamle og systematise",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Student Assistant for BIM Development",
-        "company": "VEOLIA",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/h1684353",
-        "posted": "2026-07-23",
-        "snippet": "Vil du ”BIM” med os?Vi søger en engageret studentermedhjælper, som har lyst til at bidrage til udviklingen – samtidig med at du opbygger dine egne kompetencer inden for BIM og får værdifuld praktisk erfaring.Du får mulighed for at",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
