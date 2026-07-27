@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T20:43:14Z",
+  "updated": "2026-07-27T22:18:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -703,17 +703,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13910347",
         "posted": "2026-07-13",
         "snippet": "Just imagine turning manufacturing and engineering data into actionable insights that elevate every LEGO® brick’s quality.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist - Store Partnering",
-        "company": "Coop Danmark A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13900704",
-        "posted": "2026-07-06",
-        "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
