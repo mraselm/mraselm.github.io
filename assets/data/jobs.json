@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T22:17:01Z",
+  "updated": "2026-07-28T23:25:59Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -407,17 +407,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "FP&A Analyst (Power BI & Data)",
-        "company": "Hi-Fi Klubben A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1680782",
-        "posted": "2026-07-07",
-        "snippet": "Du bliver en del af Finance på vores hovedkontor i Tilst ved Aarhus og kommer til at arbejde tæt sammen med vores Head of FP&A.Rollen giver dig mulighed for at kombinere klassisk Financial Planning & Analysis med Business Intellig",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Power BI Developer til international koncern",
         "company": "HumanTrust A/S",
         "location": "Denmark",
@@ -438,6 +427,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælpere til research og billedgenkendelse",
+        "company": "VISDA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1678942",
+        "posted": "2026-07-29",
+        "snippet": "Hver dag bruges tusindvis af billeder i bøger, blade, aviser og på nettet – og bag hvert eneste billede står en skaber, der har ret til betaling, når værket bliver brugt.Hos VISDA arbejder vi for, at betalingen når frem til netop",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -594,6 +594,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælpere til research og billedgenkendelse",
+        "company": "VISDA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1678942",
+        "posted": "2026-07-29",
+        "snippet": "Hver dag bruges tusindvis af billeder i bøger, blade, aviser og på nettet – og bag hvert eneste billede står en skaber, der har ret til betaling, når værket bliver brugt.Hos VISDA arbejder vi for, at betalingen når frem til netop",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -973,17 +984,6 @@
       }
     ],
     "graduate program": [
-      {
-        "title": "Bliv salgstrainee i Danmarks største bilhus - Bilernes Hus",
-        "company": "Bjarne Nielsen A/S",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1684981",
-        "posted": "2026-07-28",
-        "snippet": "Bilernes Hus er Danmarks største bilhus, og vi har over 300 biler i udstillingen, som venter på deres næste ejer.Vi søger en ny salgstrainee, der drømmer om at levere flotte resultater i et team med højt tempo og stærkt sammenhold",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
