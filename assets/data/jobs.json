@@ -1,22 +1,11 @@
 {
-  "updated": "2026-07-27T22:18:35Z",
+  "updated": "2026-07-28T00:10:49Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Finance & Settlement Data Analyst",
-        "company": "Hybrid Greentech Energy Intelligence ApS",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1676372",
-        "posted": "2026-07-21",
-        "snippet": "You will be the bridge between trading operations and finance and turning messy settlement data into clean, trusted numbers the business can act on.As an individual contributor working closely with traders, finance, quants, and en",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Pricing & Data Analyst",
         "company": "DEKO p/s",
@@ -112,17 +101,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1680637",
         "posted": "2026-07-06",
         "snippet": "I Byggeri & Anlæg har vi etableret en ny afdeling, Projekt- & Ledelsessupport, der skal sikre datadrevne beslutninger, fælles processer og tværgående udvikling. Du får en central rolle i at udvikle datagrundlaget for projekter, pr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker med stærke Python-kompetencer til Team Risikoanalyser",
-        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1680490",
-        "posted": "2026-07-06",
-        "snippet": "Vi står vi over for en omfattende opgave: At sikre et rent vandmiljø og gennemføre en historisk omlægning af landbrugsarealer til natur og skov. En central del af denne opgave er at sikre en effektiv og korrekt implementering af d",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -395,6 +373,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Business Intelligence-konsulent med stærk data- og forretningsforståelse",
+        "company": "Fonden for Entreprenørskab",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1678499",
+        "posted": "2026-07-28",
+        "snippet": "Vil du være med til at styrke Fonden for Entreprenørskabs datagrundlag, analyser og digitale arbejdsgange?Du skal være med til at sikre, at vores data bliver indsamlet, struktureret, kvalitetssikret og anvendt på en måde, der skab",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Intelligence Consultant",
         "company": "SameSystem A/S",
