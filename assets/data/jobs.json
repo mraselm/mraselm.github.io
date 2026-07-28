@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T20:34:32Z",
+  "updated": "2026-07-28T22:17:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,17 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13903696",
         "posted": "2026-07-08",
         "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Analyst",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13903172",
-        "posted": "2026-07-07",
-        "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -123,17 +112,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1679373",
         "posted": "2026-07-02",
         "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til centerstaben i Neurocentret (NEU) på Rigshospitalet",
-        "company": "Region Hovedstaden",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13902479",
-        "posted": "2026-07-07",
-        "snippet": "Vil du være med til at styrke datagrundlaget på Rigshospitalet og skabe indsigt, der gør en reel forskel for patienter og personale?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
