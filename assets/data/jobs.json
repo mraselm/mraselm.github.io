@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T21:12:41Z",
+  "updated": "2026-07-29T22:13:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -35,17 +35,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13912915",
         "posted": "2026-07-15",
         "snippet": "At Milestone, we pioneer solutions that solve real problems - and we need curious people like you.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst for Beam Instrumentation (SY-BI-SW-2026-127-GRAP)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13903696",
-        "posted": "2026-07-08",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -290,17 +279,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13914718",
         "posted": "2026-07-17",
         "snippet": "Vil du arbejde i krydsfeltet mellem forretning, digitalisering og teknologi – og være med til at omsætte behov og manuelle arbejdsgange til konkrete digitale løsninger?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til support og udvikling af statens digitale økonomiløsninger",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13905413",
-        "posted": "2026-07-08",
-        "snippet": "Brænder du for at komme til bunds i tekniske problemer og give brugerne en god oplevelse?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
