@@ -1,11 +1,55 @@
 {
-  "updated": "2026-07-29T19:44:07Z",
+  "updated": "2026-07-29T21:12:41Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Pricing & Data Analyst",
+        "company": "DEKO p/s",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1679515",
+        "posted": "2026-07-03",
+        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior FP&A & Data Analyst",
+        "company": "Mercell Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13918839",
+        "posted": "2026-07-22",
+        "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Assisant - IT Data Analyst",
+        "company": "Milestone Systems A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13912915",
+        "posted": "2026-07-15",
+        "snippet": "At Milestone, we pioneer solutions that solve real problems - and we need curious people like you.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst for Beam Instrumentation (SY-BI-SW-2026-127-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13903696",
+        "posted": "2026-07-08",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Dataanalytiker til Capital Market Development",
         "company": "Jyske Bank",
@@ -71,50 +115,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Pricing & Data Analyst",
-        "company": "DEKO p/s",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1679515",
-        "posted": "2026-07-03",
-        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Senior FP&A & Data Analyst",
-        "company": "Mercell Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13918839",
-        "posted": "2026-07-22",
-        "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Student Assisant - IT Data Analyst",
-        "company": "Milestone Systems A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13912915",
-        "posted": "2026-07-15",
-        "snippet": "At Milestone, we pioneer solutions that solve real problems - and we need curious people like you.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Data Analyst for Beam Instrumentation (SY-BI-SW-2026-127-GRAP)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13903696",
-        "posted": "2026-07-08",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
