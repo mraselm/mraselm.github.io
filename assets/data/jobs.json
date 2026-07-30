@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T03:31:33Z",
+  "updated": "2026-07-30T06:41:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -15,7 +15,7 @@
         "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior FP&A & Data Analyst",
@@ -26,7 +26,7 @@
         "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Student Assisant - IT Data Analyst",
@@ -37,73 +37,7 @@
         "snippet": "At Milestone, we pioneer solutions that solve real problems - and we need curious people like you.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til Capital Market Development",
-        "company": "Jyske Bank",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1685062",
-        "posted": "2026-07-28",
-        "snippet": "Er du dygtig til at gennemskue og skabe mening i data, og har du erfaring med programmering? Tiltaler komplekse finansielle produkter og markeder dig?Du kommer til at spille en central rolle i opbygningen af et solidt datafundamen",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Vær med til at forme arbejdet med data hos Vores Elnet - dataanalytiker søges",
-        "company": "Energi Fyn",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1684866",
-        "posted": "2026-07-27",
-        "snippet": "Vil du omsætte store mængder måledata til konkrete indsigter, der understøtter fremtidens udnyttelse af elnettet?Som dataanalytiker får du en central rolle i udviklingen af området og er med til at sætte retningen for, hvordan vi",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker",
-        "company": "Odense Letbane",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1682178",
-        "posted": "2026-07-10",
-        "snippet": "Vi arbejder målrettet på tværs af organisationen med at styrke vores beslutningsgrundlag gennem data. Derfor søger vi en dataanalytiker med interesse for datakvalitet, datamodeller og analyse. Vi tilbyderEn central rolle med fokus",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior HR-dataanalytiker til strategisk ledelsesinformation",
-        "company": "Banedanmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1681192",
-        "posted": "2026-07-07",
-        "snippet": "Du bliver en central analytisk rådgiver på HR-området og omsætter HR-data til ledelsesinformation og beslutningsgrundlag for direktion, chefer og forretningsudvalg.Du driver analyserne fra den indledende behovsafklaring til den fæ",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til Projekt- & Ledelsessupport i Byggeri & Anlæg",
-        "company": "HOFOR",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1680637",
-        "posted": "2026-07-06",
-        "snippet": "I Byggeri & Anlæg har vi etableret en ny afdeling, Projekt- & Ledelsessupport, der skal sikre datadrevne beslutninger, fælles processer og tværgående udvikling. Du får en central rolle i at udvikle datagrundlaget for projekter, pr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
-        "company": "Nykredit",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1679373",
-        "posted": "2026-07-02",
-        "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -330,6 +264,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Senior Business Intelligence Developer",
+        "company": "Dansk Sundhedssikring",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1685491",
+        "posted": "2026-07-30",
+        "snippet": "Er du klar til at tage næste skridt i din karriere og være med til at videreudvikle en moderne dataplatform, der understøtter Danmarks største udbyder af sundhedsforsikringer?Du vil arbejde end-to-end med løsningen – fra forståels",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
         "title": "Business Intelligence-konsulent med stærk data- og forretningsforståelse",
         "company": "Fonden for Entreprenørskab",
         "location": "Odense",
@@ -338,7 +283,7 @@
         "snippet": "Vil du være med til at styrke Fonden for Entreprenørskabs datagrundlag, analyser og digitale arbejdsgange?Du skal være med til at sikre, at vores data bliver indsamlet, struktureret, kvalitetssikret og anvendt på en måde, der skab",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Intelligence Consultant",
@@ -349,51 +294,7 @@
         "snippet": "Are you ready to turn data into real commercial value for some of Europe's largest retail and hospitality brands?You'll own the business intelligence and reporting side of our platform: building and maintaining reports in our BI t",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Power Platform & Business Intelligence Developer / Konica Minolta Nordic IT / Enterprise Data & Analytics",
-        "company": "Konica Minolta Business Solutions Denmark a/s",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1676247",
-        "posted": "2026-07-20",
-        "snippet": "Do you want to help shape the future of digital transformation across the Nordics? Play a key role in connecting data, automation, and business performance.You will work at the intersection of business intelligence, process automa",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence Specialist",
-        "company": "Cryos International – Denmark ApS",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1683428",
-        "posted": "2026-07-16",
-        "snippet": "Vil du være med til at udvikle og styrke Cryos' Business Intelligence-platform? Du bliver en del af arbejdet med at udvikle og vedligeholde vores BI-platform og sikre, at organisationen har adgang til pålidelige, relevante og brug",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Power BI Developer til international koncern",
-        "company": "HumanTrust A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680906",
-        "posted": "2026-07-07",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Consultant",
-        "company": "VIKING Life-Saving Equipment A/S",
-        "location": "Esbjerg",
-        "url": "https://www.jobindex.dk/vis-job/h1675185",
-        "posted": "2026-07-15",
-        "snippet": "Har du lyst til at blive del af et globalt team i VIKING’s Digital Department?Du kan forvente en alsidig hverdag, hvor du vil komme til at deltage i forskellige projekter, og af opgaver kan blandt andet nævnes:Modne og designe opg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Studentermedhjælpere til research og billedgenkendelse",
@@ -540,6 +441,28 @@
       }
     ],
     "bi specialist": [
+      {
+        "title": "Power BI Developer til international koncern",
+        "company": "HumanTrust A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680906",
+        "posted": "2026-07-07",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Specialist",
+        "company": "Cryos International – Denmark ApS",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1683428",
+        "posted": "2026-07-16",
+        "snippet": "Vil du være med til at udvikle og styrke Cryos' Business Intelligence-platform? Du bliver en del af arbejdet med at udvikle og vedligeholde vores BI-platform og sikre, at organisationen har adgang til pålidelige, relevante og brug",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Studentermedhjælpere til research og billedgenkendelse",
         "company": "VISDA",
