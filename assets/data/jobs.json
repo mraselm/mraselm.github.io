@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T23:15:53Z",
+  "updated": "2026-07-30T00:13:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -413,17 +413,6 @@
         "url": "https://jobbank.dk/job/2982623/systematic/internship-business-intellig",
         "posted": "2026-02-17",
         "snippet": "Internship at Systematic, Eastern Jutland (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Intelligence Developer",
-        "company": "Systematic",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2971332/systematic/senior-business-intelligence-d",
-        "posted": "2026-01-30",
-        "snippet": "Full-time job at Systematic, Eastern Jutland (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
