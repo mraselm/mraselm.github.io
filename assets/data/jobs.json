@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T09:59:42Z",
+  "updated": "2026-07-31T12:17:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -152,6 +152,61 @@
     ],
     "business analyst": [
       {
+        "title": "BI Business Analyst I",
+        "company": "Hamamatsu Photonics",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680218",
+        "posted": "2026-07-31",
+        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Danmarks Nationalbank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1683485",
+        "posted": "2026-07-17",
+        "snippet": "Som Business Analyst er du en del af sektionen Financial Market Solutions i Bank og Marked, hvor vi driver den forretningsmæssige udvikling af Nationalbankens vigtigste banksystemer.Du vil bl.a. arbejde med at analysere hvordan Na",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "DBI – Dansk Brand- og sikringsteknisk Institut",
+        "location": "Hvidovre",
+        "url": "https://www.jobindex.dk/vis-job/h1682411",
+        "posted": "2026-07-10",
+        "snippet": "Do you enjoy working with Power BI, data models and business questions? In this role, you will have the opportunity to contribute to the further development of DBI’s Data and Analysis area.You will help reduce manual and ad hoc re",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst, Buying Solutions",
+        "company": "BESTSELLER",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1681183",
+        "posted": "2026-07-07",
+        "snippet": "As a Business Analyst in TECH Buying, you'll help uncover the real business need before a single line of code is written. You'll ask questions, challenge assumptions and translate business needs into clear requirements that help t",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13918702",
+        "posted": "2026-07-22",
+        "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Analyst for Group Market Data Management",
         "company": "Danske Bank",
         "location": "Copenhagen",
@@ -171,7 +226,7 @@
         "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor? Vi søger forretningsanalytikere, som kan skabe overblik og sammenhæng mellem forretning, data og leverancer. Rollen",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker med a-kasse-domæneviden",
@@ -182,7 +237,7 @@
         "snippet": "Vil du være med til at definere kravene til næste generation af a-kassesystemer?I den første periode bliver du fuldt dedikeret til programmet, der udvikler kravspecifikationen til kernesystemet. Her bliver du en vigtig medspiller",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
@@ -193,7 +248,7 @@
         "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker til Rigspolitiet",
@@ -204,7 +259,7 @@
         "snippet": "Behovet for automatisering og digitale løsninger er fortsat stigende, og derfor søger vi en forretningsanalytiker, som kan fungere som bindeled mellem det centrale RPA-team i København og resten af dansk politi.Du driver analysefa",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
@@ -215,7 +270,7 @@
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Digital forretningsanalytiker til Cyberdivisionen",
@@ -226,7 +281,7 @@
         "snippet": "Vil du arbejde i krydsfeltet mellem forretning, digitalisering og teknologi – og være med til at omsætte behov og manuelle arbejdsgange til konkrete digitale løsninger?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "IT Business Analyst Intern",
@@ -358,17 +413,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1679139",
         "posted": "2026-07-31",
         "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælpere til research og billedgenkendelse",
-        "company": "VISDA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1678942",
-        "posted": "2026-07-29",
-        "snippet": "Hver dag bruges tusindvis af billeder i bøger, blade, aviser og på nettet – og bag hvert eneste billede står en skaber, der har ret til betaling, når værket bliver brugt.Hos VISDA arbejder vi for, at betalingen når frem til netop",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -514,17 +558,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1679139",
         "posted": "2026-07-31",
         "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælpere til research og billedgenkendelse",
-        "company": "VISDA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1678942",
-        "posted": "2026-07-29",
-        "snippet": "Hver dag bruges tusindvis af billeder i bøger, blade, aviser og på nettet – og bag hvert eneste billede står en skaber, der har ret til betaling, når værket bliver brugt.Hos VISDA arbejder vi for, at betalingen når frem til netop",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
