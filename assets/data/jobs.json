@@ -1,22 +1,11 @@
 {
-  "updated": "2026-07-31T21:28:43Z",
+  "updated": "2026-07-31T23:15:46Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Pricing & Data Analyst",
-        "company": "DEKO p/s",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1679515",
-        "posted": "2026-07-03",
-        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Senior FP&A & Data Analyst",
         "company": "Mercell Danmark A/S",
@@ -218,17 +207,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Business Analyst for Group Market Data Management",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13908440",
-        "posted": "2026-07-10",
-        "snippet": "Join our Group Market Data Management team and help shape how market data is used across one of Northern Europe's leading financial institutions.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytikere til hele statens BI-kontor",
         "company": "Økonomistyrelsen",
         "location": "Copenhagen",
@@ -268,17 +246,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1680459",
         "posted": "2026-07-06",
         "snippet": "Behovet for automatisering og digitale løsninger er fortsat stigende, og derfor søger vi en forretningsanalytiker, som kan fungere som bindeled mellem det centrale RPA-team i København og resten af dansk politi.Du driver analysefa",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
-        "company": "Politi",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1680153",
-        "posted": "2026-07-03",
-        "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -726,28 +693,6 @@
         "posted": "2026-07-07",
         "snippet": "",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student AI Engineer – Conversational AI",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13908438",
-        "posted": "2026-07-10",
-        "snippet": "Are you interested in building AI applications, integrating new technologies, and turning innovative ideas into scalable solutions?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student Data Scientist – Conversational AI",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13908439",
-        "posted": "2026-07-10",
-        "snippet": "Are you a curious and motivated student looking to get experience with the latest advances in Natural Language Processing (NLP) and Generative AI (GenAI)?",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
