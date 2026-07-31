@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T15:28:39Z",
+  "updated": "2026-07-31T17:52:49Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -191,6 +191,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1681183",
         "posted": "2026-07-07",
         "snippet": "As a Business Analyst in TECH Buying, you'll help uncover the real business need before a single line of code is written. You'll ask questions, challenge assumptions and translate business needs into clear requirements that help t",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst - Customer Capabilities",
+        "company": "Danske Bank",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13927086",
+        "posted": "2026-07-31",
+        "snippet": "At Danske Bank, we are executing our “Turn To New Tech” strategy - migrating our stack to cloud-native solutions.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
