@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T22:19:09Z",
+  "updated": "2026-07-31T00:15:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -95,17 +95,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
-        "company": "Nykredit",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1679373",
-        "posted": "2026-07-02",
-        "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Analyst and Process Optimization Lead",
         "company": "ECCO SKO A/S",
         "location": "Denmark",
@@ -152,6 +141,17 @@
     ],
     "business analyst": [
       {
+        "title": "BI Business Analyst I",
+        "company": "Hamamatsu Photonics",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680218",
+        "posted": "2026-07-31",
+        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst",
         "company": "Danmarks Nationalbank",
         "location": "Copenhagen",
@@ -185,17 +185,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "BI Business Analyst I",
-        "company": "Hamamatsu Photonics",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680218",
-        "posted": "2026-07-03",
-        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst",
         "company": "Novo Nordisk A/S",
         "location": "Ballerup",
@@ -214,6 +203,17 @@
         "posted": "2026-07-10",
         "snippet": "Join our Group Market Data Management team and help shape how market data is used across one of Northern Europe's leading financial institutions.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytikere til hele statens BI-kontor",
+        "company": "Økonomistyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1680169",
+        "posted": "2026-07-31",
+        "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor? Vi søger forretningsanalytikere, som kan skabe overblik og sammenhæng mellem forretning, data og leverancer. Rollen",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -246,17 +246,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1680459",
         "posted": "2026-07-06",
         "snippet": "Behovet for automatisering og digitale løsninger er fortsat stigende, og derfor søger vi en forretningsanalytiker, som kan fungere som bindeled mellem det centrale RPA-team i København og resten af dansk politi.Du driver analysefa",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytikere til hele statens BI-kontor",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1680169",
-        "posted": "2026-07-03",
-        "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor? Vi søger forretningsanalytikere, som kan skabe overblik og sammenhæng mellem forretning, data og leverancer. Rollen",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
