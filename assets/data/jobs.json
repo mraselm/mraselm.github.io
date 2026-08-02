@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T21:10:46Z",
+  "updated": "2026-08-02T22:10:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -638,17 +638,6 @@
         "posted": "2026-07-15",
         "snippet": "Vil du skabe synlig værdi gennem brugen af AI, der gør forskel for kunder, forretning og samfundet på kort og langt sigt? I denne rolle kommer du bl.a. til at arbejde med: Udvikling af nye og innovative AI-løsninger rettet mod båd",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Founding Data & ML Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13909336",
-        "posted": "2026-07-12",
-        "snippet": "The ocean is the last unmonitored domain.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
