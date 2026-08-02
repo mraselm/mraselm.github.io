@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T23:12:02Z",
+  "updated": "2026-08-02T00:13:03Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -259,17 +259,6 @@
         "snippet": "Vil du arbejde i krydsfeltet mellem forretning, digitalisering og teknologi – og være med til at omsætte behov og manuelle arbejdsgange til konkrete digitale løsninger?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "IT Business Analyst Intern",
-        "company": "Ganni",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2973090/ganni/it-business-analyst-intern",
-        "posted": "2026-02-02",
-        "snippet": "Internship at Ganni, Greater Copenhagen (Apply by: 27.03.2026)",
-        "lang": "en",
-        "source": "jobbank",
         "job_type": "full-time"
       },
       {
