@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T22:10:21Z",
+  "updated": "2026-08-02T23:12:42Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -235,17 +235,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1682735",
         "posted": "2026-07-13",
         "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til Rigspolitiet",
-        "company": "Politi",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1680459",
-        "posted": "2026-07-06",
-        "snippet": "Behovet for automatisering og digitale løsninger er fortsat stigende, og derfor søger vi en forretningsanalytiker, som kan fungere som bindeled mellem det centrale RPA-team i København og resten af dansk politi.Du driver analysefa",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -560,17 +549,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1683519",
         "posted": "2026-07-17",
         "snippet": "Har du forretningsforståelse og brænder du for data science, AI og machine learning i praksis? Vi søger en Data Scientist med stærke kompetencer inden for data science, AI og machine learning, som vil være med til at udvikle næste",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data scientist til asset management og digital transformation",
-        "company": "Vejdirektoratet",
-        "location": "Remote",
-        "url": "https://www.jobindex.dk/vis-job/h1675264",
-        "posted": "2026-07-15",
-        "snippet": "Vil du arbejde med dataanalyse, modellering og visualisering og samtidig være bindeled mellem forretning, IT og vores eksterne leverandører? Så er du måske vores nye kollega.Du bliver en del af en organisation, hvor fleksibilitet,",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
