@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T21:30:19Z",
+  "updated": "2026-08-03T23:19:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -79,17 +79,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1681192",
         "posted": "2026-07-07",
         "snippet": "Du bliver en central analytisk rådgiver på HR-området og omsætter HR-data til ledelsesinformation og beslutningsgrundlag for direktion, chefer og forretningsudvalg.Du driver analyserne fra den indledende behovsafklaring til den fæ",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til Projekt- & Ledelsessupport i Byggeri & Anlæg",
-        "company": "HOFOR",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1680637",
-        "posted": "2026-07-06",
-        "snippet": "I Byggeri & Anlæg har vi etableret en ny afdeling, Projekt- & Ledelsessupport, der skal sikre datadrevne beslutninger, fælles processer og tværgående udvikling. Du får en central rolle i at udvikle datagrundlaget for projekter, pr",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -367,7 +356,7 @@
         "company": "HumanTrust A/S",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/h1680906",
-        "posted": "2026-07-07",
+        "posted": "2026-08-04",
         "snippet": "",
         "lang": "da",
         "source": "jobindex",
@@ -597,23 +586,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Data Scientist",
-        "company": "LEGO System A/S",
-        "location": "Billund",
-        "url": "https://www.jobindex.dk/vis-job/r13910347",
-        "posted": "2026-07-13",
-        "snippet": "Just imagine turning manufacturing and engineering data into actionable insights that elevate every LEGO® brick’s quality.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Vil du sætte dit præg på Agentic AI som Senior AI Engineer i Norlys?",
         "company": "Norlys",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/h1683032",
         "posted": "2026-07-15",
         "snippet": "Vil du skabe synlig værdi gennem brugen af AI, der gør forskel for kunder, forretning og samfundet på kort og langt sigt? I denne rolle kommer du bl.a. til at arbejde med: Udvikling af nye og innovative AI-løsninger rettet mod båd",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer til banebrydende strategisk projekt - Visma Public Technologies, Aarhus",
+        "company": "Rckt ApS",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1672633",
+        "posted": "2026-08-04",
+        "snippet": "",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -648,17 +637,6 @@
         "posted": "2026-07-13",
         "snippet": "We need you to help design, build and govern the next generation of AI solutions.This is not a research role. You will be close to the client, turning messy real-world processes into something structured that runs in production. T",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer til banebrydende strategisk projekt - Visma Public Technologies, Aarhus",
-        "company": "Rckt ApS",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1672633",
-        "posted": "2026-07-07",
-        "snippet": "",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
