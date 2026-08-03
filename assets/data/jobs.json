@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T07:47:00Z",
+  "updated": "2026-08-03T11:44:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -297,6 +297,17 @@
     ],
     "business intelligence": [
       {
+        "title": "BI Udvikler til Business Intelligence afdelingen",
+        "company": "Davidsen",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/h1686053",
+        "posted": "2026-08-03",
+        "snippet": "Er du stærk inden for datawarehousing, datamodellering og Power BI – og motiveres du af at bygge løsninger, som bliver brugt i hele organisationen?Du får, sammen med en af dine nye kollegaer, ansvaret for vedligeholdelse og videre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Intelligence Developer",
         "company": "Dansk Sundhedssikring",
         "location": "Denmark",
@@ -372,17 +383,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Det Kgl. Bibliotek i Emdrup søger studentermedhjælpere",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1679139",
-        "posted": "2026-07-31",
-        "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -517,19 +517,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Det Kgl. Bibliotek i Emdrup søger studentermedhjælpere",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1679139",
-        "posted": "2026-07-31",
-        "snippet": "Vil du have et studenterjob, hvor du opbygger kompetencer, du direkte kan bruge i dit studie?Vi søger en studentermedhjælper til vores bibliotek, hvor du får praktisk erfaring med bogopstilling, informationssøgning og brugerservic",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Data Scientist",
@@ -626,6 +614,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1683032",
         "posted": "2026-07-15",
         "snippet": "Vil du skabe synlig værdi gennem brugen af AI, der gør forskel for kunder, forretning og samfundet på kort og langt sigt? I denne rolle kommer du bl.a. til at arbejde med: Udvikling af nye og innovative AI-løsninger rettet mod båd",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead AI Engineer - det her finder du ikke andre steder",
+        "company": "Brødrene A & O Johansen A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1686114",
+        "posted": "2026-08-03",
+        "snippet": "Hvad nu, hvis dit næste AI-projekt ikke bare skulle imponere i en demo – men ændre måden, en børsnoteret virksomhed arbejder på?Det kan det komme til nu.Vi bygger et nyt AI-team fra bunden. Og du får en helt unik mulighed for at s",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
