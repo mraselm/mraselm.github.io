@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T03:56:17Z",
+  "updated": "2026-08-03T07:47:00Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -203,6 +203,17 @@
         "posted": "2026-07-22",
         "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
+        "company": "Politi",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1686048",
+        "posted": "2026-08-03",
+        "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
