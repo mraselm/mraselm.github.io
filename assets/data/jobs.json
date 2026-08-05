@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T16:53:10Z",
+  "updated": "2026-08-05T18:53:23Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -185,23 +185,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Seniorkonsulent / Business Analyst til Clearing Service med flair for analyse",
+        "company": "Finans Danmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13933629",
+        "posted": "2026-08-05",
+        "snippet": "Vil du arbejde tæt på ledelsen af en samfundskritisk virksomhed og være med til at sikre struktur, fremdrift og beslutningskraft?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Analyst - Customer Capabilities",
         "company": "Danske Bank",
         "location": "Aarhus",
         "url": "https://www.jobindex.dk/vis-job/r13927086",
         "posted": "2026-07-31",
         "snippet": "At Danske Bank, we are executing our “Turn To New Tech” strategy - migrating our stack to cloud-native solutions.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13918702",
-        "posted": "2026-07-22",
-        "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -575,6 +575,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13934011",
+        "posted": "2026-08-05",
+        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Data Scientist - Store Partnering",
         "company": "Coop Danmark A/S",
         "location": "Denmark",
@@ -658,6 +669,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1681568",
         "posted": "2026-07-13",
         "snippet": "We need you to help design, build and govern the next generation of AI solutions.This is not a research role. You will be close to the client, turning messy real-world processes into something structured that runs in production. T",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Founding AI engineer (technical lead",
+        "company": "equity)",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13933850",
+        "posted": "2026-08-05",
+        "snippet": "Juris is on a mission to make legal issues simpler to solve, for the people who face them.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
