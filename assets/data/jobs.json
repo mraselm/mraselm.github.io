@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T20:39:24Z",
+  "updated": "2026-08-05T22:28:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -24,17 +24,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13918839",
         "posted": "2026-07-22",
         "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student Assisant - IT Data Analyst",
-        "company": "Milestone Systems A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13912915",
-        "posted": "2026-07-15",
-        "snippet": "At Milestone, we pioneer solutions that solve real problems - and we need curious people like you.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -385,6 +374,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Det Kgl. Bibliotek i Aarhus søger en studentermedhjælper",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1681546",
+        "posted": "2026-08-06",
+        "snippet": "Vi søger en studentermedhjælper, der skal arbejde med publikumsbetjening, både i vores skranker og i forbindelse med arrangementer i publikumsområderne. Du vil også komme til at arbejde med en række faste driftsopgaver og vil indg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -517,7 +517,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Det Kgl. Bibliotek i Aarhus søger en studentermedhjælper",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1681546",
+        "posted": "2026-08-06",
+        "snippet": "Vi søger en studentermedhjælper, der skal arbejde med publikumsbetjening, både i vores skranker og i forbindelse med arrangementer i publikumsområderne. Du vil også komme til at arbejde med en række faste driftsopgaver og vil indg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "Data Scientist",
