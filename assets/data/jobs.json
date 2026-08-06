@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T12:19:23Z",
+  "updated": "2026-08-06T15:28:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -385,6 +385,17 @@
         "job_type": "student"
       },
       {
+        "title": "Student Analyst, Data & Analytics",
+        "company": "Better Energy Management",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1687380",
+        "posted": "2026-08-06",
+        "snippet": "Are you a curious and motivated student with an interest in data, software development, clean energy, AI, and real-world business impact?In this role, you will help us build better data foundations, reporting solutions, analytics",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Internship - Business Intelligence",
         "company": "Systematic",
         "location": "Denmark",
@@ -526,6 +537,17 @@
         "posted": "2026-08-06",
         "snippet": "Vi søger en studentermedhjælper, der skal arbejde med publikumsbetjening, både i vores skranker og i forbindelse med arrangementer i publikumsområderne. Du vil også komme til at arbejde med en række faste driftsopgaver og vil indg",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Student Analyst, Data & Analytics",
+        "company": "Better Energy Management",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1687380",
+        "posted": "2026-08-06",
+        "snippet": "Are you a curious and motivated student with an interest in data, software development, clean energy, AI, and real-world business impact?In this role, you will help us build better data foundations, reporting solutions, analytics",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       }
