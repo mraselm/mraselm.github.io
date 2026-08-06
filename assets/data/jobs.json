@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T06:46:25Z",
+  "updated": "2026-08-06T09:58:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -130,6 +130,17 @@
     ],
     "business analyst": [
       {
+        "title": "Seniorkonsulent/Business Analyst til Clearing Service med flair for analyse",
+        "company": "Finans Danmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1687182",
+        "posted": "2026-08-06",
+        "snippet": "Vil du arbejde tæt på ledelsen af en samfundskritisk virksomhed og være med til at sikre struktur, fremdrift og beslutningskraft?Du arbejder i krydsfeltet mellem strategi, governance, drift og udvikling og sikrer, at bestyrelse og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Erfarne Business Analysts/forretningsanalytikere til to centrale teams i statens gældsinddrivelse",
         "company": "Udviklings- og Forenklingsstyrelsen",
         "location": "Frederiksberg",
@@ -170,17 +181,6 @@
         "posted": "2026-07-10",
         "snippet": "Do you enjoy working with Power BI, data models and business questions? In this role, you will have the opportunity to contribute to the further development of DBI’s Data and Analysis area.You will help reduce manual and ad hoc re",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Seniorkonsulent / Business Analyst til Clearing Service med flair for analyse",
-        "company": "Finans Danmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13933629",
-        "posted": "2026-08-05",
-        "snippet": "Vil du arbejde tæt på ledelsen af en samfundskritisk virksomhed og være med til at sikre struktur, fremdrift og beslutningskraft?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
