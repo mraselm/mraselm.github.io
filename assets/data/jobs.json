@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T03:18:52Z",
+  "updated": "2026-08-07T05:50:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,61 +25,6 @@
         "posted": "2026-07-22",
         "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Vil du være dataanalytiker og søger du en hverdag, der kombinerer dine evner inden for kodning og analyse med reel værdiskabelse?",
-        "company": "Udlændinge- og Integrationsministeriet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1686491",
-        "posted": "2026-08-04",
-        "snippet": "Du får en central rolle i en statslig styrelse med højt til loftet, fokus på faglig udvikling, nærværende ledelse og fleksible rammer for tilrettelæggelsen af din arbejdstid.Dine primære arbejdsopgaver vil bl.a. være inden for dri",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
-        "company": "Nykredit",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1685756",
-        "posted": "2026-07-31",
-        "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til Capital Market Development",
-        "company": "Jyske Bank",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1685062",
-        "posted": "2026-07-28",
-        "snippet": "Er du dygtig til at gennemskue og skabe mening i data, og har du erfaring med programmering? Tiltaler komplekse finansielle produkter og markeder dig?Du kommer til at spille en central rolle i opbygningen af et solidt datafundamen",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Vær med til at forme arbejdet med data hos Vores Elnet - dataanalytiker søges",
-        "company": "Energi Fyn",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1684866",
-        "posted": "2026-07-27",
-        "snippet": "Vil du omsætte store mængder måledata til konkrete indsigter, der understøtter fremtidens udnyttelse af elnettet?Som dataanalytiker får du en central rolle i udviklingen af området og er med til at sætte retningen for, hvordan vi",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker",
-        "company": "Odense Letbane",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1682178",
-        "posted": "2026-07-10",
-        "snippet": "Vi arbejder målrettet på tværs af organisationen med at styrke vores beslutningsgrundlag gennem data. Derfor søger vi en dataanalytiker med interesse for datakvalitet, datamodeller og analyse. Vi tilbyderEn central rolle med fokus",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -336,17 +281,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1684584",
         "posted": "2026-07-24",
         "snippet": "Are you ready to turn data into real commercial value for some of Europe's largest retail and hospitality brands?You'll own the business intelligence and reporting side of our platform: building and maintaining reports in our BI t",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Power Platform & Business Intelligence Developer / Konica Minolta Nordic IT / Enterprise Data & Analytics",
-        "company": "Konica Minolta Business Solutions Denmark a/s",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1676247",
-        "posted": "2026-07-20",
-        "snippet": "Do you want to help shape the future of digital transformation across the Nordics? Play a key role in connecting data, automation, and business performance.You will work at the intersection of business intelligence, process automa",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
