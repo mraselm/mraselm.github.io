@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T21:56:01Z",
+  "updated": "2026-08-07T22:55:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -174,17 +174,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst",
-        "company": "DBI – Dansk Brand- og sikringsteknisk Institut",
-        "location": "Hvidovre",
-        "url": "https://www.jobindex.dk/vis-job/h1682411",
-        "posted": "2026-07-10",
-        "snippet": "Do you enjoy working with Power BI, data models and business questions? In this role, you will have the opportunity to contribute to the further development of DBI’s Data and Analysis area.You will help reduce manual and ad hoc re",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Sr Business Analyst",
         "company": "Novo Nordisk A/S",
         "location": "Ballerup",
@@ -202,6 +191,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13927086",
         "posted": "2026-07-31",
         "snippet": "At Danske Bank, we are executing our “Turn To New Tech” strategy - migrating our stack to cloud-native solutions.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13918702",
+        "posted": "2026-07-22",
+        "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -246,17 +246,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1682735",
         "posted": "2026-07-13",
         "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Digital forretningsanalytiker til Cyberdivisionen",
-        "company": "Forsvaret",
-        "location": "Hvidovre",
-        "url": "https://www.jobindex.dk/vis-job/r13914718",
-        "posted": "2026-07-17",
-        "snippet": "Vil du arbejde i krydsfeltet mellem forretning, digitalisering og teknologi – og være med til at omsætte behov og manuelle arbejdsgange til konkrete digitale løsninger?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -538,17 +527,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1683519",
         "posted": "2026-07-17",
         "snippet": "Har du forretningsforståelse og brænder du for data science, AI og machine learning i praksis? Vi søger en Data Scientist med stærke kompetencer inden for data science, AI og machine learning, som vil være med til at udvikle næste",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist - vil du være med til at udvikle fremtidens AI- og Machine Learning-løsninger?",
-        "company": "LB Forsikring",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1682199",
-        "posted": "2026-07-10",
-        "snippet": "Vil du være med til at omsætte data til intelligente løsninger, der skaber værdi for forretningen?Du får en central rolle i udviklingen af AI- og Machine Learning-løsninger på vores moderne cloud-baserede dataplatform. Vi arbejder",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
