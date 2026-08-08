@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T16:52:32Z",
+  "updated": "2026-08-08T17:46:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -532,6 +532,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Science Manager",
+        "company": "Mover Systems ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13937780",
+        "posted": "2026-08-08",
+        "snippet": "Founded in 2016, Mover is a Danish logistics technology company on a mission to change logistics for good, cutting waste and making...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist til Steno Diabetes Center Aarhus (SDCA) Innovation, Aarhus Universitetshospital",
         "company": "Region Midtjylland",
         "location": "Aarhus",
@@ -637,6 +648,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1682599",
         "posted": "2026-07-13",
         "snippet": "Do you want to help shape AI in everyday software development and business operations?You will play a central role in building our capability to use AI agents across all Group Digital deliveries and business processes. This spans",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Neurons Inc.",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/r13937786",
+        "posted": "2026-08-08",
+        "snippet": "At Neurons, we help the world’s leading brands predict how people will perceive, feel, and react to creative; before it goes live.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
