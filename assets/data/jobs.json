@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T04:28:49Z",
+  "updated": "2026-08-08T05:56:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -286,50 +286,6 @@
     ],
     "business intelligence": [
       {
-        "title": "BI Udvikler til Business Intelligence afdelingen",
-        "company": "Davidsen",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/h1686053",
-        "posted": "2026-08-03",
-        "snippet": "Er du stærk inden for datawarehousing, datamodellering og Power BI – og motiveres du af at bygge løsninger, som bliver brugt i hele organisationen?Du får, sammen med en af dine nye kollegaer, ansvaret for vedligeholdelse og videre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Intelligence Developer",
-        "company": "Dansk Sundhedssikring",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1685491",
-        "posted": "2026-07-30",
-        "snippet": "Er du klar til at tage næste skridt i din karriere og være med til at videreudvikle en moderne dataplatform, der understøtter Danmarks største udbyder af sundhedsforsikringer?Du vil arbejde end-to-end med løsningen – fra forståels",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence-konsulent med stærk data- og forretningsforståelse",
-        "company": "Fonden for Entreprenørskab",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1678499",
-        "posted": "2026-07-28",
-        "snippet": "Vil du være med til at styrke Fonden for Entreprenørskabs datagrundlag, analyser og digitale arbejdsgange?Du skal være med til at sikre, at vores data bliver indsamlet, struktureret, kvalitetssikret og anvendt på en måde, der skab",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence Consultant",
-        "company": "SameSystem A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1684584",
-        "posted": "2026-07-24",
-        "snippet": "Are you ready to turn data into real commercial value for some of Europe's largest retail and hospitality brands?You'll own the business intelligence and reporting side of our platform: building and maintaining reports in our BI t",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Power BI Developer til international koncern",
         "company": "HumanTrust A/S",
         "location": "Denmark",
@@ -338,18 +294,7 @@
         "snippet": "",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Consultant",
-        "company": "VIKING Life-Saving Equipment A/S",
-        "location": "Esbjerg",
-        "url": "https://www.jobindex.dk/vis-job/h1675185",
-        "posted": "2026-07-15",
-        "snippet": "Har du lyst til at blive del af et globalt team i VIKING’s Digital Department?Du kan forvente en alsidig hverdag, hvor du vil komme til at deltage i forskellige projekter, og af opgaver kan blandt andet nævnes:Modne og designe opg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -484,75 +429,8 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Student Analyst, Data & Analytics",
-        "company": "Better Energy Management",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1687380",
-        "posted": "2026-08-06",
-        "snippet": "Are you a curious and motivated student with an interest in data, software development, clean energy, AI, and real-world business impact?In this role, you will help us build better data foundations, reporting solutions, analytics",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
-      {
-        "title": "Data Scientist",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1685125",
-        "posted": "2026-07-28",
-        "snippet": "Do you possess a proactive attitude and thrive in a data-driven decision making environment?You and the team have the responsibility of driving strategic projects across business units utilizing and processing the huge amount of d",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientists for Big Data, IoT and AI projects",
-        "company": "BEUMER Group A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1675903",
-        "posted": "2026-07-17",
-        "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist med forretningsforståelse",
-        "company": "3C RETAIL A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1683519",
-        "posted": "2026-07-17",
-        "snippet": "Har du forretningsforståelse og brænder du for data science, AI og machine learning i praksis? Vi søger en Data Scientist med stærke kompetencer inden for data science, AI og machine learning, som vil være med til at udvikle næste",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til Steno Diabetes Center Aarhus (SDCA) Innovation, Aarhus Universitetshospital",
-        "company": "Region Midtjylland",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13936703",
-        "posted": "2026-08-06",
-        "snippet": "Hos SDCA Innovation søger vi pr. 1. september 2026 en erfaren data scientist til udvikling og implementering af machine learning og...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
-        "company": "Devoteam A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13934011",
-        "posted": "2026-08-05",
-        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Senior Data Scientist - Store Partnering",
         "company": "Coop Danmark A/S",
@@ -648,6 +526,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13935440",
         "posted": "2026-08-06",
         "snippet": "Design and implement sophisticated AI agents that directly drive banker productivity.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13934011",
+        "posted": "2026-08-05",
+        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
