@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T23:45:24Z",
+  "updated": "2026-08-09T02:29:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -37,7 +37,7 @@
         "snippet": "Du får en central rolle i en statslig styrelse med højt til loftet, fokus på faglig udvikling, nærværende ledelse og fleksible rammer for tilrettelæggelsen af din arbejdstid.Dine primære arbejdsopgaver vil bl.a. være inden for dri",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
@@ -48,7 +48,7 @@
         "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker til Capital Market Development",
@@ -59,7 +59,7 @@
         "snippet": "Er du dygtig til at gennemskue og skabe mening i data, og har du erfaring med programmering? Tiltaler komplekse finansielle produkter og markeder dig?Du kommer til at spille en central rolle i opbygningen af et solidt datafundamen",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Vær med til at forme arbejdet med data hos Vores Elnet - dataanalytiker søges",
@@ -70,7 +70,7 @@
         "snippet": "Vil du omsætte store mængder måledata til konkrete indsigter, der understøtter fremtidens udnyttelse af elnettet?Som dataanalytiker får du en central rolle i udviklingen af området og er med til at sætte retningen for, hvordan vi",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker",
@@ -81,7 +81,7 @@
         "snippet": "Vi arbejder målrettet på tværs af organisationen med at styrke vores beslutningsgrundlag gennem data. Derfor søger vi en dataanalytiker med interesse for datakvalitet, datamodeller og analyse. Vi tilbyderEn central rolle med fokus",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -215,7 +215,7 @@
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytikere til hele statens BI-kontor",
@@ -226,7 +226,7 @@
         "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor? Vi søger forretningsanalytikere, som kan skabe overblik og sammenhæng mellem forretning, data og leverancer. Rollen",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker med a-kasse-domæneviden",
@@ -237,7 +237,7 @@
         "snippet": "Vil du være med til at definere kravene til næste generation af a-kassesystemer?I den første periode bliver du fuldt dedikeret til programmet, der udvikler kravspecifikationen til kernesystemet. Her bliver du en vigtig medspiller",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
@@ -248,7 +248,7 @@
         "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst",
@@ -286,12 +286,23 @@
     ],
     "business intelligence": [
       {
-        "title": "BI Udvikler til Business Intelligence afdelingen",
-        "company": "Davidsen",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/h1686053",
-        "posted": "2026-08-03",
-        "snippet": "Er du stærk inden for datawarehousing, datamodellering og Power BI – og motiveres du af at bygge løsninger, som bliver brugt i hele organisationen?Du får, sammen med en af dine nye kollegaer, ansvaret for vedligeholdelse og videre",
+        "title": "Business Intelligence Consultant",
+        "company": "SameSystem A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1684584",
+        "posted": "2026-07-24",
+        "snippet": "Are you ready to turn data into real commercial value for some of Europe's largest retail and hospitality brands?You'll own the business intelligence and reporting side of our platform: building and maintaining reports in our BI t",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI Consultant",
+        "company": "VIKING Life-Saving Equipment A/S",
+        "location": "Esbjerg",
+        "url": "https://www.jobindex.dk/vis-job/h1675185",
+        "posted": "2026-07-15",
+        "snippet": "Har du lyst til at blive del af et globalt team i VIKING’s Digital Department?Du kan forvente en alsidig hverdag, hvor du vil komme til at deltage i forskellige projekter, og af opgaver kan blandt andet nævnes:Modne og designe opg",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -308,6 +319,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "BI Udvikler til Business Intelligence afdelingen",
+        "company": "Davidsen",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/h1686053",
+        "posted": "2026-08-03",
+        "snippet": "Er du stærk inden for datawarehousing, datamodellering og Power BI – og motiveres du af at bygge løsninger, som bliver brugt i hele organisationen?Du får, sammen med en af dine nye kollegaer, ansvaret for vedligeholdelse og videre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
         "title": "Business Intelligence-konsulent med stærk data- og forretningsforståelse",
         "company": "Fonden for Entreprenørskab",
         "location": "Odense",
@@ -316,40 +338,7 @@
         "snippet": "Vil du være med til at styrke Fonden for Entreprenørskabs datagrundlag, analyser og digitale arbejdsgange?Du skal være med til at sikre, at vores data bliver indsamlet, struktureret, kvalitetssikret og anvendt på en måde, der skab",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence Consultant",
-        "company": "SameSystem A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1684584",
-        "posted": "2026-07-24",
-        "snippet": "Are you ready to turn data into real commercial value for some of Europe's largest retail and hospitality brands?You'll own the business intelligence and reporting side of our platform: building and maintaining reports in our BI t",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Power BI Developer til international koncern",
-        "company": "HumanTrust A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680906",
-        "posted": "2026-08-04",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Consultant",
-        "company": "VIKING Life-Saving Equipment A/S",
-        "location": "Esbjerg",
-        "url": "https://www.jobindex.dk/vis-job/h1675185",
-        "posted": "2026-07-15",
-        "snippet": "Har du lyst til at blive del af et globalt team i VIKING’s Digital Department?Du kan forvente en alsidig hverdag, hvor du vil komme til at deltage i forskellige projekter, og af opgaver kan blandt andet nævnes:Modne og designe opg",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -485,6 +474,17 @@
       }
     ],
     "bi specialist": [
+      {
+        "title": "Power BI Developer til international koncern",
+        "company": "HumanTrust A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680906",
+        "posted": "2026-08-04",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Student Analyst, Data & Analytics",
         "company": "Better Energy Management",
