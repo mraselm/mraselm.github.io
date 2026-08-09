@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T21:48:14Z",
+  "updated": "2026-08-09T22:50:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -40,17 +40,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Bliv dataanalytiker i Data Governance Execution & Technology hos Nykredit",
-        "company": "Nykredit",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1685756",
-        "posted": "2026-07-31",
-        "snippet": "Har du solide analytiske færdigheder og erfaring med at skabe overblik over komplekse datalandskaber?Du bliver en vigtig del af et centralt team, der arbejder med at omsætte data governance-principper til praksis på tværs af Nykre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Dataanalytiker til Capital Market Development",
         "company": "Jyske Bank",
         "location": "Silkeborg",
@@ -68,17 +57,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1684866",
         "posted": "2026-07-27",
         "snippet": "Vil du omsætte store mængder måledata til konkrete indsigter, der understøtter fremtidens udnyttelse af elnettet?Som dataanalytiker får du en central rolle i udviklingen af området og er med til at sætte retningen for, hvordan vi",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker",
-        "company": "Odense Letbane",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1682178",
-        "posted": "2026-07-10",
-        "snippet": "Vi arbejder målrettet på tværs af organisationen med at styrke vores beslutningsgrundlag gennem data. Derfor søger vi en dataanalytiker med interesse for datakvalitet, datamodeller og analyse. Vi tilbyderEn central rolle med fokus",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -207,6 +185,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
+        "company": "AL Sydbank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1682735",
+        "posted": "2026-08-10",
+        "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
         "company": "Politi",
         "location": "Glostrup",
@@ -235,17 +224,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1684868",
         "posted": "2026-07-27",
         "snippet": "Vil du være med til at definere kravene til næste generation af a-kassesystemer?I den første periode bliver du fuldt dedikeret til programmet, der udvikler kravspecifikationen til kernesystemet. Her bliver du en vigtig medspiller",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
-        "company": "AL Sydbank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1682735",
-        "posted": "2026-07-13",
-        "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -594,17 +572,6 @@
         "posted": "2026-07-21",
         "snippet": "The Principal Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Vil du sætte dit præg på Agentic AI som Senior AI Engineer i Norlys?",
-        "company": "Norlys",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1683032",
-        "posted": "2026-07-15",
-        "snippet": "Vil du skabe synlig værdi gennem brugen af AI, der gør forskel for kunder, forretning og samfundet på kort og langt sigt? I denne rolle kommer du bl.a. til at arbejde med: Udvikling af nye og innovative AI-løsninger rettet mod båd",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
