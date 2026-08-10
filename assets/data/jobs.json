@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T04:54:51Z",
+  "updated": "2026-08-10T06:42:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,6 +25,17 @@
         "posted": "2026-07-22",
         "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dygtig dataanalytiker med fokus på processer og formidling",
+        "company": "Motorstyrelsen",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1687925",
+        "posted": "2026-08-10",
+        "snippet": "Har du skarpe metodiske og dataanalytiske kompetencer, og kan du formidle komplekse dataanalyser tydeligt? Vil du være med til at præge udviklingen i en statslig styrelse?Som vores nye kollega vil der blive rig mulighed for at præ",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -451,19 +462,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Student Analyst, Data & Analytics",
-        "company": "Better Energy Management",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1687380",
-        "posted": "2026-08-06",
-        "snippet": "Are you a curious and motivated student with an interest in data, software development, clean energy, AI, and real-world business impact?In this role, you will help us build better data foundations, reporting solutions, analytics",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Data Scientist",
