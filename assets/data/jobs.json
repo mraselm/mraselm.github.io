@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T21:58:26Z",
+  "updated": "2026-08-10T22:56:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -213,17 +213,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1686048",
         "posted": "2026-08-03",
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytikere til hele statens BI-kontor",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1680169",
-        "posted": "2026-07-31",
-        "snippet": "Vil du være med til at omsætte komplekse data til klare indsigter, der styrker styringen af den statslige sektor? Vi søger forretningsanalytikere, som kan skabe overblik og sammenhæng mellem forretning, data og leverancer. Rollen",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -487,17 +476,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist med forretningsforståelse",
-        "company": "3C RETAIL A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1683519",
-        "posted": "2026-07-17",
-        "snippet": "Har du forretningsforståelse og brænder du for data science, AI og machine learning i praksis? Vi søger en Data Scientist med stærke kompetencer inden for data science, AI og machine learning, som vil være med til at udvikle næste",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Science Manager",
         "company": "Mover Systems ApS",
         "location": "Copenhagen",
@@ -582,17 +560,6 @@
         "posted": "2026-08-03",
         "snippet": "Hvad nu, hvis dit næste AI-projekt ikke bare skulle imponere i en demo – men ændre måden, en børsnoteret virksomhed arbejder på?Det kan det komme til nu.Vi bygger et nyt AI-team fra bunden. Og du får en helt unik mulighed for at s",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer - Group Digital",
-        "company": "Wrist Ship Supply",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1682599",
-        "posted": "2026-07-13",
-        "snippet": "Do you want to help shape AI in everyday software development and business operations?You will play a central role in building our capability to use AI agents across all Group Digital deliveries and business processes. This spans",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
