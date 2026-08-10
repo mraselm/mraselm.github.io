@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T06:42:19Z",
+  "updated": "2026-08-10T08:51:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -560,6 +560,17 @@
         "posted": "2026-07-21",
         "snippet": "The Principal Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "HOFOR",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1687963",
+        "posted": "2026-08-10",
+        "snippet": "Vil du være med til at bygge vores nye fælles AI-platform fra fundament til drift?Du bliver en del af AI & BI Udvikling og får en central rolle i at designe, udvikle og modne de komponenter, integrationer og driftsmodeller, der sk",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
