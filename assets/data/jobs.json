@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T11:59:00Z",
+  "updated": "2026-08-10T13:44:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -275,34 +275,12 @@
     ],
     "business intelligence": [
       {
-        "title": "BI Udvikler til Business Intelligence afdelingen",
-        "company": "Davidsen",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/h1686053",
-        "posted": "2026-08-03",
-        "snippet": "Er du stærk inden for datawarehousing, datamodellering og Power BI – og motiveres du af at bygge løsninger, som bliver brugt i hele organisationen?Du får, sammen med en af dine nye kollegaer, ansvaret for vedligeholdelse og videre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Intelligence Developer",
-        "company": "Dansk Sundhedssikring",
+        "title": "Power BI Developer til international koncern",
+        "company": "HumanTrust A/S",
         "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1685491",
-        "posted": "2026-07-30",
-        "snippet": "Er du klar til at tage næste skridt i din karriere og være med til at videreudvikle en moderne dataplatform, der understøtter Danmarks største udbyder af sundhedsforsikringer?Du vil arbejde end-to-end med løsningen – fra forståels",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence-konsulent med stærk data- og forretningsforståelse",
-        "company": "Fonden for Entreprenørskab",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1678499",
-        "posted": "2026-07-28",
-        "snippet": "Vil du være med til at styrke Fonden for Entreprenørskabs datagrundlag, analyser og digitale arbejdsgange?Du skal være med til at sikre, at vores data bliver indsamlet, struktureret, kvalitetssikret og anvendt på en måde, der skab",
+        "url": "https://www.jobindex.dk/vis-job/h1680906",
+        "posted": "2026-08-04",
+        "snippet": "",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -319,23 +297,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Power BI Developer til international koncern",
-        "company": "HumanTrust A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680906",
-        "posted": "2026-08-04",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "BI Consultant",
         "company": "VIKING Life-Saving Equipment A/S",
         "location": "Esbjerg",
         "url": "https://www.jobindex.dk/vis-job/h1675185",
         "posted": "2026-07-15",
         "snippet": "Har du lyst til at blive del af et globalt team i VIKING’s Digital Department?Du kan forvente en alsidig hverdag, hvor du vil komme til at deltage i forskellige projekter, og af opgaver kan blandt andet nævnes:Modne og designe opg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Intelligence Developer",
+        "company": "Dansk Sundhedssikring",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1685491",
+        "posted": "2026-07-30",
+        "snippet": "Er du klar til at tage næste skridt i din karriere og være med til at videreudvikle en moderne dataplatform, der understøtter Danmarks største udbyder af sundhedsforsikringer?Du vil arbejde end-to-end med løsningen – fra forståels",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
