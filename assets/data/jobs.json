@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T08:51:16Z",
+  "updated": "2026-08-10T10:36:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -570,28 +570,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1687963",
         "posted": "2026-08-10",
         "snippet": "Vil du være med til at bygge vores nye fælles AI-platform fra fundament til drift?Du bliver en del af AI & BI Udvikling og får en central rolle i at designe, udvikle og modne de komponenter, integrationer og driftsmodeller, der sk",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer / AI Consultant",
-        "company": "NTT DATA Business Solutions A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1681568",
-        "posted": "2026-08-06",
-        "snippet": "We need you to help design, build and govern the next generation of AI solutions.This is not a research role. You will be close to the client, turning messy real-world processes into something structured that runs in production. T",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer til banebrydende strategisk projekt - Visma Public Technologies, Aarhus",
-        "company": "Rckt ApS",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1672633",
-        "posted": "2026-08-04",
-        "snippet": "",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
