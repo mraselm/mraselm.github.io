@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T22:56:35Z",
+  "updated": "2026-08-10T23:51:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -204,7 +204,7 @@
         "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
@@ -215,7 +215,7 @@
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker med a-kasse-domæneviden",
@@ -226,7 +226,7 @@
         "snippet": "Vil du være med til at definere kravene til næste generation af a-kassesystemer?I den første periode bliver du fuldt dedikeret til programmet, der udvikler kravspecifikationen til kernesystemet. Her bliver du en vigtig medspiller",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst",
@@ -308,17 +308,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Power BI Developer til international koncern",
-        "company": "HumanTrust A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680906",
-        "posted": "2026-08-04",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "BI Consultant",
         "company": "VIKING Life-Saving Equipment A/S",
         "location": "Esbjerg",
@@ -328,6 +317,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Power BI Developer til international koncern",
+        "company": "HumanTrust A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680906",
+        "posted": "2026-08-04",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Internship - Business Intelligence",
@@ -359,28 +359,6 @@
         "posted": "2026-03-03",
         "snippet": "Full-time job at Solita ApS, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: none specified)",
         "lang": "da",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence Specialist",
-        "company": "Magasin.dk",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2941212/magasindk/business-intelligence-speciali",
-        "posted": "2026-02-11",
-        "snippet": "Full-time job at Magasin.dk, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Global Business Intelligence Specialist - Pharmacosmos",
-        "company": "PHARMACOSMOS A/S",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2900565/pharmacosmos-as/global-business-intelligence-s",
-        "posted": "2026-02-11",
-        "snippet": "Full-time job at PHARMACOSMOS A/S, West Zealand (Apply by: 31.03.2026)",
-        "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
       },
