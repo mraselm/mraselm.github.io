@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T11:57:42Z",
+  "updated": "2026-08-11T13:42:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -538,6 +538,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13917681",
         "posted": "2026-07-21",
         "snippet": "The Principal Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "MyDefence A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1688532",
+        "posted": "2026-08-11",
+        "snippet": "We are looking for an AI Engineer who can help shape and implement MyDefence’s approach to artificial intelligence.This is a role for someone who enjoys working at the intersection of strategy and hands-on technology: Someone who",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
