@@ -1,11 +1,33 @@
 {
-  "updated": "2026-08-11T17:13:31Z",
+  "updated": "2026-08-11T18:08:04Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Pricing & Data Analyst",
+        "company": "DEKO p/s",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1679515",
+        "posted": "2026-08-05",
+        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior FP&A & Data Analyst",
+        "company": "Mercell Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13918839",
+        "posted": "2026-07-22",
+        "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Dygtig dataanalytiker med fokus på processer og formidling",
         "company": "Motorstyrelsen",
@@ -49,28 +71,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Pricing & Data Analyst",
-        "company": "DEKO p/s",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1679515",
-        "posted": "2026-08-05",
-        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Senior FP&A & Data Analyst",
-        "company": "Mercell Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13918839",
-        "posted": "2026-07-22",
-        "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -119,12 +119,12 @@
     ],
     "business analyst": [
       {
-        "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
-        "company": "AL Sydbank",
+        "title": "Seniorkonsulent/Business Analyst til Clearing Service med flair for analyse",
+        "company": "Finans Danmark",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1682735",
-        "posted": "2026-08-10",
-        "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
+        "url": "https://www.jobindex.dk/vis-job/h1687182",
+        "posted": "2026-08-06",
+        "snippet": "Vil du arbejde tæt på ledelsen af en samfundskritisk virksomhed og være med til at sikre struktur, fremdrift og beslutningskraft?Du arbejder i krydsfeltet mellem strategi, governance, drift og udvikling og sikrer, at bestyrelse og",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -136,6 +136,72 @@
         "url": "https://www.jobindex.dk/vis-job/h1687066",
         "posted": "2026-08-05",
         "snippet": "Forestil dig en hverdag, hvor du kan arbejde med både udvikling og drift, og du indgår i et team, hvor dine opgaver gør en forskel for samfundet. Vi søger erfarne Business Analysts, der kan spille en vigtig rolle i at forstå Gælds",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI Business Analyst I",
+        "company": "Hamamatsu Photonics",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680218",
+        "posted": "2026-07-31",
+        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Danmarks Nationalbank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1683485",
+        "posted": "2026-07-17",
+        "snippet": "Som Business Analyst er du en del af sektionen Financial Market Solutions i Bank og Marked, hvor vi driver den forretningsmæssige udvikling af Nationalbankens vigtigste banksystemer.Du vil bl.a. arbejde med at analysere hvordan Na",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Sr Business Analyst",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13935706",
+        "posted": "2026-08-06",
+        "snippet": "Shape how 60,000+ colleagues work every day – by turning business needs into smarter, scalable digital workplace solutions that support Novo Nordisk's global mission.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst - Customer Capabilities",
+        "company": "Danske Bank",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13927086",
+        "posted": "2026-07-31",
+        "snippet": "At Danske Bank, we are executing our “Turn To New Tech” strategy - migrating our stack to cloud-native solutions.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Novo Nordisk A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r13918702",
+        "posted": "2026-07-22",
+        "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
+        "company": "AL Sydbank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1682735",
+        "posted": "2026-08-10",
+        "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -161,72 +227,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Seniorkonsulent/Business Analyst til Clearing Service med flair for analyse",
-        "company": "Finans Danmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1687182",
-        "posted": "2026-08-06",
-        "snippet": "Vil du arbejde tæt på ledelsen af en samfundskritisk virksomhed og være med til at sikre struktur, fremdrift og beslutningskraft?Du arbejder i krydsfeltet mellem strategi, governance, drift og udvikling og sikrer, at bestyrelse og",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "BI Business Analyst I",
-        "company": "Hamamatsu Photonics",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680218",
-        "posted": "2026-07-31",
-        "snippet": "Excited to make a real impact while diving into the finance world? Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively with",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Danmarks Nationalbank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1683485",
-        "posted": "2026-07-17",
-        "snippet": "Som Business Analyst er du en del af sektionen Financial Market Solutions i Bank og Marked, hvor vi driver den forretningsmæssige udvikling af Nationalbankens vigtigste banksystemer.Du vil bl.a. arbejde med at analysere hvordan Na",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Sr Business Analyst",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13935706",
-        "posted": "2026-08-06",
-        "snippet": "Shape how 60,000+ colleagues work every day – by turning business needs into smarter, scalable digital workplace solutions that support Novo Nordisk's global mission.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Senior Business Analyst - Customer Capabilities",
-        "company": "Danske Bank",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13927086",
-        "posted": "2026-07-31",
-        "snippet": "At Danske Bank, we are executing our “Turn To New Tech” strategy - migrating our stack to cloud-native solutions.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13918702",
-        "posted": "2026-07-22",
-        "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Business Analyst",
