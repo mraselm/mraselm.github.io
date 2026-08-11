@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T21:04:58Z",
+  "updated": "2026-08-11T22:05:15Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -516,28 +516,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13930613",
         "posted": "2026-08-04",
         "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13917682",
-        "posted": "2026-07-21",
-        "snippet": "The Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI and machine...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Principal Data Scientist",
-        "company": "Novo Nordisk A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r13917681",
-        "posted": "2026-07-21",
-        "snippet": "The Principal Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
