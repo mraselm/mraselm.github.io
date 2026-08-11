@@ -1,33 +1,11 @@
 {
-  "updated": "2026-08-10T23:51:10Z",
+  "updated": "2026-08-11T02:27:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Pricing & Data Analyst",
-        "company": "DEKO p/s",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1679515",
-        "posted": "2026-08-05",
-        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior FP&A & Data Analyst",
-        "company": "Mercell Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13918839",
-        "posted": "2026-07-22",
-        "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dygtig dataanalytiker med fokus på processer og formidling",
         "company": "Motorstyrelsen",
@@ -71,6 +49,28 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Pricing & Data Analyst",
+        "company": "DEKO p/s",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1679515",
+        "posted": "2026-08-05",
+        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Senior FP&A & Data Analyst",
+        "company": "Mercell Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13918839",
+        "posted": "2026-07-22",
+        "snippet": "At Mercell, we're on a mission to revolutionize public procurement, making it accessible and effortless for everyone involved.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -204,7 +204,7 @@
         "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
@@ -215,7 +215,7 @@
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Forretningsanalytiker med a-kasse-domæneviden",
@@ -226,7 +226,7 @@
         "snippet": "Vil du være med til at definere kravene til næste generation af a-kassesystemer?I den første periode bliver du fuldt dedikeret til programmet, der udvikler kravspecifikationen til kernesystemet. Her bliver du en vigtig medspiller",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Business Analyst",
@@ -308,6 +308,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Power BI Developer til international koncern",
+        "company": "HumanTrust A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680906",
+        "posted": "2026-08-04",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "BI Consultant",
         "company": "VIKING Life-Saving Equipment A/S",
         "location": "Esbjerg",
@@ -317,17 +328,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Power BI Developer til international koncern",
-        "company": "HumanTrust A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680906",
-        "posted": "2026-08-04",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Internship - Business Intelligence",
