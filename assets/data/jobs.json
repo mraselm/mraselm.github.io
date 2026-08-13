@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T08:43:33Z",
+  "updated": "2026-08-13T10:28:14Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -396,19 +396,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Student Analyst, Investment Management",
-        "company": "Better Energy Management",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1688476",
-        "posted": "2026-08-11",
-        "snippet": "We are looking for a Student Analyst to join our Investment Management team in Copenhagen.In this role, you will support a broad range of analytical and financial tasks, from collecting and transforming data to maintaining and dev",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Data Scientist",
