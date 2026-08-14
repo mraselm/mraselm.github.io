@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T10:16:50Z",
+  "updated": "2026-08-14T11:11:02Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -286,6 +286,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Bliv studentermedhjælper på Det Kgl. Bibliotek i Aarhus!",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1689594",
+        "posted": "2026-08-14",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Business Intelligence Student Assistant",
         "company": "Everllence",
         "location": "Copenhagen",
@@ -397,6 +408,17 @@
       }
     ],
     "bi specialist": [
+      {
+        "title": "Bliv studentermedhjælper på Det Kgl. Bibliotek i Aarhus!",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1689594",
+        "posted": "2026-08-14",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
       {
         "title": "Business Intelligence Student Assistant",
         "company": "Everllence",
