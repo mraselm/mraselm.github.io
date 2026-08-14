@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T11:57:28Z",
+  "updated": "2026-08-14T13:43:48Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -13,6 +13,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1679515",
         "posted": "2026-08-05",
         "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker med interesse for metode og dataanalyse",
+        "company": "Gældsstyrelsen",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1689670",
+        "posted": "2026-08-14",
+        "snippet": "I Center for data, analyse og modeller udvikler vi analytiske modeller og andre dataløsninger. Modellernes beregninger anvendes bl.a. som input til at sætte den strategiske retning for inddrivelsesområdet.Området har en høj grad a",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -108,6 +119,17 @@
     ],
     "business analyst": [
       {
+        "title": "IT Business Analyst",
+        "company": "Riskpoint A/S (Riskpoint Solutions Limited)",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1689714",
+        "posted": "2026-08-14",
+        "snippet": "As our new IT Business Analyst, you will be responsible for identifying business needs, analyzing data, and translating insights into actionable solutions.You will work closely with stakeholders across the company to understand ch",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Seniorkonsulent/Business Analyst til Clearing Service med flair for analyse",
         "company": "Finans Danmark",
         "location": "Copenhagen",
@@ -180,6 +202,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1684868",
         "posted": "2026-07-27",
         "snippet": "Vil du være med til at definere kravene til næste generation af a-kassesystemer?I den første periode bliver du fuldt dedikeret til programmet, der udvikler kravspecifikationen til kernesystemet. Her bliver du en vigtig medspiller",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Strategisk forretningsanalytiker til FE’s cyber transformation",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13947120",
+        "posted": "2026-08-14",
+        "snippet": "Vil du være med til at forme fremtidens cyberkapaciteter?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
