@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T23:03:18Z",
+  "updated": "2026-08-13T23:59:33Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -422,6 +422,17 @@
     ],
     "data scientist": [
       {
+        "title": "Data Scientists for Big Data, IoT and AI projects",
+        "company": "BEUMER Group A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1675903",
+        "posted": "2026-08-14",
+        "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Platform Engineer til Data Science Platform – vær med til at bygge fundamentet for Data Science i Energinet",
         "company": "Energinet",
         "location": "Fredericia",
@@ -439,17 +450,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1685125",
         "posted": "2026-07-28",
         "snippet": "Do you possess a proactive attitude and thrive in a data-driven decision making environment?You and the team have the responsibility of driving strategic projects across business units utilizing and processing the huge amount of d",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientists for Big Data, IoT and AI projects",
-        "company": "BEUMER Group A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1675903",
-        "posted": "2026-07-17",
-        "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
