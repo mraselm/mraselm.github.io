@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T17:11:59Z",
+  "updated": "2026-08-14T18:06:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -505,6 +505,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1685125",
         "posted": "2026-07-28",
         "snippet": "Do you possess a proactive attitude and thrive in a data-driven decision making environment?You and the team have the responsibility of driving strategic projects across business units utilizing and processing the huge amount of d",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Position as Scientific software developer/Data Scientist/Data Engineer",
+        "company": "Region Hovedstaden",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13947436",
+        "posted": "2026-08-14",
+        "snippet": "Department of Clinical Physiology and Nuclear Medicine, Rigshospitalet.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
