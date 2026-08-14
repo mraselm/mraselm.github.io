@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T22:41:16Z",
+  "updated": "2026-08-14T23:36:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,17 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1686491",
         "posted": "2026-08-04",
         "snippet": "Du får en central rolle i en statslig styrelse med højt til loftet, fokus på faglig udvikling, nærværende ledelse og fleksible rammer for tilrettelæggelsen af din arbejdstid.Dine primære arbejdsopgaver vil bl.a. være inden for dri",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til Capital Market Development",
-        "company": "Jyske Bank",
-        "location": "Silkeborg",
-        "url": "https://www.jobindex.dk/vis-job/h1685062",
-        "posted": "2026-07-28",
-        "snippet": "Er du dygtig til at gennemskue og skabe mening i data, og har du erfaring med programmering? Tiltaler komplekse finansielle produkter og markeder dig?Du kommer til at spille en central rolle i opbygningen af et solidt datafundamen",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -484,17 +473,6 @@
         "posted": "2026-08-13",
         "snippet": "Data og avancerede modeller spiller en stadig større rolle i den grønne omstilling og i driften af Danmarks energiinfrastruktur. Derfor er vi i gang med at etablere en fælles Data Science Platform, der skal gøre det lettere at udv",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1685125",
-        "posted": "2026-07-28",
-        "snippet": "Do you possess a proactive attitude and thrive in a data-driven decision making environment?You and the team have the responsibility of driving strategic projects across business units utilizing and processing the huge amount of d",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
