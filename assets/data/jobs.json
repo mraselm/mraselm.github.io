@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T09:41:39Z",
+  "updated": "2026-08-15T10:40:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -506,17 +506,6 @@
         "posted": "2026-08-08",
         "snippet": "Founded in 2016, Mover is a Danish logistics technology company on a mission to change logistics for good, cutting waste and making...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til Steno Diabetes Center Aarhus (SDCA) Innovation, Aarhus Universitetshospital",
-        "company": "Region Midtjylland",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13936703",
-        "posted": "2026-08-06",
-        "snippet": "Hos SDCA Innovation søger vi pr. 1. september 2026 en erfaren data scientist til udvikling og implementering af machine learning og...",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
