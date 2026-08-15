@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T22:38:10Z",
+  "updated": "2026-08-15T23:34:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -191,17 +191,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1686048",
         "posted": "2026-08-03",
         "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker med a-kasse-domæneviden",
-        "company": "Akademikernes A-kasse",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1684868",
-        "posted": "2026-07-27",
-        "snippet": "Vil du være med til at definere kravene til næste generation af a-kassesystemer?I den første periode bliver du fuldt dedikeret til programmet, der udvikler kravspecifikationen til kernesystemet. Her bliver du en vigtig medspiller",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
