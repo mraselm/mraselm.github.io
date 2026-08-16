@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T09:42:52Z",
+  "updated": "2026-08-16T10:40:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,17 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1686491",
         "posted": "2026-08-04",
         "snippet": "Du får en central rolle i en statslig styrelse med højt til loftet, fokus på faglig udvikling, nærværende ledelse og fleksible rammer for tilrettelæggelsen af din arbejdstid.Dine primære arbejdsopgaver vil bl.a. være inden for dri",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Vær med til at forme arbejdet med data hos Vores Elnet - dataanalytiker søges",
-        "company": "Energi Fyn",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1684866",
-        "posted": "2026-07-27",
-        "snippet": "Vil du omsætte store mængder måledata til konkrete indsigter, der understøtter fremtidens udnyttelse af elnettet?Som dataanalytiker får du en central rolle i udviklingen af området og er med til at sætte retningen for, hvordan vi",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
