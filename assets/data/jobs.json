@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T03:13:02Z",
+  "updated": "2026-08-16T04:00:31Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -407,30 +407,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Bliv studentermedhjælper på Det Kgl. Bibliotek i Aarhus!",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1689594",
-        "posted": "2026-08-14",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Business Intelligence Student Assistant",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1689195",
-        "posted": "2026-08-13",
-        "snippet": "Do you have a strong analytical mindset? Do you enjoy coding, processing data and conceptualize them into analytical reports?Everllence Finance & Controlling is looking for two motivated and eager-to-grow student assistants to sup",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Data Scientists for Big Data, IoT and AI projects",
