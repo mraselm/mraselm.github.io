@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T22:37:19Z",
+  "updated": "2026-08-16T23:33:51Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -163,28 +163,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Forretningsanalytiker til Kommerciel Analyse i Privat",
-        "company": "AL Sydbank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1682735",
-        "posted": "2026-08-10",
-        "snippet": "Brænder du for at skabe indsigter gennem data og analysere trends, kundeadfærd og forretningspotentialer? Bliv den analytiske drivkraft bag kommercielle beslutninger, og omsæt data til indsigter, der skaber værdi for kunder og for",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til Rigspolitiets AI-initiativ",
-        "company": "Politi",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1686048",
-        "posted": "2026-08-03",
-        "snippet": "Vi søger en forretningsanalytiker til det nyetablerede AI-domæne i Rigspolitiets Center for Forretningssystemejerskaber.Her får du en central rolle i arbejdet med at afdække, analysere og omsætte politiets forretningsmæssige behov",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Analyst",
         "company": "McKinsey & Company",
         "location": "Denmark",
@@ -248,17 +226,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1685491",
         "posted": "2026-07-30",
         "snippet": "Er du klar til at tage næste skridt i din karriere og være med til at videreudvikle en moderne dataplatform, der understøtter Danmarks største udbyder af sundhedsforsikringer?Du vil arbejde end-to-end med løsningen – fra forståels",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence-konsulent med stærk data- og forretningsforståelse",
-        "company": "Fonden for Entreprenørskab",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1678499",
-        "posted": "2026-07-28",
-        "snippet": "Vil du være med til at styrke Fonden for Entreprenørskabs datagrundlag, analyser og digitale arbejdsgange?Du skal være med til at sikre, at vores data bliver indsamlet, struktureret, kvalitetssikret og anvendt på en måde, der skab",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -527,17 +494,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1687963",
         "posted": "2026-08-10",
         "snippet": "Vil du være med til at bygge vores nye fælles AI-platform fra fundament til drift?Du bliver en del af AI & BI Udvikling og får en central rolle i at designe, udvikle og modne de komponenter, integrationer og driftsmodeller, der sk",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Lead AI Engineer - det her finder du ikke andre steder",
-        "company": "Brødrene A & O Johansen A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1686114",
-        "posted": "2026-08-03",
-        "snippet": "Hvad nu, hvis dit næste AI-projekt ikke bare skulle imponere i en demo – men ændre måden, en børsnoteret virksomhed arbejder på?Det kan det komme til nu.Vi bygger et nyt AI-team fra bunden. Og du får en helt unik mulighed for at s",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
