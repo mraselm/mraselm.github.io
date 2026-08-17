@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T08:03:07Z",
+  "updated": "2026-08-17T09:01:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -148,6 +148,17 @@
         "posted": "2026-07-31",
         "snippet": "At Danske Bank, we are executing our “Turn To New Tech” strategy - migrating our stack to cloud-native solutions.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Rigspolitiet, Politiets Administrative Center i Holstebro",
+        "company": "Politi",
+        "location": "Holstebro",
+        "url": "https://www.jobindex.dk/vis-job/h1689930",
+        "posted": "2026-08-17",
+        "snippet": "",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
