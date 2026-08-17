@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T09:01:11Z",
+  "updated": "2026-08-17T09:57:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -275,6 +275,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper til myndighedsarbejde, data og luftfart",
+        "company": "Trafikstyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1689987",
+        "posted": "2026-08-17",
+        "snippet": "Har du lyst til at få praktisk erfaring fra en politisk ledet organisation og arbejde tæt på luftfart, myndighedsarbejde, data og regulering? Du skal hjælpe os med sagsbehandling, koordinering, dokumentation og opfølgning på tværs",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Bliv studentermedhjælper på Det Kgl. Bibliotek i Aarhus!",
         "company": "Det Kgl. Bibliotek",
         "location": "Aarhus",
@@ -383,17 +394,6 @@
         "posted": "2026-08-14",
         "snippet": "",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Business Intelligence Student Assistant",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1689195",
-        "posted": "2026-08-13",
-        "snippet": "Do you have a strong analytical mindset? Do you enjoy coding, processing data and conceptualize them into analytical reports?Everllence Finance & Controlling is looking for two motivated and eager-to-grow student assistants to sup",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       }
