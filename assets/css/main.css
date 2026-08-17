@@ -1,14 +1,14 @@
 @import url(fontawesome-all.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Playfair+Display:wght@500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
 
 :root {
-  /* Soft cream + ink — classical theme */
+  /* Warm cream + clay — Anthropic-inspired editorial theme */
   --bg: #faf6ee;
   --panel: rgba(250, 244, 232, 0.82);
   --ink: #14110d;
   --muted: #6b6357;
-  --accent: #1c1813;          /* ink — links, primary buttons */
-  --accent-strong: #3a3128;   /* espresso */
+  --accent: #c2603d;          /* clay/terracotta — links, primary buttons */
+  --accent-strong: #8b3f26;   /* deep clay — hover states */
   --accent-2: #8a6d4a;        /* muted bronze — subtle gradient warmth */
   --on-accent: #faf6ee;       /* text/cream on accent backgrounds */
   --border: rgba(20, 17, 13, 0.16);
@@ -42,7 +42,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   color: var(--ink);
   background: var(--body-bg);
   min-height: 100vh;
@@ -74,7 +74,8 @@ p {
 
 h1, h2, h3, h4 {
   margin: 0 0 0.6rem;
-  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+  font-optical-sizing: auto;
   letter-spacing: -0.01em;
 }
 
@@ -2039,10 +2040,10 @@ button.btn.ghost.share-btn i {
   --panel: rgba(26, 22, 16, 0.85);
   --ink: #efe7d7;
   --muted: #a99e8a;
-  --accent: #e8dcc4;          /* parchment — links, primary buttons */
-  --accent-strong: #d8c4a0;
+  --accent: #e8a87c;          /* warm clay — links, primary buttons */
+  --accent-strong: #f0c4a0;
   --accent-2: #b08a5c;        /* bronze */
-  --on-accent: #14110d;       /* ink text on parchment backgrounds */
+  --on-accent: #14110d;       /* ink text on clay backgrounds */
   --border: rgba(239, 231, 215, 0.14);
   --shadow: 0 18px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(239, 231, 215, 0.05);
   --body-bg: radial-gradient(circle at 15% 50%, rgba(176, 138, 92, 0.10), transparent 32%),

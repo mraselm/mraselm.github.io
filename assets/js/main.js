@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const contactForms = document.querySelectorAll('form.contact-form');
   const toast = document.querySelector('.form-toast');
   const themeToggle = document.querySelector('.theme-toggle');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
   const body = document.body;
   const root = document.documentElement;
 
@@ -213,14 +212,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (storedTheme === 'dark' || storedTheme === 'light') {
     setTheme(storedTheme, false);
   } else {
-    setTheme(prefersDark.matches ? 'dark' : 'light', false);
+    setTheme('light', false);
   }
-
-  prefersDark.addEventListener('change', event => {
-    if (!localStorage.getItem('theme')) {
-      setTheme(event.matches ? 'dark' : 'light', false);
-    }
-  });
 
   if (themeToggle) {
     themeToggle.addEventListener('click', () => {
