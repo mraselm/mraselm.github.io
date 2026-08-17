@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T16:45:47Z",
+  "updated": "2026-08-17T17:46:00Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -126,6 +126,17 @@
         "posted": "2026-08-05",
         "snippet": "Forestil dig en hverdag, hvor du kan arbejde med både udvikling og drift, og du indgår i et team, hvor dine opgaver gør en forskel for samfundet. Vi søger erfarne Business Analysts, der kan spille en vigtig rolle i at forstå Gælds",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Corporate Finance Business Analyst",
+        "company": "LEGO System A/S",
+        "location": "Billund",
+        "url": "https://www.jobindex.dk/vis-job/r13950760",
+        "posted": "2026-08-17",
+        "snippet": "Just imagine turning financial planning data into clearer decisions that help shape the future of business performance.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
