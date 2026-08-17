@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T07:16:35Z",
+  "updated": "2026-08-17T08:03:07Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -197,6 +197,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Business Intelligence Engineer",
+        "company": "Ellab A/S",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1689875",
+        "posted": "2026-08-17",
+        "snippet": "We are looking for a Business Intelligence Engineer who enjoys building things, solving problems and making data work in the real world.If you like to get into the details, understand how operational systems work, turn raw data in",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Analytiker til Business Intelligence",
         "company": "Jyske Bank",
