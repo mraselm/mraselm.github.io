@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T13:57:04Z",
+  "updated": "2026-08-18T14:52:41Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -171,7 +171,7 @@
         "snippet": "",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Strategisk forretningsanalytiker til FE’s cyber transformation",
@@ -182,7 +182,7 @@
         "snippet": "Vil du være med til at forme fremtidens cyberkapaciteter?FE’s cybersektor står over for en række omfattende udviklings- og transformationsinitiativer, som vil ændre måden, vi arbejder på i dag. Derfor søger vi en eller flere forre",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst",
