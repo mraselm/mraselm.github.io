@@ -1,11 +1,22 @@
 {
-  "updated": "2026-08-18T08:53:27Z",
+  "updated": "2026-08-18T09:48:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Pricing & Data Analyst",
+        "company": "DEKO p/s",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1679515",
+        "posted": "2026-08-05",
+        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Dataanalytiker med interesse for metode og dataanalyse",
         "company": "Gældsstyrelsen",
@@ -15,7 +26,7 @@
         "snippet": "I Center for data, analyse og modeller udvikler vi analytiske modeller og andre dataløsninger. Modellernes beregninger anvendes bl.a. som input til at sætte den strategiske retning for inddrivelsesområdet.Området har en høj grad a",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dygtig dataanalytiker med fokus på processer og formidling",
@@ -26,7 +37,7 @@
         "snippet": "Har du skarpe metodiske og dataanalytiske kompetencer, og kan du formidle komplekse dataanalyser tydeligt? Vil du være med til at præge udviklingen i en statslig styrelse?Som vores nye kollega vil der blive rig mulighed for at præ",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Vil du være dataanalytiker og søger du en hverdag, der kombinerer dine evner inden for kodning og analyse med reel værdiskabelse?",
@@ -37,7 +48,7 @@
         "snippet": "Du får en central rolle i en statslig styrelse med højt til loftet, fokus på faglig udvikling, nærværende ledelse og fleksible rammer for tilrettelæggelsen af din arbejdstid.Dine primære arbejdsopgaver vil bl.a. være inden for dri",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -86,6 +97,50 @@
     ],
     "business analyst": [
       {
+        "title": "IT Business Analyst",
+        "company": "Riskpoint A/S (Riskpoint Solutions Limited)",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1689714",
+        "posted": "2026-08-14",
+        "snippet": "As our new IT Business Analyst, you will be responsible for identifying business needs, analyzing data, and translating insights into actionable solutions.You will work closely with stakeholders across the company to understand ch",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Seniorkonsulent/Business Analyst til Clearing Service med flair for analyse",
+        "company": "Finans Danmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1687182",
+        "posted": "2026-08-06",
+        "snippet": "Vil du arbejde tæt på ledelsen af en samfundskritisk virksomhed og være med til at sikre struktur, fremdrift og beslutningskraft?Du arbejder i krydsfeltet mellem strategi, governance, drift og udvikling og sikrer, at bestyrelse og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Erfarne Business Analysts/forretningsanalytikere til to centrale teams i statens gældsinddrivelse",
+        "company": "Udviklings- og Forenklingsstyrelsen",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1687066",
+        "posted": "2026-08-05",
+        "snippet": "Forestil dig en hverdag, hvor du kan arbejde med både udvikling og drift, og du indgår i et team, hvor dine opgaver gør en forskel for samfundet. Vi søger erfarne Business Analysts, der kan spille en vigtig rolle i at forstå Gælds",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Corporate Finance Business Analyst",
+        "company": "LEGO System A/S",
+        "location": "Billund",
+        "url": "https://www.jobindex.dk/vis-job/r13950760",
+        "posted": "2026-08-17",
+        "snippet": "Just imagine turning financial planning data into clearer decisions that help shape the future of business performance.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Sr Business Analyst",
         "company": "Novo Nordisk A/S",
         "location": "Ballerup",
@@ -104,6 +159,28 @@
         "posted": "2026-07-31",
         "snippet": "At Danske Bank, we are executing our “Turn To New Tech” strategy - migrating our stack to cloud-native solutions.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Rigspolitiet, Politiets Administrative Center i Holstebro",
+        "company": "Politi",
+        "location": "Holstebro",
+        "url": "https://www.jobindex.dk/vis-job/h1689930",
+        "posted": "2026-08-17",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Strategisk forretningsanalytiker til FE’s cyber transformation",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1689822",
+        "posted": "2026-08-14",
+        "snippet": "Vil du være med til at forme fremtidens cyberkapaciteter?FE’s cybersektor står over for en række omfattende udviklings- og transformationsinitiativer, som vil ændre måden, vi arbejder på i dag. Derfor søger vi en eller flere forre",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -429,17 +506,6 @@
         "posted": "2026-08-10",
         "snippet": "Vil du være med til at bygge vores nye fælles AI-platform fra fundament til drift?Du bliver en del af AI & BI Udvikling og får en central rolle i at designe, udvikle og modne de komponenter, integrationer og driftsmodeller, der sk",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Generative AI Engineer (Full-Stack)",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13939537",
-        "posted": "2026-08-10",
-        "snippet": "Are you ready to shape the future of banking?",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
