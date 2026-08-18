@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T16:48:46Z",
+  "updated": "2026-08-18T17:44:02Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -14,6 +14,17 @@
         "posted": "2026-08-05",
         "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Product Data Analyst",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13953023",
+        "posted": "2026-08-18",
+        "snippet": "Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy...",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -126,6 +137,28 @@
         "posted": "2026-08-05",
         "snippet": "Forestil dig en hverdag, hvor du kan arbejde med både udvikling og drift, og du indgår i et team, hvor dine opgaver gør en forskel for samfundet. Vi søger erfarne Business Analysts, der kan spille en vigtig rolle i at forstå Gælds",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst - Customer Relationship Squad",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13952750",
+        "posted": "2026-08-18",
+        "snippet": "Would you like to take part in developing the core of the core in Danske Bank?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst - Identity Squad",
+        "company": "Danske Bank",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13952748",
+        "posted": "2026-08-18",
+        "snippet": "Would you like to take part in developing the core of the core in Danske Bank?",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -399,6 +432,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Real-World Data Science Manager, Real‑World Evidence",
+        "company": "Novo Nordisk A/S",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/r13952724",
+        "posted": "2026-08-18",
+        "snippet": "Are you looking for an opportunity to apply advanced statistical methods to real-world data and influence clinical development across Novo Nordisk's pipeline?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Position as Scientific software developer/Data Scientist/Data Engineer",
         "company": "Region Hovedstaden",
         "location": "Copenhagen",
@@ -487,6 +531,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Lead AI engineer for legal tech",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13953033",
+        "posted": "2026-08-18",
+        "snippet": "We are building the layer that ends that scarcity.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Engineer",
         "company": "Neurons Inc.",
         "location": "Taastrup",
@@ -504,17 +559,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13935440",
         "posted": "2026-08-06",
         "snippet": "Design and implement sophisticated AI agents that directly drive banker productivity.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Founding AI engineer (technical lead",
-        "company": "equity)",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13933850",
-        "posted": "2026-08-05",
-        "snippet": "Juris is on a mission to make legal issues simpler to solve, for the people who face them.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
