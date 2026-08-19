@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T09:49:40Z",
+  "updated": "2026-08-19T10:46:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -253,6 +253,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Business Intelligence Consultant",
+        "company": "SameSystem A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1684584",
+        "posted": "2026-07-24",
+        "snippet": "Are you ready to turn data into real commercial value for some of Europe's largest retail and hospitality brands?You'll own the business intelligence and reporting side of our platform: building and maintaining reports in our BI t",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Intelligence Engineer",
         "company": "Ellab A/S",
         "location": "Hillerød",
@@ -272,7 +283,7 @@
         "snippet": "Du bliver en del af et fagligt miljø, hvor der er en åben og uformel tone, gode udviklingsmuligheder og stor frihed til at påvirke både løsninger og egen faglige udvikling.Hos os får du kolleger, der elsker at nørde med data, kode",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "BI Udvikler til Business Intelligence afdelingen",
@@ -283,7 +294,7 @@
         "snippet": "Er du stærk inden for datawarehousing, datamodellering og Power BI – og motiveres du af at bygge løsninger, som bliver brugt i hele organisationen?Du får, sammen med en af dine nye kollegaer, ansvaret for vedligeholdelse og videre",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior Business Intelligence Developer",
@@ -294,7 +305,7 @@
         "snippet": "Er du klar til at tage næste skridt i din karriere og være med til at videreudvikle en moderne dataplatform, der understøtter Danmarks største udbyder af sundhedsforsikringer?Du vil arbejde end-to-end med løsningen – fra forståels",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Power BI Developer til international koncern",
@@ -305,29 +316,7 @@
         "snippet": "",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence Consultant",
-        "company": "SameSystem A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1684584",
-        "posted": "2026-07-24",
-        "snippet": "Are you ready to turn data into real commercial value for some of Europe's largest retail and hospitality brands?You'll own the business intelligence and reporting side of our platform: building and maintaining reports in our BI t",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til myndighedsarbejde, data og luftfart",
-        "company": "Trafikstyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1689987",
-        "posted": "2026-08-17",
-        "snippet": "Har du lyst til at få praktisk erfaring fra en politisk ledet organisation og arbejde tæt på luftfart, myndighedsarbejde, data og regulering? Du skal hjælpe os med sagsbehandling, koordinering, dokumentation og opfølgning på tværs",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
+        "job_type": "part-time"
       },
       {
         "title": "Data solution architect til Business Intelligence",
