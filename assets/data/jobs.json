@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T13:57:45Z",
+  "updated": "2026-08-19T14:53:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -317,17 +317,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til myndighedsarbejde, data og luftfart",
-        "company": "Trafikstyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1689987",
-        "posted": "2026-08-17",
-        "snippet": "Har du lyst til at få praktisk erfaring fra en politisk ledet organisation og arbejde tæt på luftfart, myndighedsarbejde, data og regulering? Du skal hjælpe os med sagsbehandling, koordinering, dokumentation og opfølgning på tværs",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data solution architect til Business Intelligence",
