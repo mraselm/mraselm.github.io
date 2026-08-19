@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T23:37:07Z",
+  "updated": "2026-08-19T01:53:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -394,17 +394,6 @@
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
-      },
-      {
-        "title": "Customer Success Manager, Tableau/ Business Intelligence Solutions",
-        "company": "Salesforce",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2984353/salesforce/customer-success-manager-tabl",
-        "posted": "2026-02-19",
-        "snippet": "Full-time job at Salesforce, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
       }
     ],
     "bi specialist": [],
@@ -606,17 +595,6 @@
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
-      },
-      {
-        "title": "Position as Data Scientist at Aalborg University Hospital - Region Nordjylland",
-        "company": "Region Nordjylland",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2984694/region-nordjylland/position-as-data-scientist-at",
-        "posted": "2026-02-19",
-        "snippet": "Part-time job at Region Nordjylland, Northern Jutland (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "part-time"
       },
       {
         "title": "Senior Data Scientist",
