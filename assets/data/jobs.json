@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T23:37:27Z",
+  "updated": "2026-08-20T01:51:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -79,17 +79,6 @@
         "url": "https://jobbank.dk/job/2963578/abb-as/data-analyst-factory-it-and",
         "posted": "2026-03-09",
         "snippet": "Full-time job at ABB A/S, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "People Data Analyst",
-        "company": "Ørsted",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2985002/orsted/people-data-analyst",
-        "posted": "2026-02-20",
-        "snippet": "Full-time job at Ørsted, Abroad (other) (Apply by: 15.03.2026)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
@@ -576,17 +565,6 @@
       },
       {
         "title": "Senior Data Scientist",
-        "company": "Benifex Denmark A/S",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2980533/benifex-denmark-as/senior-data-scientist",
-        "posted": "2026-02-20",
-        "snippet": "Full-time job at Benifex Denmark A/S, Abroad (other) (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist",
         "company": "Solita ApS",
         "location": "Denmark",
         "url": "https://jobbank.dk/job/1944064/solita-aps/senior-data-scientist",
@@ -614,17 +592,6 @@
         "url": "https://jobbank.dk/job/2989222/adversus-as/revenue-data-scientist-revops",
         "posted": "2026-02-26",
         "snippet": "Full-time job at Adversus A/S, Eastern Jutland (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Experienced Data Scientist - IRB Modelling",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2979704/danske-bank/experienced-data-scientist-i",
-        "posted": "2026-02-20",
-        "snippet": "Full-time job at Danske Bank, Greater Copenhagen (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
@@ -669,28 +636,6 @@
         "url": "https://jobbank.dk/job/2991501/demant-as/senior-machine-learning-engine",
         "posted": "2026-03-02",
         "snippet": "Full-time job at Demant A/S, Greater Copenhagen, Øresund region (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "VENZO A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2984933/venzo-as/senior-ai-engineer",
-        "posted": "2026-02-20",
-        "snippet": "Full-time job at VENZO A/S, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer – Corax AI Team - Trifork",
-        "company": "Trifork A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2985087/trifork-as/ai-engineer-corax-ai-team",
-        "posted": "2026-02-20",
-        "snippet": "Full-time job at Trifork A/S, Greater Copenhagen (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
