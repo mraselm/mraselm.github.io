@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T07:57:12Z",
+  "updated": "2026-08-20T08:56:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -250,7 +250,62 @@
         "snippet": "We are looking for a Business Intelligence Engineer who enjoys building things, solving problems and making data work in the real world.If you like to get into the details, understand how operational systems work, turn raw data in",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
+      },
+      {
+        "title": "Analytiker til Business Intelligence",
+        "company": "Jyske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1688292",
+        "posted": "2026-08-11",
+        "snippet": "Du bliver en del af et fagligt miljø, hvor der er en åben og uformel tone, gode udviklingsmuligheder og stor frihed til at påvirke både løsninger og egen faglige udvikling.Hos os får du kolleger, der elsker at nørde med data, kode",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI Udvikler til Business Intelligence afdelingen",
+        "company": "Davidsen",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/h1686053",
+        "posted": "2026-08-03",
+        "snippet": "Er du stærk inden for datawarehousing, datamodellering og Power BI – og motiveres du af at bygge løsninger, som bliver brugt i hele organisationen?Du får, sammen med en af dine nye kollegaer, ansvaret for vedligeholdelse og videre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Intelligence Developer",
+        "company": "Dansk Sundhedssikring",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1685491",
+        "posted": "2026-07-30",
+        "snippet": "Er du klar til at tage næste skridt i din karriere og være med til at videreudvikle en moderne dataplatform, der understøtter Danmarks største udbyder af sundhedsforsikringer?Du vil arbejde end-to-end med løsningen – fra forståels",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Power BI Developer til international koncern",
+        "company": "HumanTrust A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1680906",
+        "posted": "2026-08-04",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Consultant",
+        "company": "SameSystem A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1684584",
+        "posted": "2026-07-24",
+        "snippet": "Are you ready to turn data into real commercial value for some of Europe's largest retail and hospitality brands?You'll own the business intelligence and reporting side of our platform: building and maintaining reports in our BI t",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
       },
       {
         "title": "Data solution architect til Business Intelligence",
@@ -319,31 +374,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
+    "bi specialist": [],
+    "data scientist": [
       {
-        "title": "Senior Business Intelligence Developer",
-        "company": "Dansk Sundhedssikring",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1685491",
-        "posted": "2026-07-30",
-        "snippet": "Er du klar til at tage næste skridt i din karriere og være med til at videreudvikle en moderne dataplatform, der understøtter Danmarks største udbyder af sundhedsforsikringer?Du vil arbejde end-to-end med løsningen – fra forståels",
-        "lang": "da",
+        "title": "Data Scientists for Big Data, IoT and AI projects",
+        "company": "BEUMER Group A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1675903",
+        "posted": "2026-08-14",
+        "snippet": "You will be responsible for defining new products, services and tools based on data and machine learning.As such, you bridge the worlds of product development, subject specialists and technology to innovate the business.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
-      {
-        "title": "Power BI Developer til international koncern",
-        "company": "HumanTrust A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1680906",
-        "posted": "2026-08-04",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      }
-    ],
-    "data scientist": [
       {
         "title": "Platform Engineer til Data Science Platform – vær med til at bygge fundamentet for Data Science i Energinet",
         "company": "Energinet",
@@ -352,6 +395,138 @@
         "posted": "2026-08-13",
         "snippet": "Data og avancerede modeller spiller en stadig større rolle i den grønne omstilling og i driften af Danmarks energiinfrastruktur. Derfor er vi i gang med at etablere en fælles Data Science Platform, der skal gøre det lettere at udv",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Real-World Data Science Manager",
+        "company": "Novo Nordisk A/S",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/r13952724",
+        "posted": "2026-08-18",
+        "snippet": "Are you looking for an opportunity to apply advanced statistical methods to real-world data and influence clinical development across Novo Nordisk's pipeline?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Position as Scientific software developer/Data Scientist/Data Engineer",
+        "company": "Region Hovedstaden",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13947436",
+        "posted": "2026-08-14",
+        "snippet": "Department of Clinical Physiology and Nuclear Medicine, Rigshospitalet.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Postdoc in Host-Microbiome Multi-omic Data Science",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13945196",
+        "posted": "2026-08-13",
+        "snippet": "The position is limited to 3 years with the possibility of extension.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Science Manager",
+        "company": "Mover Systems ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13937780",
+        "posted": "2026-08-08",
+        "snippet": "Founded in 2016, Mover is a Danish logistics technology company on a mission to change logistics for good, cutting waste and making...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13934011",
+        "posted": "2026-08-05",
+        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist - Store Partnering",
+        "company": "Coop Danmark A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13930613",
+        "posted": "2026-08-04",
+        "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer",
+        "company": "JYSK",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1689549",
+        "posted": "2026-08-14",
+        "snippet": "Are you a skilled Artificial Intelligence (AI) Engineer with experience across the full AI solution lifecycle, from model development and training to deployment and operation at scale?As a Senior AI Engineer, you will be instrumen",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "MyDefence A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1688532",
+        "posted": "2026-08-11",
+        "snippet": "We are looking for an AI Engineer who can help shape and implement MyDefence’s approach to artificial intelligence.This is a role for someone who enjoys working at the intersection of strategy and hands-on technology: Someone who",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "HOFOR",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1687963",
+        "posted": "2026-08-10",
+        "snippet": "Vil du være med til at bygge vores nye fælles AI-platform fra fundament til drift?Du bliver en del af AI & BI Udvikling og får en central rolle i at designe, udvikle og modne de komponenter, integrationer og driftsmodeller, der sk",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead AI engineer for legal tech",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13953033",
+        "posted": "2026-08-18",
+        "snippet": "We are building the layer that ends that scarcity.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Neurons Inc.",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/r13937786",
+        "posted": "2026-08-08",
+        "snippet": "At Neurons, we help the world’s leading brands predict how people will perceive, feel, and react to creative; before it goes live.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer for Agent Development",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13935440",
+        "posted": "2026-08-06",
+        "snippet": "Design and implement sophisticated AI agents that directly drive banker productivity.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
