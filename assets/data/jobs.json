@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T16:50:59Z",
+  "updated": "2026-08-20T17:45:59Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -180,17 +180,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13935706",
         "posted": "2026-08-06",
         "snippet": "Shape how 60,000+ colleagues work every day – by turning business needs into smarter, scalable digital workplace solutions that support Novo Nordisk's global mission.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Analyst - Customer Capabilities",
-        "company": "Danske Bank",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13927086",
-        "posted": "2026-07-31",
-        "snippet": "At Danske Bank, we are executing our “Turn To New Tech” strategy - migrating our stack to cloud-native solutions.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -582,17 +571,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13937786",
         "posted": "2026-08-08",
         "snippet": "At Neurons, we help the world’s leading brands predict how people will perceive, feel, and react to creative; before it goes live.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer for Agent Development",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13935440",
-        "posted": "2026-08-06",
-        "snippet": "Design and implement sophisticated AI agents that directly drive banker productivity.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
