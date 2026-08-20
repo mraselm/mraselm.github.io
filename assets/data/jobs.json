@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T08:56:29Z",
+  "updated": "2026-08-20T09:50:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -461,6 +461,17 @@
         "posted": "2026-08-04",
         "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "AL Sydbank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1691086",
+        "posted": "2026-08-20",
+        "snippet": "Vil du være med til at bygge AI-løsninger, der skaber konkret værdi i en af Danmarks største banker?I AL Sydbank bruger vi AI til at styrke relationen mellem kunde og rådgiver, forbedre beslutningsgrundlaget og gøre arbejdsgange e",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
