@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T13:11:23Z",
+  "updated": "2026-08-20T13:59:42Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -193,7 +193,7 @@
         "snippet": "",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Strategisk forretningsanalytiker til FE’s cyber transformation",
@@ -204,7 +204,7 @@
         "snippet": "Vil du være med til at forme fremtidens cyberkapaciteter?FE’s cybersektor står over for en række omfattende udviklings- og transformationsinitiativer, som vil ændre måden, vi arbejder på i dag. Derfor søger vi en eller flere forre",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Business Analyst",
@@ -377,6 +377,17 @@
     "bi specialist": [],
     "data scientist": [
       {
+        "title": "Data scientist med fokus på strukturering af data, machine learning og anvendelse af generativ AI",
+        "company": "Udlændinge- og Integrationsministeriet",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1691234",
+        "posted": "2026-08-20",
+        "snippet": "Har du lyst til at udvikle løsninger, der kan gøre en forskel på et område med stor offentlig bevågenhed? Så er det måske dig, vi leder efter som data scientist i Udlændingestyrelsens Center for Dokumentation og Indsats mod Ekstre",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist - vær med til at udvikle prognoser, der holder elnettet i balance",
         "company": "Energinet",
         "location": "Denmark",
@@ -405,17 +416,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1689198",
         "posted": "2026-08-13",
         "snippet": "Data og avancerede modeller spiller en stadig større rolle i den grønne omstilling og i driften af Danmarks energiinfrastruktur. Derfor er vi i gang med at etablere en fælles Data Science Platform, der skal gøre det lettere at udv",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data scientist med fokus på strukturering af data",
-        "company": "machine learning og anvendelse af generativ AI til Udlændingestyrelsens Ce...",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13955767",
-        "posted": "2026-08-20",
-        "snippet": "Har du lyst til at udvikle løsninger, der kan gøre en forskel på et område med stor offentlig bevågenhed?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
