@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T13:11:13Z",
+  "updated": "2026-08-21T13:58:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -455,6 +455,17 @@
     ],
     "data scientist": [
       {
+        "title": "Data Scientist til renseanlægsområdet",
+        "company": "Aarhus Vand A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1691596",
+        "posted": "2026-08-21",
+        "snippet": "Vil du bruge data til at forbedre miljøet og understøtte en af samfundets vigtigste infrastrukturer?Som Data Scientist bliver du en del af en fagligt stærk gruppe, hvor du arbejder med datakvalitet, analyser og udvikling af datadr",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist med forretningsforståelse",
         "company": "3C RETAIL A/S",
         "location": "Odense",
@@ -640,17 +651,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til renseanlægsområdet",
-        "company": "Aarhus Vand A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1691596",
-        "posted": "2026-08-21",
-        "snippet": "Vil du bruge data til at forbedre miljøet og understøtte en af samfundets vigtigste infrastrukturer?Som Data Scientist bliver du en del af en fagligt stærk gruppe, hvor du arbejder med datakvalitet, analyser og udvikling af datadr",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
       },
       {
         "title": "Senior Data Scientist / AI Lead",
