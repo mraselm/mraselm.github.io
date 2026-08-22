@@ -1,33 +1,11 @@
 {
-  "updated": "2026-08-22T05:43:03Z",
+  "updated": "2026-08-22T06:59:27Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Pricing & Data Analyst",
-        "company": "DEKO p/s",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1679515",
-        "posted": "2026-08-05",
-        "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Product Data Analyst",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13953023",
-        "posted": "2026-08-18",
-        "snippet": "Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker",
         "company": "HOFOR",
@@ -71,17 +49,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst studentermedhjælper",
-        "company": "Medicins Sans Frontieres/Læger Uden Grænser fond",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1691578",
-        "posted": "2026-08-21",
-        "snippet": "Vi leder lige nu efter en studentermedhjælper til vores danske kontor.Du skal være med til at sikre, at vi får de bedst mulige resultater af vores fundraisingkampagner, så vi kan sende så mange penge som muligt til det vigtige nød",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
