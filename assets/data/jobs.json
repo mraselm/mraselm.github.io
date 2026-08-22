@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T16:41:40Z",
+  "updated": "2026-08-22T17:36:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -615,17 +615,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13953033",
         "posted": "2026-08-18",
         "snippet": "We are building the layer that ends that scarcity.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Neurons Inc.",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/r13937786",
-        "posted": "2026-08-08",
-        "snippet": "At Neurons, we help the world’s leading brands predict how people will perceive, feel, and react to creative; before it goes live.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
