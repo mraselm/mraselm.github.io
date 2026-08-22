@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T17:36:05Z",
+  "updated": "2026-08-22T18:49:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -560,6 +560,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13930613",
         "posted": "2026-08-04",
         "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer for Next Generation Triggers (NGT) (IT-CD-PI-2026-177-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13948686",
+        "posted": "2026-08-15",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
