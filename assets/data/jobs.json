@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T21:36:18Z",
+  "updated": "2026-08-23T22:38:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -616,17 +616,6 @@
         "posted": "2026-08-11",
         "snippet": "We are looking for an AI Engineer who can help shape and implement MyDefence’s approach to artificial intelligence.This is a role for someone who enjoys working at the intersection of strategy and hands-on technology: Someone who",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "HOFOR",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1687963",
-        "posted": "2026-08-10",
-        "snippet": "Vil du være med til at bygge vores nye fælles AI-platform fra fundament til drift?Du bliver en del af AI & BI Udvikling og får en central rolle i at designe, udvikle og modne de komponenter, integrationer og driftsmodeller, der sk",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
