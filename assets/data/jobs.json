@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T17:35:15Z",
+  "updated": "2026-08-23T18:48:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -637,17 +637,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13953033",
         "posted": "2026-08-18",
         "snippet": "We are building the layer that ends that scarcity.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer role (Senior to Principal), Permanent contract",
-        "company": "Devoteam A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13934011",
-        "posted": "2026-08-05",
-        "snippet": "As tech architects, we build your AI-driven transformation for sustainable value.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
