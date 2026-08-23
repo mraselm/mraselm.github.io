@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T16:43:25Z",
+  "updated": "2026-08-23T17:35:15Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -126,6 +126,17 @@
         "posted": "2026-08-14",
         "snippet": "As our new IT Business Analyst, you will be responsible for identifying business needs, analyzing data, and translating insights into actionable solutions.You will work closely with stakeholders across the company to understand ch",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Business Analyst",
+        "company": "Profsyn ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13959825",
+        "posted": "2026-08-23",
+        "snippet": "Vil du arbejde med AI, automatisering og forretningsudvikling i en virksomhed i vækst?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
