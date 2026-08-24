@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T09:04:58Z",
+  "updated": "2026-08-24T10:04:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -459,17 +459,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1691578",
         "posted": "2026-08-21",
         "snippet": "Vi leder lige nu efter en studentermedhjælper til vores danske kontor.Du skal være med til at sikre, at vi får de bedst mulige resultater af vores fundraisingkampagner, så vi kan sende så mange penge som muligt til det vigtige nød",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til Power BI, data og AI-rapportering",
-        "company": "Erhvervshus Hovedstaden S/I",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1691266",
-        "posted": "2026-08-20",
-        "snippet": "Vil du arbejde praktisk med data, rapportering og digitale løsninger i en organisation, der hjælper virksomheder med at udvikle sig?Vi søger en studentermedhjælper til praktiske opgaver med Power BI, data og rapportering.Du kommer",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
