@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T14:03:25Z",
+  "updated": "2026-08-24T15:00:42Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -129,6 +129,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Erfarne Business Analysts/forretningsanalytikere til team i Told Erhverv",
+        "company": "Udviklings- og Forenklingsstyrelsen",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1692027",
+        "posted": "2026-08-24",
+        "snippet": "Forestil dig en hverdag, hvor du kan arbejde med både udvikling og drift og indgår i et team, hvor dine opgaver gør en forskel for samfundet og erhvervslivet. Lyder det som noget for dig? Vi søger en erfaren Business Analysts, der",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "IT Business Analyst",
         "company": "Aarhus Havn",
