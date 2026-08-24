@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T21:44:23Z",
+  "updated": "2026-08-24T22:44:57Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -742,6 +742,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Bliv salgstrainee i Danmarks største bilhus - Bilernes Hus",
+        "company": "Bjarne Nielsen A/S",
+        "location": "Silkeborg",
+        "url": "https://www.jobindex.dk/vis-job/h1684981",
+        "posted": "2026-08-25",
+        "snippet": "Bilernes Hus er Danmarks største bilhus, og vi har over 300 biler i udstillingen, som venter på deres næste ejer.Vi søger en ny salgstrainee, der drømmer om at levere flotte resultater i et team med højt tempo og stærkt sammenhold",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate, Dataplatform",
         "company": "itm8",
