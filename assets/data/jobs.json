@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T07:28:54Z",
+  "updated": "2026-08-24T09:04:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,6 +25,17 @@
         "posted": "2026-08-18",
         "snippet": "Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til EAE - Central Efterforskning",
+        "company": "Politi",
+        "location": "Holstebro",
+        "url": "https://www.jobindex.dk/vis-job/h1691749",
+        "posted": "2026-08-24",
+        "snippet": "Du får en nøglefunktion i analyse- og efterretningsarbejdet med særligt fokus på at levere data til øverste ledelse og til øvrige sektioner i politikredsen.Din primære opgave i EAE bliver at fremskaffe, behandle & fremstille relev",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
