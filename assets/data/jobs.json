@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T21:44:16Z",
+  "updated": "2026-08-25T22:45:32Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -68,17 +68,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1687925",
         "posted": "2026-08-10",
         "snippet": "Har du skarpe metodiske og dataanalytiske kompetencer, og kan du formidle komplekse dataanalyser tydeligt? Vil du være med til at præge udviklingen i en statslig styrelse?Som vores nye kollega vil der blive rig mulighed for at præ",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Vil du være dataanalytiker og søger du en hverdag, der kombinerer dine evner inden for kodning og analyse med reel værdiskabelse?",
-        "company": "Udlændinge- og Integrationsministeriet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1686491",
-        "posted": "2026-08-04",
-        "snippet": "Du får en central rolle i en statslig styrelse med højt til loftet, fokus på faglig udvikling, nærværende ledelse og fleksible rammer for tilrettelæggelsen af din arbejdstid.Dine primære arbejdsopgaver vil bl.a. være inden for dri",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -471,17 +460,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13952724",
         "posted": "2026-08-18",
         "snippet": "Are you looking for an opportunity to apply advanced statistical methods to real-world data and influence clinical development across Novo Nordisk's pipeline?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist - Store Partnering",
-        "company": "Coop Danmark A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13930613",
-        "posted": "2026-08-04",
-        "snippet": "Do you want to be a key driver in establishing an ambitious new team where decisions are founded in thorough data analysis and where...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
