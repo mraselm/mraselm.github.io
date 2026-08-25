@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T14:04:16Z",
+  "updated": "2026-08-25T15:05:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -79,6 +79,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1686491",
         "posted": "2026-08-04",
         "snippet": "Du får en central rolle i en statslig styrelse med højt til loftet, fokus på faglig udvikling, nærværende ledelse og fleksible rammer for tilrettelæggelsen af din arbejdstid.Dine primære arbejdsopgaver vil bl.a. være inden for dri",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til kontor for Data og Analyse i Styrelsen for Samfundssikkerhed",
+        "company": "Styrelsen for Samfundssikkerhed",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13962724",
+        "posted": "2026-08-25",
+        "snippet": "Vil du være med til at gøre samfundet modstandsdygtigt over for fremtidens trusler?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
