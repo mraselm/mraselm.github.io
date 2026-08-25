@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T09:51:47Z",
+  "updated": "2026-08-25T10:50:09Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -493,17 +493,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13947436",
         "posted": "2026-08-14",
         "snippet": "Department of Clinical Physiology and Nuclear Medicine, Rigshospitalet.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Postdoc in Host-Microbiome Multi-omic Data Science",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13945196",
-        "posted": "2026-08-13",
-        "snippet": "The position is limited to 3 years with the possibility of extension.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
