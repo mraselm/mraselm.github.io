@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T16:55:58Z",
+  "updated": "2026-08-25T17:45:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -180,17 +180,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13954703",
         "posted": "2026-08-19",
         "snippet": "We are looking for Business Analysts to join our teams and support and facilitate the product development across our portfolio of products...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Customer Relationship Squad",
-        "company": "Danske Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13952750",
-        "posted": "2026-08-18",
-        "snippet": "Would you like to take part in developing the core of the core in Danske Bank?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -482,17 +471,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13952724",
         "posted": "2026-08-18",
         "snippet": "Are you looking for an opportunity to apply advanced statistical methods to real-world data and influence clinical development across Novo Nordisk's pipeline?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Position as Scientific software developer/Data Scientist/Data Engineer",
-        "company": "Region Hovedstaden",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13947436",
-        "posted": "2026-08-14",
-        "snippet": "Department of Clinical Physiology and Nuclear Medicine, Rigshospitalet.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
