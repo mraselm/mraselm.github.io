@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T09:00:19Z",
+  "updated": "2026-08-25T09:51:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -82,17 +82,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst studentermedhjælper",
-        "company": "Medicins Sans Frontieres/Læger Uden Grænser fond",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1691578",
-        "posted": "2026-08-21",
-        "snippet": "Vi leder lige nu efter en studentermedhjælper til vores danske kontor.Du skal være med til at sikre, at vi får de bedst mulige resultater af vores fundraisingkampagner, så vi kan sende så mange penge som muligt til det vigtige nød",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Data Analyst and Process Optimization Lead",
@@ -341,17 +330,6 @@
         "job_type": "student"
       },
       {
-        "title": "Data Analyst studentermedhjælper",
-        "company": "Medicins Sans Frontieres/Læger Uden Grænser fond",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1691578",
-        "posted": "2026-08-21",
-        "snippet": "Vi leder lige nu efter en studentermedhjælper til vores danske kontor.Du skal være med til at sikre, at vi får de bedst mulige resultater af vores fundraisingkampagner, så vi kan sende så mange penge som muligt til det vigtige nød",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "Data solution architect til Business Intelligence",
         "company": "Aarhus Universitet (AU)",
         "location": "Copenhagen",
@@ -418,19 +396,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Studentermedhjælper - Data & BI",
-        "company": "Ejner Hessel A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1691480",
-        "posted": "2026-08-21",
-        "snippet": "Studerer du inden for data, BI eller en anden analytisk retning og har lyst til at bruge det i praksis ved siden af studiet? Så er du måske vores nye studentermedhjælper.Det kommer du blandt andet til at hjælpe med: Bygge og vedli",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Data Scientist til renseanlægsområdet",
