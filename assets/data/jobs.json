@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T23:36:17Z",
+  "updated": "2026-08-25T01:52:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -751,17 +751,6 @@
         "snippet": "Bilernes Hus er Danmarks største bilhus, og vi har over 300 biler i udstillingen, som venter på deres næste ejer.Vi søger en ny salgstrainee, der drømmer om at levere flotte resultater i et team med højt tempo og stærkt sammenhold",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "graduate"
-      },
-      {
-        "title": "Graduate, Dataplatform",
-        "company": "itm8",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2985182/itm8/graduate-dataplatform",
-        "posted": "2026-02-25",
-        "snippet": "Graduate/trainee at itm8, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: 23.03.2026)",
-        "lang": "en",
-        "source": "jobbank",
         "job_type": "graduate"
       }
     ]
