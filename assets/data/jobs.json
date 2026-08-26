@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T23:39:07Z",
+  "updated": "2026-08-26T01:58:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -341,34 +341,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior BI Developer",
-        "company": "Unity Technologies ApS",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2943442/unity-technologies-a/senior-bi-developer",
-        "posted": "2026-02-26",
-        "snippet": "Full-time job at Unity Technologies ApS, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Intelligence Data Engineer",
         "company": "Semco Maritime A/S",
         "location": "Esbjerg",
         "url": "https://jobbank.dk/job/2996572/semco-maritime-as/business-intelligence-data-eng",
         "posted": "2026-03-09",
         "snippet": "Full-time job at Semco Maritime A/S, South-west Jutland (Esbjerg) (Apply by: 31.03.2026)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior BI Developer | Développeur(se) BI Sénior",
-        "company": "Unity Technologies ApS",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2947266/unity-technologies-a/senior-bi-developer-developp",
-        "posted": "2026-02-26",
-        "snippet": "Full-time job at Unity Technologies ApS, Abroad (other) (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
@@ -570,17 +548,6 @@
         "url": "https://jobbank.dk/job/2996002/systematic/senior-data-scientist",
         "posted": "2026-03-09",
         "snippet": "Full-time job at Systematic, Eastern Jutland (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Revenue Data Scientist (RevOps)",
-        "company": "Adversus A/S",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2989222/adversus-as/revenue-data-scientist-revops",
-        "posted": "2026-02-26",
-        "snippet": "Full-time job at Adversus A/S, Eastern Jutland (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
