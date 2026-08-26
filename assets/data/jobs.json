@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T16:59:53Z",
+  "updated": "2026-08-26T19:18:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -443,34 +443,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Software engineer, data scientist, or bioinformatician to support personalised medicine research",
-        "company": "Region Hovedstaden",
+        "title": "Data Scientist",
+        "company": "Lunar A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13965633",
+        "posted": "2026-08-26",
+        "snippet": "Banking hasn't changed much in decades.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Too Good To Go ApS",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13957608",
-        "posted": "2026-08-21",
-        "snippet": "MDxCore, Dept. of Clinical Biochemistry at Rigshospitalet is looking for a data scientist, bioinformatician, or software engineer to support research in personalised medicine.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Real-World Data Science Manager",
-        "company": "Novo Nordisk A/S",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/r13952724",
-        "posted": "2026-08-18",
-        "snippet": "Are you looking for an opportunity to apply advanced statistical methods to real-world data and influence clinical development across Novo Nordisk's pipeline?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer for Next Generation Triggers (NGT) (IT-CD-PI-2026-177-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13948686",
-        "posted": "2026-08-15",
-        "snippet": "",
+        "url": "https://www.jobindex.dk/vis-job/r13965624",
+        "posted": "2026-08-26",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
