@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T14:07:38Z",
+  "updated": "2026-08-26T15:56:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -13,6 +13,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1679515",
         "posted": "2026-08-05",
         "snippet": "Vi søger en analytisk og ambitiøs profil, der vil være med til at styrke vores arbejde med data, prissætning og forretningsudvikling.Du får en aktiv rolle i at omsætte data og analyser til bedre beslutninger på tværs af forretning",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Praktikant som Data Analyst til Salling Groups loyalitetsprogram",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13964775",
+        "posted": "2026-08-26",
+        "snippet": "Vil du omsætte komplekse kundedata til indsigter, der kan bruges til konkrete beslutninger?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
