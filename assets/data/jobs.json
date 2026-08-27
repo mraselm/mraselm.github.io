@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T23:34:46Z",
+  "updated": "2026-08-27T09:51:15Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -348,17 +348,6 @@
         "posted": "2026-03-03",
         "snippet": "Full-time job at Solita ApS, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: none specified)",
         "lang": "da",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Junior Business Intelligence Engineer | Buying & Merchandising",
-        "company": "Boozt Fashion AB",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2945915/boozt-fashion-ab/junior-business-intelligence-e",
-        "posted": "2026-02-27",
-        "snippet": "Full-time job at Boozt Fashion AB, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
       },
