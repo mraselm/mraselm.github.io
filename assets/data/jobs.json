@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T05:37:29Z",
+  "updated": "2026-08-31T13:53:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -51,6 +51,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Dataanalytiker til kontor for Data og Analyse i Styrelsen for Samfundssikkerhed",
+        "company": "Ministeriet For Samfundssikkerhed og Beredskab",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1693767",
+        "posted": "2026-08-31",
+        "snippet": "Vil du være med til at gøre samfundet modstandsdygtigt over for fremtidens trusler?Du bliver en del af kontoret Data og Analyse, der har til formål at understøtte styrelsens vidensopbygning og beslutningsgrundlag gennem dataunders",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Dataanalytiker til EAE - Central Efterforskning",
         "company": "Politi",
         "location": "Holstebro",
@@ -79,17 +90,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1687925",
         "posted": "2026-08-10",
         "snippet": "Har du skarpe metodiske og dataanalytiske kompetencer, og kan du formidle komplekse dataanalyser tydeligt? Vil du være med til at præge udviklingen i en statslig styrelse?Som vores nye kollega vil der blive rig mulighed for at præ",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til kontor for Data og Analyse i Styrelsen for Samfundssikkerhed",
-        "company": "Styrelsen for Samfundssikkerhed",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13962724",
-        "posted": "2026-08-25",
-        "snippet": "Vil du være med til at gøre samfundet modstandsdygtigt over for fremtidens trusler?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -152,12 +152,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "IT Business Analyst",
-        "company": "Riskpoint A/S (Riskpoint Solutions Limited)",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1689714",
-        "posted": "2026-08-14",
-        "snippet": "As our new IT Business Analyst, you will be responsible for identifying business needs, analyzing data, and translating insights into actionable solutions.You will work closely with stakeholders across the company to understand ch",
+        "title": "Strategic Marketing Specialist / Business Analyst",
+        "company": "ITW GSE ApS",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13971051",
+        "posted": "2026-08-31",
+        "snippet": "We are looking for a strategic and commercially minded professional who can translate customer and market insights into growth opportunities.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -330,7 +330,19 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Datamanager og BI specialist til digitalisering i Center for Digital Psykiatri",
+        "company": "",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r13971552",
+        "posted": "2026-08-31",
+        "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      }
+    ],
     "data scientist": [
       {
         "title": "Data Scientist til renseanlægsområdet",
