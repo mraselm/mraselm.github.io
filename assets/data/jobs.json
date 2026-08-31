@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T13:53:55Z",
+  "updated": "2026-08-31T20:06:37Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -152,6 +152,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior Business Analyst (Aarhus)",
+        "company": "Danske Bank",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r13972490",
+        "posted": "2026-08-31",
+        "snippet": "Would you like to play a key role in modernising how investment performance is calculated and presented to customers?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst",
+        "company": "Danske Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13972487",
+        "posted": "2026-08-31",
+        "snippet": "Would you like to play a pivotal role in shaping the future digital investment experience for our customers across markets in the Nordic countries?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Strategic Marketing Specialist / Business Analyst",
         "company": "ITW GSE ApS",
         "location": "Odense",
@@ -163,6 +185,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business Analyst, Salling Group Tech",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13971849",
+        "posted": "2026-08-31",
+        "snippet": "Brænder du for at forstå forretningens behov, kvalificere nye muligheder og omsætte dem til klare anbefalinger og digitale initiativer?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Student Business Analyst",
         "company": "Profsyn ApS",
         "location": "Copenhagen",
@@ -170,17 +203,6 @@
         "posted": "2026-08-23",
         "snippet": "Vil du arbejde med AI, automatisering og forretningsudvikling i en virksomhed i vækst?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Identity Squad",
-        "company": "Danske Bank",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13952748",
-        "posted": "2026-08-18",
-        "snippet": "Would you like to take part in developing the core of the core in Danske Bank?",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -333,9 +355,9 @@
     "bi specialist": [
       {
         "title": "Datamanager og BI specialist til digitalisering i Center for Digital Psykiatri",
-        "company": "",
+        "company": "Region Syddanmark",
         "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13971552",
+        "url": "https://www.jobindex.dk/vis-job/r13972038",
         "posted": "2026-08-31",
         "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
         "lang": "da",
@@ -422,17 +444,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist",
-        "company": "Lunar A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r13965633",
-        "posted": "2026-08-26",
-        "snippet": "Banking hasn't changed much in decades.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Machine Learning Engineer",
         "company": "Too Good To Go ApS",
         "location": "Copenhagen",
@@ -483,6 +494,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1688532",
         "posted": "2026-08-11",
         "snippet": "We are looking for an AI Engineer who can help shape and implement MyDefence’s approach to artificial intelligence.This is a role for someone who enjoys working at the intersection of strategy and hands-on technology: Someone who",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "On-site Copenhagen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13972714",
+        "posted": "2026-08-31",
+        "snippet": "AI is moving from prototypes to production-ready solutions.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
