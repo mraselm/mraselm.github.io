@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T10:08:16Z",
+  "updated": "2026-09-01T14:54:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -308,6 +308,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælpere med fokus på data og statistik",
+        "company": "Landbrug & Fødevarer F.m.b.a",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1694381",
+        "posted": "2026-09-01",
+        "snippet": "Skab en karriere med mening. Bliv en del af et engageret hold af specialister, der hver dag tager ansvar og har indflydelse.I DANISH-afdelingen skal du bl.a. analysere data fra relevante databaser, udarbejde præsentation af result",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Data solution architect til Business Intelligence",
         "company": "Aarhus Universitet (AU)",
         "location": "Copenhagen",
@@ -418,17 +429,6 @@
         "posted": "2026-08-13",
         "snippet": "Data og avancerede modeller spiller en stadig større rolle i den grønne omstilling og i driften af Danmarks energiinfrastruktur. Derfor er vi i gang med at etablere en fælles Data Science Platform, der skal gøre det lettere at udv",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist — Computer Vision",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13969518",
-        "posted": "2026-08-28",
-        "snippet": "We're looking for a data scientist to own computer vision as we open up a new product area.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -620,6 +620,18 @@
         "job_type": "full-time"
       }
     ],
-    "graduate program": []
+    "graduate program": [
+      {
+        "title": "Graduate - Data & Analytics | Autumn 2027",
+        "company": "EY",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1694322",
+        "posted": "2026-09-01",
+        "snippet": "Are you ready to kick-start your career in a collaborative and high-performing environment?Join our Data and Analytics team at EY-Parthenon and work alongside experienced colleagues on challenging and meaningful projects from day",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "graduate"
+      }
+    ]
   }
 }
