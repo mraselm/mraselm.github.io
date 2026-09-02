@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T09:38:53Z",
+  "updated": "2026-09-02T14:30:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -47,6 +47,17 @@
         "posted": "2026-08-18",
         "snippet": "Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy...",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker, der vil gøre en forskel",
+        "company": "Rigsrevisionen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1694943",
+        "posted": "2026-09-02",
+        "snippet": "Vil du være med til at sikre en ansvarlig og effektiv offentlig forvaltning?Trives du i et arbejdsmiljø, hvor der er mulighed for faglig fordybelse, og hvor du er med til at udvikle og sætte standarden for Rigsrevisionens dataanal",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -599,6 +610,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Bliv eftermarkedstrainee hos stor bilkoncern i Ringsted",
+        "company": "Bjarne Nielsen A/S",
+        "location": "Ringsted",
+        "url": "https://www.jobindex.dk/vis-job/h1694872",
+        "posted": "2026-09-02",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate - Data & Analytics | Autumn 2027",
         "company": "EY",
