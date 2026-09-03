@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T05:49:22Z",
+  "updated": "2026-09-03T11:16:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -297,12 +297,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studentermedhjælpere med fokus på data og statistik",
-        "company": "Landbrug & Fødevarer F.m.b.a",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1694381",
-        "posted": "2026-09-01",
-        "snippet": "Skab en karriere med mening. Bliv en del af et engageret hold af specialister, der hver dag tager ansvar og har indflydelse.I DANISH-afdelingen skal du bl.a. analysere data fra relevante databaser, udarbejde præsentation af result",
+        "title": "Bliv studentermedhjælper i OSINT i PET og bidrag til sikkerheden i Danmark",
+        "company": "Politiets Efterretningstjeneste",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/h1695093",
+        "posted": "2026-09-03",
+        "snippet": "Vil du bidrage til bekæmpelsen af ekstremister, terrorister og spioner?Dine opgaver består primært i målrettet og systematisk at indsamle og vurdere information på personer, områder eller emner af operativ interesse for PET. Resul",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -330,6 +330,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Bliv studentermedhjælper i OSINT i PET og bidrag til sikkerheden i Danmark",
+        "company": "Politiets Efterretningstjeneste",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/h1695093",
+        "posted": "2026-09-03",
+        "snippet": "Vil du bidrage til bekæmpelsen af ekstremister, terrorister og spioner?Dine opgaver består primært i målrettet og systematisk at indsamle og vurdere information på personer, områder eller emner af operativ interesse for PET. Resul",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -373,6 +384,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1691193",
         "posted": "2026-08-20",
         "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data scientister og historiske datamanagere til Rigsarkivet",
+        "company": "Rigsarkivet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13978312",
+        "posted": "2026-09-03",
+        "snippet": "Vil du være med til at opbygge Historisk Personregister (HisPeR) – en ny national forskningsinfrastruktur, der skal forbinde historiske...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
