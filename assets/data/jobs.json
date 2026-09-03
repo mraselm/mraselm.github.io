@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T11:16:34Z",
+  "updated": "2026-09-03T15:02:07Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -207,17 +207,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Corporate Finance Business Analyst",
-        "company": "LEGO System A/S",
-        "location": "Billund",
-        "url": "https://www.jobindex.dk/vis-job/r13950760",
-        "posted": "2026-08-17",
-        "snippet": "Just imagine turning financial planning data into clearer decisions that help shape the future of business performance.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker med teknisk forståelse til IT-projekter",
         "company": "Banedanmark",
         "location": "Copenhagen",
@@ -297,6 +286,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "To studentermedhjælpere til biologisk overvågning af vandmiljøet i Østjylland",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1695462",
+        "posted": "2026-09-03",
+        "snippet": "Er du biologistuderende eller tilsvarende, og motiveres du af artsbestemmelse, feltarbejde og vandmiljø?Som studentermedhjælper hos os får du praktisk erfaring med den nationale overvågning af vand og natur og bliver en del af et",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Bliv studentermedhjælper i OSINT i PET og bidrag til sikkerheden i Danmark",
         "company": "Politiets Efterretningstjeneste",
         "location": "Søborg",
@@ -330,6 +330,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "To studentermedhjælpere til biologisk overvågning af vandmiljøet i Østjylland",
+        "company": "Styrelsen for Grøn Arealomlægning og Vandmiljø",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1695462",
+        "posted": "2026-09-03",
+        "snippet": "Er du biologistuderende eller tilsvarende, og motiveres du af artsbestemmelse, feltarbejde og vandmiljø?Som studentermedhjælper hos os får du praktisk erfaring med den nationale overvågning af vand og natur og bliver en del af et",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Bliv studentermedhjælper i OSINT i PET og bidrag til sikkerheden i Danmark",
