@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T15:02:07Z",
+  "updated": "2026-09-03T18:41:08Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -148,6 +148,17 @@
         "posted": "2026-08-24",
         "snippet": "Vil du bruge din tekniske forståelse til at skabe løsninger, der kan mærkes i praksis? Vi søger en IT Business Analyst, der kan omsætte behov, idéer og processer til konkrete digitale løsninger på Danmarks største erhvervshavn.Du",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "FX Business Analyst",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13979844",
+        "posted": "2026-09-03",
+        "snippet": "",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -400,6 +411,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior Clinical Data Scientist",
+        "company": "Novo Nordisk A/S",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/r13979896",
+        "posted": "2026-09-03",
+        "snippet": "Join Novo Nordisk as a Senior Clinical Data Scientist and play a key role in delivering high-quality clinical trial data that supports the...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data scientister og historiske datamanagere til Rigsarkivet",
         "company": "Rigsarkivet",
         "location": "Copenhagen",
@@ -450,6 +472,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1689549",
         "posted": "2026-08-14",
         "snippet": "Are you a skilled Artificial Intelligence (AI) Engineer with experience across the full AI solution lifecycle, from model development and training to deployment and operation at scale?As a Senior AI Engineer, you will be instrumen",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Manufacturing AI Engineer",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13980289",
+        "posted": "2026-09-03",
+        "snippet": "Are you an ambitious student looking to build a career at the overlap of AI and manufacturing?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
