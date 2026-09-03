@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T21:50:28Z",
+  "updated": "2026-09-03T00:17:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -308,28 +308,6 @@
         "job_type": "student"
       },
       {
-        "title": "Data solution architect til Business Intelligence",
-        "company": "Aarhus Universitet (AU)",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2992028/aarhus-universitet/data-solution-architect-til-bu",
-        "posted": "2026-03-03",
-        "snippet": "Full-time job at Aarhus Universitet (AU), Greater Copenhagen (Apply by: 18.03.2026)",
-        "lang": "da",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence-konsulent",
-        "company": "Solita ApS",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2992238/solita-aps/business-intelligence-konsulen",
-        "posted": "2026-03-03",
-        "snippet": "Full-time job at Solita ApS, Greater Copenhagen, Øresund region, Abroad (other) (Apply by: none specified)",
-        "lang": "da",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business Intelligence Data Engineer",
         "company": "Semco Maritime A/S",
         "location": "Esbjerg",
@@ -395,17 +373,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1691193",
         "posted": "2026-08-20",
         "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Platform Engineer til Data Science Platform – vær med til at bygge fundamentet for Data Science i Energinet",
-        "company": "Energinet",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1689198",
-        "posted": "2026-08-13",
-        "snippet": "Data og avancerede modeller spiller en stadig større rolle i den grønne omstilling og i driften af Danmarks energiinfrastruktur. Derfor er vi i gang med at etablere en fælles Data Science Platform, der skal gøre det lettere at udv",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -527,17 +494,6 @@
         "url": "https://jobbank.dk/job/2987136/aeven-as/ai-data-scientist",
         "posted": "2026-03-07",
         "snippet": "Full-time job at Aeven A/S, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist",
-        "company": "Solita ApS",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/1944064/solita-aps/senior-data-scientist",
-        "posted": "2026-03-03",
-        "snippet": "Full-time job at Solita ApS, Abroad (Sweden) (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
