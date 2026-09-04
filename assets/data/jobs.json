@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T21:43:21Z",
+  "updated": "2026-09-04T00:07:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -73,17 +73,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Dataanalytiker",
-        "company": "HOFOR",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1691473",
-        "posted": "2026-08-21",
-        "snippet": "HOFOR arbejder målrettet med data, BI, AI og digitalisering som grundlag for bedre beslutninger, mere effektive arbejdsgange og større værdi på tværs af organisationen. Vi søger en dataanalytiker, som kan omsætte forretningsbehov",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Dygtig dataanalytiker med fokus på processer og formidling",
         "company": "Motorstyrelsen",
         "location": "Aalborg",
@@ -92,17 +81,6 @@
         "snippet": "Har du skarpe metodiske og dataanalytiske kompetencer, og kan du formidle komplekse dataanalyser tydeligt? Vil du være med til at præge udviklingen i en statslig styrelse?Som vores nye kollega vil der blive rig mulighed for at præ",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst and Process Optimization Lead",
-        "company": "ECCO SKO A/S",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2992720/ecco-sko-as/data-analyst-and-process-optim",
-        "posted": "2026-03-04",
-        "snippet": "Full-time job at ECCO SKO A/S, Southern Jutland (Apply by: 30.04.2026)",
-        "lang": "en",
-        "source": "jobbank",
         "job_type": "full-time"
       },
       {
