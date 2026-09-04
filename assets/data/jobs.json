@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T14:22:39Z",
+  "updated": "2026-09-04T18:25:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -159,6 +159,17 @@
         "posted": "2026-09-04",
         "snippet": "Vil du være med til at skabe fremtidens transportoptimering gennem data, analyser og AI?",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13982423",
+        "posted": "2026-09-04",
+        "snippet": "Join our Welcoming & Orchestration Tribe as a Senior Business Analyst and help shape the customer onboarding experience at Danske Bank.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
