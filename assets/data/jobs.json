@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T09:40:56Z",
+  "updated": "2026-09-04T14:22:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -152,6 +152,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business Analyst",
+        "company": "Dansk Transportoptimering A/S",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/r13980704",
+        "posted": "2026-09-04",
+        "snippet": "Vil du være med til at skabe fremtidens transportoptimering gennem data, analyser og AI?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "FX Business Analyst",
         "company": "Danske Bank",
         "location": "Denmark",
@@ -180,17 +191,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13972487",
         "posted": "2026-08-31",
         "snippet": "Would you like to play a pivotal role in shaping the future digital investment experience for our customers across markets in the Nordic countries?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Strategic Marketing Specialist / Business Analyst",
-        "company": "ITW GSE ApS",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13971051",
-        "posted": "2026-08-31",
-        "snippet": "We are looking for a strategic and commercially minded professional who can translate customer and market insights into growth opportunities.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -271,6 +271,28 @@
         "posted": "2026-08-17",
         "snippet": "We are looking for a Business Intelligence Engineer who enjoys building things, solving problems and making data work in the real world.If you like to get into the details, understand how operational systems work, turn raw data in",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Vi søger BI-specialist med stærke kompetencer inden for Power BI, dataanalyse og ledelsesrapportering",
+        "company": "Vurderingsstyrelsen",
+        "location": "Roskilde",
+        "url": "https://www.jobindex.dk/vis-job/h1695986",
+        "posted": "2026-09-04",
+        "snippet": "Vil du være med til at udvikle datadrevet ledelsesinformation og skabe Power BI-løsninger, der giver ledelsen et stærkt grundlag for at styre driften?Er du teknisk stærk i Power BI, skarp på data og god til at omsætte komplekse da",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Controller med bogholderiopgaver, Power BI og Business Central",
+        "company": "Nyborg Forsyning & Service A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1695819",
+        "posted": "2026-09-04",
+        "snippet": "Vi er midt i en spændende udvikling med fokus på digitalisering, effektivisering og grøn omstilling – og vi søger derfor en Controller med baggrund fra revision HD(R), der vil bidrage til at videreudvikle vores økonomistyring og r",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
