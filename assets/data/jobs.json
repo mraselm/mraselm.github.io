@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T04:36:02Z",
+  "updated": "2026-09-04T09:40:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -35,6 +35,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13964775",
         "posted": "2026-08-26",
         "snippet": "Vil du omsætte komplekse kundedata til indsigter, der kan bruges til konkrete beslutninger?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til Efterretnings- og Analysecentret i National enhed for Særlig Kriminalitet",
+        "company": "Politi",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1695516",
+        "posted": "2026-09-04",
+        "snippet": "Vil du få forskellige datakilder til at tale sammen og finde mønstre og forbindelser i store, komplekse datamængder?Du arbejder bl.a. med at:udtrække, rense, strukturere og kvalitetssikre store og komplekse datasætkoble data fra f",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -108,6 +119,17 @@
     ],
     "business analyst": [
       {
+        "title": "Business Analyst / Controller",
+        "company": "Privathospitalet Mølholm",
+        "location": "Vejle",
+        "url": "https://www.jobindex.dk/vis-job/h1695438",
+        "posted": "2026-09-04",
+        "snippet": "Vil du være med til at videreudvikle et stærkt datagrundlag, der understøtter vores kundeindsigter og ledelsesbeslutninger på et moderne privathospital, og samtidig spille en central rolle i den kommende implementering af et nyt E",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Erfarne Business Analysts/forretningsanalytikere til team i Told Erhverv",
         "company": "Udviklings- og Forenklingsstyrelsen",
         "location": "Frederiksberg",
@@ -170,28 +192,6 @@
         "posted": "2026-08-31",
         "snippet": "We are looking for a strategic and commercially minded professional who can translate customer and market insights into growth opportunities.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst, Salling Group Tech",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13971849",
-        "posted": "2026-08-31",
-        "snippet": "Brænder du for at forstå forretningens behov, kvalificere nye muligheder og omsætte dem til klare anbefalinger og digitale initiativer?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student Business Analyst",
-        "company": "Profsyn ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13959825",
-        "posted": "2026-08-23",
-        "snippet": "Vil du arbejde med AI, automatisering og forretningsudvikling i en virksomhed i vækst?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -286,17 +286,6 @@
         "job_type": "student"
       },
       {
-        "title": "Bliv studentermedhjælper i OSINT i PET og bidrag til sikkerheden i Danmark",
-        "company": "Politiets Efterretningstjeneste",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/h1695093",
-        "posted": "2026-09-03",
-        "snippet": "Vil du bidrage til bekæmpelsen af ekstremister, terrorister og spioner?Dine opgaver består primært i målrettet og systematisk at indsamle og vurdere information på personer, områder eller emner af operativ interesse for PET. Resul",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
         "title": "Business Intelligence Data Engineer",
         "company": "Semco Maritime A/S",
         "location": "Esbjerg",
@@ -327,17 +316,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1695462",
         "posted": "2026-09-03",
         "snippet": "Er du biologistuderende eller tilsvarende, og motiveres du af artsbestemmelse, feltarbejde og vandmiljø?Som studentermedhjælper hos os får du praktisk erfaring med den nationale overvågning af vand og natur og bliver en del af et",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Bliv studentermedhjælper i OSINT i PET og bidrag til sikkerheden i Danmark",
-        "company": "Politiets Efterretningstjeneste",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/h1695093",
-        "posted": "2026-09-03",
-        "snippet": "Vil du bidrage til bekæmpelsen af ekstremister, terrorister og spioner?Dine opgaver består primært i målrettet og systematisk at indsamle og vurdere information på personer, områder eller emner af operativ interesse for PET. Resul",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
