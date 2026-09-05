@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T21:30:20Z",
+  "updated": "2026-09-05T00:07:33Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -224,17 +224,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1689930",
         "posted": "2026-08-17",
         "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Strategisk forretningsanalytiker til FE’s cyber transformation",
-        "company": "Forsvarets Efterretningstjeneste",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1689822",
-        "posted": "2026-08-14",
-        "snippet": "Vil du være med til at forme fremtidens cyberkapaciteter?FE’s cybersektor står over for en række omfattende udviklings- og transformationsinitiativer, som vil ændre måden, vi arbejder på i dag. Derfor søger vi en eller flere forre",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -521,28 +510,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Data Scientist / AI Lead",
-        "company": "Vattenfall A/S",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2992965/vattenfall-as/senior-data-scientist-ai-lea",
-        "posted": "2026-03-05",
-        "snippet": "Full-time job at Vattenfall A/S, Abroad (Sweden) (Apply by: 25.03.2026)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælperstilling som Data Scientist i Accounts Payable / Accounts Receivable",
-        "company": "Salling Group A/S",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2993842/salling-group-as/studentermedhjaelperstilling-so",
-        "posted": "2026-03-05",
-        "snippet": "Student job at Salling Group A/S, Eastern Jutland (Apply by: none specified)",
-        "lang": "da",
-        "source": "jobbank",
-        "job_type": "student"
-      },
-      {
         "title": "AI Data Scientist",
         "company": "Aeven A/S",
         "location": "Copenhagen",
@@ -560,17 +527,6 @@
         "url": "https://jobbank.dk/job/2996002/systematic/senior-data-scientist",
         "posted": "2026-03-09",
         "snippet": "Full-time job at Systematic, Eastern Jutland (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Lead Weather-to-Power Data Scientist",
-        "company": "Ørsted",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2993819/orsted/lead-weather-to-power-data-sci",
-        "posted": "2026-03-05",
-        "snippet": "Full-time job at Ørsted, Greater Copenhagen (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
