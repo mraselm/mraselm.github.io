@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T21:22:36Z",
+  "updated": "2026-09-06T23:55:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -79,17 +79,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1691749",
         "posted": "2026-08-24",
         "snippet": "Du får en nøglefunktion i analyse- og efterretningsarbejdet med særligt fokus på at levere data til øverste ledelse og til øvrige sektioner i politikredsen.Din primære opgave i EAE bliver at fremskaffe, behandle & fremstille relev",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dygtig dataanalytiker med fokus på processer og formidling",
-        "company": "Motorstyrelsen",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1687925",
-        "posted": "2026-08-10",
-        "snippet": "Har du skarpe metodiske og dataanalytiske kompetencer, og kan du formidle komplekse dataanalyser tydeligt? Vil du være med til at præge udviklingen i en statslig styrelse?Som vores nye kollega vil der blive rig mulighed for at præ",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -202,17 +191,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1692483",
         "posted": "2026-08-26",
         "snippet": "Kunne du tænke dig at arbejde med projektarbejde i en stor, kompleks og bredt sammensat organisation?Som Forretningsanalytiker i IT-Projekter-sektionen bliver du en vigtig brobygger mellem forretningen og IT-løsningsarkitekterne.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til Rigspolitiet, Politiets Administrative Center i Holstebro",
-        "company": "Politi",
-        "location": "Holstebro",
-        "url": "https://www.jobindex.dk/vis-job/h1689930",
-        "posted": "2026-08-17",
-        "snippet": "",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -340,17 +318,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1691234",
         "posted": "2026-08-20",
         "snippet": "Har du lyst til at udvikle løsninger, der kan gøre en forskel på et område med stor offentlig bevågenhed? Så er det måske dig, vi leder efter som data scientist i Udlændingestyrelsens Center for Dokumentation og Indsats mod Ekstre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist - vær med til at udvikle prognoser, der holder elnettet i balance",
-        "company": "Energinet",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1691193",
-        "posted": "2026-08-20",
-        "snippet": "",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
