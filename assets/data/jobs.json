@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T22:57:59Z",
+  "updated": "2026-09-06T00:59:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -235,28 +235,6 @@
         "url": "https://jobbank.dk/job/1511019/mckinsey-company/business-analyst",
         "posted": "2026-03-09",
         "snippet": "Full-time job at McKinsey & Company, Abroad (Sweden), Abroad (Norway), Abroad (other) (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "IS Business Analyst – Finance, ABB Robotics",
-        "company": "ABB A/S",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2939077/abb-as/is-business-analyst-finance",
-        "posted": "2026-03-06",
-        "snippet": "Full-time job at ABB A/S, Abroad (other) (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst Intern",
-        "company": "McKinsey & Company",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/1511020/mckinsey-company/business-analyst-intern",
-        "posted": "2026-03-06",
-        "snippet": "Internship at McKinsey & Company, Abroad (Sweden), Abroad (Norway), Abroad (other) (Apply by: none specified)",
         "lang": "en",
         "source": "jobbank",
         "job_type": "full-time"
