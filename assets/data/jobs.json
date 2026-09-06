@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T17:04:28Z",
+  "updated": "2026-09-06T19:12:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -169,17 +169,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13982423",
         "posted": "2026-09-04",
         "snippet": "Join our Welcoming & Orchestration Tribe as a Senior Business Analyst and help shape the customer onboarding experience at Danske Bank.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "FX Business Analyst",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13979844",
-        "posted": "2026-09-03",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
