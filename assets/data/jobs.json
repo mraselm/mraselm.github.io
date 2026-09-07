@@ -1,22 +1,11 @@
 {
-  "updated": "2026-09-07T10:20:33Z",
+  "updated": "2026-09-07T16:28:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Junior Data Analyst / Machine Learning – Blade Condition Monitoring",
-        "company": "Polytech A/S",
-        "location": "Herning",
-        "url": "https://www.jobindex.dk/vis-job/h1693623",
-        "posted": "2026-08-28",
-        "snippet": "We are looking for a curious and motivated recent graduate to join Polytech and help us build out our machine learning and data analysis capabilities within blade condition monitoring.If you are early in your career, excited about",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Customer Program Data Analyst",
         "company": "Salling Group",
@@ -209,17 +198,6 @@
     ],
     "business intelligence": [
       {
-        "title": "Business Intelligence Engineer",
-        "company": "Ellab A/S",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1689875",
-        "posted": "2026-08-17",
-        "snippet": "We are looking for a Business Intelligence Engineer who enjoys building things, solving problems and making data work in the real world.If you like to get into the details, understand how operational systems work, turn raw data in",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Vi søger BI-specialist med stærke kompetencer inden for Power BI, dataanalyse og ledelsesrapportering",
         "company": "Vurderingsstyrelsen",
         "location": "Roskilde",
@@ -262,6 +240,17 @@
         "posted": "2026-08-31",
         "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Engineer",
+        "company": "Ellab A/S",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1689875",
+        "posted": "2026-08-17",
+        "snippet": "We are looking for a Business Intelligence Engineer who enjoys building things, solving problems and making data work in the real world.If you like to get into the details, understand how operational systems work, turn raw data in",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -340,6 +329,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13965624",
         "posted": "2026-08-26",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer - LLMs and On-Premise AI - Aarhus",
+        "company": "twoday A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1696204",
+        "posted": "2026-09-07",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
