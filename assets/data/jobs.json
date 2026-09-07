@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T23:55:43Z",
+  "updated": "2026-09-07T04:44:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -441,17 +441,6 @@
         "snippet": "We are building the layer that ends that scarcity.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Data Scientist",
-        "company": "Aeven A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2987136/aeven-as/ai-data-scientist",
-        "posted": "2026-03-07",
-        "snippet": "Full-time job at Aeven A/S, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
         "job_type": "full-time"
       },
       {
