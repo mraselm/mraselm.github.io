@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T16:28:16Z",
+  "updated": "2026-09-07T20:34:46Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -301,6 +301,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data scientister og historiske datamanagere til Rigsarkivet",
+        "company": "Rigsarkivet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13985691",
+        "posted": "2026-09-07",
+        "snippet": "Vil du være med til at opbygge Historisk Personregister (HisPeR) – en ny national forskningsinfrastruktur, der skal forbinde historiske...",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Clinical Data Scientist",
         "company": "Novo Nordisk A/S",
         "location": "Søborg",
@@ -308,17 +319,6 @@
         "posted": "2026-09-03",
         "snippet": "Join Novo Nordisk as a Senior Clinical Data Scientist and play a key role in delivering high-quality clinical trial data that supports the...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data scientister og historiske datamanagere til Rigsarkivet",
-        "company": "Rigsarkivet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13978312",
-        "posted": "2026-09-03",
-        "snippet": "Vil du være med til at opbygge Historisk Personregister (HisPeR) – en ny national forskningsinfrastruktur, der skal forbinde historiske...",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
