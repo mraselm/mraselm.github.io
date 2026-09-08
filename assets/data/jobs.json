@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T04:38:55Z",
+  "updated": "2026-09-08T09:42:45Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -71,6 +71,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper – Junior Data & AI Analyst",
+        "company": "Danmarks Skibskredit A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1696516",
+        "posted": "2026-09-08",
+        "snippet": "Vil du arbejde praktisk med data og AI – og være med til at opbygge den digitale platform, der skal understøtte vores arbejde med bæredygtighed og markedsanalyse? Rollen er for dig, der trives med at bygge, teste og forbedre løsni",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Data Analyst – Factory IT and Digitalization for ABB Robotics",
@@ -163,6 +174,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper – Junior Data & AI Analyst",
+        "company": "Danmarks Skibskredit A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1696516",
+        "posted": "2026-09-08",
+        "snippet": "Vil du arbejde praktisk med data og AI – og være med til at opbygge den digitale platform, der skal understøtte vores arbejde med bæredygtighed og markedsanalyse? Rollen er for dig, der trives med at bygge, teste og forbedre løsni",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Business Analyst",
         "company": "McKinsey & Company",
         "location": "Denmark",
@@ -209,6 +231,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper – Junior Data & AI Analyst",
+        "company": "Danmarks Skibskredit A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1696516",
+        "posted": "2026-09-08",
+        "snippet": "Vil du arbejde praktisk med data og AI – og være med til at opbygge den digitale platform, der skal understøtte vores arbejde med bæredygtighed og markedsanalyse? Rollen er for dig, der trives med at bygge, teste og forbedre løsni",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Business Intelligence Data Engineer",
         "company": "Semco Maritime A/S",
         "location": "Esbjerg",
@@ -231,6 +264,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper – Junior Data & AI Analyst",
+        "company": "Danmarks Skibskredit A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1696516",
+        "posted": "2026-09-08",
+        "snippet": "Vil du arbejde praktisk med data og AI – og være med til at opbygge den digitale platform, der skal understøtte vores arbejde med bæredygtighed og markedsanalyse? Rollen er for dig, der trives med at bygge, teste og forbedre løsni",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -445,6 +489,17 @@
       }
     ],
     "graduate program": [
+      {
+        "title": "Graduate AI & Business Systems Analyst",
+        "company": "Moveero",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1696592",
+        "posted": "2026-09-08",
+        "snippet": "Vil du være med til at forme fremtidens arbejdsplads gennem AI, data og smartere arbejdsgange?Hos os får du ikke blot en introduktion til arbejdsmarkedet. Du bliver en del af virksomhedens digitale udvikling og får mulighed for at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      },
       {
         "title": "Graduate - Data & Analytics | Autumn 2027",
         "company": "EY",
