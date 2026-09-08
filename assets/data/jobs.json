@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T23:30:29Z",
+  "updated": "2026-09-08T04:38:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -80,17 +80,6 @@
         "posted": "2026-03-09",
         "snippet": "Full-time job at ABB A/S, Greater Copenhagen (Apply by: none specified)",
         "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til Efterretnings- og Analysecentret i National enhed for Særlig Kriminalitet",
-        "company": "Rigspolitiet",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2991669/rigspolitiet/dataanalytiker-til-efterretnin",
-        "posted": "2026-03-08",
-        "snippet": "Full-time job at Rigspolitiet, Greater Copenhagen, Øresund region (Apply by: 16.03.2026)",
-        "lang": "da",
         "source": "jobbank",
         "job_type": "full-time"
       }
