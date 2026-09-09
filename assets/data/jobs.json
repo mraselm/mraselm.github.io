@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T14:37:10Z",
+  "updated": "2026-09-09T18:38:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -319,6 +319,17 @@
         "posted": "2026-08-20",
         "snippet": "Har du lyst til at udvikle løsninger, der kan gøre en forskel på et område med stor offentlig bevågenhed? Så er det måske dig, vi leder efter som data scientist i Udlændingestyrelsens Center for Dokumentation og Indsats mod Ekstre",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/r13989794",
+        "posted": "2026-09-09",
+        "snippet": "CETO Innovation is developing predictive maintenance technology for district heating infrastructure.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
