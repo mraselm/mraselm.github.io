@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T21:52:12Z",
+  "updated": "2026-09-09T00:16:14Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -82,17 +82,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Data Analyst – Factory IT and Digitalization for ABB Robotics",
-        "company": "ABB A/S",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2963578/abb-as/data-analyst-factory-it-and",
-        "posted": "2026-03-09",
-        "snippet": "Full-time job at ABB A/S, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
       }
     ],
     "business analyst": [
@@ -194,17 +183,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "McKinsey & Company",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/1511019/mckinsey-company/business-analyst",
-        "posted": "2026-03-09",
-        "snippet": "Full-time job at McKinsey & Company, Abroad (Sweden), Abroad (Norway), Abroad (other) (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
       }
     ],
     "business intelligence": [
@@ -251,17 +229,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Business Intelligence Data Engineer",
-        "company": "Semco Maritime A/S",
-        "location": "Esbjerg",
-        "url": "https://jobbank.dk/job/2996572/semco-maritime-as/business-intelligence-data-eng",
-        "posted": "2026-03-09",
-        "snippet": "Full-time job at Semco Maritime A/S, South-west Jutland (Esbjerg) (Apply by: 31.03.2026)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
       }
     ],
     "bi specialist": [
@@ -452,50 +419,6 @@
         "snippet": "All Gravy is the AI-native people operating platform for hospitality and retail.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Lead AI engineer for legal tech",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13953033",
-        "posted": "2026-08-18",
-        "snippet": "We are building the layer that ends that scarcity.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist",
-        "company": "Systematic",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2996002/systematic/senior-data-scientist",
-        "posted": "2026-03-09",
-        "snippet": "Full-time job at Systematic, Eastern Jutland (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer",
-        "company": "Veo Technologies",
-        "location": "Copenhagen",
-        "url": "https://jobbank.dk/job/2685479/veo-technologies/machine-learning-engineer",
-        "posted": "2026-03-09",
-        "snippet": "Full-time job at Veo Technologies, Greater Copenhagen (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning engineer",
-        "company": "Viaplay Group",
-        "location": "Denmark",
-        "url": "https://jobbank.dk/job/2942037/viaplay-group/machine-learning-engineer",
-        "posted": "2026-03-09",
-        "snippet": "Full-time job at Viaplay Group, Abroad (Sweden) (Apply by: none specified)",
-        "lang": "en",
-        "source": "jobbank",
         "job_type": "full-time"
       }
     ],
