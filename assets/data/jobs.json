@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T04:51:03Z",
+  "updated": "2026-09-09T09:47:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -86,6 +86,17 @@
     ],
     "business analyst": [
       {
+        "title": "Business Analyst - Processer, Systemer og Implementering",
+        "company": "DSV",
+        "location": "Horsens",
+        "url": "https://www.jobindex.dk/vis-job/h1697016",
+        "posted": "2026-09-09",
+        "snippet": "Som Business Analyst omsætter du komplekse forretningsbehov til skalerbare processer, klare systemkrav og løsninger for nogle af DSV Roads største kunder.Du bliver en del af et internationalt Process Development-team med stærke ko",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst til Tryg Privat",
         "company": "Tryg Forsikring A/S",
         "location": "Ballerup",
@@ -114,17 +125,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1691823",
         "posted": "2026-08-24",
         "snippet": "Vil du bruge din tekniske forståelse til at skabe løsninger, der kan mærkes i praksis? Vi søger en IT Business Analyst, der kan omsætte behov, idéer og processer til konkrete digitale løsninger på Danmarks største erhvervshavn.Du",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Dansk Transportoptimering A/S",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/r13980704",
-        "posted": "2026-09-04",
-        "snippet": "Vil du være med til at skabe fremtidens transportoptimering gennem data, analyser og AI?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -204,17 +204,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1695986",
         "posted": "2026-09-04",
         "snippet": "Vil du være med til at udvikle datadrevet ledelsesinformation og skabe Power BI-løsninger, der giver ledelsen et stærkt grundlag for at styre driften?Er du teknisk stærk i Power BI, skarp på data og god til at omsætte komplekse da",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Controller med bogholderiopgaver, Power BI og Business Central",
-        "company": "Nyborg Forsyning & Service A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1695819",
-        "posted": "2026-09-04",
-        "snippet": "Vi er midt i en spændende udvikling med fokus på digitalisering, effektivisering og grøn omstilling – og vi søger derfor en Controller med baggrund fra revision HD(R), der vil bidrage til at videreudvikle vores økonomistyring og r",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
