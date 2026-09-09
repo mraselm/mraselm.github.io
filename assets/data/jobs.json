@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T09:47:47Z",
+  "updated": "2026-09-09T14:37:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -198,17 +198,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Vi søger BI-specialist med stærke kompetencer inden for Power BI, dataanalyse og ledelsesrapportering",
-        "company": "Vurderingsstyrelsen",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1695986",
-        "posted": "2026-09-04",
-        "snippet": "Vil du være med til at udvikle datadrevet ledelsesinformation og skabe Power BI-løsninger, der giver ledelsen et stærkt grundlag for at styre driften?Er du teknisk stærk i Power BI, skarp på data og god til at omsætte komplekse da",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Studentermedhjælper – Junior Data & AI Analyst",
         "company": "Danmarks Skibskredit A/S",
         "location": "Copenhagen",
@@ -221,6 +210,17 @@
       }
     ],
     "bi specialist": [
+      {
+        "title": "Vi søger BI-specialist med stærke kompetencer inden for Power BI, dataanalyse og ledelsesrapportering",
+        "company": "Vurderingsstyrelsen",
+        "location": "Roskilde",
+        "url": "https://www.jobindex.dk/vis-job/h1695986",
+        "posted": "2026-09-04",
+        "snippet": "Vil du være med til at udvikle datadrevet ledelsesinformation og skabe Power BI-løsninger, der giver ledelsen et stærkt grundlag for at styre driften?Er du teknisk stærk i Power BI, skarp på data og god til at omsætte komplekse da",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Datamanager og BI specialist til digitalisering i Center for Digital Psykiatri",
         "company": "Region Syddanmark",
@@ -245,6 +245,39 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Senior AI/ML Engineer",
+        "company": "twoday A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1697079",
+        "posted": "2026-09-09",
+        "snippet": "We are looking for an experienced Senior AI/ML Engineer to join our AI team!Most companies can build models. Far fewer can run them in production, retrain, update and provide inference on a schedule or in real time, setup operatio",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Data Scientist",
+        "company": "twoday A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1697078",
+        "posted": "2026-09-09",
+        "snippet": "We are looking for an experienced Senior Data Scientist to join our AI team!Most organizations have no shortage of ideas for what to model. Far fewer can turn a vaguely stated business problem into a well-posed prediction task, pi",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead Data Scientist",
+        "company": "twoday A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1697076",
+        "posted": "2026-09-09",
+        "snippet": "We are looking for an experienced Lead Data Scientist to join our AI team!Most organizations have no shortage of ideas for what to model. Far fewer can turn a vaguely stated business problem into a well-posed prediction task, pick",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Lead AI Engineer - Kolding",
         "company": "GLS Denmark A/S",
@@ -285,28 +318,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1691234",
         "posted": "2026-08-20",
         "snippet": "Har du lyst til at udvikle løsninger, der kan gøre en forskel på et område med stor offentlig bevågenhed? Så er det måske dig, vi leder efter som data scientist i Udlændingestyrelsens Center for Dokumentation og Indsats mod Ekstre",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Metabolomics Data Scientist",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13984076",
-        "posted": "2026-09-07",
-        "snippet": "Are you an expert in metabolomics and data analysis that would be excited about supporting cutting-edge research within the fields of...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data scientister og historiske datamanagere til Rigsarkivet",
-        "company": "Rigsarkivet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13985691",
-        "posted": "2026-09-07",
-        "snippet": "Vil du være med til at opbygge Historisk Personregister (HisPeR) – en ny national forskningsinfrastruktur, der skal forbinde historiske...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
