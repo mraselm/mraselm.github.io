@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T09:46:06Z",
+  "updated": "2026-09-10T14:27:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -231,20 +231,20 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper – Junior Data & AI Analyst",
-        "company": "Danmarks Skibskredit A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1696516",
-        "posted": "2026-09-08",
-        "snippet": "Vil du arbejde praktisk med data og AI – og være med til at opbygge den digitale platform, der skal understøtte vores arbejde med bæredygtighed og markedsanalyse? Rollen er for dig, der trives med at bygge, teste og forbedre løsni",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
+      {
+        "title": "AI Engineer til automatisering af manuelle arbejdsprocesser",
+        "company": "Erhvervsministeriet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1697599",
+        "posted": "2026-09-10",
+        "snippet": "Trives du i et stærkt fagligt miljø, hvor du bliver udfordret? Vil du være med til at udvikle digitale og AI-baserede værktøjer, der gør komplekse arbejdsgange lettere, hurtigere og mere ensartede – og samtidig understøtter vigtig",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior AI/ML Engineer",
         "company": "twoday A/S",
