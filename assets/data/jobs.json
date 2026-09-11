@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T14:27:00Z",
+  "updated": "2026-09-11T18:34:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -86,6 +86,17 @@
     ],
     "business analyst": [
       {
+        "title": "Market, Financial and Business Analyst for the Green Transition",
+        "company": "KAR+CO",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1698100",
+        "posted": "2026-09-11",
+        "snippet": "Market analysis, business plans, customer contact and economic modeling.Do you have strong business understanding and a talent for working with numbers? Can you translate strategy into budgets, economic models and business plans?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Business Analyst",
         "company": "Normal A/S",
         "location": "Skanderborg",
@@ -125,17 +136,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1695438",
         "posted": "2026-09-04",
         "snippet": "Vil du være med til at videreudvikle et stærkt datagrundlag, der understøtter vores kundeindsigter og ledelsesbeslutninger på et moderne privathospital, og samtidig spille en central rolle i den kommende implementering af et nyt E",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "IT Business Analyst",
-        "company": "Aarhus Havn",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1691823",
-        "posted": "2026-08-24",
-        "snippet": "Vil du bruge din tekniske forståelse til at skabe løsninger, der kan mærkes i praksis? Vi søger en IT Business Analyst, der kan omsætte behov, idéer og processer til konkrete digitale løsninger på Danmarks største erhvervshavn.Du",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -183,17 +183,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper – Junior Data & AI Analyst",
-        "company": "Danmarks Skibskredit A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1696516",
-        "posted": "2026-09-08",
-        "snippet": "Vil du arbejde praktisk med data og AI – og være med til at opbygge den digitale platform, der skal understøtte vores arbejde med bæredygtighed og markedsanalyse? Rollen er for dig, der trives med at bygge, teste og forbedre løsni",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "business intelligence": [
