@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T21:44:19Z",
+  "updated": "2026-09-12T00:19:15Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -341,17 +341,6 @@
         "posted": "2026-08-20",
         "snippet": "Vil du være med til at bygge AI-løsninger, der skaber konkret værdi i en af Danmarks største banker?I AL Sydbank bruger vi AI til at styrke relationen mellem kunde og rådgiver, forbedre beslutningsgrundlaget og gøre arbejdsgange e",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "JYSK",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1689549",
-        "posted": "2026-08-14",
-        "snippet": "Are you a skilled Artificial Intelligence (AI) Engineer with experience across the full AI solution lifecycle, from model development and training to deployment and operation at scale?As a Senior AI Engineer, you will be instrumen",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
