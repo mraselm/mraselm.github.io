@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T01:06:12Z",
+  "updated": "2026-09-14T06:19:02Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -268,17 +268,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data scientister og historiske datamanagere til Rigsarkivet",
-        "company": "Rigsarkivet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13985691",
-        "posted": "2026-09-07",
-        "snippet": "Vil du være med til at opbygge Historisk Personregister (HisPeR) – en ny national forskningsinfrastruktur, der skal forbinde historiske...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Machine Learning Engineer",
         "company": "",
         "location": "Lyngby",
@@ -297,17 +286,6 @@
         "posted": "2026-08-26",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "AL Sydbank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1691086",
-        "posted": "2026-08-20",
-        "snippet": "Vil du være med til at bygge AI-løsninger, der skaber konkret værdi i en af Danmarks største banker?I AL Sydbank bruger vi AI til at styrke relationen mellem kunde og rådgiver, forbedre beslutningsgrundlaget og gøre arbejdsgange e",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
