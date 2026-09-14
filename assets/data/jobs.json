@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T14:05:07Z",
+  "updated": "2026-09-14T19:23:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -274,17 +274,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1696668",
         "posted": "2026-09-08",
         "snippet": "Kan du omsætte AI-muligheder til skalerbare, sikre og værdiskabende løsninger, der fungerer i praksis? Som Lead AI Engineer er dine opgave mange og alsidige, og du vil opleve en stor grad af medindflydelse på dine opgaver.Du vil b",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til vores Machine Learning team",
-        "company": "Fødevarestyrelsen",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/r13993664",
-        "posted": "2026-09-14",
-        "snippet": "Vil du arbejde med Machine Learning i en offentlig styrelse, hvor løsninger skal fungere i praksis og understøtte en vigtig samfundsopgave – så er det måske dig, vi søger.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
