@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T22:25:23Z",
+  "updated": "2026-09-14T01:06:12Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,17 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1694943",
         "posted": "2026-09-02",
         "snippet": "Vil du være med til at sikre en ansvarlig og effektiv offentlig forvaltning?Trives du i et arbejdsmiljø, hvor der er mulighed for faglig fordybelse, og hvor du er med til at udvikle og sætte standarden for Rigsrevisionens dataanal",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til kontor for Data og Analyse i Styrelsen for Samfundssikkerhed",
-        "company": "Ministeriet For Samfundssikkerhed og Beredskab",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1693767",
-        "posted": "2026-08-31",
-        "snippet": "Vil du være med til at gøre samfundet modstandsdygtigt over for fremtidens trusler?Du bliver en del af kontoret Data og Analyse, der har til formål at understøtte styrelsens vidensopbygning og beslutningsgrundlag gennem dataunders",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -180,7 +169,7 @@
         "company": "Ellab A/S",
         "location": "Hillerød",
         "url": "https://www.jobindex.dk/vis-job/h1689875",
-        "posted": "2026-08-17",
+        "posted": "2026-09-14",
         "snippet": "We are looking for a Business Intelligence Engineer who enjoys building things, solving problems and making data work in the real world.If you like to get into the details, understand how operational systems work, turn raw data in",
         "lang": "en",
         "source": "jobindex",
@@ -268,12 +257,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist til renseanlægsområdet",
-        "company": "Aarhus Vand A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1691596",
-        "posted": "2026-08-21",
-        "snippet": "Vil du bruge data til at forbedre miljøet og understøtte en af samfundets vigtigste infrastrukturer?Som Data Scientist bliver du en del af en fagligt stærk gruppe, hvor du arbejder med datakvalitet, analyser og udvikling af datadr",
+        "title": "Metabolomics Data Scientist",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13984076",
+        "posted": "2026-09-07",
+        "snippet": "Are you an expert in metabolomics and data analysis that would be excited about supporting cutting-edge research within the fields of...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data scientister og historiske datamanagere til Rigsarkivet",
+        "company": "Rigsarkivet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13985691",
+        "posted": "2026-09-07",
+        "snippet": "Vil du være med til at opbygge Historisk Personregister (HisPeR) – en ny national forskningsinfrastruktur, der skal forbinde historiske...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -297,17 +297,6 @@
         "posted": "2026-08-26",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer til én af forsikringsbranchens største AI-satsninger",
-        "company": "Alm. Brand Group",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1693500",
-        "posted": "2026-08-28",
-        "snippet": "Vil du være med til at forme fremtidens AI-løsninger i en af Danmarks største forsikringskoncerner?Du har opbygget en stærk teknisk værktøjskasse og søger nu et sted, hvor du kan omsætte din faglighed til løsninger med synlig effe",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
