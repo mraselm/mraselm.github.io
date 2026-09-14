@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T06:19:02Z",
+  "updated": "2026-09-14T14:05:07Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -174,6 +174,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til Greve Bibliotek",
+        "company": "Greve Kommune",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1698417",
+        "posted": "2026-09-14",
+        "snippet": "Er du studerende på litteraturvidenskab, informationsvidenskab eller en anden biblioteksrelevant linje? Har du lyst til at prøve kræfter med at anvende din viden i praksis?Som studentermedhjælper hos os har du vagter i udlånet og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -198,6 +209,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til Greve Bibliotek",
+        "company": "Greve Kommune",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1698417",
+        "posted": "2026-09-14",
+        "snippet": "Er du studerende på litteraturvidenskab, informationsvidenskab eller en anden biblioteksrelevant linje? Har du lyst til at prøve kræfter med at anvende din viden i praksis?Som studentermedhjælper hos os har du vagter i udlånet og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -257,12 +279,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Metabolomics Data Scientist",
+        "title": "Data Scientist til vores Machine Learning team",
+        "company": "Fødevarestyrelsen",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/r13993664",
+        "posted": "2026-09-14",
+        "snippet": "Vil du arbejde med Machine Learning i en offentlig styrelse, hvor løsninger skal fungere i praksis og understøtte en vigtig samfundsopgave – så er det måske dig, vi søger.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "PhD fellowship in Computational Pharmacology and Data Science",
         "company": "",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13984076",
-        "posted": "2026-09-07",
-        "snippet": "Are you an expert in metabolomics and data analysis that would be excited about supporting cutting-edge research within the fields of...",
+        "url": "https://www.jobindex.dk/vis-job/r13994388",
+        "posted": "2026-09-14",
+        "snippet": "We are offering a three-year PhD fellowship in computational pharmacology and pharmaceutical data science commencing 15 October 2026 or as soon as possible thereafter.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -285,6 +318,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13965624",
         "posted": "2026-08-26",
         "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer - LLMs and On-Premise AI - Aarhus",
+        "company": "twoday A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1696204",
+        "posted": "2026-09-07",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
