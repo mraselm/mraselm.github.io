@@ -1,33 +1,11 @@
 {
-  "updated": "2026-09-15T07:46:19Z",
+  "updated": "2026-09-15T13:34:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Customer Program Data Analyst",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13967938",
-        "posted": "2026-08-28",
-        "snippet": "Ready to shape the loyalty programs behind Bilka Plus, føtex Plus, Netto+, ClubSalling, and Carl's Jr.?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Praktikant som Data Analyst til Salling Groups loyalitetsprogram",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13964775",
-        "posted": "2026-08-26",
-        "snippet": "Vil du omsætte komplekse kundedata til indsigter, der kan bruges til konkrete beslutninger?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker til Efterretnings- og Analysecentret i National enhed for Særlig Kriminalitet",
         "company": "Politi",
@@ -60,64 +38,31 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Customer Program Data Analyst",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13967938",
+        "posted": "2026-08-28",
+        "snippet": "Ready to shape the loyalty programs behind Bilka Plus, føtex Plus, Netto+, ClubSalling, and Carl's Jr.?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Praktikant som Data Analyst til Salling Groups loyalitetsprogram",
+        "company": "Salling Group",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r13964775",
+        "posted": "2026-08-26",
+        "snippet": "Vil du omsætte komplekse kundedata til indsigter, der kan bruges til konkrete beslutninger?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
       }
     ],
     "business analyst": [
-      {
-        "title": "Market, Financial and Business Analyst for the Green Transition",
-        "company": "KAR+CO",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1698100",
-        "posted": "2026-09-11",
-        "snippet": "Market analysis, business plans, customer contact and economic modeling.Do you have strong business understanding and a talent for working with numbers? Can you translate strategy into budgets, economic models and business plans?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Normal A/S",
-        "location": "Skanderborg",
-        "url": "https://www.jobindex.dk/vis-job/h1697829",
-        "posted": "2026-09-11",
-        "snippet": "Brænder du for at omsætte data til skarpe analyser?Din hverdag kommer primært til at handle om dataanalyse og rapportering med fokus på at gøre vores forretning endnu bedre.Du kommer bl.a. til at:Udarbejde analyser af større datam",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Processer, Systemer og Implementering",
-        "company": "DSV",
-        "location": "Horsens",
-        "url": "https://www.jobindex.dk/vis-job/h1697016",
-        "posted": "2026-09-09",
-        "snippet": "Som Business Analyst omsætter du komplekse forretningsbehov til skalerbare processer, klare systemkrav og løsninger for nogle af DSV Roads største kunder.Du bliver en del af et internationalt Process Development-team med stærke ko",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst til Tryg Privat",
-        "company": "Tryg Forsikring A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1696638",
-        "posted": "2026-09-08",
-        "snippet": "Vil du være med dér, hvor forretningsmæssige og finansielle indsigter bliver til strategiske beslutninger?Vi søger netop nu en Business Analyst, med stor vedholdenhed, veludviklede analytiske evner og som er mere end almindeligt n",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst / Controller",
-        "company": "Privathospitalet Mølholm",
-        "location": "Vejle",
-        "url": "https://www.jobindex.dk/vis-job/h1695438",
-        "posted": "2026-09-04",
-        "snippet": "Vil du være med til at videreudvikle et stærkt datagrundlag, der understøtter vores kundeindsigter og ledelsesbeslutninger på et moderne privathospital, og samtidig spille en central rolle i den kommende implementering af et nyt E",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Senior Business Analyst",
         "company": "Danske Bank",
@@ -161,6 +106,61 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Market, Financial and Business Analyst for the Green Transition",
+        "company": "KAR+CO",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1698100",
+        "posted": "2026-09-11",
+        "snippet": "Market analysis, business plans, customer contact and economic modeling.Do you have strong business understanding and a talent for working with numbers? Can you translate strategy into budgets, economic models and business plans?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "Normal A/S",
+        "location": "Skanderborg",
+        "url": "https://www.jobindex.dk/vis-job/h1697829",
+        "posted": "2026-09-11",
+        "snippet": "Brænder du for at omsætte data til skarpe analyser?Din hverdag kommer primært til at handle om dataanalyse og rapportering med fokus på at gøre vores forretning endnu bedre.Du kommer bl.a. til at:Udarbejde analyser af større datam",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst - Processer, Systemer og Implementering",
+        "company": "DSV",
+        "location": "Horsens",
+        "url": "https://www.jobindex.dk/vis-job/h1697016",
+        "posted": "2026-09-09",
+        "snippet": "Som Business Analyst omsætter du komplekse forretningsbehov til skalerbare processer, klare systemkrav og løsninger for nogle af DSV Roads største kunder.Du bliver en del af et internationalt Process Development-team med stærke ko",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst til Tryg Privat",
+        "company": "Tryg Forsikring A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1696638",
+        "posted": "2026-09-08",
+        "snippet": "Vil du være med dér, hvor forretningsmæssige og finansielle indsigter bliver til strategiske beslutninger?Vi søger netop nu en Business Analyst, med stor vedholdenhed, veludviklede analytiske evner og som er mere end almindeligt n",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
+        "title": "Business Analyst / Controller",
+        "company": "Privathospitalet Mølholm",
+        "location": "Vejle",
+        "url": "https://www.jobindex.dk/vis-job/h1695438",
+        "posted": "2026-09-04",
+        "snippet": "Vil du være med til at videreudvikle et stærkt datagrundlag, der understøtter vores kundeindsigter og ledelsesbeslutninger på et moderne privathospital, og samtidig spille en central rolle i den kommende implementering af et nyt E",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "part-time"
       }
     ],
     "business intelligence": [
@@ -197,7 +197,7 @@
         "snippet": "Vil du være med til at udvikle datadrevet ledelsesinformation og skabe Power BI-løsninger, der giver ledelsen et stærkt grundlag for at styre driften?Er du teknisk stærk i Power BI, skarp på data og god til at omsætte komplekse da",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Datamanager og BI specialist til digitalisering i Center for Digital Psykiatri",
@@ -208,18 +208,7 @@
         "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til Greve Bibliotek",
-        "company": "Greve Kommune",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1698417",
-        "posted": "2026-09-14",
-        "snippet": "Er du studerende på litteraturvidenskab, informationsvidenskab eller en anden biblioteksrelevant linje? Har du lyst til at prøve kræfter med at anvende din viden i praksis?Som studentermedhjælper hos os har du vagter i udlånet og",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
+        "job_type": "part-time"
       }
     ],
     "data scientist": [
@@ -312,6 +301,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Software developer & AI Engineer",
+        "company": "RareWine ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1698787",
+        "posted": "2026-09-15",
+        "snippet": "Hos RareWine Group bruger vi teknologi til at skabe digitale løsninger, der hjælper vores kunder med at købe og investere i vin.Vi anvender allerede AI aktivt i hverdagen, bl.a. Claude Code i vores udviklingsarbejde, men det er et",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Engineer - LLMs and On-Premise AI - Aarhus",
         "company": "twoday A/S",
         "location": "Aarhus",
@@ -376,17 +376,6 @@
         "posted": "2026-09-08",
         "snippet": "Vil du være med til at forme fremtidens arbejdsplads gennem AI, data og smartere arbejdsgange?Hos os får du ikke blot en introduktion til arbejdsmarkedet. Du bliver en del af virksomhedens digitale udvikling og får mulighed for at",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      },
-      {
-        "title": "Graduate - Data & Analytics | Autumn 2027",
-        "company": "EY",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1694322",
-        "posted": "2026-09-01",
-        "snippet": "Are you ready to kick-start your career in a collaborative and high-performing environment?Join our Data and Analytics team at EY-Parthenon and work alongside experienced colleagues on challenging and meaningful projects from day",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "graduate"
       }
