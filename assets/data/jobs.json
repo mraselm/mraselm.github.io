@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T11:36:55Z",
+  "updated": "2026-09-16T16:58:36Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -219,17 +219,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13998327",
         "posted": "2026-09-15",
         "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "Flatpay ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13996583",
-        "posted": "2026-09-15",
-        "snippet": "You will join a growing AI team of 13 talented colleagues with a shared mission: transforming data and AI into measurable business value for Flatpay and our merchants.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
