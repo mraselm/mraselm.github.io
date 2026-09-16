@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T21:23:13Z",
+  "updated": "2026-09-16T00:22:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,17 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1694943",
         "posted": "2026-09-02",
         "snippet": "Vil du være med til at sikre en ansvarlig og effektiv offentlig forvaltning?Trives du i et arbejdsmiljø, hvor der er mulighed for faglig fordybelse, og hvor du er med til at udvikle og sætte standarden for Rigsrevisionens dataanal",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til EAE - Central Efterforskning",
-        "company": "Politi",
-        "location": "Holstebro",
-        "url": "https://www.jobindex.dk/vis-job/h1691749",
-        "posted": "2026-08-24",
-        "snippet": "Du får en nøglefunktion i analyse- og efterretningsarbejdet med særligt fokus på at levere data til øverste ledelse og til øvrige sektioner i politikredsen.Din primære opgave i EAE bliver at fremskaffe, behandle & fremstille relev",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -117,17 +106,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker med teknisk forståelse til IT-projekter",
-        "company": "Banedanmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1692483",
-        "posted": "2026-08-26",
-        "snippet": "Kunne du tænke dig at arbejde med projektarbejde i en stor, kompleks og bredt sammensat organisation?Som Forretningsanalytiker i IT-Projekter-sektionen bliver du en vigtig brobygger mellem forretningen og IT-løsningsarkitekterne.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
       }
     ],
     "business intelligence": [
@@ -151,7 +129,7 @@
         "snippet": "We’re looking for an ambitious and curious Analyst with 1–3 years of experience to join our Copenhagen HQ.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       }
     ],
     "bi specialist": [
