@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T00:22:25Z",
+  "updated": "2026-09-16T06:03:16Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -323,18 +323,6 @@
         "job_type": "full-time"
       }
     ],
-    "graduate program": [
-      {
-        "title": "Graduate AI & Business Systems Analyst",
-        "company": "Moveero",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1696592",
-        "posted": "2026-09-08",
-        "snippet": "Vil du være med til at forme fremtidens arbejdsplads gennem AI, data og smartere arbejdsgange?Hos os får du ikke blot en introduktion til arbejdsmarkedet. Du bliver en del af virksomhedens digitale udvikling og får mulighed for at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      }
-    ]
+    "graduate program": []
   }
 }
