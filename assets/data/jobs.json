@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T06:03:16Z",
+  "updated": "2026-09-16T11:36:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -52,6 +52,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst, Global Procurement",
+        "company": "DLF Seeds A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1699140",
+        "posted": "2026-09-16",
+        "snippet": "Vil du være med til at gøre data til handling og skabe synlighed i en global procurement-funktion?Du bliver en central del af DLFs globale procurement-team og får en vigtig rolle i at skabe transparens, styrke beslutningsgrundlage",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Market, Financial and Business Analyst for the Green Transition",
         "company": "KAR+CO",
@@ -109,17 +120,6 @@
       }
     ],
     "business intelligence": [
-      {
-        "title": "Business Intelligence Engineer",
-        "company": "Ellab A/S",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1689875",
-        "posted": "2026-09-14",
-        "snippet": "We are looking for a Business Intelligence Engineer who enjoys building things, solving problems and making data work in the real world.If you like to get into the details, understand how operational systems work, turn raw data in",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "BI Analyst",
         "company": "Flatpay ApS",
@@ -224,6 +224,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Scientist",
+        "company": "Flatpay ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r13996583",
+        "posted": "2026-09-15",
+        "snippet": "You will join a growing AI team of 13 talented colleagues with a shared mission: transforming data and AI into measurable business value for Flatpay and our merchants.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Machine Learning Engineer",
         "company": "",
         "location": "Lyngby",
@@ -323,6 +334,18 @@
         "job_type": "full-time"
       }
     ],
-    "graduate program": []
+    "graduate program": [
+      {
+        "title": "Graduate AI & Business Systems Analyst",
+        "company": "Moveero",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1696592",
+        "posted": "2026-09-08",
+        "snippet": "Vil du være med til at forme fremtidens arbejdsplads gennem AI, data og smartere arbejdsgange?Hos os får du ikke blot en introduktion til arbejdsmarkedet. Du bliver en del af virksomhedens digitale udvikling og får mulighed for at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "graduate"
+      }
+    ]
   }
 }
