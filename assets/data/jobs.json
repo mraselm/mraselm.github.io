@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T20:08:30Z",
+  "updated": "2026-09-16T22:57:09Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -18,34 +18,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Praktikant som Data Analyst til Salling Groups loyalitetsprogram",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13964775",
-        "posted": "2026-08-26",
-        "snippet": "Vil du omsætte komplekse kundedata til indsigter, der kan bruges til konkrete beslutninger?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Dataanalytiker til Efterretnings- og Analysecentret i National enhed for Særlig Kriminalitet",
         "company": "Politi",
         "location": "Glostrup",
         "url": "https://www.jobindex.dk/vis-job/h1695516",
         "posted": "2026-09-04",
         "snippet": "Vil du få forskellige datakilder til at tale sammen og finde mønstre og forbindelser i store, komplekse datamængder?Du arbejder bl.a. med at:udtrække, rense, strukturere og kvalitetssikre store og komplekse datasætkoble data fra f",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker, der vil gøre en forskel",
-        "company": "Rigsrevisionen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1694943",
-        "posted": "2026-09-02",
-        "snippet": "Vil du være med til at sikre en ansvarlig og effektiv offentlig forvaltning?Trives du i et arbejdsmiljø, hvor der er mulighed for faglig fordybelse, og hvor du er med til at udvikle og sætte standarden for Rigsrevisionens dataanal",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -230,17 +208,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13989794",
         "posted": "2026-09-09",
         "snippet": "CETO Innovation is developing predictive maintenance technology for district heating infrastructure.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Machine Learning Engineer",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13965624",
-        "posted": "2026-08-26",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
