@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T18:15:16Z",
+  "updated": "2026-09-17T21:27:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -26,7 +26,7 @@
         "snippet": "Vil du få forskellige datakilder til at tale sammen og finde mønstre og forbindelser i store, komplekse datamængder?Du arbejder bl.a. med at:udtrække, rense, strukturere og kvalitetssikre store og komplekse datasætkoble data fra f",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker med stærke formidlingsevner til analyseteamet i Beskæftigelses-, Integrations-, og Erhvervsforvaltningen",
@@ -37,7 +37,7 @@
         "snippet": "Er du skarp til dataanalyse og samtidig dygtig til at formidle komplekse indsigter klart og forståeligt?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       }
     ],
     "business analyst": [
@@ -213,17 +213,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14002260",
-        "posted": "2026-09-17",
-        "snippet": "Are you excited about using AI to improve patients' lives?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior data scientist GenAI",
         "company": "Danske Bank",
         "location": "Denmark",
@@ -263,6 +252,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1696204",
         "posted": "2026-09-07",
         "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - AI Reinvent & Engineering",
+        "company": "Novo A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14002260",
+        "posted": "2026-09-17",
+        "snippet": "Are you excited about using AI to improve patients' lives?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
