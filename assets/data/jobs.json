@@ -1,22 +1,11 @@
 {
-  "updated": "2026-09-18T11:17:22Z",
+  "updated": "2026-09-18T16:25:17Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Customer Program Data Analyst",
-        "company": "Salling Group",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13967938",
-        "posted": "2026-08-28",
-        "snippet": "Ready to shape the loyalty programs behind Bilka Plus, føtex Plus, Netto+, ClubSalling, and Carl's Jr.?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker til Efterretnings- og Analysecentret i National enhed for Særlig Kriminalitet",
         "company": "Politi",
@@ -141,6 +130,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til Biblioteket Frederiksberg – 8 timer om ugen",
+        "company": "Frederiksberg Kommune",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1699986",
+        "posted": "2026-09-18",
+        "snippet": "Har du interesse for litteratur, mennesker og formidling, og er du i gang med en relevant videregående uddannelse?Din primære arbejdsplads bliver Infocentret, hvor du sammen med dine kolleger hjælper bibliotekets mange forskellige",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -173,6 +173,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1699786",
         "posted": "2026-09-18",
         "snippet": "Kunne du tænke dig et spændende og fleksibelt studiejob i bilbranchen, hvor du får mulighed for at arbejde hands-on med AI, content, data og digital synlighed?Du bliver en vigtig del af vores arbejde med AEO/GEO og får både faste",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til Biblioteket Frederiksberg – 8 timer om ugen",
+        "company": "Frederiksberg Kommune",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1699986",
+        "posted": "2026-09-18",
+        "snippet": "Har du interesse for litteratur, mennesker og formidling, og er du i gang med en relevant videregående uddannelse?Din primære arbejdsplads bliver Infocentret, hvor du sammen med dine kolleger hjælper bibliotekets mange forskellige",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
