@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T00:20:57Z",
+  "updated": "2026-09-18T05:56:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -26,7 +26,7 @@
         "snippet": "Vil du få forskellige datakilder til at tale sammen og finde mønstre og forbindelser i store, komplekse datamængder?Du arbejder bl.a. med at:udtrække, rense, strukturere og kvalitetssikre store og komplekse datasætkoble data fra f",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker med stærke formidlingsevner til analyseteamet i Beskæftigelses-, Integrations-, og Erhvervsforvaltningen",
@@ -37,7 +37,7 @@
         "snippet": "Er du skarp til dataanalyse og samtidig dygtig til at formidle komplekse indsigter klart og forståeligt?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       }
     ],
     "business analyst": [
@@ -50,7 +50,7 @@
         "snippet": "We're looking for an experienced Business Analyst to help develop and advise on ØS Indsigt, our solution for accounts receivable and debtor management, used by organizations across the public and private sector.You will join a tea",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst, Global Procurement",
@@ -61,7 +61,7 @@
         "snippet": "Vil du være med til at gøre data til handling og skabe synlighed i en global procurement-funktion?Du bliver en central del af DLFs globale procurement-team og får en vigtig rolle i at skabe transparens, styrke beslutningsgrundlage",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Market, Financial and Business Analyst for the Green Transition",
@@ -72,7 +72,7 @@
         "snippet": "Market analysis, business plans, customer contact and economic modeling.Do you have strong business understanding and a talent for working with numbers? Can you translate strategy into budgets, economic models and business plans?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst",
@@ -83,7 +83,7 @@
         "snippet": "Brænder du for at omsætte data til skarpe analyser?Din hverdag kommer primært til at handle om dataanalyse og rapportering med fokus på at gøre vores forretning endnu bedre.Du kommer bl.a. til at:Udarbejde analyser af større datam",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst - Processer, Systemer og Implementering",
@@ -94,7 +94,7 @@
         "snippet": "Som Business Analyst omsætter du komplekse forretningsbehov til skalerbare processer, klare systemkrav og løsninger for nogle af DSV Roads største kunder.Du bliver en del af et internationalt Process Development-team med stærke ko",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst til Tryg Privat",
@@ -105,7 +105,7 @@
         "snippet": "Vil du være med dér, hvor forretningsmæssige og finansielle indsigter bliver til strategiske beslutninger?Vi søger netop nu en Business Analyst, med stor vedholdenhed, veludviklede analytiske evner og som er mere end almindeligt n",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst / Controller",
@@ -116,7 +116,7 @@
         "snippet": "Vil du være med til at videreudvikle et stærkt datagrundlag, der understøtter vores kundeindsigter og ledelsesbeslutninger på et moderne privathospital, og samtidig spille en central rolle i den kommende implementering af et nyt E",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       }
     ],
     "business intelligence": [
