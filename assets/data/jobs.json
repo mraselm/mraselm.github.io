@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T19:37:31Z",
+  "updated": "2026-09-18T22:35:06Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -384,17 +384,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13972714",
         "posted": "2026-08-31",
         "snippet": "AI is moving from prototypes to production-ready solutions.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13969523",
-        "posted": "2026-08-28",
-        "snippet": "All Gravy is the AI-native people operating platform for hospitality and retail.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
