@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T06:22:45Z",
+  "updated": "2026-09-21T14:10:59Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -191,6 +191,17 @@
     ],
     "data scientist": [
       {
+        "title": "Data Scientist til vores Machine Learning team",
+        "company": "Fødevarestyrelsen",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1698499",
+        "posted": "2026-09-14",
+        "snippet": "Vil du arbejde med Machine Learning i en offentlig styrelse, hvor løsninger skal fungere i praksis og understøtte en vigtig samfundsopgave?Vi søger dig, som kan arbejde tæt sammen med forretningen om at identificere, afgrænse og u",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Engineer til automatisering af manuelle arbejdsprocesser",
         "company": "Erhvervsministeriet",
         "location": "Copenhagen",
@@ -258,11 +269,22 @@
       },
       {
         "title": "Advanced AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo A/S",
+        "company": "Novo",
         "location": "Ballerup",
         "url": "https://www.jobindex.dk/vis-job/r14004645",
         "posted": "2026-09-18",
         "snippet": "As Advanced AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead AI Engineer - AI Reinvent & Engineering",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14004644",
+        "posted": "2026-09-18",
+        "snippet": "As Lead AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -323,19 +345,19 @@
         "job_type": "full-time"
       },
       {
-        "title": "Lead AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14004644",
+        "title": "Senior Computer Vision & AI Engineer",
+        "company": "",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/r14004503",
         "posted": "2026-09-18",
-        "snippet": "As Lead AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
+        "snippet": "Do you want to build computer-vision technology that helps autonomous drones understand and navigate the real world?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
       {
         "title": "Senior AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo A/S",
+        "company": "Novo",
         "location": "Ballerup",
         "url": "https://www.jobindex.dk/vis-job/r14002260",
         "posted": "2026-09-17",
