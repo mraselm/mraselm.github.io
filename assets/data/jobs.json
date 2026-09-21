@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T19:29:05Z",
+  "updated": "2026-09-21T23:17:41Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -151,17 +151,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1695986",
         "posted": "2026-09-04",
         "snippet": "Vil du være med til at udvikle datadrevet ledelsesinformation og skabe Power BI-løsninger, der giver ledelsen et stærkt grundlag for at styre driften?Er du teknisk stærk i Power BI, skarp på data og god til at omsætte komplekse da",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Datamanager og BI specialist til digitalisering i Center for Digital Psykiatri",
-        "company": "Region Syddanmark",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r13972038",
-        "posted": "2026-08-31",
-        "snippet": "Digitale løsninger viser stort potentiale i fremme af mental sundhed og i psykiatriske behandlingstilbud.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -384,17 +373,6 @@
         "url": "https://www.jobindex.dk/vis-job/r13975239",
         "posted": "2026-09-01",
         "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "On-site Copenhagen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13972714",
-        "posted": "2026-08-31",
-        "snippet": "AI is moving from prototypes to production-ready solutions.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
