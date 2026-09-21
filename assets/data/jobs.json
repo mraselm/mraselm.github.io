@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T14:10:59Z",
+  "updated": "2026-09-21T19:29:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -268,28 +268,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Advanced AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14004645",
-        "posted": "2026-09-18",
-        "snippet": "As Advanced AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Lead AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14004644",
-        "posted": "2026-09-18",
-        "snippet": "As Lead AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior data scientist GenAI",
         "company": "Danske Bank",
         "location": "Denmark",
@@ -312,17 +290,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Machine Learning Engineer",
-        "company": "",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/r13989794",
-        "posted": "2026-09-09",
-        "snippet": "CETO Innovation is developing predictive maintenance technology for district heating infrastructure.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Software developer & AI Engineer",
         "company": "RareWine ApS",
         "location": "Aalborg",
@@ -340,6 +307,28 @@
         "url": "https://www.jobindex.dk/vis-job/h1696204",
         "posted": "2026-09-07",
         "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Advanced AI Engineer - AI Reinvent & Engineering",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14004645",
+        "posted": "2026-09-18",
+        "snippet": "As Advanced AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead AI Engineer - AI Reinvent & Engineering",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14004644",
+        "posted": "2026-09-18",
+        "snippet": "As Lead AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
