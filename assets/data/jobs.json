@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T14:55:43Z",
+  "updated": "2026-09-22T18:55:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -109,6 +109,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Sr. BI Analyst (Data Engineering)",
+        "company": "LEGO System A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14009479",
+        "posted": "2026-09-22",
+        "snippet": "Are you passionate about transforming data into business value?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "BI Analyst",
         "company": "Flatpay ApS",
@@ -276,7 +287,7 @@
         "snippet": "Hos RareWine Group bruger vi teknologi til at skabe digitale løsninger, der hjælper vores kunder med at købe og investere i vin.Vi anvender allerede AI aktivt i hverdagen, bl.a. Claude Code i vores udviklingsarbejde, men det er et",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "AI Engineer - LLMs and On-Premise AI - Aarhus",
@@ -287,7 +298,7 @@
         "snippet": "",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Advanced AI Engineer - AI Reinvent & Engineering",
@@ -298,7 +309,7 @@
         "snippet": "As Advanced AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Lead AI Engineer - AI Reinvent & Engineering",
@@ -309,7 +320,7 @@
         "snippet": "As Lead AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Senior Computer Vision & AI Engineer",
@@ -320,7 +331,7 @@
         "snippet": "Do you want to build computer-vision technology that helps autonomous drones understand and navigate the real world?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Senior AI Engineer - AI Reinvent & Engineering",
@@ -331,7 +342,7 @@
         "snippet": "Are you excited about using AI to improve patients' lives?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "AI engineer for agentic AI",
@@ -342,7 +353,7 @@
         "snippet": "",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Manufacturing AI Engineer",
@@ -353,7 +364,7 @@
         "snippet": "Are you an ambitious student looking to build a career at the overlap of AI and manufacturing?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Senior AI Engineer",
@@ -364,7 +375,7 @@
         "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       }
     ],
     "graduate program": []
