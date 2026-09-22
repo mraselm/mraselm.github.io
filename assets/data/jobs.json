@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T04:58:35Z",
+  "updated": "2026-09-22T09:58:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -165,17 +165,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper til Biblioteket Frederiksberg – 8 timer om ugen",
-        "company": "Frederiksberg Kommune",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1699986",
-        "posted": "2026-09-18",
-        "snippet": "Har du interesse for litteratur, mennesker og formidling, og er du i gang med en relevant videregående uddannelse?Din primære arbejdsplads bliver Infocentret, hvor du sammen med dine kolleger hjælper bibliotekets mange forskellige",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -242,6 +231,17 @@
         "posted": "2026-09-08",
         "snippet": "Kan du omsætte AI-muligheder til skalerbare, sikre og værdiskabende løsninger, der fungerer i praksis? Som Lead AI Engineer er dine opgave mange og alsidige, og du vil opleve en stor grad af medindflydelse på dine opgaver.Du vil b",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist for Department of Biology",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r14008178",
+        "posted": "2026-09-22",
+        "snippet": "We are Earth scientists who accumulate large data sets on the composition of sedimentary rocks in geologic time on modern sediments from throughout the world.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -378,18 +378,6 @@
         "job_type": "full-time"
       }
     ],
-    "graduate program": [
-      {
-        "title": "Graduate AI & Business Systems Analyst",
-        "company": "Moveero",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1696592",
-        "posted": "2026-09-08",
-        "snippet": "Vil du være med til at forme fremtidens arbejdsplads gennem AI, data og smartere arbejdsgange?Hos os får du ikke blot en introduktion til arbejdsmarkedet. Du bliver en del af virksomhedens digitale udvikling og får mulighed for at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "graduate"
-      }
-    ]
+    "graduate program": []
   }
 }
