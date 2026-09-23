@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T11:39:34Z",
+  "updated": "2026-09-23T17:02:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -13,6 +13,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1695516",
         "posted": "2026-09-04",
         "snippet": "Vil du få forskellige datakilder til at tale sammen og finde mønstre og forbindelser i store, komplekse datamængder?Du arbejder bl.a. med at:udtrække, rense, strukturere og kvalitetssikre store og komplekse datasætkoble data fra f",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker for Brugeraktivering",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14010724",
+        "posted": "2026-09-23",
+        "snippet": "Brugeraktivering (Markedsføring og Brugerkontakt) bruger DR's egne kontaktpunkter — email, push, in-app og bannere — og førstepartsdata...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
