@@ -1,136 +1,24 @@
 {
-  "updated": "2026-09-24T04:53:42Z",
+  "updated": "2026-09-24T10:02:42Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
-    "data analyst": [
-      {
-        "title": "Dataanalytiker til Efterretnings- og Analysecentret i National enhed for Særlig Kriminalitet",
-        "company": "Politi",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1695516",
-        "posted": "2026-09-04",
-        "snippet": "Vil du få forskellige datakilder til at tale sammen og finde mønstre og forbindelser i store, komplekse datamængder?Du arbejder bl.a. med at:udtrække, rense, strukturere og kvalitetssikre store og komplekse datasætkoble data fra f",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker for Brugeraktivering",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14010724",
-        "posted": "2026-09-23",
-        "snippet": "Brugeraktivering (Markedsføring og Brugerkontakt) bruger DR's egne kontaktpunkter — email, push, in-app og bannere — og førstepartsdata...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker med stærke formidlingsevner til analyseteamet i Beskæftigelses-, Integrations-, og Erhvervsforvaltningen",
-        "company": "Københavns Kommune",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14002220",
-        "posted": "2026-09-17",
-        "snippet": "Er du skarp til dataanalyse og samtidig dygtig til at formidle komplekse indsigter klart og forståeligt?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      }
-    ],
-    "business analyst": [
-      {
-        "title": "Business Analyst",
-        "company": "Privat Psykiatrisk Center ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1700934",
-        "posted": "2026-09-23",
-        "snippet": "Vil du lære en sundhedsvirksomhed at kende indefra og være med til at forme udviklingen?Vi søger en Business Analyst, som skal bidrage med analytisk kraft, fremdrift og bedre beslutningsgrundlag. Du får en central rolle tæt på CEO",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Debtor Management Solutions",
-        "company": "EG A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1699356",
-        "posted": "2026-09-17",
-        "snippet": "We're looking for an experienced Business Analyst to help develop and advise on ØS Indsigt, our solution for accounts receivable and debtor management, used by organizations across the public and private sector.You will join a tea",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst, Global Procurement",
-        "company": "DLF Seeds A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1699140",
-        "posted": "2026-09-16",
-        "snippet": "Vil du være med til at gøre data til handling og skabe synlighed i en global procurement-funktion?Du bliver en central del af DLFs globale procurement-team og får en vigtig rolle i at skabe transparens, styrke beslutningsgrundlage",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Market, Financial and Business Analyst for the Green Transition",
-        "company": "KAR+CO",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1698100",
-        "posted": "2026-09-11",
-        "snippet": "Market analysis, business plans, customer contact and economic modeling.Do you have strong business understanding and a talent for working with numbers? Can you translate strategy into budgets, economic models and business plans?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Normal A/S",
-        "location": "Skanderborg",
-        "url": "https://www.jobindex.dk/vis-job/h1697829",
-        "posted": "2026-09-11",
-        "snippet": "Brænder du for at omsætte data til skarpe analyser?Din hverdag kommer primært til at handle om dataanalyse og rapportering med fokus på at gøre vores forretning endnu bedre.Du kommer bl.a. til at:Udarbejde analyser af større datam",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Processer, Systemer og Implementering",
-        "company": "DSV",
-        "location": "Horsens",
-        "url": "https://www.jobindex.dk/vis-job/h1697016",
-        "posted": "2026-09-09",
-        "snippet": "Som Business Analyst omsætter du komplekse forretningsbehov til skalerbare processer, klare systemkrav og løsninger for nogle af DSV Roads største kunder.Du bliver en del af et internationalt Process Development-team med stærke ko",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst / Controller",
-        "company": "Privathospitalet Mølholm",
-        "location": "Vejle",
-        "url": "https://www.jobindex.dk/vis-job/h1695438",
-        "posted": "2026-09-04",
-        "snippet": "Vil du være med til at videreudvikle et stærkt datagrundlag, der understøtter vores kundeindsigter og ledelsesbeslutninger på et moderne privathospital, og samtidig spille en central rolle i den kommende implementering af et nyt E",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til kravstyringskontor",
-        "company": "Vurderingsstyrelsen",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1700990",
-        "posted": "2026-09-23",
-        "snippet": "Kan du omsætte kompleks lovgivning og brugerbehov til præcise, tekniske krav? Og vil du være med til at sætte dit aftryk på videreudviklingen af det centrale it-system bag de danske ejendomsvurderinger? Vi søger lige nu en ekstra",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      }
-    ],
+    "data analyst": [],
+    "business analyst": [],
     "business intelligence": [
+      {
+        "title": "BI udviklere og data engineers til Statens Business Intelligence",
+        "company": "Økonomistyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1698580",
+        "posted": "2026-09-15",
+        "snippet": "Er du passioneret omkring data og BI, og vil du være med til at sætte dit aftryk på eksisterende og fremtidige analyse- og rapporteringsløsninger, der anvendes i hele staten?Dine konkrete ansvarsområder vil afhænge af din profil,",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Sr. BI Analyst (Data Engineering)",
         "company": "LEGO System A/S",
@@ -220,6 +108,17 @@
         "posted": "2026-09-09",
         "snippet": "We are looking for an experienced Lead Data Scientist to join our AI team!Most organizations have no shortage of ideas for what to model. Far fewer can turn a vaguely stated business problem into a well-posed prediction task, pick",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist - Kolding",
+        "company": "GLS Denmark A/S",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/h1696674",
+        "posted": "2026-09-08",
+        "snippet": "Mestrer du Machine learning-dyderne og ser du MLOps-principperne som en selvfølge og ikke en eftertanke? Kan du samtidig rådgive forretningen om mulighederne med Machine learning (ML) - og lige så vigtigt, sige fra, når ML ikke er",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
