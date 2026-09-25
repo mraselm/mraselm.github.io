@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T07:50:37Z",
+  "updated": "2026-09-25T13:49:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -125,6 +125,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1700990",
         "posted": "2026-09-23",
         "snippet": "Kan du omsætte kompleks lovgivning og brugerbehov til præcise, tekniske krav? Og vil du være med til at sætte dit aftryk på videreudviklingen af det centrale it-system bag de danske ejendomsvurderinger? Vi søger lige nu en ekstra",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Tværgående forretningsanalytiker til Nat-Tech Økonomi",
+        "company": "",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r14014950",
+        "posted": "2026-09-25",
+        "snippet": "Er du dygtig til at håndtere store forskellige datamængde, for at kunne levere analyser og scenarieberegninger til ledelsen.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
