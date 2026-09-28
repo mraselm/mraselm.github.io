@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T06:56:10Z",
+  "updated": "2026-09-28T15:30:06Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -179,6 +179,17 @@
     "bi specialist": [],
     "data scientist": [
       {
+        "title": "Machine Learning Engineer",
+        "company": "Trackunit ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1701970",
+        "posted": "2026-09-28",
+        "snippet": "Most machine learning never makes it to production. Your job is to make sure ours does.We are looking for an ML Engineer who turns models into reliable, maintained systems that construction companies actually use to make better de",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist til vores Machine Learning team",
         "company": "Fødevarestyrelsen",
         "location": "Glostrup",
@@ -230,17 +241,6 @@
         "posted": "2026-09-08",
         "snippet": "Kan du omsætte AI-muligheder til skalerbare, sikre og værdiskabende løsninger, der fungerer i praksis? Som Lead AI Engineer er dine opgave mange og alsidige, og du vil opleve en stor grad af medindflydelse på dine opgaver.Du vil b",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist for Department of Biology",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r14008178",
-        "posted": "2026-09-22",
-        "snippet": "We are Earth scientists who accumulate large data sets on the composition of sedimentary rocks in geologic time on modern sediments from throughout the world.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
