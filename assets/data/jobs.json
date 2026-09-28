@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T15:30:06Z",
+  "updated": "2026-09-28T22:02:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -130,23 +130,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Teknisk forretningsanalytiker og bevaringskonsulent til Digital Bevaring i Rigsarkivet",
+        "company": "Rigsarkivet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14019514",
+        "posted": "2026-09-28",
+        "snippet": "Vil du være med til at sikre Danmarks fælles, digitale hukommelse og udvikle et af Europas førende arkiver?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Tværgående forretningsanalytiker til Nat-Tech Økonomi",
         "company": "Aarhus Universitet",
         "location": "Roskilde",
         "url": "https://www.jobindex.dk/vis-job/r14015900",
         "posted": "2026-09-25",
         "snippet": "Er du dygtig til at håndtere store forskellige datamængde, for at kunne levere analyser og scenarieberegninger til ledelsen.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Teknisk forretningsanalytiker og bevaringskonsulent til Digital Bevaring i Rigsarkivet",
-        "company": "Rigsarkivet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14012381",
-        "posted": "2026-09-24",
-        "snippet": "Vil du være med til at sikre Danmarks fælles, digitale hukommelse og udvikle et af Europas førende arkiver?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
