@@ -1,22 +1,11 @@
 {
-  "updated": "2026-09-28T22:02:34Z",
+  "updated": "2026-09-29T01:58:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Dataanalytiker til Efterretnings- og Analysecentret i National enhed for Særlig Kriminalitet",
-        "company": "Politi",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1695516",
-        "posted": "2026-09-04",
-        "snippet": "Vil du få forskellige datakilder til at tale sammen og finde mønstre og forbindelser i store, komplekse datamængder?Du arbejder bl.a. med at:udtrække, rense, strukturere og kvalitetssikre store og komplekse datasætkoble data fra f",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Dataanalytiker for Brugeraktivering",
         "company": "",
@@ -186,17 +175,6 @@
         "posted": "2026-09-28",
         "snippet": "Most machine learning never makes it to production. Your job is to make sure ours does.We are looking for an ML Engineer who turns models into reliable, maintained systems that construction companies actually use to make better de",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist til vores Machine Learning team",
-        "company": "Fødevarestyrelsen",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1698499",
-        "posted": "2026-09-14",
-        "snippet": "Vil du arbejde med Machine Learning i en offentlig styrelse, hvor løsninger skal fungere i praksis og understøtte en vigtig samfundsopgave?Vi søger dig, som kan arbejde tæt sammen med forretningen om at identificere, afgrænse og u",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
