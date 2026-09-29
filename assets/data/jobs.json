@@ -1,11 +1,22 @@
 {
-  "updated": "2026-09-29T15:53:28Z",
+  "updated": "2026-09-29T20:48:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Country Data Analyst - IKEA Denmark (Service Office in Taastrup)",
+        "company": "IKEA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14021286",
+        "posted": "2026-09-29",
+        "snippet": "You are a curious and collaborative Data Analyst who enjoys turning data into clear, reliable and useful insights for the business.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Dataanalytiker for Brugeraktivering",
         "company": "",
@@ -108,12 +119,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst (Sabbatår)",
-        "company": "",
+        "title": "BI & Business Analyst",
+        "company": "Bellagroup",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14003074",
-        "posted": "2026-09-17",
-        "snippet": "Siden du har fundet vej hertil, vil du sikkert gerne vide mere om vores stilling som Business Analyst og du har trods din unge alder helt...",
+        "url": "https://www.jobindex.dk/vis-job/r14021821",
+        "posted": "2026-09-29",
+        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
