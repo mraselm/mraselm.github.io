@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T01:58:44Z",
+  "updated": "2026-09-29T08:33:03Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -108,6 +108,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business Analyst (Sabbatår)",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14003074",
+        "posted": "2026-09-17",
+        "snippet": "Siden du har fundet vej hertil, vil du sikkert gerne vide mere om vores stilling som Business Analyst og du har trods din unge alder helt...",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker til kravstyringskontor",
         "company": "Vurderingsstyrelsen",
         "location": "Roskilde",
@@ -142,6 +153,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "BI Consultant",
+        "company": "KMD A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1702328",
+        "posted": "2026-09-29",
+        "snippet": "Vil du arbejde med data og Business Intelligence-løsninger, der bruges af danske kommuner hver eneste dag?Som BI-udvikler bliver du en del af et erfarent team, der arbejder tæt på både data og kunder. Du kommer til at arbejde med",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Sr. BI Analyst (Data Engineering)",
         "company": "LEGO System A/S",
