@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T06:44:39Z",
+  "updated": "2026-09-30T13:45:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -14,6 +14,17 @@
         "posted": "2026-09-29",
         "snippet": "You are a curious and collaborative Data Analyst who enjoys turning data into clear, reliable and useful insights for the business.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til porteføljestyring af fremtidens grønne infrastrukturprojekter",
+        "company": "Energinet",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1703058",
+        "posted": "2026-09-30",
+        "snippet": "For at kunne prioritere og styre vores milliardinvesteringer bedst muligt har vi brug for et endnu stærkere datagrundlag.Derfor søger vi en analytisk stærk og struktureret dataanalytiker til porteføljestyring, som kan være med til",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -41,6 +52,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Finance and Business Analyst",
+        "company": "Go-Pen ApS",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1702753",
+        "posted": "2026-09-30",
+        "snippet": "We are looking for a Financial Analyst to build the financial foundation for the company's next phase of growth.The role supports key decisions on production capacity and funding, and offers a clear path to grow into Head of Finan",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst",
         "company": "Privat Psykiatrisk Center ApS",
