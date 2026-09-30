@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T20:48:10Z",
+  "updated": "2026-09-30T00:28:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -209,7 +209,7 @@
         "snippet": "Most machine learning never makes it to production. Your job is to make sure ours does.We are looking for an ML Engineer who turns models into reliable, maintained systems that construction companies actually use to make better de",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior AI/ML Engineer",
@@ -220,7 +220,7 @@
         "snippet": "We are looking for an experienced Senior AI/ML Engineer to join our AI team!Most companies can build models. Far fewer can run them in production, retrain, update and provide inference on a schedule or in real time, setup operatio",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior Data Scientist",
@@ -231,7 +231,7 @@
         "snippet": "We are looking for an experienced Senior Data Scientist to join our AI team!Most organizations have no shortage of ideas for what to model. Far fewer can turn a vaguely stated business problem into a well-posed prediction task, pi",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Lead Data Scientist",
@@ -242,7 +242,7 @@
         "snippet": "We are looking for an experienced Lead Data Scientist to join our AI team!Most organizations have no shortage of ideas for what to model. Far fewer can turn a vaguely stated business problem into a well-posed prediction task, pick",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Lead AI Engineer - Kolding",
@@ -253,7 +253,7 @@
         "snippet": "Kan du omsætte AI-muligheder til skalerbare, sikre og værdiskabende løsninger, der fungerer i praksis? Som Lead AI Engineer er dine opgave mange og alsidige, og du vil opleve en stor grad af medindflydelse på dine opgaver.Du vil b",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior data scientist GenAI",
@@ -264,7 +264,7 @@
         "snippet": "",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Machine Learning Engineer",
@@ -275,7 +275,7 @@
         "snippet": "In the role of Machine Learning Engineer in the Engineering Excellence team within Software Solutions.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior AI Engineer for Agentic Applications - Aarhus or Gdansk",
@@ -286,7 +286,7 @@
         "snippet": "",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Software developer & AI Engineer",
@@ -297,7 +297,7 @@
         "snippet": "Hos RareWine Group bruger vi teknologi til at skabe digitale løsninger, der hjælper vores kunder med at købe og investere i vin.Vi anvender allerede AI aktivt i hverdagen, bl.a. Claude Code i vores udviklingsarbejde, men det er et",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "AI Engineer - LLMs and On-Premise AI - Aarhus",
@@ -308,7 +308,7 @@
         "snippet": "",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Advanced AI Engineer - AI Reinvent & Engineering",
@@ -319,7 +319,7 @@
         "snippet": "As Advanced AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Lead AI Engineer - AI Reinvent & Engineering",
@@ -330,7 +330,7 @@
         "snippet": "As Lead AI Engineer, you will turn strategic AI use cases into reliable products that create value across Novo Nordisk and for the people we serve.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior Computer Vision & AI Engineer",
@@ -341,7 +341,7 @@
         "snippet": "Do you want to build computer-vision technology that helps autonomous drones understand and navigate the real world?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior AI Engineer - AI Reinvent & Engineering",
@@ -352,7 +352,7 @@
         "snippet": "Are you excited about using AI to improve patients' lives?",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "AI engineer for agentic AI",
@@ -363,7 +363,7 @@
         "snippet": "",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       }
     ],
     "graduate program": []
