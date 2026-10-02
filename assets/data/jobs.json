@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T23:53:19Z",
+  "updated": "2026-10-02T05:39:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -104,17 +104,6 @@
         "posted": "2026-09-11",
         "snippet": "Market analysis, business plans, customer contact and economic modeling.Do you have strong business understanding and a talent for working with numbers? Can you translate strategy into budgets, economic models and business plans?",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Normal A/S",
-        "location": "Skanderborg",
-        "url": "https://www.jobindex.dk/vis-job/h1697829",
-        "posted": "2026-09-11",
-        "snippet": "Brænder du for at omsætte data til skarpe analyser?Din hverdag kommer primært til at handle om dataanalyse og rapportering med fokus på at gøre vores forretning endnu bedre.Du kommer bl.a. til at:Udarbejde analyser af større datam",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
