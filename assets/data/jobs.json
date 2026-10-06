@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T17:12:10Z",
+  "updated": "2026-10-06T21:38:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -7,9 +7,20 @@
   "categories": {
     "data analyst": [
       {
+        "title": "Data Analyst",
+        "company": "Novo",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14035963",
+        "posted": "2026-10-06",
+        "snippet": "As AI & PowerBI Developer, you will bring AI and PowerBI into the daily work of the business.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Country Data Analyst - IKEA Denmark (Service Office in Taastrup)",
         "company": "IKEA",
-        "location": "Copenhagen",
+        "location": "Taastrup",
         "url": "https://www.jobindex.dk/vis-job/r14021286",
         "posted": "2026-09-29",
         "snippet": "You are a curious and collaborative Data Analyst who enjoys turning data into clear, reliable and useful insights for the business.",
@@ -286,6 +297,17 @@
         "posted": "2026-09-08",
         "snippet": "Kan du omsætte AI-muligheder til skalerbare, sikre og værdiskabende løsninger, der fungerer i praksis? Som Lead AI Engineer er dine opgave mange og alsidige, og du vil opleve en stor grad af medindflydelse på dine opgaver.Du vil b",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist for Clinical Data and Research Infrastructure",
+        "company": "Aalborg Universitet",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/r14035541",
+        "posted": "2026-10-06",
+        "snippet": "Aalborg University seeks a Data Scientist to help establish Digital Heart, a cardiovascular data and AI research infrastructure developed...",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
