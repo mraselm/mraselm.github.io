@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T10:20:42Z",
+  "updated": "2026-10-06T17:12:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -130,17 +130,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "BI & Business Analyst",
-        "company": "Bellagroup",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14021821",
-        "posted": "2026-09-29",
-        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker - formgiv fremtidens Energimarked",
         "company": "Andel Energi",
         "location": "Copenhagen",
@@ -218,17 +207,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper til data og analyse hos borger.dk",
-        "company": "Økonomistyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1704015",
-        "posted": "2026-10-02",
-        "snippet": "Vil du være en del af Digitaliseringsstyrelsen, der står i spidsen for den digitale udvikling af Danmark?Vi søger en grundig og struktureret student, som vil være en del af holdet bag borger.dk og hjælpe med analytiske og datarela",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       },
       {
         "title": "Ældre Sagen søger en studentermedarbejder til analyse, datavisualisering og Power BI",
@@ -395,6 +373,17 @@
         "url": "https://www.jobindex.dk/vis-job/r13998328",
         "posted": "2026-09-15",
         "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Ambassadors for the MSc Data Science Programme at ITU’s Open House Event, 2 February 2027",
+        "company": "IT-Universitetet i København",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1704899",
+        "posted": "2026-10-06",
+        "snippet": "Do you enjoy your studies and want to share your experience with prospective students?This is your chance to inspire others, build valuable communication skills, and be part of a supportive team that helps shape the next generatio",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
