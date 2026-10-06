@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:38:45Z",
+  "updated": "2026-10-06T02:59:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -363,17 +363,6 @@
         "posted": "2026-09-15",
         "snippet": "Hos RareWine Group bruger vi teknologi til at skabe digitale løsninger, der hjælper vores kunder med at købe og investere i vin.Vi anvender allerede AI aktivt i hverdagen, bl.a. Claude Code i vores udviklingsarbejde, men det er et",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer - LLMs and On-Premise AI - Aarhus",
-        "company": "twoday A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1696204",
-        "posted": "2026-09-07",
-        "snippet": "",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
