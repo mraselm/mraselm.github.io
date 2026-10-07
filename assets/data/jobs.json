@@ -1,11 +1,22 @@
 {
-  "updated": "2026-10-07T16:30:26Z",
+  "updated": "2026-10-07T21:59:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Lead Product Data Analyst",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14037853",
+        "posted": "2026-10-07",
+        "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Analyst",
         "company": "Novo",
@@ -20,7 +31,7 @@
       {
         "title": "Country Data Analyst - IKEA Denmark (Service Office in Taastrup)",
         "company": "IKEA",
-        "location": "Taastrup",
+        "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r14021286",
         "posted": "2026-09-29",
         "snippet": "You are a curious and collaborative Data Analyst who enjoys turning data into clear, reliable and useful insights for the business.",
@@ -130,17 +141,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Bellagroup søger BI & Business Analyst",
-        "company": "JOMP.dk - Hospitality Jobs",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14023106",
-        "posted": "2026-09-30",
-        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker - formgiv fremtidens Energimarked",
         "company": "Andel Energi",
         "location": "Copenhagen",
@@ -194,17 +194,6 @@
         "posted": "2026-09-29",
         "snippet": "Vil du arbejde med data og Business Intelligence-løsninger, der bruges af danske kommuner hver eneste dag?Som BI-udvikler bliver du en del af et erfarent team, der arbejder tæt på både data og kunder. Du kommer til at arbejde med",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Sr. BI Analyst (Data Engineering)",
-        "company": "LEGO System A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14009479",
-        "posted": "2026-09-22",
-        "snippet": "Are you passionate about transforming data into business value?",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -278,6 +267,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Lead Data Scientist",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14038665",
+        "posted": "2026-10-07",
+        "snippet": "View profile Search by Keyword Search by Location Show More Options Loading.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist for Clinical Data and Research Infrastructure",
         "company": "Aalborg Universitet",
         "location": "Aalborg",
@@ -339,6 +339,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1698787",
         "posted": "2026-09-15",
         "snippet": "Hos RareWine Group bruger vi teknologi til at skabe digitale løsninger, der hjælper vores kunder med at købe og investere i vin.Vi anvender allerede AI aktivt i hverdagen, bl.a. Claude Code i vores udviklingsarbejde, men det er et",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer (C#/.NET",
+        "company": "LLM)",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14037844",
+        "posted": "2026-10-07",
+        "snippet": "Hos Norlix bygger vi forsikring og pension til mindre virksomheder fra bunden.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
