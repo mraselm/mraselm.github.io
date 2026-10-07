@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T08:41:11Z",
+  "updated": "2026-10-07T16:30:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -119,23 +119,23 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business analysts, UX’ere og proceskonsulenter til ny digital taskforce i Danmarks største forvaltning",
+        "company": "Københavns Kommune",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14036780",
+        "posted": "2026-10-07",
+        "snippet": "Vil du være med til at bygge vejen til en mere effektiv, digitalt understøttet og fremtidssikret administration og være en vigtig...",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Bellagroup søger BI & Business Analyst",
         "company": "JOMP.dk - Hospitality Jobs",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r14023106",
         "posted": "2026-09-30",
         "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI & Business Analyst",
-        "company": "Bellagroup",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14021821",
-        "posted": "2026-09-29",
-        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -220,20 +220,19 @@
         "job_type": "student"
       }
     ],
-    "bi specialist": [
+    "bi specialist": [],
+    "data scientist": [
       {
-        "title": "Ældre Sagen søger en studentermedarbejder til analyse, datavisualisering og Power BI",
-        "company": "Ældre Sagen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1704421",
-        "posted": "2026-10-05",
-        "snippet": "Vil du arbejde med et af Danmarks mest spændende datasæt om danskernes liv, værdier og fremtid? Og har du flair for dataanalyse og Power BI?Ældre Sagens afdeling for Samfundsanalyse søger en studentermedarbejder til et fagligt udf",
+        "title": "Machine Learning Engineer",
+        "company": "nemlig.com",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/h1705523",
+        "posted": "2026-10-07",
+        "snippet": "Fundamentet er på plads: en moderne GCP-baseret dataplatform, stærke datateams og en organisation, hvor data, machine learning og AI spiller en central rolle. Nu søger vi en Machine Learning Engineer, der vil være med til at bygge",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "student"
-      }
-    ],
-    "data scientist": [
+        "job_type": "full-time"
+      },
       {
         "title": "Machine Learning Engineer",
         "company": "Trackunit ApS",
