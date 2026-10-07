@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T21:38:25Z",
+  "updated": "2026-10-07T01:33:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -141,6 +141,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "BI & Business Analyst",
+        "company": "Bellagroup",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14021821",
+        "posted": "2026-09-29",
+        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker - formgiv fremtidens Energimarked",
         "company": "Andel Energi",
         "location": "Copenhagen",
@@ -204,17 +215,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14009479",
         "posted": "2026-09-22",
         "snippet": "Are you passionate about transforming data into business value?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Analyst",
-        "company": "Flatpay ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r13996581",
-        "posted": "2026-09-15",
-        "snippet": "We’re looking for an ambitious and curious Analyst with 1–3 years of experience to join our Copenhagen HQ.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -290,17 +290,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Lead AI Engineer - Kolding",
-        "company": "GLS Denmark A/S",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/h1696668",
-        "posted": "2026-09-08",
-        "snippet": "Kan du omsætte AI-muligheder til skalerbare, sikre og værdiskabende løsninger, der fungerer i praksis? Som Lead AI Engineer er dine opgave mange og alsidige, og du vil opleve en stor grad af medindflydelse på dine opgaver.Du vil b",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Scientist for Clinical Data and Research Infrastructure",
         "company": "Aalborg Universitet",
         "location": "Aalborg",
@@ -329,17 +318,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14005638",
         "posted": "2026-09-18",
         "snippet": "Banking hasn't changed much in decades.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior data scientist GenAI",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13998327",
-        "posted": "2026-09-15",
-        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -384,28 +362,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14004503",
         "posted": "2026-09-18",
         "snippet": "Do you want to build computer-vision technology that helps autonomous drones understand and navigate the real world?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI engineer for agentic AI",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r13998328",
-        "posted": "2026-09-15",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Student Ambassadors for the MSc Data Science Programme at ITU’s Open House Event, 2 February 2027",
-        "company": "IT-Universitetet i København",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1704899",
-        "posted": "2026-10-06",
-        "snippet": "Do you enjoy your studies and want to share your experience with prospective students?This is your chance to inspire others, build valuable communication skills, and be part of a supportive team that helps shape the next generatio",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
