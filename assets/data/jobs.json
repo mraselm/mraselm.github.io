@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T08:59:54Z",
+  "updated": "2026-10-08T16:29:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -237,17 +237,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1705521",
         "posted": "2026-10-08",
         "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Ældre Sagen søger en studentermedarbejder til analyse, datavisualisering og Power BI",
-        "company": "Ældre Sagen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1704421",
-        "posted": "2026-10-05",
-        "snippet": "Vil du arbejde med et af Danmarks mest spændende datasæt om danskernes liv, værdier og fremtid? Og har du flair for dataanalyse og Power BI?Ældre Sagens afdeling for Samfundsanalyse søger en studentermedarbejder til et fagligt udf",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
