@@ -1,11 +1,22 @@
 {
-  "updated": "2026-10-08T16:29:56Z",
+  "updated": "2026-10-08T22:05:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Product Data Analyst",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14040176",
+        "posted": "2026-10-08",
+        "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Lead Product Data Analyst",
         "company": "",
@@ -57,17 +68,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14010724",
         "posted": "2026-09-23",
         "snippet": "Brugeraktivering (Markedsføring og Brugerkontakt) bruger DR's egne kontaktpunkter — email, push, in-app og bannere — og førstepartsdata...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker med stærke formidlingsevner til analyseteamet i Beskæftigelses-, Integrations-, og Erhvervsforvaltningen",
-        "company": "Københavns Kommune",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14002220",
-        "posted": "2026-09-17",
-        "snippet": "Er du skarp til dataanalyse og samtidig dygtig til at formidle komplekse indsigter klart og forståeligt?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -279,6 +279,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Scientist",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14040178",
+        "posted": "2026-10-08",
+        "snippet": "Vil du bruge deep learning og statistik til at gøre naturens forandring målbar?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Novo",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14041109",
+        "posted": "2026-10-08",
+        "snippet": "As Senior Machine Learning Engineer, you will turn models and AI prototypes into reliable, secure and measurable production services in Research & Development.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Lead Data Scientist",
         "company": "Novo",
         "location": "Ballerup",
@@ -318,6 +340,17 @@
         "url": "https://www.jobindex.dk/vis-job/r14005638",
         "posted": "2026-09-18",
         "snippet": "Banking hasn't changed much in decades.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer (IT-CD-2026-239-GRAE)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14040493",
+        "posted": "2026-10-08",
+        "snippet": "",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
