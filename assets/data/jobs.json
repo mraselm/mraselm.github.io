@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T21:59:34Z",
+  "updated": "2026-10-08T01:56:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -119,23 +119,34 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst - Processer, Systemer og Implementering",
-        "company": "DSV",
-        "location": "Horsens",
-        "url": "https://www.jobindex.dk/vis-job/h1697016",
-        "posted": "2026-09-09",
-        "snippet": "Som Business Analyst omsætter du komplekse forretningsbehov til skalerbare processer, klare systemkrav og løsninger for nogle af DSV Roads største kunder.Du bliver en del af et internationalt Process Development-team med stærke ko",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Business analysts, UX’ere og proceskonsulenter til ny digital taskforce i Danmarks største forvaltning",
         "company": "Københavns Kommune",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r14036780",
         "posted": "2026-10-07",
         "snippet": "Vil du være med til at bygge vejen til en mere effektiv, digitalt understøttet og fremtidssikret administration og være en vigtig...",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Bellagroup søger BI & Business Analyst",
+        "company": "JOMP.dk - Hospitality Jobs",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14023106",
+        "posted": "2026-09-30",
+        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI & Business Analyst",
+        "company": "Bellagroup",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14021821",
+        "posted": "2026-09-29",
+        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -229,39 +240,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1701970",
         "posted": "2026-09-28",
         "snippet": "Most machine learning never makes it to production. Your job is to make sure ours does.We are looking for an ML Engineer who turns models into reliable, maintained systems that construction companies actually use to make better de",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI/ML Engineer",
-        "company": "twoday A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1697079",
-        "posted": "2026-09-09",
-        "snippet": "We are looking for an experienced Senior AI/ML Engineer to join our AI team!Most companies can build models. Far fewer can run them in production, retrain, update and provide inference on a schedule or in real time, setup operatio",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Data Scientist",
-        "company": "twoday A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1697078",
-        "posted": "2026-09-09",
-        "snippet": "We are looking for an experienced Senior Data Scientist to join our AI team!Most organizations have no shortage of ideas for what to model. Far fewer can turn a vaguely stated business problem into a well-posed prediction task, pi",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Lead Data Scientist",
-        "company": "twoday A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1697076",
-        "posted": "2026-09-09",
-        "snippet": "We are looking for an experienced Lead Data Scientist to join our AI team!Most organizations have no shortage of ideas for what to model. Far fewer can turn a vaguely stated business problem into a well-posed prediction task, pick",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
