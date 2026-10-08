@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T01:56:53Z",
+  "updated": "2026-10-08T08:59:54Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -71,6 +71,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studiejob som analytiker",
+        "company": "DKE Group ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1705521",
+        "posted": "2026-10-08",
+        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "business analyst": [
@@ -194,6 +205,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studiejob som analytiker",
+        "company": "DKE Group ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1705521",
+        "posted": "2026-10-08",
+        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "business intelligence": [
@@ -209,6 +231,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studiejob som analytiker",
+        "company": "DKE Group ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1705521",
+        "posted": "2026-10-08",
+        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Ældre Sagen søger en studentermedarbejder til analyse, datavisualisering og Power BI",
         "company": "Ældre Sagen",
         "location": "Copenhagen",
@@ -220,7 +253,19 @@
         "job_type": "student"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Studiejob som analytiker",
+        "company": "DKE Group ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1705521",
+        "posted": "2026-10-08",
+        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "Machine Learning Engineer",
@@ -342,6 +387,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studiejob som analytiker",
+        "company": "DKE Group ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1705521",
+        "posted": "2026-10-08",
+        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "graduate program": [
