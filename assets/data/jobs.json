@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T16:14:12Z",
+  "updated": "2026-10-09T20:57:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -53,7 +53,7 @@
       {
         "title": "Country Data Analyst - IKEA Denmark (Service Office in Taastrup)",
         "company": "IKEA",
-        "location": "Copenhagen",
+        "location": "Taastrup",
         "url": "https://www.jobindex.dk/vis-job/r14021286",
         "posted": "2026-09-29",
         "snippet": "You are a curious and collaborative Data Analyst who enjoys turning data into clear, reliable and useful insights for the business.",
@@ -302,6 +302,17 @@
       },
       {
         "title": "Data Scientist",
+        "company": "AI Engineer",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14042846",
+        "posted": "2026-10-09",
+        "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
         "company": "",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r14040178",
@@ -329,17 +340,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14038665",
         "posted": "2026-10-07",
         "snippet": "View profile Search by Keyword Search by Location Show More Options Loading.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist for Clinical Data and Research Infrastructure",
-        "company": "Aalborg Universitet",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/r14035541",
-        "posted": "2026-10-06",
-        "snippet": "Aalborg University seeks a Data Scientist to help establish Digital Heart, a cardiovascular data and AI research infrastructure developed...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
