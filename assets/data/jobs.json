@@ -1,11 +1,22 @@
 {
-  "updated": "2026-10-09T02:11:20Z",
+  "updated": "2026-10-09T09:06:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Data Analyst",
+        "company": "Visma DataLøn",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706217",
+        "posted": "2026-10-09",
+        "snippet": "Er du en passioneret Data Analyst, der kan omsætte rå data til skarpe forretningsindsigter?Vi leder efter en dygtig og engageret Data Analyst, der kan dykke ned i vores data, finde de vigtige mønstre og hjælpe forretningen med at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Product Data Analyst",
         "company": "",
@@ -215,6 +226,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1702328",
         "posted": "2026-09-29",
         "snippet": "Vil du arbejde med data og Business Intelligence-løsninger, der bruges af danske kommuner hver eneste dag?Som BI-udvikler bliver du en del af et erfarent team, der arbejder tæt på både data og kunder. Du kommer til at arbejde med",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Udviklingskonsulent med stærke kompetencer i Power BI og statistik",
+        "company": "Frederikshavn Kommune",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1706138",
+        "posted": "2026-10-09",
+        "snippet": "Vil du omsætte data til indsigt, udvikle rapporter, der bliver brugt, og skabe smartere arbejdsgange?I Økonomi og Løn i Frederikshavn Kommune søger vi en udviklingskonsulent, der kan kombinere stærke kompetencer inden for Power BI",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
