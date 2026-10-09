@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T09:06:56Z",
+  "updated": "2026-10-09T16:14:12Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -242,6 +242,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "LTSA Student Assistant with focus on Business Intelligence",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706415",
+        "posted": "2026-10-09",
+        "snippet": "Are you studying Business Intelligence, Business Analytics, Data Science, IT, Economics, Finance, or a similar field? As our new Student Assistant, you will help strengthen our reporting and business intelligencecapabilities, ensu",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studiejob som analytiker",
         "company": "DKE Group ApS",
         "location": "Aalborg",
@@ -255,13 +266,13 @@
     ],
     "bi specialist": [
       {
-        "title": "Studiejob som analytiker",
-        "company": "DKE Group ApS",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1705521",
-        "posted": "2026-10-08",
-        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
-        "lang": "da",
+        "title": "LTSA Student Assistant with focus on Business Intelligence",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706415",
+        "posted": "2026-10-09",
+        "snippet": "Are you studying Business Intelligence, Business Analytics, Data Science, IT, Economics, Finance, or a similar field? As our new Student Assistant, you will help strengthen our reporting and business intelligencecapabilities, ensu",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       }
