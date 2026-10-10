@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T20:57:28Z",
+  "updated": "2026-10-10T00:53:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -356,34 +356,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "(Senior) Data Scientist Technology · Aarhus, Denmark",
-        "company": "Lunar A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r14005638",
-        "posted": "2026-09-18",
-        "snippet": "Banking hasn't changed much in decades.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Machine Learning Engineer (IT-CD-2026-239-GRAE)",
         "company": "",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/r14040493",
         "posted": "2026-10-08",
         "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer",
-        "company": "GN Group",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14005565",
-        "posted": "2026-09-18",
-        "snippet": "In the role of Machine Learning Engineer in the Engineering Excellence team within Software Solutions.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -418,17 +396,6 @@
         "posted": "2026-10-07",
         "snippet": "Hos Norlix bygger vi forsikring og pension til mindre virksomheder fra bunden.",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Computer Vision & AI Engineer",
-        "company": "",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/r14004503",
-        "posted": "2026-09-18",
-        "snippet": "Do you want to build computer-vision technology that helps autonomous drones understand and navigate the real world?",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
