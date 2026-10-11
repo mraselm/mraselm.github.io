@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T15:42:50Z",
+  "updated": "2026-10-11T20:18:21Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -14,6 +14,17 @@
         "posted": "2026-10-09",
         "snippet": "Er du en passioneret Data Analyst, der kan omsætte rå data til skarpe forretningsindsigter?Vi leder efter en dygtig og engageret Data Analyst, der kan dykke ned i vores data, finde de vigtige mønstre og hjælpe forretningen med at",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst (FCP)",
+        "company": "Lunar A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14045056",
+        "posted": "2026-10-11",
+        "snippet": "Banking hasn't changed much in decades.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
