@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T07:22:41Z",
+  "updated": "2026-10-12T17:56:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -51,6 +51,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Analyst / Biostatistician – Danish Blood Donor Study (DBDS) Department of Clinical Immunology, Aarhus University Hospital",
+        "company": "Region Midtjylland",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r14046225",
+        "posted": "2026-10-06",
+        "snippet": "We are seeking a data analyst with strong statistical and data analytical skills to join the Danish Blood Donor Study (DBDS).",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Analyst",
         "company": "Novo",
         "location": "Denmark",
@@ -93,6 +104,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper – Analytiker | Pension",
+        "company": "Söderberg & Partners",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706860",
+        "posted": "2026-10-12",
+        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Studiejob som analytiker",
@@ -185,6 +207,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytiker – byg bro mellem forretning og IT i Patent- og Varemærkestyrelsen",
+        "company": "Erhvervsministeriet",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1707034",
+        "posted": "2026-10-12",
+        "snippet": "Brænder du for at gøre en forskel, og vil du gerne bidrage til, at Patent- og Varemærkestyrelsens it-projekter understøtter både kunders, samarbejdspartneres og medarbejdernes behov på en effektiv og hensigtsmæssig måde?Vi søger l",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til PET's IT-afdeling",
+        "company": "Politiets Efterretningstjeneste",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/h1707054",
+        "posted": "2026-10-12",
+        "snippet": "Vil du være med til at kvalificere de idéer, der kan blive til morgendagens IT-løsninger?Som forretningsanalytiker i sektionen for IT Strategi og Partnerskaber bliver du en del af et team, der arbejder tæt sammen med fagområderne",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker - formgiv fremtidens Energimarked",
         "company": "Andel Energi",
         "location": "Copenhagen",
@@ -205,6 +249,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper – Analytiker | Pension",
+        "company": "Söderberg & Partners",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706860",
+        "posted": "2026-10-12",
+        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       },
       {
         "title": "Studiejob som analytiker",
@@ -242,6 +297,28 @@
         "job_type": "full-time"
       },
       {
+        "title": "Få fingrene i rigtige data: Studentermedhjælper med flair for SQL og PowerBI søges",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1706759",
+        "posted": "2026-10-12",
+        "snippet": "Vil du omsætte komplekse HR- og økonomidata til skarpe indsigter i et af Danmarks største videnshuse? På Det Kgl. Bibliotek i Aarhus søger vi en analytisk stærk studentermedhjælper, der vil være med til at sikre kvaliteten og tilg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper – Analytiker | Pension",
+        "company": "Söderberg & Partners",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706860",
+        "posted": "2026-10-12",
+        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "LTSA Student Assistant with focus on Business Intelligence",
         "company": "Everllence",
         "location": "Copenhagen",
@@ -251,20 +328,31 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Studiejob som analytiker",
-        "company": "DKE Group ApS",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1705521",
-        "posted": "2026-10-08",
-        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "bi specialist": [
+      {
+        "title": "Få fingrene i rigtige data: Studentermedhjælper med flair for SQL og PowerBI søges",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1706759",
+        "posted": "2026-10-12",
+        "snippet": "Vil du omsætte komplekse HR- og økonomidata til skarpe indsigter i et af Danmarks største videnshuse? På Det Kgl. Bibliotek i Aarhus søger vi en analytisk stærk studentermedhjælper, der vil være med til at sikre kvaliteten og tilg",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper – Analytiker | Pension",
+        "company": "Söderberg & Partners",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706860",
+        "posted": "2026-10-12",
+        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
       {
         "title": "LTSA Student Assistant with focus on Business Intelligence",
         "company": "Everllence",
@@ -334,17 +422,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Lead Data Scientist",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14038665",
-        "posted": "2026-10-07",
-        "snippet": "View profile Search by Keyword Search by Location Show More Options Loading.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Data Scientist (10 months)",
         "company": "LEGO System A/S",
         "location": "Billund",
@@ -400,12 +477,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Studiejob som analytiker",
-        "company": "DKE Group ApS",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1705521",
-        "posted": "2026-10-08",
-        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
+        "title": "Studentermedhjælper – Analytiker | Pension",
+        "company": "Söderberg & Partners",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706860",
+        "posted": "2026-10-12",
+        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
