@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T20:18:21Z",
+  "updated": "2026-10-12T00:33:45Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -191,17 +191,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1704246",
         "posted": "2026-10-05",
         "snippet": "Vi søger en nysgerrig og engageret forretningsanalytiker, der trives med ansvar og kan fungere som bindeled mellem markedskrav, kundebehov og teknik.Du omsætter behov til løsninger, der understøtter processer og beslutningsgrundla",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Teknisk forretningsanalytiker og bevaringskonsulent til Digital Bevaring i Rigsarkivet",
-        "company": "Rigsarkivet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14019514",
-        "posted": "2026-09-28",
-        "snippet": "Vil du være med til at sikre Danmarks fælles, digitale hukommelse og udvikle et af Europas førende arkiver?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -422,18 +411,6 @@
         "job_type": "student"
       }
     ],
-    "graduate program": [
-      {
-        "title": "Graduate - Data & Analytics | Autumn 2027",
-        "company": "EY",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1702745",
-        "posted": "2026-09-30",
-        "snippet": "Are you ready to kick-start your career in a collaborative and high-performing environment?Join our Data and Analytics team at EY-Parthenon and work alongside experienced colleagues on challenging and meaningful projects from day",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "graduate"
-      }
-    ]
+    "graduate program": []
   }
 }
