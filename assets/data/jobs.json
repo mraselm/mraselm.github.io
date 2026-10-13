@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T00:42:11Z",
+  "updated": "2026-10-13T07:43:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -260,17 +260,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Studiejob som analytiker",
-        "company": "DKE Group ApS",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1705521",
-        "posted": "2026-10-08",
-        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "business intelligence": [
@@ -350,17 +339,6 @@
         "posted": "2026-10-12",
         "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "LTSA Student Assistant with focus on Business Intelligence",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706415",
-        "posted": "2026-10-09",
-        "snippet": "Are you studying Business Intelligence, Business Analytics, Data Science, IT, Economics, Finance, or a similar field? As our new Student Assistant, you will help strengthen our reporting and business intelligencecapabilities, ensu",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       }
