@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T07:43:50Z",
+  "updated": "2026-10-13T16:00:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -115,20 +115,20 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Studiejob som analytiker",
-        "company": "DKE Group ApS",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1705521",
-        "posted": "2026-10-08",
-        "snippet": "Har du en analytiker i maven?Vi søger en skarp studerende til vores afdeling for Ejendomsfinansiering og Transaktioner.Du understøtter ledelsen med data og analysearbejde samt opgaveløsning inden for finansiering og køb og salg af",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst til AI-leverancer - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
+        "company": "Udviklings- og Forenklingsstyrelsen",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1707505",
+        "posted": "2026-10-13",
+        "snippet": "I kontoret AI Udvikling og Platform arbejder vi med løsninger, der hjælper med at sikre, at skatter og afgifter bliver betalt rigtigt, så velfærdssamfundet hænger sammen.Som Business Analyst arbejder du som en del af udviklingstea",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Finance and Business Analyst",
         "company": "Go-Pen ApS",
@@ -191,17 +191,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14023106",
         "posted": "2026-09-30",
         "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI & Business Analyst",
-        "company": "Bellagroup",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14021821",
-        "posted": "2026-09-29",
-        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -270,17 +259,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1702328",
         "posted": "2026-09-29",
         "snippet": "Vil du arbejde med data og Business Intelligence-løsninger, der bruges af danske kommuner hver eneste dag?Som BI-udvikler bliver du en del af et erfarent team, der arbejder tæt på både data og kunder. Du kommer til at arbejde med",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Udviklingskonsulent med stærke kompetencer i Power BI og statistik",
-        "company": "Frederikshavn Kommune",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1706138",
-        "posted": "2026-10-09",
-        "snippet": "Vil du omsætte data til indsigt, udvikle rapporter, der bliver brugt, og skabe smartere arbejdsgange?I Økonomi og Løn i Frederikshavn Kommune søger vi en udviklingskonsulent, der kan kombinere stærke kompetencer inden for Power BI",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -444,6 +422,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "AI Engineer",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14048200",
+        "posted": "2026-10-13",
+        "snippet": "You will not be measured on how much code you type by hand, but on whether you understand the system well enough to steer an agent...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Engineer (C#/.NET",
         "company": "LLM)",
         "location": "Copenhagen",
@@ -453,17 +442,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper – Analytiker | Pension",
-        "company": "Söderberg & Partners",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706860",
-        "posted": "2026-10-12",
-        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "graduate program": []
