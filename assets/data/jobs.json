@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:16:10Z",
+  "updated": "2026-10-14T00:21:06Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -191,6 +191,17 @@
         "url": "https://www.jobindex.dk/vis-job/r14023106",
         "posted": "2026-09-30",
         "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI & Business Analyst",
+        "company": "Bellagroup",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14021821",
+        "posted": "2026-09-29",
+        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -407,17 +418,6 @@
         "posted": "2026-09-23",
         "snippet": "",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Software developer & AI Engineer",
-        "company": "RareWine ApS",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1698787",
-        "posted": "2026-09-15",
-        "snippet": "Hos RareWine Group bruger vi teknologi til at skabe digitale løsninger, der hjælper vores kunder med at købe og investere i vin.Vi anvender allerede AI aktivt i hverdagen, bl.a. Claude Code i vores udviklingsarbejde, men det er et",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
