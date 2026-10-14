@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T20:42:17Z",
+  "updated": "2026-10-14T23:55:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -68,17 +68,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1703058",
         "posted": "2026-09-30",
         "snippet": "For at kunne prioritere og styre vores milliardinvesteringer bedst muligt har vi brug for et endnu stærkere datagrundlag.Derfor søger vi en analytisk stærk og struktureret dataanalytiker til porteføljestyring, som kan være med til",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker for Brugeraktivering",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14010724",
-        "posted": "2026-09-23",
-        "snippet": "Brugeraktivering (Markedsføring og Brugerkontakt) bruger DR's egne kontaktpunkter — email, push, in-app og bannere — og førstepartsdata...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -169,6 +158,17 @@
         "url": "https://www.jobindex.dk/vis-job/r14036780",
         "posted": "2026-10-07",
         "snippet": "Vil du være med til at bygge vejen til en mere effektiv, digitalt understøttet og fremtidssikret administration og være en vigtig...",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Bellagroup søger BI & Business Analyst",
+        "company": "JOMP.dk - Hospitality Jobs",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14023106",
+        "posted": "2026-09-30",
+        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
