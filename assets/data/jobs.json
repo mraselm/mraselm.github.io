@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T00:21:06Z",
+  "updated": "2026-10-14T06:09:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -92,7 +92,7 @@
         "snippet": "For at kunne prioritere og styre vores milliardinvesteringer bedst muligt har vi brug for et endnu stærkere datagrundlag.Derfor søger vi en analytisk stærk og struktureret dataanalytiker til porteføljestyring, som kan være med til",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Dataanalytiker for Brugeraktivering",
@@ -103,7 +103,7 @@
         "snippet": "Brugeraktivering (Markedsføring og Brugerkontakt) bruger DR's egne kontaktpunkter — email, push, in-app og bannere — og førstepartsdata...",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Studentermedhjælper – Analytiker | Pension",
@@ -293,17 +293,6 @@
         "posted": "2026-10-12",
         "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "LTSA Student Assistant with focus on Business Intelligence",
-        "company": "Everllence",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706415",
-        "posted": "2026-10-09",
-        "snippet": "Are you studying Business Intelligence, Business Analytics, Data Science, IT, Economics, Finance, or a similar field? As our new Student Assistant, you will help strengthen our reporting and business intelligencecapabilities, ensu",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       }
