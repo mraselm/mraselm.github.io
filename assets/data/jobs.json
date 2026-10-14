@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T06:09:53Z",
+  "updated": "2026-10-14T11:55:05Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -92,7 +92,7 @@
         "snippet": "For at kunne prioritere og styre vores milliardinvesteringer bedst muligt har vi brug for et endnu stærkere datagrundlag.Derfor søger vi en analytisk stærk og struktureret dataanalytiker til porteføljestyring, som kan være med til",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker for Brugeraktivering",
@@ -103,21 +103,21 @@
         "snippet": "Brugeraktivering (Markedsføring og Brugerkontakt) bruger DR's egne kontaktpunkter — email, push, in-app og bannere — og førstepartsdata...",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Studentermedhjælper – Analytiker | Pension",
-        "company": "Söderberg & Partners",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706860",
-        "posted": "2026-10-12",
-        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
+        "job_type": "full-time"
       }
     ],
     "business analyst": [
+      {
+        "title": "Metodestærk IT-forretningsanalytiker søges til Rigspolitet",
+        "company": "Politi",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1707642",
+        "posted": "2026-10-14",
+        "snippet": "Har du lyst til at gøre en forskel i en stor og kompleks organisation med samfundsvigtige opgaver?Som forretningsanalytiker bliver du bindeleddet mellem forretningen (Politikredsene) og KIT. Du får sammen med resten af teamet, det",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst til AI-leverancer - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
         "company": "Udviklings- og Forenklingsstyrelsen",
@@ -185,28 +185,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Bellagroup søger BI & Business Analyst",
-        "company": "JOMP.dk - Hospitality Jobs",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14023106",
-        "posted": "2026-09-30",
-        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI & Business Analyst",
-        "company": "Bellagroup",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14021821",
-        "posted": "2026-09-29",
-        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker – byg bro mellem forretning og IT i Patent- og Varemærkestyrelsen",
         "company": "Erhvervsministeriet",
         "location": "Copenhagen",
@@ -249,17 +227,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper – Analytiker | Pension",
-        "company": "Söderberg & Partners",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706860",
-        "posted": "2026-10-12",
-        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "business intelligence": [
@@ -286,13 +253,13 @@
         "job_type": "student"
       },
       {
-        "title": "Studentermedhjælper – Analytiker | Pension",
-        "company": "Söderberg & Partners",
+        "title": "LTSA Student Assistant with focus on Business Intelligence",
+        "company": "Everllence",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706860",
-        "posted": "2026-10-12",
-        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
-        "lang": "da",
+        "url": "https://www.jobindex.dk/vis-job/h1706415",
+        "posted": "2026-10-09",
+        "snippet": "Are you studying Business Intelligence, Business Analytics, Data Science, IT, Economics, Finance, or a similar field? As our new Student Assistant, you will help strengthen our reporting and business intelligencecapabilities, ensu",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "student"
       }
@@ -308,20 +275,20 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Studentermedhjælper – Analytiker | Pension",
-        "company": "Söderberg & Partners",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706860",
-        "posted": "2026-10-12",
-        "snippet": "Er du stærk i Excel, glad for data og analyser - og trives du med at samarbejde med mange forskellige mennesker?En vigtig del af jobbet er at udvikle, teste og vedligeholde vores IT-understøttede analyseværktøj, som bruges til at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
+      {
+        "title": "Data Scientist Supporting Global Planning",
+        "company": "Arla Foods amba",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1707011",
+        "posted": "2026-10-12",
+        "snippet": "Do you want to help Arla shape the future of milk planning?You will become part of a strong and collaborative team working closely with business stakeholders to drive value creation, co-create digital roadmaps and ensure we realiz",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Machine Learning Engineer",
         "company": "nemlig.com",
