@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T09:56:37Z",
+  "updated": "2026-10-15T15:02:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -301,17 +301,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Machine Learning Engineer",
-        "company": "Novo",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14041109",
-        "posted": "2026-10-08",
-        "snippet": "As Senior Machine Learning Engineer, you will turn models and AI prototypes into reliable, secure and measurable production services in Research & Development.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Data Scientist (10 months)",
         "company": "LEGO System A/S",
         "location": "Billund",
@@ -330,6 +319,28 @@
         "posted": "2026-10-08",
         "snippet": "",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Novo",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14041109",
+        "posted": "2026-10-08",
+        "snippet": "As Senior Machine Learning Engineer, you will turn models and AI prototypes into reliable, secure and measurable production services in Research & Development.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer til Forsvarets AI Center",
+        "company": "Forsvaret",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1708229",
+        "posted": "2026-10-15",
+        "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
