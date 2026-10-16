@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T21:10:53Z",
+  "updated": "2026-10-16T23:36:58Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -202,17 +202,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1704246",
         "posted": "2026-10-05",
         "snippet": "Vi søger en nysgerrig og engageret forretningsanalytiker, der trives med ansvar og kan fungere som bindeled mellem markedskrav, kundebehov og teknik.Du omsætter behov til løsninger, der understøtter processer og beslutningsgrundla",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Tværgående forretningsanalytiker til Nat-Tech Økonomi",
-        "company": "Aarhus Universitet",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/r14015900",
-        "posted": "2026-09-25",
-        "snippet": "Er du dygtig til at håndtere store forskellige datamængde, for at kunne levere analyser og scenarieberegninger til ledelsen.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
