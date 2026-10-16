@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T22:20:29Z",
+  "updated": "2026-10-16T01:22:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -58,17 +58,6 @@
         "posted": "2026-10-06",
         "snippet": "As AI & PowerBI Developer, you will bring AI and PowerBI into the daily work of the business.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til porteføljestyring af fremtidens grønne infrastrukturprojekter",
-        "company": "Energinet",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1703058",
-        "posted": "2026-09-30",
-        "snippet": "For at kunne prioritere og styre vores milliardinvesteringer bedst muligt har vi brug for et endnu stærkere datagrundlag.Derfor søger vi en analytisk stærk og struktureret dataanalytiker til porteføljestyring, som kan være med til",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -130,17 +119,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Analyst - Debtor Management Solutions",
-        "company": "EG A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1699356",
-        "posted": "2026-09-17",
-        "snippet": "We're looking for an experienced Business Analyst to help develop and advise on ØS Indsigt, our solution for accounts receivable and debtor management, used by organizations across the public and private sector.You will join a tea",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Market, Financial and Business Analyst for the Green Transition",
         "company": "KAR+CO",
         "location": "Lyngby",
@@ -180,6 +158,17 @@
         "url": "https://www.jobindex.dk/vis-job/r14023106",
         "posted": "2026-09-30",
         "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "BI & Business Analyst",
+        "company": "Bellagroup",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14021821",
+        "posted": "2026-09-29",
+        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -301,6 +290,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Data Scientist",
+        "company": "AI Engineer",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14042846",
+        "posted": "2026-10-09",
+        "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Data Scientist (10 months)",
         "company": "LEGO System A/S",
         "location": "Billund",
@@ -356,34 +356,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "AI engineer til Forsvarets AI Center",
-        "company": "Forsvaret",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/r14052085",
-        "posted": "2026-10-15",
-        "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "AI Engineer",
         "company": "",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/r14048200",
         "posted": "2026-10-13",
         "snippet": "You will not be measured on how much code you type by hand, but on whether you understand the system well enough to steer an agent...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "AI Engineer",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14042846",
-        "posted": "2026-10-09",
-        "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
