@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T12:26:44Z",
+  "updated": "2026-10-16T17:25:28Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -245,6 +245,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "R&D Data Scientist",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1708501",
+        "posted": "2026-10-16",
+        "snippet": "Do you enjoy turning complex data into actionable insights?You will help unlock the value of data across the entire Engine Control Systems function.Working closely with Everllence R&D engineers, technical specialists, and operator",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Platform Engineer til Data Science Platform",
         "company": "Energinet",
