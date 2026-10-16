@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T07:11:39Z",
+  "updated": "2026-10-16T12:26:44Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -246,6 +246,17 @@
     ],
     "data scientist": [
       {
+        "title": "Platform Engineer til Data Science Platform",
+        "company": "Energinet",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1689198",
+        "posted": "2026-10-16",
+        "snippet": "Vil du være med til at bygge fundamentet for Data Science i Danmarks kritiske energiinfrastruktur?Du kommer ikke ind for blot at overtage en færdig platform. Du bliver en af nøglepersonerne i et produktteam og får reel indflydelse",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist Supporting Global Planning",
         "company": "Arla Foods amba",
         "location": "Aarhus",
@@ -285,17 +296,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14052560",
         "posted": "2026-10-15",
         "snippet": "The Principal Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "AI Engineer",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14042846",
-        "posted": "2026-10-09",
-        "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -362,6 +362,17 @@
         "url": "https://www.jobindex.dk/vis-job/r14048200",
         "posted": "2026-10-13",
         "snippet": "You will not be measured on how much code you type by hand, but on whether you understand the system well enough to steer an agent...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "AI Engineer",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14042846",
+        "posted": "2026-10-09",
+        "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
