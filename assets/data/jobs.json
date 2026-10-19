@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T07:48:26Z",
+  "updated": "2026-10-19T15:37:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -93,17 +93,6 @@
         "posted": "2026-10-13",
         "snippet": "I kontoret AI Udvikling og Platform arbejder vi med løsninger, der hjælper med at sikre, at skatter og afgifter bliver betalt rigtigt, så velfærdssamfundet hænger sammen.Som Business Analyst arbejder du som en del af udviklingstea",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Finance and Business Analyst",
-        "company": "Go-Pen ApS",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1702753",
-        "posted": "2026-09-30",
-        "snippet": "We are looking for a Financial Analyst to build the financial foundation for the company's next phase of growth.The role supports key decisions on production capacity and funding, and offers a clear path to grow into Head of Finan",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -286,6 +275,17 @@
         "posted": "2026-09-28",
         "snippet": "Most machine learning never makes it to production. Your job is to make sure ours does.We are looking for an ML Engineer who turns models into reliable, maintained systems that construction companies actually use to make better de",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data scientist til Dansk Center for Sundhedsøkonomi",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r14055457",
+        "posted": "2026-10-19",
+        "snippet": "Der er tale om en 2-årig ansættelse.",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
