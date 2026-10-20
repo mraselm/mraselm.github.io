@@ -1,67 +1,11 @@
 {
-  "updated": "2026-10-20T00:21:40Z",
+  "updated": "2026-10-20T06:02:33Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
-    "data analyst": [
-      {
-        "title": "Data Analyst",
-        "company": "Visma DataLøn",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706217",
-        "posted": "2026-10-09",
-        "snippet": "Er du en passioneret Data Analyst, der kan omsætte rå data til skarpe forretningsindsigter?Vi leder efter en dygtig og engageret Data Analyst, der kan dykke ned i vores data, finde de vigtige mønstre og hjælpe forretningen med at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Product Data Analyst",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14040176",
-        "posted": "2026-10-08",
-        "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Lead Product Data Analyst",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14037853",
-        "posted": "2026-10-07",
-        "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst / Biostatistician – Danish Blood Donor Study (DBDS) Department of Clinical Immunology, Aarhus University Hospital",
-        "company": "Region Midtjylland",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r14046225",
-        "posted": "2026-10-06",
-        "snippet": "We are seeking a data analyst with strong statistical and data analytical skills to join the Danish Blood Donor Study (DBDS).",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst",
-        "company": "Novo",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14035963",
-        "posted": "2026-10-06",
-        "snippet": "As AI & PowerBI Developer, you will bring AI and PowerBI into the daily work of the business.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      }
-    ],
+    "data analyst": [],
     "business analyst": [
       {
         "title": "BI Business Analyst I",
@@ -210,6 +154,17 @@
       }
     ],
     "bi specialist": [
+      {
+        "title": "BI Specialist til finansielle dashboards i Pensions & Investments",
+        "company": "ATP",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1707026",
+        "posted": "2026-10-12",
+        "snippet": "Kan du omsætte data og forretningsbehov til løsninger, der bliver brugt i hverdagen?Du får en central rolle i udviklingen af vores BI-løsninger og kommer blandt andet til at:udvikle og vedligeholde finansielle dashboards i tæt sam",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Group Finance BI Specialist",
         "company": "MAKEEN Energy",
