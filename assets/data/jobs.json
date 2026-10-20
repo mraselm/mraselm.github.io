@@ -1,12 +1,79 @@
 {
-  "updated": "2026-10-20T06:02:33Z",
+  "updated": "2026-10-20T11:40:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
-    "data analyst": [],
+    "data analyst": [
+      {
+        "title": "Data Analyst",
+        "company": "Visma DataLøn",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1706217",
+        "posted": "2026-10-09",
+        "snippet": "Er du en passioneret Data Analyst, der kan omsætte rå data til skarpe forretningsindsigter?Vi leder efter en dygtig og engageret Data Analyst, der kan dykke ned i vores data, finde de vigtige mønstre og hjælpe forretningen med at",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Product Data Analyst",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14040176",
+        "posted": "2026-10-08",
+        "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead Product Data Analyst",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14037853",
+        "posted": "2026-10-07",
+        "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst / Biostatistician – Danish Blood Donor Study (DBDS) Department of Clinical Immunology, Aarhus University Hospital",
+        "company": "Region Midtjylland",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r14046225",
+        "posted": "2026-10-06",
+        "snippet": "We are seeking a data analyst with strong statistical and data analytical skills to join the Danish Blood Donor Study (DBDS).",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst",
+        "company": "Novo",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14035963",
+        "posted": "2026-10-06",
+        "snippet": "As AI & PowerBI Developer, you will bring AI and PowerBI into the daily work of the business.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      }
+    ],
     "business analyst": [
+      {
+        "title": "Erfarne Business Analysts til sikring af drift og videreudvikling af inddrivelsessystemer",
+        "company": "Udviklings- og Forenklingsstyrelsen",
+        "location": "Frederiksberg",
+        "url": "https://www.jobindex.dk/vis-job/h1708890",
+        "posted": "2026-10-20",
+        "snippet": "Kan du navigere i spændingsfeltet mellem forretning og IT?Vi søger erfarne Business Analysts, der kan spille en vigtig rolle i at forstå Gældsstyrelsens forretningsbehov og omsætte dem til velfungerende it-løsninger.Din hovedopgav",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "BI Business Analyst I",
         "company": "Hamamatsu Photonics",
@@ -138,9 +205,31 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker til Strategi- og Udviklingssektionen for Forsvarets Vedligeholdelsestjeneste i Brabrand",
+        "company": "Forsvaret",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14057524",
+        "posted": "2026-10-20",
+        "snippet": "Vil du være med til at skabe retningen for Forsvarets foretrukne leverandør af vedligehold?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
       }
     ],
     "business intelligence": [
+      {
+        "title": "Business Intelligence Specialist med fokus på Power BI",
+        "company": "HumanTrust A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1708045",
+        "posted": "2026-10-20",
+        "snippet": "",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "BI Consultant",
         "company": "KMD A/S",
@@ -151,20 +240,20 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion og samtidig få indblik i arbejdet i en statslig styrelse? Bliv student hos os!",
+        "company": "Fødevarestyrelsen",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1708897",
+        "posted": "2026-10-20",
+        "snippet": "Du bliver del af styrelsens Direktionssekretariat, der sikrer effektiv og kompetent betjening og rådgivning af vores direktion. Du får et unikt indblik i Fødevarestyrelsens mange spændende fagområder – lige fra dyresundhed og føde",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "bi specialist": [
-      {
-        "title": "BI Specialist til finansielle dashboards i Pensions & Investments",
-        "company": "ATP",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1707026",
-        "posted": "2026-10-12",
-        "snippet": "Kan du omsætte data og forretningsbehov til løsninger, der bliver brugt i hverdagen?Du får en central rolle i udviklingen af vores BI-løsninger og kommer blandt andet til at:udvikle og vedligeholde finansielle dashboards i tæt sam",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Group Finance BI Specialist",
         "company": "MAKEEN Energy",
@@ -175,6 +264,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion og samtidig få indblik i arbejdet i en statslig styrelse? Bliv student hos os!",
+        "company": "Fødevarestyrelsen",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1708897",
+        "posted": "2026-10-20",
+        "snippet": "Du bliver del af styrelsens Direktionssekretariat, der sikrer effektiv og kompetent betjening og rådgivning af vores direktion. Du får et unikt indblik i Fødevarestyrelsens mange spændende fagområder – lige fra dyresundhed og føde",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -296,17 +396,6 @@
         "posted": "2026-10-15",
         "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer for Agentic Applications - Aarhus or Gdansk",
-        "company": "Arla Foods amba",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1700840",
-        "posted": "2026-09-23",
-        "snippet": "",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
