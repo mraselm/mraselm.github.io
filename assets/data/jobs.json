@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T20:36:38Z",
+  "updated": "2026-10-20T23:53:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -163,17 +163,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "BI & Business Analyst",
-        "company": "Bellagroup",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14021821",
-        "posted": "2026-09-29",
-        "snippet": "Vi søger en analytisk stærk og forretningsorienteret BI & Business Analyst, der brænder for at omsætte data til værdifulde indsigter og...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker – byg bro mellem forretning og IT i Patent- og Varemærkestyrelsen",
         "company": "Erhvervsministeriet",
         "location": "Copenhagen",
@@ -265,17 +254,6 @@
       }
     ],
     "bi specialist": [
-      {
-        "title": "Group Finance BI Specialist",
-        "company": "MAKEEN Energy",
-        "location": "Randers",
-        "url": "https://www.jobindex.dk/vis-job/h1700442",
-        "posted": "2026-09-22",
-        "snippet": "We are looking for a BI Specialist within Group Finance who combines strong analytical capabilities within digitalization and data-driven financial management.You will play a central role in our digital transformation journey, wit",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion og samtidig få indblik i arbejdet i en statslig styrelse? Bliv student hos os!",
         "company": "Fødevarestyrelsen",
