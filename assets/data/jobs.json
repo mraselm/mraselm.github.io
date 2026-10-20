@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T17:09:23Z",
+  "updated": "2026-10-20T20:36:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -345,6 +345,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior Data Scientist - Cross-Trial Evidence & HTA",
+        "company": "Novo",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/r14058716",
+        "posted": "2026-10-20",
+        "snippet": "For people living with serious chronic diseases, an approved medicine is only as good as the access they have to it.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data scientist til Dansk Center for Sundhedsøkonomi",
         "company": "Syddansk Universitet",
         "location": "Odense",
@@ -407,6 +418,17 @@
         "posted": "2026-10-15",
         "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer (Full-Stack)",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14058032",
+        "posted": "2026-10-20",
+        "snippet": "Build full-stack AI agents for science, with freedom, room to be creative, and real ownership, in a lively startup in Copenhagen.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
