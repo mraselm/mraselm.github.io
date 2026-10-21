@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T04:50:45Z",
+  "updated": "2026-10-21T10:11:18Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -63,6 +63,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst - Boligbeskatning",
+        "company": "KMD A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1709231",
+        "posted": "2026-10-21",
+        "snippet": "Vi søger en dygtig Business Analyst til vores Bolig-team, hvor du bliver en central del af udvikling og videreudvikling af løsninger inden for ejendomsbeskatning i Forskuds- og Slutopgørelserne.Du bliver bindeleddet mellem forretn",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Erfarne Business Analysts til sikring af drift og videreudvikling af inddrivelsessystemer",
         "company": "Udviklings- og Forenklingsstyrelsen",
