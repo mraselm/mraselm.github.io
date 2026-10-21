@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T15:16:35Z",
+  "updated": "2026-10-21T19:21:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -334,17 +334,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Data Scientist - Cross-Trial Evidence & HTA",
-        "company": "Novo",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/r14058716",
-        "posted": "2026-10-20",
-        "snippet": "For people living with serious chronic diseases, an approved medicine is only as good as the access they have to it.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data scientist til Dansk Center for Sundhedsøkonomi",
         "company": "Syddansk Universitet",
         "location": "Odense",
@@ -428,17 +417,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14048200",
         "posted": "2026-10-13",
         "snippet": "You will not be measured on how much code you type by hand, but on whether you understand the system well enough to steer an agent...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist",
-        "company": "AI Engineer",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14042846",
-        "posted": "2026-10-09",
-        "snippet": "Shine is the financial copilot for entrepreneurs and small business owners.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
