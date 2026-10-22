@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T04:50:02Z",
+  "updated": "2026-10-22T10:12:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -58,6 +58,17 @@
         "posted": "2026-10-06",
         "snippet": "As AI & PowerBI Developer, you will bring AI and PowerBI into the daily work of the business.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til Forskningsenheden for Epidemiologi, Biostatistik og Biodemografi (EBB)",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r14061378",
+        "posted": "2026-10-22",
+        "snippet": "Vi søger en kandidat med stærke kvantitative kompetencer, eksempelvis en biostatistiker, en data scientist med erfaring inden for sundhedsdata...",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -141,17 +152,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business analysts, UX’ere og proceskonsulenter til ny digital taskforce i Danmarks største forvaltning",
-        "company": "Københavns Kommune",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14036780",
-        "posted": "2026-10-07",
-        "snippet": "Vil du være med til at bygge vejen til en mere effektiv, digitalt understøttet og fremtidssikret administration og være en vigtig...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Forretningsanalytiker – byg bro mellem forretning og IT i Patent- og Varemærkestyrelsen",
         "company": "Erhvervsministeriet",
         "location": "Copenhagen",
@@ -174,6 +174,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Teknisk forretningsanalytiker med interesse for AI",
+        "company": "til udvikling af kritiske it-løsninger",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14061310",
+        "posted": "2026-10-22",
+        "snippet": "Vil du bruge dine evner inden for test- og prøveområdet til gavn for tusindvis af studerende og elever?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker til Strategi- og Udviklingssektionen for Forsvarets Vedligeholdelsestjeneste i Brabrand",
         "company": "Forsvaret",
         "location": "Denmark",
@@ -187,6 +198,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Business Intelligence Specialist",
+        "company": "GomSpace ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1709569",
+        "posted": "2026-10-22",
+        "snippet": "As Business Intelligence Specialist, you will be responsible for designing, developing, and maintaining GomSpace's integration and data platform landscape.You will work closely with stakeholders across the organization to ensure r",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "part-time"
+      },
+      {
         "title": "Business Intelligence Specialist med fokus på Power BI",
         "company": "HumanTrust A/S",
         "location": "Denmark",
@@ -195,7 +217,7 @@
         "snippet": "",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "BI Consultant",
@@ -206,29 +228,7 @@
         "snippet": "Vil du arbejde med data og Business Intelligence-løsninger, der bruges af danske kommuner hver eneste dag?Som BI-udvikler bliver du en del af et erfarent team, der arbejder tæt på både data og kunder. Du kommer til at arbejde med",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Metodestærk student med flair for data og analyser",
-        "company": "Styrelsen for Danmarks Fængsler",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1709102",
-        "posted": "2026-10-20",
-        "snippet": "Er du i gang med en videregående samfundsvidenskabelig uddannelse? Har du analytisk tæft, og er du skarp med tal?Har du høje kvalitetsstandarder og blik for både helhed og detaljen?Og har du lyst til at prøve kræfter med at behand",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
-      },
-      {
-        "title": "Vil du bidrage til at skabe en mere bæredygtig fødevareproduktion og samtidig få indblik i arbejdet i en statslig styrelse? Bliv student hos os!",
-        "company": "Fødevarestyrelsen",
-        "location": "Glostrup",
-        "url": "https://www.jobindex.dk/vis-job/h1708897",
-        "posted": "2026-10-20",
-        "snippet": "Du bliver del af styrelsens Direktionssekretariat, der sikrer effektiv og kompetent betjening og rådgivning af vores direktion. Du får et unikt indblik i Fødevarestyrelsens mange spændende fagområder – lige fra dyresundhed og føde",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
+        "job_type": "part-time"
       }
     ],
     "bi specialist": [
