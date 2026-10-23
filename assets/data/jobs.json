@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T15:05:34Z",
+  "updated": "2026-10-23T19:15:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -68,6 +68,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1710117",
         "posted": "2026-10-23",
         "snippet": "Brænder du for at bearbejde, analysere og formidle data?Din primære opgave vil være at drifte, vedligeholde og videreudvikle vores grafdatabase samt de tilhørende produkter som indgår i løsningen. Da vi er en tværgående it- og dat",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Har du erfaring som marketing- eller dataanalytiker? Så bliv frivillig mentor!",
+        "company": "KVINFO",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14065703",
+        "posted": "2026-10-23",
+        "snippet": "Kvinden er i slut 20´erne og har boet i Danmark i tre år, hvor hun har læst digital business på CBS.",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -300,6 +311,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Senior AI Engineer - AI Reinvent & Engineering",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14065118",
+        "posted": "2026-10-23",
+        "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data scientist til Dansk Center for Sundhedsøkonomi",
         "company": "Syddansk Universitet",
         "location": "Odense",
@@ -307,17 +329,6 @@
         "posted": "2026-10-19",
         "snippet": "Der er tale om en 2-årig ansættelse.",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Principal Data Scientist",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14052560",
-        "posted": "2026-10-15",
-        "snippet": "The Principal Data Scientist in the Commercial AI & Data department is responsible for designing, developing, and implementing advanced AI...",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -333,17 +344,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Machine Learning Engineer",
-        "company": "Novo",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14041109",
-        "posted": "2026-10-08",
-        "snippet": "As Senior Machine Learning Engineer, you will turn models and AI prototypes into reliable, secure and measurable production services in Research & Development.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "AI Engineer til Forsvarets AI Center",
         "company": "Forsvaret",
         "location": "Lyngby",
@@ -351,6 +351,17 @@
         "posted": "2026-10-15",
         "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead AI Engineer",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14065116",
+        "posted": "2026-10-23",
+        "snippet": "As Lead AI Engineer, you will be the senior technical authority in Rapid Enablement's SWAT engagements: time-boxed, cross-functional sprints...",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
