@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T10:05:24Z",
+  "updated": "2026-10-23T15:05:34Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -58,6 +58,17 @@
         "posted": "2026-10-06",
         "snippet": "As AI & PowerBI Developer, you will bring AI and PowerBI into the daily work of the business.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til bekæmpelse af skatteøkonomisk kriminalitet",
+        "company": "Skattestyrelsen",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1710117",
+        "posted": "2026-10-23",
+        "snippet": "Brænder du for at bearbejde, analysere og formidle data?Din primære opgave vil være at drifte, vedligeholde og videreudvikle vores grafdatabase samt de tilhørende produkter som indgår i løsningen. Da vi er en tværgående it- og dat",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -228,18 +239,7 @@
         "snippet": "Vil du arbejde med data og Business Intelligence-løsninger, der bruges af danske kommuner hver eneste dag?Som BI-udvikler bliver du en del af et erfarent team, der arbejder tæt på både data og kunder. Du kommer til at arbejde med",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Metodestærk student med flair for data og analyser",
-        "company": "Styrelsen for Danmarks Fængsler",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1709102",
-        "posted": "2026-10-20",
-        "snippet": "Er du i gang med en videregående samfundsvidenskabelig uddannelse? Har du analytisk tæft, og er du skarp med tal?Har du høje kvalitetsstandarder og blik for både helhed og detaljen?Og har du lyst til at prøve kræfter med at behand",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
+        "job_type": "full-time"
       }
     ],
     "bi specialist": [],
