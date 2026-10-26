@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T19:23:38Z",
+  "updated": "2026-10-26T23:54:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -319,17 +319,6 @@
         "posted": "2026-10-07",
         "snippet": "Fundamentet er på plads: en moderne GCP-baseret dataplatform, stærke datateams og en organisation, hvor data, machine learning og AI spiller en central rolle. Nu søger vi en Machine Learning Engineer, der vil være med til at bygge",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer",
-        "company": "Trackunit ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1701970",
-        "posted": "2026-09-28",
-        "snippet": "Most machine learning never makes it to production. Your job is to make sure ours does.We are looking for an ML Engineer who turns models into reliable, maintained systems that construction companies actually use to make better de",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
