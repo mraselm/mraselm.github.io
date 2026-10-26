@@ -1,22 +1,11 @@
 {
-  "updated": "2026-10-26T06:15:57Z",
+  "updated": "2026-10-26T13:16:55Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Data Analyst",
-        "company": "Visma DataLøn",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1706217",
-        "posted": "2026-10-09",
-        "snippet": "Er du en passioneret Data Analyst, der kan omsætte rå data til skarpe forretningsindsigter?Vi leder efter en dygtig og engageret Data Analyst, der kan dykke ned i vores data, finde de vigtige mønstre og hjælpe forretningen med at",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Product Data Analyst",
         "company": "",
@@ -207,6 +196,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytikere til tilskuds- og uddannelsesadministration",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14066642",
+        "posted": "2026-10-26",
+        "snippet": "Er du glad for at drive og udvikle systemer og omsætte forretningsbehov til it?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytiker til Strategi- og Udviklingssektionen for Forsvarets Vedligeholdelsestjeneste i Brabrand",
         "company": "Forsvaret",
         "location": "Denmark",
@@ -251,9 +251,32 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student Assistant - Power BI",
+        "company": "Uhrenholt A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1710428",
+        "posted": "2026-10-26",
+        "snippet": "Har du lyst til at blive en del af en international fødevarevirksomhed, hvor du skal videreudvikle Uhrenholts Business Intelligence-platform og Power BI?Du får berøringsflade med kolleger på alle organisatoriske niveauer og muligh",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
-    "bi specialist": [],
+    "bi specialist": [
+      {
+        "title": "Student Assistant - Power BI",
+        "company": "Uhrenholt A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1710428",
+        "posted": "2026-10-26",
+        "snippet": "Har du lyst til at blive en del af en international fødevarevirksomhed, hvor du skal videreudvikle Uhrenholts Business Intelligence-platform og Power BI?Du får berøringsflade med kolleger på alle organisatoriske niveauer og muligh",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      }
+    ],
     "data scientist": [
       {
         "title": "R&D Data Scientist",
