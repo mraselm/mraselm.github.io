@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T13:16:55Z",
+  "updated": "2026-10-26T19:23:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -35,17 +35,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14046225",
         "posted": "2026-10-06",
         "snippet": "We are seeking a data analyst with strong statistical and data analytical skills to join the Danish Blood Donor Study (DBDS).",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst",
-        "company": "Novo",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14035963",
-        "posted": "2026-10-06",
-        "snippet": "As AI & PowerBI Developer, you will bring AI and PowerBI into the daily work of the business.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -152,6 +141,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Business Analyst",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14068445",
+        "posted": "2026-10-26",
+        "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior Business Analyst",
         "company": "Ørsted",
         "location": "Gentofte",
@@ -197,9 +197,9 @@
       },
       {
         "title": "Forretningsanalytikere til tilskuds- og uddannelsesadministration",
-        "company": "",
+        "company": "Styrelsen For It og Læring",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14066642",
+        "url": "https://www.jobindex.dk/vis-job/r14068060",
         "posted": "2026-10-26",
         "snippet": "Er du glad for at drive og udvikle systemer og omsætte forretningsbehov til it?",
         "lang": "da",
@@ -407,17 +407,6 @@
         "posted": "2026-10-13",
         "snippet": "You will not be measured on how much code you type by hand, but on whether you understand the system well enough to steer an agent...",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer (C#/.NET",
-        "company": "LLM)",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14037844",
-        "posted": "2026-10-07",
-        "snippet": "Hos Norlix bygger vi forsikring og pension til mindre virksomheder fra bunden.",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       }
