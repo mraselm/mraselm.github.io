@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T10:36:16Z",
+  "updated": "2026-10-27T16:41:23Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -253,6 +253,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Studentermedhjælper til Bio Facility - DTU Sundhedsteknologi, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1710878",
+        "posted": "2026-10-27",
+        "snippet": "Jobbet er et studenterjob, hvor du i weekenden skal være ansvarlig for det lovpligtige tilsyn, og lave det planlagte tekniske arbejde i DTUs fisk eller gnaverstald.Såfremt der er planlagt teknisk arbejde på dyrene, er det i form a",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Student Assistant - Power BI",
         "company": "Uhrenholt A/S",
         "location": "Denmark",
@@ -266,18 +277,40 @@
     ],
     "bi specialist": [
       {
-        "title": "Student Assistant - Power BI",
-        "company": "Uhrenholt A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1710428",
-        "posted": "2026-10-26",
-        "snippet": "Har du lyst til at blive en del af en international fødevarevirksomhed, hvor du skal videreudvikle Uhrenholts Business Intelligence-platform og Power BI?Du får berøringsflade med kolleger på alle organisatoriske niveauer og muligh",
+        "title": "BI Specialist til finansielle dashboards i Pensions & Investments",
+        "company": "ATP",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1707026",
+        "posted": "2026-10-12",
+        "snippet": "Kan du omsætte data og forretningsbehov til løsninger, der bliver brugt i hverdagen?Du får en central rolle i udviklingen af vores BI-løsninger og kommer blandt andet til at:udvikle og vedligeholde finansielle dashboards i tæt sam",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til Bio Facility - DTU Sundhedsteknologi, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1710878",
+        "posted": "2026-10-27",
+        "snippet": "Jobbet er et studenterjob, hvor du i weekenden skal være ansvarlig for det lovpligtige tilsyn, og lave det planlagte tekniske arbejde i DTUs fisk eller gnaverstald.Såfremt der er planlagt teknisk arbejde på dyrene, er det i form a",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
       }
     ],
     "data scientist": [
+      {
+        "title": "Pricing Analyst / Data Scientist",
+        "company": "Gjensidige",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1709655",
+        "posted": "2026-10-22",
+        "snippet": "Du kommer til at arbejde i krydsfeltet mellem analyse, teknologi og forretning. Du vil arbejde med prismodeller og tariffer, analysere portefølje og lønsomhed, udforske nye metoder og bidrage til at udvikle den måde, vi arbejder m",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "R&D Data Scientist",
         "company": "Everllence",
