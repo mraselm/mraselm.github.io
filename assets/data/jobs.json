@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T08:35:08Z",
+  "updated": "2026-10-28T16:04:37Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -25,6 +25,17 @@
         "posted": "2026-10-07",
         "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Tekniske dataanalytikere med elektronikforståelse til sikring af digitale spor i NC3",
+        "company": "Politi",
+        "location": "Glostrup",
+        "url": "https://www.jobindex.dk/vis-job/h1711145",
+        "posted": "2026-10-28",
+        "snippet": "Kan du løse komplekse datamysterier, hvor binære og hexadecimale talsystemer er en del af løsningen? Så får du her en sjælden mulighed for at arbejde i krydsfeltet mellem elektronik, indlejrede systemer og teknisk dataanalyse.Du s",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -63,6 +74,17 @@
       }
     ],
     "business analyst": [
+      {
+        "title": "Business analyst (senior) for Regulatory Reporting",
+        "company": "BEC Financial Technologies",
+        "location": "Roskilde",
+        "url": "https://www.jobindex.dk/vis-job/h1711314",
+        "posted": "2026-10-28",
+        "snippet": "Would you like to join the Regulatory Report team in Reporting Solutions, responsible for several critical business solutions and reporting processes?This role offers a unique opportunity to work at the forefront of BEC’s data tec",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Analyst - Boligbeskatning",
         "company": "KMD A/S",
@@ -229,17 +251,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
-      },
-      {
-        "title": "Student Assistant - Power BI",
-        "company": "Uhrenholt A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1710428",
-        "posted": "2026-10-26",
-        "snippet": "Har du lyst til at blive en del af en international fødevarevirksomhed, hvor du skal videreudvikle Uhrenholts Business Intelligence-platform og Power BI?Du får berøringsflade med kolleger på alle organisatoriske niveauer og muligh",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -267,6 +278,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Data Scientist søges til Aalborg Universitet, IT Services",
+        "company": "Aalborg Universitet",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1711324",
+        "posted": "2026-10-28",
+        "snippet": "Vil du være med til at gøre AI og High Performance Computing (HPC) mere tilgængelig for forskere på Aalborg Universitet? Får du energi af at yde en god service? Så er du måske vores nye Data Scientist i CLAAUDIA-teamet ved AAU IT",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Pricing Analyst / Data Scientist",
         "company": "Gjensidige",
