@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T21:20:36Z",
+  "updated": "2026-10-28T01:24:09Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -24,17 +24,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14037853",
         "posted": "2026-10-07",
         "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst / Biostatistician – Danish Blood Donor Study (DBDS) Department of Clinical Immunology, Aarhus University Hospital",
-        "company": "Region Midtjylland",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r14046225",
-        "posted": "2026-10-06",
-        "snippet": "We are seeking a data analyst with strong statistical and data analytical skills to join the Danish Blood Donor Study (DBDS).",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -226,17 +215,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1708045",
         "posted": "2026-10-20",
         "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Consultant",
-        "company": "KMD A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1702328",
-        "posted": "2026-09-29",
-        "snippet": "Vil du arbejde med data og Business Intelligence-løsninger, der bruges af danske kommuner hver eneste dag?Som BI-udvikler bliver du en del af et erfarent team, der arbejder tæt på både data og kunder. Du kommer til at arbejde med",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
