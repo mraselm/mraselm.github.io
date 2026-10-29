@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T14:22:05Z",
+  "updated": "2026-10-29T20:19:13Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -308,17 +308,6 @@
         "posted": "2026-10-07",
         "snippet": "Fundamentet er på plads: en moderne GCP-baseret dataplatform, stærke datateams og en organisation, hvor data, machine learning og AI spiller en central rolle. Nu søger vi en Machine Learning Engineer, der vil være med til at bygge",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Sr Data Scientist",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14072705",
-        "posted": "2026-10-28",
-        "snippet": "As Senior Data Scientist, you will build Data Science & AI solutions to make our global supply chain processes more autonomous and data driven.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
