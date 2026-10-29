@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T00:58:36Z",
+  "updated": "2026-10-29T07:07:45Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -64,94 +64,6 @@
     ],
     "business analyst": [
       {
-        "title": "Business analyst (senior) for Regulatory Reporting",
-        "company": "BEC Financial Technologies",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1711314",
-        "posted": "2026-10-28",
-        "snippet": "Would you like to join the Regulatory Report team in Reporting Solutions, responsible for several critical business solutions and reporting processes?This role offers a unique opportunity to work at the forefront of BEC’s data tec",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Boligbeskatning",
-        "company": "KMD A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1709231",
-        "posted": "2026-10-21",
-        "snippet": "Vi søger en dygtig Business Analyst til vores Bolig-team, hvor du bliver en central del af udvikling og videreudvikling af løsninger inden for ejendomsbeskatning i Forskuds- og Slutopgørelserne.Du bliver bindeleddet mellem forretn",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Erfarne Business Analysts til sikring af drift og videreudvikling af inddrivelsessystemer",
-        "company": "Udviklings- og Forenklingsstyrelsen",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1708890",
-        "posted": "2026-10-20",
-        "snippet": "Kan du navigere i spændingsfeltet mellem forretning og IT?Vi søger erfarne Business Analysts, der kan spille en vigtig rolle i at forstå Gældsstyrelsens forretningsbehov og omsætte dem til velfungerende it-løsninger.Din hovedopgav",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "BI Business Analyst I",
-        "company": "Hamamatsu Photonics",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1707874",
-        "posted": "2026-10-14",
-        "snippet": "Are you passionate about turning data into actionable insights?As a BI Business Analyst, you will be transforming numbers into insights by working intensively within Power BI and Snowflake.You will play a key role in transforming",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst til AI-leverancer - vil du bruge dine kompetencer til noget, der giver værdi for hele Danmark?",
-        "company": "Udviklings- og Forenklingsstyrelsen",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1707505",
-        "posted": "2026-10-13",
-        "snippet": "I kontoret AI Udvikling og Platform arbejder vi med løsninger, der hjælper med at sikre, at skatter og afgifter bliver betalt rigtigt, så velfærdssamfundet hænger sammen.Som Business Analyst arbejder du som en del af udviklingstea",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Market, Financial and Business Analyst for the Green Transition",
-        "company": "KAR+CO",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1698100",
-        "posted": "2026-09-11",
-        "snippet": "Market analysis, business plans, customer contact and economic modeling.Do you have strong business understanding and a talent for working with numbers? Can you translate strategy into budgets, economic models and business plans?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst Intern",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14072045",
-        "posted": "2026-10-28",
-        "snippet": "IMP Scandinavia is a Danish MedTech company, founded in 2020 as a spin-out from the Technical University of Denmark (DTU).",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14068445",
-        "posted": "2026-10-26",
-        "snippet": "The Business Analyst in the Commercial AI & Data department is responsible for business analysis (authoring BRDs, FRS, etc.),...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Teknisk forretningsanalytiker med interesse for AI, til udvikling af kritiske it-løsninger",
         "company": "Undervisningsministeriet",
         "location": "Copenhagen",
@@ -160,7 +72,7 @@
         "snippet": "Vil du bruge dine evner inden for test- og prøveområdet til gavn for tusindvis af studerende og elever?Hos os får du mulighed for at bidrage til udviklingen af de forretningskritiske it-løsninger til test, prøver og eksamener, der",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker – byg bro mellem forretning og IT i Patent- og Varemærkestyrelsen",
@@ -171,7 +83,7 @@
         "snippet": "Brænder du for at gøre en forskel, og vil du gerne bidrage til, at Patent- og Varemærkestyrelsens it-projekter understøtter både kunders, samarbejdspartneres og medarbejdernes behov på en effektiv og hensigtsmæssig måde?Vi søger l",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker til PET's IT-afdeling",
@@ -182,7 +94,7 @@
         "snippet": "Vil du være med til at kvalificere de idéer, der kan blive til morgendagens IT-løsninger?Som forretningsanalytiker i sektionen for IT Strategi og Partnerskaber bliver du en del af et team, der arbejder tæt sammen med fagområderne",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytikere til tilskuds- og uddannelsesadministration",
@@ -193,7 +105,7 @@
         "snippet": "Er du glad for at drive og udvikle systemer og omsætte forretningsbehov til it?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker til Strategi- og Udviklingssektionen for Forsvarets Vedligeholdelsestjeneste i Brabrand",
@@ -204,7 +116,7 @@
         "snippet": "Vil du være med til at skabe retningen for Forsvarets foretrukne leverandør af vedligehold?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       }
     ],
     "business intelligence": [
@@ -217,7 +129,7 @@
         "snippet": "As Business Intelligence Specialist, you will be responsible for designing, developing, and maintaining GomSpace's integration and data platform landscape.You will work closely with stakeholders across the organization to ensure r",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Intelligence Specialist med fokus på Power BI",
@@ -228,7 +140,7 @@
         "snippet": "",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Studentermedhjælper til Bio Facility - DTU Sundhedsteknologi, DTU",
