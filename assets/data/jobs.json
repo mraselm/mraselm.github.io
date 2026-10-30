@@ -1,22 +1,11 @@
 {
-  "updated": "2026-10-29T20:19:13Z",
+  "updated": "2026-10-30T01:01:19Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
-      {
-        "title": "Product Data Analyst",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14040176",
-        "posted": "2026-10-08",
-        "snippet": "Over one million Danes use Skatteguiden to understand and optimise their taxes.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Tekniske dataanalytikere med elektronikforståelse til sikring af digitale spor i NC3",
         "company": "Politi",
@@ -231,19 +220,7 @@
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "BI Specialist til finansielle dashboards i Pensions & Investments",
-        "company": "ATP",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1707026",
-        "posted": "2026-10-12",
-        "snippet": "Kan du omsætte data og forretningsbehov til løsninger, der bliver brugt i hverdagen?Du får en central rolle i udviklingen af vores BI-løsninger og kommer blandt andet til at:udvikle og vedligeholde finansielle dashboards i tæt sam",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "Data Scientist søges til Aalborg Universitet, IT Services",
@@ -330,17 +307,6 @@
         "posted": "2026-10-19",
         "snippet": "Der er tale om en 2-årig ansættelse.",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer (IT-CD-2026-239-GRAE)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14040493",
-        "posted": "2026-10-08",
-        "snippet": "",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
