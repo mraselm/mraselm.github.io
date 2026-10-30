@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T14:10:47Z",
+  "updated": "2026-10-30T19:24:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -13,6 +13,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1712126",
         "posted": "2026-10-30",
         "snippet": "Kan du omsætte forretningsbehov til dataløsninger og dataprodukter? Kan du bygge bro mellem forretningen og dem, der udvikler dataområdet?Din vigtigste opgave bliver at hjælpe forretningen med at omsætte behov og udfordringer til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker med lyst til at lære og skabe løsninger på vigtigt område",
+        "company": "Skattestyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1712276",
+        "posted": "2026-10-30",
+        "snippet": "Har du lyst til at skabe overblik og finde mønstre i komplekse data – og gøre en reel forskel? Trives du i et miljø, hvor faglighed, samarbejde og en åben dialog er centrale værdier? Så kan du blive vores nye kollega i kontoret An",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -319,17 +330,6 @@
         "posted": "2026-10-23",
         "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data scientist til Dansk Center for Sundhedsøkonomi",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r14055457",
-        "posted": "2026-10-19",
-        "snippet": "Der er tale om en 2-årig ansættelse.",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
