@@ -1,11 +1,22 @@
 {
-  "updated": "2026-10-30T07:08:16Z",
+  "updated": "2026-10-30T14:10:47Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "Data Analyst til dataløsninger, AI og automatisering",
+        "company": "ATP",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1712126",
+        "posted": "2026-10-30",
+        "snippet": "Kan du omsætte forretningsbehov til dataløsninger og dataprodukter? Kan du bygge bro mellem forretningen og dem, der udvikler dataområdet?Din vigtigste opgave bliver at hjælpe forretningen med at omsætte behov og udfordringer til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Tekniske dataanalytikere med elektronikforståelse til sikring af digitale spor i NC3",
         "company": "Politi",
@@ -319,6 +330,50 @@
         "posted": "2026-10-19",
         "snippet": "Der er tale om en 2-årig ansættelse.",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer til Forsvarets AI Center",
+        "company": "Forsvaret",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1708229",
+        "posted": "2026-10-15",
+        "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Lead AI Engineer",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14065116",
+        "posted": "2026-10-23",
+        "snippet": "As Lead AI Engineer, you will be the senior technical authority in Rapid Enablement's SWAT engagements: time-boxed, cross-functional sprints...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer (Full-Stack)",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14058032",
+        "posted": "2026-10-20",
+        "snippet": "Build full-stack AI agents for science, with freedom, room to be creative, and real ownership, in a lively startup in Copenhagen.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14048200",
+        "posted": "2026-10-13",
+        "snippet": "You will not be measured on how much code you type by hand, but on whether you understand the system well enough to steer an agent...",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       }
