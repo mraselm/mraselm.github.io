@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T19:42:00Z",
+  "updated": "2026-11-01T23:37:09Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -312,17 +312,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Machine Learning Engineer",
-        "company": "nemlig.com",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/h1705523",
-        "posted": "2026-10-07",
-        "snippet": "Fundamentet er på plads: en moderne GCP-baseret dataplatform, stærke datateams og en organisation, hvor data, machine learning og AI spiller en central rolle. Nu søger vi en Machine Learning Engineer, der vil være med til at bygge",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior AI Engineer - AI Reinvent & Engineering",
         "company": "Novo",
         "location": "Ballerup",
@@ -330,6 +319,17 @@
         "posted": "2026-10-23",
         "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data scientist til Dansk Center for Sundhedsøkonomi",
+        "company": "Syddansk Universitet",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r14055457",
+        "posted": "2026-10-19",
+        "snippet": "Der er tale om en 2-årig ansættelse.",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
