@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T06:07:29Z",
+  "updated": "2026-11-02T15:57:18Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -13,6 +13,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1712126",
         "posted": "2026-10-30",
         "snippet": "Kan du omsætte forretningsbehov til dataløsninger og dataprodukter? Kan du bygge bro mellem forretningen og dem, der udvikler dataområdet?Din vigtigste opgave bliver at hjælpe forretningen med at omsætte behov og udfordringer til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Tele- og dataanalytiker",
+        "company": "Politi",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1712574",
+        "posted": "2026-11-02",
+        "snippet": "Vil du omsætte data til afgørende gennembrud i efterforskningen?Din primære opgave bliver at omsætte store mængder data til viden, der kan skabe retning i efterforskningen. Du skal identificere mønstre, forbindelser og bevægelser,",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -229,6 +240,28 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælpere til undervisning og børneaktiviteter på Det Kgl. Bibliotek",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1712542",
+        "posted": "2026-11-02",
+        "snippet": "Er du vild med historie, litteratur og kultur, og vil du omsætte faglig viden til læring for børn og unge?Din primære arbejdsopgave bliver at formidle bibliotekets udstillinger og samlinger til elever i grundskolen og på ungdomsud",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
+        "title": "Studentermedhjælper til data og visualisering i Digital Platforms",
+        "company": "Energinet",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1712454",
+        "posted": "2026-11-02",
+        "snippet": "Er du studerende, har du teknisk flair, og synes du, det er spændende at gøre data nemme at forstå og bruge?Som studentermedhjælper i Digital Platforms, Agile Delivery and Operational Support kommer du til at arbejde med visualise",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -242,6 +275,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælpere til undervisning og børneaktiviteter på Det Kgl. Bibliotek",
+        "company": "Det Kgl. Bibliotek",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1712542",
+        "posted": "2026-11-02",
+        "snippet": "Er du vild med historie, litteratur og kultur, og vil du omsætte faglig viden til læring for børn og unge?Din primære arbejdsopgave bliver at formidle bibliotekets udstillinger og samlinger til elever i grundskolen og på ungdomsud",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -308,17 +352,6 @@
         "posted": "2026-10-23",
         "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data scientist til Dansk Center for Sundhedsøkonomi",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r14055457",
-        "posted": "2026-10-19",
-        "snippet": "Der er tale om en 2-årig ansættelse.",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
