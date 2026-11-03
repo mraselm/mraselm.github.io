@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T06:50:03Z",
+  "updated": "2026-11-03T15:09:46Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -29,7 +29,7 @@
         "job_type": "full-time"
       },
       {
-        "title": "Tele- og dataanalytiker",
+        "title": "Tele- og dataanalytikere søges",
         "company": "Politi",
         "location": "Denmark",
         "url": "https://www.jobindex.dk/vis-job/h1712574",
@@ -37,7 +37,7 @@
         "snippet": "Vil du omsætte data til afgørende gennembrud i efterforskningen?Din primære opgave bliver at omsætte store mængder data til viden, der kan skabe retning i efterforskningen. Du skal identificere mønstre, forbindelser og bevægelser,",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker med lyst til at lære og skabe løsninger på vigtigt område",
@@ -48,7 +48,7 @@
         "snippet": "Har du lyst til at skabe overblik og finde mønstre i komplekse data – og gøre en reel forskel? Trives du i et miljø, hvor faglighed, samarbejde og en åben dialog er centrale værdier? Så kan du blive vores nye kollega i kontoret An",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Tekniske dataanalytikere med elektronikforståelse til sikring af digitale spor i NC3",
@@ -59,7 +59,7 @@
         "snippet": "Kan du løse komplekse datamysterier, hvor binære og hexadecimale talsystemer er en del af løsningen? Så får du her en sjælden mulighed for at arbejde i krydsfeltet mellem elektronik, indlejrede systemer og teknisk dataanalyse.Du s",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker til bekæmpelse af skatteøkonomisk kriminalitet",
@@ -70,7 +70,7 @@
         "snippet": "Brænder du for at bearbejde, analysere og formidle data?Din primære opgave vil være at drifte, vedligeholde og videreudvikle vores grafdatabase samt de tilhørende produkter som indgår i løsningen. Da vi er en tværgående it- og dat",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Har du erfaring som marketing- eller dataanalytiker? Så bliv frivillig mentor!",
@@ -81,7 +81,7 @@
         "snippet": "Kvinden er i slut 20´erne og har boet i Danmark i tre år, hvor hun har læst digital business på CBS.",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Dataanalytiker til Forskningsenheden for Epidemiologi, Biostatistik og Biodemografi (EBB)",
@@ -92,10 +92,21 @@
         "snippet": "Vi søger en kandidat med stærke kvantitative kompetencer, eksempelvis en biostatistiker, en data scientist med erfaring inden for sundhedsdata...",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       }
     ],
     "business analyst": [
+      {
+        "title": "Business Analyst til udvikling af løsninger bag boligstøtte og pension",
+        "company": "ATP",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1712729",
+        "posted": "2026-11-03",
+        "snippet": "Kan du omsætte komplekse forretningsbehov til konkrete løsninger? Kan du bygge bro mellem forretning og IT?Du er med til at sikre, at behov bliver forstået, konkretiseret og omsat til løsninger, der fungerer i praksis. Samtidig få",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business analyst (senior) for Regulatory Reporting",
         "company": "BEC Financial Technologies",
@@ -364,7 +375,7 @@
         "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Lead AI Engineer",
@@ -375,7 +386,7 @@
         "snippet": "As Lead AI Engineer, you will be the senior technical authority in Rapid Enablement's SWAT engagements: time-boxed, cross-functional sprints...",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Senior AI Engineer (Full-Stack)",
@@ -386,18 +397,7 @@
         "snippet": "Build full-stack AI agents for science, with freedom, room to be creative, and real ownership, in a lively startup in Copenhagen.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14048200",
-        "posted": "2026-10-13",
-        "snippet": "You will not be measured on how much code you type by hand, but on whether you understand the system well enough to steer an agent...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       }
     ],
     "graduate program": []
