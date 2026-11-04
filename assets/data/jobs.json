@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T21:00:39Z",
+  "updated": "2026-11-04T01:23:33Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -136,17 +136,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1709231",
         "posted": "2026-10-21",
         "snippet": "Vi søger en dygtig Business Analyst til vores Bolig-team, hvor du bliver en central del af udvikling og videreudvikling af løsninger inden for ejendomsbeskatning i Forskuds- og Slutopgørelserne.Du bliver bindeleddet mellem forretn",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Erfarne Business Analysts til sikring af drift og videreudvikling af inddrivelsessystemer",
-        "company": "Udviklings- og Forenklingsstyrelsen",
-        "location": "Frederiksberg",
-        "url": "https://www.jobindex.dk/vis-job/h1708890",
-        "posted": "2026-10-20",
-        "snippet": "Kan du navigere i spændingsfeltet mellem forretning og IT?Vi søger erfarne Business Analysts, der kan spille en vigtig rolle i at forstå Gældsstyrelsens forretningsbehov og omsætte dem til velfungerende it-løsninger.Din hovedopgav",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
