@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T17:19:55Z",
+  "updated": "2026-11-04T23:40:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -19,11 +19,33 @@
       },
       {
         "title": "Scientific programmer and data analyst in Environmental Science",
+        "company": "Aarhus Universitet",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r14085567",
+        "posted": "2026-11-04",
+        "snippet": "Would you like to apply your programming and data analysis skills to research and environmental advisory work addressing air pollution and climate change?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Scientific programmer and data analyst in Environmental Science",
         "company": "",
         "location": "Roskilde",
         "url": "https://www.jobindex.dk/vis-job/r14084566",
         "posted": "2026-11-04",
         "snippet": "Would you like to apply your programming and data analysis skills to research and environmental advisory work addressing air pollution and climate change?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Performance & Data Analyst",
+        "company": "VELUX A/S",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14084952",
+        "posted": "2026-11-04",
+        "snippet": "Would you like to turn data into practical insights that support everyday decisions?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
