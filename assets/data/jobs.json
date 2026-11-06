@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T17:58:39Z",
+  "updated": "2026-11-06T23:10:22Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -411,17 +411,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14065118",
-        "posted": "2026-10-23",
-        "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior AI Engineer",
         "company": "Søstrene Grene Import A/S",
         "location": "Aarhus",
@@ -488,12 +477,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "Lead AI Engineer",
+        "title": "Senior AI Engineer - AI Reinvent & Engineering",
         "company": "Novo",
         "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14065116",
+        "url": "https://www.jobindex.dk/vis-job/r14065118",
         "posted": "2026-10-23",
-        "snippet": "As Lead AI Engineer, you will be the senior technical authority in Rapid Enablement's SWAT engagements: time-boxed, cross-functional sprints...",
+        "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
