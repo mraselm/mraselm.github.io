@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T10:55:29Z",
+  "updated": "2026-11-06T17:58:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -240,6 +240,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytiker søges til RPA-teamet på Aarhus Universitetshospital",
+        "company": "Region Midtjylland",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r14089441",
+        "posted": "2026-11-05",
+        "snippet": "Er du god til at sætte dig ind i arbejdsgange og forstå hvordan arbejdet reelt foregår – og til at omsætte det til en klar beskrivelse af, hvad der skal bygges?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytikere til tilskuds- og uddannelsesadministration",
         "company": "Styrelsen For It og Læring",
         "location": "Copenhagen",
@@ -334,6 +345,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Experienced Data Scientist for Agentic Applications - Aarhus or Gdansk",
+        "company": "Arla Foods amba",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1714305",
+        "posted": "2026-11-06",
+        "snippet": "Do you want to help shape the next generation of AI-powered business capabilities and are you motivated by turning business opportunities into intelligent agentic products?You will work alongside skilled product teams, architects,",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior AI Engineer - Sundhed",
         "company": "PFA",
         "location": "Denmark",
@@ -389,23 +411,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist Supporting Global Planning",
-        "company": "Arla Foods amba",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1707011",
-        "posted": "2026-10-12",
-        "snippet": "Do you want to help Arla shape the future of milk planning?You will become part of a strong and collaborative team working closely with business stakeholders to drive value creation, co-create digital roadmaps and ensure we realiz",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior AI Engineer - AI Reinvent & Engineering",
         "company": "Novo",
         "location": "Ballerup",
         "url": "https://www.jobindex.dk/vis-job/r14065118",
         "posted": "2026-10-23",
         "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer",
+        "company": "Søstrene Grene Import A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1714473",
+        "posted": "2026-11-06",
+        "snippet": "Would you like to help shape the future of software development in a company where curiosity, collaboration, and innovation go hand in hand?You'll have the opportunity to lead the development of our B2B platform while exploring ne",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
