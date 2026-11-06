@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T21:59:46Z",
+  "updated": "2026-11-06T02:28:02Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -312,6 +312,17 @@
     ],
     "data scientist": [
       {
+        "title": "Data Scientist, Maritime Logistics",
+        "company": "Dampskibsselskabet NORDEN A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/h1712356",
+        "posted": "2026-11-02",
+        "snippet": "As our new Data Scientist in Maritime Logistics, you will turn that complexity into models we can explore, test and learn from, helping us make better operational and commercial decisions.You do not need years of experience or dee",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientist søges til Aalborg Universitet, IT Services",
         "company": "Aalborg Universitet",
         "location": "Aalborg",
@@ -345,23 +356,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Platform Engineer til Data Science Platform",
-        "company": "Energinet",
-        "location": "Fredericia",
-        "url": "https://www.jobindex.dk/vis-job/h1689198",
-        "posted": "2026-10-16",
-        "snippet": "Vil du være med til at bygge fundamentet for Data Science i Danmarks kritiske energiinfrastruktur?Du kommer ikke ind for blot at overtage en færdig platform. Du bliver en af nøglepersonerne i et produktteam og får reel indflydelse",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Scientist Supporting Global Planning",
         "company": "Arla Foods amba",
         "location": "Aarhus",
         "url": "https://www.jobindex.dk/vis-job/h1707011",
         "posted": "2026-10-12",
         "snippet": "Do you want to help Arla shape the future of milk planning?You will become part of a strong and collaborative team working closely with business stakeholders to drive value creation, co-create digital roadmaps and ensure we realiz",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - AI Reinvent & Engineering",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14065118",
+        "posted": "2026-10-23",
+        "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -417,17 +428,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14065116",
         "posted": "2026-10-23",
         "snippet": "As Lead AI Engineer, you will be the senior technical authority in Rapid Enablement's SWAT engagements: time-boxed, cross-functional sprints...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14065118",
-        "posted": "2026-10-23",
-        "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
