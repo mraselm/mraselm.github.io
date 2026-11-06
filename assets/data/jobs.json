@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T02:28:02Z",
+  "updated": "2026-11-06T10:55:29Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -275,15 +275,15 @@
         "job_type": "full-time"
       },
       {
-        "title": "Business Intelligence Specialist",
-        "company": "GomSpace ApS",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1709569",
-        "posted": "2026-10-22",
-        "snippet": "As Business Intelligence Specialist, you will be responsible for designing, developing, and maintaining GomSpace's integration and data platform landscape.You will work closely with stakeholders across the organization to ensure r",
-        "lang": "en",
+        "title": "Studentermedhjælper med interesse for analyse, data og kundeindsigter",
+        "company": "Tryg Forsikring A/S",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/h1714095",
+        "posted": "2026-11-06",
+        "snippet": "Vil du arbejde med kundeindsigter, analyser og datadrevne anbefalinger i et fagligt stærkt team?Hos Group Insights Advisory søger vi en studentermedhjælper, der er nysgerrig på data og har lyst til at omsætte indsigter til værdi f",
+        "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -295,6 +295,17 @@
         "posted": "2026-10-12",
         "snippet": "Kan du omsætte data og forretningsbehov til løsninger, der bliver brugt i hverdagen?Du får en central rolle i udviklingen af vores BI-løsninger og kommer blandt andet til at:udvikle og vedligeholde finansielle dashboards i tæt sam",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Specialist",
+        "company": "GomSpace ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1709569",
+        "posted": "2026-10-22",
+        "snippet": "As Business Intelligence Specialist, you will be responsible for designing, developing, and maintaining GomSpace's integration and data platform landscape.You will work closely with stakeholders across the organization to ensure r",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -311,6 +322,28 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Platform Engineer til Data Science Platform",
+        "company": "Energinet",
+        "location": "Fredericia",
+        "url": "https://www.jobindex.dk/vis-job/h1714061",
+        "posted": "2026-11-06",
+        "snippet": "Vil du være med til at bygge fundamentet for Data Science i Danmarks kritiske energiinfrastruktur?Du kommer ikke ind for blot at overtage en færdig platform. Du bliver en af nøglepersonerne i et produktteam og får reel indflydelse",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - Sundhed",
+        "company": "PFA",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1714206",
+        "posted": "2026-11-06",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Data Scientist, Maritime Logistics",
         "company": "Dampskibsselskabet NORDEN A/S",
@@ -374,6 +407,17 @@
         "posted": "2026-10-23",
         "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer / Senior AI Engineer",
+        "company": "PFA",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1714218",
+        "posted": "2026-11-06",
+        "snippet": "Med AI-agenter kan vi automatisere processer på helt nye måder. I PFA har vi allerede de første løsninger i produktion, og vi har store visioner for, hvor meget mere vi kan opnå. Jeg glæder mig virkelig til at få endnu en dygtig k",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
