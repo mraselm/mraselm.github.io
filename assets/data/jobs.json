@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T19:43:37Z",
+  "updated": "2026-11-08T23:44:01Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -101,17 +101,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1711145",
         "posted": "2026-10-28",
         "snippet": "Kan du løse komplekse datamysterier, hvor binære og hexadecimale talsystemer er en del af løsningen? Så får du her en sjælden mulighed for at arbejde i krydsfeltet mellem elektronik, indlejrede systemer og teknisk dataanalyse.Du s",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til bekæmpelse af skatteøkonomisk kriminalitet",
-        "company": "Skattestyrelsen",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1710117",
-        "posted": "2026-10-23",
-        "snippet": "Brænder du for at bearbejde, analysere og formidle data?Din primære opgave vil være at drifte, vedligeholde og videreudvikle vores grafdatabase samt de tilhørende produkter som indgår i løsningen. Da vi er en tværgående it- og dat",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -238,17 +227,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytiker til Strategi- og Udviklingssektionen for Forsvarets Vedligeholdelsestjeneste i Brabrand",
-        "company": "Forsvaret",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14057524",
-        "posted": "2026-10-20",
-        "snippet": "Vil du være med til at skabe retningen for Forsvarets foretrukne leverandør af vedligehold?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
       }
     ],
     "business intelligence": [
@@ -276,17 +254,6 @@
       }
     ],
     "bi specialist": [
-      {
-        "title": "BI Specialist til finansielle dashboards i Pensions & Investments",
-        "company": "ATP",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1707026",
-        "posted": "2026-10-12",
-        "snippet": "Kan du omsætte data og forretningsbehov til løsninger, der bliver brugt i hverdagen?Du får en central rolle i udviklingen af vores BI-løsninger og kommer blandt andet til at:udvikle og vedligeholde finansielle dashboards i tæt sam",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Business Intelligence Specialist",
         "company": "GomSpace ApS",
