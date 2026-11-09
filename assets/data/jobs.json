@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T06:34:13Z",
+  "updated": "2026-11-09T17:30:50Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -231,6 +231,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Business Intelligence- og datakonsulent til Digitalisering & Data",
+        "company": "Nordværk I/S",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1714988",
+        "posted": "2026-11-09",
+        "snippet": "Vil du være med til at udvikle Nordværks Business Intelligence-løsninger og skabe sammenhæng fra data til brugervenlige rapporter og dataindsigter.Vi søger en Business Intelligence- og datakonsulent, der kan arbejde bredt med BI o",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Head of Finance Business Partnering & Business Intelligence",
         "company": "KOMPAN A/S",
         "location": "Odense",
@@ -240,17 +251,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper med interesse for analyse, data og kundeindsigter",
-        "company": "Tryg Forsikring A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1714095",
-        "posted": "2026-11-06",
-        "snippet": "Vil du arbejde med kundeindsigter, analyser og datadrevne anbefalinger i et fagligt stærkt team?Hos Group Insights Advisory søger vi en studentermedhjælper, der er nysgerrig på data og har lyst til at omsætte indsigter til værdi f",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "bi specialist": [
