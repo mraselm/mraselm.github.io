@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T17:51:50Z",
+  "updated": "2026-11-10T23:24:10Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -170,6 +170,28 @@
         "posted": "2026-10-21",
         "snippet": "Vi søger en dygtig Business Analyst til vores Bolig-team, hvor du bliver en central del af udvikling og videreudvikling af løsninger inden for ejendomsbeskatning i Forskuds- og Slutopgørelserne.Du bliver bindeleddet mellem forretn",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst – Data Foundation",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14096097",
+        "posted": "2026-11-10",
+        "snippet": "Danske Bank's Personal Customers business unit is undergoing a significant transformation, and a trusted, scalable data foundation is at the heart of it.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14096096",
+        "posted": "2026-11-10",
+        "snippet": "Capital is fundamental to a bank's resilience, profitability and ability to grow.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -450,17 +472,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14065118",
         "posted": "2026-10-23",
         "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer (Full-Stack)",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14058032",
-        "posted": "2026-10-20",
-        "snippet": "Build full-stack AI agents for science, with freedom, room to be creative, and real ownership, in a lively startup in Copenhagen.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
