@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:14:31Z",
+  "updated": "2026-11-11T21:59:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -58,17 +58,6 @@
         "posted": "2026-11-03",
         "snippet": "Er du omhyggelig, og arbejder du systematisk?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst (Strategy & Data Analytics)",
-        "company": "FUJIFILM Biotechnologies",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/r14079708",
-        "posted": "2026-11-02",
-        "snippet": "Kick-start your analytics career where data meets real-world impact.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -484,17 +473,6 @@
         "posted": "2026-10-15",
         "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer - AI Reinvent & Engineering",
-        "company": "Novo",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/r14065118",
-        "posted": "2026-10-23",
-        "snippet": "As Senior AI Engineer in Enterprise AI, you will turn strategic AI use cases into reliable products that create value across Novo.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       }
