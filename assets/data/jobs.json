@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T06:25:38Z",
+  "updated": "2026-11-11T15:14:31Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -207,6 +207,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Seniorforretningsanalytiker der vil og kan skabe fremtidens understøttelse af treasury-området",
+        "company": "Nykredit",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1715764",
+        "posted": "2026-11-11",
+        "snippet": "Vil du være med til at skabe en moderne og fremtidssikret it-understøttelse til treasury-området?Vi søger en forretningsorienteret profil med relevant erfaring inden for forretningsanalyse. Du motiveres af et bredt samarbejde på t",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Teknisk forretningsanalytiker med interesse for AI, til udvikling af kritiske it-løsninger",
         "company": "Undervisningsministeriet",
         "location": "Copenhagen",
@@ -241,6 +252,17 @@
       }
     ],
     "business intelligence": [
+      {
+        "title": "Entry IT Specialist, Power BI & Data Engineering, (Permanent position)",
+        "company": "Arla Foods amba",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1715622",
+        "posted": "2026-11-11",
+        "snippet": "Are you motivated by turning data into reliable insights and practical solutions?Your initial focus will be developing, maintaining and supporting Power BI reports and dashboards. Alongside this, you will gradually contribute to s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Business Intelligence- og datakonsulent til Digitalisering & Data",
         "company": "Nordværk I/S",
@@ -400,6 +422,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "AI Engineer",
+        "company": "Coop Danmark A/S",
+        "location": "Remote",
+        "url": "https://www.jobindex.dk/vis-job/h1715602",
+        "posted": "2026-11-11",
+        "snippet": "Vil du bygge AI-løsninger i en af Danmarks største detailkoncerner og være med til at sætte retning for, hvordan vi arbejder med agenter, RAG og LLM'er?Som AI Engineer hos os arbejder du med agenter, processer og kolleger på tværs",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior AI Engineer",
         "company": "Søstrene Grene Import A/S",
         "location": "Aarhus",
@@ -450,17 +483,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1708229",
         "posted": "2026-10-15",
         "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Coop Danmark A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14086684",
-        "posted": "2026-11-05",
-        "snippet": "Vil du bygge AI-løsninger i en af Danmarks største detailkoncerner og være med til at sætte retning for, hvordan vi arbejder med agenter, RAG og LLM'er?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
