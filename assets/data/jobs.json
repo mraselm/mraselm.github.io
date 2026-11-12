@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T11:15:40Z",
+  "updated": "2026-11-12T18:58:30Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -136,17 +136,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1712729",
         "posted": "2026-11-03",
         "snippet": "Kan du omsætte komplekse forretningsbehov til konkrete løsninger? Kan du bygge bro mellem forretning og IT?Du er med til at sikre, at behov bliver forstået, konkretiseret og omsat til løsninger, der fungerer i praksis. Samtidig få",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst - Boligbeskatning",
-        "company": "KMD A/S",
-        "location": "Ballerup",
-        "url": "https://www.jobindex.dk/vis-job/h1709231",
-        "posted": "2026-10-21",
-        "snippet": "Vi søger en dygtig Business Analyst til vores Bolig-team, hvor du bliver en central del af udvikling og videreudvikling af løsninger inden for ejendomsbeskatning i Forskuds- og Slutopgørelserne.Du bliver bindeleddet mellem forretn",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -385,6 +374,17 @@
         "posted": "2026-10-16",
         "snippet": "Do you enjoy turning complex data into actionable insights?You will help unlock the value of data across the entire Engine Control Systems function.Working closely with Everllence R&D engineers, technical specialists, and operator",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Vil du arbejde med data science i FE?",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14101137",
+        "posted": "2026-11-12",
+        "snippet": "Vil du bruge din viden inden for data science i FE og være med til at forandre historien og beskytte demokratiet?",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
