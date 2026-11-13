@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T07:59:59Z",
+  "updated": "2026-11-13T16:26:46Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -198,7 +198,7 @@
     ],
     "business intelligence": [
       {
-        "title": "Entry IT Specialist, Power BI & Data Engineering, (Permanent position)",
+        "title": "Entry IT Specialist, Power BI & Data Engineering",
         "company": "Arla Foods amba",
         "location": "Aarhus",
         "url": "https://www.jobindex.dk/vis-job/h1715622",
@@ -229,17 +229,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælpere, Historiske samlinger og Forskning, Det Kgl. Bibliotek",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1715350",
-        "posted": "2026-11-10",
-        "snippet": "Som studentermedhjælper i Historiske Samlinger og Forskning får du en unik mulighed for at lære om samlingsarbejde i kulturarvssektoren.Du vil på tværs af afdelingens samlinger opnå et kendskab til et rigt udvalg af kulturarvsmate",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -264,20 +253,20 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælpere, Historiske samlinger og Forskning, Det Kgl. Bibliotek",
-        "company": "Det Kgl. Bibliotek",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1715350",
-        "posted": "2026-11-10",
-        "snippet": "Som studentermedhjælper i Historiske Samlinger og Forskning får du en unik mulighed for at lære om samlingsarbejde i kulturarvssektoren.Du vil på tværs af afdelingens samlinger opnå et kendskab til et rigt udvalg af kulturarvsmate",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "student"
       }
     ],
     "data scientist": [
+      {
+        "title": "Vil du arbejde med data science i FE?",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1716398",
+        "posted": "2026-11-13",
+        "snippet": "Vil du bruge din viden inden for data science i FE og være med til at forandre historien og beskytte demokratiet?Du skal blandt andet arbejde med at:Bygge lynhurtige, skræddersyede søgeværktøjer over ustrukturerede data.Konstruere",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Platform Engineer til Data Science Platform",
         "company": "Energinet",
@@ -352,17 +341,6 @@
         "posted": "2026-10-16",
         "snippet": "Do you enjoy turning complex data into actionable insights?You will help unlock the value of data across the entire Engine Control Systems function.Working closely with Everllence R&D engineers, technical specialists, and operator",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Vil du arbejde med data science i FE?",
-        "company": "Forsvarets Efterretningstjeneste",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14101137",
-        "posted": "2026-11-12",
-        "snippet": "Vil du bruge din viden inden for data science i FE og være med til at forandre historien og beskytte demokratiet?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
