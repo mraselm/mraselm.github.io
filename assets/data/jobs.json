@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T16:26:46Z",
+  "updated": "2026-11-13T22:39:03Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -47,17 +47,6 @@
         "posted": "2026-11-04",
         "snippet": "Would you like to turn data into practical insights that support everyday decisions?",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Financial Data Analyst",
-        "company": "Moment",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14083540",
-        "posted": "2026-11-03",
-        "snippet": "Er du omhyggelig, og arbejder du systematisk?",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -345,6 +334,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Machine Learning Engineer (TE-DPS-AIM-2026-223-LD)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14102838",
+        "posted": "2026-11-13",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Engineer til Forsvarets AI Center",
         "company": "Forsvaret",
         "location": "Lyngby",
@@ -407,6 +407,17 @@
         "posted": "2026-11-04",
         "snippet": "Kan du omsætte AI til løsninger, der gør en forskel?Du kommer til at arbejde tæt sammen med kolleger i bl.a. logistik, kundeservice, indkøb og lager. Her skal du sætte dig ind i deres arbejdsgange, forstå deres behov og omsætte de",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Novo",
+        "location": "Ballerup",
+        "url": "https://www.jobindex.dk/vis-job/r14102563",
+        "posted": "2026-11-13",
+        "snippet": "As AI Engineer in Quality AI & Data, you will build AI applications and agents that help colleagues work faster and with greater clarity across Novo’s quality processes.",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       }
