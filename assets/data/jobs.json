@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:58:30Z",
+  "updated": "2026-11-13T00:27:00Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -104,17 +104,6 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til Forskningsenheden for Epidemiologi, Biostatistik og Biodemografi (EBB)",
-        "company": "Syddansk Universitet",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r14061378",
-        "posted": "2026-10-22",
-        "snippet": "Vi søger en kandidat med stærke kvantitative kompetencer, eksempelvis en biostatistiker, en data scientist med erfaring inden for sundhedsdata...",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
       }
     ],
     "business analyst": [
@@ -180,17 +169,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1715764",
         "posted": "2026-11-11",
         "snippet": "Vil du være med til at skabe en moderne og fremtidssikret it-understøttelse til treasury-området?Vi søger en forretningsorienteret profil med relevant erfaring inden for forretningsanalyse. Du motiveres af et bredt samarbejde på t",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Teknisk forretningsanalytiker med interesse for AI, til udvikling af kritiske it-løsninger",
-        "company": "Undervisningsministeriet",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1709663",
-        "posted": "2026-10-22",
-        "snippet": "Vil du bruge dine evner inden for test- og prøveområdet til gavn for tusindvis af studerende og elever?Hos os får du mulighed for at bidrage til udviklingen af de forretningskritiske it-løsninger til test, prøver og eksamener, der",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
