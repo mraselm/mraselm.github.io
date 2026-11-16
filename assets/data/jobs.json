@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T11:22:43Z",
+  "updated": "2026-11-16T22:04:53Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -290,12 +290,23 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior Clinical Genetics Data Scientist",
-        "company": "Novo",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/r14102561",
-        "posted": "2026-11-13",
-        "snippet": "As Senior Clinical Genetics Data Scientist, you will turn human genetic evidence into clear recommendations that guide clinical development decisions.",
+        "title": "Data Scientist",
+        "company": "Flatpay ApS",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14106128",
+        "posted": "2026-11-16",
+        "snippet": "You will join a growing AI team of 19 talented colleagues with a shared mission: transforming data and AI into measurable business value for Flatpay and our merchants.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Flatpay ApS",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14106126",
+        "posted": "2026-11-16",
+        "snippet": "You will join a growing AI team of 19 talented colleagues with a shared mission: transforming data and AI into measurable business value for Flatpay and our merchants.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
