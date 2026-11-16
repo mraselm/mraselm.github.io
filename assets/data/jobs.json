@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T02:45:14Z",
+  "updated": "2026-11-16T11:22:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -209,20 +209,20 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Business Intelligence Specialist med fokus på Power BI",
-        "company": "HumanTrust A/S",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1708045",
-        "posted": "2026-10-20",
-        "snippet": "",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
       }
     ],
     "data scientist": [
+      {
+        "title": "Senior AI Engineer - Kolding",
+        "company": "GLS Denmark A/S",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/h1716686",
+        "posted": "2026-11-16",
+        "snippet": "Vil du bygge AI-løsninger, der skaber målbare resultater i praksis? Og hvad nu, hvis den bedste løsning er den, ingen har bedt om endnu?Som Senior AI Engineer får du en central rolle i at designe, udvikle og idriftsætte GenAI- og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Vil du arbejde med data science i FE?",
         "company": "Forsvarets Efterretningstjeneste",
