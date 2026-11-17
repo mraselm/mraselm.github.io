@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T22:04:53Z",
+  "updated": "2026-11-17T04:29:39Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -47,17 +47,6 @@
         "posted": "2026-11-04",
         "snippet": "Would you like to turn data into practical insights that support everyday decisions?",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Tele- og dataanalytikere søges",
-        "company": "Politi",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1712574",
-        "posted": "2026-11-02",
-        "snippet": "Vil du omsætte data til afgørende gennembrud i efterforskningen?Din primære opgave bliver at omsætte store mængder data til viden, der kan skabe retning i efterforskningen. Du skal identificere mønstre, forbindelser og bevægelser,",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -147,17 +136,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14089441",
         "posted": "2026-11-05",
         "snippet": "Er du god til at sætte dig ind i arbejdsgange og forstå hvordan arbejdet reelt foregår – og til at omsætte det til en klar beskrivelse af, hvad der skal bygges?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytikere til tilskuds- og uddannelsesadministration",
-        "company": "Styrelsen For It og Læring",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14068060",
-        "posted": "2026-10-26",
-        "snippet": "Er du glad for at drive og udvikle systemer og omsætte forretningsbehov til it?",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
