@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T14:26:55Z",
+  "updated": "2026-11-17T22:53:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -139,21 +139,66 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      }
-    ],
-    "business intelligence": [],
-    "bi specialist": [
+      },
       {
-        "title": "Senior BI Specialist med stærk forretningsforståelse til Energi Fyn",
-        "company": "Energi Fyn",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1717299",
-        "posted": "2026-11-17",
-        "snippet": "Vil du udvikle beslutningsorienteret rapportering og samtidig være med til at sætte retningen for, hvordan BI anvendes på tværs af Energi Fyn?Som Senior BI Specialist får du en central rolle i at forme retningen for BI på tværs af",
+        "title": "Seniorforretningsanalytiker der vil og kan skabe fremtidens understøttelse af treasury-området",
+        "company": "Nykredit",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1715764",
+        "posted": "2026-11-11",
+        "snippet": "Vil du være med til at skabe en moderne og fremtidssikret it-understøttelse til treasury-området?Vi søger en forretningsorienteret profil med relevant erfaring inden for forretningsanalyse. Du motiveres af et bredt samarbejde på t",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
+      {
+        "title": "Forretningsanalytiker søges til RPA-teamet på Aarhus Universitetshospital",
+        "company": "Region Midtjylland",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r14089441",
+        "posted": "2026-11-05",
+        "snippet": "Er du god til at sætte dig ind i arbejdsgange og forstå hvordan arbejdet reelt foregår – og til at omsætte det til en klar beskrivelse af, hvad der skal bygges?",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      }
+    ],
+    "business intelligence": [
+      {
+        "title": "Entry IT Specialist, Power BI & Data Engineering",
+        "company": "Arla Foods amba",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1715622",
+        "posted": "2026-11-11",
+        "snippet": "Are you motivated by turning data into reliable insights and practical solutions?Your initial focus will be developing, maintaining and supporting Power BI reports and dashboards. Alongside this, you will gradually contribute to s",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence- og datakonsulent til Digitalisering & Data",
+        "company": "Nordværk I/S",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1714988",
+        "posted": "2026-11-09",
+        "snippet": "Vil du være med til at udvikle Nordværks Business Intelligence-løsninger og skabe sammenhæng fra data til brugervenlige rapporter og dataindsigter.Vi søger en Business Intelligence- og datakonsulent, der kan arbejde bredt med BI o",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Head of Finance Business Partnering & Business Intelligence",
+        "company": "KOMPAN A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1713849",
+        "posted": "2026-11-05",
+        "snippet": "Are you ready to connect strategy, data and systems to create scalable growth and stronger business performance?You will strengthen financial decision support, performance management and business intelligence across the KOMPAN Gro",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      }
+    ],
+    "bi specialist": [
       {
         "title": "Senior BI Specialist med stærk forretningsforståelse til Energi Fyn",
         "company": "Energi Fyn",
@@ -162,6 +207,17 @@
         "posted": "2026-11-17",
         "snippet": "Vil du udvikle beslutningsorienteret rapportering og samtidig være med til at sætte retningen for, hvordan BI anvendes på tværs af Energi Fyn?",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Intelligence Specialist",
+        "company": "GomSpace ApS",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1709569",
+        "posted": "2026-10-22",
+        "snippet": "As Business Intelligence Specialist, you will be responsible for designing, developing, and maintaining GomSpace's integration and data platform landscape.You will work closely with stakeholders across the organization to ensure r",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       }
@@ -256,12 +312,34 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist",
-        "company": "Flatpay ApS",
+        "title": "Senior AI engineer, Permanent contract",
+        "company": "Devoteam A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14108556",
+        "posted": "2026-11-17",
+        "snippet": "Join our multidisciplinary team of Data specialists, Product Designers, Business consultants, Security experts, Cloud Engineers, Developers...",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Machine Learning Engineer (TE-DPS-AIM-2026-223-LD)",
+        "company": "",
         "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14106128",
-        "posted": "2026-11-16",
-        "snippet": "You will join a growing AI team of 19 talented colleagues with a shared mission: transforming data and AI into measurable business value for Flatpay and our merchants.",
+        "url": "https://www.jobindex.dk/vis-job/r14102838",
+        "posted": "2026-11-13",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Too Good To Go ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14108581",
+        "posted": "2026-11-09",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -333,6 +411,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forward Deployed AI Engineer",
+        "company": "Capgemini Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14108043",
+        "posted": "2026-11-17",
+        "snippet": "You will work at the intersection of AI technology, software engineering, and business transformation.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "AI Engineer",
         "company": "Novo",
         "location": "Ballerup",
@@ -342,17 +431,6 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Machine Learning Engineer (TE-DPS-AIM-2026-223-LD)",
-        "company": "",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14102838",
-        "posted": "2026-11-13",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       }
     ],
     "graduate program": []
