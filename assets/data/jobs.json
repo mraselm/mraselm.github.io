@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T04:23:01Z",
+  "updated": "2026-11-18T14:00:40Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -14,6 +14,17 @@
         "posted": "2026-10-30",
         "snippet": "Kan du omsætte forretningsbehov til dataløsninger og dataprodukter? Kan du bygge bro mellem forretningen og dem, der udvikler dataområdet?Din vigtigste opgave bliver at hjælpe forretningen med at omsætte behov og udfordringer til",
         "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst with Focus on Magnetic Navigation – DTU Space",
+        "company": "DTU Space",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/r14109182",
+        "posted": "2026-11-18",
+        "snippet": "Join DTU Space on magnetic navigation!",
+        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -141,6 +152,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "Forretningsanalytiker",
+        "company": "Banedanmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717642",
+        "posted": "2026-11-18",
+        "snippet": "Som forretningsanalytiker får du en central rolle i at sikre, at IT-projekter leverer værdi og understøtter Banedanmarks forretningsmål.Dine opgaver vil blandt andet inkludere at analysere og kvalificere forretningsbehov, probleme",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Seniorforretningsanalytiker der vil og kan skabe fremtidens understøttelse af treasury-området",
         "company": "Nykredit",
         "location": "Copenhagen",
@@ -196,6 +218,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student Data Analyst for Sales & Promotion",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717282",
+        "posted": "2026-11-17",
+        "snippet": "Everllence in Copenhagen is looking for a motivated Student Data Analyst to join our Sales & Promotion team for two-stroke engines in the marine industry.We are looking for a curious and structured student who enjoys working with",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "bi specialist": [
@@ -220,6 +253,17 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Student Data Analyst for Sales & Promotion",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717282",
+        "posted": "2026-11-17",
+        "snippet": "Everllence in Copenhagen is looking for a motivated Student Data Analyst to join our Sales & Promotion team for two-stroke engines in the marine industry.We are looking for a curious and structured student who enjoys working with",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -312,6 +356,17 @@
         "job_type": "full-time"
       },
       {
+        "title": "FE søger DevOps & Data Science Profiler",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14109167",
+        "posted": "2026-11-18",
+        "snippet": "FE’s afdeling for data og platforme er bl.a. ansvarlig for FE’s centrale data science enhed, og vi søger en ny kollega som kan arbejde i spændet mellem DevOps og data science.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior AI engineer, Permanent contract",
         "company": "Devoteam A/S",
         "location": "Copenhagen",
@@ -351,17 +406,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1708229",
         "posted": "2026-11-12",
         "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "Coop Danmark A/S",
-        "location": "Remote",
-        "url": "https://www.jobindex.dk/vis-job/h1715602",
-        "posted": "2026-11-11",
-        "snippet": "Vil du bygge AI-løsninger i en af Danmarks største detailkoncerner og være med til at sætte retning for, hvordan vi arbejder med agenter, RAG og LLM'er?Som AI Engineer hos os arbejder du med agenter, processer og kolleger på tværs",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
