@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T03:30:43Z",
+  "updated": "2026-11-19T13:11:43Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -235,6 +235,17 @@
     ],
     "data scientist": [
       {
+        "title": "FE søger DevOps- & Data Science-profiler",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717823",
+        "posted": "2026-11-19",
+        "snippet": "FE’s afdeling for data og platforme er bl.a. ansvarlig for FE’s centrale data science enhed, og vi søger en ny kollega som kan arbejde i spændet mellem DevOps og data science. Det inkluderer en bred vifte af opgaver, både inden fo",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Senior AI Engineer - Kolding",
         "company": "GLS Denmark A/S",
         "location": "Kolding",
@@ -323,17 +334,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "FE søger DevOps & Data Science Profiler",
-        "company": "Forsvaret",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14109488",
-        "posted": "2026-11-18",
-        "snippet": "FE’s afdeling for data og platforme er bl.a. ansvarlig for FE’s centrale data science enhed, og vi søger en ny kollega som kan arbejde i spændet mellem DevOps og data science.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior AI engineer, Permanent contract",
         "company": "Devoteam A/S",
         "location": "Copenhagen",
@@ -395,17 +395,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1714218",
         "posted": "2026-11-06",
         "snippet": "Med AI-agenter kan vi automatisere processer på helt nye måder. I PFA har vi allerede de første løsninger i produktion, og vi har store visioner for, hvor meget mere vi kan opnå. Jeg glæder mig virkelig til at få endnu en dygtig k",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer",
-        "company": "GF Forsikring",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1713294",
-        "posted": "2026-11-04",
-        "snippet": "Vil du omsætte generativ AI til løsninger, der gør en reel forskel for forretningen og dine kolleger?Som AI Engineer bliver du en central del af arbejdet med at omsætte mulighederne i generativ AI til konkrete løsninger. Dit primæ",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
