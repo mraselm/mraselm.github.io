@@ -1,11 +1,77 @@
 {
-  "updated": "2026-11-21T11:04:59Z",
+  "updated": "2026-11-21T17:58:26Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
   ],
   "categories": {
     "data analyst": [
+      {
+        "title": "BI & Data Analyst (Microsoft Fabric)",
+        "company": "PHM Danmark ApS",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1718300",
+        "posted": "2026-11-20",
+        "snippet": "Vil du være med til at udvikle det datagrundlag, der driver finansiel rapportering, BI og beslutningsstøtte for nogle af Danmarks største ejendomsinvestorer?Rollen er til dig, der trives i krydsfeltet mellem data, teknologi og for",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst with Focus on Magnetic Navigation – DTU Space, DTU",
+        "company": "Danmarks Tekniske Universitet",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1717744",
+        "posted": "2026-11-18",
+        "snippet": "Join DTU Space on magnetic navigation! Are you passionate about unravelling the mysteries of Earth’s magnetic field? Do you have a keen eye for detail, a self-motivated attitude, and strong problem-solving skills? If so, we invite",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Student Data Analyst for Sales & Promotion",
+        "company": "Everllence",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717282",
+        "posted": "2026-11-17",
+        "snippet": "Everllence in Copenhagen is looking for a motivated Student Data Analyst to join our Sales & Promotion team for two-stroke engines in the marine industry.We are looking for a curious and structured student who enjoys working with",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Analyst til dataløsninger, AI og automatisering",
+        "company": "ATP",
+        "location": "Hillerød",
+        "url": "https://www.jobindex.dk/vis-job/h1712126",
+        "posted": "2026-10-30",
+        "snippet": "Kan du omsætte forretningsbehov til dataløsninger og dataprodukter? Kan du bygge bro mellem forretningen og dem, der udvikler dataområdet?Din vigtigste opgave bliver at hjælpe forretningen med at omsætte behov og udfordringer til",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Scientific programmer and data analyst in Environmental Science",
+        "company": "Aarhus Universitet",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/r14085567",
+        "posted": "2026-11-04",
+        "snippet": "Would you like to apply your programming and data analysis skills to research and environmental advisory work addressing air pollution and climate change?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Scientific programmer and data analyst in Environmental Science",
+        "company": "",
+        "location": "Roskilde",
+        "url": "https://www.jobindex.dk/vis-job/r14084566",
+        "posted": "2026-11-04",
+        "snippet": "Would you like to apply your programming and data analysis skills to research and environmental advisory work addressing air pollution and climate change?",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Dataanalytiker til produktionsstyring og dataudvikling i styringskontor",
         "company": "Gældsstyrelsen",
@@ -50,7 +116,7 @@
         "snippet": "Vil du omsætte AI og data til indsigt og løsninger, der gør en reel forskel for forretningen? Og har du samtidig erfaring med at bruge AI til at skabe smartere analyser, effektivisere arbejdsgange og gøre data mere tilgængeligt i",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Business Analyst",
@@ -61,7 +127,7 @@
         "snippet": "Vil du udfordres fagligt og arbejde tæt sammen med nogle af branchens dygtige specialister?Bliv Business Analyst i Reporting & Tax – og sæt dit aftryk på vigtige områder/processer i en afdeling med stærkt sammenhold og et højt fag",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Business Analyst til udvikling af løsninger bag boligstøtte og pension",
@@ -72,18 +138,7 @@
         "snippet": "Kan du omsætte komplekse forretningsbehov til konkrete løsninger? Kan du bygge bro mellem forretning og IT?Du er med til at sikre, at behov bliver forstået, konkretiseret og omsat til løsninger, der fungerer i praksis. Samtidig få",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "Mybanker A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14107488",
-        "posted": "2026-11-17",
-        "snippet": "Er du analytisk stærk, kommercielt tænkende og brænder for at have indflydelse på hvordan vi optimerer forretningen?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Senior Business Analyst – Data Foundation",
@@ -94,7 +149,7 @@
         "snippet": "Danske Bank's Personal Customers business unit is undergoing a significant transformation, and a trusted, scalable data foundation is at the heart of it.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
         "title": "Senior Business Analyst",
@@ -105,10 +160,66 @@
         "snippet": "Capital is fundamental to a bank's resilience, profitability and ability to grow.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytikere til udvikling af processer og samarbejde i politiets it-organisation",
+        "company": "Politi",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1718048",
+        "posted": "2026-11-19",
+        "snippet": "Vi er ved at etablere en ny sektion, der skal styrke samarbejdet mellem politikredsene og Koncern IT. Vores opgave er at skabe en mere enkel og sammenhængende vej fra politiets behov for it til prioritering, planlægning og konkret",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker",
+        "company": "Banedanmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717642",
+        "posted": "2026-11-18",
+        "snippet": "Som forretningsanalytiker får du en central rolle i at sikre, at IT-projekter leverer værdi og understøtter Banedanmarks forretningsmål.Dine opgaver vil blandt andet inkludere at analysere og kvalificere forretningsbehov, probleme",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Seniorforretningsanalytiker der vil og kan skabe fremtidens understøttelse af treasury-området",
+        "company": "Nykredit",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1715764",
+        "posted": "2026-11-11",
+        "snippet": "Vil du være med til at skabe en moderne og fremtidssikret it-understøttelse til treasury-området?Vi søger en forretningsorienteret profil med relevant erfaring inden for forretningsanalyse. Du motiveres af et bredt samarbejde på t",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
       }
     ],
-    "business intelligence": [],
+    "business intelligence": [
+      {
+        "title": "Business Intelligence- og datakonsulent til Digitalisering & Data",
+        "company": "Nordværk I/S",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1714988",
+        "posted": "2026-11-09",
+        "snippet": "Vil du være med til at udvikle Nordværks Business Intelligence-løsninger og skabe sammenhæng fra data til brugervenlige rapporter og dataindsigter.Vi søger en Business Intelligence- og datakonsulent, der kan arbejde bredt med BI o",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Head of Finance Business Partnering & Business Intelligence",
+        "company": "KOMPAN A/S",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1713849",
+        "posted": "2026-11-05",
+        "snippet": "Are you ready to connect strategy, data and systems to create scalable growth and stronger business performance?You will strengthen financial decision support, performance management and business intelligence across the KOMPAN Gro",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      }
+    ],
     "bi specialist": [
       {
         "title": "Senior BI Specialist med stærk forretningsforståelse til Energi Fyn",
