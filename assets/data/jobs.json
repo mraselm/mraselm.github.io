@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T21:06:38Z",
+  "updated": "2026-11-21T02:17:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -116,7 +116,7 @@
         "snippet": "Vil du omsætte AI og data til indsigt og løsninger, der gør en reel forskel for forretningen? Og har du samtidig erfaring med at bruge AI til at skabe smartere analyser, effektivisere arbejdsgange og gøre data mere tilgængeligt i",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst",
@@ -127,7 +127,7 @@
         "snippet": "Vil du udfordres fagligt og arbejde tæt sammen med nogle af branchens dygtige specialister?Bliv Business Analyst i Reporting & Tax – og sæt dit aftryk på vigtige områder/processer i en afdeling med stærkt sammenhold og et højt fag",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Business Analyst til udvikling af løsninger bag boligstøtte og pension",
@@ -138,7 +138,7 @@
         "snippet": "Kan du omsætte komplekse forretningsbehov til konkrete løsninger? Kan du bygge bro mellem forretning og IT?Du er med til at sikre, at behov bliver forstået, konkretiseret og omsat til løsninger, der fungerer i praksis. Samtidig få",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior Business Analyst – Data Foundation",
@@ -149,7 +149,7 @@
         "snippet": "Danske Bank's Personal Customers business unit is undergoing a significant transformation, and a trusted, scalable data foundation is at the heart of it.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Senior Business Analyst",
@@ -159,39 +159,6 @@
         "posted": "2026-11-10",
         "snippet": "Capital is fundamental to a bank's resilience, profitability and ability to grow.",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forretningsanalytikere til udvikling af processer og samarbejde i politiets it-organisation",
-        "company": "Politi",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1718048",
-        "posted": "2026-11-19",
-        "snippet": "Vi er ved at etablere en ny sektion, der skal styrke samarbejdet mellem politikredsene og Koncern IT. Vores opgave er at skabe en mere enkel og sammenhængende vej fra politiets behov for it til prioritering, planlægning og konkret",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Forretningsanalytiker",
-        "company": "Banedanmark",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1717642",
-        "posted": "2026-11-18",
-        "snippet": "Som forretningsanalytiker får du en central rolle i at sikre, at IT-projekter leverer værdi og understøtter Banedanmarks forretningsmål.Dine opgaver vil blandt andet inkludere at analysere og kvalificere forretningsbehov, probleme",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Seniorforretningsanalytiker der vil og kan skabe fremtidens understøttelse af treasury-området",
-        "company": "Nykredit",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1715764",
-        "posted": "2026-11-11",
-        "snippet": "Vil du være med til at skabe en moderne og fremtidssikret it-understøttelse til treasury-området?Vi søger en forretningsorienteret profil med relevant erfaring inden for forretningsanalyse. Du motiveres af et bredt samarbejde på t",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "part-time"
       }
@@ -206,7 +173,7 @@
         "snippet": "Vil du være med til at udvikle Nordværks Business Intelligence-løsninger og skabe sammenhæng fra data til brugervenlige rapporter og dataindsigter.Vi søger en Business Intelligence- og datakonsulent, der kan arbejde bredt med BI o",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Head of Finance Business Partnering & Business Intelligence",
@@ -217,11 +184,122 @@
         "snippet": "Are you ready to connect strategy, data and systems to create scalable growth and stronger business performance?You will strengthen financial decision support, performance management and business intelligence across the KOMPAN Gro",
         "lang": "en",
         "source": "jobindex",
+        "job_type": "part-time"
+      }
+    ],
+    "bi specialist": [
+      {
+        "title": "Senior BI Specialist med stærk forretningsforståelse til Energi Fyn",
+        "company": "Energi Fyn",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/h1717299",
+        "posted": "2026-11-17",
+        "snippet": "Vil du udvikle beslutningsorienteret rapportering og samtidig være med til at sætte retningen for, hvordan BI anvendes på tværs af Energi Fyn?Som Senior BI Specialist får du en central rolle i at forme retningen for BI på tværs af",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior BI Specialist med stærk forretningsforståelse til Energi Fyn",
+        "company": "Energi Fyn",
+        "location": "Odense",
+        "url": "https://www.jobindex.dk/vis-job/r14107082",
+        "posted": "2026-11-17",
+        "snippet": "Vil du udvikle beslutningsorienteret rapportering og samtidig være med til at sætte retningen for, hvordan BI anvendes på tværs af Energi Fyn?",
+        "lang": "da",
+        "source": "jobindex",
         "job_type": "full-time"
       }
     ],
-    "bi specialist": [],
     "data scientist": [
+      {
+        "title": "FE søger DevOps- & Data Science-profiler",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717823",
+        "posted": "2026-11-19",
+        "snippet": "FE’s afdeling for data og platforme er bl.a. ansvarlig for FE’s centrale data science enhed, og vi søger en ny kollega som kan arbejde i spændet mellem DevOps og data science. Det inkluderer en bred vifte af opgaver, både inden fo",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - Kolding",
+        "company": "GLS Denmark A/S",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/h1716686",
+        "posted": "2026-11-16",
+        "snippet": "Vil du bygge AI-løsninger, der skaber målbare resultater i praksis? Og hvad nu, hvis den bedste løsning er den, ingen har bedt om endnu?Som Senior AI Engineer får du en central rolle i at designe, udvikle og idriftsætte GenAI- og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Vil du arbejde med data science i FE?",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1716398",
+        "posted": "2026-11-13",
+        "snippet": "Vil du bruge din viden inden for data science i FE og være med til at forandre historien og beskytte demokratiet?Du skal blandt andet arbejde med at:Bygge lynhurtige, skræddersyede søgeværktøjer over ustrukturerede data.Konstruere",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist til Data Governance og BI i Lån & Spar",
+        "company": "Lån & Spar Bank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1715925",
+        "posted": "2026-11-12",
+        "snippet": "Vil du arbejde med datakvalitet og være med til at videreudvikle Data Governance i Lån & Spar Bank?Interesserer du dig for moderne analyse- og udviklingsværktøjer som Python, og har du stor interesse for at anvende AI i analysearb",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Experienced Data Scientist for Agentic Applications - Aarhus or Gdansk",
+        "company": "Arla Foods amba",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1714305",
+        "posted": "2026-11-06",
+        "snippet": "Do you want to help shape the next generation of AI-powered business capabilities and are you motivated by turning business opportunities into intelligent agentic products?You will work alongside skilled product teams, architects,",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - Sundhed",
+        "company": "PFA",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1714206",
+        "posted": "2026-11-06",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist, Maritime Logistics",
+        "company": "Dampskibsselskabet NORDEN A/S",
+        "location": "Hellerup",
+        "url": "https://www.jobindex.dk/vis-job/h1712356",
+        "posted": "2026-11-02",
+        "snippet": "As our new Data Scientist in Maritime Logistics, you will turn that complexity into models we can explore, test and learn from, helping us make better operational and commercial decisions.You do not need years of experience or dee",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist søges til Aalborg Universitet, IT Services",
+        "company": "Aalborg Universitet",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1711324",
+        "posted": "2026-10-28",
+        "snippet": "Vil du være med til at gøre AI og High Performance Computing (HPC) mere tilgængelig for forskere på Aalborg Universitet? Får du energi af at yde en god service? Så er du måske vores nye Data Scientist i CLAAUDIA-teamet ved AAU IT",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "Senior AI engineer, Permanent contract",
         "company": "Devoteam A/S",
@@ -256,17 +334,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer - Kolding",
-        "company": "GLS Denmark A/S",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/h1716686",
-        "posted": "2026-11-16",
-        "snippet": "Vil du bygge AI-løsninger, der skaber målbare resultater i praksis? Og hvad nu, hvis den bedste løsning er den, ingen har bedt om endnu?Som Senior AI Engineer får du en central rolle i at designe, udvikle og idriftsætte GenAI- og",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "AI Engineer til Forsvarets AI Center",
         "company": "Forsvaret",
         "location": "Lyngby",
@@ -295,28 +362,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1714218",
         "posted": "2026-11-06",
         "snippet": "Med AI-agenter kan vi automatisere processer på helt nye måder. I PFA har vi allerede de første løsninger i produktion, og vi har store visioner for, hvor meget mere vi kan opnå. Jeg glæder mig virkelig til at få endnu en dygtig k",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer - Sundhed",
-        "company": "PFA",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1714206",
-        "posted": "2026-11-06",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "DILLING A/S",
-        "location": "Herning",
-        "url": "https://www.jobindex.dk/vis-job/h1713430",
-        "posted": "2026-11-04",
-        "snippet": "Kan du omsætte AI til løsninger, der gør en forskel?Du kommer til at arbejde tæt sammen med kolleger i bl.a. logistik, kundeservice, indkøb og lager. Her skal du sætte dig ind i deres arbejdsgange, forstå deres behov og omsætte de",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
