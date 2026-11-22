@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T15:19:28Z",
+  "updated": "2026-11-22T21:47:04Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -51,7 +51,7 @@
         "job_type": "full-time"
       },
       {
-        "title": "Supply Chain Data Analyst Consultant, UNICEF Supply Division, Monitoring Strategic Data Centre (MSDC), Copenhagen, Denmark, 1",
+        "title": "Supply Chain Data Analyst Consultant, UNICEF Supply Division, Monitoring Strategic Data Centre (MSDC), Copenhagen, Denmark",
         "company": "UNICEF Danmark",
         "location": "Copenhagen",
         "url": "https://www.jobindex.dk/vis-job/r14115447",
@@ -82,6 +82,39 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker til produktionsstyring og dataudvikling i styringskontor",
+        "company": "Gældsstyrelsen",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/h1718072",
+        "posted": "2026-11-19",
+        "snippet": "Brænder du for dataanalyse og produktionsstyring?Du bliver en del af vores styrings- og proceskontor i fagområde Virksomheder.Med udgangspunkt i store mængder data fra forskellige systemer skal du bidrage til den løbende driftspla",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Dataanalytiker med lyst til at lære og skabe løsninger på vigtigt område",
+        "company": "Skattestyrelsen",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1712276",
+        "posted": "2026-10-30",
+        "snippet": "Har du lyst til at skabe overblik og finde mønstre i komplekse data – og gøre en reel forskel? Trives du i et miljø, hvor faglighed, samarbejde og en åben dialog er centrale værdier? Så kan du blive vores nye kollega i kontoret An",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Systemansvarlig dataanalytiker søges til Finansrådgiverne i Brøndby",
+        "company": "Æ Byró",
+        "location": "Brøndby",
+        "url": "https://www.jobindex.dk/vis-job/r14113842",
+        "posted": "2026-11-20",
+        "snippet": "Finansrådgiverne samler kundehåndtering, rådgivning og dataanalyse på en ny Microsoft-platform.",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
       }
     ],
     "business analyst": [
@@ -92,17 +125,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1717135",
         "posted": "2026-11-17",
         "snippet": "Vil du omsætte AI og data til indsigt og løsninger, der gør en reel forskel for forretningen? Og har du samtidig erfaring med at bruge AI til at skabe smartere analyser, effektivisere arbejdsgange og gøre data mere tilgængeligt i",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Generalist til rollen som Business Analyst på data- og analyseområdet",
-        "company": "Skattestyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1713963",
-        "posted": "2026-11-05",
-        "snippet": "Skatteforvaltningen står midt i en omfattende transformation af data- og analyseområdet, hvor der skal skabes nye snitflader og samarbejder på tværs af styrelserne i koncernen.Vi søger derfor en generalist, der kan være med til at",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -148,6 +170,39 @@
         "posted": "2026-11-10",
         "snippet": "Capital is fundamental to a bank's resilience, profitability and ability to grow.",
         "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytikere til udvikling af processer og samarbejde i politiets it-organisation",
+        "company": "Politi",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1718048",
+        "posted": "2026-11-19",
+        "snippet": "Vi er ved at etablere en ny sektion, der skal styrke samarbejdet mellem politikredsene og Koncern IT. Vores opgave er at skabe en mere enkel og sammenhængende vej fra politiets behov for it til prioritering, planlægning og konkret",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forretningsanalytiker",
+        "company": "Banedanmark",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717642",
+        "posted": "2026-11-18",
+        "snippet": "Som forretningsanalytiker får du en central rolle i at sikre, at IT-projekter leverer værdi og understøtter Banedanmarks forretningsmål.Dine opgaver vil blandt andet inkludere at analysere og kvalificere forretningsbehov, probleme",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Seniorforretningsanalytiker der vil og kan skabe fremtidens understøttelse af treasury-området",
+        "company": "Nykredit",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1715764",
+        "posted": "2026-11-11",
+        "snippet": "Vil du være med til at skabe en moderne og fremtidssikret it-understøttelse til treasury-området?Vi søger en forretningsorienteret profil med relevant erfaring inden for forretningsanalyse. Du motiveres af et bredt samarbejde på t",
+        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       }
