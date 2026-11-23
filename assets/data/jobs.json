@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T21:47:04Z",
+  "updated": "2026-11-23T02:46:38Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -36,17 +36,6 @@
         "posted": "2026-11-17",
         "snippet": "Everllence in Copenhagen is looking for a motivated Student Data Analyst to join our Sales & Promotion team for two-stroke engines in the marine industry.We are looking for a curious and structured student who enjoys working with",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Analyst til dataløsninger, AI og automatisering",
-        "company": "ATP",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1712126",
-        "posted": "2026-10-30",
-        "snippet": "Kan du omsætte forretningsbehov til dataløsninger og dataprodukter? Kan du bygge bro mellem forretningen og dem, der udvikler dataområdet?Din vigtigste opgave bliver at hjælpe forretningen med at omsætte behov og udfordringer til",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -95,17 +84,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Dataanalytiker med lyst til at lære og skabe løsninger på vigtigt område",
-        "company": "Skattestyrelsen",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1712276",
-        "posted": "2026-10-30",
-        "snippet": "Har du lyst til at skabe overblik og finde mønstre i komplekse data – og gøre en reel forskel? Trives du i et miljø, hvor faglighed, samarbejde og en åben dialog er centrale værdier? Så kan du blive vores nye kollega i kontoret An",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Systemansvarlig dataanalytiker søges til Finansrådgiverne i Brøndby",
         "company": "Æ Byró",
         "location": "Brøndby",
@@ -136,17 +114,6 @@
         "url": "https://www.jobindex.dk/vis-job/h1713770",
         "posted": "2026-11-05",
         "snippet": "Vil du udfordres fagligt og arbejde tæt sammen med nogle af branchens dygtige specialister?Bliv Business Analyst i Reporting & Tax – og sæt dit aftryk på vigtige områder/processer i en afdeling med stærkt sammenhold og et højt fag",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst til udvikling af løsninger bag boligstøtte og pension",
-        "company": "ATP",
-        "location": "Hillerød",
-        "url": "https://www.jobindex.dk/vis-job/h1712729",
-        "posted": "2026-11-03",
-        "snippet": "Kan du omsætte komplekse forretningsbehov til konkrete løsninger? Kan du bygge bro mellem forretning og IT?Du er med til at sikre, at behov bliver forstået, konkretiseret og omsat til løsninger, der fungerer i praksis. Samtidig få",
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
@@ -312,28 +279,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI Engineer - Sundhed",
-        "company": "PFA",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1714206",
-        "posted": "2026-11-06",
-        "snippet": "",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Data Scientist, Maritime Logistics",
-        "company": "Dampskibsselskabet NORDEN A/S",
-        "location": "Hellerup",
-        "url": "https://www.jobindex.dk/vis-job/h1712356",
-        "posted": "2026-11-02",
-        "snippet": "As our new Data Scientist in Maritime Logistics, you will turn that complexity into models we can explore, test and learn from, helping us make better operational and commercial decisions.You do not need years of experience or dee",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Scientist søges til Aalborg Universitet, IT Services",
         "company": "Aalborg Universitet",
         "location": "Aalborg",
@@ -396,17 +341,6 @@
         "posted": "2026-11-06",
         "snippet": "Would you like to help shape the future of software development in a company where curiosity, collaboration, and innovation go hand in hand?You'll have the opportunity to lead the development of our B2B platform while exploring ne",
         "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer / Senior AI Engineer",
-        "company": "PFA",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1714218",
-        "posted": "2026-11-06",
-        "snippet": "Med AI-agenter kan vi automatisere processer på helt nye måder. I PFA har vi allerede de første løsninger i produktion, og vi har store visioner for, hvor meget mere vi kan opnå. Jeg glæder mig virkelig til at få endnu en dygtig k",
-        "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
       },
