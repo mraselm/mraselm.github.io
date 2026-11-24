@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T00:52:54Z",
+  "updated": "2026-11-24T10:56:56Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -71,86 +71,9 @@
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "Dataanalytiker til produktionsstyring og dataudvikling i styringskontor",
-        "company": "Gældsstyrelsen",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/h1718072",
-        "posted": "2026-11-19",
-        "snippet": "Brænder du for dataanalyse og produktionsstyring?Du bliver en del af vores styrings- og proceskontor i fagområde Virksomheder.Med udgangspunkt i store mængder data fra forskellige systemer skal du bidrage til den løbende driftspla",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Systemansvarlig dataanalytiker søges til Finansrådgiverne i Brøndby (lige ved Glostrup st.)",
-        "company": "Æ Byró",
-        "location": "Brøndby",
-        "url": "https://www.jobindex.dk/vis-job/r14113842",
-        "posted": "2026-11-20",
-        "snippet": "Finansrådgiverne samler kundehåndtering, rådgivning og dataanalyse på en ny Microsoft-platform.",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
       }
     ],
     "business analyst": [
-      {
-        "title": "IT Business Analyst – få systemer, data og forretning til at hænge sammen",
-        "company": "Toyota Danmark A/S",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/h1718734",
-        "posted": "2026-11-23",
-        "snippet": "En integration skal fungere. Data skal lande det rigtige sted. Og fælles IT-løsninger skal fungere i praksis – også når danske krav og arbejdsgange skal tænkes ind.Du får en bred teknisk rolle, hvor du følger opgaver fra analyse o",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "JBT Marel",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1718563",
-        "posted": "2026-11-23",
-        "snippet": "We are looking for a Business Analyst who can transform data into actionable business insights and drive continuous improvement across our global Service organization.As part of our team, you'll have the opportunity to work on mea",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst med stærk AI-profil til 12-måneders barselsvikariat",
-        "company": "Dansk Retursystem A/S",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1717135",
-        "posted": "2026-11-17",
-        "snippet": "Vil du omsætte AI og data til indsigt og løsninger, der gør en reel forskel for forretningen? Og har du samtidig erfaring med at bruge AI til at skabe smartere analyser, effektivisere arbejdsgange og gøre data mere tilgængeligt i",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "AL Sydbank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1713770",
-        "posted": "2026-11-05",
-        "snippet": "Vil du udfordres fagligt og arbejde tæt sammen med nogle af branchens dygtige specialister?Bliv Business Analyst i Reporting & Tax – og sæt dit aftryk på vigtige områder/processer i en afdeling med stærkt sammenhold og et højt fag",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Business Analyst – Data Foundation",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14096097",
-        "posted": "2026-11-10",
-        "snippet": "Danske Bank's Personal Customers business unit is undergoing a significant transformation, and a trusted, scalable data foundation is at the heart of it.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
       {
         "title": "Forretningsanalytikere til udvikling af processer og samarbejde i politiets it-organisation",
         "company": "Politi",
@@ -160,7 +83,7 @@
         "snippet": "Vi er ved at etablere en ny sektion, der skal styrke samarbejdet mellem politikredsene og Koncern IT. Vores opgave er at skabe en mere enkel og sammenhængende vej fra politiets behov for it til prioritering, planlægning og konkret",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker",
@@ -171,7 +94,7 @@
         "snippet": "Som forretningsanalytiker får du en central rolle i at sikre, at IT-projekter leverer værdi og understøtter Banedanmarks forretningsmål.Dine opgaver vil blandt andet inkludere at analysere og kvalificere forretningsbehov, probleme",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Seniorforretningsanalytiker der vil og kan skabe fremtidens understøttelse af treasury-området",
@@ -182,7 +105,7 @@
         "snippet": "Vil du være med til at skabe en moderne og fremtidssikret it-understøttelse til treasury-området?Vi søger en forretningsorienteret profil med relevant erfaring inden for forretningsanalyse. Du motiveres af et bredt samarbejde på t",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Forretningsanalytiker til Forsvarets nye Digital Backbone",
@@ -193,7 +116,7 @@
         "snippet": "Motiveres du af teamwork og komplekse IT-projekter i miljøer med høje krav til kvalitetssikring og test, og med høje krav til compliance, sikkerhed og dokumentation?",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       }
     ],
     "business intelligence": [
@@ -206,7 +129,7 @@
         "snippet": "Vil du være med til at udvikle Nordværks Business Intelligence-løsninger og skabe sammenhæng fra data til brugervenlige rapporter og dataindsigter.Vi søger en Business Intelligence- og datakonsulent, der kan arbejde bredt med BI o",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       },
       {
         "title": "Head of Finance Business Partnering & Business Intelligence",
@@ -217,33 +140,10 @@
         "snippet": "Are you ready to connect strategy, data and systems to create scalable growth and stronger business performance?You will strengthen financial decision support, performance management and business intelligence across the KOMPAN Gro",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "full-time"
+        "job_type": "part-time"
       }
     ],
-    "bi specialist": [
-      {
-        "title": "Senior BI Specialist med stærk forretningsforståelse til Energi Fyn",
-        "company": "Energi Fyn",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1717299",
-        "posted": "2026-11-17",
-        "snippet": "Vil du udvikle beslutningsorienteret rapportering og samtidig være med til at sætte retningen for, hvordan BI anvendes på tværs af Energi Fyn?Som Senior BI Specialist får du en central rolle i at forme retningen for BI på tværs af",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior BI Specialist med stærk forretningsforståelse til Energi Fyn",
-        "company": "Energi Fyn",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/r14107082",
-        "posted": "2026-11-17",
-        "snippet": "Vil du udvikle beslutningsorienteret rapportering og samtidig være med til at sætte retningen for, hvordan BI anvendes på tværs af Energi Fyn?",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      }
-    ],
+    "bi specialist": [],
     "data scientist": [
       {
         "title": "FE søger DevOps- & Data Science-profiler",
@@ -323,17 +223,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Senior AI engineer, Permanent contract",
-        "company": "Devoteam A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14108556",
-        "posted": "2026-11-17",
-        "snippet": "Join our multidisciplinary team of Data specialists, Product Designers, Business consultants, Security experts, Cloud Engineers, Developers...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Senior Machine Learning Engineer",
         "company": "Too Good To Go ApS",
         "location": "Copenhagen",
@@ -345,67 +234,12 @@
         "job_type": "full-time"
       },
       {
-        "title": "AI Engineer",
-        "company": "SVITZER",
+        "title": "Senior AI engineer, Permanent contract",
+        "company": "Devoteam A/S",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1718604",
-        "posted": "2026-11-23",
-        "snippet": "You will combine hands-on engineering with technical ownership and direct exposure to operational and commercial challenges.Working alongside an AI platform engineer and an AI developer, you will have the autonomy to drive selecte",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI-udvikler / AI Engineer",
-        "company": "Krifa",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1718437",
-        "posted": "2026-11-20",
-        "snippet": "Vil du bygge AI-løsninger, der kommer videre end prototypen og gør en forskel i hverdagen?Du bliver en del af vores nye afdeling Servicetransformation og teamet Intelligent Serviceudvikling. Her får du mulighed for at arbejde med",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "AI Engineer til Forsvarets AI Center",
-        "company": "Forsvaret",
-        "location": "Lyngby",
-        "url": "https://www.jobindex.dk/vis-job/h1708229",
-        "posted": "2026-11-12",
-        "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "Søstrene Grene Import A/S",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1714473",
-        "posted": "2026-11-06",
-        "snippet": "Would you like to help shape the future of software development in a company where curiosity, collaboration, and innovation go hand in hand?You'll have the opportunity to lead the development of our B2B platform while exploring ne",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior AI Engineer",
-        "company": "",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14114375",
-        "posted": "2026-11-20",
-        "snippet": "The AI CFO is the heart of Sumary.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Forward Deployed AI Engineer",
-        "company": "Capgemini Danmark A/S",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14108043",
+        "url": "https://www.jobindex.dk/vis-job/r14108556",
         "posted": "2026-11-17",
-        "snippet": "You will work at the intersection of AI technology, software engineering, and business transformation.",
+        "snippet": "Join our multidisciplinary team of Data specialists, Product Designers, Business consultants, Security experts, Cloud Engineers, Developers...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
