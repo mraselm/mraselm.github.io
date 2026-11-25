@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T04:13:59Z",
+  "updated": "2026-11-25T14:29:20Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -257,6 +257,61 @@
     ],
     "data scientist": [
       {
+        "title": "FE søger DevOps- & Data Science-profiler",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1717823",
+        "posted": "2026-11-19",
+        "snippet": "FE’s afdeling for data og platforme er bl.a. ansvarlig for FE’s centrale data science enhed, og vi søger en ny kollega som kan arbejde i spændet mellem DevOps og data science. Det inkluderer en bred vifte af opgaver, både inden fo",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer - Kolding",
+        "company": "GLS Denmark A/S",
+        "location": "Kolding",
+        "url": "https://www.jobindex.dk/vis-job/h1716686",
+        "posted": "2026-11-16",
+        "snippet": "Vil du bygge AI-løsninger, der skaber målbare resultater i praksis? Og hvad nu, hvis den bedste løsning er den, ingen har bedt om endnu?Som Senior AI Engineer får du en central rolle i at designe, udvikle og idriftsætte GenAI- og",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Vil du arbejde med data science i FE?",
+        "company": "Forsvarets Efterretningstjeneste",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1716398",
+        "posted": "2026-11-13",
+        "snippet": "Vil du bruge din viden inden for data science i FE og være med til at forandre historien og beskytte demokratiet?Du skal blandt andet arbejde med at:Bygge lynhurtige, skræddersyede søgeværktøjer over ustrukturerede data.Konstruere",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Experienced Data Scientist for Agentic Applications - Aarhus or Gdansk",
+        "company": "Arla Foods amba",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1714305",
+        "posted": "2026-11-06",
+        "snippet": "Do you want to help shape the next generation of AI-powered business capabilities and are you motivated by turning business opportunities into intelligent agentic products?You will work alongside skilled product teams, architects,",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Data Scientist søges til Aalborg Universitet, IT Services",
+        "company": "Aalborg Universitet",
+        "location": "Aalborg",
+        "url": "https://www.jobindex.dk/vis-job/h1711324",
+        "posted": "2026-10-28",
+        "snippet": "Vil du være med til at gøre AI og High Performance Computing (HPC) mere tilgængelig for forskere på Aalborg Universitet? Får du energi af at yde en god service? Så er du måske vores nye Data Scientist i CLAAUDIA-teamet ved AAU IT",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Data Scientists (AI) til Forsvarets nye IT-platform",
         "company": "Forsvaret",
         "location": "Ballerup",
@@ -264,17 +319,6 @@
         "posted": "2026-11-23",
         "snippet": "Motiveres du af teamwork og opbygning og udvikling af AI i krydsfeltet mellem forretning, data og teknologi?",
         "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Machine Learning Engineer",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14108581",
-        "posted": "2026-11-09",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
-        "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
       },
@@ -290,70 +334,103 @@
         "job_type": "full-time"
       },
       {
-        "title": "FE søger DevOps- & Data Science-profiler",
-        "company": "Forsvarets Efterretningstjeneste",
+        "title": "Senior Machine Learning Engineer",
+        "company": "Too Good To Go ApS",
         "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1717823",
-        "posted": "2026-11-19",
-        "snippet": "FE’s afdeling for data og platforme er bl.a. ansvarlig for FE’s centrale data science enhed, og vi søger en ny kollega som kan arbejde i spændet mellem DevOps og data science. Det inkluderer en bred vifte af opgaver, både inden fo",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Senior AI Engineer - Kolding",
-        "company": "GLS Denmark A/S",
-        "location": "Kolding",
-        "url": "https://www.jobindex.dk/vis-job/h1716686",
-        "posted": "2026-11-16",
-        "snippet": "Vil du bygge AI-løsninger, der skaber målbare resultater i praksis? Og hvad nu, hvis den bedste løsning er den, ingen har bedt om endnu?Som Senior AI Engineer får du en central rolle i at designe, udvikle og idriftsætte GenAI- og",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Vil du arbejde med data science i FE?",
-        "company": "Forsvarets Efterretningstjeneste",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1716398",
-        "posted": "2026-11-13",
-        "snippet": "Vil du bruge din viden inden for data science i FE og være med til at forandre historien og beskytte demokratiet?Du skal blandt andet arbejde med at:Bygge lynhurtige, skræddersyede søgeværktøjer over ustrukturerede data.Konstruere",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Data Scientist til Data Governance og BI i Lån & Spar",
-        "company": "Lån & Spar Bank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1715925",
-        "posted": "2026-11-12",
-        "snippet": "Vil du arbejde med datakvalitet og være med til at videreudvikle Data Governance i Lån & Spar Bank?Interesserer du dig for moderne analyse- og udviklingsværktøjer som Python, og har du stor interesse for at anvende AI i analysearb",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Experienced Data Scientist for Agentic Applications - Aarhus or Gdansk",
-        "company": "Arla Foods amba",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1714305",
-        "posted": "2026-11-06",
-        "snippet": "Do you want to help shape the next generation of AI-powered business capabilities and are you motivated by turning business opportunities into intelligent agentic products?You will work alongside skilled product teams, architects,",
+        "url": "https://www.jobindex.dk/vis-job/r14108581",
+        "posted": "2026-11-09",
+        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
       },
       {
-        "title": "Data Scientist søges til Aalborg Universitet, IT Services",
-        "company": "Aalborg Universitet",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1711324",
-        "posted": "2026-10-28",
-        "snippet": "Vil du være med til at gøre AI og High Performance Computing (HPC) mere tilgængelig for forskere på Aalborg Universitet? Får du energi af at yde en god service? Så er du måske vores nye Data Scientist i CLAAUDIA-teamet ved AAU IT",
+        "title": "AI Engineer",
+        "company": "SVITZER",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1718604",
+        "posted": "2026-11-23",
+        "snippet": "You will combine hands-on engineering with technical ownership and direct exposure to operational and commercial challenges.Working alongside an AI platform engineer and an AI developer, you will have the autonomy to drive selecte",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI-udvikler / AI Engineer",
+        "company": "Krifa",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1718437",
+        "posted": "2026-11-20",
+        "snippet": "Vil du bygge AI-løsninger, der kommer videre end prototypen og gør en forskel i hverdagen?Du bliver en del af vores nye afdeling Servicetransformation og teamet Intelligent Serviceudvikling. Her får du mulighed for at arbejde med",
         "lang": "da",
         "source": "jobindex",
-        "job_type": "part-time"
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer til Forsvarets AI Center",
+        "company": "Forsvaret",
+        "location": "Lyngby",
+        "url": "https://www.jobindex.dk/vis-job/h1708229",
+        "posted": "2026-11-12",
+        "snippet": "Kan du forklare attention på en serviet, træne en transformer fra bunden, og bygge de evals, der afslører, om den faktisk virker? Og vil du bruge dine evner på noget, der virkelig betyder noget?Så har vi en mission, adgang til Dan",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer",
+        "company": "Søstrene Grene Import A/S",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1714473",
+        "posted": "2026-11-06",
+        "snippet": "Would you like to help shape the future of software development in a company where curiosity, collaboration, and innovation go hand in hand?You'll have the opportunity to lead the development of our B2B platform while exploring ne",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer (OSI-SIS-TS-2026-178-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14119576",
+        "posted": "2026-11-24",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer",
+        "company": "Novo",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14119606",
+        "posted": "2026-11-24",
+        "snippet": "As a Senior AI Engineer in AI & Workforce Transformation, you will design, build and run AI agent workflows that improve how POCA delivers its services.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior AI Engineer",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14114375",
+        "posted": "2026-11-20",
+        "snippet": "The AI CFO is the heart of Sumary.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Forward Deployed AI Engineer",
+        "company": "Capgemini Danmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14108043",
+        "posted": "2026-11-17",
+        "snippet": "You will work at the intersection of AI technology, software engineering, and business transformation.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
       }
     ],
     "graduate program": []
