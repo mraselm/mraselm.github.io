@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T08:21:50Z",
+  "updated": "2026-11-26T19:01:25Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -75,6 +75,72 @@
     ],
     "business analyst": [
       {
+        "title": "IT Business Analyst – få systemer, data og forretning til at hænge sammen",
+        "company": "Toyota Danmark A/S",
+        "location": "Søborg",
+        "url": "https://www.jobindex.dk/vis-job/h1718734",
+        "posted": "2026-11-23",
+        "snippet": "En integration skal fungere. Data skal lande det rigtige sted. Og fælles IT-løsninger skal fungere i praksis – også når danske krav og arbejdsgange skal tænkes ind.Du får en bred teknisk rolle, hvor du følger opgaver fra analyse o",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "JBT Marel",
+        "location": "Roskilde",
+        "url": "https://www.jobindex.dk/vis-job/h1718563",
+        "posted": "2026-11-23",
+        "snippet": "We are looking for a Business Analyst who can transform data into actionable business insights and drive continuous improvement across our global Service organization.As part of our team, you'll have the opportunity to work on mea",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst med stærk AI-profil til 12-måneders barselsvikariat",
+        "company": "Dansk Retursystem A/S",
+        "location": "Taastrup",
+        "url": "https://www.jobindex.dk/vis-job/h1717135",
+        "posted": "2026-11-17",
+        "snippet": "Vil du omsætte AI og data til indsigt og løsninger, der gør en reel forskel for forretningen? Og har du samtidig erfaring med at bruge AI til at skabe smartere analyser, effektivisere arbejdsgange og gøre data mere tilgængeligt i",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst",
+        "company": "AL Sydbank",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1713770",
+        "posted": "2026-11-05",
+        "snippet": "Vil du udfordres fagligt og arbejde tæt sammen med nogle af branchens dygtige specialister?Bliv Business Analyst i Reporting & Tax – og sæt dit aftryk på vigtige områder/processer i en afdeling med stærkt sammenhold og et højt fag",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Business Analyst (FAP-BC-PM-2026-183-GRAP)",
+        "company": "",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14124162",
+        "posted": "2026-11-26",
+        "snippet": "",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "Senior Business Analyst – Data Foundation",
+        "company": "Danske Bank",
+        "location": "Denmark",
+        "url": "https://www.jobindex.dk/vis-job/r14096097",
+        "posted": "2026-11-10",
+        "snippet": "Danske Bank's Personal Customers business unit is undergoing a significant transformation, and a trusted, scalable data foundation is at the heart of it.",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
         "title": "Forretningsanalytikere til udvikling af processer og samarbejde i politiets it-organisation",
         "company": "Politi",
         "location": "Copenhagen",
@@ -117,93 +183,16 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
-      },
-      {
-        "title": "IT Business Analyst – få systemer, data og forretning til at hænge sammen",
-        "company": "Toyota Danmark A/S",
-        "location": "Søborg",
-        "url": "https://www.jobindex.dk/vis-job/h1718734",
-        "posted": "2026-11-23",
-        "snippet": "En integration skal fungere. Data skal lande det rigtige sted. Og fælles IT-løsninger skal fungere i praksis – også når danske krav og arbejdsgange skal tænkes ind.Du får en bred teknisk rolle, hvor du følger opgaver fra analyse o",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "JBT Marel",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/h1718563",
-        "posted": "2026-11-23",
-        "snippet": "We are looking for a Business Analyst who can transform data into actionable business insights and drive continuous improvement across our global Service organization.As part of our team, you'll have the opportunity to work on mea",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst med stærk AI-profil til 12-måneders barselsvikariat",
-        "company": "Dansk Retursystem A/S",
-        "location": "Taastrup",
-        "url": "https://www.jobindex.dk/vis-job/h1717135",
-        "posted": "2026-11-17",
-        "snippet": "Vil du omsætte AI og data til indsigt og løsninger, der gør en reel forskel for forretningen? Og har du samtidig erfaring med at bruge AI til at skabe smartere analyser, effektivisere arbejdsgange og gøre data mere tilgængeligt i",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Business Analyst",
-        "company": "AL Sydbank",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/h1713770",
-        "posted": "2026-11-05",
-        "snippet": "Vil du udfordres fagligt og arbejde tæt sammen med nogle af branchens dygtige specialister?Bliv Business Analyst i Reporting & Tax – og sæt dit aftryk på vigtige områder/processer i en afdeling med stærkt sammenhold og et højt fag",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "part-time"
-      },
-      {
-        "title": "Senior Business Analyst – Data Foundation",
-        "company": "Danske Bank",
-        "location": "Denmark",
-        "url": "https://www.jobindex.dk/vis-job/r14096097",
-        "posted": "2026-11-10",
-        "snippet": "Danske Bank's Personal Customers business unit is undergoing a significant transformation, and a trusted, scalable data foundation is at the heart of it.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "part-time"
       }
     ],
     "business intelligence": [
       {
-        "title": "Business Intelligence- og datakonsulent til Digitalisering & Data",
-        "company": "Nordværk I/S",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1714988",
-        "posted": "2026-11-09",
-        "snippet": "Vil du være med til at udvikle Nordværks Business Intelligence-løsninger og skabe sammenhæng fra data til brugervenlige rapporter og dataindsigter.Vi søger en Business Intelligence- og datakonsulent, der kan arbejde bredt med BI o",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Head of Finance Business Partnering & Business Intelligence",
-        "company": "KOMPAN A/S",
-        "location": "Odense",
-        "url": "https://www.jobindex.dk/vis-job/h1713849",
-        "posted": "2026-11-05",
-        "snippet": "Are you ready to connect strategy, data and systems to create scalable growth and stronger business performance?You will strengthen financial decision support, performance management and business intelligence across the KOMPAN Gro",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Studentermedhjælper med interesse for økonomi, data og digitalisering",
-        "company": "Beierholm Godkendt Revisionspartnerselskab",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/h1719134",
-        "posted": "2026-11-24",
-        "snippet": "Er du nysgerrig på økonomi og forretningsprocesser, og får du lyst til at undersøge, om en arbejdsgang kan gøres enklere eller smartere ved hjælp af data og teknologi?Du kommer bl.a. til at arbejde med data og automatisering, f.ek",
+        "title": "Studentermedhjælper til Bird & Birds Corporate M&A-team",
+        "company": "Bird & Bird Advokatpartnerselskab",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1719760",
+        "posted": "2026-11-26",
+        "snippet": "Er du jura- eller erhvervsjurastuderende med interesse for selskabsret, M&A og komplekse transaktioner?Vil du arbejde tæt sammen med dygtige specialister og få indblik i sager, hvor jura og forretning mødes? Og motiveres du af et",
         "lang": "da",
         "source": "jobindex",
         "job_type": "student"
@@ -231,6 +220,17 @@
         "lang": "da",
         "source": "jobindex",
         "job_type": "full-time"
+      },
+      {
+        "title": "Studentermedhjælper til Bird & Birds Corporate M&A-team",
+        "company": "Bird & Bird Advokatpartnerselskab",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1719760",
+        "posted": "2026-11-26",
+        "snippet": "Er du jura- eller erhvervsjurastuderende med interesse for selskabsret, M&A og komplekse transaktioner?Vil du arbejde tæt sammen med dygtige specialister og få indblik i sager, hvor jura og forretning mødes? Og motiveres du af et",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
       }
     ],
     "data scientist": [
@@ -340,6 +340,17 @@
         "url": "https://www.jobindex.dk/vis-job/h1714473",
         "posted": "2026-11-06",
         "snippet": "Would you like to help shape the future of software development in a company where curiosity, collaboration, and innovation go hand in hand?You'll have the opportunity to lead the development of our B2B platform while exploring ne",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/r14123651",
+        "posted": "2026-11-26",
+        "snippet": "Traditional property management is still shaped by fragmented workflows, where tracking rent payments, contractor invoices, e-Boks, and...",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
