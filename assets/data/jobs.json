@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T14:29:20Z",
+  "updated": "2026-11-25T23:38:11Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -46,28 +46,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14115447",
         "posted": "2026-11-21",
         "snippet": "UNICEF works in over 190 countries and territories to save children’s lives, defend their rights, and help them fulfill their potential, from early childhood through adolescence.",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Scientific programmer and data analyst in Environmental Science",
-        "company": "Aarhus Universitet",
-        "location": "Aarhus",
-        "url": "https://www.jobindex.dk/vis-job/r14085567",
-        "posted": "2026-11-04",
-        "snippet": "Would you like to apply your programming and data analysis skills to research and environmental advisory work addressing air pollution and climate change?",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Scientific programmer and data analyst in Environmental Science",
-        "company": "",
-        "location": "Roskilde",
-        "url": "https://www.jobindex.dk/vis-job/r14084566",
-        "posted": "2026-11-04",
-        "snippet": "Would you like to apply your programming and data analysis skills to research and environmental advisory work addressing air pollution and climate change?",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
@@ -301,17 +279,6 @@
         "job_type": "full-time"
       },
       {
-        "title": "Data Scientist søges til Aalborg Universitet, IT Services",
-        "company": "Aalborg Universitet",
-        "location": "Aalborg",
-        "url": "https://www.jobindex.dk/vis-job/h1711324",
-        "posted": "2026-10-28",
-        "snippet": "Vil du være med til at gøre AI og High Performance Computing (HPC) mere tilgængelig for forskere på Aalborg Universitet? Får du energi af at yde en god service? Så er du måske vores nye Data Scientist i CLAAUDIA-teamet ved AAU IT",
-        "lang": "da",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
         "title": "Data Scientists (AI) til Forsvarets nye IT-platform",
         "company": "Forsvaret",
         "location": "Ballerup",
@@ -329,17 +296,6 @@
         "url": "https://www.jobindex.dk/vis-job/r14108556",
         "posted": "2026-11-17",
         "snippet": "Join our multidisciplinary team of Data specialists, Product Designers, Business consultants, Security experts, Cloud Engineers, Developers...",
-        "lang": "en",
-        "source": "jobindex",
-        "job_type": "full-time"
-      },
-      {
-        "title": "Senior Machine Learning Engineer",
-        "company": "Too Good To Go ApS",
-        "location": "Copenhagen",
-        "url": "https://www.jobindex.dk/vis-job/r14108581",
-        "posted": "2026-11-09",
-        "snippet": "At Too Good To Go, we have an ambitious goal: to inspire and empower everyone to fight food waste together.",
         "lang": "en",
         "source": "jobindex",
         "job_type": "full-time"
