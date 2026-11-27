@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T02:11:42Z",
+  "updated": "2026-11-27T10:53:35Z",
   "sources": [
     "https://www.jobindex.dk/",
     "https://jobbank.dk/"
@@ -187,6 +187,17 @@
     ],
     "business intelligence": [
       {
+        "title": "Junior Business Partner (Studentermedhjælper) til AI, data og digital forretningsudvikling",
+        "company": "Aon Denmark A/S",
+        "location": "Copenhagen",
+        "url": "https://www.jobindex.dk/vis-job/h1719972",
+        "posted": "2026-11-27",
+        "snippet": "Er du studerende og interesseret i AI, data og digitale løsninger?Vi søger en studentermedhjælper, der er nysgerrig på, hvordan AI, data og digitale systemer kan skabe værdi for forretningen.Du får mulighed for at arbejde med idée",
+        "lang": "da",
+        "source": "jobindex",
+        "job_type": "student"
+      },
+      {
         "title": "Studentermedhjælper til Bird & Birds Corporate M&A-team",
         "company": "Bird & Bird Advokatpartnerselskab",
         "location": "Copenhagen",
@@ -234,6 +245,17 @@
       }
     ],
     "data scientist": [
+      {
+        "title": "Data Scientist, Optimisation & Operations Research",
+        "company": "BESTSELLER",
+        "location": "Aarhus",
+        "url": "https://www.jobindex.dk/vis-job/h1720067",
+        "posted": "2026-11-27",
+        "snippet": "Today, more than 6 million store replenishment decisions are made daily in BESTSELLER. We're developing a new approach to replenishment, combining probabilistic demand forecasting with an economic decision engine to optimise daily",
+        "lang": "en",
+        "source": "jobindex",
+        "job_type": "full-time"
+      },
       {
         "title": "FE søger DevOps- & Data Science-profiler",
         "company": "Forsvarets Efterretningstjeneste",
